@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1458428709,
-    'checksum' => '149456d32bf378dda4f4140984e902e4',
+    'timestamp' => 1458431044,
+    'checksum' => 'c4cde5ea3e8792a93d08a8445eec2ad4',
     'files' => [
         'user/config' => [
             'media' => [
@@ -15,7 +15,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1456435150
+                'modified' => 1458431044
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -23,7 +23,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1458428709
+                'modified' => 1458430419
             ]
         ],
         'system/config' => [
@@ -468,14 +468,13 @@ return [
             ]
         ],
         'site' => [
-            'title' => 'Grav',
+            'title' => 'Michael Fangman | Portfolio',
             'author' => [
-                'name' => 'Joe Bloggs',
-                'email' => 'joe@test.com'
+                'name' => 'Michael Fangman',
+                'email' => 'heloolo@michaelfangman.com'
             ],
             'taxonomies' => [
-                0 => 'category',
-                1 => 'tag'
+                0 => 'category'
             ],
             'metadata' => [
                 'description' => 'Grav is an easy to use, yet powerful, open source flat-file CMS'
@@ -535,11 +534,11 @@ return [
                 'override_locale' => false
             ],
             'home' => [
-                'alias' => '/home',
+                'alias' => '/sample-page',
                 'hide_in_urls' => false
             ],
             'pages' => [
-                'theme' => 'antimatter',
+                'theme' => 'fangman-v1',
                 'order' => [
                     'by' => 'default',
                     'dir' => 'asc'
@@ -587,7 +586,7 @@ return [
                 'etag' => false,
                 'vary_accept_encoding' => false,
                 'redirect_default_route' => false,
-                'redirect_default_code' => 301,
+                'redirect_default_code' => '301',
                 'redirect_trailing_slash' => true,
                 'ignore_files' => [
                     0 => '.DS_Store'

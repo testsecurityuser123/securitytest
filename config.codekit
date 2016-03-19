@@ -1373,7 +1373,16 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/user\/pages\/01.home\/default.md": {
+	"\/user\/pages\/01.sample-page\/default.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/pages\/01.sample-page\/default.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/pages\/01.sample-page\/home.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -1382,9 +1391,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/pages\/01.home\/default.md",
+		"inputAbbreviatedPath": "\/user\/pages\/01.sample-page\/home.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/user\/pages\/01.home\/default.html",
+		"outputAbbreviatedPath": "\/user\/pages\/01.sample-page\/home.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -1394,7 +1403,16 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/user\/pages\/02.sample-page\/default.md": {
+	"\/user\/pages\/02.home\/default.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/pages\/02.home\/default.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/pages\/02.home\/default.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -1403,9 +1421,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/pages\/02.sample-page\/default.md",
+		"inputAbbreviatedPath": "\/user\/pages\/02.home\/default.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/user\/pages\/02.sample-page\/default.html",
+		"outputAbbreviatedPath": "\/user\/pages\/02.home\/default.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,

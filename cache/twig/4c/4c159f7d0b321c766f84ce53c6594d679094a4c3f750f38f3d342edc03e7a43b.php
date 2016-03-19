@@ -64,20 +64,13 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
         ";
         // line 65
         $this->displayBlock('footer', $context, $blocks);
-        // line 73
+        // line 70
         echo "    </div>
-    <div class=\"sb-slidebar sb-left sb-width-thin\">
-        <div id=\"panel\">
-        ";
-        // line 76
-        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 76)->display($context);
-        // line 77
-        echo "        </div>
-    </div>
     ";
-        // line 79
+        // line 76
+        echo "    ";
         $this->displayBlock('bottom', $context, $blocks);
-        // line 92
+        // line 89
         echo "</body>
 </html>
 ";
@@ -137,7 +130,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addCss", array(0 => "theme://css/normalize.css", 1 => 101), "method");
         // line 16
         echo "        ";
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addCss", array(0 => "theme://css-compiled/template.css", 1 => 101), "method");
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addCss", array(0 => "theme://css/template.css", 1 => 101), "method");
         // line 17
         echo "
         ";
@@ -242,18 +235,15 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
     {
         // line 66
         echo "        <footer id=\"footer\">
-            <div class=\"totop\">
-                <span><a href=\"#\" id=\"toTop\"><i class=\"fa fa-arrow-up\"></i></a></span>
-            </div>
-            <p><a href=\"http://getgrav.org\">Grav</a> was <i class=\"fa fa-code\"></i> with <i class=\"fa fa-heart\"></i> by <a href=\"http://www.rockettheme.com\">RocketTheme</a>.</p>
+            
         </footer>
         ";
     }
 
-    // line 79
+    // line 76
     public function block_bottom($context, array $blocks = array())
     {
-        // line 80
+        // line 77
         echo "        ";
         echo $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "js", array(0 => "bottom"), "method");
         echo "
@@ -282,7 +272,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 
     public function getDebugInfo()
     {
-        return array (  257 => 80,  254 => 79,  244 => 66,  241 => 65,  236 => 61,  231 => 62,  229 => 61,  224 => 60,  221 => 59,  216 => 57,  212 => 51,  209 => 50,  206 => 49,  201 => 45,  194 => 52,  191 => 49,  188 => 48,  185 => 47,  182 => 46,  180 => 45,  172 => 42,  168 => 40,  165 => 39,  161 => 32,  158 => 31,  155 => 30,  152 => 29,  149 => 28,  145 => 25,  142 => 17,  139 => 16,  136 => 15,  133 => 14,  125 => 33,  123 => 28,  117 => 26,  115 => 14,  110 => 12,  106 => 11,  103 => 10,  101 => 9,  93 => 8,  90 => 7,  87 => 6,  81 => 92,  79 => 79,  75 => 77,  73 => 76,  68 => 73,  66 => 65,  63 => 64,  61 => 59,  58 => 58,  56 => 57,  53 => 56,  51 => 39,  46 => 37,  43 => 36,  41 => 6,  35 => 3,  32 => 2,  30 => 1,);
+        return array (  247 => 77,  244 => 76,  237 => 66,  234 => 65,  229 => 61,  224 => 62,  222 => 61,  217 => 60,  214 => 59,  209 => 57,  205 => 51,  202 => 50,  199 => 49,  194 => 45,  187 => 52,  184 => 49,  181 => 48,  178 => 47,  175 => 46,  173 => 45,  165 => 42,  161 => 40,  158 => 39,  154 => 32,  151 => 31,  148 => 30,  145 => 29,  142 => 28,  138 => 25,  135 => 17,  132 => 16,  129 => 15,  126 => 14,  118 => 33,  116 => 28,  110 => 26,  108 => 14,  103 => 12,  99 => 11,  96 => 10,  94 => 9,  86 => 8,  83 => 7,  80 => 6,  74 => 89,  71 => 76,  68 => 70,  66 => 65,  63 => 64,  61 => 59,  58 => 58,  56 => 57,  53 => 56,  51 => 39,  46 => 37,  43 => 36,  41 => 6,  35 => 3,  32 => 2,  30 => 1,);
     }
 }
 /* {% set theme_config = attribute(config.themes, config.system.pages.theme) %}*/
@@ -300,7 +290,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 /* */
 /*     {% block stylesheets %}*/
 /*         {% do assets.addCss('theme://css/normalize.css',101) %}*/
-/*         {% do assets.addCss('theme://css-compiled/template.css',101) %}*/
+/*         {% do assets.addCss('theme://css/template.css',101) %}*/
 /* */
 /*         {# {% if browser.getBrowser == 'msie' and browser.getVersion == 10 %}*/
 /*             {% do assets.addCss('theme://css/nucleus-ie10.css') %}*/
@@ -351,18 +341,15 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 /* */
 /*         {% block footer %}*/
 /*         <footer id="footer">*/
-/*             <div class="totop">*/
-/*                 <span><a href="#" id="toTop"><i class="fa fa-arrow-up"></i></a></span>*/
-/*             </div>*/
-/*             <p><a href="http://getgrav.org">Grav</a> was <i class="fa fa-code"></i> with <i class="fa fa-heart"></i> by <a href="http://www.rockettheme.com">RocketTheme</a>.</p>*/
+/*             */
 /*         </footer>*/
 /*         {% endblock %}*/
 /*     </div>*/
-/*     <div class="sb-slidebar sb-left sb-width-thin">*/
+/*     {# <div class="sb-slidebar sb-left sb-width-thin">*/
 /*         <div id="panel">*/
 /*         {% include 'partials/navigation.html.twig' %}*/
 /*         </div>*/
-/*     </div>*/
+/*     </div> #}*/
 /*     {% block bottom %}*/
 /*         {{ assets.js('bottom') }}*/
 /*         <script>*/

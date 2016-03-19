@@ -13,7 +13,7 @@
 
     {% block stylesheets %}
         {% do assets.addCss('theme://css/normalize.css',101) %}
-        {% do assets.addCss('theme://css-compiled/template.css',101) %}
+        {% do assets.addCss('theme://css/template.css',101) %}
 
         {# {% if browser.getBrowser == 'msie' and browser.getVersion == 10 %}
             {% do assets.addCss('theme://css/nucleus-ie10.css') %}
@@ -64,18 +64,15 @@
 
         {% block footer %}
         <footer id="footer">
-            <div class="totop">
-                <span><a href="#" id="toTop"><i class="fa fa-arrow-up"></i></a></span>
-            </div>
-            <p><a href="http://getgrav.org">Grav</a> was <i class="fa fa-code"></i> with <i class="fa fa-heart"></i> by <a href="http://www.rockettheme.com">RocketTheme</a>.</p>
+            
         </footer>
         {% endblock %}
     </div>
-    <div class="sb-slidebar sb-left sb-width-thin">
+    {# <div class="sb-slidebar sb-left sb-width-thin">
         <div id="panel">
         {% include 'partials/navigation.html.twig' %}
         </div>
-    </div>
+    </div> #}
     {% block bottom %}
         {{ assets.js('bottom') }}
         <script>

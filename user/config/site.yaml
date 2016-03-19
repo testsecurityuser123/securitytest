@@ -1,7 +1,15 @@
-title: Grav
+title: 'Michael Fangman | Portfolio'
 author:
-  name: Joe Bloggs
-  email: 'joe@test.com'
+  name: 'Michael Fangman'
+  email: heloolo@michaelfangman.com
+taxonomies:
+  - category
 metadata:
-    description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
-
+  description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+blog:
+  route: /blog
