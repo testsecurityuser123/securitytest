@@ -28,10 +28,15 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
     public function block_content($context, array $blocks = array())
     {
         // line 4
-        echo "\t";
+        echo "\t<section class=\"home-hero\">
+\t\t<div class=\"home-hero-content\">
+\t\t\t";
+        // line 6
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "content", array());
         echo "
-\t<div style=\"height: 30px; width: 30px; background: green;\">Hey!</div>
+\t\t</div>
+\t\t<div class=\"home-bkg\"></div>
+\t</section>
 ";
     }
 
@@ -47,13 +52,17 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 
     public function getDebugInfo()
     {
-        return array (  31 => 4,  28 => 3,  11 => 1,);
+        return array (  35 => 6,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends 'partials/base.html.twig' %}*/
 /* */
 /* {% block content %}*/
-/* 	{{ page.content }}*/
-/* 	<div style="height: 30px; width: 30px; background: green;">Hey!</div>*/
+/* 	<section class="home-hero">*/
+/* 		<div class="home-hero-content">*/
+/* 			{{ page.content }}*/
+/* 		</div>*/
+/* 		<div class="home-bkg"></div>*/
+/* 	</section>*/
 /* {% endblock %}*/
 /* */

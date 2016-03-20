@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1458431044,
-    'checksum' => 'c4cde5ea3e8792a93d08a8445eec2ad4',
+    'timestamp' => 1458432579,
+    'checksum' => 'f0052fd1eeaa836c061265b63e7c05bc',
     'files' => [
         'user/config' => [
             'media' => [
@@ -15,7 +15,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1458431044
+                'modified' => 1458432579
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -471,7 +471,7 @@ return [
             'title' => 'Michael Fangman | Portfolio',
             'author' => [
                 'name' => 'Michael Fangman',
-                'email' => 'heloolo@michaelfangman.com'
+                'email' => 'hello@michaelfangman.com'
             ],
             'taxonomies' => [
                 0 => 'category'

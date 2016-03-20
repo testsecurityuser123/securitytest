@@ -1,0 +1,55 @@
+.home-hero {
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	.home-hero-content {
+		position: relative;
+		top: 50%;
+		@include transform(translateY(-50%));
+
+		text-align: center;
+
+		h1 {
+			display: block;
+			text-align: center;
+			color: $color-white;
+			clear: both;
+			font-size: rem(72);
+			// text-transform: uppercase;
+		}
+
+		h4 {
+			display: block;
+			text-align: center;
+			font-weight: 100;
+			color: $color-accent;
+			font-size: rem(18);
+			text-transform: uppercase;
+			letter-spacing: rem(3);
+
+			@include span-columns(12);
+
+			// @include media($bp-m) {
+			// 	@include span-columns(8);
+			// 	@include shift(2);
+			// }
+		}
+	}
+
+	.home-bkg {
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 100%;
+		width: 100%;
+		background-image: url('../images/leaves.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		// @include filter(grayscale(100%));
+		opacity: .05;
+	}
+}
