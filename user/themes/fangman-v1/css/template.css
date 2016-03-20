@@ -228,7 +228,10 @@ body {
       -moz-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
       -o-transform: rotate(45deg);
-      transform: rotate(45deg); }
+      transform: rotate(45deg);
+      -webkit-transition: all 0.25s ease;
+      -moz-transition: all 0.25s ease;
+      transition: all 0.25s ease; }
     .home-hero .intro-scroll-container .intro-scroll-arrow {
       height: 3px;
       position: absolute;
@@ -238,7 +241,10 @@ body {
       -moz-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
       -o-transform: translateY(-50%);
-      transform: translateY(-50%); }
+      transform: translateY(-50%);
+      -webkit-transition: all 0.25s ease;
+      -moz-transition: all 0.25s ease;
+      transition: all 0.25s ease; }
       .home-hero .intro-scroll-container .intro-scroll-arrow:before, .home-hero .intro-scroll-container .intro-scroll-arrow:after {
         content: '';
         display: block;
@@ -289,5 +295,19 @@ body {
           float: left; }
         .home-hero .intro-scroll-container .intro-scroll-text span:last-of-type {
           float: right; }
+    .home-hero .intro-scroll-container:hover .intro-scroll {
+      -webkit-transform: translateY(0.1875rem) rotate(45deg);
+      -moz-transform: translateY(0.1875rem) rotate(45deg);
+      -ms-transform: translateY(0.1875rem) rotate(45deg);
+      -o-transform: translateY(0.1875rem) rotate(45deg);
+      transform: translateY(0.1875rem) rotate(45deg);
+      border-color: #fff;
+      opacity: .75; }
+    .home-hero .intro-scroll-container:hover .intro-scroll-arrow {
+      -webkit-transform: translateY(2.5rem);
+      -moz-transform: translateY(2.5rem);
+      -ms-transform: translateY(2.5rem);
+      -o-transform: translateY(2.5rem);
+      transform: translateY(2.5rem); }
     .home-hero .intro-scroll-container:hover .intro-scroll-text {
       opacity: .75; }
