@@ -39,7 +39,7 @@
         {% block header %}
         <header id="site-navigation">
             <div class="site-nav-logo">
-                <h3><a href="{{ base_url == '' ? '/' : base_url }}">{{ config.site.title }}</a></h3>
+                <a href="{{ base_url == '' ? '/' : base_url }}">{{ config.site.title }}</a>
             </div>
             <div class="menu-toggle">Menu<div class="icon"></div></div>
         </header>

@@ -17,7 +17,7 @@ class __TwigTemplate_29007fb01951cdd3f79f3e67291100a144f112363eadbfbb00415c2ad5d
     {
         // line 17
         echo "
-<ul class=\"navigation\">
+<ul class=\"site-menu-nav\">
     ";
         // line 19
         if ($this->getAttribute($this->getAttribute((isset($context["theme_config"]) ? $context["theme_config"] : null), "dropdown", array()), "enabled", array())) {
@@ -208,7 +208,7 @@ class __TwigTemplate_29007fb01951cdd3f79f3e67291100a144f112363eadbfbb00415c2ad5d
 /*     {% endfor %}*/
 /* {% endmacro %}*/
 /* */
-/* <ul class="navigation">*/
+/* <ul class="site-menu-nav">*/
 /*     {% if theme_config.dropdown.enabled %}*/
 /*         {{ _self.loop(pages) }}*/
 /*     {% else %}*/

@@ -160,12 +160,12 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
         // line 40
         echo "        <header id=\"site-navigation\">
             <div class=\"site-nav-logo\">
-                <h3><a href=\"";
+                <a href=\"";
         // line 42
         echo ((((isset($context["base_url"]) ? $context["base_url"] : null) == "")) ? ("/") : ((isset($context["base_url"]) ? $context["base_url"] : null)));
         echo "\">";
         echo $this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "site", array()), "title", array());
-        echo "</a></h3>
+        echo "</a>
             </div>
             <div class=\"menu-toggle\">Menu<div class=\"icon\"></div></div>
         </header>
@@ -317,7 +317,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 /*         {% block header %}*/
 /*         <header id="site-navigation">*/
 /*             <div class="site-nav-logo">*/
-/*                 <h3><a href="{{ base_url == '' ? '/' : base_url }}">{{ config.site.title }}</a></h3>*/
+/*                 <a href="{{ base_url == '' ? '/' : base_url }}">{{ config.site.title }}</a>*/
 /*             </div>*/
 /*             <div class="menu-toggle">Menu<div class="icon"></div></div>*/
 /*         </header>*/
