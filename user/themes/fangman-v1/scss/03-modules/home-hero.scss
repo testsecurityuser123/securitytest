@@ -29,10 +29,10 @@
 
 			@include span-columns(12);
 
-			// @include media($bp-m) {
-			// 	@include span-columns(8);
-			// 	@include shift(2);
-			// }
+			@include media($bp-m) {
+				@include span-columns(8);
+				@include shift(2);
+			}
 		}
 	}
 
@@ -51,5 +51,96 @@
 		background-position: center;
 		// @include filter(grayscale(100%));
 		opacity: .05;
+	}
+
+	.intro-scroll-container {
+		position: absolute;
+		z-index: 100;
+		left: 50%;
+		@include transform(translateX(-50%));
+		bottom: rem(60);
+
+		height: rem(30);
+		width: rem(30);
+		// cursor: pointer;
+		display: block;
+
+		.intro-scroll {
+			position: relative;
+			height: rem(30);
+			width: rem(30);
+			border: rem(1) solid $color-accent;
+			@include transform(rotate(45deg));
+
+		}
+
+		.intro-scroll-arrow {
+			height: 12px;
+			width: 1px;
+			background-color: $color-white;
+			position: absolute;
+			left: 50%;
+			top: 49%;
+
+			@include transform(translateY(-50%));
+
+			&:before, &:after {
+				content: '';
+				display: block;
+				position: absolute;
+				height: 1px;
+				width: 8px;
+				background-color: $color-white;
+			}
+
+			&:before {
+				right: rem(-1);
+				bottom: 0;
+				@include transform(rotate(45deg));
+			}
+
+			&:after {
+				left: rem(-1);
+				bottom: 0;
+				@include transform(rotate(-45deg));
+			}
+		}
+
+		.intro-scroll-text {
+			position: absolute;
+			min-width: 138px;
+			top: 50%;
+			margin-top: rem(-6);
+			margin-left: rem(4);
+			left: 50%;
+			@include transform(translateX(-50%));
+
+			opacity: .5;
+
+			@include transition(all .25s ease);
+
+			span {
+				display: inline-block;
+				color: #fff;
+				font-size: rem(9);
+				letter-spacing: rem(3);
+				text-transform: uppercase;
+
+
+				&:first-of-type {
+					float: left;
+				}
+
+				&:last-of-type {
+					float: right;
+				}
+			}
+		}
+
+		&:hover {
+			.intro-scroll-text {
+				opacity: .75;
+			}
+		}
 	}
 }

@@ -35,7 +35,21 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "content", array());
         echo "
 \t\t</div>
-\t\t<div class=\"home-bkg\"></div>
+
+\t\t";
+        // line 10
+        echo "\t\t<div class=\"home-bkg\"></div>
+
+\t\t";
+        // line 13
+        echo "\t\t<a href=\"#work-anchor\" class=\"intro-scroll-container\" data-0=\"opacity:1;bottom: 10%;\" data-500=\"opacity:0;bottom:62%;\">
+\t\t\t<div class=\"intro-scroll\"></div>
+\t\t\t\t<div class=\"intro-scroll-arrow\"></div>
+\t\t\t<div class=\"intro-scroll-text\">
+\t\t\t  <span>View</span>
+\t\t\t  <span>Work</span>
+\t\t\t</div>
+\t\t</a>
 \t</section>
 ";
     }
@@ -52,7 +66,7 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 
     public function getDebugInfo()
     {
-        return array (  35 => 6,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  45 => 13,  41 => 10,  35 => 6,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends 'partials/base.html.twig' %}*/
@@ -62,7 +76,19 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 /* 		<div class="home-hero-content">*/
 /* 			{{ page.content }}*/
 /* 		</div>*/
+/* */
+/* 		{# Background Image #}*/
 /* 		<div class="home-bkg"></div>*/
+/* */
+/* 		{# Scroll Image #}*/
+/* 		<a href="#work-anchor" class="intro-scroll-container" data-0="opacity:1;bottom: 10%;" data-500="opacity:0;bottom:62%;">*/
+/* 			<div class="intro-scroll"></div>*/
+/* 				<div class="intro-scroll-arrow"></div>*/
+/* 			<div class="intro-scroll-text">*/
+/* 			  <span>View</span>*/
+/* 			  <span>Work</span>*/
+/* 			</div>*/
+/* 		</a>*/
 /* 	</section>*/
 /* {% endblock %}*/
 /* */

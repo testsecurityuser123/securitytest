@@ -1,6 +1,6 @@
 #site-navigation {
 	position: fixed !important;
-	z-index: 100000;
+	z-index: 10000;
 	width: 100%;
 	left: 50%;
 	@include transform(translateX(-50%));
@@ -11,65 +11,129 @@
 	// @include padding(null rem(30));
 
 	.site-nav-logo {
-		text-indent: rem(-9999);
-		display: block;
-		height: rem(30);
-		width: rem(36);
-		float: left;
+		a {
+			text-indent: rem(-9999);
+			display: block;
+			height: rem(26);
+			width: rem(42);
+			float: left;
 
-		background-image: url('../images/logo.svg');
-		background-size: 100% auto;
-		background-repeat: no-repeat;
+			background-image: url('../images/logo.svg');
+			background-size: 100% auto;
+			background-repeat: no-repeat;
 
-		margin-top: rem(12);
+			margin-top: rem(12);
 
-		opacity: .5;
+			opacity: .5;
 
+			@include transition(all .25s ease);
+
+			&:hover {
+				opacity: .75;
+			}
+		}
 	}
 
 	.menu-toggle {
+		cursor: pointer;
 		opacity: .5;
 		text-indent: 99999px;
 		height: rem(30);
-		width: rem(42);
+		width: rem(24);
 
 		float: right;
+
+		@include transition(all .25s ease);
 
 		.icon {
 			display: block;
 			height: rem(1);
-			width: rem(36);
+			width: rem(24);
 			background-color: $color-white;
+
+			@include transition(all .25s ease);
 
 			&:before, &:after {
 				content: '';
 				position: absolute;
 				display: block;
 				height: rem(1);
-				width: rem(36);
+				width: rem(24);
 				background-color: $color-white;
+
+				@include transition(all .25s ease);
 			}
 
 			&:before {
-				margin-top: rem(-9);
+				margin-top: rem(-6);
 			}
 
 			&:after {
-				margin-top: rem(9);
+				margin-top: rem(6);
+			}
+		}
+
+		&:hover {
+			opacity: .75;
+
+			.icon {
+				&:before {
+					@include transform(translateY(-3px));
+				}
+
+				&:after {
+					@include transform(translateY(3px));
+				}
+			}
+		}
+
+		&.site-menu-open {
+			.icon {
+				background-color: transparent;
+
+				&:before {
+					@include transform(rotate(225deg));
+					margin-top: 0;
+				}
+
+				&:after {
+					@include transform(rotate(-225deg));
+					margin-top: 0;
+				}
 			}
 		}
 	}
 }
 
 #site-menu {
-	position: absolute;
-	z-index: 10000;
+	position: fixed;
+	z-index: 9999;
 	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
+	height: 100%;
 
-	@include transform(translateY(-100%));
+	background: $color-primary;
 
-	background: $color-white;
+	visibility: hidden;
+	opacity: 0;
+	@include transform(scale(1.5));
+	@include transition(all .25s ease);
+
+	.site-menu-nav {
+		position: relative;
+		text-align: center;
+		list-style: none;
+
+		top: 50%;
+		@include transform(translateY(-50%));
+	}
+
+
+	&.site-menu-open {
+		visibility: visible;
+		opacity: 1;
+		@include transform(scale(1));
+	}
 }

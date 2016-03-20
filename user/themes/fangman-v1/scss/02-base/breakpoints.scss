@@ -1,0 +1,11 @@
+$small-size:em(480);
+$medium-size:em(768);
+$large-size:em(1024);
+$xlarge-size:em(1200);
+
+
+// Bourbon Neat Breakpoints
+$bp-s: new-breakpoint(min-width $small-size 12);
+$bp-m: new-breakpoint(min-width $medium-size 12);
+$bp-l: new-breakpoint(min-width $large-size 12);
+$bp-xl: new-breakpoint(min-width $xlarge-size 12);
