@@ -75,12 +75,11 @@
 		}
 
 		.intro-scroll-arrow {
-			height: 12px;
-			width: 1px;
-			background-color: $color-white;
+			height: 3px;
+			// background-color: $color-white;
 			position: absolute;
 			left: 50%;
-			top: 49%;
+			top: 50%;
 
 			@include transform(translateY(-50%));
 
@@ -125,6 +124,7 @@
 				font-size: rem(9);
 				letter-spacing: rem(3);
 				text-transform: uppercase;
+				font-weight: 100;
 
 
 				&:first-of-type {
