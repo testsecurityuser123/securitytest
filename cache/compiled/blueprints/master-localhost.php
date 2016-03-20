@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1456974746,
-    'checksum' => '2040aa374e4b55a5e540f316af50aabe',
+    'timestamp' => 1458512850,
+    'checksum' => 'ab27418e92fc3f05b93dc586df99b69f',
     'files' => [
         'system/blueprints/config' => [
             'media' => [
@@ -46,6 +46,10 @@ return [
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/blueprints.yaml',
                 'modified' => 1456435150
+            ],
+            'plugins/view' => [
+                'file' => 'user/plugins/view/blueprints.yaml',
+                'modified' => 1458509293
             ]
         ]
     ],
@@ -955,6 +959,17 @@ return [
                     'type' => 'bool'
                 ],
                 'name' => 'plugins.problems.built_in_css'
+            ],
+            'plugins.view' => [
+                'type' => '_parent',
+                'name' => 'plugins.view'
+            ],
+            'plugins.view.template' => [
+                'type' => 'text',
+                'label' => 'Default Modular Template',
+                'placeholder' => 'eg: partials/view',
+                'help' => 'Specify a default template to use display view collection',
+                'name' => 'plugins.view.template'
             ],
             'site' => [
                 'type' => '_parent',
@@ -2328,6 +2343,9 @@ return [
                 'problems' => [
                     'enabled' => 'plugins.problems.enabled',
                     'built_in_css' => 'plugins.problems.built_in_css'
+                ],
+                'view' => [
+                    'template' => 'plugins.view.template'
                 ]
             ],
             'site' => [

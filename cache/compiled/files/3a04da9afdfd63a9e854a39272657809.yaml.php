@@ -2,21 +2,21 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav-2016/user/themes/fangman-v1/blueprints.yaml',
-    'modified' => 1456976292,
+    'modified' => 1458507917,
     'data' => [
         'name' => 'Fangman',
         'version' => '1.0.0',
-        'description' => 'Antimatter is the default theme included with **Grav**',
+        'description' => 'description here...',
         'icon' => 'empire',
         'author' => [
-            'name' => 'Team Grav',
-            'email' => 'devs@getgrav.org',
-            'url' => 'http://getgrav.org'
+            'name' => 'Michael Fangman',
+            'email' => 'hello@michaelfangman.com',
+            'url' => 'http://michaelfangman.com'
         ],
-        'homepage' => 'https://github.com/getgrav/grav-theme-antimatter',
-        'demo' => 'http://demo.getgrav.org/blog-skeleton',
-        'keywords' => 'antimatter, theme, core, modern, fast, responsive, html5, css3',
-        'bugs' => 'https://github.com/getgrav/grav-theme-antimatter/issues',
+        'homepage' => NULL,
+        'demo' => NULL,
+        'keywords' => 'theme, core, modern, fast, responsive, html5, css3',
+        'bugs' => NULL,
         'license' => 'MIT',
         'form' => [
             'validation' => 'loose',

@@ -201,7 +201,6 @@ body {
     right: 0;
     height: 100%;
     width: 100%;
-    background-image: url("../images/leaves.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -311,3 +310,34 @@ body {
       transform: translateY(2.5rem); }
     .home-hero .intro-scroll-container:hover .intro-scroll-text {
       opacity: .75; }
+
+.home-work .home-work-feed ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin: 1.875rem; }
+  .home-work .home-work-feed ul::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .home-work .home-work-feed ul li {
+    display: table-cell;
+    width: 100%; }
+    @media screen and (min-width: 48em) {
+      .home-work .home-work-feed ul li {
+        display: table-cell;
+        width: 50%; } }
+  .home-work .home-work-feed ul li {
+    position: relative;
+    border: 0.0625rem solid #fff;
+    height: 18.75rem;
+    display: block;
+    float: left; }
+    .home-work .home-work-feed ul li a {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%; }
