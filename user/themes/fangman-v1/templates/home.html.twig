@@ -6,10 +6,6 @@
 			{{ page.content }}
 		</div>
 
-
-		{# Background Image #}
-		<div class="home-bkg" style="background-image: url('{{ header.background_img }}');"></div>
-
 		{# Scroll Image #}
 		<a href="#work-anchor" class="intro-scroll-container" data-0="opacity:1;bottom: 10%;" data-500="opacity:0;bottom:62%;">
 			<div class="intro-scroll"></div>
@@ -23,27 +19,20 @@
 
 	<section class="home-work" id="work-anchor">
 		<div class="home-work-feed">
-				{# <ul>
-				{% for p in page.find('/').children if p != page %}
-					<li>
-						<a href="{{p.url}}">
-							{{ p.title }}
-							<div class="background"></div>
-						</a>
-					</li>
-				{% endfor %}
-				</ul> #}
-
-				<ul>
-				{% for p in page.find('/').children if p.visible %}
-					<li>
-						<a href="{{p.url}}">
-							{{ p.title }}
-							<div class="background"></div>
-						</a>
-					</li>
-				{% endfor %}
-				</ul>
+			<ul>
+			{% for p in page.find('/').children if p.visible %}
+				<li>
+					<a href="{{p.url}}">
+						<div class="work-item-background">
+							<h3>{{ p.title }}</h3>
+						</div>
+					</a>
+				</li>
+			{% endfor %}
+			</ul>
 		</div>
 	</section>
+
+	{# Background Image #}
+		<div class="home-bkg" style="background-image: url('{{ header.background_img }}');"></div>
 {% endblock %}

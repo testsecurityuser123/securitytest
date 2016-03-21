@@ -192,19 +192,6 @@ body {
           margin-left: 17.0596085997%; }
           .home-hero .home-hero-content h4:last-child {
             margin-right: 0; } }
-  .home-hero .home-bkg {
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: .05; }
   .home-hero .intro-scroll-container {
     position: absolute;
     z-index: 100;
@@ -311,11 +298,24 @@ body {
     .home-hero .intro-scroll-container:hover .intro-scroll-text {
       opacity: .75; }
 
+.home-bkg {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: .05; }
+
 .home-work .home-work-feed ul {
   list-style: none;
   margin: 0;
-  padding: 0;
-  margin: 1.875rem; }
+  padding: 0; }
   .home-work .home-work-feed ul::after {
     clear: both;
     content: "";
@@ -329,15 +329,49 @@ body {
         width: 50%; } }
   .home-work .home-work-feed ul li {
     position: relative;
-    border: 0.0625rem solid #fff;
-    height: 18.75rem;
     display: block;
     float: left; }
+    .home-work .home-work-feed ul li:before {
+      content: '';
+      padding-top: 50%;
+      display: block; }
+    .home-work .home-work-feed ul li:nth-of-type(even) a {
+      left: 1.875rem;
+      right: 1.875rem; }
+      @media screen and (min-width: 48em) {
+        .home-work .home-work-feed ul li:nth-of-type(even) a {
+          left: 0.3125rem;
+          right: 1.875rem; } }
+    .home-work .home-work-feed ul li:nth-of-type(odd) a {
+      left: 1.875rem;
+      right: 1.875rem; }
+      @media screen and (min-width: 48em) {
+        .home-work .home-work-feed ul li:nth-of-type(odd) a {
+          left: 1.875rem;
+          right: 0.3125rem; } }
     .home-work .home-work-feed ul li a {
       position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      height: 100%;
-      width: 100%; }
+      z-index: 100;
+      top: 0.3125rem;
+      bottom: 0.3125rem;
+      text-align: center;
+      background-color: #fff;
+      height: auto;
+      width: auto; }
+      .home-work .home-work-feed ul li a div {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0; }
+        .home-work .home-work-feed ul li a div h3 {
+          display: block;
+          position: absolute;
+          top: 50%;
+          -webkit-transform: translateY(-50%);
+          -moz-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          -o-transform: translateY(-50%);
+          transform: translateY(-50%);
+          margin: 0 auto;
+          width: 100%; }

@@ -36,23 +36,6 @@
 		}
 	}
 
-	.home-bkg {
-		position: absolute;
-		z-index: 1;
-		top: 0;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		height: 100%;
-		width: 100%;
-		// background-image: url('../images/forest.jpg');
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: center;
-		// @include filter(grayscale(100%));
-		opacity: .05;
-	}
-
 	.intro-scroll-container {
 		position: absolute;
 		z-index: 100;
@@ -155,3 +138,20 @@
 		}
 	}
 }
+
+.home-bkg {
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 100%;
+		width: 100%;
+		// background-image: url('../images/forest.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		// @include filter(grayscale(100%));
+		opacity: .05;
+	}
