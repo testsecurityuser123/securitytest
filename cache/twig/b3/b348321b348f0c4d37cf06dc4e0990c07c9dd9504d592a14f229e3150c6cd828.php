@@ -29,7 +29,7 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
     {
         // line 4
         echo "\t<section class=\"home-hero\">
-\t\t<div class=\"home-hero-content\" data-0=\"opacity:1;margin-top: 0%;\" data-500=\"opacity:0;margin-top:20%;\">
+\t\t<div class=\"home-hero-content\" data-0=\"opacity:1;margin-top: 0%;\" data-500=\"opacity:0;margin-top:28%;\">
 \t\t\t";
         // line 6
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "content", array());
@@ -38,7 +38,7 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 
 \t\t";
         // line 10
-        echo "\t\t<a href=\"#work-anchor\" class=\"intro-scroll-container\" data-0=\"opacity:1;bottom:60px;\" data-500=\"opacity:0;bottom:-50%;\">
+        echo "\t\t<a href=\"#work-anchor\" class=\"intro-scroll-container\" data-0=\"opacity:1;bottom:60px;\" data-500=\"opacity:0;bottom:-40%;\">
 \t\t\t<div class=\"intro-scroll\"></div>
 \t\t\t\t<div class=\"intro-scroll-arrow\"></div>
 \t\t\t<div class=\"intro-scroll-text\">
@@ -109,12 +109,12 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 /* */
 /* {% block content %}*/
 /* 	<section class="home-hero">*/
-/* 		<div class="home-hero-content" data-0="opacity:1;margin-top: 0%;" data-500="opacity:0;margin-top:20%;">*/
+/* 		<div class="home-hero-content" data-0="opacity:1;margin-top: 0%;" data-500="opacity:0;margin-top:28%;">*/
 /* 			{{ page.content }}*/
 /* 		</div>*/
 /* */
 /* 		{# Scroll Image #}*/
-/* 		<a href="#work-anchor" class="intro-scroll-container" data-0="opacity:1;bottom:60px;" data-500="opacity:0;bottom:-50%;">*/
+/* 		<a href="#work-anchor" class="intro-scroll-container" data-0="opacity:1;bottom:60px;" data-500="opacity:0;bottom:-40%;">*/
 /* 			<div class="intro-scroll"></div>*/
 /* 				<div class="intro-scroll-arrow"></div>*/
 /* 			<div class="intro-scroll-text">*/
