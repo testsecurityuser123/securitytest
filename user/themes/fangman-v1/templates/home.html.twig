@@ -2,12 +2,12 @@
 
 {% block content %}
 	<section class="home-hero">
-		<div class="home-hero-content">
+		<div class="home-hero-content" data-0="opacity:1;margin-top: 0%;" data-500="opacity:0;margin-top:20%;">
 			{{ page.content }}
 		</div>
 
 		{# Scroll Image #}
-		<a href="#work-anchor" class="intro-scroll-container" data-0="opacity:1;bottom: 10%;" data-500="opacity:0;bottom:62%;">
+		<a href="#work-anchor" class="intro-scroll-container" data-0="opacity:1;bottom:60px;" data-500="opacity:0;bottom:-50%;">
 			<div class="intro-scroll"></div>
 				<div class="intro-scroll-arrow"></div>
 			<div class="intro-scroll-text">
@@ -34,5 +34,5 @@
 	</section>
 
 	{# Background Image #}
-		<div class="home-bkg" style="background-image: url('{{ header.background_img }}');"></div>
+		<div class="home-bkg" style="background-image: url('{{ header.background_img }}');" data-0="transform:scale(1.05);opacity:.05;" data-500="transform:scale(1);opacity:0.025;"></div>
 {% endblock %}

@@ -29,7 +29,7 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
     {
         // line 4
         echo "\t<section class=\"home-hero\">
-\t\t<div class=\"home-hero-content\">
+\t\t<div class=\"home-hero-content\" data-0=\"opacity:1;margin-top: 0%;\" data-500=\"opacity:0;margin-top:20%;\">
 \t\t\t";
         // line 6
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "content", array());
@@ -38,7 +38,7 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 
 \t\t";
         // line 10
-        echo "\t\t<a href=\"#work-anchor\" class=\"intro-scroll-container\" data-0=\"opacity:1;bottom: 10%;\" data-500=\"opacity:0;bottom:62%;\">
+        echo "\t\t<a href=\"#work-anchor\" class=\"intro-scroll-container\" data-0=\"opacity:1;bottom:60px;\" data-500=\"opacity:0;bottom:-50%;\">
 \t\t\t<div class=\"intro-scroll\"></div>
 \t\t\t\t<div class=\"intro-scroll-arrow\"></div>
 \t\t\t<div class=\"intro-scroll-text\">
@@ -86,7 +86,7 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
         // line 37
         echo "\t\t<div class=\"home-bkg\" style=\"background-image: url('";
         echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "background_img", array());
-        echo "');\"></div>
+        echo "');\" data-0=\"transform:scale(1.05);opacity:.05;\" data-500=\"transform:scale(1);opacity:0.025;\"></div>
 ";
     }
 
@@ -109,12 +109,12 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 /* */
 /* {% block content %}*/
 /* 	<section class="home-hero">*/
-/* 		<div class="home-hero-content">*/
+/* 		<div class="home-hero-content" data-0="opacity:1;margin-top: 0%;" data-500="opacity:0;margin-top:20%;">*/
 /* 			{{ page.content }}*/
 /* 		</div>*/
 /* */
 /* 		{# Scroll Image #}*/
-/* 		<a href="#work-anchor" class="intro-scroll-container" data-0="opacity:1;bottom: 10%;" data-500="opacity:0;bottom:62%;">*/
+/* 		<a href="#work-anchor" class="intro-scroll-container" data-0="opacity:1;bottom:60px;" data-500="opacity:0;bottom:-50%;">*/
 /* 			<div class="intro-scroll"></div>*/
 /* 				<div class="intro-scroll-arrow"></div>*/
 /* 			<div class="intro-scroll-text">*/
@@ -141,6 +141,6 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 /* 	</section>*/
 /* */
 /* 	{# Background Image #}*/
-/* 		<div class="home-bkg" style="background-image: url('{{ header.background_img }}');"></div>*/
+/* 		<div class="home-bkg" style="background-image: url('{{ header.background_img }}');" data-0="transform:scale(1.05);opacity:.05;" data-500="transform:scale(1);opacity:0.025;"></div>*/
 /* {% endblock %}*/
 /* */

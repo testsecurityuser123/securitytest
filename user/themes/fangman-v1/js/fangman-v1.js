@@ -15,8 +15,7 @@ $(function() {
 
 Smooth Scroll
 
-========================================================= */
-// Smooth Scroll
+// ========================================================= */
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -25,7 +24,7 @@ $(function() {
       if (target.length) {
         $('html, body').animate({
           scrollTop: target.offset().top
-        }, 500);
+        }, 1000);
         return false;
       }
     }

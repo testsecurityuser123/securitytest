@@ -28,7 +28,8 @@
     {% block javascripts %}
         {% do assets.addJs('jquery',101) %}
         {% do assets.addJs('theme://js/min/modernizr-min.js',100) %}
-        {% do assets.addJs('theme://js/min/fangman-v1-min.js') %}
+        {% do assets.addJs('theme://js/min/skrollr-min.js',90) %}
+        {% do assets.addJs('theme://js/min/fangman-v1-min.js' ,98) %}
     {% endblock %}
     {{ assets.js() }}
 
@@ -65,6 +66,10 @@
 
         {% block footer %}
         <footer id="footer">
+
+            <script type="text/javascript">
+            var s = skrollr.init();
+            </script>
             
         </footer>
         {% endblock %}

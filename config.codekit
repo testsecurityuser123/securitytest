@@ -13012,12 +13012,34 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/user\/themes\/fangman-v1\/js\/min\/skrollr-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/js\/min\/skrollr-min.js",
+		"outputAbbreviatedPath": "\/user\/themes\/fangman-v1\/js\/min\/min\/skrollr-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/user\/themes\/fangman-v1\/js\/moderizer.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/js\/moderizer.js",
 		"outputAbbreviatedPath": "\/user\/themes\/fangman-v1\/js\/min\/moderizer-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/themes\/fangman-v1\/js\/skrollr.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/js\/skrollr.js",
+		"outputAbbreviatedPath": "\/user\/themes\/fangman-v1\/js\/min\/skrollr-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

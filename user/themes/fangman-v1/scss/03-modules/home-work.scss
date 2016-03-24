@@ -6,7 +6,7 @@
 			margin: 0;
 			padding: rem(30) 0;
 			@include clearfix;
-			// @include outer-container;
+			@include outer-container;
 			// margin: rem(30);
 
 			// Work Grid Layout

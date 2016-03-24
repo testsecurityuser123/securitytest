@@ -5,9 +5,9 @@
 	left: 50%;
 	@include transform(translateX(-50%));
 
-	top: 5%;
+	padding: 30px 30px;
 
-	@include outer-container;
+	// @include outer-container;
 	// @include padding(null rem(30));
 
 	.site-nav-logo {

@@ -25,14 +25,7 @@ body {
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
-  top: 5%;
-  max-width: 80em;
-  margin-left: auto;
-  margin-right: auto; }
-  #site-navigation::after {
-    clear: both;
-    content: "";
-    display: table; }
+  padding: 30px 30px; }
   #site-navigation .site-nav-logo a {
     text-indent: -624.9375rem;
     display: block;
@@ -155,14 +148,23 @@ body {
   height: 100vh;
   width: 100%; }
   .home-hero .home-hero-content {
-    position: relative;
+    position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    max-width: 80em;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center; }
+    .home-hero .home-hero-content::after {
+      clear: both;
+      content: "";
+      display: table; }
     .home-hero .home-hero-content h1 {
       display: block;
       text-align: center;
@@ -315,7 +317,14 @@ body {
 .home-work .home-work-feed ul {
   list-style: none;
   margin: 0;
-  padding: 1.875rem 0; }
+  padding: 1.875rem 0;
+  max-width: 80em;
+  margin-left: auto;
+  margin-right: auto; }
+  .home-work .home-work-feed ul::after {
+    clear: both;
+    content: "";
+    display: table; }
   .home-work .home-work-feed ul::after {
     clear: both;
     content: "";
