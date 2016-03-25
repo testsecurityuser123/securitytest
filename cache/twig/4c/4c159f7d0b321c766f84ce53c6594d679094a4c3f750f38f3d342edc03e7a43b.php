@@ -64,13 +64,13 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
         ";
         // line 67
         $this->displayBlock('footer', $context, $blocks);
-        // line 76
+        // line 72
         echo "    </div>
     ";
-        // line 82
+        // line 78
         echo "    ";
         $this->displayBlock('bottom', $context, $blocks);
-        // line 95
+        // line 94
         echo "</body>
 </html>
 ";
@@ -239,19 +239,15 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
     {
         // line 68
         echo "        <footer id=\"footer\">
-
-            <script type=\"text/javascript\">
-            var s = skrollr.init();
-            </script>
-            
+        
         </footer>
         ";
     }
 
-    // line 82
+    // line 78
     public function block_bottom($context, array $blocks = array())
     {
-        // line 83
+        // line 79
         echo "        ";
         echo $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "js", array(0 => "bottom"), "method");
         echo "
@@ -264,6 +260,9 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
               });
             });
         });
+        </script>
+        <script type=\"text/javascript\">
+            var s = skrollr.init();
         </script>
     ";
     }
@@ -280,7 +279,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 
     public function getDebugInfo()
     {
-        return array (  255 => 83,  252 => 82,  241 => 68,  238 => 67,  233 => 63,  228 => 64,  226 => 63,  221 => 62,  218 => 61,  213 => 59,  209 => 54,  206 => 53,  203 => 52,  198 => 48,  192 => 55,  189 => 52,  186 => 51,  183 => 50,  180 => 49,  178 => 48,  168 => 43,  164 => 41,  161 => 40,  157 => 33,  154 => 32,  151 => 31,  148 => 30,  145 => 29,  142 => 28,  138 => 25,  135 => 17,  132 => 16,  129 => 15,  126 => 14,  118 => 34,  116 => 28,  110 => 26,  108 => 14,  103 => 12,  99 => 11,  96 => 10,  94 => 9,  86 => 8,  83 => 7,  80 => 6,  74 => 95,  71 => 82,  68 => 76,  66 => 67,  63 => 66,  61 => 61,  58 => 60,  56 => 59,  53 => 58,  51 => 40,  46 => 38,  43 => 37,  41 => 6,  35 => 3,  32 => 2,  30 => 1,);
+        return array (  251 => 79,  248 => 78,  241 => 68,  238 => 67,  233 => 63,  228 => 64,  226 => 63,  221 => 62,  218 => 61,  213 => 59,  209 => 54,  206 => 53,  203 => 52,  198 => 48,  192 => 55,  189 => 52,  186 => 51,  183 => 50,  180 => 49,  178 => 48,  168 => 43,  164 => 41,  161 => 40,  157 => 33,  154 => 32,  151 => 31,  148 => 30,  145 => 29,  142 => 28,  138 => 25,  135 => 17,  132 => 16,  129 => 15,  126 => 14,  118 => 34,  116 => 28,  110 => 26,  108 => 14,  103 => 12,  99 => 11,  96 => 10,  94 => 9,  86 => 8,  83 => 7,  80 => 6,  74 => 94,  71 => 78,  68 => 72,  66 => 67,  63 => 66,  61 => 61,  58 => 60,  56 => 59,  53 => 58,  51 => 40,  46 => 38,  43 => 37,  41 => 6,  35 => 3,  32 => 2,  30 => 1,);
     }
 }
 /* {% set theme_config = attribute(config.themes, config.system.pages.theme) %}*/
@@ -351,11 +350,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 /* */
 /*         {% block footer %}*/
 /*         <footer id="footer">*/
-/* */
-/*             <script type="text/javascript">*/
-/*             var s = skrollr.init();*/
-/*             </script>*/
-/*             */
+/*         */
 /*         </footer>*/
 /*         {% endblock %}*/
 /*     </div>*/
@@ -375,6 +370,9 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 /*               });*/
 /*             });*/
 /*         });*/
+/*         </script>*/
+/*         <script type="text/javascript">*/
+/*             var s = skrollr.init();*/
 /*         </script>*/
 /*     {% endblock %}*/
 /* </body>*/

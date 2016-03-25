@@ -14,8 +14,8 @@
 		a {
 			text-indent: rem(-9999);
 			display: block;
-			height: rem(26);
-			width: rem(42);
+			height: rem(24);
+			width: rem(36);
 			float: left;
 
 			background-image: url('../images/logo.svg');
@@ -24,19 +24,19 @@
 
 			margin-top: rem(12);
 
-			opacity: .5;
+			opacity: .75;
 
 			@include transition(all .25s ease);
 
 			&:hover {
-				opacity: .75;
+				opacity: 1;
 			}
 		}
 	}
 
 	.menu-toggle {
 		cursor: pointer;
-		opacity: .5;
+		opacity: .75;
 		text-indent: 99999px;
 		height: rem(30);
 		width: rem(24);
@@ -74,7 +74,7 @@
 		}
 
 		&:hover {
-			opacity: .75;
+			opacity: 1;
 
 			.icon {
 				&:before {
