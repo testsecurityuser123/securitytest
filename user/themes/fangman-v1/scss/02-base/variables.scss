@@ -10,7 +10,11 @@ $color-accent: #cb4e4e;
 $color-white: #fff;
 
 // Fonts
-$font-display: ‘Hellous’;
+$font-display: "flood-std";
 
 // Section Padding
 $section-padding: rem(15) rem(30);
+
+// Transition Timing
+
+$transition-med: all .25s ease;

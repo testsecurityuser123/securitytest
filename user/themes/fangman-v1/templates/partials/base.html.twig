@@ -11,6 +11,10 @@
     <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png', true) }}" />
     <link rel="canonical" href="{{ page.url(true, true) }}" />
 
+    {# Typekit #}
+    <script src="https://use.typekit.net/alj5fvl.js"></script>  
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
     {% block stylesheets %}
         {% do assets.addCss('theme://css/normalize.css',101) %}
         {% do assets.addCss('theme://css/template.css',101) %}

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav-2016/user/themes/fangman-v1/blueprints/home.yaml',
-    'modified' => 1458512061,
+    'modified' => 1458878430,
     'data' => [
         'title' => 'Home',
         '@extends' => [
@@ -16,7 +16,6 @@ return [
                     'active' => 1,
                     'fields' => [
                         'content' => [
-                            'items' => '@self.modular',
                             'fields' => [
                                 'header.background_img' => [
                                     'type' => 'pagemediaselect',

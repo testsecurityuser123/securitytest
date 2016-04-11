@@ -39,38 +39,38 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 ";
         // line 6
         $this->displayBlock('head', $context, $blocks);
-        // line 37
+        // line 41
         echo "</head>
 <body id=\"top\" class=\"";
-        // line 38
+        // line 42
         echo $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "body_classes", array());
         echo "\">
     <div id=\"sb-site\">
         ";
-        // line 40
+        // line 44
         $this->displayBlock('header', $context, $blocks);
-        // line 58
+        // line 62
         echo "
         ";
-        // line 59
+        // line 63
         $this->displayBlock('showcase', $context, $blocks);
-        // line 60
+        // line 64
         echo "
         ";
-        // line 61
+        // line 65
         $this->displayBlock('body', $context, $blocks);
-        // line 66
+        // line 70
         echo "
         ";
-        // line 67
+        // line 71
         $this->displayBlock('footer', $context, $blocks);
-        // line 72
+        // line 76
         echo "    </div>
     ";
-        // line 78
+        // line 82
         echo "    ";
         $this->displayBlock('bottom', $context, $blocks);
-        // line 94
+        // line 98
         echo "</body>
 </html>
 ";
@@ -104,17 +104,22 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
         echo "\" />
 
     ";
-        // line 14
+        // line 15
+        echo "    <script src=\"https://use.typekit.net/alj5fvl.js\"></script>  
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+    ";
+        // line 18
         $this->displayBlock('stylesheets', $context, $blocks);
-        // line 26
+        // line 30
         echo "    ";
         echo $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "css", array(), "method");
         echo "
 
     ";
-        // line 28
+        // line 32
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 34
+        // line 38
         echo "    ";
         echo $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "js", array(), "method");
         echo "
@@ -122,49 +127,49 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 ";
     }
 
-    // line 14
+    // line 18
     public function block_stylesheets($context, array $blocks = array())
     {
-        // line 15
+        // line 19
         echo "        ";
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addCss", array(0 => "theme://css/normalize.css", 1 => 101), "method");
-        // line 16
+        // line 20
         echo "        ";
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addCss", array(0 => "theme://css/template.css", 1 => 101), "method");
-        // line 17
+        // line 21
         echo "
         ";
-        // line 25
+        // line 29
         echo "    ";
     }
 
-    // line 28
+    // line 32
     public function block_javascripts($context, array $blocks = array())
     {
-        // line 29
+        // line 33
         echo "        ";
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "jquery", 1 => 101), "method");
-        // line 30
+        // line 34
         echo "        ";
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/min/modernizr-min.js", 1 => 100), "method");
-        // line 31
+        // line 35
         echo "        ";
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/min/skrollr-min.js", 1 => 90), "method");
-        // line 32
+        // line 36
         echo "        ";
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/min/fangman-v1-min.js", 1 => 98), "method");
-        // line 33
+        // line 37
         echo "    ";
     }
 
-    // line 40
+    // line 44
     public function block_header($context, array $blocks = array())
     {
-        // line 41
+        // line 45
         echo "        <header id=\"site-navigation\">
             <div class=\"site-nav-logo\">
                 <a href=\"";
-        // line 43
+        // line 47
         echo ((((isset($context["base_url"]) ? $context["base_url"] : null) == "")) ? ("/") : ((isset($context["base_url"]) ? $context["base_url"] : null)));
         echo "\">";
         echo $this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "site", array()), "title", array());
@@ -174,80 +179,80 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
         </header>
         <div id=\"site-menu\">
             ";
-        // line 48
+        // line 52
         $this->displayBlock('header_extra', $context, $blocks);
-        // line 49
+        // line 53
         echo "            ";
         if ($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "plugins", array()), "langswitcher", array()), "enabled", array())) {
-            // line 50
+            // line 54
             echo "            ";
-            $this->loadTemplate("partials/langswitcher.html.twig", "partials/base.html.twig", 50)->display($context);
-            // line 51
+            $this->loadTemplate("partials/langswitcher.html.twig", "partials/base.html.twig", 54)->display($context);
+            // line 55
             echo "            ";
         }
-        // line 52
+        // line 56
         echo "            ";
         $this->displayBlock('header_navigation', $context, $blocks);
-        // line 55
+        // line 59
         echo "            <span class=\"panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars\"></span>
         </div>
         ";
     }
 
-    // line 48
+    // line 52
     public function block_header_extra($context, array $blocks = array())
     {
     }
 
-    // line 52
+    // line 56
     public function block_header_navigation($context, array $blocks = array())
     {
-        // line 53
+        // line 57
         echo "            ";
-        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 53)->display($context);
-        // line 54
+        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 57)->display($context);
+        // line 58
         echo "            ";
     }
 
-    // line 59
+    // line 63
     public function block_showcase($context, array $blocks = array())
     {
     }
 
-    // line 61
+    // line 65
     public function block_body($context, array $blocks = array())
     {
-        // line 62
+        // line 66
         echo "        <section id=\"body\" class=\"";
         echo (isset($context["class"]) ? $context["class"] : null);
         echo "\">
             ";
-        // line 63
+        // line 67
         $this->displayBlock('content', $context, $blocks);
-        // line 64
+        // line 68
         echo "        </section>
         ";
     }
 
-    // line 63
+    // line 67
     public function block_content($context, array $blocks = array())
     {
     }
 
-    // line 67
+    // line 71
     public function block_footer($context, array $blocks = array())
     {
-        // line 68
+        // line 72
         echo "        <footer id=\"footer\">
         
         </footer>
         ";
     }
 
-    // line 78
+    // line 82
     public function block_bottom($context, array $blocks = array())
     {
-        // line 79
+        // line 83
         echo "        ";
         echo $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "js", array(0 => "bottom"), "method");
         echo "
@@ -279,7 +284,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 
     public function getDebugInfo()
     {
-        return array (  251 => 79,  248 => 78,  241 => 68,  238 => 67,  233 => 63,  228 => 64,  226 => 63,  221 => 62,  218 => 61,  213 => 59,  209 => 54,  206 => 53,  203 => 52,  198 => 48,  192 => 55,  189 => 52,  186 => 51,  183 => 50,  180 => 49,  178 => 48,  168 => 43,  164 => 41,  161 => 40,  157 => 33,  154 => 32,  151 => 31,  148 => 30,  145 => 29,  142 => 28,  138 => 25,  135 => 17,  132 => 16,  129 => 15,  126 => 14,  118 => 34,  116 => 28,  110 => 26,  108 => 14,  103 => 12,  99 => 11,  96 => 10,  94 => 9,  86 => 8,  83 => 7,  80 => 6,  74 => 94,  71 => 78,  68 => 72,  66 => 67,  63 => 66,  61 => 61,  58 => 60,  56 => 59,  53 => 58,  51 => 40,  46 => 38,  43 => 37,  41 => 6,  35 => 3,  32 => 2,  30 => 1,);
+        return array (  256 => 83,  253 => 82,  246 => 72,  243 => 71,  238 => 67,  233 => 68,  231 => 67,  226 => 66,  223 => 65,  218 => 63,  214 => 58,  211 => 57,  208 => 56,  203 => 52,  197 => 59,  194 => 56,  191 => 55,  188 => 54,  185 => 53,  183 => 52,  173 => 47,  169 => 45,  166 => 44,  162 => 37,  159 => 36,  156 => 35,  153 => 34,  150 => 33,  147 => 32,  143 => 29,  140 => 21,  137 => 20,  134 => 19,  131 => 18,  123 => 38,  121 => 32,  115 => 30,  113 => 18,  108 => 15,  103 => 12,  99 => 11,  96 => 10,  94 => 9,  86 => 8,  83 => 7,  80 => 6,  74 => 98,  71 => 82,  68 => 76,  66 => 71,  63 => 70,  61 => 65,  58 => 64,  56 => 63,  53 => 62,  51 => 44,  46 => 42,  43 => 41,  41 => 6,  35 => 3,  32 => 2,  30 => 1,);
     }
 }
 /* {% set theme_config = attribute(config.themes, config.system.pages.theme) %}*/
@@ -294,6 +299,10 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 /*     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">*/
 /*     <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png', true) }}" />*/
 /*     <link rel="canonical" href="{{ page.url(true, true) }}" />*/
+/* */
+/*     {# Typekit #}*/
+/*     <script src="https://use.typekit.net/alj5fvl.js"></script>  */
+/*     <script>try{Typekit.load({ async: true });}catch(e){}</script>*/
 /* */
 /*     {% block stylesheets %}*/
 /*         {% do assets.addCss('theme://css/normalize.css',101) %}*/

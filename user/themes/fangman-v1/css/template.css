@@ -170,7 +170,8 @@ body {
       text-align: center;
       color: #fff;
       clear: both;
-      font-size: 4.5rem; }
+      font-size: 5.625rem;
+      font-family: "flood-std"; }
     .home-hero .home-hero-content h4 {
       display: block;
       text-align: center;
@@ -409,3 +410,100 @@ body {
           -webkit-transition: all 0.25s ease;
           -moz-transition: all 0.25s ease;
           transition: all 0.25s ease; }
+
+.project-intro {
+  position: relative;
+  top: 0;
+  width: 100%; }
+  .project-intro .project-intro-background-image {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.1; }
+  .project-intro .project-intro-container {
+    position: relative;
+    z-index: 2;
+    max-width: 80em;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+    max-height: 31.25rem;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    transition: all 0.25s ease; }
+    .project-intro .project-intro-container::after {
+      clear: both;
+      content: "";
+      display: table; }
+    @media screen and (min-width: 30em) {
+      .project-intro .project-intro-container {
+        max-height: 40.625rem; } }
+    @media screen and (min-width: 48em) {
+      .project-intro .project-intro-container {
+        max-height: 50rem; } }
+    .project-intro .project-intro-container .project-intro-info-container {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 82.9403914003%;
+      margin-left: 8.5298042998%; }
+      .project-intro .project-intro-container .project-intro-info-container:last-child {
+        margin-right: 0; }
+      .project-intro .project-intro-container .project-intro-info-container .project-intro-info {
+        position: relative;
+        top: 3.75rem;
+        text-align: center; }
+        .project-intro .project-intro-container .project-intro-info-container .project-intro-info h2 {
+          font-family: "flood-std";
+          display: block;
+          text-align: center;
+          color: #fff;
+          clear: both;
+          font-size: 3.75rem;
+          margin-bottom: 0.75rem; }
+        .project-intro .project-intro-container .project-intro-info-container .project-intro-info p {
+          padding: 0;
+          margin: 0; }
+    .project-intro .project-intro-container .project-intro-image {
+      position: absolute;
+      z-index: 2;
+      bottom: 0;
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 82.9403914003%;
+      margin-left: 8.5298042998%;
+      background-position: 50% -3%;
+      background-size: 92% auto;
+      background-repeat: no-repeat;
+      box-shadow: 0 0.1875rem 0.625rem rgba(0, 0, 0, 0.25);
+      border-radius: 5% 5% 0 0;
+      margin-top: -3%; }
+      .project-intro .project-intro-container .project-intro-image:last-child {
+        margin-right: 0; }
+      .project-intro .project-intro-container .project-intro-image:before {
+        content: '';
+        padding-top: 54.5%;
+        display: block; }
+      .project-intro .project-intro-container .project-intro-image:after {
+        content: '';
+        position: absolute;
+        z-index: 3;
+        display: block;
+        top: -7.5%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: auto;
+        background-image: url("../images/mac-screen.png");
+        background-size: 100% auto;
+        background-repeat: no-repeat; }
+      @media screen and (min-width: 64em) {
+        .project-intro .project-intro-container .project-intro-image {
+          max-height: 31.25rem; } }

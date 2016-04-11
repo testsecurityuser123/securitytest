@@ -10,7 +10,7 @@ languages:
   http_accept_language: false
   override_locale: false
 home:
-  alias: /sample-page
+  alias: /home
   hide_in_urls: false
 pages:
   theme: fangman-v1

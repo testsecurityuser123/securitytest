@@ -1,0 +1,18 @@
+1460949194
+a:2:{s:7:"content";s:726:"<section class="project-intro" style="background-color: #ee2ca3;">
+	<div class="project-intro-container">
+		
+		<div class="project-intro-info-container">
+			<div class="project-intro-info">
+				<h2>The Connection</h2>
+				<p></p>
+			</div>
+		</div>
+
+		<div class="project-intro-image" style="background-image: url(' http://localhost:8888/portfolio-grav-2016/home/connection/_connection-intro/the-connection-landing-page-v4.jpg');" data-0="background-position:50% 0%;" data-500="background-position:50% 50%"></div>
+
+	</div>
+	<div class="project-intro-background-image" style="background-image: url(' http://localhost:8888/portfolio-grav-2016/home/connection/_connection-intro/TheConnection_NY_6039_3.jpg');"></div>
+</section>
+
+";s:12:"content_meta";N;}
