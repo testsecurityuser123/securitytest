@@ -411,8 +411,14 @@ body {
           -moz-transition: all 0.25s ease;
           transition: all 0.25s ease; }
 
+/* =========================================================
+
+Module: Project Introduction
+
+========================================================= */
 .project-intro {
   position: relative;
+  z-index: 1;
   top: 0;
   width: 100%; }
   .project-intro .project-intro-background-image {
@@ -507,3 +513,53 @@ body {
       @media screen and (min-width: 64em) {
         .project-intro .project-intro-container .project-intro-image {
           max-height: 31.25rem; } }
+
+/* =========================================================
+
+Module: Project Description
+
+========================================================= */
+.project-desc {
+  position: relative;
+  z-index: 2;
+  background: #fff;
+  color: #21212b;
+  padding: 0.9375rem 1.875rem; }
+  .project-desc .project-desc-container {
+    max-width: 80em;
+    margin-left: auto;
+    margin-right: auto; }
+    .project-desc .project-desc-container::after {
+      clear: both;
+      content: "";
+      display: table; }
+    .project-desc .project-desc-container .project-desc-main-container {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 100%; }
+      .project-desc .project-desc-container .project-desc-main-container:last-child {
+        margin-right: 0; }
+      @media screen and (min-width: 48em) {
+        .project-desc .project-desc-container .project-desc-main-container {
+          float: left;
+          display: block;
+          margin-right: 2.3576515979%;
+          width: 74.4105871005%; }
+          .project-desc .project-desc-container .project-desc-main-container:last-child {
+            margin-right: 0; } }
+    .project-desc .project-desc-container .project-desc-side-container {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 100%; }
+      .project-desc .project-desc-container .project-desc-side-container:last-child {
+        margin-right: 0; }
+      @media screen and (min-width: 48em) {
+        .project-desc .project-desc-container .project-desc-side-container {
+          float: left;
+          display: block;
+          margin-right: 2.3576515979%;
+          width: 23.2317613015%; }
+          .project-desc .project-desc-container .project-desc-side-container:last-child {
+            margin-right: 0; } }

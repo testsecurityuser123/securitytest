@@ -55,13 +55,13 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/images\/4\/6\/a\/c\/b\/46acb6b1124081dd4f96775bca67c1a5bd1c2fef-forest.jpeg": {
+	"\/images\/2\/2\/8\/4\/5\/228450c0baac5438c851303c54481ac1df9c8689-the-connection-landing-page-v4.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 6820,
-		"inputAbbreviatedPath": "\/images\/4\/6\/a\/c\/b\/46acb6b1124081dd4f96775bca67c1a5bd1c2fef-forest.jpeg",
-		"outputAbbreviatedPath": "\/images\/4\/6\/a\/c\/b\/46acb6b1124081dd4f96775bca67c1a5bd1c2fef-forest.jpeg",
+		"initialSize": 4141,
+		"inputAbbreviatedPath": "\/images\/2\/2\/8\/4\/5\/228450c0baac5438c851303c54481ac1df9c8689-the-connection-landing-page-v4.jpeg",
+		"outputAbbreviatedPath": "\/images\/2\/2\/8\/4\/5\/228450c0baac5438c851303c54481ac1df9c8689-the-connection-landing-page-v4.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -88,35 +88,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/a\/f\/2\/9\/2\/af2920e8181536752904ed7ac61effc32f72d1ac-twincities.jpeg": {
+	"\/images\/7\/4\/7\/d\/9\/747d9d0222a473d06ab2a824fec9de29b71e7982-theconnectionny60393.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4116,
-		"inputAbbreviatedPath": "\/images\/a\/f\/2\/9\/2\/af2920e8181536752904ed7ac61effc32f72d1ac-twincities.jpeg",
-		"outputAbbreviatedPath": "\/images\/a\/f\/2\/9\/2\/af2920e8181536752904ed7ac61effc32f72d1ac-twincities.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/b\/9\/a\/f\/4\/b9af4dec57dc8af0c8b32e0ae1a369302c55d950-forest.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6820,
-		"inputAbbreviatedPath": "\/images\/b\/9\/a\/f\/4\/b9af4dec57dc8af0c8b32e0ae1a369302c55d950-forest.jpeg",
-		"outputAbbreviatedPath": "\/images\/b\/9\/a\/f\/4\/b9af4dec57dc8af0c8b32e0ae1a369302c55d950-forest.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/f\/d\/4\/5\/4\/fd4544a6703ecd907d2ede50d9bb9edc438ede07-tcan-full-res.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3190,
-		"inputAbbreviatedPath": "\/images\/f\/d\/4\/5\/4\/fd4544a6703ecd907d2ede50d9bb9edc438ede07-tcan-full-res.jpeg",
-		"outputAbbreviatedPath": "\/images\/f\/d\/4\/5\/4\/fd4544a6703ecd907d2ede50d9bb9edc438ede07-tcan-full-res.jpeg",
+		"initialSize": 6277,
+		"inputAbbreviatedPath": "\/images\/7\/4\/7\/d\/9\/747d9d0222a473d06ab2a824fec9de29b71e7982-theconnectionny60393.jpeg",
+		"outputAbbreviatedPath": "\/images\/7\/4\/7\/d\/9\/747d9d0222a473d06ab2a824fec9de29b71e7982-theconnectionny60393.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1439,6 +1417,36 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/user\/pages\/01.home\/01.connection\/_connection-description\/project-description.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/01.connection\/_connection-description\/project-description.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/pages\/01.home\/01.connection\/_connection-description\/project-description.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/01.connection\/_connection-description\/project-description.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/user\/pages\/01.home\/01.connection\/_connection-description\/project-description.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
 	"\/user\/pages\/01.home\/01.connection\/_connection-intro\/project-intro.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -1490,27 +1498,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-		},
-	"\/user\/pages\/01.home\/01.connection\/_test-section\/text.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/pages\/01.home\/01.connection\/_test-section\/text.md",
-		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/user\/pages\/01.home\/01.connection\/_test-section\/text.html",
-		"outputFormat": 0,
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
 		},
 	"\/user\/pages\/01.home\/01.connection\/default.html": {
 		"fileType": 8192,
@@ -15046,6 +15033,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/scss\/03-modules\/modules-map.scss",
 		"outputAbbreviatedPath": "\/user\/themes\/fangman-v1\/scss\/css\/modules-map.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/user\/themes\/fangman-v1\/scss\/03-modules\/project-desc.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/scss\/03-modules\/project-desc.scss",
+		"outputAbbreviatedPath": "\/user\/themes\/fangman-v1\/scss\/css\/project-desc.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

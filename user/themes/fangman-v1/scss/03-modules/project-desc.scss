@@ -1,0 +1,42 @@
+/* =========================================================
+
+Module: Project Description
+
+========================================================= */
+
+.project-desc {
+	position: relative;
+	z-index: 2;
+	background: $color-white;
+	color: $color-primary;
+	padding: $section-padding;
+	.project-desc-container {
+		@include outer-container;
+		.project-desc-main-container {
+			@include span-columns(12);
+
+			@include breakpoint($bp-m) {
+				@include span-columns(9);
+			}
+
+			h3 {
+
+			}
+
+			p {
+
+			}
+		}
+
+		.project-desc-side-container {
+			@include span-columns(12);
+
+			@include breakpoint($bp-m) {
+				@include span-columns(3);
+			}
+			.project-desc-attribute {
+
+			}
+		}
+	}
+}
