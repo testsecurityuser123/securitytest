@@ -9,8 +9,12 @@ $color-primary: #21212b;
 $color-accent: #cb4e4e;
 $color-white: #fff;
 
+$color-gradient: rgba(33,33,43,0), rgba(33,33,43,1); 
+
 // Fonts
-$font-display: "flood-std";
+$font-display: "flood-std", sans-serif;
+$headline-font: "Montserrat", sans-serif;
+$body-font: "museo-sans", sans-serif;
 
 // Section Padding
 $section-padding: rem(15) rem(30);

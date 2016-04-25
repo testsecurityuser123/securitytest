@@ -7,35 +7,59 @@ Module: Project Description
 .project-desc {
 	position: relative;
 	z-index: 2;
-	background: $color-white;
+	// background: $color-white;
 	color: $color-primary;
 	padding: $section-padding;
 	.project-desc-container {
 		@include outer-container;
+		padding-bottom: rem(60);
+
+		p {
+			color: $color-white;
+		}
+
 		.project-desc-main-container {
 			@include span-columns(12);
 
 			@include breakpoint($bp-m) {
-				@include span-columns(9);
+				@include span-columns(6);
+				@include shift(1);
 			}
 
 			h3 {
-
-			}
-
-			p {
-
+				color: $color-accent;
+				font-family: $headline-font;
+				font-weight: 100;
+				font-size: rem(30);
 			}
 		}
 
 		.project-desc-side-container {
 			@include span-columns(12);
+			margin-top: rem(6);
 
 			@include breakpoint($bp-m) {
 				@include span-columns(3);
+				@include shift(1);
 			}
 			.project-desc-attribute {
+				margin-top: rem(30);
+				display: block;
 
+				h4 {
+					color: $color-accent;
+					font-family: $headline-font;
+					text-transform: uppercase;
+					font-size: rem(12);
+					letter-spacing: rem(2);
+					margin-bottom: 0;
+					padding-bottom: 0;
+				}
+
+				p {
+					// padding-top: 0;
+					margin-top: rem(12);
+				}
 			}
 		}
 	}

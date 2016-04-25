@@ -46,14 +46,16 @@ Module: Project Introduction
 		// height: rem(900);
 		// max-height: rem(500);
 
+		padding-bottom: rem(30);
+
 		@include transition($transition-med);
 
-		@include breakpoint($bp-s) {
-			max-height: rem(650);
+		@include breakpoint($bp-m) {
+			padding-bottom: rem(60);
 		}
 
-		@include breakpoint($bp-m) {
-			max-height: rem(800);
+		@include breakpoint($bp-l) {
+			padding-bottom: rem(90);
 		}
 		
 		.project-intro-info-container {
@@ -115,6 +117,7 @@ Module: Project Introduction
 				p {
 					padding: 0;
 					margin: 0;
+					font-family: $headline-font;
 					color: $color-accent;
 					text-transform: uppercase;
 					font-size: rem(15);
@@ -139,11 +142,10 @@ Module: Project Introduction
 				@include span-columns(12);
 				@include shift(0);
 
-				background-position: 50% 0%;
-				background-size: 72% auto;
+				background-position: 50% -0%;
+				background-size: 76% auto;
 				background-repeat: no-repeat;
 
-				margin-top: -3%;
 				padding-bottom: 3%;
 
 				&:before {
@@ -159,8 +161,8 @@ Module: Project Introduction
 					display: block;
 					top: -11%;
 					bottom: -15%;
-					left: 0;
-					right: 0;
+					left: -2.5%;
+					right: -2.5%;;
 					width: auto;
 
 
@@ -178,7 +180,7 @@ Module: Project Introduction
 			.project-intro-image-phone {
 				position: absolute;
 				z-index: 2;
-				bottom: -1%;
+				bottom: -4%;
 				width: 28%;
 				// @include shift(8);
 				right: 5%;

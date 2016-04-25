@@ -6,7 +6,7 @@ taxonomy:
         - work
 content:
     order:
-        dir: desc
+        dir: asc
         by: date
     items: '@self.modular'
 ---
