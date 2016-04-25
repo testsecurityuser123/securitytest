@@ -16,9 +16,7 @@ class __TwigTemplate_02932edd84cd49398c7a465f2e0ccaa81d5d031c779d1b1c906430bcc6d
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "<section class=\"project-intro\" style=\"background-color: #";
-        echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "project_intro_background_color", array());
-        echo ";\">
+        echo "<section class=\"project-intro\">
 \t<div class=\"project-intro-container\">
 \t\t
 \t\t<div class=\"project-intro-info-container\">
@@ -34,16 +32,27 @@ class __TwigTemplate_02932edd84cd49398c7a465f2e0ccaa81d5d031c779d1b1c906430bcc6d
 \t\t\t</div>
 \t\t</div>
 
-\t\t<div class=\"project-intro-image\" style=\"background-image: url(' ";
-        // line 11
+\t\t<div class=\"project-intro-image-container\">
+
+\t\t\t<div class=\"project-intro-image-laptop\" style=\"background-image: url(' ";
+        // line 13
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array(0 => true), "method");
         echo "/";
-        echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "project_img", array());
-        echo "');\" data-0=\"background-position:50% 0%;\" data-500=\"background-position:50% 50%\"></div>
+        echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "project_img_laptop", array());
+        echo "');\"></div>
+
+\t\t\t<div class=\"project-intro-image-phone\" style=\"background-image: url(' ";
+        // line 15
+        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array(0 => true), "method");
+        echo "/";
+        echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "project_img_phone", array());
+        echo "');\"></div>
+
+\t\t</div>
 
 \t</div>
 \t<div class=\"project-intro-background-image\" style=\"background-image: url(' ";
-        // line 14
+        // line 20
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array(0 => true), "method");
         echo "/";
         echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "project_intro_background_image", array());
@@ -65,10 +74,10 @@ class __TwigTemplate_02932edd84cd49398c7a465f2e0ccaa81d5d031c779d1b1c906430bcc6d
 
     public function getDebugInfo()
     {
-        return array (  47 => 14,  39 => 11,  32 => 7,  28 => 6,  19 => 1,);
+        return array (  56 => 20,  46 => 15,  39 => 13,  30 => 7,  26 => 6,  19 => 1,);
     }
 }
-/* <section class="project-intro" style="background-color: #{{ header.project_intro_background_color }};">*/
+/* <section class="project-intro">*/
 /* 	<div class="project-intro-container">*/
 /* 		*/
 /* 		<div class="project-intro-info-container">*/
@@ -78,7 +87,13 @@ class __TwigTemplate_02932edd84cd49398c7a465f2e0ccaa81d5d031c779d1b1c906430bcc6d
 /* 			</div>*/
 /* 		</div>*/
 /* */
-/* 		<div class="project-intro-image" style="background-image: url(' {{ page.url(true) }}/{{ header.project_img }}');" data-0="background-position:50% 0%;" data-500="background-position:50% 50%"></div>*/
+/* 		<div class="project-intro-image-container">*/
+/* */
+/* 			<div class="project-intro-image-laptop" style="background-image: url(' {{ page.url(true) }}/{{ header.project_img_laptop }}');"></div>*/
+/* */
+/* 			<div class="project-intro-image-phone" style="background-image: url(' {{ page.url(true) }}/{{ header.project_img_phone }}');"></div>*/
+/* */
+/* 		</div>*/
 /* */
 /* 	</div>*/
 /* 	<div class="project-intro-background-image" style="background-image: url(' {{ page.url(true) }}/{{ header.project_intro_background_image }}');"></div>*/

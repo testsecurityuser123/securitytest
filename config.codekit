@@ -99,6 +99,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/8\/f\/f\/c\/d\/8ffcd0cfc3a0ec3bf90dc5a5dacac3fa68d0ddd3-t50i01-tcan-homepage-mobile-v12.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6103,
+		"inputAbbreviatedPath": "\/images\/8\/f\/f\/c\/d\/8ffcd0cfc3a0ec3bf90dc5a5dacac3fa68d0ddd3-t50i01-tcan-homepage-mobile-v12.jpeg",
+		"outputAbbreviatedPath": "\/images\/8\/f\/f\/c\/d\/8ffcd0cfc3a0ec3bf90dc5a5dacac3fa68d0ddd3-t50i01-tcan-homepage-mobile-v12.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/a\/f\/2\/9\/2\/af2920e8181536752904ed7ac61effc32f72d1ac-twincities.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4116,
+		"inputAbbreviatedPath": "\/images\/a\/f\/2\/9\/2\/af2920e8181536752904ed7ac61effc32f72d1ac-twincities.jpeg",
+		"outputAbbreviatedPath": "\/images\/a\/f\/2\/9\/2\/af2920e8181536752904ed7ac61effc32f72d1ac-twincities.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/f\/d\/4\/5\/4\/fd4544a6703ecd907d2ede50d9bb9edc438ede07-tcan-full-res.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3190,
+		"inputAbbreviatedPath": "\/images\/f\/d\/4\/5\/4\/fd4544a6703ecd907d2ede50d9bb9edc438ede07-tcan-full-res.jpeg",
+		"outputAbbreviatedPath": "\/images\/f\/d\/4\/5\/4\/fd4544a6703ecd907d2ede50d9bb9edc438ede07-tcan-full-res.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/f\/f\/0\/3\/3\/ff033d6e0e84317752d75ac49b0de7aef0bded84-t50i01-tcan-homepage-mobile-v11.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2505,
+		"inputAbbreviatedPath": "\/images\/f\/f\/0\/3\/3\/ff033d6e0e84317752d75ac49b0de7aef0bded84-t50i01-tcan-homepage-mobile-v11.jpeg",
+		"outputAbbreviatedPath": "\/images\/f\/f\/0\/3\/3\/ff033d6e0e84317752d75ac49b0de7aef0bded84-t50i01-tcan-homepage-mobile-v11.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1627,6 +1671,28 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
+		},
+	"\/user\/pages\/01.home\/03.tcan\/_tcan-intro\/t50i01-tcan-homepage-mobile-v1.1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 384324,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/03.tcan\/_tcan-intro\/t50i01-tcan-homepage-mobile-v1.1.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/01.home\/03.tcan\/_tcan-intro\/t50i01-tcan-homepage-mobile-v1.1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/01.home\/03.tcan\/_tcan-intro\/t50i01-tcan-homepage-mobile-v1.2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66793,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/03.tcan\/_tcan-intro\/t50i01-tcan-homepage-mobile-v1.2.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/01.home\/03.tcan\/_tcan-intro\/t50i01-tcan-homepage-mobile-v1.2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/user\/pages\/01.home\/03.tcan\/_tcan-intro\/tcan-full-res.jpg": {
 		"fileType": 16384,
@@ -5105,6 +5171,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/user\/plugins\/email\/hebe.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/hebe.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/user\/plugins\/email\/hebe-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/user\/plugins\/email\/README.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
@@ -5196,6 +5273,17 @@
 		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/composer\/installed.json",
 		"orderOutput": 0,
 		"outputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/composer\/installed-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/composer.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/composer.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/composer-min.json",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
@@ -6735,6 +6823,1124 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/lib\/swiftmailer_generate_mimes_config.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/_samples\/files\/swiftmailer.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3194,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/_samples\/files\/swiftmailer.png",
+		"outputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/_samples\/files\/swiftmailer.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/AttachmentAcceptanceTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/AttachmentAcceptanceTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/ByteStream\/FileByteStreamAcceptanceTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/ByteStream\/FileByteStreamAcceptanceTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/CharacterReaderFactory\/SimpleCharacterReaderFactoryAcceptanceTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/CharacterReaderFactory\/SimpleCharacterReaderFactoryAcceptanceTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/DependencyContainerAcceptanceTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/DependencyContainerAcceptanceTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/EmbeddedFileAcceptanceTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/EmbeddedFileAcceptanceTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Encoder\/Base64EncoderAcceptanceTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Encoder\/Base64EncoderAcceptanceTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Encoder\/QpEncoderAcceptanceTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Encoder\/QpEncoderAcceptanceTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Encoder\/Rfc2231EncoderAcceptanceTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Encoder\/Rfc2231EncoderAcceptanceTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/EncodingAcceptanceTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/EncodingAcceptanceTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/KeyCache\/ArrayKeyCacheAcceptanceTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/KeyCache\/ArrayKeyCacheAcceptanceTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/KeyCache\/DiskKeyCacheAcceptanceTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/KeyCache\/DiskKeyCacheAcceptanceTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/MessageAcceptanceTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/MessageAcceptanceTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Mime\/AttachmentAcceptanceTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Mime\/AttachmentAcceptanceTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Mime\/ContentEncoder\/Base64ContentEncoderAcceptanceTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Mime\/ContentEncoder\/Base64ContentEncoderAcceptanceTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Mime\/ContentEncoder\/NativeQpContentEncoderAcceptanceTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Mime\/ContentEncoder\/NativeQpContentEncoderAcceptanceTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Mime\/ContentEncoder\/PlainContentEncoderAcceptanceTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Mime\/ContentEncoder\/PlainContentEncoderAcceptanceTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Mime\/ContentEncoder\/QpContentEncoderAcceptanceTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Mime\/ContentEncoder\/QpContentEncoderAcceptanceTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Mime\/EmbeddedFileAcceptanceTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Mime\/EmbeddedFileAcceptanceTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Mime\/HeaderEncoder\/Base64HeaderEncoderAcceptanceTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Mime\/HeaderEncoder\/Base64HeaderEncoderAcceptanceTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Mime\/MimePartAcceptanceTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Mime\/MimePartAcceptanceTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Mime\/SimpleMessageAcceptanceTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Mime\/SimpleMessageAcceptanceTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/MimePartAcceptanceTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/MimePartAcceptanceTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Transport\/StreamBuffer\/AbstractStreamBufferAcceptanceTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Transport\/StreamBuffer\/AbstractStreamBufferAcceptanceTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Transport\/StreamBuffer\/BasicSocketAcceptanceTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Transport\/StreamBuffer\/BasicSocketAcceptanceTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Transport\/StreamBuffer\/ProcessAcceptanceTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Transport\/StreamBuffer\/ProcessAcceptanceTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Transport\/StreamBuffer\/SocketTimeoutTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Transport\/StreamBuffer\/SocketTimeoutTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Transport\/StreamBuffer\/SslSocketAcceptanceTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Transport\/StreamBuffer\/SslSocketAcceptanceTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Transport\/StreamBuffer\/TlsSocketAcceptanceTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/acceptance\/Swift\/Transport\/StreamBuffer\/TlsSocketAcceptanceTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/bootstrap.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/bootstrap.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/bug\/Swift\/Bug111Test.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/bug\/Swift\/Bug111Test.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/bug\/Swift\/Bug118Test.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/bug\/Swift\/Bug118Test.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/bug\/Swift\/Bug206Test.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/bug\/Swift\/Bug206Test.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/bug\/Swift\/Bug274Test.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/bug\/Swift\/Bug274Test.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/bug\/Swift\/Bug34Test.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/bug\/Swift\/Bug34Test.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/bug\/Swift\/Bug35Test.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/bug\/Swift\/Bug35Test.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/bug\/Swift\/Bug38Test.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/bug\/Swift\/Bug38Test.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/bug\/Swift\/Bug518Test.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/bug\/Swift\/Bug518Test.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/bug\/Swift\/Bug51Test.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/bug\/Swift\/Bug51Test.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/bug\/Swift\/Bug534Test.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/bug\/Swift\/Bug534Test.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/bug\/Swift\/Bug71Test.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/bug\/Swift\/Bug71Test.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/bug\/Swift\/Bug76Test.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/bug\/Swift\/Bug76Test.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/fixtures\/EsmtpTransportFixture.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/fixtures\/EsmtpTransportFixture.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/fixtures\/MimeEntityFixture.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/fixtures\/MimeEntityFixture.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/IdenticalBinaryConstraint.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/IdenticalBinaryConstraint.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/smoke\/Swift\/Smoke\/AttachmentSmokeTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/smoke\/Swift\/Smoke\/AttachmentSmokeTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/smoke\/Swift\/Smoke\/BasicSmokeTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/smoke\/Swift\/Smoke\/BasicSmokeTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/smoke\/Swift\/Smoke\/HtmlWithAttachmentSmokeTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/smoke\/Swift\/Smoke\/HtmlWithAttachmentSmokeTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/smoke\/Swift\/Smoke\/InternationalSmokeTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/smoke\/Swift\/Smoke\/InternationalSmokeTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/StreamCollector.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/StreamCollector.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/SwiftMailerSmokeTestCase.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/SwiftMailerSmokeTestCase.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/SwiftMailerTestCase.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/SwiftMailerTestCase.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/ByteStream\/ArrayByteStreamTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/ByteStream\/ArrayByteStreamTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/CharacterReader\/GenericFixedWidthReaderTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/CharacterReader\/GenericFixedWidthReaderTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/CharacterReader\/UsAsciiReaderTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/CharacterReader\/UsAsciiReaderTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/CharacterReader\/Utf8ReaderTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/CharacterReader\/Utf8ReaderTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/CharacterStream\/ArrayCharacterStreamTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/CharacterStream\/ArrayCharacterStreamTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/DependencyContainerTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/DependencyContainerTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Encoder\/Base64EncoderTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Encoder\/Base64EncoderTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Encoder\/QpEncoderTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Encoder\/QpEncoderTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Encoder\/Rfc2231EncoderTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Encoder\/Rfc2231EncoderTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Events\/CommandEventTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Events\/CommandEventTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Events\/EventObjectTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Events\/EventObjectTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Events\/ResponseEventTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Events\/ResponseEventTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Events\/SendEventTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Events\/SendEventTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Events\/SimpleEventDispatcherTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Events\/SimpleEventDispatcherTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Events\/TransportChangeEventTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Events\/TransportChangeEventTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Events\/TransportExceptionEventTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Events\/TransportExceptionEventTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/KeyCache\/ArrayKeyCacheTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/KeyCache\/ArrayKeyCacheTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/KeyCache\/SimpleKeyCacheInputStreamTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/KeyCache\/SimpleKeyCacheInputStreamTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mailer\/ArrayRecipientIteratorTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mailer\/ArrayRecipientIteratorTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/MailerTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/MailerTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/MessageTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/MessageTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/AbstractMimeEntityTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/AbstractMimeEntityTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/AttachmentTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/AttachmentTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/ContentEncoder\/Base64ContentEncoderTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/ContentEncoder\/Base64ContentEncoderTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/ContentEncoder\/PlainContentEncoderTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/ContentEncoder\/PlainContentEncoderTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/ContentEncoder\/QpContentEncoderTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/ContentEncoder\/QpContentEncoderTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/EmbeddedFileTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/EmbeddedFileTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/HeaderEncoder\/Base64HeaderEncoderTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/HeaderEncoder\/Base64HeaderEncoderTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/HeaderEncoder\/QpHeaderEncoderTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/HeaderEncoder\/QpHeaderEncoderTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/Headers\/DateHeaderTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/Headers\/DateHeaderTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/Headers\/IdentificationHeaderTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/Headers\/IdentificationHeaderTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/Headers\/MailboxHeaderTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/Headers\/MailboxHeaderTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/Headers\/ParameterizedHeaderTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/Headers\/ParameterizedHeaderTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/Headers\/PathHeaderTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/Headers\/PathHeaderTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/Headers\/UnstructuredHeaderTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/Headers\/UnstructuredHeaderTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/MimePartTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/MimePartTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/SimpleHeaderFactoryTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/SimpleHeaderFactoryTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/SimpleHeaderSetTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/SimpleHeaderSetTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/SimpleMessageTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/SimpleMessageTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/SimpleMimeEntityTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Mime\/SimpleMimeEntityTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Plugins\/AntiFloodPluginTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Plugins\/AntiFloodPluginTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Plugins\/BandwidthMonitorPluginTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Plugins\/BandwidthMonitorPluginTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Plugins\/DecoratorPluginTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Plugins\/DecoratorPluginTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Plugins\/LoggerPluginTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Plugins\/LoggerPluginTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Plugins\/Loggers\/ArrayLoggerTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Plugins\/Loggers\/ArrayLoggerTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Plugins\/Loggers\/EchoLoggerTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Plugins\/Loggers\/EchoLoggerTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Plugins\/PopBeforeSmtpPluginTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Plugins\/PopBeforeSmtpPluginTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Plugins\/RedirectingPluginTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Plugins\/RedirectingPluginTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Plugins\/ReporterPluginTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Plugins\/ReporterPluginTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Plugins\/Reporters\/HitReporterTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Plugins\/Reporters\/HitReporterTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Plugins\/Reporters\/HtmlReporterTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Plugins\/Reporters\/HtmlReporterTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Plugins\/ThrottlerPluginTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Plugins\/ThrottlerPluginTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Signers\/DKIMSignerTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Signers\/DKIMSignerTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Signers\/OpenDKIMSignerTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Signers\/OpenDKIMSignerTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Signers\/SMimeSignerTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Signers\/SMimeSignerTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/StreamFilters\/ByteArrayReplacementFilterTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/StreamFilters\/ByteArrayReplacementFilterTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/StreamFilters\/StringReplacementFilterFactoryTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/StreamFilters\/StringReplacementFilterFactoryTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/StreamFilters\/StringReplacementFilterTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/StreamFilters\/StringReplacementFilterTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Transport\/AbstractSmtpEventSupportTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Transport\/AbstractSmtpEventSupportTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Transport\/AbstractSmtpTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Transport\/AbstractSmtpTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Transport\/Esmtp\/Auth\/CramMd5AuthenticatorTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Transport\/Esmtp\/Auth\/CramMd5AuthenticatorTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Transport\/Esmtp\/Auth\/LoginAuthenticatorTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Transport\/Esmtp\/Auth\/LoginAuthenticatorTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Transport\/Esmtp\/Auth\/NTLMAuthenticatorTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Transport\/Esmtp\/Auth\/NTLMAuthenticatorTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Transport\/Esmtp\/Auth\/PlainAuthenticatorTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Transport\/Esmtp\/Auth\/PlainAuthenticatorTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Transport\/Esmtp\/AuthHandlerTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Transport\/Esmtp\/AuthHandlerTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Transport\/EsmtpTransport\/ExtensionSupportTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Transport\/EsmtpTransport\/ExtensionSupportTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Transport\/EsmtpTransportTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Transport\/EsmtpTransportTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Transport\/FailoverTransportTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Transport\/FailoverTransportTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Transport\/LoadBalancedTransportTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Transport\/LoadBalancedTransportTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Transport\/MailTransportTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Transport\/MailTransportTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Transport\/SendmailTransportTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Transport\/SendmailTransportTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Transport\/StreamBufferTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/email\/vendor\/swiftmailer\/swiftmailer\/tests\/unit\/Swift\/Transport\/StreamBufferTest.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -13089,6 +14295,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/user\/themes\/fangman-v1\/images\/desktop.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33475,
+		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/images\/desktop.png",
+		"outputAbbreviatedPath": "\/user\/themes\/fangman-v1\/images\/desktop.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/user\/themes\/fangman-v1\/images\/forest.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -13096,6 +14313,28 @@
 		"initialSize": 705895,
 		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/images\/forest.jpg",
 		"outputAbbreviatedPath": "\/user\/themes\/fangman-v1\/images\/forest.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/themes\/fangman-v1\/images\/iphone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61722,
+		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/images\/iphone.png",
+		"outputAbbreviatedPath": "\/user\/themes\/fangman-v1\/images\/iphone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/themes\/fangman-v1\/images\/laptop.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10291,
+		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/images\/laptop.png",
+		"outputAbbreviatedPath": "\/user\/themes\/fangman-v1\/images\/laptop.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

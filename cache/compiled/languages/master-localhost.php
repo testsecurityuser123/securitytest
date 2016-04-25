@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledLanguages',
-    'timestamp' => 1460431386,
-    'checksum' => '4fcf37278d6d1d7b567c4e090968c734',
+    'timestamp' => 1461542948,
+    'checksum' => 'a990ff632c3d534cf341b1bb25a54279',
     'files' => [
         'system/languages' => [
             'cs' => [
@@ -89,7 +89,7 @@ return [
         'user/plugins' => [
             'plugins/email' => [
                 'file' => 'user/plugins/email/languages.yaml',
-                'modified' => 1456435150
+                'modified' => 1461542946
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/languages.yaml',
@@ -1328,6 +1328,10 @@ return [
                 'REVERSE_PROXY' => 'Reverse Proxy',
                 'REVERSE_PROXY_HELP' => 'Aktivieren Sie dies, wenn sie sich hinter einem Reverse Proxy befinden und Probleme mit URLs und inkorrekten Ports haben',
                 'INVALID_FRONTMATTER_COULD_NOT_SAVE' => 'Ungültiger Frontmatter, speichern nicht möglich'
+            ],
+            'PLUGIN_EMAIL' => [
+                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Bitte konfigurieren sie eine \'An\' (\'to\') Adresse in den Email-Plugin-Einstellungen oder im Formular.',
+                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Bitte konfigurieren sie eine \'Von\' (\'from\') Adresse in den Email-Plugin-Einstellungen oder im Formular.'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
@@ -5285,6 +5289,10 @@ Elérési út: `%2$s`
                 'REVERSE_PROXY_HELP' => 'Abilitare se si utilizza proxy inverso e si riscontrano problemi con gli URL contenenti porte non corrette',
                 'INVALID_FRONTMATTER_COULD_NOT_SAVE' => 'Frontmatter non valido, impossibile salvare'
             ],
+            'PLUGIN_EMAIL' => [
+                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Per favore, configura l\'indirizzo di destinazione (\'to\') nella configurazione del Plugin Email, oppure direttamente nella form.',
+                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Per favore, configura l\'indirizzo di provenienza (\'from\') nella configurazione del Plugin Email, oppure direttamente nella form'
+            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Il Form risulta invalido. Uno o più campi risultano omessi.',
                 'NONCE_NOT_VALIDATED' => 'Oops è stato riscontrato un errore, si prega di ricontrollare i dati inseriti e provare di nuovo.',
@@ -8600,6 +8608,6 @@ Path: `%2$s`
                 6 => 'Duminică'
             ]
         ],
-        'checksum' => '4fcf37278d6d1d7b567c4e090968c734'
+        'checksum' => 'a990ff632c3d534cf341b1bb25a54279'
     ]
 ];

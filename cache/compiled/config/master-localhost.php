@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1460431385,
-    'checksum' => '35d93f985b53c25eddfdfb67019854fc',
+    'timestamp' => 1461542947,
+    'checksum' => 'a4e6967486ada40ac3ca11c9691fd312',
     'files' => [
         'user/config' => [
             'media' => [
@@ -55,7 +55,7 @@ return [
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1456435150
+                'modified' => 1461542946
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
@@ -130,7 +130,8 @@ return [
                         'bin' => '/usr/sbin/sendmail'
                     ]
                 ],
-                'content_type' => 'text/html'
+                'content_type' => 'text/html',
+                'debug' => false
             ],
             'error' => [
                 'enabled' => true,

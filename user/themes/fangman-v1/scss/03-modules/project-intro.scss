@@ -8,6 +8,21 @@ Module: Project Introduction
 	z-index: 1;
 	top: 0;
 	width: 100%;
+	background-color: $color-primary;
+
+	&:before {
+		content: '';
+		position: absolute;
+		z-index: 2;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+
+		@include background(linear-gradient($color-gradient) top repeat);
+		opacity: 1;
+
+	}
 
 	.project-intro-background-image {
 		position: absolute;
@@ -21,14 +36,15 @@ Module: Project Introduction
 		background-position: center;
 		background-repeat: no-repeat;
 
-		opacity: 0.1;
+		opacity: 0.05;
+
 	}
 	.project-intro-container {
 		position: relative;
 		z-index: 2;
 		@include outer-container;
-		height: 100vh;
-		max-height: rem(500);
+		// height: rem(900);
+		// max-height: rem(500);
 
 		@include transition($transition-med);
 
@@ -41,30 +57,38 @@ Module: Project Introduction
 		}
 		
 		.project-intro-info-container {
+			position: relative;
 			@include span-columns(10);
 			@include shift(1);
+			@include clearfix;
+			padding-bottom: 70%;
 
-			// @include breakpoint ($bp-s) {
-			// 	@include span-columns(8);
-			// 	@include shift(2);
-			// }
+			@include transition($transition-med);
 
-			// @include breakpoint ($bp-m) {
-			// 	@include span-columns(6);
-			// 	@include shift(3);
-			// }
+			@include breakpoint($bp-s) {
+				padding-bottom: 65%;
+			}
 
-			// @include breakpoint ($bp-l) {
-			// 	@include span-columns(6);
-			// 	@include shift(3);
-			// }
+			@include breakpoint($bp-m) {
+				padding-bottom: 55%;
+			}
+
+			@include breakpoint($bp-l) {
+				padding-bottom: 50%;
+			}
+
 			.project-intro-info {
 				position: relative;
 				top: rem(60);
+				line-height: rem(54);
 
 				text-align: center;
+				padding-bottom: rem(0);
+				@include clearfix;
 
 				@include breakpoint ($bp-m) {
+					@include span-columns(8);
+					@include shift(2);
 
 				}
 
@@ -74,60 +98,129 @@ Module: Project Introduction
 					text-align: center;
 					color: $color-white;
 					clear: both;
-					font-size: rem(60);
+					font-size: rem(36);
+					line-height: 1;
 
 					margin-bottom: rem(12);
+
+					@include breakpoint($bp-s) {
+						font-size: rem(48);
+					}
+
+					@include breakpoint($bp-l) {
+						font-size: rem(60);
+					}
 				}
 
 				p {
 					padding: 0;
 					margin: 0;
+					color: $color-accent;
+					text-transform: uppercase;
+					font-size: rem(15);
+					line-height: rem(18);
+					letter-spacing: rem(2);
+					font-weight: 900;
+
+					padding: rem(6px) 0;
 				}
 
 			}
 		}
 
-		.project-intro-image {
-			position: absolute;
-			z-index: 2;
-			bottom: 0;
-			@include span-columns(10);
-			@include shift(1);
+		.project-intro-image-container {
+			position: relative;
+			@include clearfix;
 
-			background-position: 50% -3%;
-			background-size: 92% auto;
-			background-repeat: no-repeat;
-			box-shadow: 0 rem(3) rem(10) rgba(0,0,0,.25);
-			border-radius: 5% 5% 0 0;
-
-			margin-top: -3%;
-
-			&:before {
-				content: '';
-				padding-top: 54.5%;
-				display: block;
-			}
-
-			&:after {
-				content: '';
+			.project-intro-image-laptop {
 				position: absolute;
-				z-index: 3;
-				display: block;
-				top: -7.5%;
+				z-index: 2;
 				bottom: 0;
-				left: 0;
-				right: 0;
-				width: auto;
+				@include span-columns(12);
+				@include shift(0);
 
-				background-image: url('../images/mac-screen.png');
-				background-size: 100% auto;
+				background-position: 50% 0%;
+				background-size: 72% auto;
 				background-repeat: no-repeat;
-			}
 
-			@include breakpoint($bp-l) {
-				max-height: rem(500);	
-			}
+				margin-top: -3%;
+				padding-bottom: 3%;
 
+				&:before {
+					content: '';
+					padding-top: 44.5%;
+					display: block;
+				}
+
+				&:after {
+					content: '';
+					position: absolute;
+					z-index: 3;
+					display: block;
+					top: -11%;
+					bottom: -15%;
+					left: 0;
+					right: 0;
+					width: auto;
+
+
+					background-image: url('../images/laptop.png');
+					background-size: 100% auto;
+					background-repeat: no-repeat;
+				}
+
+				@include breakpoint($bp-m) {
+					@include span-columns(10);
+					@include shift(1);	
+				}
+
+			}
+			.project-intro-image-phone {
+				position: absolute;
+				z-index: 2;
+				bottom: -1%;
+				width: 28%;
+				// @include shift(8);
+				right: 5%;
+
+				background-position: 62% -3%;
+				background-size: 66% auto;
+				background-repeat: no-repeat;
+
+				padding-bottom: 4%;
+				// padding-left: 10%;
+
+				&:before {
+					content: '';
+					padding-top: 110%;
+					display: block;
+				}
+
+				&:after {
+					content: '';
+					position: absolute;
+					z-index: 4;
+					display: block;
+					top: -20%;
+					bottom: -20%;
+					left: 5%;
+					right: 0;
+					width: auto;
+
+
+					background-image: url('../images/iphone.png');
+					background-size: 100% auto;
+					background-repeat: no-repeat;
+				}
+
+				@include breakpoint($bp-m) {
+					// @include span-columns(3);
+					width: 23%;
+					right: 12%;	
+					padding-bottom: 3%;
+				}
+
+			}
 		}
 	}
 }

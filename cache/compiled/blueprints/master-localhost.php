@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1460431385,
-    'checksum' => 'ab27418e92fc3f05b93dc586df99b69f',
+    'timestamp' => 1461542947,
+    'checksum' => '7aee36d850f5f9b2f79fe2427a46fea7',
     'files' => [
         'system/blueprints/config' => [
             'media' => [
@@ -29,7 +29,7 @@ return [
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/blueprints.yaml',
-                'modified' => 1456435150
+                'modified' => 1461542946
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/blueprints.yaml',
@@ -378,7 +378,8 @@ return [
                 'options' => [
                     'none' => 'None',
                     'ssl' => 'SSL',
-                    'tls' => 'TLS'
+                    'tls' => 'TLS',
+                    'starttls' => 'STARTTLS'
                 ],
                 'name' => 'plugins.email.mailer.smtp.encryption'
             ],
@@ -404,6 +405,20 @@ return [
                 'label' => 'Path to sendmail',
                 'placeholder' => '/usr/sbin/sendmail',
                 'name' => 'plugins.email.mailer.sendmail.bin'
+            ],
+            'plugins.email.debug' => [
+                'type' => 'toggle',
+                'label' => 'Debug',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.email.debug'
             ],
             'plugins.error' => [
                 'type' => '_parent',
@@ -2260,7 +2275,8 @@ return [
                     'from' => 'plugins.email.from',
                     'from_name' => 'plugins.email.from_name',
                     'to' => 'plugins.email.to',
-                    'to_name' => 'plugins.email.to_name'
+                    'to_name' => 'plugins.email.to_name',
+                    'debug' => 'plugins.email.debug'
                 ],
                 'error' => [
                     'enabled' => 'plugins.error.enabled',

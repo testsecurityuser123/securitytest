@@ -1,4 +1,4 @@
-<section class="project-intro" style="background-color: #{{ header.project_intro_background_color }};">
+<section class="project-intro">
 	<div class="project-intro-container">
 		
 		<div class="project-intro-info-container">
@@ -8,7 +8,13 @@
 			</div>
 		</div>
 
-		<div class="project-intro-image" style="background-image: url(' {{ page.url(true) }}/{{ header.project_img }}');" data-0="background-position:50% 0%;" data-500="background-position:50% 50%"></div>
+		<div class="project-intro-image-container">
+
+			<div class="project-intro-image-laptop" style="background-image: url(' {{ page.url(true) }}/{{ header.project_img_laptop }}');"></div>
+
+			<div class="project-intro-image-phone" style="background-image: url(' {{ page.url(true) }}/{{ header.project_img_phone }}');"></div>
+
+		</div>
 
 	</div>
 	<div class="project-intro-background-image" style="background-image: url(' {{ page.url(true) }}/{{ header.project_intro_background_image }}');"></div>
