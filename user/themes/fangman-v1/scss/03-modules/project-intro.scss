@@ -36,7 +36,8 @@ Module: Project Introduction
 		background-position: center;
 		background-repeat: no-repeat;
 
-		opacity: 0.05;
+		opacity: 0.075;
+		@include filter(grayscale(100%));
 
 	}
 	.project-intro-container {
@@ -123,7 +124,7 @@ Module: Project Introduction
 					font-size: rem(15);
 					line-height: rem(24);
 					letter-spacing: rem(2);
-					font-weight: 900;
+					font-weight: 100;
 
 					padding: rem(6px) 0;
 				}
@@ -142,7 +143,7 @@ Module: Project Introduction
 				@include span-columns(12);
 				@include shift(0);
 
-				background-position: 50% -0%;
+				background-position: 50% 6px;
 				background-size: 76% auto;
 				background-repeat: no-repeat;
 
@@ -185,7 +186,7 @@ Module: Project Introduction
 				// @include shift(8);
 				right: 5%;
 
-				background-position: 62% -3%;
+				background-position: 62% 9px;
 				background-size: 66% auto;
 				background-repeat: no-repeat;
 

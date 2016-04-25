@@ -12,8 +12,11 @@ Base: Variables
 ========================================================= */
 body {
   font-family: "museo-sans", sans-serif;
-  background-color: #21212b;
+  background-color: #242433;
   color: #fff; }
+
+* {
+  text-rendering: optimizeLegibility; }
 
 p {
   font-weight: 300;
@@ -117,7 +120,7 @@ p {
   left: 0;
   right: 0;
   height: 100%;
-  background: #21212b;
+  background: #242433;
   visibility: hidden;
   opacity: 0;
   -webkit-transform: scale(1.5);
@@ -426,7 +429,7 @@ Module: Project Introduction
   z-index: 1;
   top: 0;
   width: 100%;
-  background-color: #21212b; }
+  background-color: #242433; }
   .project-intro:before {
     content: '';
     position: absolute;
@@ -435,8 +438,8 @@ Module: Project Introduction
     bottom: 0;
     left: 0;
     right: 0;
-    background: -webkit-linear-gradient(rgba(33, 33, 43, 0), #21212b) top repeat;
-    background: linear-gradient(rgba(33, 33, 43, 0), #21212b) top repeat;
+    background: -webkit-linear-gradient(rgba(36, 36, 51, 0), #242433) top repeat;
+    background: linear-gradient(rgba(36, 36, 51, 0), #242433) top repeat;
     opacity: 1; }
   .project-intro .project-intro-background-image {
     position: absolute;
@@ -448,7 +451,9 @@ Module: Project Introduction
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.05; }
+    opacity: 0.075;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); }
   .project-intro .project-intro-container {
     position: relative;
     z-index: 2;
@@ -538,7 +543,7 @@ Module: Project Introduction
           font-size: 0.9375rem;
           line-height: 1.5rem;
           letter-spacing: 0.125rem;
-          font-weight: 900;
+          font-weight: 100;
           padding: 0.375rem 0; }
     .project-intro .project-intro-container .project-intro-image-container {
       position: relative; }
@@ -555,7 +560,7 @@ Module: Project Introduction
         margin-right: 2.3576515979%;
         width: 100%;
         margin-left: 0%;
-        background-position: 50% -0%;
+        background-position: 50% 6px;
         background-size: 76% auto;
         background-repeat: no-repeat;
         padding-bottom: 3%; }
@@ -593,7 +598,7 @@ Module: Project Introduction
         bottom: -4%;
         width: 28%;
         right: 5%;
-        background-position: 62% -3%;
+        background-position: 62% 9px;
         background-size: 66% auto;
         background-repeat: no-repeat;
         padding-bottom: 4%; }
@@ -628,7 +633,7 @@ Module: Project Description
 .project-desc {
   position: relative;
   z-index: 2;
-  color: #21212b;
+  color: #242433;
   padding: 0.9375rem 1.875rem; }
   .project-desc .project-desc-container {
     max-width: 80em;
@@ -689,6 +694,7 @@ Module: Project Description
           font-size: 0.75rem;
           letter-spacing: 0.125rem;
           margin-bottom: 0;
-          padding-bottom: 0; }
+          padding-bottom: 0;
+          font-weight: 900; }
         .project-desc .project-desc-container .project-desc-side-container .project-desc-attribute p {
           margin-top: 0.75rem; }

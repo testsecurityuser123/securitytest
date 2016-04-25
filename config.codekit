@@ -55,6 +55,17 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/images\/1\/c\/f\/d\/a\/1cfda03333f655b1564112cabc2fb30fb06f6587-find-a-store-1920x654.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6445,
+		"inputAbbreviatedPath": "\/images\/1\/c\/f\/d\/a\/1cfda03333f655b1564112cabc2fb30fb06f6587-find-a-store-1920x654.jpeg",
+		"outputAbbreviatedPath": "\/images\/1\/c\/f\/d\/a\/1cfda03333f655b1564112cabc2fb30fb06f6587-find-a-store-1920x654.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/2\/2\/8\/4\/5\/228450c0baac5438c851303c54481ac1df9c8689-the-connection-landing-page-v4.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -117,6 +128,28 @@
 		"initialSize": 4116,
 		"inputAbbreviatedPath": "\/images\/a\/f\/2\/9\/2\/af2920e8181536752904ed7ac61effc32f72d1ac-twincities.jpeg",
 		"outputAbbreviatedPath": "\/images\/a\/f\/2\/9\/2\/af2920e8181536752904ed7ac61effc32f72d1ac-twincities.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/f\/7\/3\/f\/8\/f73f8b85db9e29b363249851e60f3cc7db55e74d-bf19-pbc-homepage-v8.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31558,
+		"inputAbbreviatedPath": "\/images\/f\/7\/3\/f\/8\/f73f8b85db9e29b363249851e60f3cc7db55e74d-bf19-pbc-homepage-v8.png",
+		"outputAbbreviatedPath": "\/images\/f\/7\/3\/f\/8\/f73f8b85db9e29b363249851e60f3cc7db55e74d-bf19-pbc-homepage-v8.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/f\/8\/c\/2\/a\/f8c2ac0c4cf1d8495ed74721edddf91351609129-bf19-pbc-product-page-mobile-v2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24707,
+		"inputAbbreviatedPath": "\/images\/f\/8\/c\/2\/a\/f8c2ac0c4cf1d8495ed74721edddf91351609129-bf19-pbc-product-page-mobile-v2.png",
+		"outputAbbreviatedPath": "\/images\/f\/8\/c\/2\/a\/f8c2ac0c4cf1d8495ed74721edddf91351609129-bf19-pbc-product-page-mobile-v2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1582,6 +1615,99 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/user\/pages\/01.home\/02.pb-crave\/_pb-crave-intro\/bf19-pbc-homepage-v8.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5.16701e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_pb-crave-intro\/bf19-pbc-homepage-v8.png",
+		"outputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_pb-crave-intro\/bf19-pbc-homepage-v8.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/01.home\/02.pb-crave\/_pb-crave-intro\/bf19-pbc-product-page-mobile-v2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 463330,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_pb-crave-intro\/bf19-pbc-product-page-mobile-v2.png",
+		"outputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_pb-crave-intro\/bf19-pbc-product-page-mobile-v2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/01.home\/02.pb-crave\/_pb-crave-intro\/find-a-store-1920x654.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 400941,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_pb-crave-intro\/find-a-store-1920x654.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_pb-crave-intro\/find-a-store-1920x654.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/01.home\/02.pb-crave\/_pb-crave-intro\/project-intro.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_pb-crave-intro\/project-intro.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/pages\/01.home\/02.pb-crave\/_pb-crave-intro\/project-intro.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_pb-crave-intro\/project-intro.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_pb-crave-intro\/project-intro.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/user\/pages\/01.home\/02.pb-crave\/_pb-crave-overview\/project-description.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_pb-crave-overview\/project-description.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/pages\/01.home\/02.pb-crave\/_pb-crave-overview\/project-description.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_pb-crave-overview\/project-description.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_pb-crave-overview\/project-description.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
 	"\/user\/pages\/01.home\/02.pb-crave\/default.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -1591,7 +1717,16 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/user\/pages\/01.home\/02.pb-crave\/default.md": {
+	"\/user\/pages\/01.home\/02.pb-crave\/modular.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/modular.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/pages\/01.home\/02.pb-crave\/modular.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -1600,9 +1735,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/default.md",
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/modular.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/default.html",
+		"outputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/modular.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
