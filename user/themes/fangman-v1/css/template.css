@@ -520,12 +520,12 @@ Module: Project Introduction
           text-align: center;
           color: #fff;
           clear: both;
-          font-size: 2.25rem;
+          font-size: 1.875rem;
           line-height: 1;
           margin-bottom: 0.75rem; }
           @media screen and (min-width: 30em) {
             .project-intro .project-intro-container .project-intro-info-container .project-intro-info h2 {
-              font-size: 3rem; } }
+              font-size: 2.625rem; } }
           @media screen and (min-width: 64em) {
             .project-intro .project-intro-container .project-intro-info-container .project-intro-info h2 {
               font-size: 3.75rem; } }
@@ -536,7 +536,7 @@ Module: Project Introduction
           color: #cb4e4e;
           text-transform: uppercase;
           font-size: 0.9375rem;
-          line-height: 1.125rem;
+          line-height: 1.5rem;
           letter-spacing: 0.125rem;
           font-weight: 900;
           padding: 0.375rem 0; }

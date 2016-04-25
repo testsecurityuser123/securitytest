@@ -100,13 +100,13 @@ Module: Project Introduction
 					text-align: center;
 					color: $color-white;
 					clear: both;
-					font-size: rem(36);
+					font-size: rem(30);
 					line-height: 1;
 
 					margin-bottom: rem(12);
 
 					@include breakpoint($bp-s) {
-						font-size: rem(48);
+						font-size: rem(42);
 					}
 
 					@include breakpoint($bp-l) {
@@ -121,7 +121,7 @@ Module: Project Introduction
 					color: $color-accent;
 					text-transform: uppercase;
 					font-size: rem(15);
-					line-height: rem(18);
+					line-height: rem(24);
 					letter-spacing: rem(2);
 					font-weight: 900;
 
