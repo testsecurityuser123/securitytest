@@ -1,13 +1,17 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1461542947,
-    'checksum' => 'a4e6967486ada40ac3ca11c9691fd312',
+    'timestamp' => 1461558020,
+    'checksum' => 'e00f0efce70a966ef3345f1ca7d58efa',
     'files' => [
         'user/config' => [
             'media' => [
                 'file' => 'user/config/media.yaml',
                 'modified' => 1456974746
+            ],
+            'plugins/private' => [
+                'file' => 'user/config/plugins/private.yaml',
+                'modified' => 1461557967
             ],
             'plugins/view' => [
                 'file' => 'user/config/plugins/view.yaml',
@@ -27,7 +31,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1460431385
+                'modified' => 1461558020
             ]
         ],
         'system/config' => [
@@ -68,6 +72,10 @@ return [
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
                 'modified' => 1456435150
+            ],
+            'plugins/private' => [
+                'file' => 'user/plugins/private/private.yaml',
+                'modified' => 1461557400
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
@@ -227,6 +235,46 @@ return [
                             ]
                         ]
                     ]
+                ]
+            ],
+            'private' => [
+                'enabled' => true,
+                'routes' => [
+                    'login' => '/login',
+                    'logout' => '/logout'
+                ],
+                'session_ss' => 'random_value',
+                'private_site' => true,
+                'private_tag' => 'hidden',
+                'enable_username' => false,
+                'users' => [
+                    'no_user' => '5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8'
+                ],
+                'texts' => [
+                    'h1' => 'Private Area',
+                    'h2' => 'Please <strong>login</strong> to view this content...'
+                ],
+                'fields' => [
+                    'username' => [
+                        'label' => 'Username',
+                        'placeholder' => 'Enter your username'
+                    ],
+                    'password' => [
+                        'label' => 'Password',
+                        'placeholder' => 'Enter your password'
+                    ],
+                    'antispam' => [
+                        'label' => 'Antispam',
+                        'placeholder' => 'Please leave this field empty for Antispam'
+                    ],
+                    'login' => [
+                        'label' => 'Login'
+                    ]
+                ],
+                'messages' => [
+                    'success' => 'You are logged.',
+                    'error' => 'Oops! There was a problem with your submission. Please try again or <a href=\'https://github.com/Diyzzuf/grav-plugin-private/issues\' target=\'_blank\'>report an issue </a>',
+                    'fail' => 'Oops! Something went wrong.. Try Again !'
                 ]
             ],
             'problems' => [
@@ -548,7 +596,7 @@ return [
             ],
             'home' => [
                 'alias' => '/home',
-                'hide_in_urls' => false
+                'hide_in_urls' => true
             ],
             'pages' => [
                 'theme' => 'fangman-v1',

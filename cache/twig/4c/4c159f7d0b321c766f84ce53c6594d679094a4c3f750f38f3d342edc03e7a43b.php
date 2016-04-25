@@ -153,8 +153,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
         echo "        ";
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/min/modernizr-min.js", 1 => 100), "method");
         // line 35
-        echo "        ";
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/min/skrollr-min.js", 1 => 90), "method");
+        echo "      ";
         // line 36
         echo "        ";
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/min/fangman-v1-min.js", 1 => 98), "method");
@@ -284,7 +283,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 
     public function getDebugInfo()
     {
-        return array (  256 => 83,  253 => 82,  246 => 72,  243 => 71,  238 => 67,  233 => 68,  231 => 67,  226 => 66,  223 => 65,  218 => 63,  214 => 58,  211 => 57,  208 => 56,  203 => 52,  197 => 59,  194 => 56,  191 => 55,  188 => 54,  185 => 53,  183 => 52,  173 => 47,  169 => 45,  166 => 44,  162 => 37,  159 => 36,  156 => 35,  153 => 34,  150 => 33,  147 => 32,  143 => 29,  140 => 21,  137 => 20,  134 => 19,  131 => 18,  123 => 38,  121 => 32,  115 => 30,  113 => 18,  108 => 15,  103 => 12,  99 => 11,  96 => 10,  94 => 9,  86 => 8,  83 => 7,  80 => 6,  74 => 98,  71 => 82,  68 => 76,  66 => 71,  63 => 70,  61 => 65,  58 => 64,  56 => 63,  53 => 62,  51 => 44,  46 => 42,  43 => 41,  41 => 6,  35 => 3,  32 => 2,  30 => 1,);
+        return array (  255 => 83,  252 => 82,  245 => 72,  242 => 71,  237 => 67,  232 => 68,  230 => 67,  225 => 66,  222 => 65,  217 => 63,  213 => 58,  210 => 57,  207 => 56,  202 => 52,  196 => 59,  193 => 56,  190 => 55,  187 => 54,  184 => 53,  182 => 52,  172 => 47,  168 => 45,  165 => 44,  161 => 37,  158 => 36,  156 => 35,  153 => 34,  150 => 33,  147 => 32,  143 => 29,  140 => 21,  137 => 20,  134 => 19,  131 => 18,  123 => 38,  121 => 32,  115 => 30,  113 => 18,  108 => 15,  103 => 12,  99 => 11,  96 => 10,  94 => 9,  86 => 8,  83 => 7,  80 => 6,  74 => 98,  71 => 82,  68 => 76,  66 => 71,  63 => 70,  61 => 65,  58 => 64,  56 => 63,  53 => 62,  51 => 44,  46 => 42,  43 => 41,  41 => 6,  35 => 3,  32 => 2,  30 => 1,);
     }
 }
 /* {% set theme_config = attribute(config.themes, config.system.pages.theme) %}*/
@@ -321,7 +320,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 /*     {% block javascripts %}*/
 /*         {% do assets.addJs('jquery',101) %}*/
 /*         {% do assets.addJs('theme://js/min/modernizr-min.js',100) %}*/
-/*         {% do assets.addJs('theme://js/min/skrollr-min.js',90) %}*/
+/*       {#   {% do assets.addJs('theme://js/min/skrollr-min.js',90) %} #}*/
 /*         {% do assets.addJs('theme://js/min/fangman-v1-min.js' ,98) %}*/
 /*     {% endblock %}*/
 /*     {{ assets.js() }}*/
