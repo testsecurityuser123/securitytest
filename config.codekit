@@ -55,6 +55,17 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/images\/0\/d\/e\/a\/2\/0dea255e7ac75e9fec0a0f0cd91e9b71d0238d1d-recipe-pizza.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6713,
+		"inputAbbreviatedPath": "\/images\/0\/d\/e\/a\/2\/0dea255e7ac75e9fec0a0f0cd91e9b71d0238d1d-recipe-pizza.jpeg",
+		"outputAbbreviatedPath": "\/images\/0\/d\/e\/a\/2\/0dea255e7ac75e9fec0a0f0cd91e9b71d0238d1d-recipe-pizza.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/1\/c\/f\/d\/a\/1cfda03333f655b1564112cabc2fb30fb06f6587-find-a-store-1920x654.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -128,6 +139,17 @@
 		"initialSize": 4116,
 		"inputAbbreviatedPath": "\/images\/a\/f\/2\/9\/2\/af2920e8181536752904ed7ac61effc32f72d1ac-twincities.jpeg",
 		"outputAbbreviatedPath": "\/images\/a\/f\/2\/9\/2\/af2920e8181536752904ed7ac61effc32f72d1ac-twincities.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/f\/3\/d\/9\/3\/f3d9394b4476f764af591839c60ccc5643598a1f-bf19-pbc-homepage-mobile-v1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6743,
+		"inputAbbreviatedPath": "\/images\/f\/3\/d\/9\/3\/f3d9394b4476f764af591839c60ccc5643598a1f-bf19-pbc-homepage-mobile-v1.png",
+		"outputAbbreviatedPath": "\/images\/f\/3\/d\/9\/3\/f3d9394b4476f764af591839c60ccc5643598a1f-bf19-pbc-homepage-mobile-v1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1708,6 +1730,58 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/user\/pages\/01.home\/02.pb-crave\/_pbc-wireframe-section\/bf19-pbc-homepage-mobile-v1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 115361,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_pbc-wireframe-section\/bf19-pbc-homepage-mobile-v1.png",
+		"outputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_pbc-wireframe-section\/bf19-pbc-homepage-mobile-v1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/01.home\/02.pb-crave\/_pbc-wireframe-section\/project-phone-feature.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_pbc-wireframe-section\/project-phone-feature.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/pages\/01.home\/02.pb-crave\/_pbc-wireframe-section\/project-phone-feature.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_pbc-wireframe-section\/project-phone-feature.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_pbc-wireframe-section\/project-phone-feature.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/user\/pages\/01.home\/02.pb-crave\/_pbc-wireframe-section\/recipe-pizza.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 104311,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_pbc-wireframe-section\/recipe-pizza.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_pbc-wireframe-section\/recipe-pizza.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/user\/pages\/01.home\/02.pb-crave\/default.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -2106,6 +2180,17 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
+		},
+	"\/user\/plugins\/admin\/hebe.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/hebe.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/hebe-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/user\/plugins\/admin\/pages\/admin\/backup.md": {
 		"criticStyle": 0,
@@ -8250,6 +8335,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/user\/plugins\/form\/hebe.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/form\/hebe.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/user\/plugins\/form\/hebe-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/user\/plugins\/form\/README.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
@@ -8522,6 +8618,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/login\/hebe.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/login\/hebe.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/user\/plugins\/login\/hebe-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/user\/plugins\/login\/login.php": {
 		"fileType": 8192,
@@ -16588,6 +16695,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/user\/themes\/fangman-v1\/scss\/03-modules\/project-phone-feature.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/scss\/03-modules\/project-phone-feature.scss",
+		"outputAbbreviatedPath": "\/user\/themes\/fangman-v1\/scss\/css\/project-phone-feature.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/user\/themes\/fangman-v1\/scss\/04-layouts\/layouts-map.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -16627,6 +16750,15 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/scss\/css\/project-intro.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/themes\/fangman-v1\/scss\/css\/project-phone-feature.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/scss\/css\/project-phone-feature.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

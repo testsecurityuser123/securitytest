@@ -2,4 +2,73 @@ body {
 	font-family: $body-font;
 	background-color: $color-primary;
 	color: #fff;
+	overflow-x: hidden;
+
+
+	// Button Styles
+	.btn {
+		position: relative;
+		display: inline-block;
+		padding: rem(15) rem(30);
+		border: rem(2) solid $color-accent;
+		border-radius: rem(3);
+
+		font-family: $headline-font;
+		font-size: rem(12);
+		color: $color-white;
+		text-transform: uppercase;
+		letter-spacing: rem(3);
+
+		@include transition($transition-med);
+
+		&:hover {
+			background-color: $color-accent;
+		}
+
+		&.btn-arrow-r {
+			padding-right: rem(48);
+			&:before {
+				content: '';
+				display: block;
+				position: absolute;
+				top: 50%;
+				margin-top: rem(-1);
+				right: rem(27);
+
+				height: rem(2);
+				width: rem(15);
+				border-radius: 50%;
+
+				background-color: $color-white;
+			}
+
+			&:after {
+				content: '';
+				display: block;
+				position: absolute;
+				top: 50%;
+				right: rem(28);
+				margin-top: rem(-3);
+
+				height: rem(6);
+				width: rem(6);
+				// border-radius: 0 rem(2) 0 0;
+
+				border: solid $color-white;
+				border-width: rem(2) rem(2) 0 0;
+
+				@include transform(rotate(45deg));
+			}
+
+			&:hover {
+				&.btn-arrow-r {
+					padding-right: rem(56);
+				}
+			}
+		}
+	}
+
+	a.btn {
+		color: $color-white;
+	}
 }
