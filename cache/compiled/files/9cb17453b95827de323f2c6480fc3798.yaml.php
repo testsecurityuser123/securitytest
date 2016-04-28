@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav-2016/user/config/system.yaml',
-    'modified' => 1460431385,
+    'modified' => 1461558020,
     'data' => [
         'absolute_urls' => false,
         'param_sep' => ':',
@@ -18,7 +18,7 @@ return [
         ],
         'home' => [
             'alias' => '/home',
-            'hide_in_urls' => false
+            'hide_in_urls' => true
         ],
         'pages' => [
             'theme' => 'fangman-v1',
