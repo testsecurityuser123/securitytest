@@ -19,35 +19,54 @@ class __TwigTemplate_608fcd4b555a42a0c12dacd97b76b60a9a21a97d5e52dd6f24d0ae457c0
         echo "<section class=\"project-pf\">
 \t<div class=\"project-pf-container\">
 \t\t<div class=\"project-pf-phone-container\">
-\t\t\t<div class=\"project-pf-phone\"><iframe src=\"";
-        // line 4
-        echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "project_pf_iframe", array());
-        echo "\"></iframe><div class=\"project-pf-phone-image\" style=\"background-image: url(' ";
+\t\t\t<div class=\"project-pf-phone\">
+\t\t\t\t";
+        // line 5
+        if ($this->getAttribute((isset($context["header"]) ? $context["header"] : null), "project_pf_iframe", array())) {
+            // line 6
+            echo "\t\t\t\t\t<iframe src=\"";
+            echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array(0 => true), "method");
+            echo "/";
+            echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "project_pf_iframe", array());
+            echo "\"></iframe>
+\t\t\t\t";
+        }
+        // line 8
+        echo "\t\t\t\t<div class=\"project-pf-phone-image\" style=\"background-image: url(' ";
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array(0 => true), "method");
         echo "/";
         echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "project_pf_phoneimg", array());
-        echo "')\"></div></div>
+        echo "')\"></div>
+\t\t\t</div>
 \t\t</div>
 \t\t<div class=\"project-pf-content-container\">
-\t\t\t<h4>";
-        // line 7
+\t\t\t<div class=\"project-pf-content-inner-container\">
+\t\t\t\t<h4>";
+        // line 13
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "title", array());
         echo "</h4>
-\t\t\t<p>";
-        // line 8
+\t\t\t\t<p>";
+        // line 14
         echo (isset($context["content"]) ? $context["content"] : null);
         echo "</p>
-\t\t\t<a href=\"";
-        // line 9
-        echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "project_pf_button_link", array());
-        echo "\" target=\"_blank\" class=\"btn btn-arrow-r\">";
-        echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "project_pf_button_text", array());
-        echo "</a>
+\t\t\t\t";
+        // line 15
+        if ($this->getAttribute((isset($context["header"]) ? $context["header"] : null), "project_pf_button_link", array())) {
+            // line 16
+            echo "\t\t\t\t\t<a href=\"";
+            echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "project_pf_button_link", array());
+            echo "\" target=\"_blank\" class=\"btn btn-arrow-r\">";
+            echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "project_pf_button_text", array());
+            echo "</a>
+\t\t\t\t";
+        }
+        // line 18
+        echo "\t\t\t</div>
 \t\t</div>
 \t</div>
 
 \t<div class=\"project-pf-background\" style=\"background-image: url(' ";
-        // line 13
+        // line 22
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array(0 => true), "method");
         echo "/";
         echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "project_pf_background_image", array());
@@ -69,18 +88,27 @@ class __TwigTemplate_608fcd4b555a42a0c12dacd97b76b60a9a21a97d5e52dd6f24d0ae457c0
 
     public function getDebugInfo()
     {
-        return array (  51 => 13,  42 => 9,  38 => 8,  34 => 7,  24 => 4,  19 => 1,);
+        return array (  70 => 22,  64 => 18,  56 => 16,  54 => 15,  50 => 14,  46 => 13,  35 => 8,  27 => 6,  25 => 5,  19 => 1,);
     }
 }
 /* <section class="project-pf">*/
 /* 	<div class="project-pf-container">*/
 /* 		<div class="project-pf-phone-container">*/
-/* 			<div class="project-pf-phone"><iframe src="{{ header.project_pf_iframe }}"></iframe><div class="project-pf-phone-image" style="background-image: url(' {{ page.url(true) }}/{{ header.project_pf_phoneimg }}')"></div></div>*/
+/* 			<div class="project-pf-phone">*/
+/* 				{% if header.project_pf_iframe %}*/
+/* 					<iframe src="{{ page.url(true) }}/{{ header.project_pf_iframe }}"></iframe>*/
+/* 				{% endif %}*/
+/* 				<div class="project-pf-phone-image" style="background-image: url(' {{ page.url(true) }}/{{ header.project_pf_phoneimg }}')"></div>*/
+/* 			</div>*/
 /* 		</div>*/
 /* 		<div class="project-pf-content-container">*/
-/* 			<h4>{{ page.title }}</h4>*/
-/* 			<p>{{ content }}</p>*/
-/* 			<a href="{{ header.project_pf_button_link }}" target="_blank" class="btn btn-arrow-r">{{ header.project_pf_button_text }}</a>*/
+/* 			<div class="project-pf-content-inner-container">*/
+/* 				<h4>{{ page.title }}</h4>*/
+/* 				<p>{{ content }}</p>*/
+/* 				{% if header.project_pf_button_link %}*/
+/* 					<a href="{{ header.project_pf_button_link }}" target="_blank" class="btn btn-arrow-r">{{ header.project_pf_button_text }}</a>*/
+/* 				{% endif %}*/
+/* 			</div>*/
 /* 		</div>*/
 /* 	</div>*/
 /* */

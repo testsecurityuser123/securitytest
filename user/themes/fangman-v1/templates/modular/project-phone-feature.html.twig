@@ -1,12 +1,21 @@
 <section class="project-pf">
 	<div class="project-pf-container">
 		<div class="project-pf-phone-container">
-			<div class="project-pf-phone"><iframe src="{{ header.project_pf_iframe }}"></iframe><div class="project-pf-phone-image" style="background-image: url(' {{ page.url(true) }}/{{ header.project_pf_phoneimg }}')"></div></div>
+			<div class="project-pf-phone">
+				{% if header.project_pf_iframe %}
+					<iframe src="{{ page.url(true) }}/{{ header.project_pf_iframe }}"></iframe>
+				{% endif %}
+				<div class="project-pf-phone-image" style="background-image: url(' {{ page.url(true) }}/{{ header.project_pf_phoneimg }}')"></div>
+			</div>
 		</div>
 		<div class="project-pf-content-container">
-			<h4>{{ page.title }}</h4>
-			<p>{{ content }}</p>
-			<a href="{{ header.project_pf_button_link }}" target="_blank" class="btn btn-arrow-r">{{ header.project_pf_button_text }}</a>
+			<div class="project-pf-content-inner-container">
+				<h4>{{ page.title }}</h4>
+				<p>{{ content }}</p>
+				{% if header.project_pf_button_link %}
+					<a href="{{ header.project_pf_button_link }}" target="_blank" class="btn btn-arrow-r">{{ header.project_pf_button_text }}</a>
+				{% endif %}
+			</div>
 		</div>
 	</div>
 
