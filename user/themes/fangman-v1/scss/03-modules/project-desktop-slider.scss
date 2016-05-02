@@ -1,0 +1,42 @@
+/* =========================================================
+
+Module: Project Desktop Slider
+
+========================================================= */
+.project-ds {
+	.project-ds-container {
+		@include outer-container;
+
+		.project-ds-content-container {
+			.project-ds-content-inner-container {
+
+			}
+		}
+
+		.project-ds-slider-container {
+			@include span-columns(8);
+			@include shift(2);
+
+			.project-ds-slider {
+				.project-ds-slide {
+					position: relative;
+					overflow: scroll;
+
+					&:before {
+						content: '';
+						padding-top: 66%;
+						display: block;
+					}
+
+					.project-ds-slide-image{
+						position: absolute;
+						top: 0;
+						img {
+							width: 100%;
+						}
+					}
+				}
+			}
+		}
+	}
+}

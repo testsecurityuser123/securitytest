@@ -1,0 +1,25 @@
+<section class="project-ds">
+	<div class="project-ds-container">
+		<div class="project-ds-content-container">
+			<div class="project-ds-content-inner-container">
+				<h4>{{ page.title }}</h4>
+				<p>{{ content }}</p>
+			</div>
+		</div>
+
+		<div class="project-ds-slider-container">
+			
+			<div class="project-ds-slider">
+			  	{% for slider in page.header.project_ds_slides %}
+				  	<a href="{{ page.url(true) }}/{{ slider.image }}" class="project-ds-slide">
+				  		<div class="project-ds-slide-image">
+				  			<img src="{{ page.url(true) }}/{{ slider.image }}" alt="{{ slider.alt }}">
+				  		</div>
+				  	</a>
+			  	{% endfor %}
+			</div>
+			
+		</div>
+
+	</div>
+</section>

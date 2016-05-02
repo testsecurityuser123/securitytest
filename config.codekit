@@ -55,6 +55,17 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/images\/0\/1\/3\/6\/f\/0136fa904d56320dadf553603b708bd7f139371c-bf19-pbc-homepage-v6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30512,
+		"inputAbbreviatedPath": "\/images\/0\/1\/3\/6\/f\/0136fa904d56320dadf553603b708bd7f139371c-bf19-pbc-homepage-v6.png",
+		"outputAbbreviatedPath": "\/images\/0\/1\/3\/6\/f\/0136fa904d56320dadf553603b708bd7f139371c-bf19-pbc-homepage-v6.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/0\/d\/e\/a\/2\/0dea255e7ac75e9fec0a0f0cd91e9b71d0238d1d-recipe-pizza.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -62,6 +73,28 @@
 		"initialSize": 6713,
 		"inputAbbreviatedPath": "\/images\/0\/d\/e\/a\/2\/0dea255e7ac75e9fec0a0f0cd91e9b71d0238d1d-recipe-pizza.jpeg",
 		"outputAbbreviatedPath": "\/images\/0\/d\/e\/a\/2\/0dea255e7ac75e9fec0a0f0cd91e9b71d0238d1d-recipe-pizza.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/1\/a\/3\/5\/7\/1a35709395f6e7b5c8f940b5c1fadd5f9b4519cc-bf19-pbc-product-page-v1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16586,
+		"inputAbbreviatedPath": "\/images\/1\/a\/3\/5\/7\/1a35709395f6e7b5c8f940b5c1fadd5f9b4519cc-bf19-pbc-product-page-v1.png",
+		"outputAbbreviatedPath": "\/images\/1\/a\/3\/5\/7\/1a35709395f6e7b5c8f940b5c1fadd5f9b4519cc-bf19-pbc-product-page-v1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/1\/c\/3\/3\/5\/1c33579a90c863c6e2c10f41b1d9d71fd8604efc-bf19-pbc-flavor-index-v1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17492,
+		"inputAbbreviatedPath": "\/images\/1\/c\/3\/3\/5\/1c33579a90c863c6e2c10f41b1d9d71fd8604efc-bf19-pbc-flavor-index-v1.png",
+		"outputAbbreviatedPath": "\/images\/1\/c\/3\/3\/5\/1c33579a90c863c6e2c10f41b1d9d71fd8604efc-bf19-pbc-flavor-index-v1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -106,6 +139,17 @@
 		"initialSize": 166,
 		"inputAbbreviatedPath": "\/images\/3\/6\/c\/0\/2\/36c028eb061df8caa8acbe2b429ddc17b853baf0-close22x.png",
 		"outputAbbreviatedPath": "\/images\/3\/6\/c\/0\/2\/36c028eb061df8caa8acbe2b429ddc17b853baf0-close22x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/3\/7\/c\/2\/f\/37c2f6ed75ca35ba23368545ff543bc61e2454f3-bf19-pbc-store-index-v2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17193,
+		"inputAbbreviatedPath": "\/images\/3\/7\/c\/2\/f\/37c2f6ed75ca35ba23368545ff543bc61e2454f3-bf19-pbc-store-index-v2.png",
+		"outputAbbreviatedPath": "\/images\/3\/7\/c\/2\/f\/37c2f6ed75ca35ba23368545ff543bc61e2454f3-bf19-pbc-store-index-v2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -183,6 +227,28 @@
 		"initialSize": 375,
 		"inputAbbreviatedPath": "\/images\/9\/d\/5\/b\/e\/9d5bec7045a980d14e32b1cfc62bd9cff1c2511a-email2x.png",
 		"outputAbbreviatedPath": "\/images\/9\/d\/5\/b\/e\/9d5bec7045a980d14e32b1cfc62bd9cff1c2511a-email2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/9\/e\/a\/5\/b\/9ea5b07800aed7770af72249bfbefc7e45dc4332-bf19-pbc-cart-v1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4688,
+		"inputAbbreviatedPath": "\/images\/9\/e\/a\/5\/b\/9ea5b07800aed7770af72249bfbefc7e45dc4332-bf19-pbc-cart-v1.png",
+		"outputAbbreviatedPath": "\/images\/9\/e\/a\/5\/b\/9ea5b07800aed7770af72249bfbefc7e45dc4332-bf19-pbc-cart-v1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/a\/4\/3\/1\/3\/a43139383b25486a6306dc203f8997d189eab625-bf19-pbc-recipes-v4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9855,
+		"inputAbbreviatedPath": "\/images\/a\/4\/3\/1\/3\/a43139383b25486a6306dc203f8997d189eab625-bf19-pbc-recipes-v4.png",
+		"outputAbbreviatedPath": "\/images\/a\/4\/3\/1\/3\/a43139383b25486a6306dc203f8997d189eab625-bf19-pbc-recipes-v4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5684,6 +5750,113 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/user\/pages\/01.home\/02.pb-crave\/_project-desktop-slider\/bf19-pbc-cart-v1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 127211,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_project-desktop-slider\/bf19-pbc-cart-v1.png",
+		"outputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_project-desktop-slider\/bf19-pbc-cart-v1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/01.home\/02.pb-crave\/_project-desktop-slider\/bf19-pbc-flavor-index-v1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.28319e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_project-desktop-slider\/bf19-pbc-flavor-index-v1.png",
+		"outputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_project-desktop-slider\/bf19-pbc-flavor-index-v1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/01.home\/02.pb-crave\/_project-desktop-slider\/bf19-pbc-homepage-v6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5.03462e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_project-desktop-slider\/bf19-pbc-homepage-v6.png",
+		"outputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_project-desktop-slider\/bf19-pbc-homepage-v6.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/01.home\/02.pb-crave\/_project-desktop-slider\/bf19-pbc-product-page-v1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 819022,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_project-desktop-slider\/bf19-pbc-product-page-v1.png",
+		"outputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_project-desktop-slider\/bf19-pbc-product-page-v1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/01.home\/02.pb-crave\/_project-desktop-slider\/bf19-pbc-recipes-v4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.94401e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_project-desktop-slider\/bf19-pbc-recipes-v4.png",
+		"outputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_project-desktop-slider\/bf19-pbc-recipes-v4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/01.home\/02.pb-crave\/_project-desktop-slider\/bf19-pbc-store-index-v2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.19653e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_project-desktop-slider\/bf19-pbc-store-index-v2.png",
+		"outputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_project-desktop-slider\/bf19-pbc-store-index-v2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/01.home\/02.pb-crave\/_project-desktop-slider\/bf19-pbc-styles-v2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.53596e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_project-desktop-slider\/bf19-pbc-styles-v2.png",
+		"outputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_project-desktop-slider\/bf19-pbc-styles-v2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/01.home\/02.pb-crave\/_project-desktop-slider\/project-desktop-slider.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_project-desktop-slider\/project-desktop-slider.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/pages\/01.home\/02.pb-crave\/_project-desktop-slider\/project-desktop-slider.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_project-desktop-slider\/project-desktop-slider.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_project-desktop-slider\/project-desktop-slider.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/user\/pages\/01.home\/02.pb-crave\/default.html": {
 		"fileType": 8192,
@@ -18766,12 +18939,34 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/user\/themes\/fangman-v1\/js\/magnific-popup.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/js\/magnific-popup.js",
+		"outputAbbreviatedPath": "\/user\/themes\/fangman-v1\/js\/min\/magnific-popup-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/user\/themes\/fangman-v1\/js\/min\/fangman-v1-min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/js\/min\/fangman-v1-min.js",
 		"outputAbbreviatedPath": "\/user\/themes\/fangman-v1\/js\/min\/min\/fangman-v1-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/themes\/fangman-v1\/js\/min\/magnific-popup-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/js\/min\/magnific-popup-min.js",
+		"outputAbbreviatedPath": "\/user\/themes\/fangman-v1\/js\/min\/min\/magnific-popup-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -18799,6 +18994,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/user\/themes\/fangman-v1\/js\/min\/slick.min-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/js\/min\/slick.min-min.js",
+		"outputAbbreviatedPath": "\/user\/themes\/fangman-v1\/js\/min\/min\/slick.min-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/user\/themes\/fangman-v1\/js\/moderizer.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -18816,6 +19022,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/js\/skrollr.js",
 		"outputAbbreviatedPath": "\/user\/themes\/fangman-v1\/js\/min\/skrollr-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/themes\/fangman-v1\/js\/slick.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/js\/slick.min.js",
+		"outputAbbreviatedPath": "\/user\/themes\/fangman-v1\/js\/min\/slick.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -20069,6 +20286,47 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/user\/themes\/fangman-v1\/scss\/01-vendor\/css\/slick-map.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/scss\/01-vendor\/css\/slick-map.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/themes\/fangman-v1\/scss\/01-vendor\/magnific-popup\/magnific-popup-map.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/scss\/01-vendor\/magnific-popup\/magnific-popup-map.scss",
+		"outputAbbreviatedPath": "\/user\/themes\/fangman-v1\/scss\/01-vendor\/css\/magnific-popup-map.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/user\/themes\/fangman-v1\/scss\/01-vendor\/magnific-popup\/magnific-popup.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/scss\/01-vendor\/magnific-popup\/magnific-popup.scss",
+		"outputAbbreviatedPath": "\/user\/themes\/fangman-v1\/scss\/01-vendor\/css\/magnific-popup.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/user\/themes\/fangman-v1\/scss\/01-vendor\/neat\/_neat-helpers.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -20469,6 +20727,54 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/user\/themes\/fangman-v1\/scss\/01-vendor\/slick-slider\/slick-map.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/scss\/01-vendor\/slick-slider\/slick-map.scss",
+		"outputAbbreviatedPath": "\/user\/themes\/fangman-v1\/scss\/01-vendor\/css\/slick-map.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/user\/themes\/fangman-v1\/scss\/01-vendor\/slick-slider\/slick-theme.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/scss\/01-vendor\/slick-slider\/slick-theme.scss",
+		"outputAbbreviatedPath": "\/user\/themes\/fangman-v1\/scss\/01-vendor\/css\/slick-theme.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/user\/themes\/fangman-v1\/scss\/01-vendor\/slick-slider\/slick.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/scss\/01-vendor\/slick-slider\/slick.scss",
+		"outputAbbreviatedPath": "\/user\/themes\/fangman-v1\/scss\/01-vendor\/css\/slick.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/user\/themes\/fangman-v1\/scss\/02-base\/base-map.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -20645,6 +20951,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/user\/themes\/fangman-v1\/scss\/03-modules\/project-desktop-slider.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/scss\/03-modules\/project-desktop-slider.scss",
+		"outputAbbreviatedPath": "\/user\/themes\/fangman-v1\/scss\/css\/project-desktop-slider.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/user\/themes\/fangman-v1\/scss\/03-modules\/project-intro.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -20707,6 +21029,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/scss\/css-compiled\/typography.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/themes\/fangman-v1\/scss\/css\/project-desktop-slider.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/scss\/css\/project-desktop-slider.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

@@ -32,8 +32,11 @@
     {% block javascripts %}
         {% do assets.addJs('jquery',101) %}
         {% do assets.addJs('theme://js/min/modernizr-min.js',100) %}
-      {#   {% do assets.addJs('theme://js/min/skrollr-min.js',90) %} #}
-        {% do assets.addJs('theme://js/min/fangman-v1-min.js' ,98) %}
+      {#   {% do assets.addJs('theme://js/min/skrollr-min.js',99) %} #}
+        {% do assets.addJs('theme://js/slick.min.js' ,98) %}
+        {% do assets.addJs('theme://js/magnific-popup.js' ,97) %}
+        {% do assets.addJs('theme://js/min/fangman-v1-min.js' ,95) %}
+
     {% endblock %}
     {{ assets.js() }}
 

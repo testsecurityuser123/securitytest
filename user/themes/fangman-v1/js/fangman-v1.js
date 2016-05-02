@@ -31,4 +31,41 @@ $(function() {
   });
 });
 
+/* =========================================================
 
+Project Desktop Slider - Slick Slider
+
+// ========================================================= */
+ $(document).ready(function(){
+    $(".project-ds-slider").slick({
+      dots: true,
+      arrows: true,
+      speed: 500,
+      rows: 1
+    });
+});
+
+/* =========================================================
+
+Project Desktop Slider - Image Modal
+
+// ========================================================= */
+
+// $(document).ready(function() {
+//   $('.image-link').magnificPopup({type:'image'});
+// });
+$(document).ready(function() {
+  $('.project-ds-slider').magnificPopup({
+    delegate: 'a', // child items selector, by clicking on it popup will open
+    type: 'image',
+    closeOnContentClick: true,
+    closeOnBgClick: true,
+    // modal: true,
+    // fixedContentPos: true,
+    removalDelay: 300,
+    mainClass: 'ds-modal-animation',
+    gallery: {
+      enabled: true
+    },
+  });
+});

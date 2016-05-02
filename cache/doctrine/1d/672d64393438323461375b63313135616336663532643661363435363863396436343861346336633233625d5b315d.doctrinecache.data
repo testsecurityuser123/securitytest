@@ -1,0 +1,25 @@
+1462752182
+a:2:{s:7:"content";s:1041:"<section class="project-ds">
+	<div class="project-ds-container">
+		<div class="project-ds-content-container">
+			<div class="project-pf-content-inner-container">
+				<h4>Project Desktop Slider</h4>
+				<p><p>Donec ullamcorper nulla non metus auctor fringilla. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p></p>
+			</div>
+		</div>
+
+		<div class="project-ds-slider-container">
+			
+			<div class="project-ds-slider">
+			  					  	<div class="project-ds-slide">
+				  		<img src="http://localhost:8888/portfolio-grav-2016/pb-crave/_project-desktop-slider/bf19-pbc-homepage-v6.png" alt="Homepage">
+				  	</div>
+			  					  	<div class="project-ds-slide">
+				  		<img src="http://localhost:8888/portfolio-grav-2016/pb-crave/_project-desktop-slider/bf19-pbc-product-page-v1.png" alt="Product Page">
+				  	</div>
+			  				</div>
+			
+		</div>
+
+	</div>
+</section>";s:12:"content_meta";N;}
