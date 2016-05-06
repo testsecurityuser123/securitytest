@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1461816942,
-    'checksum' => '69bd391bb669c4b976d7d62e07282753',
+    'timestamp' => 1462508398,
+    'checksum' => '897c900a36e166a7da826104b4e499f5',
     'files' => [
         'system/blueprints/config' => [
             'media' => [
@@ -49,7 +49,7 @@ return [
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/blueprints.yaml',
-                'modified' => 1456435150
+                'modified' => 1462508397
             ],
             'plugins/view' => [
                 'file' => 'user/plugins/view/blueprints.yaml',
@@ -953,12 +953,12 @@ return [
             ],
             'plugins.problems.enabled' => [
                 'type' => 'toggle',
-                'label' => 'Plugin status',
+                'label' => 'PLUGIN_ADMIN.PLUGIN_STATUS',
                 'highlight' => 1,
                 'default' => 0,
                 'options' => [
-                    1 => 'Enabled',
-                    0 => 'Disabled'
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
                 ],
                 'validate' => [
                     'type' => 'bool'
@@ -971,8 +971,8 @@ return [
                 'highlight' => 1,
                 'default' => 1,
                 'options' => [
-                    1 => 'Enabled',
-                    0 => 'Disabled'
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
                 ],
                 'validate' => [
                     'type' => 'bool'

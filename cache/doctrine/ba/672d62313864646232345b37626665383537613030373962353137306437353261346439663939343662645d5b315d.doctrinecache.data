@@ -1,0 +1,36 @@
+1463113632
+a:2:{s:7:"content";s:1902:"<section class="project-ds">
+	<div class="project-ds-container">
+		<div class="project-ds-content-container">
+			<div class="project-ds-content-inner-container">
+				<h4>Project Desktop Slider</h4>
+				<p><p>Donec ullamcorper nulla non metus auctor fringilla. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p></p>
+			</div>
+		</div>
+
+		<div class="project-ds-slider-container">
+	
+			<div class="project-ds-slider">
+			  					  	<a href="http://localhost:8888/portfolio-grav-2016/pb-crave/_project-desktop-slider/bf19-pbc-homepage-v6.png" class="project-ds-slide">
+				  		<div class="project-ds-slide-image">
+				  			<img src="http://localhost:8888/portfolio-grav-2016/pb-crave/_project-desktop-slider/bf19-pbc-homepage-v6.png" alt="Homepage">
+				  		</div>
+				  	</a>
+			  					  	<a href="http://localhost:8888/portfolio-grav-2016/pb-crave/_project-desktop-slider/bf19-pbc-product-page-v1.png" class="project-ds-slide">
+				  		<div class="project-ds-slide-image">
+				  			<img src="http://localhost:8888/portfolio-grav-2016/pb-crave/_project-desktop-slider/bf19-pbc-product-page-v1.png" alt="Product Page">
+				  		</div>
+				  	</a>
+			  					  	<a href="http://localhost:8888/portfolio-grav-2016/pb-crave/_project-desktop-slider/bf19-pbc-recipes-v4.png" class="project-ds-slide">
+				  		<div class="project-ds-slide-image">
+				  			<img src="http://localhost:8888/portfolio-grav-2016/pb-crave/_project-desktop-slider/bf19-pbc-recipes-v4.png" alt="Recipes">
+				  		</div>
+				  	</a>
+			  				</div>
+
+			<div class="project-pf-background" style="background-image: url(' http://localhost:8888/portfolio-grav-2016/pb-crave/_project-desktop-slider/pbc-fruit-recipe.jpg');"></div>
+			
+		</div>
+
+	</div>
+</section>";s:12:"content_meta";N;}

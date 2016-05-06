@@ -8,7 +8,7 @@
 		</div>
 
 		<div class="project-ds-slider-container">
-			
+	
 			<div class="project-ds-slider">
 			  	{% for slider in page.header.project_ds_slides %}
 				  	<a href="{{ page.url(true) }}/{{ slider.image }}" class="project-ds-slide">
@@ -18,8 +18,8 @@
 				  	</a>
 			  	{% endfor %}
 			</div>
-			
 		</div>
 
 	</div>
+	<div class="project-ds-background" style="background-image: url(' {{ page.url(true) }}/{{ header.project_ds_background_image }}');"></div>
 </section>

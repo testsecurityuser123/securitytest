@@ -32,7 +32,7 @@ class __TwigTemplate_ecbdebca3e495c26ec66d243f15d4a72de7f35039d5d6fa4af6779ea8cd
 \t\t</div>
 
 \t\t<div class=\"project-ds-slider-container\">
-\t\t\t
+\t
 \t\t\t<div class=\"project-ds-slider\">
 \t\t\t  \t";
         // line 13
@@ -63,10 +63,15 @@ class __TwigTemplate_ecbdebca3e495c26ec66d243f15d4a72de7f35039d5d6fa4af6779ea8cd
         $context = array_intersect_key($context, $_parent) + $_parent;
         // line 20
         echo "\t\t\t</div>
-\t\t\t
 \t\t</div>
 
 \t</div>
+\t<div class=\"project-ds-background\" style=\"background-image: url(' ";
+        // line 24
+        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array(0 => true), "method");
+        echo "/";
+        echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "project_ds_background_image", array());
+        echo "');\"></div>
 </section>";
     }
 
@@ -82,7 +87,7 @@ class __TwigTemplate_ecbdebca3e495c26ec66d243f15d4a72de7f35039d5d6fa4af6779ea8cd
 
     public function getDebugInfo()
     {
-        return array (  65 => 20,  51 => 16,  43 => 14,  39 => 13,  29 => 6,  25 => 5,  19 => 1,);
+        return array (  71 => 24,  65 => 20,  51 => 16,  43 => 14,  39 => 13,  29 => 6,  25 => 5,  19 => 1,);
     }
 }
 /* <section class="project-ds">*/
@@ -95,7 +100,7 @@ class __TwigTemplate_ecbdebca3e495c26ec66d243f15d4a72de7f35039d5d6fa4af6779ea8cd
 /* 		</div>*/
 /* */
 /* 		<div class="project-ds-slider-container">*/
-/* 			*/
+/* 	*/
 /* 			<div class="project-ds-slider">*/
 /* 			  	{% for slider in page.header.project_ds_slides %}*/
 /* 				  	<a href="{{ page.url(true) }}/{{ slider.image }}" class="project-ds-slide">*/
@@ -105,8 +110,8 @@ class __TwigTemplate_ecbdebca3e495c26ec66d243f15d4a72de7f35039d5d6fa4af6779ea8cd
 /* 				  	</a>*/
 /* 			  	{% endfor %}*/
 /* 			</div>*/
-/* 			*/
 /* 		</div>*/
 /* */
 /* 	</div>*/
+/* 	<div class="project-ds-background" style="background-image: url(' {{ page.url(true) }}/{{ header.project_ds_background_image }}');"></div>*/
 /* </section>*/

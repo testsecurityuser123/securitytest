@@ -12,6 +12,11 @@ form:
       fields:
         content: 
           fields:
+            header.project_ds_background_image:
+              type: pagemediaselect
+              size: large
+              label: Background Image
+
             header.project_ds_slides:
               name: Desktop Slider Slides
               type: list

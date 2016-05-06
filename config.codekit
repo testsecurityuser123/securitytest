@@ -132,6 +132,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/3\/0\/8\/9\/a\/3089a59737f05a74313f12a51febb84992197426-bf19-pbc-styles-v2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5783,
+		"inputAbbreviatedPath": "\/images\/3\/0\/8\/9\/a\/3089a59737f05a74313f12a51febb84992197426-bf19-pbc-styles-v2.png",
+		"outputAbbreviatedPath": "\/images\/3\/0\/8\/9\/a\/3089a59737f05a74313f12a51febb84992197426-bf19-pbc-styles-v2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/3\/6\/c\/0\/2\/36c028eb061df8caa8acbe2b429ddc17b853baf0-close22x.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -260,6 +271,17 @@
 		"initialSize": 4116,
 		"inputAbbreviatedPath": "\/images\/a\/f\/2\/9\/2\/af2920e8181536752904ed7ac61effc32f72d1ac-twincities.jpeg",
 		"outputAbbreviatedPath": "\/images\/a\/f\/2\/9\/2\/af2920e8181536752904ed7ac61effc32f72d1ac-twincities.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/b\/9\/a\/f\/4\/b9af4dec57dc8af0c8b32e0ae1a369302c55d950-forest.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6820,
+		"inputAbbreviatedPath": "\/images\/b\/9\/a\/f\/4\/b9af4dec57dc8af0c8b32e0ae1a369302c55d950-forest.jpeg",
+		"outputAbbreviatedPath": "\/images\/b\/9\/a\/f\/4\/b9af4dec57dc8af0c8b32e0ae1a369302c55d950-forest.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5824,6 +5846,17 @@
 		"initialSize": 4.53596e+06,
 		"inputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_project-desktop-slider\/bf19-pbc-styles-v2.png",
 		"outputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_project-desktop-slider\/bf19-pbc-styles-v2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/01.home\/02.pb-crave\/_project-desktop-slider\/pbc-fruit-recipe.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.02181e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_project-desktop-slider\/pbc-fruit-recipe.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_project-desktop-slider\/pbc-fruit-recipe.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -14163,6 +14196,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/problems\/hebe.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/problems\/hebe.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/user\/plugins\/problems\/hebe-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/user\/plugins\/problems\/html\/problems.html": {
 		"fileType": 8192,
