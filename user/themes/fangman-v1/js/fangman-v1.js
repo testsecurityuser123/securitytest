@@ -63,6 +63,7 @@ $(document).ready(function() {
     // modal: true,
     // fixedContentPos: true,
     removalDelay: 300,
+    verticalFit: false,
     mainClass: 'ds-modal-animation',
     gallery: {
       enabled: true

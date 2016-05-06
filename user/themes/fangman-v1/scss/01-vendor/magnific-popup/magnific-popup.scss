@@ -82,7 +82,7 @@ $font_2: monospace;
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1043;
+  z-index: 10001;
   position: fixed;
   outline: none !important;
 }
@@ -322,8 +322,8 @@ button::-moz-focus-inner {
     height: auto;
     z-index: -1;
     //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-    box-shadow: 0 0 8px $black_60;
-    background: $color_tundora_approx;
+    //box-shadow: 0 0 8px $black_60;
+    //background: $color_tundora_approx;
   }
   small {
     color: $color_silver_approx;
@@ -468,7 +468,8 @@ button::-moz-focus-inner {
 }
 img.mfp-img {
   width: auto;
-  max-width: 100%;
+  max-width: 90%;
+  max-height: 100% !important;
   height: auto;
   display: block;
   line-height: 0;

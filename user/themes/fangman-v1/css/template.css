@@ -262,7 +262,7 @@ button.mfp-close, button.mfp-arrow {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1043;
+  z-index: 10001;
   position: fixed;
   outline: none !important; }
 
@@ -447,9 +447,7 @@ button::-moz-focus-inner {
     right: 0;
     width: auto;
     height: auto;
-    z-index: -1;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
-    background: #444444; }
+    z-index: -1; }
   .mfp-figure small {
     color: #bdbdbd;
     display: block;
@@ -566,7 +564,8 @@ button::-moz-focus-inner {
 
 img.mfp-img {
   width: auto;
-  max-width: 100%;
+  max-width: 90%;
+  max-height: 100% !important;
   height: auto;
   display: block;
   line-height: 0;
@@ -658,6 +657,7 @@ h4 {
   font-family: "Montserrat", sans-serif;
   font-weight: 100;
   font-size: 1.5rem;
+  color: #cb4e4e;
   margin-bottom: 0; }
 
 #site-navigation {
@@ -1518,8 +1518,6 @@ Module: Project Phone Feature
             -ms-transform: translateY(-50%);
             -o-transform: translateY(-50%);
             transform: translateY(-50%); } }
-        .project-pf .project-pf-container .project-pf-content-container .project-pf-content-inner-container h4 {
-          color: #cb4e4e; }
         .project-pf .project-pf-container .project-pf-content-container .project-pf-content-inner-container .btn {
           margin-top: 1.875rem; }
   .project-pf .project-pf-background {
@@ -1555,31 +1553,101 @@ Module: Project Phone Feature
 Module: Project Desktop Slider
 
 ========================================================= */
-.project-ds .project-ds-container {
-  max-width: 80em;
-  margin-left: auto;
-  margin-right: auto; }
-  .project-ds .project-ds-container::after {
-    clear: both;
-    content: "";
-    display: table; }
-  .project-ds .project-ds-container .project-ds-slider-container {
-    float: left;
-    display: block;
-    margin-right: 2.3576515979%;
-    width: 65.8807828007%;
-    margin-left: 17.0596085997%; }
-    .project-ds .project-ds-container .project-ds-slider-container:last-child {
-      margin-right: 0; }
-    .project-ds .project-ds-container .project-ds-slider-container .project-ds-slider .project-ds-slide {
+.project-ds {
+  margin-top: 5.625rem;
+  position: relative; }
+  .project-ds .project-ds-container {
+    max-width: 80em;
+    margin-left: auto;
+    margin-right: auto; }
+    .project-ds .project-ds-container::after {
+      clear: both;
+      content: "";
+      display: table; }
+    .project-ds .project-ds-container .project-ds-content-container .project-ds-content-inner-container {
+      text-align: center;
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 82.9403914003%;
+      margin-left: 8.5298042998%; }
+      .project-ds .project-ds-container .project-ds-content-container .project-ds-content-inner-container:last-child {
+        margin-right: 0; }
+      @media screen and (min-width: 48em) {
+        .project-ds .project-ds-container .project-ds-content-container .project-ds-content-inner-container {
+          float: left;
+          display: block;
+          margin-right: 2.3576515979%;
+          width: 65.8807828007%;
+          margin-left: 17.0596085997%; }
+          .project-ds .project-ds-container .project-ds-content-container .project-ds-content-inner-container:last-child {
+            margin-right: 0; } }
+      @media screen and (min-width: 64em) {
+        .project-ds .project-ds-container .project-ds-content-container .project-ds-content-inner-container {
+          float: left;
+          display: block;
+          margin-right: 2.3576515979%;
+          width: 48.821174201%;
+          margin-left: 25.5894128995%; }
+          .project-ds .project-ds-container .project-ds-content-container .project-ds-content-inner-container:last-child {
+            margin-right: 0; } }
+    .project-ds .project-ds-container .project-ds-slider-container {
       position: relative;
-      overflow: scroll; }
-      .project-ds .project-ds-container .project-ds-slider-container .project-ds-slider .project-ds-slide:before {
-        content: '';
-        padding-top: 66%;
-        display: block; }
-      .project-ds .project-ds-container .project-ds-slider-container .project-ds-slider .project-ds-slide .project-ds-slide-image {
-        position: absolute;
-        top: 0; }
-        .project-ds .project-ds-container .project-ds-slider-container .project-ds-slider .project-ds-slide .project-ds-slide-image img {
-          width: 100%; }
+      z-index: 10;
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 82.9403914003%;
+      margin-left: 8.5298042998%;
+      padding: 0 4%; }
+      .project-ds .project-ds-container .project-ds-slider-container:last-child {
+        margin-right: 0; }
+      .project-ds .project-ds-container .project-ds-slider-container .project-ds-slider {
+        margin-top: 3.75rem; }
+        @media screen and (min-width: 48em) {
+          .project-ds .project-ds-container .project-ds-slider-container .project-ds-slider {
+            margin-top: 5.625rem; } }
+        .project-ds .project-ds-container .project-ds-slider-container .project-ds-slider:after {
+          content: '';
+          position: absolute;
+          z-index: 5;
+          pointer-events: none;
+          display: block;
+          top: -17%;
+          bottom: -55%;
+          left: -9%;
+          right: -9%;
+          width: auto;
+          height: auto;
+          background-image: url("../images/desktop.png");
+          background-size: 100% auto;
+          background-repeat: no-repeat; }
+        .project-ds .project-ds-container .project-ds-slider-container .project-ds-slider .project-ds-slide {
+          position: relative;
+          overflow: scroll; }
+          .project-ds .project-ds-container .project-ds-slider-container .project-ds-slider .project-ds-slide:before {
+            content: '';
+            padding-top: 57%;
+            display: block; }
+          .project-ds .project-ds-container .project-ds-slider-container .project-ds-slider .project-ds-slide .project-ds-slide-image {
+            position: absolute;
+            top: 0; }
+            .project-ds .project-ds-container .project-ds-slider-container .project-ds-slider .project-ds-slide .project-ds-slide-image img {
+              width: 100%; }
+  .project-ds .project-ds-background {
+    position: absolute;
+    z-index: 1;
+    max-height: 33.375rem;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.05;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); }
+    .project-ds .project-ds-background:before {
+      content: '';
+      padding-top: 42%;
+      display: block; }
