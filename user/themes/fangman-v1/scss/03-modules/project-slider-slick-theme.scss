@@ -37,6 +37,7 @@ $slick-opacity-not-active: 0.25 !default;
 /* Slider */
 
 .slick-list {
+    z-index: 2;
     .slick-loading & {
         background: #fff slick-image-url("ajax-loader.gif") center center no-repeat;
     }
@@ -58,6 +59,7 @@ $slick-opacity-not-active: 0.25 !default;
 .slick-prev,
 .slick-next {
     position: absolute;
+    z-index: 1;
     display: block;
     height: 20px;
     width: 20px;
@@ -74,6 +76,7 @@ $slick-opacity-not-active: 0.25 !default;
     padding: 0;
     border: none;
     outline: none;
+    @include transition($transition-med);
     &:hover, &:focus {
         outline: none;
         background: transparent;
@@ -98,7 +101,8 @@ $slick-opacity-not-active: 0.25 !default;
 }
 
 .slick-prev {
-    left: -90px;
+    left: 12%;
+    @include transform();
     // [dir="rtl"] & {
     //     left: auto;
     //     right: 605px;
@@ -106,28 +110,34 @@ $slick-opacity-not-active: 0.25 !default;
     &:before {
         content: '';
         display: block;
-        height: rem(30);
-        width: rem(30);
-        border: rem(1) solid #fff;
-        @include transfrom(translateY(45deg));
-        // content: $slick-prev-character;
-        // [dir="rtl"] & {
-        //     content: $slick-next-character;
-        // }
+        height: rem(18);
+        width: rem(18);
+        border: solid #fff;
+        border-width: 0 0 rem(2) rem(2);
+        @include transform(rotate(45deg));
     }
 }
 
 .slick-next {
-    right: -90px;
-    [dir="rtl"] & {
-        left: -90px;
-        right: auto;
-    }
+    right: 12%;
+    // [dir="rtl"] & {
+    //     left: -90px;
+    //     right: auto;
+    // }
+    // &:before {
+    //     content: $slick-next-character;
+    //     [dir="rtl"] & {
+    //         content: $slick-prev-character;
+    //     }
+    // }
     &:before {
-        content: $slick-next-character;
-        [dir="rtl"] & {
-            content: $slick-prev-character;
-        }
+        content: '';
+        display: block;
+        height: rem(18);
+        width: rem(18);
+        border: solid #fff;
+        border-width: rem(2) rem(2) 0 0;
+        @include transform(rotate(45deg));
     }
 }
 
@@ -155,7 +165,7 @@ $slick-opacity-not-active: 0.25 !default;
         cursor: pointer;
         button {
             border: 0;
-            background: #cb4e4e;
+            background: $color-accent;
             display: block;
             height: 15px;
             width: 15px;
@@ -190,7 +200,19 @@ $slick-opacity-not-active: 0.25 !default;
             // }
         }
         &.slick-active button {
-            background: #fff;
+            background: $color-white;
         }
+    }
+}
+
+.project-ds {
+    &:hover {
+        .slick-next {
+            right: -12%;
+        }
+        .slick-prev {
+            left: -12%;
+        }
+
     }
 }

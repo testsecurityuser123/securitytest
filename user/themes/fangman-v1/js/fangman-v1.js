@@ -65,6 +65,7 @@ $(document).ready(function() {
     removalDelay: 300,
     verticalFit: false,
     mainClass: 'ds-modal-animation',
+    showCloseBtn: false,
     gallery: {
       enabled: true
     },

@@ -62,6 +62,7 @@ Module: Project Desktop Slider
 				}
 				.project-ds-slide {
 					position: relative;
+					z-index: 4;
 					overflow: scroll;
 
 					&:before {

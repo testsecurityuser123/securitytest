@@ -70,12 +70,12 @@ $font_2: monospace;
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1042;
+  z-index: 10001;
   overflow: hidden;
   position: fixed;
-  background: $cod_gray;
-  opacity: 0.8;
-  filter: alpha(opacity=80);
+  background: #242433;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
 }
 .mfp-wrap {
   top: 0;
@@ -127,20 +127,40 @@ $font_2: monospace;
 .mfp-close {
   //Instead of the line below you could use @include user-select($select)
   user-select: none;
-  width: 44px;
-  height: 44px;
-  line-height: 44px;
-  position: absolute;
-  right: 0;
-  top: 0;
+  width: rem(30) !important;
+  height: rem(30);
+  position: fixed;
+  right: 3% !important;
+  top: 3%;
   text-decoration: none;
   text-align: center;
   opacity: 0.65;
   padding: 0 0 18px 10px;
-  color: $white;
-  font-style: normal;
-  font-size: 28px;
-  font-family: $font_0, $font_1, $font_2;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    height: rem(24);
+    width: rem(2);
+    background-color: #fff;
+    @include transform(rotate(45deg));
+  }
+
+   &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    height: rem(24);
+    width: rem(2);
+    background-color: #fff;
+    @include transform(rotate(-45deg));
+  }
+
   &:hover {
     opacity: 1;
   }
@@ -154,17 +174,18 @@ $font_2: monospace;
 .mfp-arrow {
   //Instead of the line below you could use @include user-select($select)
   user-select: none;
-  position: absolute;
+  position: fixed;
   opacity: 0.65;
   margin: 0;
   top: 50%;
-  margin-top: -55px;
+  margin-top: -30px;
+  // @include transform(translateY(-50%));
   padding: 0;
-  width: 90px;
-  height: 110px;
-  &:active {
-    margin-top: -54px;
-  }
+  width: rem(60);
+  height: rem(60);
+  // &:active {
+  //   margin-top: -54px;
+  // }
   &:hover {
     opacity: 1;
   }
@@ -172,9 +193,9 @@ $font_2: monospace;
     opacity: 1;
   }
   &:before {
-    @extend %extend_3;
-    border-top-width: 21px;
-    border-bottom-width: 21px;
+    // @extend %extend_3;
+    // border-top-width: 21px;
+    // border-bottom-width: 21px;
   }
   &:after {
     @extend %extend_3;
@@ -257,38 +278,27 @@ button::-moz-focus-inner {
 }
 .mfp-arrow-left {
   left: 0;
+  
   &:after {
-    border-right: 17px solid $white;
-    margin-left: 31px;
-  }
-  .mfp-a {
-    border-right: 17px solid $white;
-    margin-left: 31px;
-  }
-  &:before {
-    margin-left: 25px;
-    border-right: 27px solid $color_cape_cod_approx;
-  }
-  .mfp-b {
-    margin-left: 25px;
-    border-right: 27px solid $color_cape_cod_approx;
+    content: '';
+    display: block;
+    height: rem(18);
+    width: rem(18);
+    border: solid #fff;
+    border-width: 0 0 rem(2) rem(2);
+    @include transform(rotate(45deg));
   }
 }
 .mfp-arrow-right {
   right: 0;
   &:after {
-    border-left: 17px solid $white;
-    margin-left: 39px;
-  }
-  .mfp-a {
-    border-left: 17px solid $white;
-    margin-left: 39px;
-  }
-  &:before {
-    border-left: 27px solid $color_cape_cod_approx;
-  }
-  .mfp-b {
-    border-left: 27px solid $color_cape_cod_approx;
+      content: '';
+      display: block;
+      height: rem(18);
+      width: rem(18);
+      border: solid #fff;
+      border-width: rem(2) rem(2) 0 0;
+      @include transform(rotate(45deg));
   }
 }
 .mfp-iframe-scaler {
