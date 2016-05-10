@@ -209,6 +209,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/6\/b\/2\/6\/e\/6b26e5783e4c144ccb74a7ea3edfd6aa35bb6e48-pbc-bars.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5169,
+		"inputAbbreviatedPath": "\/images\/6\/b\/2\/6\/e\/6b26e5783e4c144ccb74a7ea3edfd6aa35bb6e48-pbc-bars.jpeg",
+		"outputAbbreviatedPath": "\/images\/6\/b\/2\/6\/e\/6b26e5783e4c144ccb74a7ea3edfd6aa35bb6e48-pbc-bars.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/7\/4\/7\/d\/9\/747d9d0222a473d06ab2a824fec9de29b71e7982-theconnectionny60393.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -293,6 +304,28 @@
 		"initialSize": 4633,
 		"inputAbbreviatedPath": "\/images\/c\/1\/b\/f\/f\/c1bff0eee772cff32b25defe91a51e6df1ce9827-linkedin-image.jpeg",
 		"outputAbbreviatedPath": "\/images\/c\/1\/b\/f\/f\/c1bff0eee772cff32b25defe91a51e6df1ce9827-linkedin-image.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/c\/c\/e\/a\/f\/cceafb0467a2845712991263e2f5632305118483-pbc-recipe-bread.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5788,
+		"inputAbbreviatedPath": "\/images\/c\/c\/e\/a\/f\/cceafb0467a2845712991263e2f5632305118483-pbc-recipe-bread.jpeg",
+		"outputAbbreviatedPath": "\/images\/c\/c\/e\/a\/f\/cceafb0467a2845712991263e2f5632305118483-pbc-recipe-bread.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/d\/1\/a\/6\/8\/d1a68695dc88cac3ed8fd7cebae57464d6a9b147-pbc-product-mock.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5552,
+		"inputAbbreviatedPath": "\/images\/d\/1\/a\/6\/8\/d1a68695dc88cac3ed8fd7cebae57464d6a9b147-pbc-product-mock.jpeg",
+		"outputAbbreviatedPath": "\/images\/d\/1\/a\/6\/8\/d1a68695dc88cac3ed8fd7cebae57464d6a9b147-pbc-product-mock.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1793,6 +1826,69 @@
 		"inputAbbreviatedPath": "\/user\/pages\/01.home\/01.connection\/modular.md",
 		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/user\/pages\/01.home\/01.connection\/modular.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/user\/pages\/01.home\/02.pb-crave\/_pb-crave-gallery\/pbc-bars.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 201482,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_pb-crave-gallery\/pbc-bars.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_pb-crave-gallery\/pbc-bars.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/01.home\/02.pb-crave\/_pb-crave-gallery\/pbc-product-mock.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 511829,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_pb-crave-gallery\/pbc-product-mock.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_pb-crave-gallery\/pbc-product-mock.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/01.home\/02.pb-crave\/_pb-crave-gallery\/pbc-recipe-bread.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 356760,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_pb-crave-gallery\/pbc-recipe-bread.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_pb-crave-gallery\/pbc-recipe-bread.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/01.home\/02.pb-crave\/_pb-crave-gallery\/project-gallery.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_pb-crave-gallery\/project-gallery.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/pages\/01.home\/02.pb-crave\/_pb-crave-gallery\/project-gallery.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_pb-crave-gallery\/project-gallery.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/user\/pages\/01.home\/02.pb-crave\/_pb-crave-gallery\/project-gallery.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -21011,6 +21107,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/user\/themes\/fangman-v1\/scss\/03-modules\/project-gallery.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/scss\/03-modules\/project-gallery.scss",
+		"outputAbbreviatedPath": "\/user\/themes\/fangman-v1\/scss\/css\/project-gallery.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/user\/themes\/fangman-v1\/scss\/03-modules\/project-intro.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -21098,6 +21210,15 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/scss\/css\/project-desktop-slider.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/themes\/fangman-v1\/scss\/css\/project-gallery.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/scss\/css\/project-gallery.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

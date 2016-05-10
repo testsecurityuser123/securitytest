@@ -7,7 +7,7 @@ taxonomy:
 content:
     order:
         dir: asc
-        by: default
+        by: date
     items: '@self.modular'
 ---
 

@@ -1444,6 +1444,7 @@ Module: Project Desktop Slider
 ========================================================= */
 .project-ds {
   margin-top: 5.625rem;
+  margin-bottom: 25%;
   position: relative; }
   .project-ds .project-ds-container {
     max-width: 80em;
@@ -1682,3 +1683,73 @@ Module: Project Desktop Slider
   right: -12%; }
 .project-ds:hover .slick-prev {
   left: -12%; }
+
+/* =========================================================
+
+Module: Project Gallery
+
+========================================================= */
+.project-gal {
+  max-width: 80em;
+  margin-left: auto;
+  margin-right: auto; }
+  .project-gal::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .project-gal .project-gal-container {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 82.9403914003%;
+    margin-left: 8.5298042998%; }
+    .project-gal .project-gal-container:last-child {
+      margin-right: 0; }
+    .project-gal .project-gal-container .project-gal-half-image {
+      position: relative;
+      display: block;
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 100%;
+      border-radius: 0.125rem;
+      margin-bottom: 2.5%;
+      box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.15);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .project-gal .project-gal-container .project-gal-half-image:last-child {
+        margin-right: 0; }
+      @media screen and (min-width: 48em) {
+        .project-gal .project-gal-container .project-gal-half-image {
+          float: left;
+          display: block;
+          margin-right: 2.3576515979%;
+          width: 48.821174201%; }
+          .project-gal .project-gal-container .project-gal-half-image:last-child {
+            margin-right: 0; }
+          .project-gal .project-gal-container .project-gal-half-image:nth-child(2) {
+            margin-right: 0; } }
+      .project-gal .project-gal-container .project-gal-half-image:before {
+        content: '';
+        padding-top: 66%;
+        display: block; }
+    .project-gal .project-gal-container .project-gal-full-image {
+      position: relative;
+      display: block;
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 100%;
+      border-radius: 0.125rem;
+      margin-bottom: 2.5%;
+      box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.15);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .project-gal .project-gal-container .project-gal-full-image:last-child {
+        margin-right: 0; }
+      .project-gal .project-gal-container .project-gal-full-image:before {
+        content: '';
+        padding-top: 66%;
+        display: block; }
