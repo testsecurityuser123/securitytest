@@ -1,0 +1,24 @@
+1464152772
+a:2:{s:7:"content";s:902:"<section class="project-intro">
+	<div class="project-intro-container">
+		
+		<div class="project-intro-info-container">
+			<div class="project-intro-info">
+				<h2>PB Crave<br>Peanut Butter</h2>
+				<p><p>AN ECOMMEVER SITE FOR A NEW PLAYER IN THE GAME</p></p>
+			</div>
+		</div>
+
+		<div class="project-intro-image-container">
+
+			<div class="project-intro-image-laptop" style="background-image: url(' http://localhost:8888/portfolio-grav-2016/pb-crave/_pb-crave-intro/bf19-pbc-homepage-v8.png');"></div>
+
+			<div class="project-intro-image-phone" style="background-image: url(' http://localhost:8888/portfolio-grav-2016/pb-crave/_pb-crave-intro/bf19-pbc-product-page-mobile-v2.png');"></div>
+
+		</div>
+
+	</div>
+	<div class="project-intro-background-image" style="background-image: url(' http://localhost:8888/portfolio-grav-2016/pb-crave/_pb-crave-intro/find-a-store-1920x654.jpg');"></div>
+</section>
+
+";s:12:"content_meta";N;}
