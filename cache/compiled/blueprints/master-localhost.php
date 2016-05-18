@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1462508398,
-    'checksum' => '897c900a36e166a7da826104b4e499f5',
+    'timestamp' => 1463539594,
+    'checksum' => '48a7c6bebf3449730da23f508702c871',
     'files' => [
         'system/blueprints/config' => [
             'media' => [
@@ -29,7 +29,7 @@ return [
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/blueprints.yaml',
-                'modified' => 1461816939
+                'modified' => 1463539159
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/blueprints.yaml',
@@ -382,8 +382,7 @@ return [
                 'options' => [
                     'none' => 'None',
                     'ssl' => 'SSL',
-                    'tls' => 'TLS',
-                    'starttls' => 'STARTTLS'
+                    'tls' => 'TLS'
                 ],
                 'name' => 'plugins.email.mailer.smtp.encryption'
             ],

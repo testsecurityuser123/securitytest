@@ -1,0 +1,11 @@
+1464144551
+a:2:{s:7:"content";s:607:"<section class="project-gal">
+	<div class="project-gal-container">
+					<div class="project-gal-half-image" style="background-image: url(' http://localhost:8888/portfolio-grav-2016/pb-crave/_pb-crave-gallery/pbc-bars.jpg');"></div>
+							<div class="project-gal-half-image" style="background-image: url(' http://localhost:8888/portfolio-grav-2016/pb-crave/_pb-crave-gallery/pbc-recipe-bread.jpg');"></div>
+							<div class="project-gal-full-image" style="background-image: url(' http://localhost:8888/portfolio-grav-2016/pb-crave/_pb-crave-gallery/pbc-product-mock.jpg');"></div>
+				
+	</div>
+</section>
+
+";s:12:"content_meta";N;}

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav-2016/user/config/site.yaml',
-    'modified' => 1458432579,
+    'modified' => 1463539142,
     'data' => [
         'title' => 'Michael Fangman | Portfolio',
         'author' => [

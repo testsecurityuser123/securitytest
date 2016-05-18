@@ -54,25 +54,23 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 \t\t\t";
         // line 23
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "find", array(0 => "/"), "method"), "children", array()));
+        $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["taxonomy"]) ? $context["taxonomy"] : null), "findTaxonomy", array(0 => array("category" => "work")), "method"));
         foreach ($context['_seq'] as $context["_key"] => $context["p"]) {
-            if ($this->getAttribute($context["p"], "visible", array())) {
-                // line 24
-                echo "\t\t\t\t<li>
+            // line 24
+            echo "\t\t\t\t<li>
 \t\t\t\t\t<a href=\"";
-                // line 25
-                echo $this->getAttribute($context["p"], "url", array());
-                echo "\">
+            // line 25
+            echo $this->getAttribute($context["p"], "url", array());
+            echo "\">
 \t\t\t\t\t\t<div class=\"work-item-background\">
 \t\t\t\t\t\t\t<h3>";
-                // line 27
-                echo $this->getAttribute($context["p"], "title", array());
-                echo "</h3>
+            // line 27
+            echo $this->getAttribute($context["p"], "title", array());
+            echo "</h3>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</a>
 \t\t\t\t</li>
 \t\t\t";
-            }
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['p'], $context['_parent'], $context['loop']);
@@ -102,7 +100,7 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 
     public function getDebugInfo()
     {
-        return array (  87 => 37,  81 => 32,  69 => 27,  64 => 25,  61 => 24,  56 => 23,  41 => 10,  35 => 6,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  85 => 37,  79 => 32,  68 => 27,  63 => 25,  60 => 24,  56 => 23,  41 => 10,  35 => 6,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends 'partials/base.html.twig' %}*/
@@ -127,7 +125,7 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 /* 	<section class="home-work" id="work-anchor">*/
 /* 		<div class="home-work-feed">*/
 /* 			<ul>*/
-/* 			{% for p in page.find('/').children if p.visible %}*/
+/* 			{% for p in taxonomy.findTaxonomy({'category':'work'}) %}*/
 /* 				<li>*/
 /* 					<a href="{{p.url}}">*/
 /* 						<div class="work-item-background">*/

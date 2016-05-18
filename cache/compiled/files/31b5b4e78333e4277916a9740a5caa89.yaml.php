@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav-2016/user/themes/fangman-v1/blueprints/modular/project-desktop-slider.yaml',
-    'modified' => 1462508693,
+    'modified' => 1462935126,
     'data' => [
         'title' => 'Project Desktop Slider',
         '@extends' => [

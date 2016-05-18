@@ -2,12 +2,17 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav-2016/user/themes/fangman-v1/blueprints/modular/project-intro.yaml',
-    'modified' => 1461546094,
+    'modified' => 1463545266,
     'data' => [
         'title' => 'Project Intro',
         '@extends' => [
             'type' => 'default',
-            'context' => 'blueprints://pages'
+            'context' => 'blueprints://pages',
+            'content' => [
+                'items' => [
+                    '@taxonomy.category' => 'work'
+                ]
+            ]
         ],
         'form' => [
             'fields' => [

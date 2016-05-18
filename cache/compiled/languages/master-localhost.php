@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledLanguages',
-    'timestamp' => 1461816943,
-    'checksum' => '23a71ca20c36b0d7821678662383a617',
+    'timestamp' => 1463539596,
+    'checksum' => 'dcfaa68e665b975343283f045095d4e1',
     'files' => [
         'system/languages' => [
             'cs' => [
@@ -89,7 +89,7 @@ return [
         'user/plugins' => [
             'plugins/email' => [
                 'file' => 'user/plugins/email/languages.yaml',
-                'modified' => 1461816939
+                'modified' => 1463539159
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/languages.yaml',
@@ -8535,6 +8535,34 @@ Path: `%2$s`
                 'REVERSE_PROXY' => '反向代理'
             ]
         ],
+        'ro' => [
+            'PLUGIN_EMAIL' => [
+                'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Vă rugam setați o adresă \'către\' în setările modulului Email sau în formular',
+                'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Vă rugam setați o adresă \'de la\' în setările modulului Email sau în formular'
+            ],
+            'MONTHS_OF_THE_YEAR' => [
+                0 => 'Ianuarie',
+                1 => 'Februarie',
+                2 => 'Martie',
+                3 => 'Aprilue',
+                4 => 'Mai',
+                5 => 'Iunie',
+                6 => 'Iulie',
+                8 => 'Septembrie',
+                9 => 'Octombrie',
+                10 => 'Noiembrie',
+                11 => 'Decembrie'
+            ],
+            'DAYS_OF_THE_WEEK' => [
+                0 => 'Luni',
+                1 => 'Marti',
+                2 => 'Miercuri',
+                3 => 'Joi',
+                4 => 'Vineri',
+                5 => 'Sâmbătă',
+                6 => 'Duminică'
+            ]
+        ],
         'el' => [
             'MONTHS_OF_THE_YEAR' => [
                 0 => 'Ιανουάριος',
@@ -8585,30 +8613,6 @@ Path: `%2$s`
                 6 => 'søndag'
             ]
         ],
-        'ro' => [
-            'MONTHS_OF_THE_YEAR' => [
-                0 => 'Ianuarie',
-                1 => 'Februarie',
-                2 => 'Martie',
-                3 => 'Aprilue',
-                4 => 'Mai',
-                5 => 'Iunie',
-                6 => 'Iulie',
-                8 => 'Septembrie',
-                9 => 'Octombrie',
-                10 => 'Noiembrie',
-                11 => 'Decembrie'
-            ],
-            'DAYS_OF_THE_WEEK' => [
-                0 => 'Luni',
-                1 => 'Marti',
-                2 => 'Miercuri',
-                3 => 'Joi',
-                4 => 'Vineri',
-                5 => 'Sâmbătă',
-                6 => 'Duminică'
-            ]
-        ],
-        'checksum' => '23a71ca20c36b0d7821678662383a617'
+        'checksum' => 'dcfaa68e665b975343283f045095d4e1'
     ]
 ];

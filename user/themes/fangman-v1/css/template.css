@@ -1753,3 +1753,41 @@ Module: Project Gallery
         content: '';
         padding-top: 66%;
         display: block; }
+
+/* =========================================================
+
+Module: Project Introduction
+
+========================================================= */
+.project-foot {
+  padding: 3.75rem 0; }
+  .project-foot .project-foot-container {
+    max-width: 80em;
+    margin-left: auto;
+    margin-right: auto; }
+    .project-foot .project-foot-container::after {
+      clear: both;
+      content: "";
+      display: table; }
+    .project-foot .project-foot-container a {
+      text-align: center;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 0.75rem;
+      letter-spacing: 0.1875rem; }
+    .project-foot .project-foot-container .project-foot-arrow {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 23.2317613015%; }
+      .project-foot .project-foot-container .project-foot-arrow:last-child {
+        margin-right: 0; }
+    .project-foot .project-foot-container .project-foot-prev {
+      margin-left: 17.0596085997%; }
+    .project-foot .project-foot-container .project-foot-back {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 14.7019570017%; }
+      .project-foot .project-foot-container .project-foot-back:last-child {
+        margin-right: 0; }

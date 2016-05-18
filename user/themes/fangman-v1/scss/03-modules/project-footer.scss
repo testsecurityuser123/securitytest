@@ -1,0 +1,39 @@
+/* =========================================================
+
+Module: Project Introduction
+
+========================================================= */
+.project-foot {
+	padding: rem(60) 0;
+	.project-foot-container {
+		@include outer-container;
+		a {
+			text-align: center;
+			color: $color-white;
+			text-transform: uppercase;
+			font-size: rem(12);
+			letter-spacing: rem(3);
+
+		}
+
+		.project-foot-arrow {
+			@include span-columns(3);
+		}
+
+		.project-foot-prev {
+			@include shift(2);
+
+		}
+
+		.project-foot-next {
+
+		}
+
+		.project-foot-back {
+			@include span-columns(2);
+			.project-foot-back-icon {
+
+			}
+		}
+	}
+}

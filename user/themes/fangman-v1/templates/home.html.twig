@@ -20,7 +20,7 @@
 	<section class="home-work" id="work-anchor">
 		<div class="home-work-feed">
 			<ul>
-			{% for p in page.find('/').children if p.visible %}
+			{% for p in taxonomy.findTaxonomy({'category':'work'}) %}
 				<li>
 					<a href="{{p.url}}">
 						<div class="work-item-background">

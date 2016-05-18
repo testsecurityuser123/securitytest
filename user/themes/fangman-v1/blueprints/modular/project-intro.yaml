@@ -2,6 +2,10 @@ title: Project Intro
 '@extends':
     type: default
     context: blueprints://pages
+    content:
+       items:
+          '@taxonomy.category': work
+
 
 form:
   fields:
