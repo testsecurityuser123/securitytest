@@ -1,0 +1,24 @@
+1464154117
+a:2:{s:7:"content";s:843:"<section class="project-intro">
+	<div class="project-intro-container">
+		
+		<div class="project-intro-info-container">
+			<div class="project-intro-info">
+				<h2>The Connection</h2>
+				<p><p>Dapibus Fringilla Mattis Condimentum Mollis</p></p>
+			</div>
+		</div>
+
+		<div class="project-intro-image-container">
+
+			<div class="project-intro-image-laptop" style="background-image: url(' http://localhost:8888/portfolio-grav-2016/connection/_connection-intro/');"></div>
+
+			<div class="project-intro-image-phone" style="background-image: url(' http://localhost:8888/portfolio-grav-2016/connection/_connection-intro/');"></div>
+
+		</div>
+
+	</div>
+	<div class="project-intro-background-image" style="background-image: url(' http://localhost:8888/portfolio-grav-2016/connection/_connection-intro/TheConnection_NY_6039_3.jpg');"></div>
+</section>
+
+";s:12:"content_meta";N;}
