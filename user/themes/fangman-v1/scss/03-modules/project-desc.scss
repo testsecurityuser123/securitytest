@@ -7,12 +7,16 @@ Module: Project Description
 .project-desc {
 	position: relative;
 	z-index: 2;
-	// background: $color-white;
 	color: $color-primary;
-	padding: $section-padding;
+	padding: $section-padding-s;
+
+	@include breakpoint($bp-s) {
+		padding: $section-padding-m;
+	}
+
 	.project-desc-container {
 		@include outer-container;
-		padding-bottom: rem(60);
+		// padding-bottom: rem(60);
 
 		p {
 			color: $color-white;
@@ -24,13 +28,6 @@ Module: Project Description
 			@include breakpoint($bp-m) {
 				@include span-columns(6);
 				@include shift(1);
-			}
-
-			h3 {
-				color: $color-accent;
-				font-family: $headline-font;
-				font-weight: 100;
-				font-size: rem(30);
 			}
 		}
 
@@ -46,15 +43,10 @@ Module: Project Description
 				margin-top: rem(30);
 				display: block;
 
-				h4 {
-					color: $color-accent;
-					font-family: $headline-font;
-					text-transform: uppercase;
-					font-size: rem(12);
-					letter-spacing: rem(2);
-					margin-bottom: 0;
-					padding-bottom: 0;
-					font-weight: 900;
+				@include breakpoint($bp-m) {
+					&:first-of-type {
+						margin-top: 0;
+					}
 				}
 
 				p {

@@ -42,9 +42,9 @@ class __TwigTemplate_5751b43ca405c26d7956efc1a57b0f415c069fc1b89b29b792a9d67ef51
             // line 12
             if ($this->getAttribute($context["attribute"], "title", array())) {
                 // line 13
-                echo "\t\t\t\t\t\t<h4>";
+                echo "\t\t\t\t\t\t<h6>";
                 echo $this->getAttribute($context["attribute"], "title", array());
-                echo "</h4>
+                echo "</h6>
 \t\t\t\t\t";
             }
             // line 15
@@ -98,7 +98,7 @@ class __TwigTemplate_5751b43ca405c26d7956efc1a57b0f415c069fc1b89b29b792a9d67ef51
 /* 			{% for attribute in page.header.project_attributes %}*/
 /* 				<div class="project-desc-attribute">*/
 /* 					{% if attribute.title %}*/
-/* 						<h4>{{ attribute.title }}</h4>*/
+/* 						<h6>{{ attribute.title }}</h6>*/
 /* 					{% endif %}*/
 /* 					{% if attribute.description %}*/
 /* 						<p>{{ attribute.description }}</p>*/

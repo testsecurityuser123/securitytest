@@ -93,7 +93,7 @@ $font_2: monospace;
   height: 100%;
   left: 0;
   top: 0;
-  padding: 0 8px;
+  padding: rem(36) rem(0) rem(15) !important;
   //Instead of the line below you could use @include box-sizing($bs)
   box-sizing: border-box;
   &:before {
@@ -101,6 +101,10 @@ $font_2: monospace;
     display: inline-block;
     height: 100%;
     vertical-align: middle;
+  }
+
+  @include breakpoint($bp-m) {
+    padding: rem(66) rem(0) rem(30) !important;
   }
 }
 .mfp-content {
@@ -127,37 +131,40 @@ $font_2: monospace;
 .mfp-close {
   //Instead of the line below you could use @include user-select($select)
   user-select: none;
-  width: rem(30) !important;
-  height: rem(30);
+  width: rem(78) !important;
+  height: rem(72);
   position: fixed;
-  right: 3% !important;
-  top: 3%;
+  z-index: 3;
+  right: rem(0) !important;
+  top: rem(0);
   text-decoration: none;
   text-align: center;
-  opacity: 0.65;
+  opacity: 0.75;
   padding: 0 0 18px 10px;
+  // background: $color-accent;
+  cursor: pointer !important;
 
-  &:before {
+  &:before, &:after {
     content: '';
     position: absolute;
-    top: 0;
-    right: 0;
+    top: rem(24);
+    right: 50%;
     display: block;
     height: rem(24);
     width: rem(2);
     background-color: #fff;
+    border-radius: rem(2);
+
+    @include breakpoint($bp-m) {
+      top: rem(39);
+    }
+  }
+
+  &:before {
     @include transform(rotate(45deg));
   }
 
    &:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    display: block;
-    height: rem(24);
-    width: rem(2);
-    background-color: #fff;
     @include transform(rotate(-45deg));
   }
 
@@ -167,9 +174,9 @@ $font_2: monospace;
   &:focus {
     opacity: 1;
   }
-  &:active {
-    top: 1px;
-  }
+  // &:active {
+  //   top: 1px;
+  // }
 }
 .mfp-arrow {
   //Instead of the line below you could use @include user-select($select)
@@ -177,15 +184,13 @@ $font_2: monospace;
   position: fixed;
   opacity: 0.65;
   margin: 0;
-  top: 50%;
-  margin-top: -30px;
-  // @include transform(translateY(-50%));
+  top: rem(0);
+  // margin-top: -30px;
+
   padding: 0;
-  width: rem(60);
-  height: rem(60);
-  // &:active {
-  //   margin-top: -54px;
-  // }
+  width: rem(30);
+  height: rem(72);
+
   &:hover {
     opacity: 1;
   }
@@ -201,6 +206,7 @@ $font_2: monospace;
     @extend %extend_3;
     @extend %extend_4;
   }
+
   .mfp-b {
     @extend %extend_3;
     border-top-width: 21px;
@@ -209,6 +215,11 @@ $font_2: monospace;
   .mfp-a {
     @extend %extend_3;
     @extend %extend_4;
+  }
+
+  @include breakpoint($bp-m) {
+    height: rem(102);
+    width: rem(48);
   }
 }
 .mfp-preloader {
@@ -233,12 +244,46 @@ $font_2: monospace;
 .mfp-counter {
   //Instead of the line below you could use @include user-select($select)
   user-select: none;
-  position: absolute;
-  top: 0;
-  right: 0;
+  position: fixed;
+  z-index: 2;
+  top: rem(30);
+  left: 50% !important;
   color: $color_celeste_approx;
   font-size: 12px;
   line-height: 18px;
+
+
+  &:before {
+    content: '';
+    display: block;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: rem(72);
+    width: 100%;
+    background-color: $color-primary;
+    opacity: .5;
+    pointer-events: none;
+  }
+
+  @include breakpoint($bp-m) {
+    top: rem(42);
+
+    &:before {
+      height: rem(102);
+    }
+  }
+
+  .mf-count {
+    position: fixed;
+    z-index: 3;
+    width: 50%;
+    margin-left: -25%;
+    text-align: center;
+
+  }
 }
 .mfp-hide {
   display: none !important;
@@ -277,28 +322,48 @@ button::-moz-focus-inner {
   }
 }
 .mfp-arrow-left {
-  left: 0;
+  left: rem(9);
   
   &:after {
     content: '';
     display: block;
-    height: rem(18);
-    width: rem(18);
+    height: rem(14);
+    width: rem(14);
     border: solid #fff;
     border-width: 0 0 rem(2) rem(2);
-    @include transform(rotate(45deg));
+    @include transform(rotate(45deg)translate(-50%));
+
+    margin: 0;
+    padding: 0;
+
+    top: 50%;
+    left: 50%;
+    margin-right: -6px;
   }
 }
 .mfp-arrow-right {
-  right: 0;
+  left: rem(42);
+  // margin-left: rem(30);
+
+  @include breakpoint($bp-m) {
+    left: rem(54);
+  }
+
   &:after {
       content: '';
       display: block;
-      height: rem(18);
-      width: rem(18);
+      height: rem(14);
+      width: rem(14);
       border: solid #fff;
       border-width: rem(2) rem(2) 0 0;
-      @include transform(rotate(45deg));
+      @include transform(rotate(45deg)translate(-50%));
+
+      margin: 0;
+      padding: 0;
+
+      top: 50%;
+      left: 50%;
+      margin-left: -6px;
   }
 }
 .mfp-iframe-scaler {
@@ -412,7 +477,7 @@ button::-moz-focus-inner {
 @media all and(max-width: 900px) {
   .mfp-arrow {
     //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
-    transform: scale(0.75);
+    // transform: scale(0.75);
   }
   .mfp-arrow-left {
     //Instead of the line below you could use @include transform-origin($origin-x, $origin-y, $origin-z, $only3d)
@@ -477,15 +542,15 @@ button::-moz-focus-inner {
   color: $color_mine_shaft_approx;
 }
 img.mfp-img {
-  width: auto;
-  max-width: 90%;
+  width: auto !important;
+  max-width: 100%;
   max-height: 100% !important;
   height: auto;
   display: block;
   line-height: 0;
   //Instead of the line below you could use @include box-sizing($bs)
   box-sizing: border-box;
-  padding: 40px 0;
+  padding: 40px rem(15);
   margin: 0 auto;
 }
 .mfp-gallery .mfp-image-holder .mfp-figure {

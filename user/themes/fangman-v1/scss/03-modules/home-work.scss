@@ -61,10 +61,12 @@
 					top: rem(6);
 					bottom: rem(6);
 
-
 					text-align: center;
 					background-color: $color-white;
 					border-radius: rem(2);
+
+					background-size: cover;
+					background-position: center;
 
 					box-shadow: $card-shadow;
 

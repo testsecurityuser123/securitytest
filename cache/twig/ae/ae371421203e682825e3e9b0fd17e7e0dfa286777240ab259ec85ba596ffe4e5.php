@@ -25,10 +25,10 @@ class __TwigTemplate_02932edd84cd49398c7a465f2e0ccaa81d5d031c779d1b1c906430bcc6d
         // line 6
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "title", array());
         echo "</h2>
-\t\t\t\t<p>";
+\t\t\t\t";
         // line 7
         echo (isset($context["content"]) ? $context["content"] : null);
-        echo "</p>
+        echo "
 \t\t\t</div>
 \t\t</div>
 
@@ -83,7 +83,7 @@ class __TwigTemplate_02932edd84cd49398c7a465f2e0ccaa81d5d031c779d1b1c906430bcc6d
 /* 		<div class="project-intro-info-container">*/
 /* 			<div class="project-intro-info">*/
 /* 				<h2>{{ page.title }}</h2>*/
-/* 				<p>{{ content }}</p>*/
+/* 				{{ content }}*/
 /* 			</div>*/
 /* 		</div>*/
 /* */

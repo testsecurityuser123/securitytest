@@ -18,26 +18,7 @@
 			color: $color-white;
 			clear: both;
 			font-size: rem(90);
-			font-family: $font-display;
-			// text-transform: uppercase;
-		}
-
-		h4 {
-			display: block;
-			font-family: $headline-font;
-			text-align: center;
-			font-weight: 100;
-			color: $color-accent;
-			font-size: rem(18);
-			text-transform: uppercase;
-			letter-spacing: rem(3);
-
-			@include span-columns(12);
-
-			@include media($bp-m) {
-				@include span-columns(8);
-				@include shift(2);
-			}
+			font-family: $display-font;
 		}
 	}
 

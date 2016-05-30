@@ -67,7 +67,8 @@ $(document).ready(function() {
     mainClass: 'ds-modal-animation',
     showCloseBtn: false,
     gallery: {
-      enabled: true
+      enabled: true,
+      tCounter: '<span class="mf-count">%curr% of %total%<span>'
     },
   });
 });

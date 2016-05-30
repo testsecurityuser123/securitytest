@@ -7,16 +7,24 @@ Module: Project Phone Feature
 .project-pf {
 	position: relative;
 	// overflow: hidden;
-	padding: rem(120) 0;
+	padding: rem(90) 0 rem(60);
+
+	@include breakpoint($bp-s) {
+		padding: rem(60) 0 rem(30);
+	}
+
 	.project-pf-container {
 		@include outer-container;
-		padding-right: rem(30);
-		padding-left: rem(30);
+		padding: $section-padding-s;
 
 		position: relative;
 		display: table;
 		height: 100%;
 		width: 100%;
+
+		@include breakpoint($bp-s) {
+			padding: $section-padding-m;
+		}
 
 		.project-pf-phone-container {
 			@include span-columns(12);
@@ -101,7 +109,7 @@ Module: Project Phone Feature
 
 					display: none;
 
-					@include breakpoint($bp-m) {
+					@include breakpoint($bp-xl) {
 						display: block;
 					}
 				}
@@ -138,14 +146,10 @@ Module: Project Phone Feature
 			
 			@include breakpoint($bp-m) {
 				@include span-columns(6);
-
-				// margin-top: 10%;
-				// @include transform(translate-y(-50%));
 			}
 
 			@include breakpoint($bp-l) {
 				@include span-columns(5);
-				// @include transform(translate-y(-50%));
 			}
 
 			.project-pf-content-inner-container {
@@ -175,7 +179,6 @@ Module: Project Phone Feature
 		position: absolute;
 		z-index: 1;
 		top: 10%;
-		// bottom: 58%;
 		left: 0;
 		right: 0;
 
@@ -183,31 +186,38 @@ Module: Project Phone Feature
 		background-position: center;
 		background-repeat: no-repeat;
 
-		opacity: 0.05;
+		opacity: 0.075;
 		@include filter(grayscale(100%));
 
 		&:before {
 			content: '';
-			padding-top: 100%;
+			padding-top: 95%;
 			display: block;
 		}
 
 
 		@include breakpoint($bp-s) {
+			top: 10.5%;
+
 			&:before {
 				content: '';
-				padding-top: 80%;
+				padding-top: 77%;
 				display: block;
 			}
 		}
 
 		@include breakpoint($bp-m) {
-			top: 13.5%;
-			bottom: 11.5%;
+			top: 16%;
+			bottom: 13%;
 			
 			&:before {
 				display: none;
 			}
+		}
+
+		@include breakpoint($bp-l) {
+			top: 16.5%;
+			bottom: 12.5%;
 		}
 
 	}

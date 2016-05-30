@@ -1,6 +1,6 @@
 // Typography
 
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+// @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 * {
 	text-rendering: optimizeLegibility;
@@ -28,19 +28,44 @@ h1 {
 }
 
 h2 {
+	font-family: $display-font;
+	display: block;
+	text-align: center;
+	color: $color-white;
+	clear: both;
+	font-size: rem(30);
+	line-height: 1;
 
+	// margin-bottom: rem(12);
+
+	@include breakpoint($bp-s) {
+		font-size: rem(42);
+	}
+
+	@include breakpoint($bp-l) {
+		font-size: rem(60);
+	}
 }
 
 h3 {
+	color: $color-accent;
+	font-weight: 400;
+	font-size: rem(24);
 
+	@include breakpoint($bp-m) {
+		font-size: rem(30);
+	}
 }
 
 h4 {
-	font-family: $headline-font;
-	font-weight: 100;
-	font-size: rem(24);
+	font-weight: 500;
+	font-size: rem(21);
 	color: $color-accent;
 	margin-bottom: 0;
+
+	@include breakpoint($bp-m) {
+		font-size: rem(24);
+	}
 
 }
 
@@ -49,6 +74,13 @@ h5 {
 }
 
 h6 {
+	color: $color-accent;
+	text-transform: uppercase;
+	font-size: rem(12);
+	letter-spacing: rem(2);
+	margin-bottom: 0;
+	padding-bottom: 0;
+	font-weight: 600;
 
 }
 
@@ -70,4 +102,18 @@ ul {
 
 blockquote {
 
+}
+
+.subhead {
+	padding: 0;
+	margin: 0;
+	color: $color-accent;
+	font-size: rem(18);
+	line-height: rem(24);
+	font-weight: 500;
+
+	@include breakpoint($bp-m) {
+		font-size: rem(21);
+		line-height: rem(24);
+	}
 }

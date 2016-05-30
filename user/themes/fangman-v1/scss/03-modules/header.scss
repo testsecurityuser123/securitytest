@@ -1,19 +1,27 @@
 #site-navigation {
 	position: fixed !important;
 	z-index: 10000;
+	pointer-events: none;
 	width: 100%;
 	left: 50%;
 	@include transform(translateX(-50%));
 
-	padding: 30px 30px;
+	padding: rem(15) rem(30);
+
+	@include transition($transition-fast);
 
 	// @include outer-container;
 	// @include padding(null rem(30));
+
+	@include breakpoint($bp-m) {
+		padding: rem(30) rem(30);
+	}
 
 	.site-nav-logo {
 		a {
 			text-indent: rem(-9999);
 			display: block;
+			pointer-events: all;
 			height: rem(24);
 			width: rem(36);
 			float: left;
@@ -36,6 +44,7 @@
 
 	.menu-toggle {
 		cursor: pointer;
+		pointer-events: all;
 		opacity: .75;
 		text-indent: 99999px;
 		height: rem(30);

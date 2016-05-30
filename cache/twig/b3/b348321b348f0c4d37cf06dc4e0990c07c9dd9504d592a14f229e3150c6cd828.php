@@ -50,24 +50,32 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 
 \t<section class=\"home-work\" id=\"work-anchor\">
 \t\t<div class=\"home-work-feed\">
+
 \t\t\t<ul>
 \t\t\t";
-        // line 23
+        // line 24
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["taxonomy"]) ? $context["taxonomy"] : null), "findTaxonomy", array(0 => array("category" => "work")), "method"));
         foreach ($context['_seq'] as $context["_key"] => $context["p"]) {
-            // line 24
+            // line 25
+            echo "\t\t\t\t";
+            $context["first_image"] = twig_first($this->env, $this->getAttribute($this->getAttribute($context["p"], "media", array()), "images", array()));
+            // line 26
             echo "\t\t\t\t<li>
 \t\t\t\t\t<a href=\"";
-            // line 25
+            // line 27
             echo $this->getAttribute($context["p"], "url", array());
-            echo "\">
+            echo "\" style=\"background-image: url(' ";
+            echo $this->getAttribute((isset($context["first_image"]) ? $context["first_image"] : null), "url", array());
+            echo " ');\">
 \t\t\t\t\t\t<div class=\"work-item-background\">
 \t\t\t\t\t\t\t<h3>";
-            // line 27
+            // line 29
             echo $this->getAttribute($context["p"], "title", array());
             echo "</h3>
-\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t";
+            // line 31
+            echo "\t\t\t\t\t\t</div>
 \t\t\t\t\t</a>
 \t\t\t\t</li>
 \t\t\t";
@@ -75,13 +83,13 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['p'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 32
+        // line 35
         echo "\t\t\t</ul>
 \t\t</div>
 \t</section>
 
 \t";
-        // line 37
+        // line 40
         echo "\t\t<div class=\"home-bkg\" style=\"background-image: url('";
         echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "background_img", array());
         echo "');\" data-0=\"transform:scale(1.05);opacity:.05;\" data-500=\"transform:scale(1);opacity:0.025;\"></div>
@@ -100,7 +108,7 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 
     public function getDebugInfo()
     {
-        return array (  85 => 37,  79 => 32,  68 => 27,  63 => 25,  60 => 24,  56 => 23,  41 => 10,  35 => 6,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  93 => 40,  87 => 35,  78 => 31,  74 => 29,  67 => 27,  64 => 26,  61 => 25,  57 => 24,  41 => 10,  35 => 6,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends 'partials/base.html.twig' %}*/
@@ -124,12 +132,15 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 /* */
 /* 	<section class="home-work" id="work-anchor">*/
 /* 		<div class="home-work-feed">*/
+/* */
 /* 			<ul>*/
 /* 			{% for p in taxonomy.findTaxonomy({'category':'work'}) %}*/
+/* 				{% set first_image = p.media.images|first %}*/
 /* 				<li>*/
-/* 					<a href="{{p.url}}">*/
+/* 					<a href="{{p.url}}" style="background-image: url(' {{ first_image.url }} ');">*/
 /* 						<div class="work-item-background">*/
 /* 							<h3>{{ p.title }}</h3>*/
+/* 							{# {{ first_image }} #}*/
 /* 						</div>*/
 /* 					</a>*/
 /* 				</li>*/

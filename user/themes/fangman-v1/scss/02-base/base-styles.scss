@@ -9,15 +9,15 @@ body {
 	.btn {
 		position: relative;
 		display: inline-block;
-		padding: rem(15) rem(30);
+		padding: rem(15) rem(24);
 		border: rem(2) solid $color-accent;
 		border-radius: rem(3);
 
-		font-family: $headline-font;
 		font-size: rem(12);
+		font-weight: 500;
 		color: $color-white;
 		text-transform: uppercase;
-		letter-spacing: rem(3);
+		letter-spacing: rem(2);
 
 		@include transition($transition-med);
 
@@ -26,43 +26,20 @@ body {
 		}
 
 		&.btn-arrow-r {
-			padding-right: rem(48);
-			&:before {
-				content: '';
-				display: block;
-				position: absolute;
-				top: 50%;
-				margin-top: rem(-1);
-				right: rem(27);
-
-				height: rem(2);
-				width: rem(15);
-				border-radius: 50%;
-
-				background-color: $color-white;
-			}
-
+			overflow: hidden;
 			&:after {
-				content: '';
-				display: block;
-				position: absolute;
-				top: 50%;
-				right: rem(28);
-				margin-top: rem(-3);
+				content: '→';
+				display: inline-block;
+				padding-left: rem(9);
 
-				height: rem(6);
-				width: rem(6);
-				// border-radius: 0 rem(2) 0 0;
-
-				border: solid $color-white;
-				border-width: rem(2) rem(2) 0 0;
-
-				@include transform(rotate(45deg));
+				@include transition($transition-med);
 			}
 
 			&:hover {
-				&.btn-arrow-r {
-					padding-right: rem(56);
+				padding-left: rem(36);
+				padding-right: rem(13);
+				&:after {
+					@include transform(translateX(200%));
 				}
 			}
 		}

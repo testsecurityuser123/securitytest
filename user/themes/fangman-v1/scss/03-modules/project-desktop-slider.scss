@@ -4,20 +4,32 @@ Module: Project Desktop Slider
 
 ========================================================= */
 .project-ds {
-	margin-top: rem(90);
-	margin-bottom: 25%;
+	padding-top: rem(90);
+	margin-bottom: 40%;
 	position: relative;
+
+	border-top: 1px solid rgba(255,255,255,.1);
+
+	@include breakpoint($bp-m) {
+		padding-top: rem(120);
+		border-top: none;
+		margin-bottom: 30%;
+	}
 
 	.project-ds-container {
 		@include outer-container;
 
 		.project-ds-content-container {
 			.project-ds-content-inner-container {
-				text-align: center;
-				@include span-columns(10);
-				@include shift(1);
+				text-align: left;
+				@include span-columns(12);
+				// @include shift(1);
+				padding: 0 rem(30);
 
 				@include breakpoint($bp-m) {
+					text-align: center;
+					padding: 0;
+
 					@include span-columns(8);
 					@include shift(2);
 				}
@@ -39,6 +51,7 @@ Module: Project Desktop Slider
 
 			.project-ds-slider {
 				margin-top: rem(60);
+				background-color: $color-accent;
 
 				@include breakpoint($bp-m) {
 					margin-top: rem(90);
@@ -49,7 +62,7 @@ Module: Project Desktop Slider
 					z-index: 5;
 					pointer-events: none;
 					display: block;
-					top: -17%;
+					top: -16.5%;
 					bottom: -55%;
 					left: -9%;
 					right: -9%;
@@ -68,7 +81,7 @@ Module: Project Desktop Slider
 
 					&:before {
 						content: '';
-						padding-top: 57%;
+						padding-top: 56.5%;
 						display: block;
 					}
 
@@ -96,13 +109,21 @@ Module: Project Desktop Slider
 		background-position: center;
 		background-repeat: no-repeat;
 
-		opacity: 0.05;
+		opacity: 0.075;
 		@include filter(grayscale(100%));
 
 		&:before {
 			content: '';
 			padding-top: 42%;
 			display: block;
+		}
+
+		@include breakpoint($bp-m) {
+			bottom: 4%;
+		}
+
+		@include breakpoint($bp-l) {
+			bottom: 3%;
 		}
 	}
 }

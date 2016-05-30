@@ -50,22 +50,24 @@ class __TwigTemplate_cdf0d71b1e8fbe81832fc46d632484d3b2a7348398b3e23bf620fc02657
 \t\t<div class=\"project-foot-container\">
 \t\t\t<a href=\"";
         // line 10
-        echo $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "prevSibling", array()), "url", array());
+        echo $this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "taxonomy", array()), "category", array(0 => "work"), "method"), "nextSibling", array()), "url", array());
         echo "\" class=\"project-foot-prev project-foot-arrow\">Previous Project</a>
 \t\t\t
 \t\t\t<a href=\"";
         // line 12
         echo (isset($context["base_url"]) ? $context["base_url"] : null);
         echo "/#work-anchor\" class=\"project-foot-back\">
-\t\t\t\tAll Work
 \t\t\t\t<div class=\"project-foot-back-icon\"></div>
+\t\t\t\tAll Work
 \t\t\t</a>
 
 \t\t\t<a href=\"";
         // line 17
-        echo $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "nextSibling", array()), "url", array());
+        echo $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "adjacentSibling", array(0 =>  -1), "method"), "url", array());
         echo "\" class=\"project-foot-next project-foot-arrow\">Next Project</a>
 \t\t</div>
+
+
 \t</section>
 ";
     }
@@ -94,14 +96,16 @@ class __TwigTemplate_cdf0d71b1e8fbe81832fc46d632484d3b2a7348398b3e23bf620fc02657
 /*     {% endfor %}*/
 /*     <section class="project-foot">*/
 /* 		<div class="project-foot-container">*/
-/* 			<a href="{{ page.prevSibling.url }}" class="project-foot-prev project-foot-arrow">Previous Project</a>*/
+/* 			<a href="{{ page.taxonomy.category('work').nextSibling.url }}" class="project-foot-prev project-foot-arrow">Previous Project</a>*/
 /* 			*/
 /* 			<a href="{{ base_url }}/#work-anchor" class="project-foot-back">*/
-/* 				All Work*/
 /* 				<div class="project-foot-back-icon"></div>*/
+/* 				All Work*/
 /* 			</a>*/
 /* */
-/* 			<a href="{{ page.nextSibling.url }}" class="project-foot-next project-foot-arrow">Next Project</a>*/
+/* 			<a href="{{ page.adjacentSibling(-1).url }}" class="project-foot-next project-foot-arrow">Next Project</a>*/
 /* 		</div>*/
+/* */
+/* */
 /* 	</section>*/
 /* {% endblock %}*/
