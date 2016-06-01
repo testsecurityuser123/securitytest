@@ -1,5 +1,5 @@
 ---
-title: 'PB Crave<br>Peanut Butter'
+title: 'PB Crave Peanut Butter'
 taxonomy:
     category:
         - work

@@ -7,10 +7,10 @@ Module: Project Phone Feature
 .project-pf {
 	position: relative;
 	// overflow: hidden;
-	padding: rem(90) 0 rem(60);
+	padding: rem(42) 0 rem(30);
 
 	@include breakpoint($bp-s) {
-		padding: rem(60) 0 rem(30);
+		// padding:  0 rem(30);
 	}
 
 	.project-pf-container {
@@ -28,9 +28,13 @@ Module: Project Phone Feature
 
 		.project-pf-phone-container {
 			@include span-columns(12);
-			margin-bottom: rem(120);
+			margin-bottom: rem(90);
 
 			@include transform(translate($transition-med));
+
+			@include breakpoint($bp-s) {
+				margin-bottom: rem(102);
+			}
 
 			@include breakpoint($bp-m) {
 				@include span-columns(6);
@@ -178,7 +182,7 @@ Module: Project Phone Feature
 	.project-pf-background {
 		position: absolute;
 		z-index: 1;
-		top: 10%;
+		top: 7%;
 		left: 0;
 		right: 0;
 
@@ -191,13 +195,13 @@ Module: Project Phone Feature
 
 		&:before {
 			content: '';
-			padding-top: 95%;
+			padding-top: 97%;
 			display: block;
 		}
 
 
 		@include breakpoint($bp-s) {
-			top: 10.5%;
+			top: 9.5%;
 
 			&:before {
 				content: '';

@@ -105,7 +105,10 @@ Module: Project Introduction
 					}
 				}
 
-				p.subhead {}
+				p.subhead {
+					max-width: rem(320);
+					margin: 0 auto;
+				}
 			}
 		}
 

@@ -4,16 +4,28 @@ Module: Project Desktop Slider
 
 ========================================================= */
 .project-ds {
-	padding-top: rem(90);
+	padding-top: rem(60);
 	margin-bottom: 40%;
 	position: relative;
 
 	border-top: 1px solid rgba(255,255,255,.1);
 
+	@include breakpoint($bp-s) {
+		padding-top: rem(90);
+	}
+
 	@include breakpoint($bp-m) {
 		padding-top: rem(120);
 		border-top: none;
 		margin-bottom: 30%;
+	}
+
+	@include breakpoint($bp-l) {
+		margin-bottom: 30%;
+	}
+
+	@include breakpoint($bp-xl) {
+		margin-bottom: rem(390);
 	}
 
 	.project-ds-container {
@@ -50,11 +62,15 @@ Module: Project Desktop Slider
 
 
 			.project-ds-slider {
-				margin-top: rem(60);
+				margin-top: rem(30);
 				background-color: $color-accent;
 
+				@include breakpoint($bp-s) {
+					margin-top: rem(60);
+				}
+
 				@include breakpoint($bp-m) {
-					margin-top: rem(90);
+					// margin-top: rem(90);
 				}
 				&:after {
 					content: '';

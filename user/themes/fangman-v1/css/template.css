@@ -145,7 +145,7 @@ h6 {
     display: block;
     pointer-events: all;
     height: 1.5rem;
-    width: 2.25rem;
+    width: 1.875rem;
     float: left;
     background-image: url("../images/logo.svg");
     background-size: 100% auto;
@@ -618,6 +618,9 @@ Module: Project Introduction
           @media screen and (min-width: 30em) {
             .project-intro .project-intro-container .project-intro-info-container .project-intro-info h2 {
               margin-bottom: 0.9375rem; } }
+        .project-intro .project-intro-container .project-intro-info-container .project-intro-info p.subhead {
+          max-width: 20rem;
+          margin: 0 auto; }
     .project-intro .project-intro-container .project-intro-image-container {
       position: relative; }
       .project-intro .project-intro-container .project-intro-image-container::after {
@@ -782,10 +785,7 @@ Module: Project Phone Feature
 ========================================================= */
 .project-pf {
   position: relative;
-  padding: 5.625rem 0 3.75rem; }
-  @media screen and (min-width: 30em) {
-    .project-pf {
-      padding: 3.75rem 0 1.875rem; } }
+  padding: 2.625rem 0 1.875rem; }
   .project-pf .project-pf-container {
     max-width: 80em;
     margin-left: auto;
@@ -807,7 +807,7 @@ Module: Project Phone Feature
       display: block;
       margin-right: 2.3576515979%;
       width: 100%;
-      margin-bottom: 7.5rem;
+      margin-bottom: 5.625rem;
       -webkit-transform: translate(all 0.25s ease);
       -moz-transform: translate(all 0.25s ease);
       -ms-transform: translate(all 0.25s ease);
@@ -815,6 +815,9 @@ Module: Project Phone Feature
       transform: translate(all 0.25s ease); }
       .project-pf .project-pf-container .project-pf-phone-container:last-child {
         margin-right: 0; }
+      @media screen and (min-width: 30em) {
+        .project-pf .project-pf-container .project-pf-phone-container {
+          margin-bottom: 6.375rem; } }
       @media screen and (min-width: 48em) {
         .project-pf .project-pf-container .project-pf-phone-container {
           float: left;
@@ -966,7 +969,7 @@ Module: Project Phone Feature
   .project-pf .project-pf-background {
     position: absolute;
     z-index: 1;
-    top: 10%;
+    top: 7%;
     left: 0;
     right: 0;
     background-size: cover;
@@ -977,11 +980,11 @@ Module: Project Phone Feature
     filter: grayscale(100%); }
     .project-pf .project-pf-background:before {
       content: '';
-      padding-top: 95%;
+      padding-top: 97%;
       display: block; }
     @media screen and (min-width: 30em) {
       .project-pf .project-pf-background {
-        top: 10.5%; }
+        top: 9.5%; }
         .project-pf .project-pf-background:before {
           content: '';
           padding-top: 77%;
@@ -1003,15 +1006,24 @@ Module: Project Desktop Slider
 
 ========================================================= */
 .project-ds {
-  padding-top: 5.625rem;
+  padding-top: 3.75rem;
   margin-bottom: 40%;
   position: relative;
   border-top: 1px solid rgba(255, 255, 255, 0.1); }
+  @media screen and (min-width: 30em) {
+    .project-ds {
+      padding-top: 5.625rem; } }
   @media screen and (min-width: 48em) {
     .project-ds {
       padding-top: 7.5rem;
       border-top: none;
       margin-bottom: 30%; } }
+  @media screen and (min-width: 64em) {
+    .project-ds {
+      margin-bottom: 30%; } }
+  @media screen and (min-width: 75em) {
+    .project-ds {
+      margin-bottom: 24.375rem; } }
   .project-ds .project-ds-container {
     max-width: 80em;
     margin-left: auto;
@@ -1061,11 +1073,11 @@ Module: Project Desktop Slider
       .project-ds .project-ds-container .project-ds-slider-container:last-child {
         margin-right: 0; }
       .project-ds .project-ds-container .project-ds-slider-container .project-ds-slider {
-        margin-top: 3.75rem;
+        margin-top: 1.875rem;
         background-color: #cb4e4e; }
-        @media screen and (min-width: 48em) {
+        @media screen and (min-width: 30em) {
           .project-ds .project-ds-container .project-ds-slider-container .project-ds-slider {
-            margin-top: 5.625rem; } }
+            margin-top: 3.75rem; } }
         .project-ds .project-ds-container .project-ds-slider-container .project-ds-slider:after {
           content: '';
           position: absolute;
@@ -1228,10 +1240,13 @@ Module: Project Desktop Slider
   width: 100%; }
   @media screen and (min-width: 30em) {
     .slick-dots {
-      bottom: -70%; } }
+      bottom: -75%; } }
   @media screen and (min-width: 48em) {
     .slick-dots {
-      bottom: -60%; } }
+      bottom: -65%; } }
+  @media screen and (min-width: 75em) {
+    .slick-dots {
+      bottom: -62%; } }
   .slick-dots li {
     position: relative;
     display: inline-block;

@@ -10,9 +10,6 @@
 
 	@include transition($transition-fast);
 
-	// @include outer-container;
-	// @include padding(null rem(30));
-
 	@include breakpoint($bp-m) {
 		padding: rem(30) rem(30);
 	}
@@ -23,7 +20,7 @@
 			display: block;
 			pointer-events: all;
 			height: rem(24);
-			width: rem(36);
+			width: rem(30);
 			float: left;
 
 			background-image: url('../images/logo.svg');
