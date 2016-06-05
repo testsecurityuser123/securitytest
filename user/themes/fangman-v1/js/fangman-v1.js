@@ -41,7 +41,8 @@ Project Desktop Slider - Slick Slider
       dots: true,
       arrows: true,
       speed: 500,
-      rows: 1
+      rows: 1,
+      infinite: false
     });
 });
 

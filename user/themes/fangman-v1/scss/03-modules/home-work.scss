@@ -4,9 +4,9 @@
 		ul {
 			list-style: none;
 			margin: 0;
-			padding: rem(30) 0;
+			padding: rem(102) 0;
 			@include clearfix;
-			@include outer-container;
+			//@include outer-container;
 			// margin: rem(30);
 
 			// Work Grid Layout
@@ -15,7 +15,8 @@
 					@include span-columns(12);
 
 					@include breakpoint($bp-m) {
-						@include span-columns(6);
+						@include span-columns(12);
+						// @include shift(1);
 					}
 			    }
 			}
@@ -24,66 +25,78 @@
 				position: relative;
 				display: block;
 				float: left;
+				padding: 0;
+				margin: 0;
 
 				&:before {
 					content: '';
-					padding-top: 50%;
+					padding-top: 33%;
 					display: block;
 				}
 
-				&:nth-of-type(even) {
-					a {
-						left: rem(30);
-						right: rem(30);
+				// &:nth-of-type(even) {
+				// 	a {
+				// 		left: rem(30);
+				// 		right: rem(30);
 
-						@include breakpoint($bp-m) {
-							left: rem(6);
-							right: rem(30);
-						}
-					}
-				}
+				// 		// @include breakpoint($bp-m) {
+				// 		// 	left: rem(6);
+				// 		// 	right: rem(30);
+				// 		// }
+				// 	}
+				// }
 
-				&:nth-of-type(odd) {
-					a {
-						left: rem(30);
-						right: rem(30);
+				// &:nth-of-type(odd) {
+				// 	a {
+				// 		left: rem(30);
+				// 		right: rem(30);
 
-						@include breakpoint($bp-m) {
-							left: rem(30);
-							right: rem(6);
-						}
-					}
-				}
+				// 		// @include breakpoint($bp-m) {
+				// 		// 	left: rem(30);
+				// 		// 	right: rem(6);
+				// 		// }
+				// 	}
+				// }
 
 				a {
 					position: absolute;
 					z-index: 100;
-					top: rem(6);
-					bottom: rem(6);
+					top: rem(0);
+					bottom: rem(30);
+					left: rem(30);
+					right: rem(30);
 
 					text-align: center;
-					background-color: $color-white;
-					border-radius: rem(2);
-
-					background-size: cover;
-					background-position: center;
-
-					box-shadow: $card-shadow;
+					background-color: $color-accent;
 
 					height: auto;
 					width: auto;
 
-					@include transition(all .25s ease);
+					@include transition($transition-med);
+
+					@include breakpoint($bp-m) {
+						left: rem(90);
+						right: rem(90);
+					}
 
 					&:hover {
-						@include transform(scale(0.98));
-						box-shadow: 1px 0px 60px rgba(0,0,0,0.25);
-						z-index: 10000;
+						@include transform(scale(1.02));
+						z-index: 999;
 
 						div {
-							h3 {
-								@include transition(all .25s ease);
-								@include transform(scale(1.25)translateY(-50%));
+							&:before {
+								width: 50%;
+							}
+							h4 {
+								@include transition($transition-med);
+								@include transform(scale(1)translateX(10%));
+							}
+
+							&.work-item-background-image {
+								opacity: 1;
+								@include filter(grayscale(0%));
+
+								@include transition($transition-med);
 							}
 						}
 					}
@@ -95,19 +108,43 @@
 						left: 0;
 						right: 0;
 
-						h3 {
+						&:before {
+							content: '';
+							display: inline-block;
+							position: absolute;
+							bottom: rem(45);
+							left: 0;
+							height: rem(24);
+							width: rem(0);
+							background-color: $color-accent;
+
+							@include transition($transition-med);
+						}
+
+						h4 {
 							display: block;
 							position: absolute;
-							top: 50%;
-							@include transform(translateY(-50%));
-							margin: 0 auto;
-							width: 100%;
+							bottom: rem(45);
+							left: rem(45);
 
-							@include transition(all .25s ease);
+							color: $color-white;
+							text-align: left;
+
+							@include transition($transition-med);
+						}
+						&.work-item-background {
+							z-index: 2;
+						}
+						&.work-item-background-image {
+							z-index: 1;
+							background-size: cover;
+							background-position: top center;
+
+							@include filter(grayscale(100%));
+							opacity: .5;
 						}
 					}
 				}
-
 			}
 		}
 	}

@@ -21,22 +21,34 @@ p {
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	padding: 0;
+
+	@include transition($transition-med);
 }
 
 h1 {
+	font-family: $display-font;
+	font-size: rem(60);
+	line-height: 1;
+	text-align: center;
+	color: $color-white;
 
+	display: block;
+	clear: both;
+
+	@include breakpoint($bp-m) {
+		font-size: rem(90);
+	}
 }
 
 h2 {
 	font-family: $display-font;
-	display: block;
-	text-align: center;
-	color: $color-white;
-	clear: both;
 	font-size: rem(30);
 	line-height: 1;
+	text-align: center;
+	color: $color-white;
 
-	// margin-bottom: rem(12);
+	display: block;
+	clear: both;
 
 	@include breakpoint($bp-s) {
 		font-size: rem(42);

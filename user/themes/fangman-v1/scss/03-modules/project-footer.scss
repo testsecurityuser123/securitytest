@@ -34,13 +34,17 @@ Module: Project Introduction
 
 		.project-foot-back {
 			@include span-columns(2);
+			@include transition($transition-med);
 			.project-foot-back-icon {
 				position: relative;
+				z-index: 1;
 				display: block;
 				background-color: $color-accent;
 				height: rem(24);
 				width: rem(24);
 				margin: 0 auto rem(18);
+
+				@include transition($transition-med);
 
 				&:before, &:after {
 					content: '';
@@ -68,7 +72,19 @@ Module: Project Introduction
 
 					border-width: 3px 0;
 				}
+			}
 
+			span {
+				position: relative;
+				z-index: 2;
+			}
+
+			&:hover {
+				@include transform(translateY(rem(-18)));
+				.project-foot-back-icon {
+					opacity: .25;
+					@include transform(translateY(rem(36)));
+				}
 			}
 
 			// span {

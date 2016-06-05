@@ -65,17 +65,19 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 \t\t\t\t\t<a href=\"";
             // line 27
             echo $this->getAttribute($context["p"], "url", array());
-            echo "\" style=\"background-image: url(' ";
-            echo $this->getAttribute((isset($context["first_image"]) ? $context["first_image"] : null), "url", array());
-            echo " ');\">
+            echo "\">
 \t\t\t\t\t\t<div class=\"work-item-background\">
-\t\t\t\t\t\t\t<h3>";
+\t\t\t\t\t\t\t<h4>";
             // line 29
             echo $this->getAttribute($context["p"], "title", array());
-            echo "</h3>
+            echo "</h4>
 \t\t\t\t\t\t\t";
             // line 31
             echo "\t\t\t\t\t\t</div>
+\t\t\t\t\t\t<div class=\"work-item-background-image\" style=\"background-image: url(' ";
+            // line 32
+            echo $this->getAttribute((isset($context["first_image"]) ? $context["first_image"] : null), "url", array());
+            echo " ');\"></div>
 \t\t\t\t\t</a>
 \t\t\t\t</li>
 \t\t\t";
@@ -83,13 +85,13 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['p'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 35
+        // line 36
         echo "\t\t\t</ul>
 \t\t</div>
 \t</section>
 
 \t";
-        // line 40
+        // line 41
         echo "\t\t<div class=\"home-bkg\" style=\"background-image: url('";
         echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "background_img", array());
         echo "');\" data-0=\"transform:scale(1.05);opacity:.05;\" data-500=\"transform:scale(1);opacity:0.025;\"></div>
@@ -108,7 +110,7 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 
     public function getDebugInfo()
     {
-        return array (  93 => 40,  87 => 35,  78 => 31,  74 => 29,  67 => 27,  64 => 26,  61 => 25,  57 => 24,  41 => 10,  35 => 6,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  95 => 41,  89 => 36,  79 => 32,  76 => 31,  72 => 29,  67 => 27,  64 => 26,  61 => 25,  57 => 24,  41 => 10,  35 => 6,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends 'partials/base.html.twig' %}*/
@@ -137,11 +139,12 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 /* 			{% for p in taxonomy.findTaxonomy({'category':'work'}) %}*/
 /* 				{% set first_image = p.media.images|first %}*/
 /* 				<li>*/
-/* 					<a href="{{p.url}}" style="background-image: url(' {{ first_image.url }} ');">*/
+/* 					<a href="{{p.url}}">*/
 /* 						<div class="work-item-background">*/
-/* 							<h3>{{ p.title }}</h3>*/
+/* 							<h4>{{ p.title }}</h4>*/
 /* 							{# {{ first_image }} #}*/
 /* 						</div>*/
+/* 						<div class="work-item-background-image" style="background-image: url(' {{ first_image.url }} ');"></div>*/
 /* 					</a>*/
 /* 				</li>*/
 /* 			{% endfor %}*/

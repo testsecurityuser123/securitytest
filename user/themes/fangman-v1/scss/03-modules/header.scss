@@ -8,10 +8,13 @@
 
 	padding: rem(15) rem(30);
 
+	background-color: $color-primary;
+
 	@include transition($transition-fast);
 
 	@include breakpoint($bp-m) {
 		padding: rem(30) rem(30);
+		background-color: transparent;
 	}
 
 	.site-nav-logo {

@@ -58,7 +58,7 @@ class __TwigTemplate_cdf0d71b1e8fbe81832fc46d632484d3b2a7348398b3e23bf620fc02657
         echo (isset($context["base_url"]) ? $context["base_url"] : null);
         echo "/#work-anchor\" class=\"project-foot-back\">
 \t\t\t\t<div class=\"project-foot-back-icon\"></div>
-\t\t\t\tAll Work
+\t\t\t\t<span>All Work</span>
 \t\t\t</a>
 
 \t\t\t<a href=\"";
@@ -100,7 +100,7 @@ class __TwigTemplate_cdf0d71b1e8fbe81832fc46d632484d3b2a7348398b3e23bf620fc02657
 /* 			*/
 /* 			<a href="{{ base_url }}/#work-anchor" class="project-foot-back">*/
 /* 				<div class="project-foot-back-icon"></div>*/
-/* 				All Work*/
+/* 				<span>All Work</span>*/
 /* 			</a>*/
 /* */
 /* 			<a href="{{ page.adjacentSibling(-1).url }}" class="project-foot-next project-foot-arrow">Next Project</a>*/

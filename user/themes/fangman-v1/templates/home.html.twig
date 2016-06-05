@@ -24,11 +24,12 @@
 			{% for p in taxonomy.findTaxonomy({'category':'work'}) %}
 				{% set first_image = p.media.images|first %}
 				<li>
-					<a href="{{p.url}}" style="background-image: url(' {{ first_image.url }} ');">
+					<a href="{{p.url}}">
 						<div class="work-item-background">
-							<h3>{{ p.title }}</h3>
+							<h4>{{ p.title }}</h4>
 							{# {{ first_image }} #}
 						</div>
+						<div class="work-item-background-image" style="background-image: url(' {{ first_image.url }} ');"></div>
 					</a>
 				</li>
 			{% endfor %}
