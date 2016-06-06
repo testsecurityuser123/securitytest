@@ -1,7 +1,16 @@
 .home-work {
 
 	.home-work-feed {
+		position: relative;
+		@include span-columns(12);
+
+		@include breakpoint($bp-m) {
+			padding-left: rem(75);
+			padding-right: rem(75);		
+		}
+
 		ul {
+			position: relative;
 			list-style: none;
 			margin: 0;
 			padding: rem(102) 0;
@@ -15,7 +24,7 @@
 					@include span-columns(12);
 
 					@include breakpoint($bp-m) {
-						@include span-columns(12);
+						@include span-columns(4);
 						// @include shift(1);
 					}
 			    }
@@ -30,7 +39,7 @@
 
 				&:before {
 					content: '';
-					padding-top: 33%;
+					padding-top: 150%;
 					display: block;
 				}
 
@@ -62,9 +71,9 @@
 					position: absolute;
 					z-index: 100;
 					top: rem(0);
-					bottom: rem(30);
-					left: rem(30);
-					right: rem(30);
+					bottom: rem(15);
+					left: rem(15);
+					right: rem(15);
 
 					text-align: center;
 					background-color: $color-accent;
@@ -74,10 +83,10 @@
 
 					@include transition($transition-med);
 
-					@include breakpoint($bp-m) {
-						left: rem(90);
-						right: rem(90);
-					}
+					// @include breakpoint($bp-m) {
+					// 	left: rem(90);
+					// 	right: rem(90);
+					// }
 
 					&:hover {
 						@include transform(scale(1.02));
@@ -124,7 +133,7 @@
 						h4 {
 							display: block;
 							position: absolute;
-							bottom: rem(45);
+							top: rem(45);
 							left: rem(45);
 
 							color: $color-white;

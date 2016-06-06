@@ -1,0 +1,141 @@
+/* =========================================================
+
+Module: Project Description
+
+========================================================= */
+
+.home-about {
+	position: relative;
+	z-index: 2;
+	background-color: $color-primary;
+	color: $color-primary;
+	padding: $section-padding-s;
+	height: 100vh;
+
+	@include clearfix;
+	clear: both;
+
+	// @include breakpoint($bp-s) {
+	// 	padding: rem(300) rem(30);
+	// }
+
+	&:before {
+		content: '';
+		position: absolute;
+		z-index: 2;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		@include linear-gradient(rgba(36,36,51,1), rgba(36,36,51,0));
+		background-color: transparent !important;
+
+	}
+
+	.home-about-container {
+		position: relative;
+		z-index: 2;
+		@include outer-container;
+		top: 50%;
+		@include transform(translateY(-50%));
+		// padding-bottom: rem(60);
+
+		p {
+			color: $color-white;
+		}
+
+		.home-about-main-container {
+			@include span-columns(12);
+
+			@include breakpoint($bp-m) {
+				@include span-columns(6);
+				@include shift(1);
+			}
+
+			.home-about-social-container {
+				margin-top: rem(60);
+
+				.home-about-social {
+					display: inline-block;
+					position: relative;
+					text-indent: -9999px;
+					background-size: 100% auto;
+					background-position: center;
+					background-repeat: no-repeat;
+					height: rem(36);
+					width: rem(36);
+					margin-right: rem(18);
+					@include transition($transition-med);
+
+					&:hover {
+						@include transform(scale(1.1));
+					}
+
+					&.social-codepen {
+						background-image: url('../images/codepen.svg');
+					}
+
+					&.social-dribbble {
+						background-image: url('../images/dribbble.svg');
+					}
+
+					&.social-email {
+						background-image: url('../images/email.svg');
+					}
+
+					&.social-linkedin {
+						background-image: url('../images/linkedin.svg');
+					}
+
+					&.social-spotify {
+						background-image: url('../images/spotify.svg');
+					}
+
+					&.social-twitter {
+						background-image: url('../images/twitter.svg');
+					}
+
+
+				}
+			}
+		}
+
+		.home-about-side-container {
+			@include span-columns(12);
+			margin-top: rem(6);
+
+			@include breakpoint($bp-m) {
+				@include span-columns(3);
+				@include shift(1);
+			}
+			.home-about-sidebar {
+				margin-top: rem(30);
+				display: block;
+
+				@include breakpoint($bp-m) {
+					&:first-of-type {
+						margin-top: 0;
+					}
+				}
+
+				p {
+					// padding-top: 0;
+					margin-top: rem(12);
+				}
+			}
+		}
+	}
+
+	.home-about-background-image {
+		position: absolute;
+		z-index: 1;	
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-size: cover;
+
+		// @include filter(grayscale(100%));
+		opacity: .05;
+	}
+}

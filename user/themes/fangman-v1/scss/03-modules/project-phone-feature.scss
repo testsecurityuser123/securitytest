@@ -6,7 +6,6 @@ Module: Project Phone Feature
 
 .project-pf {
 	position: relative;
-	// overflow: hidden;
 	padding: rem(42) 0 rem(30);
 
 	@include breakpoint($bp-s) {

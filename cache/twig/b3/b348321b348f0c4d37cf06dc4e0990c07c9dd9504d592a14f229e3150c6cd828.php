@@ -90,10 +90,96 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 \t\t</div>
 \t</section>
 
+\t<section class=\"home-about\">
+\t\t<div class=\"home-about-container\">
+
+\t\t\t<div class=\"home-about-main-container\">
+\t\t\t\t<h3>";
+        // line 44
+        echo $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "about_title", array());
+        echo "</h3>
+\t\t\t\t<p>";
+        // line 45
+        echo $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "about_description", array());
+        echo "</p>
+
+\t\t\t\t<div class=\"home-about-social-container\">
+\t\t\t\t";
+        // line 48
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "about_social", array()));
+        foreach ($context['_seq'] as $context["_key"] => $context["social"]) {
+            // line 49
+            echo "\t\t\t\t\t\t";
+            if ($this->getAttribute($context["social"], "url", array())) {
+                // line 50
+                echo "\t\t\t\t\t\t\t<a href=\"";
+                echo $this->getAttribute($context["social"], "url", array());
+                echo "\" class=\"home-about-social social-";
+                echo $this->getAttribute($context["social"], "class", array());
+                echo "\" target=\"_blank\">";
+                echo $this->getAttribute($context["social"], "class", array());
+                echo "</a>
+\t\t\t\t\t\t";
+            }
+            // line 52
+            echo "\t\t\t\t";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['social'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 53
+        echo "\t\t\t</div>
+\t\t\t</div>
+
+\t\t\t<div class=\"home-about-side-container\">
+\t\t\t\t";
+        // line 57
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "about_sidebar", array()));
+        foreach ($context['_seq'] as $context["_key"] => $context["attribute"]) {
+            // line 58
+            echo "\t\t\t\t\t<div class=\"home-about-sidebar\">
+\t\t\t\t\t\t";
+            // line 59
+            if ($this->getAttribute($context["attribute"], "title", array())) {
+                // line 60
+                echo "\t\t\t\t\t\t\t<h6>";
+                echo $this->getAttribute($context["attribute"], "title", array());
+                echo "</h6>
+\t\t\t\t\t\t";
+            }
+            // line 62
+            echo "\t\t\t\t\t\t";
+            if ($this->getAttribute($context["attribute"], "description", array())) {
+                // line 63
+                echo "\t\t\t\t\t\t\t<p>";
+                echo $this->getAttribute($context["attribute"], "description", array());
+                echo "</p>
+\t\t\t\t\t\t";
+            }
+            // line 65
+            echo "\t\t\t\t\t</div>
+\t\t\t\t";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['attribute'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 67
+        echo "\t\t\t</div>
+\t\t</div>
+\t\t<div class=\"home-about-background-image\" style=\"background-image: url(' ";
+        // line 69
+        echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "about_background_img", array());
+        echo " ');\"></div>
+\t</section>
+
+
+
 \t";
-        // line 41
+        // line 75
         echo "\t\t<div class=\"home-bkg\" style=\"background-image: url('";
-        echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "background_img", array());
+        echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "header_background_img", array());
         echo "');\" data-0=\"transform:scale(1.05);opacity:.05;\" data-500=\"transform:scale(1);opacity:0.025;\"></div>
 ";
     }
@@ -110,7 +196,7 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 
     public function getDebugInfo()
     {
-        return array (  95 => 41,  89 => 36,  79 => 32,  76 => 31,  72 => 29,  67 => 27,  64 => 26,  61 => 25,  57 => 24,  41 => 10,  35 => 6,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  181 => 75,  173 => 69,  169 => 67,  162 => 65,  156 => 63,  153 => 62,  147 => 60,  145 => 59,  142 => 58,  138 => 57,  132 => 53,  126 => 52,  116 => 50,  113 => 49,  109 => 48,  103 => 45,  99 => 44,  89 => 36,  79 => 32,  76 => 31,  72 => 29,  67 => 27,  64 => 26,  61 => 25,  57 => 24,  41 => 10,  35 => 6,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends 'partials/base.html.twig' %}*/
@@ -152,7 +238,41 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 /* 		</div>*/
 /* 	</section>*/
 /* */
+/* 	<section class="home-about">*/
+/* 		<div class="home-about-container">*/
+/* */
+/* 			<div class="home-about-main-container">*/
+/* 				<h3>{{ page.header.about_title }}</h3>*/
+/* 				<p>{{ page.header.about_description }}</p>*/
+/* */
+/* 				<div class="home-about-social-container">*/
+/* 				{% for social in page.header.about_social %}*/
+/* 						{% if social.url %}*/
+/* 							<a href="{{ social.url }}" class="home-about-social social-{{ social.class }}" target="_blank">{{ social.class }}</a>*/
+/* 						{% endif %}*/
+/* 				{% endfor %}*/
+/* 			</div>*/
+/* 			</div>*/
+/* */
+/* 			<div class="home-about-side-container">*/
+/* 				{% for attribute in page.header.about_sidebar %}*/
+/* 					<div class="home-about-sidebar">*/
+/* 						{% if attribute.title %}*/
+/* 							<h6>{{ attribute.title }}</h6>*/
+/* 						{% endif %}*/
+/* 						{% if attribute.description %}*/
+/* 							<p>{{ attribute.description }}</p>*/
+/* 						{% endif %}*/
+/* 					</div>*/
+/* 				{% endfor %}*/
+/* 			</div>*/
+/* 		</div>*/
+/* 		<div class="home-about-background-image" style="background-image: url(' {{ header.about_background_img }} ');"></div>*/
+/* 	</section>*/
+/* */
+/* */
+/* */
 /* 	{# Background Image #}*/
-/* 		<div class="home-bkg" style="background-image: url('{{ header.background_img }}');" data-0="transform:scale(1.05);opacity:.05;" data-500="transform:scale(1);opacity:0.025;"></div>*/
+/* 		<div class="home-bkg" style="background-image: url('{{ header.header_background_img }}');" data-0="transform:scale(1.05);opacity:.05;" data-500="transform:scale(1);opacity:0.025;"></div>*/
 /* {% endblock %}*/
 /* */

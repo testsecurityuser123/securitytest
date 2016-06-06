@@ -48,4 +48,19 @@ body {
 	a.btn {
 		color: $color-white;
 	}
+
+	#footer {
+		position: relative;
+		z-index: 3;
+		margin-top: rem(-30);
+		.footer-credit {
+			display: block;
+			width: 100%;
+			text-align: center;
+			color: $color-accent;
+			font-size: rem(12);
+			margin-bottom: rem(18);
+
+		}
+	}
 }

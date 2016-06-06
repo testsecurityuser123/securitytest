@@ -1,5 +1,32 @@
 ---
 title: Home
+about_title: 'About Me'
+about_description: 'Sed posuere consectetur est at lobortis. Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum. Donec ullamcorper nulla non metus auctor fringilla. Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.'
+about_social:
+    3:
+        url: '#'
+        class: linkedin
+    1:
+        url: 'http://dribbble.com/michaelfangman'
+        class: dribbble
+    4:
+        url: '#'
+        class: codepen
+    2:
+        url: 'http://twitter.com/michaelfangman'
+        class: twitter
+    5:
+        url: '#'
+        class: spotify
+    6:
+        url: 'mailto:hello@michaelfangman.com'
+        class: email
+about_sidebar:
+    1:
+        title: Capabilities
+        description: 'User Experience Design'
+about_background_img: pbc-recipe-bread.jpg
+header_background_img: forest.jpg
 background_img: forest.jpg
 headline: 'UX & UI Designer'
 ---

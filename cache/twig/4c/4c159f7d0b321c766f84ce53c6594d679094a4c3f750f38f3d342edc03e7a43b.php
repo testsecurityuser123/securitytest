@@ -64,13 +64,13 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
         ";
         // line 74
         $this->displayBlock('footer', $context, $blocks);
-        // line 79
+        // line 80
         echo "    </div>
     ";
-        // line 85
+        // line 86
         echo "    ";
         $this->displayBlock('bottom', $context, $blocks);
-        // line 101
+        // line 102
         echo "</body>
 </html>
 ";
@@ -250,15 +250,16 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
     {
         // line 75
         echo "        <footer id=\"footer\">
+            <span class=\"footer-credit\">Designed & Built by Michael Fangman © 2016</span>
         
         </footer>
         ";
     }
 
-    // line 85
+    // line 86
     public function block_bottom($context, array $blocks = array())
     {
-        // line 86
+        // line 87
         echo "        ";
         echo $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "js", array(0 => "bottom"), "method");
         echo "
@@ -290,7 +291,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 
     public function getDebugInfo()
     {
-        return array (  262 => 86,  259 => 85,  252 => 75,  249 => 74,  244 => 70,  239 => 71,  237 => 70,  232 => 69,  229 => 68,  224 => 66,  220 => 61,  217 => 60,  214 => 59,  209 => 55,  203 => 62,  200 => 59,  197 => 58,  194 => 57,  191 => 56,  189 => 55,  179 => 50,  175 => 48,  172 => 47,  167 => 39,  164 => 38,  161 => 37,  158 => 36,  156 => 35,  153 => 34,  150 => 33,  147 => 32,  143 => 29,  140 => 21,  137 => 20,  134 => 19,  131 => 18,  123 => 41,  121 => 32,  115 => 30,  113 => 18,  108 => 15,  103 => 12,  99 => 11,  96 => 10,  94 => 9,  86 => 8,  83 => 7,  80 => 6,  74 => 101,  71 => 85,  68 => 79,  66 => 74,  63 => 73,  61 => 68,  58 => 67,  56 => 66,  53 => 65,  51 => 47,  46 => 45,  43 => 44,  41 => 6,  35 => 3,  32 => 2,  30 => 1,);
+        return array (  263 => 87,  260 => 86,  252 => 75,  249 => 74,  244 => 70,  239 => 71,  237 => 70,  232 => 69,  229 => 68,  224 => 66,  220 => 61,  217 => 60,  214 => 59,  209 => 55,  203 => 62,  200 => 59,  197 => 58,  194 => 57,  191 => 56,  189 => 55,  179 => 50,  175 => 48,  172 => 47,  167 => 39,  164 => 38,  161 => 37,  158 => 36,  156 => 35,  153 => 34,  150 => 33,  147 => 32,  143 => 29,  140 => 21,  137 => 20,  134 => 19,  131 => 18,  123 => 41,  121 => 32,  115 => 30,  113 => 18,  108 => 15,  103 => 12,  99 => 11,  96 => 10,  94 => 9,  86 => 8,  83 => 7,  80 => 6,  74 => 102,  71 => 86,  68 => 80,  66 => 74,  63 => 73,  61 => 68,  58 => 67,  56 => 66,  53 => 65,  51 => 47,  46 => 45,  43 => 44,  41 => 6,  35 => 3,  32 => 2,  30 => 1,);
     }
 }
 /* {% set theme_config = attribute(config.themes, config.system.pages.theme) %}*/
@@ -368,6 +369,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 /* */
 /*         {% block footer %}*/
 /*         <footer id="footer">*/
+/*             <span class="footer-credit">Designed & Built by Michael Fangman © 2016</span>*/
 /*         */
 /*         </footer>*/
 /*         {% endblock %}*/

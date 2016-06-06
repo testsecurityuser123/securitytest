@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav-2016/user/themes/fangman-v1/blueprints/home.yaml',
-    'modified' => 1458878430,
+    'modified' => 1465181795,
     'data' => [
         'title' => 'Home',
         '@extends' => [
@@ -17,10 +17,51 @@ return [
                     'fields' => [
                         'content' => [
                             'fields' => [
-                                'header.background_img' => [
+                                'header.header_background_img' => [
                                     'type' => 'pagemediaselect',
-                                    'size' => 'large',
-                                    'label' => 'Background Image'
+                                    'label' => 'Header Background Image'
+                                ],
+                                'header.about_title' => [
+                                    'type' => 'text',
+                                    'label' => 'About Title'
+                                ],
+                                'header.about_description' => [
+                                    'type' => 'editor',
+                                    'label' => 'About Description'
+                                ],
+                                'header.about_social' => [
+                                    'name' => 'about_social',
+                                    'type' => 'list',
+                                    'label' => 'About Social Channels',
+                                    'fields' => [
+                                        '.url' => [
+                                            'type' => 'text',
+                                            'label' => 'URL'
+                                        ],
+                                        '.class' => [
+                                            'type' => 'text',
+                                            'label' => 'Class'
+                                        ]
+                                    ]
+                                ],
+                                'header.about_sidebar' => [
+                                    'name' => 'about_sidebar',
+                                    'type' => 'list',
+                                    'label' => 'About Sidebar',
+                                    'fields' => [
+                                        '.title' => [
+                                            'type' => 'text',
+                                            'label' => 'Title'
+                                        ],
+                                        '.description' => [
+                                            'type' => 'text',
+                                            'label' => 'Description'
+                                        ]
+                                    ]
+                                ],
+                                'header.about_background_img' => [
+                                    'type' => 'pagemediaselect',
+                                    'label' => 'About Background Image'
                                 ]
                             ]
                         ]
