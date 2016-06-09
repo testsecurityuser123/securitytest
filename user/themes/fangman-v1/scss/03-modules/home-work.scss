@@ -2,6 +2,7 @@
 
 	.home-work-feed {
 		position: relative;
+		z-index: 3;
 		@include span-columns(12);
 
 		@include breakpoint($bp-m) {
@@ -13,7 +14,7 @@
 			position: relative;
 			list-style: none;
 			margin: 0;
-			padding: rem(102) 0;
+			padding: rem(102) 0 0;
 			@include clearfix;
 			//@include outer-container;
 			// margin: rem(30);
@@ -39,7 +40,7 @@
 
 				&:before {
 					content: '';
-					padding-top: 150%;
+					padding-top: 133%;
 					display: block;
 				}
 
@@ -70,13 +71,13 @@
 				a {
 					position: absolute;
 					z-index: 100;
-					top: rem(0);
+					top: rem(15);
 					bottom: rem(15);
 					left: rem(15);
 					right: rem(15);
 
 					text-align: center;
-					background-color: $color-accent;
+					background-color: $color-primary;
 
 					height: auto;
 					width: auto;

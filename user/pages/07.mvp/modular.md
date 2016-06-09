@@ -1,6 +1,6 @@
 ---
 title: MVP
-published: false
+published: true
 body_classes: modular
 taxonomy:
     category:

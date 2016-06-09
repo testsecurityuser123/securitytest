@@ -9,8 +9,9 @@ Module: Project Description
 	z-index: 2;
 	background-color: $color-primary;
 	color: $color-primary;
-	padding: $section-padding-s;
+	padding: $section-padding-m;
 	height: 100vh;
+	min-height: rem(660);
 
 	@include clearfix;
 	clear: both;
@@ -19,26 +20,31 @@ Module: Project Description
 	// 	padding: rem(300) rem(30);
 	// }
 
-	&:before {
-		content: '';
-		position: absolute;
-		z-index: 2;
-		top: -2%;
-		bottom: 75%;
-		left: 0;
-		right: 0;
-		@include linear-gradient(rgba(36,36,51,1), rgba(36,36,51,0));
-		background-color: transparent !important;
+	// &:before {
+	// 	content: '';
+	// 	position: absolute;
+	// 	z-index: 2;
+	// 	top: -2%;
+	// 	bottom: 97%;
+	// 	left: 0;
+	// 	right: 0;
+	// 	@include linear-gradient(rgba(36,36,51,1), rgba(36,36,51,0));
+	// 	background-color: transparent !important;
 
-	}
+	// }
 
 	.home-about-container {
 		position: relative;
 		z-index: 2;
 		@include outer-container;
-		top: 50%;
-		@include transform(translateY(-50%));
+		// top: 50%;
+		// @include transform(translateY(-50%));
 		// padding-bottom: rem(60);
+
+		@include breakpoint($bp-m) {
+			top: 50%;
+			@include transform(translateY(-50%));
+		}
 
 		p {
 			color: $color-white;
@@ -127,7 +133,7 @@ Module: Project Description
 	}
 
 	.home-about-background-image {
-		position: absolute;
+		position: fixed;
 		z-index: 1;	
 		top: 0;
 		bottom: 0;

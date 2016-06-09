@@ -29,17 +29,16 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
     {
         // line 4
         echo "\t<section class=\"home-hero\">
-\t\t<div class=\"home-hero-content\">
-\t\t
+\t\t<div class=\"home-hero-content\" data-center-center=\"opacity:1;transform:translateY(-50%);\" data-top-bottom=\"opacity:.5;transform:translateY(-150%);\">
 \t\t\t";
-        // line 7
+        // line 6
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "content", array());
         echo "
 \t\t</div>
 
 \t\t";
-        // line 11
-        echo "\t\t<a href=\"#work-anchor\" class=\"intro-scroll-container\">
+        // line 10
+        echo "\t\t<a href=\"#work-anchor\" class=\"intro-scroll-container\" data-center-center=\"opacity:1;transform:translateY(0%);\" data-top-bottom=\"opacity:0;transform:translateY(250%);\">
 \t\t\t<div class=\"intro-scroll\"></div>
 \t\t\t\t<div class=\"intro-scroll-arrow\"></div>
 \t\t\t<div class=\"intro-scroll-text\">
@@ -52,31 +51,41 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 \t<section class=\"home-work\" id=\"work-anchor\">
 \t\t<div class=\"home-work-feed\">
 
-\t\t\t<ul>
+\t\t\t<ul
+\t\t\t\tdata-bottom-top=\"
+\t\t\t\t\ttransform:translateY(50%);
+\t\t\t\t\t-webkit-transform:translateY(50%);
+\t\t\t\t\t-moz-transform:translateY(50%)\"
+
+\t\t\t\tdata-bottom-bottom=\"
+\t\t\t\t\ttransform:translateY(0);
+\t\t\t\t\t-webkit-transform:translateY(0);
+\t\t\t\t\t-moz-transform:translateY(0);\"
+\t\t\t>
 \t\t\t";
-        // line 25
+        // line 34
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["taxonomy"]) ? $context["taxonomy"] : null), "findTaxonomy", array(0 => array("category" => "work")), "method"));
         foreach ($context['_seq'] as $context["_key"] => $context["p"]) {
-            // line 26
+            // line 35
             echo "\t\t\t\t";
             $context["first_image"] = twig_first($this->env, $this->getAttribute($this->getAttribute($context["p"], "media", array()), "images", array()));
-            // line 27
+            // line 36
             echo "\t\t\t\t<li>
 \t\t\t\t\t<a href=\"";
-            // line 28
+            // line 37
             echo $this->getAttribute($context["p"], "url", array());
             echo "\">
 \t\t\t\t\t\t<div class=\"work-item-background\">
 \t\t\t\t\t\t\t<h4>";
-            // line 30
+            // line 39
             echo $this->getAttribute($context["p"], "title", array());
             echo "</h4>
 \t\t\t\t\t\t\t";
-            // line 32
+            // line 41
             echo "\t\t\t\t\t\t</div>
 \t\t\t\t\t\t<div class=\"work-item-background-image\" style=\"background-image: url(' ";
-            // line 33
+            // line 42
             echo $this->getAttribute((isset($context["first_image"]) ? $context["first_image"] : null), "url", array());
             echo " ');\"></div>
 \t\t\t\t\t</a>
@@ -86,7 +95,7 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['p'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 37
+        // line 46
         echo "\t\t\t</ul>
 \t\t</div>
 \t</section>
@@ -96,25 +105,25 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 
 \t\t\t<div class=\"home-about-main-container\">
 \t\t\t\t<h3>";
-        // line 45
+        // line 54
         echo $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "about_title", array());
         echo "</h3>
 \t\t\t\t<p>";
-        // line 46
+        // line 55
         echo $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "about_description", array());
         echo "</p>
 
 
 \t\t\t\t<div class=\"home-about-social-container\">
 \t\t\t\t";
-        // line 50
+        // line 59
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "about_social", array()));
         foreach ($context['_seq'] as $context["_key"] => $context["social"]) {
-            // line 51
+            // line 60
             echo "\t\t\t\t\t\t";
             if ($this->getAttribute($context["social"], "url", array())) {
-                // line 52
+                // line 61
                 echo "\t\t\t\t\t\t\t<a href=\"";
                 echo $this->getAttribute($context["social"], "url", array());
                 echo "\" class=\"home-about-social social-";
@@ -124,65 +133,65 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
                 echo "</a>
 \t\t\t\t\t\t";
             }
-            // line 54
+            // line 63
             echo "\t\t\t\t";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['social'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 55
+        // line 64
         echo "\t\t\t\t</div>
 \t\t\t</div>
 
 \t\t\t<div class=\"home-about-side-container\">
 \t\t\t\t";
-        // line 59
+        // line 68
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "about_sidebar", array()));
         foreach ($context['_seq'] as $context["_key"] => $context["attribute"]) {
-            // line 60
+            // line 69
             echo "\t\t\t\t\t<div class=\"home-about-sidebar\">
 \t\t\t\t\t\t";
-            // line 61
+            // line 70
             if ($this->getAttribute($context["attribute"], "title", array())) {
-                // line 62
+                // line 71
                 echo "\t\t\t\t\t\t\t<h6>";
                 echo $this->getAttribute($context["attribute"], "title", array());
                 echo "</h6>
 \t\t\t\t\t\t";
             }
-            // line 64
+            // line 73
             echo "\t\t\t\t\t\t";
             if ($this->getAttribute($context["attribute"], "description", array())) {
-                // line 65
+                // line 74
                 echo "\t\t\t\t\t\t\t<p>";
                 echo $this->getAttribute($context["attribute"], "description", array());
                 echo "</p>
 \t\t\t\t\t\t";
             }
-            // line 67
+            // line 76
             echo "\t\t\t\t\t</div>
 \t\t\t\t";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['attribute'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 69
+        // line 78
         echo "\t\t\t</div>
 \t\t</div>
 \t\t<div class=\"home-about-background-image\" style=\"background-image: url(' ";
-        // line 71
+        // line 80
         echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "about_background_img", array());
-        echo " ');\" data-1100=\"transform:scale(1);opacity:0;\" data-1600=\"transform:scale(1.05);opacity:0.05;\"></div>
+        echo " ');\" data-0-end=\"transform:scale(1.05);opacity:0.05;z-index:1;\" data-600-end=\"transform:scale(1);opacity:0.0;z-index:0\"></div>
 \t</section>
 
 
 
 \t";
-        // line 77
+        // line 86
         echo "\t\t<div class=\"home-bkg\" style=\"background-image: url('";
         echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "header_background_img", array());
-        echo "');\" data-0=\"transform:scale(1.05);opacity:.05;\" data-500=\"transform:scale(1);opacity:0;\"></div>
+        echo "');\" data-0p=\"transform:scale(1.05);opacity:0.1;z-index:1;\" data-100p=\"transform:scale(1);opacity:0.0;z-index:0;\"></div>
 ";
     }
 
@@ -198,20 +207,19 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 
     public function getDebugInfo()
     {
-        return array (  183 => 77,  175 => 71,  171 => 69,  164 => 67,  158 => 65,  155 => 64,  149 => 62,  147 => 61,  144 => 60,  140 => 59,  134 => 55,  128 => 54,  118 => 52,  115 => 51,  111 => 50,  104 => 46,  100 => 45,  90 => 37,  80 => 33,  77 => 32,  73 => 30,  68 => 28,  65 => 27,  62 => 26,  58 => 25,  42 => 11,  36 => 7,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  192 => 86,  184 => 80,  180 => 78,  173 => 76,  167 => 74,  164 => 73,  158 => 71,  156 => 70,  153 => 69,  149 => 68,  143 => 64,  137 => 63,  127 => 61,  124 => 60,  120 => 59,  113 => 55,  109 => 54,  99 => 46,  89 => 42,  86 => 41,  82 => 39,  77 => 37,  74 => 36,  71 => 35,  67 => 34,  41 => 10,  35 => 6,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends 'partials/base.html.twig' %}*/
 /* */
 /* {% block content %}*/
 /* 	<section class="home-hero">*/
-/* 		<div class="home-hero-content">*/
-/* 		*/
+/* 		<div class="home-hero-content" data-center-center="opacity:1;transform:translateY(-50%);" data-top-bottom="opacity:.5;transform:translateY(-150%);">*/
 /* 			{{ page.content }}*/
 /* 		</div>*/
 /* */
 /* 		{# Scroll Image #}*/
-/* 		<a href="#work-anchor" class="intro-scroll-container">*/
+/* 		<a href="#work-anchor" class="intro-scroll-container" data-center-center="opacity:1;transform:translateY(0%);" data-top-bottom="opacity:0;transform:translateY(250%);">*/
 /* 			<div class="intro-scroll"></div>*/
 /* 				<div class="intro-scroll-arrow"></div>*/
 /* 			<div class="intro-scroll-text">*/
@@ -224,7 +232,17 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 /* 	<section class="home-work" id="work-anchor">*/
 /* 		<div class="home-work-feed">*/
 /* */
-/* 			<ul>*/
+/* 			<ul*/
+/* 				data-bottom-top="*/
+/* 					transform:translateY(50%);*/
+/* 					-webkit-transform:translateY(50%);*/
+/* 					-moz-transform:translateY(50%)"*/
+/* */
+/* 				data-bottom-bottom="*/
+/* 					transform:translateY(0);*/
+/* 					-webkit-transform:translateY(0);*/
+/* 					-moz-transform:translateY(0);"*/
+/* 			>*/
 /* 			{% for p in taxonomy.findTaxonomy({'category':'work'}) %}*/
 /* 				{% set first_image = p.media.images|first %}*/
 /* 				<li>*/
@@ -271,12 +289,12 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 /* 				{% endfor %}*/
 /* 			</div>*/
 /* 		</div>*/
-/* 		<div class="home-about-background-image" style="background-image: url(' {{ header.about_background_img }} ');" data-1100="transform:scale(1);opacity:0;" data-1600="transform:scale(1.05);opacity:0.05;"></div>*/
+/* 		<div class="home-about-background-image" style="background-image: url(' {{ header.about_background_img }} ');" data-0-end="transform:scale(1.05);opacity:0.05;z-index:1;" data-600-end="transform:scale(1);opacity:0.0;z-index:0"></div>*/
 /* 	</section>*/
 /* */
 /* */
 /* */
 /* 	{# Background Image #}*/
-/* 		<div class="home-bkg" style="background-image: url('{{ header.header_background_img }}');" data-0="transform:scale(1.05);opacity:.05;" data-500="transform:scale(1);opacity:0;"></div>*/
+/* 		<div class="home-bkg" style="background-image: url('{{ header.header_background_img }}');" data-0p="transform:scale(1.05);opacity:0.1;z-index:1;" data-100p="transform:scale(1);opacity:0.0;z-index:0;"></div>*/
 /* {% endblock %}*/
 /* */

@@ -55,6 +55,83 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/images\/1\/c\/0\/8\/0\/1c080426cc6c5c807ccb99a57f3a5e0856f1f6bd-rsztower.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3417,
+		"inputAbbreviatedPath": "\/images\/1\/c\/0\/8\/0\/1c080426cc6c5c807ccb99a57f3a5e0856f1f6bd-rsztower.jpeg",
+		"outputAbbreviatedPath": "\/images\/1\/c\/0\/8\/0\/1c080426cc6c5c807ccb99a57f3a5e0856f1f6bd-rsztower.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/2\/0\/3\/4\/8\/20348e4d36cbadf5d2f847bf16cccb7b3f9284ff--mounts.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3103,
+		"inputAbbreviatedPath": "\/images\/2\/0\/3\/4\/8\/20348e4d36cbadf5d2f847bf16cccb7b3f9284ff--mounts.jpeg",
+		"outputAbbreviatedPath": "\/images\/2\/0\/3\/4\/8\/20348e4d36cbadf5d2f847bf16cccb7b3f9284ff--mounts.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/3\/a\/9\/5\/c\/3a95c5f0fbed329d35d54f2d42eb43ff5c520a1b-pbc-recipe-bread.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5788,
+		"inputAbbreviatedPath": "\/images\/3\/a\/9\/5\/c\/3a95c5f0fbed329d35d54f2d42eb43ff5c520a1b-pbc-recipe-bread.jpeg",
+		"outputAbbreviatedPath": "\/images\/3\/a\/9\/5\/c\/3a95c5f0fbed329d35d54f2d42eb43ff5c520a1b-pbc-recipe-bread.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/6\/1\/d\/0\/7\/61d072d788a943e4617b9140e4ff5455aad1c679-close22x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 166,
+		"inputAbbreviatedPath": "\/images\/6\/1\/d\/0\/7\/61d072d788a943e4617b9140e4ff5455aad1c679-close22x.png",
+		"outputAbbreviatedPath": "\/images\/6\/1\/d\/0\/7\/61d072d788a943e4617b9140e4ff5455aad1c679-close22x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/7\/d\/c\/c\/7\/7dcc7b8b569a671e065fc8c8087931bcd6fa8359-rszmounts.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3110,
+		"inputAbbreviatedPath": "\/images\/7\/d\/c\/c\/7\/7dcc7b8b569a671e065fc8c8087931bcd6fa8359-rszmounts.jpeg",
+		"outputAbbreviatedPath": "\/images\/7\/d\/c\/c\/7\/7dcc7b8b569a671e065fc8c8087931bcd6fa8359-rszmounts.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/b\/9\/a\/f\/4\/b9af4dec57dc8af0c8b32e0ae1a369302c55d950-forest.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6820,
+		"inputAbbreviatedPath": "\/images\/b\/9\/a\/f\/4\/b9af4dec57dc8af0c8b32e0ae1a369302c55d950-forest.jpeg",
+		"outputAbbreviatedPath": "\/images\/b\/9\/a\/f\/4\/b9af4dec57dc8af0c8b32e0ae1a369302c55d950-forest.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/f\/c\/2\/a\/5\/fc2a5ed1f62dc741d28cdbb010798720c6c4c784-email2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 375,
+		"inputAbbreviatedPath": "\/images\/f\/c\/2\/a\/5\/fc2a5ed1f62dc741d28cdbb010798720c6c4c784-email2x.png",
+		"outputAbbreviatedPath": "\/images\/f\/c\/2\/a\/5\/fc2a5ed1f62dc741d28cdbb010798720c6c4c784-email2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1423,13 +1500,24 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/user\/pages\/01.home\/pbc-recipe-bread.jpg": {
+	"\/user\/pages\/01.home\/rsz__mounts.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 356760,
-		"inputAbbreviatedPath": "\/user\/pages\/01.home\/pbc-recipe-bread.jpg",
-		"outputAbbreviatedPath": "\/user\/pages\/01.home\/pbc-recipe-bread.jpg",
+		"initialSize": 793928,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/rsz__mounts.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/01.home\/rsz__mounts.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/01.home\/rsz_tower.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 503625,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/rsz_tower.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/01.home\/rsz_tower.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

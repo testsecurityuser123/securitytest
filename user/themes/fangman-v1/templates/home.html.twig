@@ -2,13 +2,12 @@
 
 {% block content %}
 	<section class="home-hero">
-		<div class="home-hero-content">
-		
+		<div class="home-hero-content" data-center-center="opacity:1;transform:translateY(-50%);" data-top-bottom="opacity:.5;transform:translateY(-150%);">
 			{{ page.content }}
 		</div>
 
 		{# Scroll Image #}
-		<a href="#work-anchor" class="intro-scroll-container">
+		<a href="#work-anchor" class="intro-scroll-container" data-center-center="opacity:1;transform:translateY(0%);" data-top-bottom="opacity:0;transform:translateY(250%);">
 			<div class="intro-scroll"></div>
 				<div class="intro-scroll-arrow"></div>
 			<div class="intro-scroll-text">
@@ -21,7 +20,17 @@
 	<section class="home-work" id="work-anchor">
 		<div class="home-work-feed">
 
-			<ul>
+			<ul
+				data-bottom-top="
+					transform:translateY(50%);
+					-webkit-transform:translateY(50%);
+					-moz-transform:translateY(50%)"
+
+				data-bottom-bottom="
+					transform:translateY(0);
+					-webkit-transform:translateY(0);
+					-moz-transform:translateY(0);"
+			>
 			{% for p in taxonomy.findTaxonomy({'category':'work'}) %}
 				{% set first_image = p.media.images|first %}
 				<li>
@@ -68,11 +77,11 @@
 				{% endfor %}
 			</div>
 		</div>
-		<div class="home-about-background-image" style="background-image: url(' {{ header.about_background_img }} ');" data-1100="transform:scale(1);opacity:0;" data-1600="transform:scale(1.05);opacity:0.05;"></div>
+		<div class="home-about-background-image" style="background-image: url(' {{ header.about_background_img }} ');" data-0-end="transform:scale(1.05);opacity:0.05;z-index:1;" data-600-end="transform:scale(1);opacity:0.0;z-index:0"></div>
 	</section>
 
 
 
 	{# Background Image #}
-		<div class="home-bkg" style="background-image: url('{{ header.header_background_img }}');" data-0="transform:scale(1.05);opacity:.05;" data-500="transform:scale(1);opacity:0;"></div>
+		<div class="home-bkg" style="background-image: url('{{ header.header_background_img }}');" data-0p="transform:scale(1.05);opacity:0.1;z-index:1;" data-100p="transform:scale(1);opacity:0.0;z-index:0;"></div>
 {% endblock %}

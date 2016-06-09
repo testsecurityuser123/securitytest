@@ -444,41 +444,32 @@ Module: Project Description
   z-index: 2;
   background-color: #242433;
   color: #242433;
-  padding: 1.875rem 1.875rem;
+  padding: 3.75rem 1.875rem;
   height: 100vh;
+  min-height: 41.25rem;
   clear: both; }
   .home-about::after {
     clear: both;
     content: "";
     display: table; }
-  .home-about:before {
-    content: '';
-    position: absolute;
-    z-index: 2;
-    top: -2%;
-    bottom: 75%;
-    left: 0;
-    right: 0;
-    background-color: #242433;
-    background-image: -webkit-linear-gradient(#242433, rgba(36, 36, 51, 0));
-    background-image: linear-gradient(#242433, rgba(36, 36, 51, 0));
-    background-color: transparent !important; }
   .home-about .home-about-container {
     position: relative;
     z-index: 2;
     max-width: 80em;
     margin-left: auto;
-    margin-right: auto;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%); }
+    margin-right: auto; }
     .home-about .home-about-container::after {
       clear: both;
       content: "";
       display: table; }
+    @media screen and (min-width: 48em) {
+      .home-about .home-about-container {
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%); } }
     .home-about .home-about-container p {
       color: #fff; }
     .home-about .home-about-container .home-about-main-container {
@@ -556,7 +547,7 @@ Module: Project Description
         .home-about .home-about-container .home-about-side-container .home-about-sidebar p {
           margin-top: 0.75rem; }
   .home-about .home-about-background-image {
-    position: absolute;
+    position: fixed;
     z-index: 1;
     top: 0;
     bottom: 0;
@@ -567,6 +558,7 @@ Module: Project Description
 
 .home-work .home-work-feed {
   position: relative;
+  z-index: 3;
   float: left;
   display: block;
   margin-right: 2.3576515979%;
@@ -581,7 +573,7 @@ Module: Project Description
     position: relative;
     list-style: none;
     margin: 0;
-    padding: 6.375rem 0; }
+    padding: 6.375rem 0 0; }
     .home-work .home-work-feed ul::after {
       clear: both;
       content: "";
@@ -601,17 +593,17 @@ Module: Project Description
       margin: 0; }
       .home-work .home-work-feed ul li:before {
         content: '';
-        padding-top: 150%;
+        padding-top: 133%;
         display: block; }
       .home-work .home-work-feed ul li a {
         position: absolute;
         z-index: 100;
-        top: 0rem;
+        top: 0.9375rem;
         bottom: 0.9375rem;
         left: 0.9375rem;
         right: 0.9375rem;
         text-align: center;
-        background-color: #cb4e4e;
+        background-color: #242433;
         height: auto;
         width: auto;
         -webkit-transition: all 0.25s ease;

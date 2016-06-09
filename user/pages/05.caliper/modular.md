@@ -1,6 +1,6 @@
 ---
 title: Caliper
-published: false
+published: true
 taxonomy:
     category:
         - work

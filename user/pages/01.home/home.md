@@ -25,8 +25,8 @@ about_sidebar:
     1:
         title: Capabilities
         description: 'User Experience Design'
-about_background_img: pbc-recipe-bread.jpg
-header_background_img: forest.jpg
+about_background_img: rsz__mounts.jpg
+header_background_img: rsz_tower.jpg
 background_img: forest.jpg
 headline: 'UX & UI Designer'
 ---
