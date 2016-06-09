@@ -73,3 +73,33 @@ $(document).ready(function() {
     },
   });
 });
+
+
+/* =========================================================
+
+Scroll Magic
+
+// ========================================================= */
+
+
+// init controller
+var controller = new ScrollMagic.Controller();
+
+var scene = new ScrollMagic.Scene({
+  triggerElement: '#work-anchor', // starting scene, when reaching this element
+  offset: 100, // start scene after scrolling for 100px
+  duration: 400 // pin the element for 400px of scrolling
+})
+
+.setPin('.home-work-feed'); // the element we want to pin
+
+controller.addScene(scene);
+
+// // create a scene
+// new ScrollMagic.Scene({
+//         triggerElement: '#work-anchor', // starting scene, when reaching this element
+//         duration: 100,  // the scene should last for a scroll distance of 100px
+//         offset: 50      // start this scene after scrolling for 50px
+//     })
+//     .setPin(".home-hero-content") // pins the element for the the scene's duration
+//     .addTo(controller); // assign the scene to the controller

@@ -55,50 +55,6 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/images\/3\/a\/9\/5\/c\/3a95c5f0fbed329d35d54f2d42eb43ff5c520a1b-pbc-recipe-bread.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5788,
-		"inputAbbreviatedPath": "\/images\/3\/a\/9\/5\/c\/3a95c5f0fbed329d35d54f2d42eb43ff5c520a1b-pbc-recipe-bread.jpeg",
-		"outputAbbreviatedPath": "\/images\/3\/a\/9\/5\/c\/3a95c5f0fbed329d35d54f2d42eb43ff5c520a1b-pbc-recipe-bread.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/6\/1\/d\/0\/7\/61d072d788a943e4617b9140e4ff5455aad1c679-close22x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 166,
-		"inputAbbreviatedPath": "\/images\/6\/1\/d\/0\/7\/61d072d788a943e4617b9140e4ff5455aad1c679-close22x.png",
-		"outputAbbreviatedPath": "\/images\/6\/1\/d\/0\/7\/61d072d788a943e4617b9140e4ff5455aad1c679-close22x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/b\/9\/a\/f\/4\/b9af4dec57dc8af0c8b32e0ae1a369302c55d950-forest.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6820,
-		"inputAbbreviatedPath": "\/images\/b\/9\/a\/f\/4\/b9af4dec57dc8af0c8b32e0ae1a369302c55d950-forest.jpeg",
-		"outputAbbreviatedPath": "\/images\/b\/9\/a\/f\/4\/b9af4dec57dc8af0c8b32e0ae1a369302c55d950-forest.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/f\/c\/2\/a\/5\/fc2a5ed1f62dc741d28cdbb010798720c6c4c784-email2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 375,
-		"inputAbbreviatedPath": "\/images\/f\/c\/2\/a\/5\/fc2a5ed1f62dc741d28cdbb010798720c6c4c784-email2x.png",
-		"outputAbbreviatedPath": "\/images\/f\/c\/2\/a\/5\/fc2a5ed1f62dc741d28cdbb010798720c6c4c784-email2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -14591,6 +14547,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/js\/min\/slick.min-min.js",
 		"outputAbbreviatedPath": "\/user\/themes\/fangman-v1\/js\/min\/min\/slick.min-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/themes\/fangman-v1\/js\/min\/TweenMax-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/js\/min\/TweenMax-min.js",
+		"outputAbbreviatedPath": "\/user\/themes\/fangman-v1\/js\/min\/min\/TweenMax-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
