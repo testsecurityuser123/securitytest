@@ -59,18 +59,18 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
         ";
         // line 68
         $this->displayBlock('body', $context, $blocks);
-        // line 73
+        // line 74
         echo "
         ";
-        // line 74
+        // line 75
         $this->displayBlock('footer', $context, $blocks);
-        // line 80
+        // line 81
         echo "    </div>
     ";
-        // line 86
+        // line 87
         echo "    ";
         $this->displayBlock('bottom', $context, $blocks);
-        // line 102
+        // line 103
         echo "</body>
 </html>
 ";
@@ -233,23 +233,24 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
         echo "        <section id=\"body\" class=\"";
         echo (isset($context["class"]) ? $context["class"] : null);
         echo "\">
+            <div id=\"skrollr-body\"></div>
             ";
-        // line 70
-        $this->displayBlock('content', $context, $blocks);
         // line 71
+        $this->displayBlock('content', $context, $blocks);
+        // line 72
         echo "        </section>
         ";
     }
 
-    // line 70
+    // line 71
     public function block_content($context, array $blocks = array())
     {
     }
 
-    // line 74
+    // line 75
     public function block_footer($context, array $blocks = array())
     {
-        // line 75
+        // line 76
         echo "        <footer id=\"footer\">
             <span class=\"footer-credit\">Designed & Built by Michael Fangman © 2016</span>
         
@@ -257,10 +258,10 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
         ";
     }
 
-    // line 86
+    // line 87
     public function block_bottom($context, array $blocks = array())
     {
-        // line 87
+        // line 88
         echo "        ";
         echo $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "js", array(0 => "bottom"), "method");
         echo "
@@ -292,7 +293,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 
     public function getDebugInfo()
     {
-        return array (  264 => 87,  261 => 86,  253 => 75,  250 => 74,  245 => 70,  240 => 71,  238 => 70,  233 => 69,  230 => 68,  225 => 66,  221 => 61,  218 => 60,  215 => 59,  210 => 55,  204 => 62,  201 => 59,  198 => 58,  195 => 57,  192 => 56,  190 => 55,  180 => 50,  176 => 48,  173 => 47,  168 => 39,  165 => 38,  162 => 37,  159 => 36,  156 => 35,  153 => 34,  150 => 33,  147 => 32,  143 => 29,  140 => 21,  137 => 20,  134 => 19,  131 => 18,  123 => 41,  121 => 32,  115 => 30,  113 => 18,  108 => 15,  103 => 12,  99 => 11,  96 => 10,  94 => 9,  86 => 8,  83 => 7,  80 => 6,  74 => 102,  71 => 86,  68 => 80,  66 => 74,  63 => 73,  61 => 68,  58 => 67,  56 => 66,  53 => 65,  51 => 47,  46 => 45,  43 => 44,  41 => 6,  35 => 3,  32 => 2,  30 => 1,);
+        return array (  265 => 88,  262 => 87,  254 => 76,  251 => 75,  246 => 71,  241 => 72,  239 => 71,  233 => 69,  230 => 68,  225 => 66,  221 => 61,  218 => 60,  215 => 59,  210 => 55,  204 => 62,  201 => 59,  198 => 58,  195 => 57,  192 => 56,  190 => 55,  180 => 50,  176 => 48,  173 => 47,  168 => 39,  165 => 38,  162 => 37,  159 => 36,  156 => 35,  153 => 34,  150 => 33,  147 => 32,  143 => 29,  140 => 21,  137 => 20,  134 => 19,  131 => 18,  123 => 41,  121 => 32,  115 => 30,  113 => 18,  108 => 15,  103 => 12,  99 => 11,  96 => 10,  94 => 9,  86 => 8,  83 => 7,  80 => 6,  74 => 103,  71 => 87,  68 => 81,  66 => 75,  63 => 74,  61 => 68,  58 => 67,  56 => 66,  53 => 65,  51 => 47,  46 => 45,  43 => 44,  41 => 6,  35 => 3,  32 => 2,  30 => 1,);
     }
 }
 /* {% set theme_config = attribute(config.themes, config.system.pages.theme) %}*/
@@ -364,6 +365,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 /* */
 /*         {% block body %}*/
 /*         <section id="body" class="{{ class }}">*/
+/*             <div id="skrollr-body"></div>*/
 /*             {% block content %}{% endblock %}*/
 /*         </section>*/
 /*         {% endblock %}*/
