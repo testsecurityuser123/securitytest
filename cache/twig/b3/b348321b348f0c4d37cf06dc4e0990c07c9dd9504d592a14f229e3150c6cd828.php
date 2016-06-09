@@ -173,7 +173,7 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 \t\t<div class=\"home-about-background-image\" style=\"background-image: url(' ";
         // line 71
         echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "about_background_img", array());
-        echo " ');\"></div>
+        echo " ');\" data-1100=\"transform:scale(1);opacity:0;\" data-1600=\"transform:scale(1.05);opacity:0.05;\"></div>
 \t</section>
 
 
@@ -271,7 +271,7 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 /* 				{% endfor %}*/
 /* 			</div>*/
 /* 		</div>*/
-/* 		<div class="home-about-background-image" style="background-image: url(' {{ header.about_background_img }} ');"></div>*/
+/* 		<div class="home-about-background-image" style="background-image: url(' {{ header.about_background_img }} ');" data-1100="transform:scale(1);opacity:0;" data-1600="transform:scale(1.05);opacity:0.05;"></div>*/
 /* 	</section>*/
 /* */
 /* */

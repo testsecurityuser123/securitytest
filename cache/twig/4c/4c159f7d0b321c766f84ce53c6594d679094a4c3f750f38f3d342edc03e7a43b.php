@@ -46,18 +46,19 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
         echo $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "body_classes", array());
         echo "\">
     <div id=\"sb-site\">
+        <div id=\"skrollr-body\">
         ";
-        // line 47
+        // line 48
         $this->displayBlock('header', $context, $blocks);
-        // line 65
-        echo "
-        ";
         // line 66
-        $this->displayBlock('showcase', $context, $blocks);
-        // line 67
         echo "
         ";
+        // line 67
+        $this->displayBlock('showcase', $context, $blocks);
         // line 68
+        echo "
+        ";
+        // line 69
         $this->displayBlock('body', $context, $blocks);
         // line 74
         echo "
@@ -66,11 +67,12 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
         $this->displayBlock('footer', $context, $blocks);
         // line 81
         echo "    </div>
+    </div>
     ";
-        // line 87
+        // line 88
         echo "    ";
         $this->displayBlock('bottom', $context, $blocks);
-        // line 103
+        // line 104
         echo "</body>
 </html>
 ";
@@ -169,14 +171,14 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
     ";
     }
 
-    // line 47
+    // line 48
     public function block_header($context, array $blocks = array())
     {
-        // line 48
+        // line 49
         echo "        <header id=\"site-navigation\">
             <div class=\"site-nav-logo\">
                 <a href=\"";
-        // line 50
+        // line 51
         echo ((((isset($context["base_url"]) ? $context["base_url"] : null) == "")) ? ("/") : ((isset($context["base_url"]) ? $context["base_url"] : null)));
         echo "\">";
         echo $this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "site", array()), "title", array());
@@ -186,54 +188,53 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
         </header>
         <div id=\"site-menu\">
             ";
-        // line 55
-        $this->displayBlock('header_extra', $context, $blocks);
         // line 56
+        $this->displayBlock('header_extra', $context, $blocks);
+        // line 57
         echo "            ";
         if ($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "plugins", array()), "langswitcher", array()), "enabled", array())) {
-            // line 57
-            echo "            ";
-            $this->loadTemplate("partials/langswitcher.html.twig", "partials/base.html.twig", 57)->display($context);
             // line 58
             echo "            ";
+            $this->loadTemplate("partials/langswitcher.html.twig", "partials/base.html.twig", 58)->display($context);
+            // line 59
+            echo "            ";
         }
-        // line 59
+        // line 60
         echo "            ";
         $this->displayBlock('header_navigation', $context, $blocks);
-        // line 62
+        // line 63
         echo "            <span class=\"panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars\"></span>
         </div>
         ";
     }
 
-    // line 55
+    // line 56
     public function block_header_extra($context, array $blocks = array())
     {
     }
 
-    // line 59
+    // line 60
     public function block_header_navigation($context, array $blocks = array())
     {
-        // line 60
-        echo "            ";
-        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 60)->display($context);
         // line 61
+        echo "            ";
+        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 61)->display($context);
+        // line 62
         echo "            ";
     }
 
-    // line 66
+    // line 67
     public function block_showcase($context, array $blocks = array())
     {
     }
 
-    // line 68
+    // line 69
     public function block_body($context, array $blocks = array())
     {
-        // line 69
+        // line 70
         echo "        <section id=\"body\" class=\"";
         echo (isset($context["class"]) ? $context["class"] : null);
         echo "\">
-            <div id=\"skrollr-body\"></div>
             ";
         // line 71
         $this->displayBlock('content', $context, $blocks);
@@ -258,10 +259,10 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
         ";
     }
 
-    // line 87
+    // line 88
     public function block_bottom($context, array $blocks = array())
     {
-        // line 88
+        // line 89
         echo "        ";
         echo $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "js", array(0 => "bottom"), "method");
         echo "
@@ -293,7 +294,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 
     public function getDebugInfo()
     {
-        return array (  265 => 88,  262 => 87,  254 => 76,  251 => 75,  246 => 71,  241 => 72,  239 => 71,  233 => 69,  230 => 68,  225 => 66,  221 => 61,  218 => 60,  215 => 59,  210 => 55,  204 => 62,  201 => 59,  198 => 58,  195 => 57,  192 => 56,  190 => 55,  180 => 50,  176 => 48,  173 => 47,  168 => 39,  165 => 38,  162 => 37,  159 => 36,  156 => 35,  153 => 34,  150 => 33,  147 => 32,  143 => 29,  140 => 21,  137 => 20,  134 => 19,  131 => 18,  123 => 41,  121 => 32,  115 => 30,  113 => 18,  108 => 15,  103 => 12,  99 => 11,  96 => 10,  94 => 9,  86 => 8,  83 => 7,  80 => 6,  74 => 103,  71 => 87,  68 => 81,  66 => 75,  63 => 74,  61 => 68,  58 => 67,  56 => 66,  53 => 65,  51 => 47,  46 => 45,  43 => 44,  41 => 6,  35 => 3,  32 => 2,  30 => 1,);
+        return array (  266 => 89,  263 => 88,  255 => 76,  252 => 75,  247 => 71,  242 => 72,  240 => 71,  235 => 70,  232 => 69,  227 => 67,  223 => 62,  220 => 61,  217 => 60,  212 => 56,  206 => 63,  203 => 60,  200 => 59,  197 => 58,  194 => 57,  192 => 56,  182 => 51,  178 => 49,  175 => 48,  170 => 39,  167 => 38,  164 => 37,  161 => 36,  158 => 35,  155 => 34,  152 => 33,  149 => 32,  145 => 29,  142 => 21,  139 => 20,  136 => 19,  133 => 18,  125 => 41,  123 => 32,  117 => 30,  115 => 18,  110 => 15,  105 => 12,  101 => 11,  98 => 10,  96 => 9,  88 => 8,  85 => 7,  82 => 6,  76 => 104,  73 => 88,  69 => 81,  67 => 75,  64 => 74,  62 => 69,  59 => 68,  57 => 67,  54 => 66,  52 => 48,  46 => 45,  43 => 44,  41 => 6,  35 => 3,  32 => 2,  30 => 1,);
     }
 }
 /* {% set theme_config = attribute(config.themes, config.system.pages.theme) %}*/
@@ -342,6 +343,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 /* </head>*/
 /* <body id="top" class="{{ page.header.body_classes }}">*/
 /*     <div id="sb-site">*/
+/*         <div id="skrollr-body">*/
 /*         {% block header %}*/
 /*         <header id="site-navigation">*/
 /*             <div class="site-nav-logo">*/
@@ -365,7 +367,6 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 /* */
 /*         {% block body %}*/
 /*         <section id="body" class="{{ class }}">*/
-/*             <div id="skrollr-body"></div>*/
 /*             {% block content %}{% endblock %}*/
 /*         </section>*/
 /*         {% endblock %}*/
@@ -376,6 +377,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 /*         */
 /*         </footer>*/
 /*         {% endblock %}*/
+/*     </div>*/
 /*     </div>*/
 /*     {# <div class="sb-slidebar sb-left sb-width-thin">*/
 /*         <div id="panel">*/

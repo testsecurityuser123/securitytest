@@ -44,6 +44,7 @@
 </head>
 <body id="top" class="{{ page.header.body_classes }}">
     <div id="sb-site">
+        <div id="skrollr-body">
         {% block header %}
         <header id="site-navigation">
             <div class="site-nav-logo">
@@ -67,7 +68,6 @@
 
         {% block body %}
         <section id="body" class="{{ class }}">
-            <div id="skrollr-body"></div>
             {% block content %}{% endblock %}
         </section>
         {% endblock %}
@@ -78,6 +78,7 @@
         
         </footer>
         {% endblock %}
+    </div>
     </div>
     {# <div class="sb-slidebar sb-left sb-width-thin">
         <div id="panel">

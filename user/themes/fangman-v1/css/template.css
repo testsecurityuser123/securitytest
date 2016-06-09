@@ -455,8 +455,8 @@ Module: Project Description
     content: '';
     position: absolute;
     z-index: 2;
-    top: 0;
-    bottom: 0;
+    top: -2%;
+    bottom: 75%;
     left: 0;
     right: 0;
     background-color: #242433;
