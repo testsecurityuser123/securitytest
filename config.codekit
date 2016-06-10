@@ -110,6 +110,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/8\/3\/d\/5\/2\/83d52e11c9da0c979ad8494a96b7fa5cb945ede1-pbc-product-mock.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5552,
+		"inputAbbreviatedPath": "\/images\/8\/3\/d\/5\/2\/83d52e11c9da0c979ad8494a96b7fa5cb945ede1-pbc-product-mock.jpeg",
+		"outputAbbreviatedPath": "\/images\/8\/3\/d\/5\/2\/83d52e11c9da0c979ad8494a96b7fa5cb945ede1-pbc-product-mock.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/b\/9\/a\/f\/4\/b9af4dec57dc8af0c8b32e0ae1a369302c55d950-forest.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -117,6 +128,17 @@
 		"initialSize": 6820,
 		"inputAbbreviatedPath": "\/images\/b\/9\/a\/f\/4\/b9af4dec57dc8af0c8b32e0ae1a369302c55d950-forest.jpeg",
 		"outputAbbreviatedPath": "\/images\/b\/9\/a\/f\/4\/b9af4dec57dc8af0c8b32e0ae1a369302c55d950-forest.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/e\/5\/b\/0\/b\/e5b0b842f47a4241637dd8f748b67bd7c2c3e48c-pbc-portimage.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25762,
+		"inputAbbreviatedPath": "\/images\/e\/5\/b\/0\/b\/e5b0b842f47a4241637dd8f748b67bd7c2c3e48c-pbc-portimage.png",
+		"outputAbbreviatedPath": "\/images\/e\/5\/b\/0\/b\/e5b0b842f47a4241637dd8f748b67bd7c2c3e48c-pbc-portimage.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6015,13 +6037,13 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/user\/pages\/04.pb-crave\/pbc-product-mock.jpg": {
-		"fileType": 16384,
+	"\/user\/pages\/04.pb-crave\/pbc-portimage.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 511829,
-		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/pbc-product-mock.jpg",
-		"outputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/pbc-product-mock.jpg",
+		"initialSize": 1.01845e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/pbc-portimage.png",
+		"outputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/pbc-portimage.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

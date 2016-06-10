@@ -10,8 +10,9 @@ Module: Project Description
 	background-color: $color-primary;
 	color: $color-primary;
 	padding: $section-padding-m;
+	min-height: 100vh;
 	height: 100vh;
-	min-height: rem(660);
+	// min-height: rem(660);
 
 	@include clearfix;
 	clear: both;

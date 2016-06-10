@@ -4,8 +4,8 @@
 	width: 100%;
 	.home-hero-content {
 		position: absolute;
-		top: 50%;
-		@include transform(translateY(-50%));
+		top: 28%;
+		// @include transform(translateY(-50%));
 		left: 0;
 		right: 0;
 		@include outer-container;

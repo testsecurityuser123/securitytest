@@ -11,7 +11,7 @@ Base: Variables
 
 ========================================================= */
 body {
-  font-family: "museo-sans", sans-serif;
+  font-family: "soleil", sans-serif;
   background-color: #242433;
   color: #fff;
   overflow-x: hidden; }
@@ -293,12 +293,7 @@ h6 {
   width: 100%; }
   .home-hero .home-hero-content {
     position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
+    top: 28%;
     left: 0;
     right: 0;
     max-width: 80em;
@@ -445,8 +440,8 @@ Module: Project Description
   background-color: #242433;
   color: #242433;
   padding: 3.75rem 1.875rem;
+  min-height: 100vh;
   height: 100vh;
-  min-height: 41.25rem;
   clear: both; }
   .home-about::after {
     clear: both;
@@ -573,7 +568,8 @@ Module: Project Description
     position: relative;
     list-style: none;
     margin: 0;
-    padding: 6.375rem 0 0; }
+    padding: 0;
+    padding: 5.625rem 0 0; }
     .home-work .home-work-feed ul::after {
       clear: both;
       content: "";
@@ -629,8 +625,6 @@ Module: Project Description
             transform: scale(1) translateX(10%); }
           .home-work .home-work-feed ul li a:hover div.work-item-background-image {
             opacity: 1;
-            -webkit-filter: grayscale(0%);
-            filter: grayscale(0%);
             -webkit-transition: all 0.25s ease;
             -moz-transition: all 0.25s ease;
             transition: all 0.25s ease; }
@@ -655,9 +649,9 @@ Module: Project Description
           .home-work .home-work-feed ul li a div h4 {
             display: block;
             position: absolute;
-            top: 2.8125rem;
+            top: 1.125rem;
             left: 2.8125rem;
-            color: #fff;
+            color: #cb4e4e;
             text-align: left;
             -webkit-transition: all 0.25s ease;
             -moz-transition: all 0.25s ease;
@@ -668,8 +662,6 @@ Module: Project Description
             z-index: 1;
             background-size: cover;
             background-position: top center;
-            -webkit-filter: grayscale(100%);
-            filter: grayscale(100%);
             opacity: .5; }
 
 /* =========================================================

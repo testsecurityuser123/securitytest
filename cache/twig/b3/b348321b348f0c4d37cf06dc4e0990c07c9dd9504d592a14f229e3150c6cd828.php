@@ -57,7 +57,7 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 \t\t\t\t\t-webkit-transform:translateY(50%);
 \t\t\t\t\t-moz-transform:translateY(50%)\"
 
-\t\t\t\tdata-bottom-bottom=\"
+\t\t\t\tdata-center-top=\"
 \t\t\t\t\ttransform:translateY(0);
 \t\t\t\t\t-webkit-transform:translateY(0);
 \t\t\t\t\t-moz-transform:translateY(0);\"
@@ -238,7 +238,7 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 /* 					-webkit-transform:translateY(50%);*/
 /* 					-moz-transform:translateY(50%)"*/
 /* */
-/* 				data-bottom-bottom="*/
+/* 				data-center-top="*/
 /* 					transform:translateY(0);*/
 /* 					-webkit-transform:translateY(0);*/
 /* 					-moz-transform:translateY(0);"*/

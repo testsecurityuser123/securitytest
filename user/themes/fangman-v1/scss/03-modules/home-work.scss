@@ -14,7 +14,8 @@
 			position: relative;
 			list-style: none;
 			margin: 0;
-			padding: rem(102) 0 0;
+			padding: 0;
+			padding: rem(90) 0 0;
 			@include clearfix;
 			//@include outer-container;
 			// margin: rem(30);
@@ -104,7 +105,7 @@
 
 							&.work-item-background-image {
 								opacity: 1;
-								@include filter(grayscale(0%));
+								// @include filter(grayscale(0%));
 
 								@include transition($transition-med);
 							}
@@ -134,10 +135,10 @@
 						h4 {
 							display: block;
 							position: absolute;
-							top: rem(45);
+							top: rem(18);
 							left: rem(45);
 
-							color: $color-white;
+							color: $color-accent;
 							text-align: left;
 
 							@include transition($transition-med);
@@ -150,7 +151,7 @@
 							background-size: cover;
 							background-position: top center;
 
-							@include filter(grayscale(100%));
+							// @include filter(grayscale(100%));
 							opacity: .5;
 						}
 					}
