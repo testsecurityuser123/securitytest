@@ -77,7 +77,7 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
             echo $this->getAttribute($context["p"], "url", array());
             echo "\">
 \t\t\t\t\t\t<div class=\"work-item-background\">
-\t\t\t\t\t\t\t<h4>";
+\t\t\t\t\t\t\t<h4 class=\"subhead\">";
             // line 39
             echo $this->getAttribute($context["p"], "title", array());
             echo "</h4>
@@ -248,7 +248,7 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 /* 				<li>*/
 /* 					<a href="{{p.url}}">*/
 /* 						<div class="work-item-background">*/
-/* 							<h4>{{ p.title }}</h4>*/
+/* 							<h4 class="subhead">{{ p.title }}</h4>*/
 /* 							{# {{ first_image }} #}*/
 /* 						</div>*/
 /* 						<div class="work-item-background-image" style="background-image: url(' {{ first_image.url }} ');"></div>*/

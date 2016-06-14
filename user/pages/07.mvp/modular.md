@@ -1,5 +1,5 @@
 ---
-title: MVP
+title: 'MVP Marketing + Design'
 published: true
 body_classes: modular
 taxonomy:

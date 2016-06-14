@@ -26,7 +26,7 @@ about_sidebar:
         title: Capabilities
         description: 'User Experience Design'
 about_background_img: rsz__mounts.jpg
-header_background_img: rsz_tower.jpg
+header_background_img: rsz_hero-trees.jpg
 background_img: forest.jpg
 headline: 'UX & UI Designer'
 ---

@@ -55,6 +55,17 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/images\/0\/a\/2\/2\/8\/0a228a5f62662295d4ec4c0d583f6960b4639c8a-mvp-gal-1.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6317,
+		"inputAbbreviatedPath": "\/images\/0\/a\/2\/2\/8\/0a228a5f62662295d4ec4c0d583f6960b4639c8a-mvp-gal-1.jpeg",
+		"outputAbbreviatedPath": "\/images\/0\/a\/2\/2\/8\/0a228a5f62662295d4ec4c0d583f6960b4639c8a-mvp-gal-1.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/1\/c\/0\/8\/0\/1c080426cc6c5c807ccb99a57f3a5e0856f1f6bd-rsztower.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -110,6 +121,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/7\/e\/f\/b\/7\/7efb778e17d5af9145a1681d5498baba164b5fb6-rszhero-trees.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3869,
+		"inputAbbreviatedPath": "\/images\/7\/e\/f\/b\/7\/7efb778e17d5af9145a1681d5498baba164b5fb6-rszhero-trees.jpeg",
+		"outputAbbreviatedPath": "\/images\/7\/e\/f\/b\/7\/7efb778e17d5af9145a1681d5498baba164b5fb6-rszhero-trees.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/8\/3\/d\/5\/2\/83d52e11c9da0c979ad8494a96b7fa5cb945ede1-pbc-product-mock.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -117,6 +139,39 @@
 		"initialSize": 5552,
 		"inputAbbreviatedPath": "\/images\/8\/3\/d\/5\/2\/83d52e11c9da0c979ad8494a96b7fa5cb945ede1-pbc-product-mock.jpeg",
 		"outputAbbreviatedPath": "\/images\/8\/3\/d\/5\/2\/83d52e11c9da0c979ad8494a96b7fa5cb945ede1-pbc-product-mock.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/8\/c\/0\/e\/4\/8c0e455a05b7faf67ac18c1713406eaa0c832556-caliper-gal-1.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5182,
+		"inputAbbreviatedPath": "\/images\/8\/c\/0\/e\/4\/8c0e455a05b7faf67ac18c1713406eaa0c832556-caliper-gal-1.jpeg",
+		"outputAbbreviatedPath": "\/images\/8\/c\/0\/e\/4\/8c0e455a05b7faf67ac18c1713406eaa0c832556-caliper-gal-1.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/a\/a\/9\/b\/9\/aa9b9ed25a917480cf2322ca25c140235160a01f-tcan.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5115,
+		"inputAbbreviatedPath": "\/images\/a\/a\/9\/b\/9\/aa9b9ed25a917480cf2322ca25c140235160a01f-tcan.jpeg",
+		"outputAbbreviatedPath": "\/images\/a\/a\/9\/b\/9\/aa9b9ed25a917480cf2322ca25c140235160a01f-tcan.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/b\/1\/f\/2\/a\/b1f2abe0c4efc39bb8677ae37d718d7edc83e1ea-connection-gal.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4764,
+		"inputAbbreviatedPath": "\/images\/b\/1\/f\/2\/a\/b1f2abe0c4efc39bb8677ae37d718d7edc83e1ea-connection-gal.jpeg",
+		"outputAbbreviatedPath": "\/images\/b\/1\/f\/2\/a\/b1f2abe0c4efc39bb8677ae37d718d7edc83e1ea-connection-gal.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -132,6 +187,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/c\/7\/2\/2\/9\/c7229f5fe1463868127e985abadbb515abad78e4-tcan-gal-2.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6399,
+		"inputAbbreviatedPath": "\/images\/c\/7\/2\/2\/9\/c7229f5fe1463868127e985abadbb515abad78e4-tcan-gal-2.jpeg",
+		"outputAbbreviatedPath": "\/images\/c\/7\/2\/2\/9\/c7229f5fe1463868127e985abadbb515abad78e4-tcan-gal-2.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/d\/4\/7\/d\/f\/d47df7aad0175b6f2e65fba87a32713f2bc7824c-flavor-card-large.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22101,
+		"inputAbbreviatedPath": "\/images\/d\/4\/7\/d\/f\/d47df7aad0175b6f2e65fba87a32713f2bc7824c-flavor-card-large.png",
+		"outputAbbreviatedPath": "\/images\/d\/4\/7\/d\/f\/d47df7aad0175b6f2e65fba87a32713f2bc7824c-flavor-card-large.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/d\/7\/2\/2\/4\/d72242d6ab28d83709a69a68972871cf7fdef3fc-connection.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4760,
+		"inputAbbreviatedPath": "\/images\/d\/7\/2\/2\/4\/d72242d6ab28d83709a69a68972871cf7fdef3fc-connection.jpeg",
+		"outputAbbreviatedPath": "\/images\/d\/7\/2\/2\/4\/d72242d6ab28d83709a69a68972871cf7fdef3fc-connection.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/e\/5\/b\/0\/b\/e5b0b842f47a4241637dd8f748b67bd7c2c3e48c-pbc-portimage.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -139,6 +227,17 @@
 		"initialSize": 25762,
 		"inputAbbreviatedPath": "\/images\/e\/5\/b\/0\/b\/e5b0b842f47a4241637dd8f748b67bd7c2c3e48c-pbc-portimage.png",
 		"outputAbbreviatedPath": "\/images\/e\/5\/b\/0\/b\/e5b0b842f47a4241637dd8f748b67bd7c2c3e48c-pbc-portimage.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/f\/6\/7\/4\/d\/f674dde4e8a994324f138b30edb3e0b4233d217e-pbc-gal.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7500,
+		"inputAbbreviatedPath": "\/images\/f\/6\/7\/4\/d\/f674dde4e8a994324f138b30edb3e0b4233d217e-pbc-gal.jpeg",
+		"outputAbbreviatedPath": "\/images\/f\/6\/7\/4\/d\/f674dde4e8a994324f138b30edb3e0b4233d217e-pbc-gal.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1533,6 +1632,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/user\/pages\/01.home\/rsz_hero-trees.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 573773,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/rsz_hero-trees.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/01.home\/rsz_hero-trees.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/user\/pages\/01.home\/rsz_tower.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1835,13 +1945,13 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/user\/pages\/03.tcan\/tcan.jpg": {
+	"\/user\/pages\/03.tcan\/tcan-gal-2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 96450,
-		"inputAbbreviatedPath": "\/user\/pages\/03.tcan\/tcan.jpg",
-		"outputAbbreviatedPath": "\/user\/pages\/03.tcan\/tcan.jpg",
+		"initialSize": 230238,
+		"inputAbbreviatedPath": "\/user\/pages\/03.tcan\/tcan-gal-2.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/03.tcan\/tcan-gal-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6037,13 +6147,24 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/user\/pages\/04.pb-crave\/pbc-portimage.png": {
-		"fileType": 32768,
+	"\/user\/pages\/04.pb-crave\/pbc-gal.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.01845e+06,
-		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/pbc-portimage.png",
-		"outputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/pbc-portimage.png",
+		"initialSize": 378327,
+		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/pbc-gal.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/pbc-gal.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/05.caliper\/caliper-gal-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 236995,
+		"inputAbbreviatedPath": "\/user\/pages\/05.caliper\/caliper-gal-1.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/05.caliper\/caliper-gal-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6056,17 +6177,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/user\/pages\/05.caliper\/flavor-card-large.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 184792,
-		"inputAbbreviatedPath": "\/user\/pages\/05.caliper\/flavor-card-large.png",
-		"outputAbbreviatedPath": "\/user\/pages\/05.caliper\/flavor-card-large.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/user\/pages\/05.caliper\/modular.html": {
 		"fileType": 8192,
@@ -6223,13 +6333,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/user\/pages\/06.connection\/connection.jpg": {
+	"\/user\/pages\/06.connection\/connection-gal.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 94829,
-		"inputAbbreviatedPath": "\/user\/pages\/06.connection\/connection.jpg",
-		"outputAbbreviatedPath": "\/user\/pages\/06.connection\/connection.jpg",
+		"initialSize": 259305,
+		"inputAbbreviatedPath": "\/user\/pages\/06.connection\/connection-gal.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/06.connection\/connection-gal.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6302,6 +6412,17 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
+		},
+	"\/user\/pages\/07.mvp\/mvp-gal-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 281397,
+		"inputAbbreviatedPath": "\/user\/pages\/07.mvp\/mvp-gal-1.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/07.mvp\/mvp-gal-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/user\/plugins\/admin\/admin.php": {
 		"fileType": 8192,

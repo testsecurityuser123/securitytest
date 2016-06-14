@@ -1,0 +1,23 @@
+1466476130
+a:2:{s:7:"content";s:922:"<section class="project-desc">
+	<div class="project-desc-container">
+
+		<div class="project-desc-main-container">
+			<h3>Project Overview</h3>
+			<p><p>Curabitur blandit tempus porttitor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna mollis ornare vel eu leo.</p></p>
+		</div>
+
+		<div class="project-desc-side-container">
+							<div class="project-desc-attribute">
+											<h6>Medium</h6>
+																<p>Web, UX/UI</p>
+									</div>
+							<div class="project-desc-attribute">
+											<h6>Credits</h6>
+																<p>Art Direction: Brenden Greenwood</p>
+									</div>
+					</div>
+	</div>
+</section>
+
+";s:12:"content_meta";N;}

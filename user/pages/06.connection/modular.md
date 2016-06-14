@@ -1,5 +1,6 @@
 ---
 title: 'The Connection'
+published: true
 taxonomy:
     category:
         - work
