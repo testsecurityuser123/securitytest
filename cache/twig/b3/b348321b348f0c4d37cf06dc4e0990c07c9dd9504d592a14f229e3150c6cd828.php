@@ -29,7 +29,7 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
     {
         // line 4
         echo "\t<section class=\"home-hero\">
-\t\t<div class=\"home-hero-content\" data-center-center=\"opacity:1;transform:translateY(-50%);\" data-top-bottom=\"opacity:.5;transform:translateY(-150%);\">
+\t\t<div class=\"home-hero-content\">
 \t\t\t";
         // line 6
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "content", array());
@@ -214,7 +214,7 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 /* */
 /* {% block content %}*/
 /* 	<section class="home-hero">*/
-/* 		<div class="home-hero-content" data-center-center="opacity:1;transform:translateY(-50%);" data-top-bottom="opacity:.5;transform:translateY(-150%);">*/
+/* 		<div class="home-hero-content">*/
 /* 			{{ page.content }}*/
 /* 		</div>*/
 /* */
