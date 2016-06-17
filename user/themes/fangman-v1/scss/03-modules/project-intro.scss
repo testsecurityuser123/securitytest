@@ -92,8 +92,8 @@ Module: Project Introduction
 				@include clearfix;
 
 				@include breakpoint ($bp-m) {
-					@include span-columns(10);
-					@include shift(1);
+					@include span-columns(8);
+					@include shift(2);
 				}
 
 				h2 {

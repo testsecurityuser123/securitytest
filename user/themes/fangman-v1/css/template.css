@@ -475,13 +475,11 @@ Module: Project Description
   float: left;
   display: block;
   margin-right: 2.3576515979%;
-  width: 100%; }
+  width: 100%;
+  padding-left: 4.6875rem;
+  padding-right: 4.6875rem; }
   .home-work .home-work-feed:last-child {
     margin-right: 0; }
-  @media screen and (min-width: 48em) {
-    .home-work .home-work-feed {
-      padding-left: 4.6875rem;
-      padding-right: 4.6875rem; } }
   .home-work .home-work-feed ul {
     position: relative;
     list-style: none;
@@ -496,6 +494,10 @@ Module: Project Description
       display: table-cell;
       width: 100%; }
       @media screen and (min-width: 48em) {
+        .home-work .home-work-feed ul li {
+          display: table-cell;
+          width: 50%; } }
+      @media screen and (min-width: 64em) {
         .home-work .home-work-feed ul li {
           display: table-cell;
           width: 33.3333333333%; } }
@@ -707,8 +709,8 @@ Module: Project Introduction
             float: left;
             display: block;
             margin-right: 2.3576515979%;
-            width: 82.9403914003%;
-            margin-left: 8.5298042998%; }
+            width: 65.8807828007%;
+            margin-left: 17.0596085997%; }
             .project-intro .project-intro-container .project-intro-info-container .project-intro-info:last-child {
               margin-right: 0; } }
         .project-intro .project-intro-container .project-intro-info-container .project-intro-info h2 {

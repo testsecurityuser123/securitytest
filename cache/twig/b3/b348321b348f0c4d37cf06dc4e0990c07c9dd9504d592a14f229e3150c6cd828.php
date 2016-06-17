@@ -29,7 +29,7 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
     {
         // line 4
         echo "\t<section class=\"home-hero\" id=\"welcome\">
-\t\t<div class=\"home-hero-content\">
+\t\t<div class=\"home-hero-content\" data-center-center=\"opacity:1;transform:translateY(-50%);\" data--50-top-bottom=\"opacity:0;transform:translateY(100%);\">
 \t\t\t";
         // line 6
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "content", array());
@@ -38,7 +38,7 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 
 \t\t";
         // line 10
-        echo "\t\t<a href=\"#work\" class=\"intro-scroll-container\" data-center-center=\"opacity:1;transform:translateY(0%);\" data-top-bottom=\"opacity:0;transform:translateY(250%);\">
+        echo "\t\t<a href=\"#work\" class=\"intro-scroll-container\" data-center-center=\"opacity:1;transform:translateY(0%);\" data-100-top-top=\"opacity:0;transform:translateY(250%);\">
 \t\t\t<div class=\"intro-scroll\"></div>
 \t\t\t\t<div class=\"intro-scroll-arrow\"></div>
 \t\t\t<div class=\"intro-scroll-text\">
@@ -207,12 +207,12 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 /* */
 /* {% block content %}*/
 /* 	<section class="home-hero" id="welcome">*/
-/* 		<div class="home-hero-content">*/
+/* 		<div class="home-hero-content" data-center-center="opacity:1;transform:translateY(-50%);" data--50-top-bottom="opacity:0;transform:translateY(100%);">*/
 /* 			{{ page.content }}*/
 /* 		</div>*/
 /* */
 /* 		{# Scroll Image #}*/
-/* 		<a href="#work" class="intro-scroll-container" data-center-center="opacity:1;transform:translateY(0%);" data-top-bottom="opacity:0;transform:translateY(250%);">*/
+/* 		<a href="#work" class="intro-scroll-container" data-center-center="opacity:1;transform:translateY(0%);" data-100-top-top="opacity:0;transform:translateY(250%);">*/
 /* 			<div class="intro-scroll"></div>*/
 /* 				<div class="intro-scroll-arrow"></div>*/
 /* 			<div class="intro-scroll-text">*/
