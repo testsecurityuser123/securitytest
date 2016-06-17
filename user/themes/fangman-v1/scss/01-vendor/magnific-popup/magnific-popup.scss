@@ -155,6 +155,8 @@ $font_2: monospace;
     background-color: #fff;
     border-radius: rem(2);
 
+    @include transition($transition-slow);
+
     @include breakpoint($bp-m) {
       top: rem(39);
     }
@@ -170,6 +172,14 @@ $font_2: monospace;
 
   &:hover {
     opacity: 1;
+
+    &:before {
+      @include transform(rotate(315deg));
+    }
+
+     &:after {
+      @include transform(rotate(45deg));
+    }
   }
   &:focus {
     opacity: 1;

@@ -56,7 +56,7 @@ class __TwigTemplate_02932edd84cd49398c7a465f2e0ccaa81d5d031c779d1b1c906430bcc6d
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array(0 => true), "method");
         echo "/";
         echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "project_intro_background_image", array());
-        echo "');\"></div>
+        echo "');\" data-0p=\"transform:scale(1.05);opacity:0.075;z-index:1;\" data-50p=\"transform:scale(1);opacity:0.0;z-index:0;\"></div>
 </section>
 
 ";
@@ -96,7 +96,7 @@ class __TwigTemplate_02932edd84cd49398c7a465f2e0ccaa81d5d031c779d1b1c906430bcc6d
 /* 		</div>*/
 /* */
 /* 	</div>*/
-/* 	<div class="project-intro-background-image" style="background-image: url(' {{ page.url(true) }}/{{ header.project_intro_background_image }}');"></div>*/
+/* 	<div class="project-intro-background-image" style="background-image: url(' {{ page.url(true) }}/{{ header.project_intro_background_image }}');" data-0p="transform:scale(1.05);opacity:0.075;z-index:1;" data-50p="transform:scale(1);opacity:0.0;z-index:0;"></div>*/
 /* </section>*/
 /* */
 /* */

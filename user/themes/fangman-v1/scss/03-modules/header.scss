@@ -49,7 +49,7 @@
 		@include transform(rotate(-90deg));
 		a {
 			display: inline-block;
-			padding-left: rem(24);
+			margin-left: rem(24);
 
 			h6 {
 				color: $color-white;

@@ -77,17 +77,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/5\/4\/6\/0\/7\/546079d59b309dfc6b4dd45cd9ded66226504cd8-twincities.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4116,
-		"inputAbbreviatedPath": "\/images\/5\/4\/6\/0\/7\/546079d59b309dfc6b4dd45cd9ded66226504cd8-twincities.jpeg",
-		"outputAbbreviatedPath": "\/images\/5\/4\/6\/0\/7\/546079d59b309dfc6b4dd45cd9ded66226504cd8-twincities.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/6\/1\/d\/0\/7\/61d072d788a943e4617b9140e4ff5455aad1c679-close22x.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -110,35 +99,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/8\/6\/3\/5\/f\/8635faa771d7b8e8f600440d872cb4d49e4bdf4b-t50i01-tcan-homepage-mobile-v11.jpeg": {
+	"\/images\/e\/f\/8\/b\/7\/ef8b798428bb898c75596e31185ec0250348ae20-36407695xxl.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2505,
-		"inputAbbreviatedPath": "\/images\/8\/6\/3\/5\/f\/8635faa771d7b8e8f600440d872cb4d49e4bdf4b-t50i01-tcan-homepage-mobile-v11.jpeg",
-		"outputAbbreviatedPath": "\/images\/8\/6\/3\/5\/f\/8635faa771d7b8e8f600440d872cb4d49e4bdf4b-t50i01-tcan-homepage-mobile-v11.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/c\/6\/d\/b\/6\/c6db60471937411e63cd596d10ddface52aef432-tcan-full-res.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3190,
-		"inputAbbreviatedPath": "\/images\/c\/6\/d\/b\/6\/c6db60471937411e63cd596d10ddface52aef432-tcan-full-res.jpeg",
-		"outputAbbreviatedPath": "\/images\/c\/6\/d\/b\/6\/c6db60471937411e63cd596d10ddface52aef432-tcan-full-res.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/d\/d\/3\/4\/d\/dd34d2675767e4cec226c80b99a3de541db8d991-t50i01-tcan-homepage-mobile-v12.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6103,
-		"inputAbbreviatedPath": "\/images\/d\/d\/3\/4\/d\/dd34d2675767e4cec226c80b99a3de541db8d991-t50i01-tcan-homepage-mobile-v12.jpeg",
-		"outputAbbreviatedPath": "\/images\/d\/d\/3\/4\/d\/dd34d2675767e4cec226c80b99a3de541db8d991-t50i01-tcan-homepage-mobile-v12.jpeg",
+		"initialSize": 7472,
+		"inputAbbreviatedPath": "\/images\/e\/f\/8\/b\/7\/ef8b798428bb898c75596e31185ec0250348ae20-36407695xxl.jpeg",
+		"outputAbbreviatedPath": "\/images\/e\/f\/8\/b\/7\/ef8b798428bb898c75596e31185ec0250348ae20-36407695xxl.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1919,6 +1886,17 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
+		},
+	"\/user\/pages\/04.pb-crave\/_pb-crave-intro\/36407695_xxl.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7.59154e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-intro\/36407695_xxl.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-intro\/36407695_xxl.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/user\/pages\/04.pb-crave\/_pb-crave-intro\/bf19-pbc-homepage-v8.png": {
 		"fileType": 32768,

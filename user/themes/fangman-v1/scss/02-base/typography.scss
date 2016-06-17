@@ -43,6 +43,7 @@ h1 {
 h2 {
 	font-family: $display-font;
 	font-size: rem(42);
+	line-height: rem(42);
 	// letter-spacing: rem(2);
 	line-height: 1;
 	text-align: center;
@@ -58,6 +59,7 @@ h2 {
 
 	@include breakpoint($bp-l) {
 		font-size: rem(90);
+		line-height: rem(84);
 	}
 }
 

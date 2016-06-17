@@ -87,9 +87,9 @@
 		.intro-scroll-text {
 			position: absolute;
 			// min-width: rem(138);
-			min-width: rem(82);
+			min-width: rem(120);
 			top: 50%;
-			margin-top: rem(-6);
+			margin-top: rem(-8);
 			margin-left: rem(4);
 			left: 50%;
 			@include transform(translateX(-50%));
@@ -101,7 +101,7 @@
 			span {
 				display: inline-block;
 				color: #fff;
-				font-size: rem(9);
+				font-size: rem(12);
 				letter-spacing: rem(3);
 				text-transform: uppercase;
 				font-weight: 300;
@@ -128,7 +128,7 @@
 			}
 			.intro-scroll-text {
 				opacity: 1;
-				min-width: rem(138);
+				min-width: rem(150);
 			}
 		}
 	}

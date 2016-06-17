@@ -11,22 +11,22 @@ Module: Project Introduction
 	width: 100%;
 	background-color: $color-primary;
 
-	&:before {
-		content: '';
-		position: absolute;
-		z-index: 2;
-		top: 0;
-		bottom: 0;
-		left: 0;
-		right: 0;
+	// &:before {
+	// 	content: '';
+	// 	position: absolute;
+	// 	z-index: 2;
+	// 	top: 5%;
+	// 	bottom: -5%;
+	// 	left: 0;
+	// 	right: 0;
 
-		@include background(linear-gradient($color-gradient) top repeat);
-		opacity: 1;
+	// 	@include background(linear-gradient($color-gradient) top repeat);
+	// 	opacity: 1;
 
-	}
+	// }
 
 	.project-intro-background-image {
-		position: absolute;
+		position: fixed;
 		z-index: 1;
 		top: 0;
 		bottom: 0;
@@ -38,7 +38,7 @@ Module: Project Introduction
 		background-repeat: no-repeat;
 
 		opacity: 0.1;
-		@include filter(grayscale(100%));
+		@include filter(grayscale(25%));
 
 	}
 	.project-intro-container {
