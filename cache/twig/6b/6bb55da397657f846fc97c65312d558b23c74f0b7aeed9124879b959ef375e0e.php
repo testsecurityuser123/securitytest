@@ -41,10 +41,10 @@ class __TwigTemplate_608fcd4b555a42a0c12dacd97b76b60a9a21a97d5e52dd6f24d0ae457c0
 \t\t</div>
 \t\t<div class=\"project-pf-content-container\">
 \t\t\t<div class=\"project-pf-content-inner-container\">
-\t\t\t\t<h4>";
+\t\t\t\t<h3>";
         // line 13
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "title", array());
-        echo "</h4>
+        echo "</h3>
 \t\t\t\t<p>";
         // line 14
         echo (isset($context["content"]) ? $context["content"] : null);
@@ -103,7 +103,7 @@ class __TwigTemplate_608fcd4b555a42a0c12dacd97b76b60a9a21a97d5e52dd6f24d0ae457c0
 /* 		</div>*/
 /* 		<div class="project-pf-content-container">*/
 /* 			<div class="project-pf-content-inner-container">*/
-/* 				<h4>{{ page.title }}</h4>*/
+/* 				<h3>{{ page.title }}</h3>*/
 /* 				<p>{{ content }}</p>*/
 /* 				{% if header.project_pf_button_link %}*/
 /* 					<a href="{{ header.project_pf_button_link }}" target="_blank" class="btn btn-arrow-r">{{ header.project_pf_button_text }}</a>*/

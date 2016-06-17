@@ -28,7 +28,7 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
     public function block_content($context, array $blocks = array())
     {
         // line 4
-        echo "\t<section class=\"home-hero\">
+        echo "\t<section class=\"home-hero\" id=\"welcome\">
 \t\t<div class=\"home-hero-content\">
 \t\t\t";
         // line 6
@@ -38,7 +38,7 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 
 \t\t";
         // line 10
-        echo "\t\t<a href=\"#work-anchor\" class=\"intro-scroll-container\" data-center-center=\"opacity:1;transform:translateY(0%);\" data-top-bottom=\"opacity:0;transform:translateY(250%);\">
+        echo "\t\t<a href=\"#work\" class=\"intro-scroll-container\" data-center-center=\"opacity:1;transform:translateY(0%);\" data-top-bottom=\"opacity:0;transform:translateY(250%);\">
 \t\t\t<div class=\"intro-scroll\"></div>
 \t\t\t\t<div class=\"intro-scroll-arrow\"></div>
 \t\t\t<div class=\"intro-scroll-text\">
@@ -48,20 +48,13 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 \t\t</a>
 \t</section>
 
-\t<section class=\"home-work\" id=\"work-anchor\">
+\t<section class=\"home-work\" id=\"work\">
 \t\t<div class=\"home-work-feed\">
 
 \t\t\t<ul
-\t\t\t\tdata-bottom-top=\"
-\t\t\t\t\ttransform:translateY(50%);
-\t\t\t\t\t-webkit-transform:translateY(50%);
-\t\t\t\t\t-moz-transform:translateY(50%)\"
-
-\t\t\t\tdata-center-top=\"
-\t\t\t\t\ttransform:translateY(0);
-\t\t\t\t\t-webkit-transform:translateY(0);
-\t\t\t\t\t-moz-transform:translateY(0);\"
-\t\t\t>
+\t\t\t\t";
+        // line 33
+        echo "\t\t\t>
 \t\t\t";
         // line 34
         $context['_parent'] = $context;
@@ -77,10 +70,10 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
             echo $this->getAttribute($context["p"], "url", array());
             echo "\">
 \t\t\t\t\t\t<div class=\"work-item-background\">
-\t\t\t\t\t\t\t<h4 class=\"subhead\">";
+\t\t\t\t\t\t\t<h3>";
             // line 39
             echo $this->getAttribute($context["p"], "title", array());
-            echo "</h4>
+            echo "</h3>
 \t\t\t\t\t\t\t";
             // line 41
             echo "\t\t\t\t\t\t</div>
@@ -100,7 +93,7 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 \t\t</div>
 \t</section>
 
-\t<section class=\"home-about\">
+\t<section class=\"home-about\" id=\"about\">
 \t\t<div class=\"home-about-container\">
 
 \t\t\t<div class=\"home-about-main-container\">
@@ -207,19 +200,19 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 
     public function getDebugInfo()
     {
-        return array (  192 => 86,  184 => 80,  180 => 78,  173 => 76,  167 => 74,  164 => 73,  158 => 71,  156 => 70,  153 => 69,  149 => 68,  143 => 64,  137 => 63,  127 => 61,  124 => 60,  120 => 59,  113 => 55,  109 => 54,  99 => 46,  89 => 42,  86 => 41,  82 => 39,  77 => 37,  74 => 36,  71 => 35,  67 => 34,  41 => 10,  35 => 6,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  185 => 86,  177 => 80,  173 => 78,  166 => 76,  160 => 74,  157 => 73,  151 => 71,  149 => 70,  146 => 69,  142 => 68,  136 => 64,  130 => 63,  120 => 61,  117 => 60,  113 => 59,  106 => 55,  102 => 54,  92 => 46,  82 => 42,  79 => 41,  75 => 39,  70 => 37,  67 => 36,  64 => 35,  60 => 34,  57 => 33,  41 => 10,  35 => 6,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends 'partials/base.html.twig' %}*/
 /* */
 /* {% block content %}*/
-/* 	<section class="home-hero">*/
+/* 	<section class="home-hero" id="welcome">*/
 /* 		<div class="home-hero-content">*/
 /* 			{{ page.content }}*/
 /* 		</div>*/
 /* */
 /* 		{# Scroll Image #}*/
-/* 		<a href="#work-anchor" class="intro-scroll-container" data-center-center="opacity:1;transform:translateY(0%);" data-top-bottom="opacity:0;transform:translateY(250%);">*/
+/* 		<a href="#work" class="intro-scroll-container" data-center-center="opacity:1;transform:translateY(0%);" data-top-bottom="opacity:0;transform:translateY(250%);">*/
 /* 			<div class="intro-scroll"></div>*/
 /* 				<div class="intro-scroll-arrow"></div>*/
 /* 			<div class="intro-scroll-text">*/
@@ -229,11 +222,11 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 /* 		</a>*/
 /* 	</section>*/
 /* */
-/* 	<section class="home-work" id="work-anchor">*/
+/* 	<section class="home-work" id="work">*/
 /* 		<div class="home-work-feed">*/
 /* */
 /* 			<ul*/
-/* 				data-bottom-top="*/
+/* 				{# data-bottom-top="*/
 /* 					transform:translateY(50%);*/
 /* 					-webkit-transform:translateY(50%);*/
 /* 					-moz-transform:translateY(50%)"*/
@@ -241,14 +234,14 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 /* 				data-center-top="*/
 /* 					transform:translateY(0);*/
 /* 					-webkit-transform:translateY(0);*/
-/* 					-moz-transform:translateY(0);"*/
+/* 					-moz-transform:translateY(0);" #}*/
 /* 			>*/
 /* 			{% for p in taxonomy.findTaxonomy({'category':'work'}) %}*/
 /* 				{% set first_image = p.media.images|first %}*/
 /* 				<li>*/
 /* 					<a href="{{p.url}}">*/
 /* 						<div class="work-item-background">*/
-/* 							<h4 class="subhead">{{ p.title }}</h4>*/
+/* 							<h3>{{ p.title }}</h3>*/
 /* 							{# {{ first_image }} #}*/
 /* 						</div>*/
 /* 						<div class="work-item-background-image" style="background-image: url(' {{ first_image.url }} ');"></div>*/
@@ -259,7 +252,7 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 /* 		</div>*/
 /* 	</section>*/
 /* */
-/* 	<section class="home-about">*/
+/* 	<section class="home-about" id="about">*/
 /* 		<div class="home-about-container">*/
 /* */
 /* 			<div class="home-about-main-container">*/

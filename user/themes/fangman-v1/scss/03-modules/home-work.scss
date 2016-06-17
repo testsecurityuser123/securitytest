@@ -15,7 +15,7 @@
 			list-style: none;
 			margin: 0;
 			padding: 0;
-			padding: rem(90) 0 0;
+			padding: rem(24) 0 0;
 			@include clearfix;
 			//@include outer-container;
 			// margin: rem(30);
@@ -96,11 +96,15 @@
 
 						div {
 							&:before {
-								height: 100%;
+								width: 100%;
 							}
-							h4 {
+							h3 {
 								@include transition($transition-med);
-								@include transform(scale(1.0)translateY(2.5%)translateX(rem(6)));
+								@include transform(translateY(rem(-30)));
+								&:after {
+									color: $color-white;
+									@include transform(translateY(rem(6)));
+								}
 							}
 
 							&.work-item-background-image {
@@ -123,30 +127,47 @@
 							content: '';
 							display: inline-block;
 							position: absolute;
-							top: rem(0);
-							right: 0;
-							height: rem(0);
-							width: rem(12);
+							bottom: 0;
+							left: 0;
+							height: rem(9);
+							width: rem(0);
 							background-color: $color-accent;
 
-							border-radius: 0 rem(2) rem(2) 0;
+							border-radius: 0 0 rem(2) rem(2);
 
 							@include transition($transition-med);
 						}
 
-						h4 {
+						h3 {
 							display: block;
 							position: absolute;
-							top: rem(36);
+
+							bottom: rem(60);
 							left: rem(30);
-							width: 66%;
+							right: rem(30);
 
+							text-align: center;
+							font-weight: 100;
 							color: $color-white;
-							text-align: left;
-							font-weight: 400;
-							letter-spacing: rem(.5);
 
-							@include transition($transition-med);
+
+							// @include transition($transition-med);
+
+							&:after {
+								content: 'View Work';
+								display: block;
+
+								font-size: rem(15);
+								// color: $color-accent;
+								color: tint($color-accent, 10%);
+								letter-spacing: rem(2);
+								text-transform: uppercase;
+								font-weight: 300;
+
+								margin-top: rem(18);
+
+								@include transition($transition-med);
+							}
 						}
 						&.work-item-background {
 							z-index: 2;
@@ -157,7 +178,7 @@
 							background-position: top center;
 							border-radius: rem(2);
 
-							@include filter(grayscale(100%));
+							//@include filter(grayscale(100%));
 							opacity: .2;
 						}
 					}

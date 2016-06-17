@@ -24,7 +24,7 @@ about_social:
 about_sidebar:
     1:
         title: Capabilities
-        description: 'User Experience Design'
+        description: 'User Experience Design</br>Information Architecture<br>User Interface Design'
 about_background_img: rsz__mounts.jpg
 header_background_img: rsz_hero-trees.jpg
 background_img: forest.jpg
@@ -32,4 +32,4 @@ headline: 'UX & UI Designer'
 ---
 
 <p class="subhead">Hello I'm Michael, a Minneapolis Based</p>
-# UX & UI Designer
+# UX/UI Designer

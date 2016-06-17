@@ -20,10 +20,10 @@ class __TwigTemplate_ecbdebca3e495c26ec66d243f15d4a72de7f35039d5d6fa4af6779ea8cd
 \t<div class=\"project-ds-container\">
 \t\t<div class=\"project-ds-content-container\">
 \t\t\t<div class=\"project-ds-content-inner-container\">
-\t\t\t\t<h4>";
+\t\t\t\t<h3>";
         // line 5
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "title", array());
-        echo "</h4>
+        echo "</h3>
 \t\t\t\t<p>";
         // line 6
         echo (isset($context["content"]) ? $context["content"] : null);
@@ -94,7 +94,7 @@ class __TwigTemplate_ecbdebca3e495c26ec66d243f15d4a72de7f35039d5d6fa4af6779ea8cd
 /* 	<div class="project-ds-container">*/
 /* 		<div class="project-ds-content-container">*/
 /* 			<div class="project-ds-content-inner-container">*/
-/* 				<h4>{{ page.title }}</h4>*/
+/* 				<h3>{{ page.title }}</h3>*/
 /* 				<p>{{ content }}</p>*/
 /* 			</div>*/
 /* 		</div>*/

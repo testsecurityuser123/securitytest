@@ -21,7 +21,7 @@
 			}
 
 			@include breakpoint($bp-m) {
-				margin-bottom: rem(24);
+				margin-bottom: rem(6);
 			}
 		}
 
@@ -45,7 +45,7 @@
 			position: relative;
 			height: rem(30);
 			width: rem(30);
-			border: rem(2) solid $color-accent;
+			border: rem(1) solid $color-accent;
 			@include transform(rotate(45deg));
 
 			@include transition(all .25s ease);
@@ -86,14 +86,15 @@
 
 		.intro-scroll-text {
 			position: absolute;
-			min-width: rem(138);
+			// min-width: rem(138);
+			min-width: rem(82);
 			top: 50%;
 			margin-top: rem(-6);
 			margin-left: rem(4);
 			left: 50%;
 			@include transform(translateX(-50%));
 
-			opacity: .5;
+			opacity: 0;
 
 			@include transition(all .25s ease);
 
@@ -103,7 +104,7 @@
 				font-size: rem(9);
 				letter-spacing: rem(3);
 				text-transform: uppercase;
-				font-weight: 700;
+				font-weight: 300;
 
 
 				&:first-of-type {
@@ -118,16 +119,16 @@
 
 		&:hover {
 			.intro-scroll {
-				// @include transform(translateY(rem(3))rotate(45deg));
+				//@include transform(translateY(rem(18))rotate(45deg));
 				border-color: $color-white;
-				opacity: .1;
+				
 			}
 			.intro-scroll-arrow {
-				@include transform(translateY(rem(40)));
+				//@include transform(translateY(rem(3)));
 			}
 			.intro-scroll-text {
 				opacity: 1;
-				min-width: rem(82);
+				min-width: rem(138);
 			}
 		}
 	}

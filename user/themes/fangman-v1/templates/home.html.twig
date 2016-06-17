@@ -1,13 +1,13 @@
 {% extends 'partials/base.html.twig' %}
 
 {% block content %}
-	<section class="home-hero">
+	<section class="home-hero" id="welcome">
 		<div class="home-hero-content">
 			{{ page.content }}
 		</div>
 
 		{# Scroll Image #}
-		<a href="#work-anchor" class="intro-scroll-container" data-center-center="opacity:1;transform:translateY(0%);" data-top-bottom="opacity:0;transform:translateY(250%);">
+		<a href="#work" class="intro-scroll-container" data-center-center="opacity:1;transform:translateY(0%);" data-top-bottom="opacity:0;transform:translateY(250%);">
 			<div class="intro-scroll"></div>
 				<div class="intro-scroll-arrow"></div>
 			<div class="intro-scroll-text">
@@ -17,11 +17,11 @@
 		</a>
 	</section>
 
-	<section class="home-work" id="work-anchor">
+	<section class="home-work" id="work">
 		<div class="home-work-feed">
 
 			<ul
-				data-bottom-top="
+				{# data-bottom-top="
 					transform:translateY(50%);
 					-webkit-transform:translateY(50%);
 					-moz-transform:translateY(50%)"
@@ -29,14 +29,14 @@
 				data-center-top="
 					transform:translateY(0);
 					-webkit-transform:translateY(0);
-					-moz-transform:translateY(0);"
+					-moz-transform:translateY(0);" #}
 			>
 			{% for p in taxonomy.findTaxonomy({'category':'work'}) %}
 				{% set first_image = p.media.images|first %}
 				<li>
 					<a href="{{p.url}}">
 						<div class="work-item-background">
-							<h4 class="subhead">{{ p.title }}</h4>
+							<h3>{{ p.title }}</h3>
 							{# {{ first_image }} #}
 						</div>
 						<div class="work-item-background-image" style="background-image: url(' {{ first_image.url }} ');"></div>
@@ -47,7 +47,7 @@
 		</div>
 	</section>
 
-	<section class="home-about">
+	<section class="home-about" id="about">
 		<div class="home-about-container">
 
 			<div class="home-about-main-container">
