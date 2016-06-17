@@ -14,8 +14,6 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
             'stylesheets' => array($this, 'block_stylesheets'),
             'javascripts' => array($this, 'block_javascripts'),
             'header' => array($this, 'block_header'),
-            'header_extra' => array($this, 'block_header_extra'),
-            'header_navigation' => array($this, 'block_header_navigation'),
             'showcase' => array($this, 'block_showcase'),
             'body' => array($this, 'block_body'),
             'content' => array($this, 'block_content'),
@@ -39,40 +37,40 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 ";
         // line 6
         $this->displayBlock('head', $context, $blocks);
-        // line 44
+        // line 46
         echo "</head>
 <body id=\"top\" class=\"";
-        // line 45
+        // line 47
         echo $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "body_classes", array());
         echo "\">
     <div id=\"sb-site\">
         <div id=\"skrollr-body\">
         ";
-        // line 48
+        // line 50
         $this->displayBlock('header', $context, $blocks);
-        // line 66
+        // line 72
         echo "
         ";
-        // line 67
+        // line 73
         $this->displayBlock('showcase', $context, $blocks);
-        // line 68
-        echo "
-        ";
-        // line 69
-        $this->displayBlock('body', $context, $blocks);
         // line 74
         echo "
         ";
         // line 75
-        $this->displayBlock('footer', $context, $blocks);
+        $this->displayBlock('body', $context, $blocks);
+        // line 80
+        echo "
+        ";
         // line 81
+        $this->displayBlock('footer', $context, $blocks);
+        // line 87
         echo "    </div>
     </div>
     ";
-        // line 88
+        // line 94
         echo "    ";
         $this->displayBlock('bottom', $context, $blocks);
-        // line 104
+        // line 110
         echo "</body>
 </html>
 ";
@@ -121,7 +119,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
     ";
         // line 32
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 41
+        // line 43
         echo "    ";
         echo $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "js", array(), "method");
         echo "
@@ -165,93 +163,77 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/magnific-popup.js", 1 => 97), "method");
         // line 38
         echo "        ";
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/min/fangman-v1-min.js", 1 => 95), "method");
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/min/jqwidont-min.js", 1 => 96), "method");
         // line 39
+        echo "     ";
+        // line 40
+        echo "        ";
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/min/fangman-v1-min.js", 1 => 95), "method");
+        // line 41
         echo "
     ";
     }
 
-    // line 48
+    // line 50
     public function block_header($context, array $blocks = array())
     {
-        // line 49
+        // line 51
         echo "        <header id=\"site-navigation\">
             <div class=\"site-nav-logo\">
                 <a href=\"";
-        // line 51
-        echo ((((isset($context["base_url"]) ? $context["base_url"] : null) == "")) ? ("/") : ((isset($context["base_url"]) ? $context["base_url"] : null)));
-        echo "\">";
+        // line 53
+        echo (isset($context["base_url"]) ? $context["base_url"] : null);
+        echo "/#welcome\">";
         echo $this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "site", array()), "title", array());
         echo "</a>
             </div>
-            <div class=\"menu-toggle\">Menu<div class=\"icon\"></div></div>
-        </header>
-        <div id=\"site-menu\">
             ";
         // line 56
-        $this->displayBlock('header_extra', $context, $blocks);
+        echo "            <div class=\"site-nav-menu-container\">
+                <a href=\"";
         // line 57
-        echo "            ";
-        if ($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "plugins", array()), "langswitcher", array()), "enabled", array())) {
-            // line 58
-            echo "            ";
-            $this->loadTemplate("partials/langswitcher.html.twig", "partials/base.html.twig", 58)->display($context);
-            // line 59
-            echo "            ";
-        }
-        // line 60
-        echo "            ";
-        $this->displayBlock('header_navigation', $context, $blocks);
-        // line 63
-        echo "            <span class=\"panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars\"></span>
-        </div>
+        echo (isset($context["base_url"]) ? $context["base_url"] : null);
+        echo "/#about\"><h6>About</h6></a>
+                <a href=\"";
+        // line 58
+        echo (isset($context["base_url"]) ? $context["base_url"] : null);
+        echo "/#work\"><h6>Work</h6></a>
+            </div>
+        </header>
         ";
+        // line 71
+        echo "        ";
     }
 
-    // line 56
-    public function block_header_extra($context, array $blocks = array())
-    {
-    }
-
-    // line 60
-    public function block_header_navigation($context, array $blocks = array())
-    {
-        // line 61
-        echo "            ";
-        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 61)->display($context);
-        // line 62
-        echo "            ";
-    }
-
-    // line 67
+    // line 73
     public function block_showcase($context, array $blocks = array())
     {
     }
 
-    // line 69
+    // line 75
     public function block_body($context, array $blocks = array())
     {
-        // line 70
+        // line 76
         echo "        <section id=\"body\" class=\"";
         echo (isset($context["class"]) ? $context["class"] : null);
         echo "\">
             ";
-        // line 71
+        // line 77
         $this->displayBlock('content', $context, $blocks);
-        // line 72
+        // line 78
         echo "        </section>
         ";
     }
 
-    // line 71
+    // line 77
     public function block_content($context, array $blocks = array())
     {
     }
 
-    // line 75
+    // line 81
     public function block_footer($context, array $blocks = array())
     {
-        // line 76
+        // line 82
         echo "        <footer id=\"footer\">
             <span class=\"footer-credit\">Designed & Built by Michael Fangman © 2016</span>
         
@@ -259,10 +241,10 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
         ";
     }
 
-    // line 88
+    // line 94
     public function block_bottom($context, array $blocks = array())
     {
-        // line 89
+        // line 95
         echo "        ";
         echo $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "js", array(0 => "bottom"), "method");
         echo "
@@ -294,7 +276,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 
     public function getDebugInfo()
     {
-        return array (  266 => 89,  263 => 88,  255 => 76,  252 => 75,  247 => 71,  242 => 72,  240 => 71,  235 => 70,  232 => 69,  227 => 67,  223 => 62,  220 => 61,  217 => 60,  212 => 56,  206 => 63,  203 => 60,  200 => 59,  197 => 58,  194 => 57,  192 => 56,  182 => 51,  178 => 49,  175 => 48,  170 => 39,  167 => 38,  164 => 37,  161 => 36,  158 => 35,  155 => 34,  152 => 33,  149 => 32,  145 => 29,  142 => 21,  139 => 20,  136 => 19,  133 => 18,  125 => 41,  123 => 32,  117 => 30,  115 => 18,  110 => 15,  105 => 12,  101 => 11,  98 => 10,  96 => 9,  88 => 8,  85 => 7,  82 => 6,  76 => 104,  73 => 88,  69 => 81,  67 => 75,  64 => 74,  62 => 69,  59 => 68,  57 => 67,  54 => 66,  52 => 48,  46 => 45,  43 => 44,  41 => 6,  35 => 3,  32 => 2,  30 => 1,);
+        return array (  248 => 95,  245 => 94,  237 => 82,  234 => 81,  229 => 77,  224 => 78,  222 => 77,  217 => 76,  214 => 75,  209 => 73,  205 => 71,  199 => 58,  195 => 57,  192 => 56,  185 => 53,  181 => 51,  178 => 50,  173 => 41,  170 => 40,  168 => 39,  165 => 38,  162 => 37,  159 => 36,  156 => 35,  153 => 34,  150 => 33,  147 => 32,  143 => 29,  140 => 21,  137 => 20,  134 => 19,  131 => 18,  123 => 43,  121 => 32,  115 => 30,  113 => 18,  108 => 15,  103 => 12,  99 => 11,  96 => 10,  94 => 9,  86 => 8,  83 => 7,  80 => 6,  74 => 110,  71 => 94,  67 => 87,  65 => 81,  62 => 80,  60 => 75,  57 => 74,  55 => 73,  52 => 72,  50 => 50,  44 => 47,  41 => 46,  39 => 6,  33 => 3,  30 => 2,  28 => 1,);
     }
 }
 /* {% set theme_config = attribute(config.themes, config.system.pages.theme) %}*/
@@ -334,6 +316,8 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 /*         {% do assets.addJs('theme://js/min/skrollr-min.js',99) %}*/
 /*         {% do assets.addJs('theme://js/slick.min.js' ,98) %}*/
 /*         {% do assets.addJs('theme://js/magnific-popup.js' ,97) %}*/
+/*         {% do assets.addJs('theme://js/min/jqwidont-min.js' ,96) %}*/
+/*      {#    {% do assets.addJs('theme://js/jqwidont.js' ,96) %} #}*/
 /*         {% do assets.addJs('theme://js/min/fangman-v1-min.js' ,95) %}*/
 /* */
 /*     {% endblock %}*/
@@ -347,11 +331,15 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 /*         {% block header %}*/
 /*         <header id="site-navigation">*/
 /*             <div class="site-nav-logo">*/
-/*                 <a href="{{ base_url == '' ? '/' : base_url }}">{{ config.site.title }}</a>*/
+/*                 <a href="{{ base_url }}/#welcome">{{ config.site.title }}</a>*/
 /*             </div>*/
-/*             <div class="menu-toggle">Menu<div class="icon"></div></div>*/
+/*             {# <div class="menu-toggle">Menu<div class="icon"></div></div> #}*/
+/*             <div class="site-nav-menu-container">*/
+/*                 <a href="{{ base_url }}/#about"><h6>About</h6></a>*/
+/*                 <a href="{{ base_url }}/#work"><h6>Work</h6></a>*/
+/*             </div>*/
 /*         </header>*/
-/*         <div id="site-menu">*/
+/*         {# <div id="site-menu">*/
 /*             {% block header_extra %}{% endblock %}*/
 /*             {% if config.plugins.langswitcher.enabled %}*/
 /*             {% include 'partials/langswitcher.html.twig' %}*/
@@ -360,7 +348,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 /*             {% include 'partials/navigation.html.twig' %}*/
 /*             {% endblock %}*/
 /*             <span class="panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars"></span>*/
-/*         </div>*/
+/*         </div> #}*/
 /*         {% endblock %}*/
 /* */
 /*         {% block showcase %}{% endblock %}*/

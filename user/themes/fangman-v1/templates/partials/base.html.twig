@@ -35,6 +35,8 @@
         {% do assets.addJs('theme://js/min/skrollr-min.js',99) %}
         {% do assets.addJs('theme://js/slick.min.js' ,98) %}
         {% do assets.addJs('theme://js/magnific-popup.js' ,97) %}
+        {% do assets.addJs('theme://js/min/jqwidont-min.js' ,96) %}
+     {#    {% do assets.addJs('theme://js/jqwidont.js' ,96) %} #}
         {% do assets.addJs('theme://js/min/fangman-v1-min.js' ,95) %}
 
     {% endblock %}
@@ -48,11 +50,15 @@
         {% block header %}
         <header id="site-navigation">
             <div class="site-nav-logo">
-                <a href="{{ base_url == '' ? '/' : base_url }}">{{ config.site.title }}</a>
+                <a href="{{ base_url }}/#welcome">{{ config.site.title }}</a>
             </div>
-            <div class="menu-toggle">Menu<div class="icon"></div></div>
+            {# <div class="menu-toggle">Menu<div class="icon"></div></div> #}
+            <div class="site-nav-menu-container">
+                <a href="{{ base_url }}/#about"><h6>About</h6></a>
+                <a href="{{ base_url }}/#work"><h6>Work</h6></a>
+            </div>
         </header>
-        <div id="site-menu">
+        {# <div id="site-menu">
             {% block header_extra %}{% endblock %}
             {% if config.plugins.langswitcher.enabled %}
             {% include 'partials/langswitcher.html.twig' %}
@@ -61,7 +67,7 @@
             {% include 'partials/navigation.html.twig' %}
             {% endblock %}
             <span class="panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars"></span>
-        </div>
+        </div> #}
         {% endblock %}
 
         {% block showcase %}{% endblock %}

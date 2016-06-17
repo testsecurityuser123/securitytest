@@ -1,5 +1,5 @@
 ---
-title: 'PB Crave<br>Peanut Butter'
+title: 'PB Crave Peanut Butter'
 date: '01-09-2016 00:00'
 project_intro_background_image: find-a-store-1920x654.jpg
 project_img_phone: bf19-pbc-product-page-mobile-v2.png
