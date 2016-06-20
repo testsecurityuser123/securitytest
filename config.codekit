@@ -55,6 +55,17 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/images\/1\/c\/0\/8\/0\/1c080426cc6c5c807ccb99a57f3a5e0856f1f6bd-rsztower.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3417,
+		"inputAbbreviatedPath": "\/images\/1\/c\/0\/8\/0\/1c080426cc6c5c807ccb99a57f3a5e0856f1f6bd-rsztower.jpeg",
+		"outputAbbreviatedPath": "\/images\/1\/c\/0\/8\/0\/1c080426cc6c5c807ccb99a57f3a5e0856f1f6bd-rsztower.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/1\/f\/2\/1\/6\/1f216952b833a1ee47cde4924ace64d5f9c4146e-bf19-pbc-homepage-v8.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -95,6 +106,39 @@
 		"initialSize": 6445,
 		"inputAbbreviatedPath": "\/images\/6\/c\/3\/4\/9\/6c3499c79095d6505f9cc1466898bf6acaa59e84-find-a-store-1920x654.jpeg",
 		"outputAbbreviatedPath": "\/images\/6\/c\/3\/4\/9\/6c3499c79095d6505f9cc1466898bf6acaa59e84-find-a-store-1920x654.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/7\/d\/c\/c\/7\/7dcc7b8b569a671e065fc8c8087931bcd6fa8359-rszmounts.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3110,
+		"inputAbbreviatedPath": "\/images\/7\/d\/c\/c\/7\/7dcc7b8b569a671e065fc8c8087931bcd6fa8359-rszmounts.jpeg",
+		"outputAbbreviatedPath": "\/images\/7\/d\/c\/c\/7\/7dcc7b8b569a671e065fc8c8087931bcd6fa8359-rszmounts.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/7\/e\/f\/b\/7\/7efb778e17d5af9145a1681d5498baba164b5fb6-rszhero-trees.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3869,
+		"inputAbbreviatedPath": "\/images\/7\/e\/f\/b\/7\/7efb778e17d5af9145a1681d5498baba164b5fb6-rszhero-trees.jpeg",
+		"outputAbbreviatedPath": "\/images\/7\/e\/f\/b\/7\/7efb778e17d5af9145a1681d5498baba164b5fb6-rszhero-trees.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/b\/9\/a\/f\/4\/b9af4dec57dc8af0c8b32e0ae1a369302c55d950-forest.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6820,
+		"inputAbbreviatedPath": "\/images\/b\/9\/a\/f\/4\/b9af4dec57dc8af0c8b32e0ae1a369302c55d950-forest.jpeg",
+		"outputAbbreviatedPath": "\/images\/b\/9\/a\/f\/4\/b9af4dec57dc8af0c8b32e0ae1a369302c55d950-forest.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

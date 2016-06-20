@@ -34,6 +34,8 @@ Module: Project Introduction
 
 		.project-foot-back {
 			@include span-columns(2);
+			display: block;
+			z-index: 100;
 			@include transition($transition-med);
 			.project-foot-back-icon {
 				position: relative;
