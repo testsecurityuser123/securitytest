@@ -146,9 +146,15 @@ Module: Project Phone Feature
 			display: block;
 			padding: 0;
 			height: 100%;
+
+			@include breakpoint($bp-s) {
+				@include span-columns(10);
+				@include shift(1);
+			}
 			
 			@include breakpoint($bp-m) {
 				@include span-columns(6);
+				@include shift(0);
 			}
 
 			@include breakpoint($bp-l) {

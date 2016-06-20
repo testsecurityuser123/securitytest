@@ -4,8 +4,13 @@
 		position: relative;
 		z-index: 3;
 		@include span-columns(12);
-		padding-left: rem(75);
-		padding-right: rem(75);	
+		padding-left: rem(15);
+		padding-right: rem(15);
+
+		@include breakpoint($bp-s) {
+			padding-left: rem(75);
+			padding-right: rem(75);
+		}
 
 		// @include breakpoint($bp-m) {
 		// 	padding-left: rem(75);

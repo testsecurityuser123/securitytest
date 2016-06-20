@@ -1,18 +1,5 @@
 /* =========================================================
 
-Menu Toggle
-
-========================================================= */
-
-$(function() {                       
-  $(".menu-toggle").click(function() { 
-    $('#site-menu').toggleClass("site-menu-open");   
-    $('.menu-toggle').toggleClass("site-menu-open");      
-  });
-});
-
-/* =========================================================
-
 Smooth Scroll
 
 // ========================================================= */
@@ -29,6 +16,41 @@ $(function() {
       }
     }
   });
+});
+
+/* =========================================================
+
+Menu Toggle
+
+========================================================= */
+
+$(function() {                       
+  $(".menu-toggle").click(function() { 
+    $('.site-nav-menu-container').toggleClass("site-menu-open");   
+    $('.menu-toggle').toggleClass("site-menu-open");      
+    
+    $('.site-nav-menu-container a').click(function() {
+        $('.site-nav-menu-container').removeClass("site-menu-open");   
+        $('.menu-toggle').removeClass("site-menu-open");
+    });
+
+  });
+});
+
+
+// remove toggle class on screens above 480px
+$(function($) {
+    var $window = $(window),
+        $html = $('html');
+
+    $window.resize(function resize(){
+        if ($window.width() < 480) {
+           $('.site-nav-menu-container').removeClass('site-menu-open');
+            $('.menu-toggle').removeClass('site-menu-open');
+        }
+
+        //$html.removeClass('mobile');
+    }).trigger('resize');
 });
 
 /* =========================================================
@@ -76,4 +98,4 @@ $(document).ready(function() {
 
 
 
-// $.jqwidont.init();
+// jQuery(".home-hero-content h1").fitText(1.2, { minFontSize: '20px', maxFontSize: '40px' });

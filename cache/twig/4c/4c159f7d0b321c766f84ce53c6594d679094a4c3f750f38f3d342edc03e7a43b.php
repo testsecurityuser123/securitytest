@@ -70,7 +70,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
         // line 94
         echo "    ";
         $this->displayBlock('bottom', $context, $blocks);
-        // line 110
+        // line 114
         echo "</body>
 </html>
 ";
@@ -165,10 +165,11 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
         echo "        ";
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/min/jqwidont-min.js", 1 => 96), "method");
         // line 39
-        echo "     ";
+        echo "        ";
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/min/fittext-min.js", 1 => 95), "method");
         // line 40
         echo "        ";
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/min/fangman-v1-min.js", 1 => 95), "method");
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/min/fangman-v1-min.js", 1 => 94), "method");
         // line 41
         echo "
     ";
@@ -187,9 +188,8 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
         echo $this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "site", array()), "title", array());
         echo "</a>
             </div>
-            ";
-        // line 56
-        echo "            <div class=\"site-nav-menu-container\">
+            <div class=\"menu-toggle\">Menu<div class=\"icon\"></div></div>
+            <div class=\"site-nav-menu-container\">
                 <a href=\"";
         // line 57
         echo (isset($context["base_url"]) ? $context["base_url"] : null);
@@ -259,7 +259,11 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
         });
         </script>
         <script type=\"text/javascript\">
-            var s = skrollr.init();
+            var s = skrollr.init({forceHeight: false});
+        </script>
+        <script type=\"text/javascript\">
+            jQuery(\".home-hero-content h1\").fitText(.5, { minFontSize: '30px', maxFontSize: '150px' });
+            jQuery(\".project-intro-info h2\").fitText(.5, { minFontSize: '24px', maxFontSize: '90px' });
         </script>
     ";
     }
@@ -276,7 +280,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 
     public function getDebugInfo()
     {
-        return array (  248 => 95,  245 => 94,  237 => 82,  234 => 81,  229 => 77,  224 => 78,  222 => 77,  217 => 76,  214 => 75,  209 => 73,  205 => 71,  199 => 58,  195 => 57,  192 => 56,  185 => 53,  181 => 51,  178 => 50,  173 => 41,  170 => 40,  168 => 39,  165 => 38,  162 => 37,  159 => 36,  156 => 35,  153 => 34,  150 => 33,  147 => 32,  143 => 29,  140 => 21,  137 => 20,  134 => 19,  131 => 18,  123 => 43,  121 => 32,  115 => 30,  113 => 18,  108 => 15,  103 => 12,  99 => 11,  96 => 10,  94 => 9,  86 => 8,  83 => 7,  80 => 6,  74 => 110,  71 => 94,  67 => 87,  65 => 81,  62 => 80,  60 => 75,  57 => 74,  55 => 73,  52 => 72,  50 => 50,  44 => 47,  41 => 46,  39 => 6,  33 => 3,  30 => 2,  28 => 1,);
+        return array (  248 => 95,  245 => 94,  237 => 82,  234 => 81,  229 => 77,  224 => 78,  222 => 77,  217 => 76,  214 => 75,  209 => 73,  205 => 71,  199 => 58,  195 => 57,  186 => 53,  182 => 51,  179 => 50,  174 => 41,  171 => 40,  168 => 39,  165 => 38,  162 => 37,  159 => 36,  156 => 35,  153 => 34,  150 => 33,  147 => 32,  143 => 29,  140 => 21,  137 => 20,  134 => 19,  131 => 18,  123 => 43,  121 => 32,  115 => 30,  113 => 18,  108 => 15,  103 => 12,  99 => 11,  96 => 10,  94 => 9,  86 => 8,  83 => 7,  80 => 6,  74 => 114,  71 => 94,  67 => 87,  65 => 81,  62 => 80,  60 => 75,  57 => 74,  55 => 73,  52 => 72,  50 => 50,  44 => 47,  41 => 46,  39 => 6,  33 => 3,  30 => 2,  28 => 1,);
     }
 }
 /* {% set theme_config = attribute(config.themes, config.system.pages.theme) %}*/
@@ -317,8 +321,8 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 /*         {% do assets.addJs('theme://js/slick.min.js' ,98) %}*/
 /*         {% do assets.addJs('theme://js/magnific-popup.js' ,97) %}*/
 /*         {% do assets.addJs('theme://js/min/jqwidont-min.js' ,96) %}*/
-/*      {#    {% do assets.addJs('theme://js/jqwidont.js' ,96) %} #}*/
-/*         {% do assets.addJs('theme://js/min/fangman-v1-min.js' ,95) %}*/
+/*         {% do assets.addJs('theme://js/min/fittext-min.js' ,95) %}*/
+/*         {% do assets.addJs('theme://js/min/fangman-v1-min.js' ,94) %}*/
 /* */
 /*     {% endblock %}*/
 /*     {{ assets.js() }}*/
@@ -333,7 +337,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 /*             <div class="site-nav-logo">*/
 /*                 <a href="{{ base_url }}/#welcome">{{ config.site.title }}</a>*/
 /*             </div>*/
-/*             {# <div class="menu-toggle">Menu<div class="icon"></div></div> #}*/
+/*             <div class="menu-toggle">Menu<div class="icon"></div></div>*/
 /*             <div class="site-nav-menu-container">*/
 /*                 <a href="{{ base_url }}/#about"><h6>About</h6></a>*/
 /*                 <a href="{{ base_url }}/#work"><h6>Work</h6></a>*/
@@ -385,7 +389,11 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 /*         });*/
 /*         </script>*/
 /*         <script type="text/javascript">*/
-/*             var s = skrollr.init();*/
+/*             var s = skrollr.init({forceHeight: false});*/
+/*         </script>*/
+/*         <script type="text/javascript">*/
+/*             jQuery(".home-hero-content h1").fitText(.5, { minFontSize: '30px', maxFontSize: '150px' });*/
+/*             jQuery(".project-intro-info h2").fitText(.5, { minFontSize: '24px', maxFontSize: '90px' });*/
 /*         </script>*/
 /*     {% endblock %}*/
 /* </body>*/

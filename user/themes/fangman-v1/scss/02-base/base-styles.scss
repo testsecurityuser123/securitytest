@@ -52,10 +52,12 @@ body {
 	#footer {
 		position: relative;
 		z-index: 3;
-		margin-top: rem(-30);
+		// margin-top: rem(-30);
+		@include outer-container;
 		.footer-credit {
+			@include span-columns(12);
 			display: block;
-			width: 100%;
+			// width: 100%;
 			text-align: center;
 			color: $color-accent;
 			font-size: rem(12);

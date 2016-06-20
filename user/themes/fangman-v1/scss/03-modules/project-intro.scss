@@ -61,15 +61,16 @@ Module: Project Introduction
 		
 		.project-intro-info-container {
 			position: relative;
-			@include span-columns(12);
+			@include span-columns(10);
+			@include shift(1);
 			@include clearfix;
 			padding-bottom: 70%;
 
 			@include transition($transition-fast);
 
 			@include breakpoint($bp-s) {
-				@include span-columns(10);
-				@include shift(1);
+				// @include span-columns(10);
+				// @include shift(1);
 
 				padding-bottom: 65%;
 			}
@@ -79,6 +80,9 @@ Module: Project Introduction
 			}
 
 			@include breakpoint($bp-l) {
+				@include span-columns(8);
+				@include shift(2);
+				
 				padding-bottom: 50%;
 			}
 

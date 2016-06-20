@@ -10,7 +10,7 @@
 
 	@include transition($transition-fast);
 
-	@include breakpoint($bp-m) {
+	@include breakpoint($bp-s) {
 		padding: rem(30) rem(30);
 	}
 
@@ -40,6 +40,9 @@
 	}
 
 	.site-nav-menu-container {
+		opacity: 0;
+		visibility: hidden;
+
 		position: absolute;
 		right: rem(-36);
 		top: rem(108);
@@ -47,6 +50,27 @@
 		// z-index: 1000;
 		pointer-events: all;
 		@include transform(rotate(-90deg));
+
+		@include transition($transition-med);
+
+		&.site-menu-open {
+			opacity: 1;
+			visibility: visible;
+			@include transform(rotate(-90deg)translateX(rem(-30)));
+
+			// &:after {
+			// 	content: '';
+			// 	display: block;
+			// 	position: fixed;
+			// 	top: 0;
+			// 	bottom: 0;
+			// 	right: 0;
+			// 	width: 20%;
+
+			// 	@include background(linear-gradient($color-gradient) top repeat);
+			// }
+		}
+
 		a {
 			display: inline-block;
 			margin-left: rem(24);
@@ -61,6 +85,12 @@
 			}
 		}
 
+		@include breakpoint($bp-s) {
+			opacity: 1;
+			visibility: visible;
+			@include transform(rotate(-90deg)translateX(rem(0)));
+		}
+
 	}
 
 	// .menu-toggle {
@@ -70,69 +100,83 @@
 	// 	text-indent: 99999px;
 	// 	height: rem(30);
 	// 	width: rem(24);
-
-	// 	float: right;
-
-	// 	@include transition(all .25s ease);
-
-	// 	.icon {
-	// 		display: block;
-	// 		height: rem(2);
-	// 		width: rem(24);
-	// 		background-color: $color-white;
-
-	// 		@include transition(all .25s ease);
-
-	// 		&:before, &:after {
-	// 			content: '';
-	// 			position: absolute;
-	// 			display: block;
-	// 			height: rem(2);
-	// 			width: rem(24);
-	// 			background-color: $color-white;
-
-	// 			@include transition(all .25s ease);
-	// 		}
-
-	// 		&:before {
-	// 			margin-top: rem(-6);
-	// 		}
-
-	// 		&:after {
-	// 			margin-top: rem(6);
-	// 		}
-	// 	}
-
-	// 	&:hover {
-	// 		opacity: 1;
-
-	// 		.icon {
-	// 			&:before {
-	// 				@include transform(translateY(-3px));
-	// 			}
-
-	// 			&:after {
-	// 				@include transform(translateY(3px));
-	// 			}
-	// 		}
-	// 	}
-
-	// 	&.site-menu-open {
-	// 		.icon {
-	// 			background-color: transparent;
-
-	// 			&:before {
-	// 				@include transform(rotate(225deg));
-	// 				margin-top: 0;
-	// 			}
-
-	// 			&:after {
-	// 				@include transform(rotate(-225deg));
-	// 				margin-top: 0;
-	// 			}
-	// 		}
-	// 	}
 	// }
+
+	.menu-toggle {
+		cursor: pointer;
+		pointer-events: all;
+		opacity: .75;
+		text-indent: 99999px;
+		height: rem(30);
+		width: rem(24);
+
+		float: right;
+
+		@include transition(all .25s ease);
+		display: block;
+
+		@include breakpoint($bp-s) {
+			display: none;
+		}
+
+		.icon {
+			display: block;
+			height: rem(2);
+			width: rem(24);
+			background-color: $color-white;
+
+			@include transition(all .25s ease);
+
+			&:before, &:after {
+				content: '';
+				position: absolute;
+				display: block;
+				height: rem(2);
+				width: rem(24);
+				background-color: $color-white;
+
+				@include transition(all .25s ease);
+			}
+
+			&:before {
+				margin-top: rem(-6);
+			}
+
+			&:after {
+				margin-top: rem(6);
+			}
+		}
+
+		&:hover {
+			opacity: 1;
+
+			.icon {
+				&:before {
+					@include transform(translateY(-3px));
+				}
+
+				&:after {
+					@include transform(translateY(3px));
+				}
+			}
+		}
+
+		&.site-menu-open {
+			.icon {
+				background-color: transparent;
+
+				&:before {
+					@include transform(rotate(225deg));
+					margin-top: 0;
+				}
+
+				&:after {
+					@include transform(rotate(-225deg));
+					margin-top: 0;
+				}
+			}
+		}
+	}
 }
 
 // #site-menu {

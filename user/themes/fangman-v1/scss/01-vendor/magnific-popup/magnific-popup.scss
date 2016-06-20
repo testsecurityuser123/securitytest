@@ -172,9 +172,11 @@ $font_2: monospace;
 
   &:hover {
     opacity: 1;
+    @include transform(scale(.9));
+    @include transition($transition-med);
 
     &:before {
-      @include transform(rotate(315deg));
+      @include transform(rotate(135deg));
     }
 
      &:after {

@@ -14596,6 +14596,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/user\/themes\/fangman-v1\/js\/fittext.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/js\/fittext.js",
+		"outputAbbreviatedPath": "\/user\/themes\/fangman-v1\/js\/min\/fittext-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/user\/themes\/fangman-v1\/js\/jqwidont.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -14624,6 +14635,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/js\/min\/fangman-v1-min.js",
 		"outputAbbreviatedPath": "\/user\/themes\/fangman-v1\/js\/min\/min\/fangman-v1-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/themes\/fangman-v1\/js\/min\/fittext-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/js\/min\/fittext-min.js",
+		"outputAbbreviatedPath": "\/user\/themes\/fangman-v1\/js\/min\/min\/fittext-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

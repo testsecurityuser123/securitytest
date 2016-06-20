@@ -36,8 +36,8 @@
         {% do assets.addJs('theme://js/slick.min.js' ,98) %}
         {% do assets.addJs('theme://js/magnific-popup.js' ,97) %}
         {% do assets.addJs('theme://js/min/jqwidont-min.js' ,96) %}
-     {#    {% do assets.addJs('theme://js/jqwidont.js' ,96) %} #}
-        {% do assets.addJs('theme://js/min/fangman-v1-min.js' ,95) %}
+        {% do assets.addJs('theme://js/min/fittext-min.js' ,95) %}
+        {% do assets.addJs('theme://js/min/fangman-v1-min.js' ,94) %}
 
     {% endblock %}
     {{ assets.js() }}
@@ -52,7 +52,7 @@
             <div class="site-nav-logo">
                 <a href="{{ base_url }}/#welcome">{{ config.site.title }}</a>
             </div>
-            {# <div class="menu-toggle">Menu<div class="icon"></div></div> #}
+            <div class="menu-toggle">Menu<div class="icon"></div></div>
             <div class="site-nav-menu-container">
                 <a href="{{ base_url }}/#about"><h6>About</h6></a>
                 <a href="{{ base_url }}/#work"><h6>Work</h6></a>
@@ -104,7 +104,11 @@
         });
         </script>
         <script type="text/javascript">
-            var s = skrollr.init();
+            var s = skrollr.init({forceHeight: false});
+        </script>
+        <script type="text/javascript">
+            jQuery(".home-hero-content h1").fitText(.5, { minFontSize: '30px', maxFontSize: '150px' });
+            jQuery(".project-intro-info h2").fitText(.5, { minFontSize: '24px', maxFontSize: '90px' });
         </script>
     {% endblock %}
 </body>

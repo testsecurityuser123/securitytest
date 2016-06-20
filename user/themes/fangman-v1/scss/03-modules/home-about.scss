@@ -10,29 +10,16 @@ Module: Project Description
 	background-color: $color-primary;
 	color: $color-primary;
 	padding: $section-padding-m;
-	min-height: 100vh;
-	height: 100vh;
+	padding-top: rem(120);
+	padding-bottom: rem(120);
+	min-height: 95vh;
+	height: 95vh;
 	// min-height: rem(660);
 
 	@include clearfix;
 	clear: both;
 
-	// @include breakpoint($bp-s) {
-	// 	padding: rem(300) rem(30);
-	// }
 
-	// &:before {
-	// 	content: '';
-	// 	position: absolute;
-	// 	z-index: 2;
-	// 	top: -2%;
-	// 	bottom: 97%;
-	// 	left: 0;
-	// 	right: 0;
-	// 	@include linear-gradient(rgba(36,36,51,1), rgba(36,36,51,0));
-	// 	background-color: transparent !important;
-
-	// }
 
 	.home-about-container {
 		position: relative;
@@ -54,13 +41,23 @@ Module: Project Description
 		.home-about-main-container {
 			@include span-columns(12);
 
+			@include breakpoint($bp-s) {
+				@include span-columns(10);
+				@include shift(1);
+			}
+
 			@include breakpoint($bp-m) {
 				@include span-columns(6);
 				@include shift(1);
 			}
 
 			.home-about-social-container {
-				margin-top: rem(60);
+				margin-top: rem(30);
+				margin-bottom: rem(0);
+
+				@include breakpoint($bp-m) {
+					margin-bottom: rem(60);
+				}
 
 				.home-about-social {
 					display: inline-block;
@@ -72,6 +69,7 @@ Module: Project Description
 					height: rem(36);
 					width: rem(36);
 					margin-right: rem(18);
+					margin-bottom: rem(18);
 					@include transition($transition-med);
 
 					&:hover {
@@ -110,6 +108,11 @@ Module: Project Description
 		.home-about-side-container {
 			@include span-columns(12);
 			margin-top: rem(6);
+
+			@include breakpoint($bp-s) {
+				@include span-columns(10);
+				@include shift(1);
+			}
 
 			@include breakpoint($bp-m) {
 				@include span-columns(3);
