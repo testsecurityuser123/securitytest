@@ -11,20 +11,6 @@ Module: Project Introduction
 	width: 100%;
 	background-color: $color-primary;
 
-	// &:before {
-	// 	content: '';
-	// 	position: absolute;
-	// 	z-index: 2;
-	// 	top: 5%;
-	// 	bottom: -5%;
-	// 	left: 0;
-	// 	right: 0;
-
-	// 	@include background(linear-gradient($color-gradient) top repeat);
-	// 	opacity: 1;
-
-	// }
-
 	.project-intro-background-image {
 		position: fixed;
 		z-index: 1;
@@ -82,7 +68,7 @@ Module: Project Introduction
 			@include breakpoint($bp-l) {
 				@include span-columns(8);
 				@include shift(2);
-				
+
 				padding-bottom: 50%;
 			}
 
@@ -111,6 +97,7 @@ Module: Project Introduction
 				p.subhead {
 					// max-width: rem(320);
 					margin: 0 auto;
+					
 				}
 			}
 		}

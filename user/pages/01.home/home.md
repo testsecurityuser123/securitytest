@@ -31,5 +31,5 @@ background_img: forest.jpg
 headline: 'UX & UI Designer'
 ---
 
-<p class="subhead">Hello I'm Michael Fangman, a Minneapolis Based</p>
+<p class="subhead">Hello. I'm Michael Fangman, a Minneapolis Based</p>
 # UX/UI Designer

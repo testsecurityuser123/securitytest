@@ -24,10 +24,16 @@
 		.subhead {
 			// max-width: rem(270);
 			margin: 0 auto rem(12);
+			padding: 0;
 
-			// @include breakpoint($bp-s) {
-			// 	max-width: none;
-			// }
+			@include breakpoint($bp-s) {
+				padding: 0 rem(0);
+			}
+
+			@include breakpoint($bp-m) {
+				padding: 0 rem(0);
+			}
+
 
 			// @include breakpoint($bp-m) {
 			// 	margin-bottom: rem(6);

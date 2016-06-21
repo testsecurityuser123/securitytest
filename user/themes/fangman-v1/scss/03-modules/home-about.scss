@@ -10,14 +10,19 @@ Module: Project Description
 	background-color: $color-primary;
 	color: $color-primary;
 	padding: $section-padding-m;
-	padding-top: rem(120);
-	padding-bottom: rem(120);
-	min-height: 95vh;
-	height: 95vh;
+	// padding-top: rem(120);
+	// padding-bottom: rem(120);
+	// min-height: 95vh;
+	// height: 95vh;
 	// min-height: rem(660);
 
 	@include clearfix;
 	clear: both;
+
+	@include breakpoint($bp-m) {
+		min-height: 95vh;
+		height: 95vh;
+	}
 
 
 
