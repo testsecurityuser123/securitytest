@@ -1,3 +1,28 @@
+
+/* =========================================================
+
+Page Loader
+
+========================================================= */
+
+$(window).load(function() {
+  $("#preloader").fadeOut('slow');
+});
+
+
+/* =========================================================
+
+Logo / Back Icon Swap -- Adding Class to Homepage
+
+========================================================= */
+
+$(function() {
+  var loc = window.location.href; // returns the full URL
+  if(/#/.test(loc)) {
+    $('#site-navigation').addClass('home');
+  }
+});
+
 /* =========================================================
 
 Smooth Scroll

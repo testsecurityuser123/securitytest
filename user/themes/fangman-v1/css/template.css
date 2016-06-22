@@ -76,6 +76,55 @@ body {
       body #footer .footer-credit:last-child {
         margin-right: 0; }
 
+/* =========================================================
+
+Base: Preloader
+
+========================================================= */
+#preloader {
+  position: fixed;
+  z-index: 100000;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #242433; }
+
+.pl-circle {
+  position: absolute;
+  z-index: 1001;
+  left: 50%;
+  top: 50%;
+  width: 1.875rem;
+  height: 1.875rem;
+  margin: -0.9375rem 0 0 -0.9375rem;
+  border-radius: 50%;
+  opacity: 0;
+  border: 0.0625rem solid #cb4e4e;
+  animation: expand 3s linear infinite; }
+  .pl-circle.pl-circle-two {
+    animation-delay: 1s; }
+  .pl-circle.pl-circle-three {
+    animation-delay: 2s; }
+
+@-webkit-keyframes expand {}
+@-moz-keyframes expand {}
+@keyframes expand {
+  0% {
+    transform: scale(0);
+    opacity: 0; }
+  25% {
+    opacity: 1; }
+  100% {
+    transform: scale(3);
+    opacity: 0; } }
+.no-js #loader-wrapper {
+  display: none; }
+.no-js h1 {
+  color: #cb4e4e; }
+
 * {
   text-rendering: optimizeLegibility; }
 
@@ -177,6 +226,34 @@ h6 {
     #site-navigation {
       padding: 1.875rem 1.875rem; } }
   #site-navigation .site-nav-logo a {
+    display: block;
+    pointer-events: all;
+    float: left;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    transition: all 0.25s ease; }
+    #site-navigation .site-nav-logo a .site-title {
+      text-indent: -624.9375rem;
+      display: block; }
+    #site-navigation .site-nav-logo a .nav-back {
+      text-indent: 0;
+      display: block;
+      color: white;
+      margin-top: -1.125rem; }
+      #site-navigation .site-nav-logo a .nav-back:before, #site-navigation .site-nav-logo a .nav-back:after {
+        display: inline-block;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 0.9375rem;
+        letter-spacing: 0.125rem;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        font-weight: 300; }
+      #site-navigation .site-nav-logo a .nav-back:before {
+        content: '←'; }
+      #site-navigation .site-nav-logo a .nav-back:after {
+        content: 'Back'; }
+  #site-navigation.home .site-nav-logo a {
     text-indent: -624.9375rem;
     display: block;
     pointer-events: all;
@@ -191,8 +268,10 @@ h6 {
     -webkit-transition: all 0.25s ease;
     -moz-transition: all 0.25s ease;
     transition: all 0.25s ease; }
-    #site-navigation .site-nav-logo a:hover {
+    #site-navigation.home .site-nav-logo a:hover {
       opacity: 1; }
+    #site-navigation.home .site-nav-logo a .nav-back {
+      display: none; }
   #site-navigation .site-nav-menu-container {
     opacity: 0;
     visibility: hidden;
