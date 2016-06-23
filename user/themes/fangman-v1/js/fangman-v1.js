@@ -93,6 +93,22 @@ Project Desktop Slider - Slick Slider
     });
 });
 
+
+/* =========================================================
+
+Project Phone Slider - Slick Slider
+
+// ========================================================= */
+ $(document).ready(function(){
+    $(".project-ps-slider").slick({
+      dots: true,
+      arrows: true,
+      speed: 500,
+      rows: 1,
+      infinite: false
+    });
+});
+
 /* =========================================================
 
 Project Desktop Slider - Image Modal
@@ -104,6 +120,32 @@ Project Desktop Slider - Image Modal
 // });
 $(document).ready(function() {
   $('.project-ds-slider').magnificPopup({
+    delegate: 'a', // child items selector, by clicking on it popup will open
+    type: 'image',
+    closeOnContentClick: true,
+    closeOnBgClick: true,
+    // modal: true,
+    // fixedContentPos: true,
+    removalDelay: 300,
+    verticalFit: false,
+    mainClass: 'ds-modal-animation',
+    showCloseBtn: false,
+    gallery: {
+      enabled: true,
+      tCounter: '<span class="mf-count">%curr% of %total%<span>'
+    },
+  });
+});
+
+/* =========================================================
+
+Project Phone Slider - Image Modal
+
+// ========================================================= */
+
+
+$(document).ready(function() {
+  $('.project-ps-slider').magnificPopup({
     delegate: 'a', // child items selector, by clicking on it popup will open
     type: 'image',
     closeOnContentClick: true,

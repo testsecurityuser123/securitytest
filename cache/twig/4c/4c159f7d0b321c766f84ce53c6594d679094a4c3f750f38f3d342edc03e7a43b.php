@@ -79,7 +79,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
         // line 101
         echo "    ";
         $this->displayBlock('bottom', $context, $blocks);
-        // line 129
+        // line 125
         echo "</body>
 </html>
 ";
@@ -258,30 +258,26 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
         echo $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "js", array(0 => "bottom"), "method");
         echo "
 
-        <script type=\"text/javascript\">
-            // Preloader
-            // \$(window).load(function() {
-            //   \$(\"#preloader\").fadeOut('slow');
-            // });
-
-        </script>
         <script>
-        \$(function () {
-            \$(document).ready(function() {
-              \$.slidebars({
-                hideControlClasses: true,
-                scrollLock: true
-              });
+            \$(function () {
+                \$(document).ready(function() {
+                  \$.slidebars({
+                    hideControlClasses: true,
+                    scrollLock: true
+                  });
+                });
             });
-        });
         </script>
+
         <script type=\"text/javascript\">
             var s = skrollr.init({forceHeight: false});
         </script>
+
         <script type=\"text/javascript\">
             jQuery(\".home-hero-content h1\").fitText(.5, { minFontSize: '30px', maxFontSize: '150px' });
             jQuery(\".project-intro-info h2\").fitText(.5, { minFontSize: '24px', maxFontSize: '90px' });
         </script>
+        
     ";
     }
 
@@ -297,7 +293,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 
     public function getDebugInfo()
     {
-        return array (  257 => 102,  254 => 101,  246 => 89,  243 => 88,  238 => 84,  233 => 85,  231 => 84,  226 => 83,  223 => 82,  218 => 80,  214 => 78,  208 => 65,  204 => 64,  195 => 60,  191 => 58,  188 => 57,  183 => 41,  180 => 40,  177 => 39,  174 => 38,  171 => 37,  168 => 36,  165 => 35,  162 => 34,  159 => 33,  156 => 32,  152 => 29,  149 => 21,  146 => 20,  143 => 19,  140 => 18,  132 => 43,  130 => 32,  124 => 30,  122 => 18,  117 => 15,  112 => 12,  108 => 11,  105 => 10,  103 => 9,  95 => 8,  92 => 7,  89 => 6,  83 => 129,  80 => 101,  76 => 94,  74 => 88,  71 => 87,  69 => 82,  66 => 81,  64 => 80,  61 => 79,  59 => 57,  55 => 55,  48 => 49,  44 => 47,  41 => 46,  39 => 6,  33 => 3,  30 => 2,  28 => 1,);
+        return array (  257 => 102,  254 => 101,  246 => 89,  243 => 88,  238 => 84,  233 => 85,  231 => 84,  226 => 83,  223 => 82,  218 => 80,  214 => 78,  208 => 65,  204 => 64,  195 => 60,  191 => 58,  188 => 57,  183 => 41,  180 => 40,  177 => 39,  174 => 38,  171 => 37,  168 => 36,  165 => 35,  162 => 34,  159 => 33,  156 => 32,  152 => 29,  149 => 21,  146 => 20,  143 => 19,  140 => 18,  132 => 43,  130 => 32,  124 => 30,  122 => 18,  117 => 15,  112 => 12,  108 => 11,  105 => 10,  103 => 9,  95 => 8,  92 => 7,  89 => 6,  83 => 125,  80 => 101,  76 => 94,  74 => 88,  71 => 87,  69 => 82,  66 => 81,  64 => 80,  61 => 79,  59 => 57,  55 => 55,  48 => 49,  44 => 47,  41 => 46,  39 => 6,  33 => 3,  30 => 2,  28 => 1,);
     }
 }
 /* {% set theme_config = attribute(config.themes, config.system.pages.theme) %}*/
@@ -403,30 +399,26 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 /*     {% block bottom %}*/
 /*         {{ assets.js('bottom') }}*/
 /* */
-/*         <script type="text/javascript">*/
-/*             // Preloader*/
-/*             // $(window).load(function() {*/
-/*             //   $("#preloader").fadeOut('slow');*/
-/*             // });*/
-/* */
-/*         </script>*/
 /*         <script>*/
-/*         $(function () {*/
-/*             $(document).ready(function() {*/
-/*               $.slidebars({*/
-/*                 hideControlClasses: true,*/
-/*                 scrollLock: true*/
-/*               });*/
+/*             $(function () {*/
+/*                 $(document).ready(function() {*/
+/*                   $.slidebars({*/
+/*                     hideControlClasses: true,*/
+/*                     scrollLock: true*/
+/*                   });*/
+/*                 });*/
 /*             });*/
-/*         });*/
 /*         </script>*/
+/* */
 /*         <script type="text/javascript">*/
 /*             var s = skrollr.init({forceHeight: false});*/
 /*         </script>*/
+/* */
 /*         <script type="text/javascript">*/
 /*             jQuery(".home-hero-content h1").fitText(.5, { minFontSize: '30px', maxFontSize: '150px' });*/
 /*             jQuery(".project-intro-info h2").fitText(.5, { minFontSize: '24px', maxFontSize: '90px' });*/
 /*         </script>*/
+/*         */
 /*     {% endblock %}*/
 /* </body>*/
 /* </html>*/
