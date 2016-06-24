@@ -55,46 +55,24 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/images\/0\/3\/a\/2\/2\/03a229d01220a3c991298eba765bb9e6d0c00b6f-email2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 375,
-		"inputAbbreviatedPath": "\/images\/0\/3\/a\/2\/2\/03a229d01220a3c991298eba765bb9e6d0c00b6f-email2x.png",
-		"outputAbbreviatedPath": "\/images\/0\/3\/a\/2\/2\/03a229d01220a3c991298eba765bb9e6d0c00b6f-email2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/1\/1\/6\/8\/8\/1168879c1314b601a97e66f77052679756e529c0-bf19-pbc-homepage-mobile-v2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 14414,
-		"inputAbbreviatedPath": "\/images\/1\/1\/6\/8\/8\/1168879c1314b601a97e66f77052679756e529c0-bf19-pbc-homepage-mobile-v2.png",
-		"outputAbbreviatedPath": "\/images\/1\/1\/6\/8\/8\/1168879c1314b601a97e66f77052679756e529c0-bf19-pbc-homepage-mobile-v2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/2\/1\/1\/b\/7\/211b73ddb436d2a3ac9d2bfbecec97a34b797081-close22x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 166,
-		"inputAbbreviatedPath": "\/images\/2\/1\/1\/b\/7\/211b73ddb436d2a3ac9d2bfbecec97a34b797081-close22x.png",
-		"outputAbbreviatedPath": "\/images\/2\/1\/1\/b\/7\/211b73ddb436d2a3ac9d2bfbecec97a34b797081-close22x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/4\/2\/e\/1\/9\/42e19821cecfad8b98c9871f70d02b8113a63887-recipe-pizza.jpeg": {
+	"\/images\/1\/a\/5\/f\/d\/1a5fd0ce50be7c18b388fc9f2e3c7e52cb952408-36407695xxl.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 6713,
-		"inputAbbreviatedPath": "\/images\/4\/2\/e\/1\/9\/42e19821cecfad8b98c9871f70d02b8113a63887-recipe-pizza.jpeg",
-		"outputAbbreviatedPath": "\/images\/4\/2\/e\/1\/9\/42e19821cecfad8b98c9871f70d02b8113a63887-recipe-pizza.jpeg",
+		"initialSize": 7472,
+		"inputAbbreviatedPath": "\/images\/1\/a\/5\/f\/d\/1a5fd0ce50be7c18b388fc9f2e3c7e52cb952408-36407695xxl.jpeg",
+		"outputAbbreviatedPath": "\/images\/1\/a\/5\/f\/d\/1a5fd0ce50be7c18b388fc9f2e3c7e52cb952408-36407695xxl.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/4\/4\/3\/c\/c\/443cccfa94fffea9ca1a3d52fb406093da9e63fe-36407695xxl.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7472,
+		"inputAbbreviatedPath": "\/images\/4\/4\/3\/c\/c\/443cccfa94fffea9ca1a3d52fb406093da9e63fe-36407695xxl.jpeg",
+		"outputAbbreviatedPath": "\/images\/4\/4\/3\/c\/c\/443cccfa94fffea9ca1a3d52fb406093da9e63fe-36407695xxl.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -106,39 +84,6 @@
 		"initialSize": 166,
 		"inputAbbreviatedPath": "\/images\/6\/1\/d\/0\/7\/61d072d788a943e4617b9140e4ff5455aad1c679-close22x.png",
 		"outputAbbreviatedPath": "\/images\/6\/1\/d\/0\/7\/61d072d788a943e4617b9140e4ff5455aad1c679-close22x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/6\/b\/c\/0\/2\/6bc021fde7ba14eda99fd5fda62faf5252bb7f20-bf19-pbc-flavor-index-mobile-v2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 20527,
-		"inputAbbreviatedPath": "\/images\/6\/b\/c\/0\/2\/6bc021fde7ba14eda99fd5fda62faf5252bb7f20-bf19-pbc-flavor-index-mobile-v2.png",
-		"outputAbbreviatedPath": "\/images\/6\/b\/c\/0\/2\/6bc021fde7ba14eda99fd5fda62faf5252bb7f20-bf19-pbc-flavor-index-mobile-v2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/9\/4\/7\/6\/2\/9476268bbb8f9b671413dc361fedb22632bbfe9e-bf19-pbc-flavors-image-768x372-v1.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2219,
-		"inputAbbreviatedPath": "\/images\/9\/4\/7\/6\/2\/9476268bbb8f9b671413dc361fedb22632bbfe9e-bf19-pbc-flavors-image-768x372-v1.jpeg",
-		"outputAbbreviatedPath": "\/images\/9\/4\/7\/6\/2\/9476268bbb8f9b671413dc361fedb22632bbfe9e-bf19-pbc-flavors-image-768x372-v1.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/c\/0\/f\/b\/d\/c0fbd2e44394d04e2de0c6a8e37e9f0365b3a5b1-bf19-pbc-homepage-mobile-v1.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6743,
-		"inputAbbreviatedPath": "\/images\/c\/0\/f\/b\/d\/c0fbd2e44394d04e2de0c6a8e37e9f0365b3a5b1-bf19-pbc-homepage-mobile-v1.png",
-		"outputAbbreviatedPath": "\/images\/c\/0\/f\/b\/d\/c0fbd2e44394d04e2de0c6a8e37e9f0365b3a5b1-bf19-pbc-homepage-mobile-v1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1554,6 +1499,47 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/user\/pages\/03.tcan\/_next-project-cta\/36407695_xxl.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7.59154e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/03.tcan\/_next-project-cta\/36407695_xxl.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/03.tcan\/_next-project-cta\/36407695_xxl.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/03.tcan\/_next-project-cta\/project-next-link.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/pages\/03.tcan\/_next-project-cta\/project-next-link.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/pages\/03.tcan\/_next-project-cta\/project-next-link.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/pages\/03.tcan\/_next-project-cta\/project-next-link.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/user\/pages\/03.tcan\/_next-project-cta\/project-next-link.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/user\/pages\/03.tcan\/_project-wireframe-section\/linkedin-image.jpg": {
 		"fileType": 16384,
@@ -6082,6 +6068,47 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
+		},
+	"\/user\/pages\/04.pb-crave\/_twin-cities-alumni-network-link\/project-next-link.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_twin-cities-alumni-network-link\/project-next-link.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/pages\/04.pb-crave\/_twin-cities-alumni-network-link\/project-next-link.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_twin-cities-alumni-network-link\/project-next-link.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_twin-cities-alumni-network-link\/project-next-link.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/user\/pages\/04.pb-crave\/_twin-cities-alumni-network-link\/rsz_hero-trees.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 573773,
+		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_twin-cities-alumni-network-link\/rsz_hero-trees.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_twin-cities-alumni-network-link\/rsz_hero-trees.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/user\/pages\/04.pb-crave\/default.html": {
 		"fileType": 8192,
@@ -16864,6 +16891,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/user\/themes\/fangman-v1\/scss\/03-modules\/project-next-link.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/scss\/03-modules\/project-next-link.scss",
+		"outputAbbreviatedPath": "\/user\/themes\/fangman-v1\/scss\/css\/project-next-link.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/user\/themes\/fangman-v1\/scss\/03-modules\/project-phone-feature.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -16969,6 +17012,15 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/scss\/css\/project-intro.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/themes\/fangman-v1\/scss\/css\/project-next-link.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/scss\/css\/project-next-link.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

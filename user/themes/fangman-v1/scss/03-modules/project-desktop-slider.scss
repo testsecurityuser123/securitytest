@@ -132,8 +132,8 @@ Module: Project Desktop Slider
 		background-position: center;
 		background-repeat: no-repeat;
 
-		opacity: 0.075;
-		@include filter(grayscale(100%));
+		opacity: 0.05;
+		// @include filter(grayscale(100%));
 
 		&:before {
 			content: '';

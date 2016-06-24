@@ -6,10 +6,12 @@ Module: Project Phone Slider
 
 .project-ps {
 	position: relative;
+	overflow: hidden;
 	padding: rem(42) 0 rem(30);
 
-	@include breakpoint($bp-s) {
+	@include breakpoint($bp-m) {
 		// padding:  0 rem(30);
+		overflow: visible;
 	}
 
 	.project-ps-container {
@@ -121,6 +123,9 @@ Module: Project Phone Slider
 					.project-ps-slide-image{
 						position: absolute;
 						top: 0;
+						bottom: 0;
+						right: 0;
+						left: 0;
 						img {
 							width: 100%;
 						}
@@ -128,7 +133,29 @@ Module: Project Phone Slider
 				}
 
 				.slick-dots {
-					bottom: -22%;
+					bottom: -27%;
+
+					@include breakpoint(rem(420)) {
+						bottom: -24%;
+					}
+
+					@include breakpoint($bp-s) {
+						bottom: -26%;
+					}
+
+					@include breakpoint(rem(600)) {
+						bottom: -24%;
+					}
+
+					@include breakpoint(rem(700)) {
+						bottom: -22%;
+					}
+
+
+					@include breakpoint($bp-m) {
+						bottom: -22%;
+						//bottom: rem(-60);
+					}
 				}
  
 				.slick-arrow {
@@ -188,7 +215,7 @@ Module: Project Phone Slider
 	.project-ps-background {
 		position: absolute;
 		z-index: 1;
-		top: 7%;
+		top: 7.5%;
 		left: 0;
 		right: 0;
 
@@ -196,12 +223,12 @@ Module: Project Phone Slider
 		background-position: center;
 		background-repeat: no-repeat;
 
-		opacity: 0.075;
-		@include filter(grayscale(100%));
+		opacity: 0.05;
+		//@include filter(grayscale(100%));
 
 		&:before {
 			content: '';
-			padding-top: 97%;
+			padding-top: 98%;
 			display: block;
 		}
 
@@ -217,8 +244,8 @@ Module: Project Phone Slider
 		}
 
 		@include breakpoint($bp-m) {
-			top: 16%;
-			bottom: 13%;
+			top: 14%;
+			bottom: 16%;
 			
 			&:before {
 				display: none;
@@ -226,8 +253,8 @@ Module: Project Phone Slider
 		}
 
 		@include breakpoint($bp-l) {
-			top: 16.5%;
-			bottom: 12.5%;
+			top: 13.5%;
+			//bottom: 14.5%;
 		}
 
 	}

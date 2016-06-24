@@ -13,7 +13,7 @@ body {
 		border: rem(1) solid $color-accent;
 		border-radius: rem(3);
 
-		font-size: rem(15);
+		font-size: rem(12);
 		font-weight: 300;
 		color: $color-white;
 		text-transform: uppercase;
@@ -23,6 +23,14 @@ body {
 
 		&:hover {
 			background-color: $color-accent;
+		}
+
+		@include breakpoint($bp-s) {
+			padding: rem(15) rem(30);
+
+			font-size: rem(15);
+			font-weight: 300;
+			letter-spacing: rem(2);
 		}
 
 		&.btn-arrow-r {
@@ -54,6 +62,7 @@ body {
 		z-index: 3;
 		// margin-top: rem(-30);
 		@include outer-container;
+		padding: rem(18) 0;
 		.footer-credit {
 			@include span-columns(12);
 			display: block;
@@ -61,7 +70,7 @@ body {
 			text-align: center;
 			color: $color-accent;
 			font-size: rem(12);
-			margin-bottom: rem(18);
+			// margin-bottom: rem(18);
 			font-weight: 300;
 			letter-spacing: rem(1);
 

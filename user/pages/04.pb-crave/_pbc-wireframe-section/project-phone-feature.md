@@ -1,6 +1,6 @@
 ---
 title: 'Layout & Structure:<br> Only the Best Ingedients'
-project_pf_button_text: 'View Live Prototype'
+project_pf_button_text: 'Desktop Prototype'
 project_pf_button_link: pb-crave/_pbc-wireframe-section/desktop-prototype/index.html
 project_pf_iframe: mobile-prototype/index.html
 date: '03-09-2016 00:00'

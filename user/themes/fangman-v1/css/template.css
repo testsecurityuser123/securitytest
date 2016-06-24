@@ -21,7 +21,7 @@ body {
     padding: 0.9375rem 1.875rem;
     border: 0.0625rem solid #cb4e4e;
     border-radius: 0.1875rem;
-    font-size: 0.9375rem;
+    font-size: 0.75rem;
     font-weight: 300;
     color: #fff;
     text-transform: uppercase;
@@ -31,6 +31,12 @@ body {
     transition: all 0.25s ease; }
     body .btn:hover {
       background-color: #cb4e4e; }
+    @media screen and (min-width: 30em) {
+      body .btn {
+        padding: 0.9375rem 1.875rem;
+        font-size: 0.9375rem;
+        font-weight: 300;
+        letter-spacing: 0.125rem; } }
     body .btn.btn-arrow-r {
       overflow: hidden; }
       body .btn.btn-arrow-r:after {
@@ -56,7 +62,8 @@ body {
     z-index: 3;
     max-width: 80em;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    padding: 1.125rem 0; }
     body #footer::after {
       clear: both;
       content: "";
@@ -70,7 +77,6 @@ body {
       text-align: center;
       color: #cb4e4e;
       font-size: 0.75rem;
-      margin-bottom: 1.125rem;
       font-weight: 300;
       letter-spacing: 0.0625rem; }
       body #footer .footer-credit:last-child {
@@ -226,34 +232,6 @@ h6 {
     #site-navigation {
       padding: 1.875rem 1.875rem; } }
   #site-navigation .site-nav-logo a {
-    display: block;
-    pointer-events: all;
-    float: left;
-    -webkit-transition: all 0.25s ease;
-    -moz-transition: all 0.25s ease;
-    transition: all 0.25s ease; }
-    #site-navigation .site-nav-logo a .site-title {
-      text-indent: -624.9375rem;
-      display: block; }
-    #site-navigation .site-nav-logo a .nav-back {
-      text-indent: 0;
-      display: block;
-      color: white;
-      margin-top: -1.125rem; }
-      #site-navigation .site-nav-logo a .nav-back:before, #site-navigation .site-nav-logo a .nav-back:after {
-        display: inline-block;
-        color: #fff;
-        text-transform: uppercase;
-        font-size: 0.9375rem;
-        letter-spacing: 0.125rem;
-        margin-bottom: 0;
-        padding-bottom: 0;
-        font-weight: 300; }
-      #site-navigation .site-nav-logo a .nav-back:before {
-        content: '←'; }
-      #site-navigation .site-nav-logo a .nav-back:after {
-        content: 'Back'; }
-  #site-navigation.home .site-nav-logo a {
     text-indent: -624.9375rem;
     display: block;
     pointer-events: all;
@@ -268,9 +246,9 @@ h6 {
     -webkit-transition: all 0.25s ease;
     -moz-transition: all 0.25s ease;
     transition: all 0.25s ease; }
-    #site-navigation.home .site-nav-logo a:hover {
+    #site-navigation .site-nav-logo a:hover {
       opacity: 1; }
-    #site-navigation.home .site-nav-logo a .nav-back {
+    #site-navigation .site-nav-logo a .nav-back {
       display: none; }
   #site-navigation .site-nav-menu-container {
     opacity: 0;
@@ -1309,30 +1287,32 @@ Module: Project Phone Feature
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.075;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%); }
+    opacity: 0.05; }
     .project-pf .project-pf-background:before {
       content: '';
-      padding-top: 97%;
+      padding-top: 98%;
       display: block; }
     @media screen and (min-width: 30em) {
       .project-pf .project-pf-background {
-        top: 9.5%; }
+        top: 9%; }
         .project-pf .project-pf-background:before {
           content: '';
           padding-top: 77%;
           display: block; } }
     @media screen and (min-width: 48em) {
       .project-pf .project-pf-background {
-        top: 16%;
-        bottom: 13%; }
+        top: 14%;
+        bottom: 10%; }
         .project-pf .project-pf-background:before {
           display: none; } }
     @media screen and (min-width: 64em) {
       .project-pf .project-pf-background {
         top: 16.5%;
-        bottom: 12.5%; } }
+        bottom: 11%; } }
+    @media screen and (min-width: 75em) {
+      .project-pf .project-pf-background {
+        top: 14.5%;
+        bottom: 9%; } }
 
 /* =========================================================
 
@@ -1460,9 +1440,7 @@ Module: Project Desktop Slider
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.075;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%); }
+    opacity: 0.05; }
     .project-ds .project-ds-background:before {
       content: '';
       padding-top: 42%;
@@ -1537,6 +1515,7 @@ Module: Project Desktop Slider
 
 .slick-prev {
   left: 12%;
+  margin-top: -0.75rem;
   -webkit-transform: none;
   -moz-transform: none;
   -ms-transform: none;
@@ -1631,7 +1610,11 @@ Module: Project Phone Slider
 ========================================================= */
 .project-ps {
   position: relative;
+  overflow: hidden;
   padding: 2.625rem 0 1.875rem; }
+  @media screen and (min-width: 48em) {
+    .project-ps {
+      overflow: visible; } }
   .project-ps .project-ps-container {
     max-width: 80em;
     margin-left: auto;
@@ -1762,11 +1745,29 @@ Module: Project Phone Slider
             display: block; }
           .project-ps .project-ps-container .project-ps-phone-container .project-ps-slider .project-ps-slide .project-ps-slide-image {
             position: absolute;
-            top: 0; }
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0; }
             .project-ps .project-ps-container .project-ps-phone-container .project-ps-slider .project-ps-slide .project-ps-slide-image img {
               width: 100%; }
         .project-ps .project-ps-container .project-ps-phone-container .project-ps-slider .slick-dots {
-          bottom: -22%; }
+          bottom: -27%; }
+          @media screen and (min-width: 26.25rem) {
+            .project-ps .project-ps-container .project-ps-phone-container .project-ps-slider .slick-dots {
+              bottom: -24%; } }
+          @media screen and (min-width: 30em) {
+            .project-ps .project-ps-container .project-ps-phone-container .project-ps-slider .slick-dots {
+              bottom: -26%; } }
+          @media screen and (min-width: 37.5rem) {
+            .project-ps .project-ps-container .project-ps-phone-container .project-ps-slider .slick-dots {
+              bottom: -24%; } }
+          @media screen and (min-width: 43.75rem) {
+            .project-ps .project-ps-container .project-ps-phone-container .project-ps-slider .slick-dots {
+              bottom: -22%; } }
+          @media screen and (min-width: 48em) {
+            .project-ps .project-ps-container .project-ps-phone-container .project-ps-slider .slick-dots {
+              bottom: -22%; } }
     .project-ps .project-ps-container .project-ps-content-container {
       float: left;
       display: block;
@@ -1821,18 +1822,16 @@ Module: Project Phone Slider
   .project-ps .project-ps-background {
     position: absolute;
     z-index: 1;
-    top: 7%;
+    top: 7.5%;
     left: 0;
     right: 0;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.075;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%); }
+    opacity: 0.05; }
     .project-ps .project-ps-background:before {
       content: '';
-      padding-top: 97%;
+      padding-top: 98%;
       display: block; }
     @media screen and (min-width: 30em) {
       .project-ps .project-ps-background {
@@ -1843,14 +1842,13 @@ Module: Project Phone Slider
           display: block; } }
     @media screen and (min-width: 48em) {
       .project-ps .project-ps-background {
-        top: 16%;
-        bottom: 13%; }
+        top: 14%;
+        bottom: 16%; }
         .project-ps .project-ps-background:before {
           display: none; } }
     @media screen and (min-width: 64em) {
       .project-ps .project-ps-background {
-        top: 16.5%;
-        bottom: 12.5%; } }
+        top: 13.5%; } }
   .project-ps:hover .slick-arrow.slick-next {
     right: -24%; }
   .project-ps:hover .slick-arrow.slick-prev {
@@ -1925,6 +1923,77 @@ Module: Project Gallery
         content: '';
         padding-top: 66%;
         display: block; }
+
+/* =========================================================
+
+Module: Project Link (To Another Project)
+
+========================================================= */
+.project-next-link {
+  position: relative;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  background-color: #242433; }
+  @media screen and (min-width: 48em) {
+    .project-next-link {
+      margin-top: 5.625rem; } }
+  .project-next-link .project-nl-container {
+    position: relative;
+    z-index: 2;
+    display: block;
+    max-width: 80em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.875rem 1.875rem;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    transition: all 0.25s ease; }
+    .project-next-link .project-nl-container::after {
+      clear: both;
+      content: "";
+      display: table; }
+    @media screen and (min-width: 48em) {
+      .project-next-link .project-nl-container {
+        padding: 3.75rem 1.875rem; } }
+    .project-next-link .project-nl-container .project-nl-info {
+      position: relative;
+      text-align: right;
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 100%;
+      padding: 3.75rem 0; }
+      .project-next-link .project-nl-container .project-nl-info::after {
+        clear: both;
+        content: "";
+        display: table; }
+      .project-next-link .project-nl-container .project-nl-info:last-child {
+        margin-right: 0; }
+      .project-next-link .project-nl-container .project-nl-info h3 {
+        color: #fff;
+        margin-bottom: -0.5625rem; }
+      .project-next-link .project-nl-container .project-nl-info p.subhead {
+        margin: 0 auto; }
+  .project-next-link .project-nl-bkg-image {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.05;
+    -webkit-filter: grayscale(25%);
+    filter: grayscale(25%);
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    transition: all 0.25s ease; }
+  .project-next-link:hover .project-nl-bkg-image {
+    opacity: 0.075; }
 
 /* =========================================================
 
@@ -2329,7 +2398,8 @@ button.mfp-close, button.mfp-arrow {
     transition: all 0.25s ease; }
   @media screen and (min-width: 48em) {
     .mfp-counter {
-      bottom: 2.625rem; }
+      bottom: 2.625rem;
+      margin-left: -2.8125rem; }
       .mfp-counter:before {
         display: none; } }
   .mfp-counter .mf-count {
