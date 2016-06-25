@@ -1828,6 +1828,7 @@ Module: Project Phone Slider
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     opacity: 0.05; }
     .project-ps .project-ps-background:before {
       content: '';
