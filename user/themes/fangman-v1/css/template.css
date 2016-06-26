@@ -10,12 +10,27 @@ html {
 Base: Variables
 
 ========================================================= */
+html {
+  height: 100%;
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
 body {
   font-family: "roboto", sans-serif;
   background-color: #242433;
   color: #fff;
-  overflow-x: hidden; }
-  body .btn {
+  overflow-x: hidden;
+  min-height: 100%; }
+  body #skrollr-body {
+    position: relative;
+    padding-bottom: 3.375rem; }
+  body #body {
+    min-height: 100%; }
+  body .btn, body .login-container .login #private fieldset .buttons .button, .login-container .login #private fieldset .buttons body .button {
     position: relative;
     display: inline-block;
     padding: 0.9375rem 1.875rem;
@@ -29,36 +44,38 @@ body {
     -webkit-transition: all 0.25s ease;
     -moz-transition: all 0.25s ease;
     transition: all 0.25s ease; }
-    body .btn:hover {
+    body .btn:hover, body .login-container .login #private fieldset .buttons .button:hover, .login-container .login #private fieldset .buttons body .button:hover {
       background-color: #cb4e4e; }
     @media screen and (min-width: 30em) {
-      body .btn {
-        padding: 0.9375rem 1.875rem;
+      body .btn, body .login-container .login #private fieldset .buttons .button, .login-container .login #private fieldset .buttons body .button {
         font-size: 0.9375rem;
         font-weight: 300;
         letter-spacing: 0.125rem; } }
-    body .btn.btn-arrow-r {
+    body .btn.btn-arrow-r, body .login-container .login #private fieldset .buttons .btn-arrow-r.button, .login-container .login #private fieldset .buttons body .btn-arrow-r.button {
       overflow: hidden; }
-      body .btn.btn-arrow-r:after {
+      body .btn.btn-arrow-r:after, body .login-container .login #private fieldset .buttons .btn-arrow-r.button:after, .login-container .login #private fieldset .buttons body .btn-arrow-r.button:after {
         content: '→';
         display: inline-block;
         padding-left: 0.5625rem;
         -webkit-transition: all 0.25s ease;
         -moz-transition: all 0.25s ease;
         transition: all 0.25s ease; }
-      body .btn.btn-arrow-r:hover {
+      body .btn.btn-arrow-r:hover, body .login-container .login #private fieldset .buttons .btn-arrow-r.button:hover, .login-container .login #private fieldset .buttons body .btn-arrow-r.button:hover {
         padding-left: 2.625rem;
         padding-right: 1.125rem; }
-        body .btn.btn-arrow-r:hover:after {
+        body .btn.btn-arrow-r:hover:after, body .login-container .login #private fieldset .buttons .btn-arrow-r.button:hover:after, .login-container .login #private fieldset .buttons body .btn-arrow-r.button:hover:after {
           -webkit-transform: translateX(200%);
           -moz-transform: translateX(200%);
           -ms-transform: translateX(200%);
           -o-transform: translateX(200%);
           transform: translateX(200%); }
-  body a.btn {
+  body a.btn, body .login-container .login #private fieldset .buttons a.button, .login-container .login #private fieldset .buttons body a.button {
     color: #fff; }
   body #footer {
-    position: relative;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
     z-index: 3;
     max-width: 80em;
     margin-left: auto;
@@ -144,6 +161,9 @@ p {
   line-height: 1.5;
   letter-spacing: 0.03125rem; }
 
+strong {
+  font-weight: 400; }
+
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
@@ -188,7 +208,7 @@ h4 {
     h4 {
       font-size: 1.5rem; } }
 
-h6 {
+h6, .testt {
   color: #cb4e4e;
   text-transform: uppercase;
   font-size: 0.9375rem;
@@ -212,6 +232,80 @@ h6 {
   @media screen and (min-width: 48em) {
     .subhead {
       font-size: 1.3125rem; } }
+
+.login-container {
+  min-height: 100vh !important;
+  height: 100vh;
+  margin-bottom: -3.375rem; }
+  .login-container:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("../images/trees.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.075;
+    -webkit-filter: grayscale(25%);
+    filter: grayscale(25%); }
+  .login-container .login {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    max-width: 18.75rem; }
+    .login-container .login h1 {
+      text-indent: -624.9375rem;
+      display: block;
+      pointer-events: all;
+      height: 1.5rem;
+      width: 1.875rem;
+      margin: 0 auto 1.125rem;
+      background-image: url("../images/logo.svg");
+      background-size: 100% auto;
+      background-repeat: no-repeat;
+      margin-top: 0.75rem;
+      opacity: .75;
+      -webkit-transition: all 0.25s ease;
+      -moz-transition: all 0.25s ease;
+      transition: all 0.25s ease; }
+      .login-container .login h1:hover {
+        opacity: 1; }
+    .login-container .login h2 {
+      font-family: "roboto", sans-serif;
+      font-size: 1.125rem;
+      font-weight: 100;
+      line-height: 1.5;
+      letter-spacing: 0.03125rem; }
+    .login-container .login #private {
+      margin-top: 0.75rem; }
+      .login-container .login #private fieldset {
+        border: none; }
+        .login-container .login #private fieldset div label[for="password"] {
+          display: none; }
+        .login-container .login #private fieldset div input {
+          padding: 0.9375rem 1.875rem;
+          border-radius: 0.1875rem;
+          width: 100%;
+          border: none;
+          background: rgba(255, 255, 255, 0.05);
+          text-align: center;
+          color: #fff;
+          border: 0.0625rem solid transparent; }
+          .login-container .login #private fieldset div input:focus {
+            outline: none;
+            border: 0.0625rem solid #fff; }
+        .login-container .login #private fieldset .buttons .button {
+          background-color: transparent;
+          display: block;
+          width: 100%;
+          margin-top: 0.75rem; }
 
 #site-navigation {
   position: fixed !important;
@@ -356,6 +450,8 @@ h6 {
         -o-transform: rotate(-225deg);
         transform: rotate(-225deg);
         margin-top: 0; }
+  #site-navigation.hidden {
+    display: none; }
 
 .home-hero {
   position: relative;
@@ -1276,7 +1372,7 @@ Module: Project Phone Feature
             -ms-transform: translateY(-50%);
             -o-transform: translateY(-50%);
             transform: translateY(-50%); } }
-        .project-pf .project-pf-container .project-pf-content-container .project-pf-content-inner-container .btn {
+        .project-pf .project-pf-container .project-pf-content-container .project-pf-content-inner-container .btn, .project-pf .project-pf-container .project-pf-content-container .project-pf-content-inner-container .login-container .login #private fieldset .buttons .button, .login-container .login #private fieldset .buttons .project-pf .project-pf-container .project-pf-content-container .project-pf-content-inner-container .button {
           margin-top: 1.875rem; }
   .project-pf .project-pf-background {
     position: absolute;
@@ -1817,7 +1913,7 @@ Module: Project Phone Slider
             -ms-transform: translateY(-50%);
             -o-transform: translateY(-50%);
             transform: translateY(-50%); } }
-        .project-ps .project-ps-container .project-ps-content-container .project-ps-content-inner-container .btn {
+        .project-ps .project-ps-container .project-ps-content-container .project-ps-content-inner-container .btn, .project-ps .project-ps-container .project-ps-content-container .project-ps-content-inner-container .login-container .login #private fieldset .buttons .button, .login-container .login #private fieldset .buttons .project-ps .project-ps-container .project-ps-content-container .project-ps-content-inner-container .button {
           margin-top: 1.875rem; }
   .project-ps .project-ps-background {
     position: absolute;

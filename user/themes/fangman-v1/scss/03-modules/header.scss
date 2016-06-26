@@ -253,6 +253,10 @@
 			}
 		}
 	}
+
+	&.hidden {
+		display: none;
+	}
 }
 
 // #site-menu {

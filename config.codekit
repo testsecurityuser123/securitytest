@@ -14587,6 +14587,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/user\/themes\/fangman-v1\/images\/beach.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 448694,
+		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/images\/beach.jpg",
+		"outputAbbreviatedPath": "\/user\/themes\/fangman-v1\/images\/beach.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/user\/themes\/fangman-v1\/images\/connection-cover.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -14704,6 +14715,17 @@
 		"initialSize": 10804,
 		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/images\/tcan-cover.png",
 		"outputAbbreviatedPath": "\/user\/themes\/fangman-v1\/images\/tcan-cover.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/themes\/fangman-v1\/images\/trees.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.00603e+06,
+		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/images\/trees.jpg",
+		"outputAbbreviatedPath": "\/user\/themes\/fangman-v1\/images\/trees.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -16683,6 +16705,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/user\/themes\/fangman-v1\/scss\/02-base\/login.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/scss\/02-base\/login.scss",
+		"outputAbbreviatedPath": "\/user\/themes\/fangman-v1\/scss\/css\/login.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/user\/themes\/fangman-v1\/scss\/02-base\/preloader.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -16985,6 +17023,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/scss\/css-compiled\/typography.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/themes\/fangman-v1\/scss\/css\/login.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/themes\/fangman-v1\/scss\/css\/login.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

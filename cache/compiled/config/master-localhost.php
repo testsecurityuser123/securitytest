@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1466741032,
-    'checksum' => '644f47aba5a726de769e802d327de029',
+    'timestamp' => 1466959292,
+    'checksum' => '7c487efd23cda439dd19e0599b1f5175',
     'files' => [
         'user/config' => [
             'media' => [
@@ -11,7 +11,7 @@ return [
             ],
             'plugins/private' => [
                 'file' => 'user/config/plugins/private.yaml',
-                'modified' => 1461557967
+                'modified' => 1466959289
             ],
             'plugins/problems' => [
                 'file' => 'user/config/plugins/problems.yaml',
@@ -252,11 +252,11 @@ return [
                 'private_tag' => 'hidden',
                 'enable_username' => false,
                 'users' => [
-                    'no_user' => '5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8'
+                    'no_user' => '3674951ec264a72168cb2d89a5f634e512f6629d'
                 ],
                 'texts' => [
-                    'h1' => 'Private Area',
-                    'h2' => 'Please <strong>login</strong> to view this content...'
+                    'h1' => 'Michael Fangman | UX/UI Designer',
+                    'h2' => '<strong>Welcome.</strong> This site is private, please enter your password:'
                 ],
                 'fields' => [
                     'username' => [
