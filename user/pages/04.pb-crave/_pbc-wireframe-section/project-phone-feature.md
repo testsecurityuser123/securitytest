@@ -1,10 +1,10 @@
 ---
-title: 'Layout & Structure:<br> Only the Best Ingedients'
+title: 'Layout & Structure: Only the Best Ingedients'
 project_pf_button_text: 'Desktop Prototype'
 project_pf_button_link: pb-crave/_pbc-wireframe-section/desktop-prototype/index.html
 project_pf_iframe: mobile-prototype/index.html
 date: '03-09-2016 00:00'
-project_pf_background_image: recipe-pizza.jpg
+project_pf_background_image: rasp.jpg
 project_pf_phoneimg: bf19-pbc-homepage-mobile-v1.png
 project_pf_button_iframe: 'http://css-tricks.com/'
 ---

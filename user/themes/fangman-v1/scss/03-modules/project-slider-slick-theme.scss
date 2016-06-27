@@ -172,26 +172,32 @@ $slick-opacity-not-active: 0.25 !default;
     li {
         position: relative;
         display: inline-block;
-        height: 12px;
-        width: 12px;
-        margin: 0 8px;
+        height: rem(6);
+        width: rem(6);
+        margin: 0 rem(6);
         padding: 0;
         cursor: pointer;
         button {
             border: 0;
-            background: $color-accent;
+            background: transparent;
+            border: rem(1) solid $color-accent;
             display: block;
-            height: 15px;
-            width: 15px;
+            height: rem(9);
+            width: rem(9);
             border-radius: 50%;
             outline: none;
             line-height: 0px;
             font-size: 0px;
             color: transparent;
             padding: 0;
+            margin: 0 rem(6);
             cursor: pointer;
+
+            @include transition($transition-med);
+
             &:hover, &:focus {
                 outline: none;
+                border-color: $color-white;
                 &:before {
                     opacity: $slick-opacity-on-hover;
                 }
@@ -199,6 +205,10 @@ $slick-opacity-not-active: 0.25 !default;
         }
         &.slick-active button {
             background: $color-white;
+            // height: rem(9);
+            // width: rem(9);
+            //background-color: $color-white;
+            border: rem(1) solid $color-white; 
         }
     }
 }

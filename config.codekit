@@ -55,6 +55,94 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/images\/0\/3\/a\/2\/2\/03a229d01220a3c991298eba765bb9e6d0c00b6f-email2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 375,
+		"inputAbbreviatedPath": "\/images\/0\/3\/a\/2\/2\/03a229d01220a3c991298eba765bb9e6d0c00b6f-email2x.png",
+		"outputAbbreviatedPath": "\/images\/0\/3\/a\/2\/2\/03a229d01220a3c991298eba765bb9e6d0c00b6f-email2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/0\/5\/7\/6\/8\/05768ab4df88769f9f23dda9149226f8b6d42f99-city-blur-2.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5793,
+		"inputAbbreviatedPath": "\/images\/0\/5\/7\/6\/8\/05768ab4df88769f9f23dda9149226f8b6d42f99-city-blur-2.jpeg",
+		"outputAbbreviatedPath": "\/images\/0\/5\/7\/6\/8\/05768ab4df88769f9f23dda9149226f8b6d42f99-city-blur-2.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/0\/6\/6\/0\/4\/06604ef2fb17263bac8020f62f8db73f1b1377db-bf19-pbc-cart-v1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4688,
+		"inputAbbreviatedPath": "\/images\/0\/6\/6\/0\/4\/06604ef2fb17263bac8020f62f8db73f1b1377db-bf19-pbc-cart-v1.png",
+		"outputAbbreviatedPath": "\/images\/0\/6\/6\/0\/4\/06604ef2fb17263bac8020f62f8db73f1b1377db-bf19-pbc-cart-v1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/0\/b\/4\/f\/2\/0b4f2a571ab66b6544ce50a4959dfe7026979584-tcan-event-modal.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3850,
+		"inputAbbreviatedPath": "\/images\/0\/b\/4\/f\/2\/0b4f2a571ab66b6544ce50a4959dfe7026979584-tcan-event-modal.jpeg",
+		"outputAbbreviatedPath": "\/images\/0\/b\/4\/f\/2\/0b4f2a571ab66b6544ce50a4959dfe7026979584-tcan-event-modal.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/0\/c\/e\/7\/9\/0ce7971ef6ce866abb9dc60e47f98e350e5461f8-building-2.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4320,
+		"inputAbbreviatedPath": "\/images\/0\/c\/e\/7\/9\/0ce7971ef6ce866abb9dc60e47f98e350e5461f8-building-2.jpeg",
+		"outputAbbreviatedPath": "\/images\/0\/c\/e\/7\/9\/0ce7971ef6ce866abb9dc60e47f98e350e5461f8-building-2.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/0\/f\/6\/5\/5\/0f6551fcfcf78574119733ef85716976b26e561e-hero-skyline.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6248,
+		"inputAbbreviatedPath": "\/images\/0\/f\/6\/5\/5\/0f6551fcfcf78574119733ef85716976b26e561e-hero-skyline.jpeg",
+		"outputAbbreviatedPath": "\/images\/0\/f\/6\/5\/5\/0f6551fcfcf78574119733ef85716976b26e561e-hero-skyline.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/1\/0\/e\/a\/9\/10ea95a1838ff0acf19b6b97ad6c37b32fc8c020-tcan-homepage-600px.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3261,
+		"inputAbbreviatedPath": "\/images\/1\/0\/e\/a\/9\/10ea95a1838ff0acf19b6b97ad6c37b32fc8c020-tcan-homepage-600px.jpeg",
+		"outputAbbreviatedPath": "\/images\/1\/0\/e\/a\/9\/10ea95a1838ff0acf19b6b97ad6c37b32fc8c020-tcan-homepage-600px.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/1\/1\/6\/8\/8\/1168879c1314b601a97e66f77052679756e529c0-bf19-pbc-homepage-mobile-v2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14414,
+		"inputAbbreviatedPath": "\/images\/1\/1\/6\/8\/8\/1168879c1314b601a97e66f77052679756e529c0-bf19-pbc-homepage-mobile-v2.png",
+		"outputAbbreviatedPath": "\/images\/1\/1\/6\/8\/8\/1168879c1314b601a97e66f77052679756e529c0-bf19-pbc-homepage-mobile-v2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/1\/a\/5\/f\/d\/1a5fd0ce50be7c18b388fc9f2e3c7e52cb952408-36407695xxl.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -62,6 +150,171 @@
 		"initialSize": 7472,
 		"inputAbbreviatedPath": "\/images\/1\/a\/5\/f\/d\/1a5fd0ce50be7c18b388fc9f2e3c7e52cb952408-36407695xxl.jpeg",
 		"outputAbbreviatedPath": "\/images\/1\/a\/5\/f\/d\/1a5fd0ce50be7c18b388fc9f2e3c7e52cb952408-36407695xxl.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/1\/b\/1\/4\/3\/1b1431bffad7882a9aa97afc590b9f108e3cf8ba-rasp.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6162,
+		"inputAbbreviatedPath": "\/images\/1\/b\/1\/4\/3\/1b1431bffad7882a9aa97afc590b9f108e3cf8ba-rasp.jpeg",
+		"outputAbbreviatedPath": "\/images\/1\/b\/1\/4\/3\/1b1431bffad7882a9aa97afc590b9f108e3cf8ba-rasp.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/1\/c\/9\/5\/8\/1c95806689e6c05d123cb38517f7729102d91d70-bf19-pbc-store-index-mobile-v12.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8522,
+		"inputAbbreviatedPath": "\/images\/1\/c\/9\/5\/8\/1c95806689e6c05d123cb38517f7729102d91d70-bf19-pbc-store-index-mobile-v12.png",
+		"outputAbbreviatedPath": "\/images\/1\/c\/9\/5\/8\/1c95806689e6c05d123cb38517f7729102d91d70-bf19-pbc-store-index-mobile-v12.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/1\/d\/0\/1\/0\/1d010bc1af029be0f8288c113a497e4834c043a6-bf19-pbc-styles-mobile-v1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10337,
+		"inputAbbreviatedPath": "\/images\/1\/d\/0\/1\/0\/1d010bc1af029be0f8288c113a497e4834c043a6-bf19-pbc-styles-mobile-v1.png",
+		"outputAbbreviatedPath": "\/images\/1\/d\/0\/1\/0\/1d010bc1af029be0f8288c113a497e4834c043a6-bf19-pbc-styles-mobile-v1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/1\/f\/2\/1\/6\/1f216952b833a1ee47cde4924ace64d5f9c4146e-bf19-pbc-homepage-v8.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31558,
+		"inputAbbreviatedPath": "\/images\/1\/f\/2\/1\/6\/1f216952b833a1ee47cde4924ace64d5f9c4146e-bf19-pbc-homepage-v8.png",
+		"outputAbbreviatedPath": "\/images\/1\/f\/2\/1\/6\/1f216952b833a1ee47cde4924ace64d5f9c4146e-bf19-pbc-homepage-v8.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/1\/f\/2\/b\/7\/1f2b7685473dd3edd16095d3ee0996bae4f84f29-t50i01-tcan-homepage-v23.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2717,
+		"inputAbbreviatedPath": "\/images\/1\/f\/2\/b\/7\/1f2b7685473dd3edd16095d3ee0996bae4f84f29-t50i01-tcan-homepage-v23.jpeg",
+		"outputAbbreviatedPath": "\/images\/1\/f\/2\/b\/7\/1f2b7685473dd3edd16095d3ee0996bae4f84f29-t50i01-tcan-homepage-v23.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/1\/f\/4\/e\/5\/1f4e53279c5723786fc07e6c5347aa01a898d59c-city-blur-1.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4826,
+		"inputAbbreviatedPath": "\/images\/1\/f\/4\/e\/5\/1f4e53279c5723786fc07e6c5347aa01a898d59c-city-blur-1.jpeg",
+		"outputAbbreviatedPath": "\/images\/1\/f\/4\/e\/5\/1f4e53279c5723786fc07e6c5347aa01a898d59c-city-blur-1.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/2\/1\/1\/b\/7\/211b73ddb436d2a3ac9d2bfbecec97a34b797081-close22x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 166,
+		"inputAbbreviatedPath": "\/images\/2\/1\/1\/b\/7\/211b73ddb436d2a3ac9d2bfbecec97a34b797081-close22x.png",
+		"outputAbbreviatedPath": "\/images\/2\/1\/1\/b\/7\/211b73ddb436d2a3ac9d2bfbecec97a34b797081-close22x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/2\/f\/2\/1\/f\/2f21f805057faca3304098ed174c358236b21aa1-t50i01-tcan-homepage-mobile-v12.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6103,
+		"inputAbbreviatedPath": "\/images\/2\/f\/2\/1\/f\/2f21f805057faca3304098ed174c358236b21aa1-t50i01-tcan-homepage-mobile-v12.jpeg",
+		"outputAbbreviatedPath": "\/images\/2\/f\/2\/1\/f\/2f21f805057faca3304098ed174c358236b21aa1-t50i01-tcan-homepage-mobile-v12.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/3\/2\/3\/4\/b\/3234b0a3a1917eeef4c894b69adb5a7dcb40c90a-bf19-pbc-product-page-mobile-v2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24707,
+		"inputAbbreviatedPath": "\/images\/3\/2\/3\/4\/b\/3234b0a3a1917eeef4c894b69adb5a7dcb40c90a-bf19-pbc-product-page-mobile-v2.png",
+		"outputAbbreviatedPath": "\/images\/3\/2\/3\/4\/b\/3234b0a3a1917eeef4c894b69adb5a7dcb40c90a-bf19-pbc-product-page-mobile-v2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/3\/7\/b\/1\/1\/37b11faa443fefb48f711a76a01a0109947b2d20-city-street-1.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5741,
+		"inputAbbreviatedPath": "\/images\/3\/7\/b\/1\/1\/37b11faa443fefb48f711a76a01a0109947b2d20-city-street-1.jpeg",
+		"outputAbbreviatedPath": "\/images\/3\/7\/b\/1\/1\/37b11faa443fefb48f711a76a01a0109947b2d20-city-street-1.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/4\/0\/e\/3\/6\/40e366bd30740f3a18204821195e1c139001f8cf-bananas.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7631,
+		"inputAbbreviatedPath": "\/images\/4\/0\/e\/3\/6\/40e366bd30740f3a18204821195e1c139001f8cf-bananas.jpeg",
+		"outputAbbreviatedPath": "\/images\/4\/0\/e\/3\/6\/40e366bd30740f3a18204821195e1c139001f8cf-bananas.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/4\/1\/8\/c\/9\/418c91fad20965dd1f1ba6429c8b92a595e17626-meeting.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5990,
+		"inputAbbreviatedPath": "\/images\/4\/1\/8\/c\/9\/418c91fad20965dd1f1ba6429c8b92a595e17626-meeting.jpeg",
+		"outputAbbreviatedPath": "\/images\/4\/1\/8\/c\/9\/418c91fad20965dd1f1ba6429c8b92a595e17626-meeting.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/4\/2\/a\/a\/7\/42aa7b488ea1ca2d50c1fa211e0d24f0ea31b49f-tcan-filter-modal.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3930,
+		"inputAbbreviatedPath": "\/images\/4\/2\/a\/a\/7\/42aa7b488ea1ca2d50c1fa211e0d24f0ea31b49f-tcan-filter-modal.jpeg",
+		"outputAbbreviatedPath": "\/images\/4\/2\/a\/a\/7\/42aa7b488ea1ca2d50c1fa211e0d24f0ea31b49f-tcan-filter-modal.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/4\/2\/e\/1\/9\/42e19821cecfad8b98c9871f70d02b8113a63887-recipe-pizza.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6713,
+		"inputAbbreviatedPath": "\/images\/4\/2\/e\/1\/9\/42e19821cecfad8b98c9871f70d02b8113a63887-recipe-pizza.jpeg",
+		"outputAbbreviatedPath": "\/images\/4\/2\/e\/1\/9\/42e19821cecfad8b98c9871f70d02b8113a63887-recipe-pizza.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/4\/3\/c\/0\/0\/43c00c81ce2c66ba26c1b4083b75a172443f4a9c-pbc-homepage.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32229,
+		"inputAbbreviatedPath": "\/images\/4\/3\/c\/0\/0\/43c00c81ce2c66ba26c1b4083b75a172443f4a9c-pbc-homepage.png",
+		"outputAbbreviatedPath": "\/images\/4\/3\/c\/0\/0\/43c00c81ce2c66ba26c1b4083b75a172443f4a9c-pbc-homepage.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -77,6 +330,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/4\/7\/b\/f\/8\/47bf8fec7262e896bc0742ed67f9f0d114354282-bf19-pbc-homepage-v6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30512,
+		"inputAbbreviatedPath": "\/images\/4\/7\/b\/f\/8\/47bf8fec7262e896bc0742ed67f9f0d114354282-bf19-pbc-homepage-v6.png",
+		"outputAbbreviatedPath": "\/images\/4\/7\/b\/f\/8\/47bf8fec7262e896bc0742ed67f9f0d114354282-bf19-pbc-homepage-v6.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/5\/0\/f\/e\/e\/50feed250d515a4ab6592705ea10e252f07eeae6-bf19-pbc-store-index-mobile-v13.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12129,
+		"inputAbbreviatedPath": "\/images\/5\/0\/f\/e\/e\/50feed250d515a4ab6592705ea10e252f07eeae6-bf19-pbc-store-index-mobile-v13.png",
+		"outputAbbreviatedPath": "\/images\/5\/0\/f\/e\/e\/50feed250d515a4ab6592705ea10e252f07eeae6-bf19-pbc-store-index-mobile-v13.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/5\/3\/5\/1\/4\/53514cb05d8d26dd99b1fc86f84c432219c41940-t50i01-tcan-homepage-v24.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2717,
+		"inputAbbreviatedPath": "\/images\/5\/3\/5\/1\/4\/53514cb05d8d26dd99b1fc86f84c432219c41940-t50i01-tcan-homepage-v24.jpeg",
+		"outputAbbreviatedPath": "\/images\/5\/3\/5\/1\/4\/53514cb05d8d26dd99b1fc86f84c432219c41940-t50i01-tcan-homepage-v24.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/5\/4\/6\/0\/7\/546079d59b309dfc6b4dd45cd9ded66226504cd8-twincities.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4116,
+		"inputAbbreviatedPath": "\/images\/5\/4\/6\/0\/7\/546079d59b309dfc6b4dd45cd9ded66226504cd8-twincities.jpeg",
+		"outputAbbreviatedPath": "\/images\/5\/4\/6\/0\/7\/546079d59b309dfc6b4dd45cd9ded66226504cd8-twincities.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/6\/1\/d\/0\/7\/61d072d788a943e4617b9140e4ff5455aad1c679-close22x.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -84,6 +381,435 @@
 		"initialSize": 166,
 		"inputAbbreviatedPath": "\/images\/6\/1\/d\/0\/7\/61d072d788a943e4617b9140e4ff5455aad1c679-close22x.png",
 		"outputAbbreviatedPath": "\/images\/6\/1\/d\/0\/7\/61d072d788a943e4617b9140e4ff5455aad1c679-close22x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/6\/2\/c\/c\/3\/62cc3be110f7daf67844154ea806039828b6d414-building-1.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6019,
+		"inputAbbreviatedPath": "\/images\/6\/2\/c\/c\/3\/62cc3be110f7daf67844154ea806039828b6d414-building-1.jpeg",
+		"outputAbbreviatedPath": "\/images\/6\/2\/c\/c\/3\/62cc3be110f7daf67844154ea806039828b6d414-building-1.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/6\/8\/8\/8\/d\/6888d9a6cd9ea55547422b8afe0ebf52953115be-building-2.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4320,
+		"inputAbbreviatedPath": "\/images\/6\/8\/8\/8\/d\/6888d9a6cd9ea55547422b8afe0ebf52953115be-building-2.jpeg",
+		"outputAbbreviatedPath": "\/images\/6\/8\/8\/8\/d\/6888d9a6cd9ea55547422b8afe0ebf52953115be-building-2.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/6\/b\/c\/0\/2\/6bc021fde7ba14eda99fd5fda62faf5252bb7f20-bf19-pbc-flavor-index-mobile-v2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20527,
+		"inputAbbreviatedPath": "\/images\/6\/b\/c\/0\/2\/6bc021fde7ba14eda99fd5fda62faf5252bb7f20-bf19-pbc-flavor-index-mobile-v2.png",
+		"outputAbbreviatedPath": "\/images\/6\/b\/c\/0\/2\/6bc021fde7ba14eda99fd5fda62faf5252bb7f20-bf19-pbc-flavor-index-mobile-v2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/6\/c\/3\/4\/9\/6c3499c79095d6505f9cc1466898bf6acaa59e84-find-a-store-1920x654.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6445,
+		"inputAbbreviatedPath": "\/images\/6\/c\/3\/4\/9\/6c3499c79095d6505f9cc1466898bf6acaa59e84-find-a-store-1920x654.jpeg",
+		"outputAbbreviatedPath": "\/images\/6\/c\/3\/4\/9\/6c3499c79095d6505f9cc1466898bf6acaa59e84-find-a-store-1920x654.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/6\/d\/2\/7\/f\/6d27f10f1027066e3ee95567003ce90cb98d0276-bf19-pbc-recipes-mobile-v1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14443,
+		"inputAbbreviatedPath": "\/images\/6\/d\/2\/7\/f\/6d27f10f1027066e3ee95567003ce90cb98d0276-bf19-pbc-recipes-mobile-v1.png",
+		"outputAbbreviatedPath": "\/images\/6\/d\/2\/7\/f\/6d27f10f1027066e3ee95567003ce90cb98d0276-bf19-pbc-recipes-mobile-v1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/6\/d\/e\/4\/d\/6de4d1b54ddec91bff1da9771392733450bf13b7-mobile-proto.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14434,
+		"inputAbbreviatedPath": "\/images\/6\/d\/e\/4\/d\/6de4d1b54ddec91bff1da9771392733450bf13b7-mobile-proto.png",
+		"outputAbbreviatedPath": "\/images\/6\/d\/e\/4\/d\/6de4d1b54ddec91bff1da9771392733450bf13b7-mobile-proto.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/7\/9\/f\/d\/8\/79fd86cb8e05a6869fc022a988697e1507ce31b9-bf19-pbc-menu-mobile-v1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8943,
+		"inputAbbreviatedPath": "\/images\/7\/9\/f\/d\/8\/79fd86cb8e05a6869fc022a988697e1507ce31b9-bf19-pbc-menu-mobile-v1.png",
+		"outputAbbreviatedPath": "\/images\/7\/9\/f\/d\/8\/79fd86cb8e05a6869fc022a988697e1507ce31b9-bf19-pbc-menu-mobile-v1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/7\/c\/b\/c\/e\/7cbce625745d8b113361f4d239eab1f3536e8331-bf19-pbc-store-index-v2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17193,
+		"inputAbbreviatedPath": "\/images\/7\/c\/b\/c\/e\/7cbce625745d8b113361f4d239eab1f3536e8331-bf19-pbc-store-index-v2.png",
+		"outputAbbreviatedPath": "\/images\/7\/c\/b\/c\/e\/7cbce625745d8b113361f4d239eab1f3536e8331-bf19-pbc-store-index-v2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/7\/d\/7\/2\/2\/7d7224beacb87aed1ad09a1112a361f40fd4eeb3-cupcakes.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7597,
+		"inputAbbreviatedPath": "\/images\/7\/d\/7\/2\/2\/7d7224beacb87aed1ad09a1112a361f40fd4eeb3-cupcakes.jpeg",
+		"outputAbbreviatedPath": "\/images\/7\/d\/7\/2\/2\/7d7224beacb87aed1ad09a1112a361f40fd4eeb3-cupcakes.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/8\/0\/7\/a\/e\/807ae71926dada784719b88e16d30dfa5d29218e-bf19-pbc-cart-mobile-v3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8704,
+		"inputAbbreviatedPath": "\/images\/8\/0\/7\/a\/e\/807ae71926dada784719b88e16d30dfa5d29218e-bf19-pbc-cart-mobile-v3.png",
+		"outputAbbreviatedPath": "\/images\/8\/0\/7\/a\/e\/807ae71926dada784719b88e16d30dfa5d29218e-bf19-pbc-cart-mobile-v3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/8\/6\/3\/5\/f\/8635faa771d7b8e8f600440d872cb4d49e4bdf4b-t50i01-tcan-homepage-mobile-v11.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2505,
+		"inputAbbreviatedPath": "\/images\/8\/6\/3\/5\/f\/8635faa771d7b8e8f600440d872cb4d49e4bdf4b-t50i01-tcan-homepage-mobile-v11.jpeg",
+		"outputAbbreviatedPath": "\/images\/8\/6\/3\/5\/f\/8635faa771d7b8e8f600440d872cb4d49e4bdf4b-t50i01-tcan-homepage-mobile-v11.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/8\/c\/b\/2\/c\/8cb2cb153c98a0ecda53e2ab8a34a24b462a5495-hero-buildings.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5137,
+		"inputAbbreviatedPath": "\/images\/8\/c\/b\/2\/c\/8cb2cb153c98a0ecda53e2ab8a34a24b462a5495-hero-buildings.jpeg",
+		"outputAbbreviatedPath": "\/images\/8\/c\/b\/2\/c\/8cb2cb153c98a0ecda53e2ab8a34a24b462a5495-hero-buildings.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/9\/4\/7\/6\/2\/9476268bbb8f9b671413dc361fedb22632bbfe9e-bf19-pbc-flavors-image-768x372-v1.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2219,
+		"inputAbbreviatedPath": "\/images\/9\/4\/7\/6\/2\/9476268bbb8f9b671413dc361fedb22632bbfe9e-bf19-pbc-flavors-image-768x372-v1.jpeg",
+		"outputAbbreviatedPath": "\/images\/9\/4\/7\/6\/2\/9476268bbb8f9b671413dc361fedb22632bbfe9e-bf19-pbc-flavors-image-768x372-v1.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/9\/6\/4\/d\/5\/964d592ed966dac5cfcfd7642b9f83e0de27f339-bf19-pbc-recipes-v4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9855,
+		"inputAbbreviatedPath": "\/images\/9\/6\/4\/d\/5\/964d592ed966dac5cfcfd7642b9f83e0de27f339-bf19-pbc-recipes-v4.png",
+		"outputAbbreviatedPath": "\/images\/9\/6\/4\/d\/5\/964d592ed966dac5cfcfd7642b9f83e0de27f339-bf19-pbc-recipes-v4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/9\/6\/c\/f\/a\/96cfa0c118913227b39e57df6c661a2d07ae7a84-bf19-pbc-product-page-v1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16586,
+		"inputAbbreviatedPath": "\/images\/9\/6\/c\/f\/a\/96cfa0c118913227b39e57df6c661a2d07ae7a84-bf19-pbc-product-page-v1.png",
+		"outputAbbreviatedPath": "\/images\/9\/6\/c\/f\/a\/96cfa0c118913227b39e57df6c661a2d07ae7a84-bf19-pbc-product-page-v1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/9\/8\/3\/e\/2\/983e2f6ad7ceec18b31585858158810991cf0746-tcan-photo-modal.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4995,
+		"inputAbbreviatedPath": "\/images\/9\/8\/3\/e\/2\/983e2f6ad7ceec18b31585858158810991cf0746-tcan-photo-modal.jpeg",
+		"outputAbbreviatedPath": "\/images\/9\/8\/3\/e\/2\/983e2f6ad7ceec18b31585858158810991cf0746-tcan-photo-modal.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/9\/c\/9\/c\/5\/9c9c5e615b2a548ca113186b4ff6e71dad9828f4-bf19-pbc-flavor-index-v1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17492,
+		"inputAbbreviatedPath": "\/images\/9\/c\/9\/c\/5\/9c9c5e615b2a548ca113186b4ff6e71dad9828f4-bf19-pbc-flavor-index-v1.png",
+		"outputAbbreviatedPath": "\/images\/9\/c\/9\/c\/5\/9c9c5e615b2a548ca113186b4ff6e71dad9828f4-bf19-pbc-flavor-index-v1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/a\/0\/0\/5\/e\/a005e4120d2cd79e23a1c9a5cd965a193a57ab5c-building-3.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8642,
+		"inputAbbreviatedPath": "\/images\/a\/0\/0\/5\/e\/a005e4120d2cd79e23a1c9a5cd965a193a57ab5c-building-3.jpeg",
+		"outputAbbreviatedPath": "\/images\/a\/0\/0\/5\/e\/a005e4120d2cd79e23a1c9a5cd965a193a57ab5c-building-3.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/a\/f\/e\/c\/8\/afec870dc1e8a99d42abe71be20979f96875a15f-tcan-homepage-hover.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3264,
+		"inputAbbreviatedPath": "\/images\/a\/f\/e\/c\/8\/afec870dc1e8a99d42abe71be20979f96875a15f-tcan-homepage-hover.jpeg",
+		"outputAbbreviatedPath": "\/images\/a\/f\/e\/c\/8\/afec870dc1e8a99d42abe71be20979f96875a15f-tcan-homepage-hover.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/b\/b\/e\/0\/6\/bbe0658e26413a242c4d478f35b5309e1d0d93e6-t50i01-tcan-homepage-v21.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3190,
+		"inputAbbreviatedPath": "\/images\/b\/b\/e\/0\/6\/bbe0658e26413a242c4d478f35b5309e1d0d93e6-t50i01-tcan-homepage-v21.jpeg",
+		"outputAbbreviatedPath": "\/images\/b\/b\/e\/0\/6\/bbe0658e26413a242c4d478f35b5309e1d0d93e6-t50i01-tcan-homepage-v21.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/c\/0\/f\/b\/d\/c0fbd2e44394d04e2de0c6a8e37e9f0365b3a5b1-bf19-pbc-homepage-mobile-v1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6743,
+		"inputAbbreviatedPath": "\/images\/c\/0\/f\/b\/d\/c0fbd2e44394d04e2de0c6a8e37e9f0365b3a5b1-bf19-pbc-homepage-mobile-v1.png",
+		"outputAbbreviatedPath": "\/images\/c\/0\/f\/b\/d\/c0fbd2e44394d04e2de0c6a8e37e9f0365b3a5b1-bf19-pbc-homepage-mobile-v1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/c\/6\/d\/b\/6\/c6db60471937411e63cd596d10ddface52aef432-tcan-full-res.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3190,
+		"inputAbbreviatedPath": "\/images\/c\/6\/d\/b\/6\/c6db60471937411e63cd596d10ddface52aef432-tcan-full-res.jpeg",
+		"outputAbbreviatedPath": "\/images\/c\/6\/d\/b\/6\/c6db60471937411e63cd596d10ddface52aef432-tcan-full-res.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/c\/8\/f\/8\/5\/c8f85494a35b2a53d8643bd4bd4f5f2e158165e2-events-image.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6941,
+		"inputAbbreviatedPath": "\/images\/c\/8\/f\/8\/5\/c8f85494a35b2a53d8643bd4bd4f5f2e158165e2-events-image.jpeg",
+		"outputAbbreviatedPath": "\/images\/c\/8\/f\/8\/5\/c8f85494a35b2a53d8643bd4bd4f5f2e158165e2-events-image.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/c\/c\/6\/f\/a\/cc6fa640eee979e1efada09c6a8bb89d6e5f76ad-tcan-homepage.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3190,
+		"inputAbbreviatedPath": "\/images\/c\/c\/6\/f\/a\/cc6fa640eee979e1efada09c6a8bb89d6e5f76ad-tcan-homepage.jpeg",
+		"outputAbbreviatedPath": "\/images\/c\/c\/6\/f\/a\/cc6fa640eee979e1efada09c6a8bb89d6e5f76ad-tcan-homepage.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/c\/e\/6\/6\/f\/ce66f783a85bc5a7f641334b4a9b7f9a7df45df8-building-1.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6019,
+		"inputAbbreviatedPath": "\/images\/c\/e\/6\/6\/f\/ce66f783a85bc5a7f641334b4a9b7f9a7df45df8-building-1.jpeg",
+		"outputAbbreviatedPath": "\/images\/c\/e\/6\/6\/f\/ce66f783a85bc5a7f641334b4a9b7f9a7df45df8-building-1.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/d\/2\/f\/2\/d\/d2f2da7fec2a87946b308c3f370b860bd4b7b08f-bf19-pbc-product-page-mobile-v2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24707,
+		"inputAbbreviatedPath": "\/images\/d\/2\/f\/2\/d\/d2f2da7fec2a87946b308c3f370b860bd4b7b08f-bf19-pbc-product-page-mobile-v2.png",
+		"outputAbbreviatedPath": "\/images\/d\/2\/f\/2\/d\/d2f2da7fec2a87946b308c3f370b860bd4b7b08f-bf19-pbc-product-page-mobile-v2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/d\/3\/3\/d\/1\/d33d183f80ec743604f80e4f130f6a413dff2595-business-paper.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4317,
+		"inputAbbreviatedPath": "\/images\/d\/3\/3\/d\/1\/d33d183f80ec743604f80e4f130f6a413dff2595-business-paper.jpeg",
+		"outputAbbreviatedPath": "\/images\/d\/3\/3\/d\/1\/d33d183f80ec743604f80e4f130f6a413dff2595-business-paper.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/d\/7\/b\/0\/f\/d7b0fe1b3aa6b712b57e986378609b812eabeddd-hero-goldmedal.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5101,
+		"inputAbbreviatedPath": "\/images\/d\/7\/b\/0\/f\/d7b0fe1b3aa6b712b57e986378609b812eabeddd-hero-goldmedal.jpeg",
+		"outputAbbreviatedPath": "\/images\/d\/7\/b\/0\/f\/d7b0fe1b3aa6b712b57e986378609b812eabeddd-hero-goldmedal.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/d\/a\/7\/6\/8\/da76854487f62fcee3d8e61fd437a67634a3d0c9-t50i01-tcan-homepage-mobile-v11.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2505,
+		"inputAbbreviatedPath": "\/images\/d\/a\/7\/6\/8\/da76854487f62fcee3d8e61fd437a67634a3d0c9-t50i01-tcan-homepage-mobile-v11.jpeg",
+		"outputAbbreviatedPath": "\/images\/d\/a\/7\/6\/8\/da76854487f62fcee3d8e61fd437a67634a3d0c9-t50i01-tcan-homepage-mobile-v11.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/d\/d\/3\/4\/d\/dd34d2675767e4cec226c80b99a3de541db8d991-t50i01-tcan-homepage-mobile-v12.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6103,
+		"inputAbbreviatedPath": "\/images\/d\/d\/3\/4\/d\/dd34d2675767e4cec226c80b99a3de541db8d991-t50i01-tcan-homepage-mobile-v12.jpeg",
+		"outputAbbreviatedPath": "\/images\/d\/d\/3\/4\/d\/dd34d2675767e4cec226c80b99a3de541db8d991-t50i01-tcan-homepage-mobile-v12.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/d\/d\/5\/4\/e\/dd54e2ecef7b5a630dafcd74135540dd1fa1fd6c-bf19-pbc-store-index-mobile-v11.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20008,
+		"inputAbbreviatedPath": "\/images\/d\/d\/5\/4\/e\/dd54e2ecef7b5a630dafcd74135540dd1fa1fd6c-bf19-pbc-store-index-mobile-v11.png",
+		"outputAbbreviatedPath": "\/images\/d\/d\/5\/4\/e\/dd54e2ecef7b5a630dafcd74135540dd1fa1fd6c-bf19-pbc-store-index-mobile-v11.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/e\/2\/6\/e\/9\/e26e9f54fe736429ee280b5e6e12255218fce25d-pbc-flavors-mobile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20527,
+		"inputAbbreviatedPath": "\/images\/e\/2\/6\/e\/9\/e26e9f54fe736429ee280b5e6e12255218fce25d-pbc-flavors-mobile.png",
+		"outputAbbreviatedPath": "\/images\/e\/2\/6\/e\/9\/e26e9f54fe736429ee280b5e6e12255218fce25d-pbc-flavors-mobile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/e\/5\/2\/c\/5\/e52c51064d12b2ed651d1c38f647bacb1312eff5-twincities.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4116,
+		"inputAbbreviatedPath": "\/images\/e\/5\/2\/c\/5\/e52c51064d12b2ed651d1c38f647bacb1312eff5-twincities.jpeg",
+		"outputAbbreviatedPath": "\/images\/e\/5\/2\/c\/5\/e52c51064d12b2ed651d1c38f647bacb1312eff5-twincities.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/e\/6\/1\/4\/2\/e6142b2ea99fcfd583886388239d2d3410b7ce47-t50i01-tcan-homepage-v22.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3264,
+		"inputAbbreviatedPath": "\/images\/e\/6\/1\/4\/2\/e6142b2ea99fcfd583886388239d2d3410b7ce47-t50i01-tcan-homepage-v22.jpeg",
+		"outputAbbreviatedPath": "\/images\/e\/6\/1\/4\/2\/e6142b2ea99fcfd583886388239d2d3410b7ce47-t50i01-tcan-homepage-v22.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/e\/6\/2\/4\/3\/e6243e66ff294e395d2c0ab90921fecbc5ca437f-linkedin-image.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4633,
+		"inputAbbreviatedPath": "\/images\/e\/6\/2\/4\/3\/e6243e66ff294e395d2c0ab90921fecbc5ca437f-linkedin-image.jpeg",
+		"outputAbbreviatedPath": "\/images\/e\/6\/2\/4\/3\/e6243e66ff294e395d2c0ab90921fecbc5ca437f-linkedin-image.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/e\/9\/4\/f\/f\/e94ff5622adf68f292cedf53c1368dae68f54333-bananas.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7631,
+		"inputAbbreviatedPath": "\/images\/e\/9\/4\/f\/f\/e94ff5622adf68f292cedf53c1368dae68f54333-bananas.jpeg",
+		"outputAbbreviatedPath": "\/images\/e\/9\/4\/f\/f\/e94ff5622adf68f292cedf53c1368dae68f54333-bananas.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/e\/9\/c\/7\/d\/e9c7d5c145fc64dcd899da97bd66f8346b2261d1-intro-image.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7512,
+		"inputAbbreviatedPath": "\/images\/e\/9\/c\/7\/d\/e9c7d5c145fc64dcd899da97bd66f8346b2261d1-intro-image.jpeg",
+		"outputAbbreviatedPath": "\/images\/e\/9\/c\/7\/d\/e9c7d5c145fc64dcd899da97bd66f8346b2261d1-intro-image.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/e\/f\/8\/b\/7\/ef8b798428bb898c75596e31185ec0250348ae20-36407695xxl.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7472,
+		"inputAbbreviatedPath": "\/images\/e\/f\/8\/b\/7\/ef8b798428bb898c75596e31185ec0250348ae20-36407695xxl.jpeg",
+		"outputAbbreviatedPath": "\/images\/e\/f\/8\/b\/7\/ef8b798428bb898c75596e31185ec0250348ae20-36407695xxl.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/f\/4\/f\/3\/f\/f4f3fa8a676bca2bdd37e24d31701b7f309dfa69-t50i01-tcan-homepage-mobile-v11.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2505,
+		"inputAbbreviatedPath": "\/images\/f\/4\/f\/3\/f\/f4f3fa8a676bca2bdd37e24d31701b7f309dfa69-t50i01-tcan-homepage-mobile-v11.jpeg",
+		"outputAbbreviatedPath": "\/images\/f\/4\/f\/3\/f\/f4f3fa8a676bca2bdd37e24d31701b7f309dfa69-t50i01-tcan-homepage-mobile-v11.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1541,13 +2267,24 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/user\/pages\/03.tcan\/_project-wireframe-section\/linkedin-image.jpg": {
+	"\/user\/pages\/03.tcan\/_project-wireframe-section\/building-2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 62948,
-		"inputAbbreviatedPath": "\/user\/pages\/03.tcan\/_project-wireframe-section\/linkedin-image.jpg",
-		"outputAbbreviatedPath": "\/user\/pages\/03.tcan\/_project-wireframe-section\/linkedin-image.jpg",
+		"initialSize": 370247,
+		"inputAbbreviatedPath": "\/user\/pages\/03.tcan\/_project-wireframe-section\/building-2.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/03.tcan\/_project-wireframe-section\/building-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/03.tcan\/_project-wireframe-section\/mobile-proto.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52100,
+		"inputAbbreviatedPath": "\/user\/pages\/03.tcan\/_project-wireframe-section\/mobile-proto.png",
+		"outputAbbreviatedPath": "\/user\/pages\/03.tcan\/_project-wireframe-section\/mobile-proto.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1582,24 +2319,13 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/user\/pages\/03.tcan\/_project-wireframe-section\/t50i01-tcan-homepage-mobile-v1.1.jpg": {
+	"\/user\/pages\/03.tcan\/_tcan-intro\/hero-buildings.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 384324,
-		"inputAbbreviatedPath": "\/user\/pages\/03.tcan\/_project-wireframe-section\/t50i01-tcan-homepage-mobile-v1.1.jpg",
-		"outputAbbreviatedPath": "\/user\/pages\/03.tcan\/_project-wireframe-section\/t50i01-tcan-homepage-mobile-v1.1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/user\/pages\/03.tcan\/_project-wireframe-section\/twincities.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.01926e+06,
-		"inputAbbreviatedPath": "\/user\/pages\/03.tcan\/_project-wireframe-section\/twincities.jpg",
-		"outputAbbreviatedPath": "\/user\/pages\/03.tcan\/_project-wireframe-section\/twincities.jpg",
+		"initialSize": 4.57783e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-intro\/hero-buildings.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-intro\/hero-buildings.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1634,17 +2360,6 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/user\/pages\/03.tcan\/_tcan-intro\/t50i01-tcan-homepage-mobile-v1.1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 384324,
-		"inputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-intro\/t50i01-tcan-homepage-mobile-v1.1.jpg",
-		"outputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-intro\/t50i01-tcan-homepage-mobile-v1.1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/user\/pages\/03.tcan\/_tcan-intro\/t50i01-tcan-homepage-mobile-v1.2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1656,24 +2371,76 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/user\/pages\/03.tcan\/_tcan-intro\/tcan-full-res.jpg": {
+	"\/user\/pages\/03.tcan\/_tcan-intro\/tcan-homepage-600px.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.2414e+06,
-		"inputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-intro\/tcan-full-res.jpg",
-		"outputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-intro\/tcan-full-res.jpg",
+		"initialSize": 472937,
+		"inputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-intro\/tcan-homepage-600px.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-intro\/tcan-homepage-600px.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/user\/pages\/03.tcan\/_tcan-intro\/twincities.jpg": {
+	"\/user\/pages\/03.tcan\/_tcan-mobile-designs\/building-4.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.01926e+06,
-		"inputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-intro\/twincities.jpg",
-		"outputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-intro\/twincities.jpg",
+		"initialSize": 485864,
+		"inputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-mobile-designs\/building-4.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-mobile-designs\/building-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/03.tcan\/_tcan-mobile-designs\/project-phone-slider.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-mobile-designs\/project-phone-slider.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/pages\/03.tcan\/_tcan-mobile-designs\/project-phone-slider.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-mobile-designs\/project-phone-slider.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-mobile-designs\/project-phone-slider.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/user\/pages\/03.tcan\/_tcan-mobile-designs\/t50i01-tcan-homepage-mobile-v1.1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 384324,
+		"inputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-mobile-designs\/t50i01-tcan-homepage-mobile-v1.1.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-mobile-designs\/t50i01-tcan-homepage-mobile-v1.1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/03.tcan\/_tcan-mobile-designs\/t50i01-tcan-homepage-mobile-v1.2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66793,
+		"inputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-mobile-designs\/t50i01-tcan-homepage-mobile-v1.2.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-mobile-designs\/t50i01-tcan-homepage-mobile-v1.2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1708,13 +2475,13 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/user\/pages\/03.tcan\/_tcan-slider\/events-image.jpg": {
+	"\/user\/pages\/03.tcan\/_tcan-slider\/building-1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 201542,
-		"inputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-slider\/events-image.jpg",
-		"outputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-slider\/events-image.jpg",
+		"initialSize": 854233,
+		"inputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-slider\/building-1.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-slider\/building-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1749,46 +2516,57 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/user\/pages\/03.tcan\/_tcan-slider\/t50i01-tcan-homepage-v2.1.jpg": {
+	"\/user\/pages\/03.tcan\/_tcan-slider\/tcan-event-modal.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.2414e+06,
-		"inputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-slider\/t50i01-tcan-homepage-v2.1.jpg",
-		"outputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-slider\/t50i01-tcan-homepage-v2.1.jpg",
+		"initialSize": 470817,
+		"inputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-slider\/tcan-event-modal.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-slider\/tcan-event-modal.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/user\/pages\/03.tcan\/_tcan-slider\/t50i01-tcan-homepage-v2.2.jpg": {
+	"\/user\/pages\/03.tcan\/_tcan-slider\/tcan-filter-modal.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 402911,
+		"inputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-slider\/tcan-filter-modal.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-slider\/tcan-filter-modal.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/03.tcan\/_tcan-slider\/tcan-homepage-hover.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1.22878e+06,
-		"inputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-slider\/t50i01-tcan-homepage-v2.2.jpg",
-		"outputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-slider\/t50i01-tcan-homepage-v2.2.jpg",
+		"inputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-slider\/tcan-homepage-hover.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-slider\/tcan-homepage-hover.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/user\/pages\/03.tcan\/_tcan-slider\/t50i01-tcan-homepage-v2.3.jpg": {
+	"\/user\/pages\/03.tcan\/_tcan-slider\/tcan-homepage.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 966868,
-		"inputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-slider\/t50i01-tcan-homepage-v2.3.jpg",
-		"outputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-slider\/t50i01-tcan-homepage-v2.3.jpg",
+		"initialSize": 1.2414e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-slider\/tcan-homepage.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-slider\/tcan-homepage.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/user\/pages\/03.tcan\/_tcan-slider\/t50i01-tcan-homepage-v2.4.jpg": {
+	"\/user\/pages\/03.tcan\/_tcan-slider\/tcan-photo-modal.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 950220,
-		"inputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-slider\/t50i01-tcan-homepage-v2.4.jpg",
-		"outputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-slider\/t50i01-tcan-homepage-v2.4.jpg",
+		"initialSize": 819571,
+		"inputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-slider\/tcan-photo-modal.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/03.tcan\/_tcan-slider\/tcan-photo-modal.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1906,28 +2684,6 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/user\/pages\/04.pb-crave\/_pb-crave-intro\/36407695_xxl.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7.59154e+06,
-		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-intro\/36407695_xxl.jpg",
-		"outputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-intro\/36407695_xxl.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/user\/pages\/04.pb-crave\/_pb-crave-intro\/bf19-pbc-homepage-v8.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5.16701e+06,
-		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-intro\/bf19-pbc-homepage-v8.png",
-		"outputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-intro\/bf19-pbc-homepage-v8.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/user\/pages\/04.pb-crave\/_pb-crave-intro\/bf19-pbc-product-page-mobile-v2.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1939,13 +2695,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/user\/pages\/04.pb-crave\/_pb-crave-intro\/find-a-store-1920x654.jpg": {
+	"\/user\/pages\/04.pb-crave\/_pb-crave-intro\/intro-image.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 400941,
-		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-intro\/find-a-store-1920x654.jpg",
-		"outputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-intro\/find-a-store-1920x654.jpg",
+		"initialSize": 946966,
+		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-intro\/intro-image.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-intro\/intro-image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/04.pb-crave\/_pb-crave-intro\/pbc-homepage.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 794948,
+		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-intro\/pbc-homepage.png",
+		"outputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-intro\/pbc-homepage.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1980,24 +2747,13 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/bf19-pbc-flavor-index-mobile-v2.png": {
+	"\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/bf19-pbc-cart-mobile-v3.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 964573,
-		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/bf19-pbc-flavor-index-mobile-v2.png",
-		"outputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/bf19-pbc-flavor-index-mobile-v2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/bf19-pbc-flavors-image-768x372-v1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 115781,
-		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/bf19-pbc-flavors-image-768x372-v1.jpg",
-		"outputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/bf19-pbc-flavors-image-768x372-v1.jpg",
+		"initialSize": 75126,
+		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/bf19-pbc-cart-mobile-v3.png",
+		"outputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/bf19-pbc-cart-mobile-v3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2009,6 +2765,105 @@
 		"initialSize": 988005,
 		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/bf19-pbc-homepage-mobile-v2.png",
 		"outputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/bf19-pbc-homepage-mobile-v2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/bf19-pbc-menu-mobile-v1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52249,
+		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/bf19-pbc-menu-mobile-v1.png",
+		"outputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/bf19-pbc-menu-mobile-v1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/bf19-pbc-product-page-mobile-v2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 463330,
+		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/bf19-pbc-product-page-mobile-v2.png",
+		"outputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/bf19-pbc-product-page-mobile-v2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/bf19-pbc-recipes-mobile-v1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.00113e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/bf19-pbc-recipes-mobile-v1.png",
+		"outputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/bf19-pbc-recipes-mobile-v1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/bf19-pbc-store-index-mobile-v1.1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.37978e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/bf19-pbc-store-index-mobile-v1.1.png",
+		"outputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/bf19-pbc-store-index-mobile-v1.1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/bf19-pbc-store-index-mobile-v1.2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 108699,
+		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/bf19-pbc-store-index-mobile-v1.2.png",
+		"outputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/bf19-pbc-store-index-mobile-v1.2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/bf19-pbc-store-index-mobile-v1.3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 112478,
+		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/bf19-pbc-store-index-mobile-v1.3.png",
+		"outputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/bf19-pbc-store-index-mobile-v1.3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/bf19-pbc-styles-mobile-v1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.77594e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/bf19-pbc-styles-mobile-v1.png",
+		"outputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/bf19-pbc-styles-mobile-v1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/cupcakes.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.21366e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/cupcakes.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/cupcakes.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/pbc-flavors-mobile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.03963e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/pbc-flavors-mobile.png",
+		"outputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pb-crave-mobile-slider\/pbc-flavors-mobile.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5940,13 +6795,24 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/user\/pages\/04.pb-crave\/_pbc-wireframe-section\/recipe-pizza.jpg": {
+	"\/user\/pages\/04.pb-crave\/_pbc-wireframe-section\/rasp.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 104311,
-		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pbc-wireframe-section\/recipe-pizza.jpg",
-		"outputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pbc-wireframe-section\/recipe-pizza.jpg",
+		"initialSize": 645256,
+		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pbc-wireframe-section\/rasp.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_pbc-wireframe-section\/rasp.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/04.pb-crave\/_project-desktop-slider\/bananas.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 213087,
+		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_project-desktop-slider\/bananas.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_project-desktop-slider\/bananas.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5958,17 +6824,6 @@
 		"initialSize": 127211,
 		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_project-desktop-slider\/bf19-pbc-cart-v1.png",
 		"outputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_project-desktop-slider\/bf19-pbc-cart-v1.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/user\/pages\/04.pb-crave\/_project-desktop-slider\/bf19-pbc-flavor-index-v1.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3.28319e+06,
-		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_project-desktop-slider\/bf19-pbc-flavor-index-v1.png",
-		"outputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_project-desktop-slider\/bf19-pbc-flavor-index-v1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6028,13 +6883,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/user\/pages\/04.pb-crave\/_project-desktop-slider\/pbc-fruit-recipe.jpg": {
-		"fileType": 16384,
+	"\/user\/pages\/04.pb-crave\/_project-desktop-slider\/pbc-flavors.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4.02181e+06,
-		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_project-desktop-slider\/pbc-fruit-recipe.jpg",
-		"outputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_project-desktop-slider\/pbc-fruit-recipe.jpg",
+		"initialSize": 4.3253e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_project-desktop-slider\/pbc-flavors.png",
+		"outputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_project-desktop-slider\/pbc-flavors.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/04.pb-crave\/_project-desktop-slider\/pbc-store.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.03871e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_project-desktop-slider\/pbc-store.png",
+		"outputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_project-desktop-slider\/pbc-store.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

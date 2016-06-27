@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1466959292,
-    'checksum' => '7c487efd23cda439dd19e0599b1f5175',
+    'timestamp' => 1466977472,
+    'checksum' => '9118677db8c3192c1358c35913fb4713',
     'files' => [
         'user/config' => [
             'media' => [
@@ -11,7 +11,7 @@ return [
             ],
             'plugins/private' => [
                 'file' => 'user/config/plugins/private.yaml',
-                'modified' => 1466959289
+                'modified' => 1466977469
             ],
             'plugins/problems' => [
                 'file' => 'user/config/plugins/problems.yaml',
@@ -256,7 +256,7 @@ return [
                 ],
                 'texts' => [
                     'h1' => 'Michael Fangman | UX/UI Designer',
-                    'h2' => '<strong>Welcome.</strong> This site is private, please enter your password:'
+                    'h2' => '<strong>Welcome.</strong> This site is private, please enter your password.'
                 ],
                 'fields' => [
                     'username' => [
@@ -265,14 +265,14 @@ return [
                     ],
                     'password' => [
                         'label' => 'Password',
-                        'placeholder' => 'Enter your password'
+                        'placeholder' => 'Password'
                     ],
                     'antispam' => [
                         'label' => 'Antispam',
                         'placeholder' => 'Please leave this field empty for Antispam'
                     ],
                     'login' => [
-                        'label' => 'Login'
+                        'label' => 'Enter'
                     ]
                 ],
                 'messages' => [
