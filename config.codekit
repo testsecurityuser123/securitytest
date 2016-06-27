@@ -737,6 +737,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/e\/4\/7\/8\/b\/e478ba012de12fa391683da1ff369977828a2fac-building-4.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5640,
+		"inputAbbreviatedPath": "\/images\/e\/4\/7\/8\/b\/e478ba012de12fa391683da1ff369977828a2fac-building-4.jpeg",
+		"outputAbbreviatedPath": "\/images\/e\/4\/7\/8\/b\/e478ba012de12fa391683da1ff369977828a2fac-building-4.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/e\/5\/2\/c\/5\/e52c51064d12b2ed651d1c38f647bacb1312eff5-twincities.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
