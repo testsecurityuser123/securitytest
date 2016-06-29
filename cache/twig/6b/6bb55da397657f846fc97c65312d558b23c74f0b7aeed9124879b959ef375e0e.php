@@ -25,8 +25,6 @@ class __TwigTemplate_608fcd4b555a42a0c12dacd97b76b60a9a21a97d5e52dd6f24d0ae457c0
         if ($this->getAttribute((isset($context["header"]) ? $context["header"] : null), "project_pf_iframe", array())) {
             // line 6
             echo "\t\t\t\t\t<iframe src=\"";
-            echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array(0 => true), "method");
-            echo "/";
             echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "project_pf_iframe", array());
             echo "\"></iframe>
 \t\t\t\t";
@@ -88,7 +86,7 @@ class __TwigTemplate_608fcd4b555a42a0c12dacd97b76b60a9a21a97d5e52dd6f24d0ae457c0
 
     public function getDebugInfo()
     {
-        return array (  70 => 22,  64 => 18,  56 => 16,  54 => 15,  50 => 14,  46 => 13,  35 => 8,  27 => 6,  25 => 5,  19 => 1,);
+        return array (  68 => 22,  62 => 18,  54 => 16,  52 => 15,  48 => 14,  44 => 13,  33 => 8,  27 => 6,  25 => 5,  19 => 1,);
     }
 }
 /* <section class="project-pf">*/
@@ -96,7 +94,7 @@ class __TwigTemplate_608fcd4b555a42a0c12dacd97b76b60a9a21a97d5e52dd6f24d0ae457c0
 /* 		<div class="project-pf-phone-container">*/
 /* 			<div class="project-pf-phone">*/
 /* 				{% if header.project_pf_iframe %}*/
-/* 					<iframe src="{{ page.url(true) }}/{{ header.project_pf_iframe }}"></iframe>*/
+/* 					<iframe src="{{ header.project_pf_iframe }}"></iframe>*/
 /* 				{% endif %}*/
 /* 				<div class="project-pf-phone-image" style="background-image: url(' {{ page.url(true) }}/{{ header.project_pf_phoneimg }}')"></div>*/
 /* 			</div>*/

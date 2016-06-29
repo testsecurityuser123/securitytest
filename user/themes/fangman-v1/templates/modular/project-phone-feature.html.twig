@@ -3,7 +3,7 @@
 		<div class="project-pf-phone-container">
 			<div class="project-pf-phone">
 				{% if header.project_pf_iframe %}
-					<iframe src="{{ page.url(true) }}/{{ header.project_pf_iframe }}"></iframe>
+					<iframe src="{{ header.project_pf_iframe }}"></iframe>
 				{% endif %}
 				<div class="project-pf-phone-image" style="background-image: url(' {{ page.url(true) }}/{{ header.project_pf_phoneimg }}')"></div>
 			</div>

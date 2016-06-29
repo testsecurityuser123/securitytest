@@ -1,0 +1,39 @@
+1467775249
+a:2:{s:7:"content";s:2285:"<section class="project-ds">
+	<div class="project-ds-container">
+		<div class="project-ds-content-container">
+			<div class="project-ds-content-inner-container">
+				<h3>Fringilla Dapibus Vehicula Euismod Porta</h3>
+				<p><p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit amet fermentum. Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p></p>
+			</div>
+		</div>
+
+		<div class="project-ds-slider-container">
+	
+			<div class="project-ds-slider">
+			  					  	<a href="http://localhost:8888/portfolio-grav-2016/mvp/_mvp-desktop-slider/t48i87-mvp-homepage-v12.1.png" class="project-ds-slide">
+				  		<div class="project-ds-slide-image">
+				  			<img src="http://localhost:8888/portfolio-grav-2016/mvp/_mvp-desktop-slider/t48i87-mvp-homepage-v12.1.png" alt="">
+				  		</div>
+				  	</a>
+			  					  	<a href="http://localhost:8888/portfolio-grav-2016/mvp/_mvp-desktop-slider/t48i87-mvp-about-v3.1.png" class="project-ds-slide">
+				  		<div class="project-ds-slide-image">
+				  			<img src="http://localhost:8888/portfolio-grav-2016/mvp/_mvp-desktop-slider/t48i87-mvp-about-v3.1.png" alt="">
+				  		</div>
+				  	</a>
+			  					  	<a href="http://localhost:8888/portfolio-grav-2016/mvp/_mvp-desktop-slider/t48i87-mvp-work-overview-v2.1.png" class="project-ds-slide">
+				  		<div class="project-ds-slide-image">
+				  			<img src="http://localhost:8888/portfolio-grav-2016/mvp/_mvp-desktop-slider/t48i87-mvp-work-overview-v2.1.png" alt="">
+				  		</div>
+				  	</a>
+			  					  	<a href="http://localhost:8888/portfolio-grav-2016/mvp/_mvp-desktop-slider/t48i87-mvp-work-item-v1.1.png" class="project-ds-slide">
+				  		<div class="project-ds-slide-image">
+				  			<img src="http://localhost:8888/portfolio-grav-2016/mvp/_mvp-desktop-slider/t48i87-mvp-work-item-v1.1.png" alt="">
+				  		</div>
+				  	</a>
+			  				</div>
+		</div>
+
+	</div>
+	<div class="project-ds-background" style="background-image: url(' http://localhost:8888/portfolio-grav-2016/mvp/_mvp-desktop-slider/office-4.jpg');"></div>
+</section>";s:12:"content_meta";N;}
