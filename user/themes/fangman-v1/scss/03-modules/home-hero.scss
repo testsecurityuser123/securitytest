@@ -2,13 +2,14 @@
 	position: relative;
 	height: 100vh;
 	width: 100%;
+	@include outer-container;
 	.home-hero-content {
 		position: absolute;
 		top: 50%;
 		@include transform(translateY(-50%));
 		left: 0;
 		right: 0;
-		@include outer-container;
+		//@include outer-container;
 
 		text-align: center;
 
