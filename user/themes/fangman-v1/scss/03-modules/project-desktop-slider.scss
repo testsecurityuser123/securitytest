@@ -70,7 +70,7 @@ Module: Project Desktop Slider
 
 			.project-ds-slider {
 				margin-top: rem(30);
-				background-color: $color-accent;
+				background-color: #000;
 
 				@include breakpoint($bp-s) {
 					margin-top: rem(60);

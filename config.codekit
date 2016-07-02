@@ -77,6 +77,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/1\/9\/0\/b\/8\/190b8cab0e839b2a82acbd3782e23b58a89decc1-caliper-homepage.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10199,
+		"inputAbbreviatedPath": "\/images\/1\/9\/0\/b\/8\/190b8cab0e839b2a82acbd3782e23b58a89decc1-caliper-homepage.png",
+		"outputAbbreviatedPath": "\/images\/1\/9\/0\/b\/8\/190b8cab0e839b2a82acbd3782e23b58a89decc1-caliper-homepage.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/1\/b\/1\/4\/3\/1b1431bffad7882a9aa97afc590b9f108e3cf8ba-rasp.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -84,6 +95,39 @@
 		"initialSize": 6162,
 		"inputAbbreviatedPath": "\/images\/1\/b\/1\/4\/3\/1b1431bffad7882a9aa97afc590b9f108e3cf8ba-rasp.jpeg",
 		"outputAbbreviatedPath": "\/images\/1\/b\/1\/4\/3\/1b1431bffad7882a9aa97afc590b9f108e3cf8ba-rasp.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/2\/5\/1\/f\/3\/251f3c451be25679bf0178c381460c940f931407-mvp-work-index.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26670,
+		"inputAbbreviatedPath": "\/images\/2\/5\/1\/f\/3\/251f3c451be25679bf0178c381460c940f931407-mvp-work-index.png",
+		"outputAbbreviatedPath": "\/images\/2\/5\/1\/f\/3\/251f3c451be25679bf0178c381460c940f931407-mvp-work-index.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/2\/8\/5\/7\/8\/285782050ed12d3d3b111ca1c72d46805b5a0e4a-bg58-caliper-homepage-mo-v3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9120,
+		"inputAbbreviatedPath": "\/images\/2\/8\/5\/7\/8\/285782050ed12d3d3b111ca1c72d46805b5a0e4a-bg58-caliper-homepage-mo-v3.png",
+		"outputAbbreviatedPath": "\/images\/2\/8\/5\/7\/8\/285782050ed12d3d3b111ca1c72d46805b5a0e4a-bg58-caliper-homepage-mo-v3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/2\/9\/2\/d\/6\/292d6b813647fc6d00cc4f6e695ed9620431c584-t48i87-mvp-homepage-mobile-v112.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17249,
+		"inputAbbreviatedPath": "\/images\/2\/9\/2\/d\/6\/292d6b813647fc6d00cc4f6e695ed9620431c584-t48i87-mvp-homepage-mobile-v112.png",
+		"outputAbbreviatedPath": "\/images\/2\/9\/2\/d\/6\/292d6b813647fc6d00cc4f6e695ed9620431c584-t48i87-mvp-homepage-mobile-v112.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -121,6 +165,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/3\/8\/1\/c\/1\/381c1cf221aee1cad7ca30c9e26a9a11acc4a87a-mvp-work-modal.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14671,
+		"inputAbbreviatedPath": "\/images\/3\/8\/1\/c\/1\/381c1cf221aee1cad7ca30c9e26a9a11acc4a87a-mvp-work-modal.png",
+		"outputAbbreviatedPath": "\/images\/3\/8\/1\/c\/1\/381c1cf221aee1cad7ca30c9e26a9a11acc4a87a-mvp-work-modal.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/3\/d\/1\/7\/2\/3d172b7c63e3c68cea1e9a010565ddcb02ab8611-office-2.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -150,6 +205,17 @@
 		"initialSize": 6469,
 		"inputAbbreviatedPath": "\/images\/5\/4\/6\/3\/3\/54633d823c2de24a3149efb9919d3d74639eafe8-bg58-caliper-product-details-mo-v12.png",
 		"outputAbbreviatedPath": "\/images\/5\/4\/6\/3\/3\/54633d823c2de24a3149efb9919d3d74639eafe8-bg58-caliper-product-details-mo-v12.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/5\/6\/d\/d\/8\/56dd8d962a7aca3d67c124b31f6d03caf27b9126-mvp-legal.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10477,
+		"inputAbbreviatedPath": "\/images\/5\/6\/d\/d\/8\/56dd8d962a7aca3d67c124b31f6d03caf27b9126-mvp-legal.png",
+		"outputAbbreviatedPath": "\/images\/5\/6\/d\/d\/8\/56dd8d962a7aca3d67c124b31f6d03caf27b9126-mvp-legal.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -242,6 +308,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/6\/a\/4\/f\/c\/6a4fcb656144d0f6e5616b5b2b9c171e410c719e-mvp-homepage-800px.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24601,
+		"inputAbbreviatedPath": "\/images\/6\/a\/4\/f\/c\/6a4fcb656144d0f6e5616b5b2b9c171e410c719e-mvp-homepage-800px.png",
+		"outputAbbreviatedPath": "\/images\/6\/a\/4\/f\/c\/6a4fcb656144d0f6e5616b5b2b9c171e410c719e-mvp-homepage-800px.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/6\/c\/6\/9\/b\/6c69b630576dd2835fabc419c9e8bdbf08cc9b51-connect-desktop-800px.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -286,6 +363,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/7\/9\/8\/6\/0\/7986063160058ff558a525c5a06ed0091726143a-mvp-markets.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14352,
+		"inputAbbreviatedPath": "\/images\/7\/9\/8\/6\/0\/7986063160058ff558a525c5a06ed0091726143a-mvp-markets.png",
+		"outputAbbreviatedPath": "\/images\/7\/9\/8\/6\/0\/7986063160058ff558a525c5a06ed0091726143a-mvp-markets.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/7\/b\/8\/3\/b\/7b83b1069f157081a5f36443450dc83dc24b9787-street-1.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -319,6 +407,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/7\/e\/e\/0\/b\/7ee0be00fc8b77c5fe0e987f11de257a662380e5-mvp-news-index.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7992,
+		"inputAbbreviatedPath": "\/images\/7\/e\/e\/0\/b\/7ee0be00fc8b77c5fe0e987f11de257a662380e5-mvp-news-index.png",
+		"outputAbbreviatedPath": "\/images\/7\/e\/e\/0\/b\/7ee0be00fc8b77c5fe0e987f11de257a662380e5-mvp-news-index.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/8\/4\/a\/f\/9\/84af970597de7cd2dce94fcdbe8911cdebf17033-caliper-product-1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -337,6 +436,50 @@
 		"initialSize": 10111,
 		"inputAbbreviatedPath": "\/images\/8\/9\/1\/6\/b\/8916b22ce246fc5d40f620c97dac1bbee4e9b8ea-bg58-caliper-product-details-menu-mo-v1.png",
 		"outputAbbreviatedPath": "\/images\/8\/9\/1\/6\/b\/8916b22ce246fc5d40f620c97dac1bbee4e9b8ea-bg58-caliper-product-details-menu-mo-v1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/8\/e\/0\/f\/f\/8e0ffc2db3bc0725e8bfeb2c31ab1f040127a760-mvp-about.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9434,
+		"inputAbbreviatedPath": "\/images\/8\/e\/0\/f\/f\/8e0ffc2db3bc0725e8bfeb2c31ab1f040127a760-mvp-about.png",
+		"outputAbbreviatedPath": "\/images\/8\/e\/0\/f\/f\/8e0ffc2db3bc0725e8bfeb2c31ab1f040127a760-mvp-about.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/8\/e\/2\/5\/3\/8e253835d6243d745628962703f80aeb4b835249-mvp-contact-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33,
+		"inputAbbreviatedPath": "\/images\/8\/e\/2\/5\/3\/8e253835d6243d745628962703f80aeb4b835249-mvp-contact-1.png",
+		"outputAbbreviatedPath": "\/images\/8\/e\/2\/5\/3\/8e253835d6243d745628962703f80aeb4b835249-mvp-contact-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/9\/0\/2\/d\/d\/902dd33f74825c61f4ff4ed99af8224326f08a8d-mvp-contact-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8920,
+		"inputAbbreviatedPath": "\/images\/9\/0\/2\/d\/d\/902dd33f74825c61f4ff4ed99af8224326f08a8d-mvp-contact-2.png",
+		"outputAbbreviatedPath": "\/images\/9\/0\/2\/d\/d\/902dd33f74825c61f4ff4ed99af8224326f08a8d-mvp-contact-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/9\/3\/f\/2\/e\/93f2ef585d5b7839d68ca08c23687e4f87016889-caliper-about.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17350,
+		"inputAbbreviatedPath": "\/images\/9\/3\/f\/2\/e\/93f2ef585d5b7839d68ca08c23687e4f87016889-caliper-about.png",
+		"outputAbbreviatedPath": "\/images\/9\/3\/f\/2\/e\/93f2ef585d5b7839d68ca08c23687e4f87016889-caliper-about.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -396,6 +539,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/a\/5\/2\/4\/3\/a52435da15ed6da49c45cb9416357a46e5f3a4e7-office-2.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7447,
+		"inputAbbreviatedPath": "\/images\/a\/5\/2\/4\/3\/a52435da15ed6da49c45cb9416357a46e5f3a4e7-office-2.jpeg",
+		"outputAbbreviatedPath": "\/images\/a\/5\/2\/4\/3\/a52435da15ed6da49c45cb9416357a46e5f3a4e7-office-2.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/a\/7\/8\/a\/9\/a78a948c5b3d74a2e3f2dac26d7ba6d064559601-mvp-news-article.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14142,
+		"inputAbbreviatedPath": "\/images\/a\/7\/8\/a\/9\/a78a948c5b3d74a2e3f2dac26d7ba6d064559601-mvp-news-article.png",
+		"outputAbbreviatedPath": "\/images\/a\/7\/8\/a\/9\/a78a948c5b3d74a2e3f2dac26d7ba6d064559601-mvp-news-article.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/b\/8\/9\/3\/6\/b89364e01e1a4bde2547dd8fc4d3a436de0b303f-connection-mobile-360px.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -451,6 +616,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/c\/5\/d\/3\/b\/c5d3baff1616fc3033c94e24bf0e5e9c9263f0b7-mvp-homepage.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23912,
+		"inputAbbreviatedPath": "\/images\/c\/5\/d\/3\/b\/c5d3baff1616fc3033c94e24bf0e5e9c9263f0b7-mvp-homepage.png",
+		"outputAbbreviatedPath": "\/images\/c\/5\/d\/3\/b\/c5d3baff1616fc3033c94e24bf0e5e9c9263f0b7-mvp-homepage.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/c\/6\/e\/3\/f\/c6e3fe85ea6de3832d6e63fd785bcb330b736b22-connection.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -469,6 +645,17 @@
 		"initialSize": 4003,
 		"inputAbbreviatedPath": "\/images\/c\/b\/d\/d\/6\/cbdd6d4b5c9a622ed375369aaa4c514d8e797ed1-connection-fullres.jpeg",
 		"outputAbbreviatedPath": "\/images\/c\/b\/d\/d\/6\/cbdd6d4b5c9a622ed375369aaa4c514d8e797ed1-connection-fullres.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/d\/b\/c\/f\/9\/dbcf95c2e8838363cce994ec0b60cb6ce05f4507-mvp-work-item.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22410,
+		"inputAbbreviatedPath": "\/images\/d\/b\/c\/f\/9\/dbcf95c2e8838363cce994ec0b60cb6ce05f4507-mvp-work-item.png",
+		"outputAbbreviatedPath": "\/images\/d\/b\/c\/f\/9\/dbcf95c2e8838363cce994ec0b60cb6ce05f4507-mvp-work-item.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -495,6 +682,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/e\/4\/3\/1\/c\/e431c17292e4e618a60d22bb43ab3a968ea71b95-mvp-homepage-hover.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22332,
+		"inputAbbreviatedPath": "\/images\/e\/4\/3\/1\/c\/e431c17292e4e618a60d22bb43ab3a968ea71b95-mvp-homepage-hover.png",
+		"outputAbbreviatedPath": "\/images\/e\/4\/3\/1\/c\/e431c17292e4e618a60d22bb43ab3a968ea71b95-mvp-homepage-hover.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/e\/4\/6\/8\/b\/e468b8fbf5e2f6cf628fece4a8166a496a7545e1-bg58-caliper-menu-mo-v12.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -502,6 +700,39 @@
 		"initialSize": 8929,
 		"inputAbbreviatedPath": "\/images\/e\/4\/6\/8\/b\/e468b8fbf5e2f6cf628fece4a8166a496a7545e1-bg58-caliper-menu-mo-v12.png",
 		"outputAbbreviatedPath": "\/images\/e\/4\/6\/8\/b\/e468b8fbf5e2f6cf628fece4a8166a496a7545e1-bg58-caliper-menu-mo-v12.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/e\/6\/6\/5\/2\/e6652e0b79b29a726de38f6a32700fc3b8096e3e-caliper-solution.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12378,
+		"inputAbbreviatedPath": "\/images\/e\/6\/6\/5\/2\/e6652e0b79b29a726de38f6a32700fc3b8096e3e-caliper-solution.png",
+		"outputAbbreviatedPath": "\/images\/e\/6\/6\/5\/2\/e6652e0b79b29a726de38f6a32700fc3b8096e3e-caliper-solution.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/e\/7\/3\/b\/a\/e73ba5099699db476c887a1545d557ccf20b0c90-caliper-product.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10971,
+		"inputAbbreviatedPath": "\/images\/e\/7\/3\/b\/a\/e73ba5099699db476c887a1545d557ccf20b0c90-caliper-product.png",
+		"outputAbbreviatedPath": "\/images\/e\/7\/3\/b\/a\/e73ba5099699db476c887a1545d557ccf20b0c90-caliper-product.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/e\/8\/9\/2\/4\/e892485e2e9721eb4ddd058714cf50c5cab65811-office-1.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7228,
+		"inputAbbreviatedPath": "\/images\/e\/8\/9\/2\/4\/e892485e2e9721eb4ddd058714cf50c5cab65811-office-1.jpeg",
+		"outputAbbreviatedPath": "\/images\/e\/8\/9\/2\/4\/e892485e2e9721eb4ddd058714cf50c5cab65811-office-1.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2947,24 +3178,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/user\/pages\/05.caliper\/_caliper-desktop-slider\/caliper-about-1.png": {
+	"\/user\/pages\/05.caliper\/_caliper-desktop-slider\/caliper-about.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2.80688e+06,
-		"inputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-desktop-slider\/caliper-about-1.png",
-		"outputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-desktop-slider\/caliper-about-1.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/user\/pages\/05.caliper\/_caliper-desktop-slider\/caliper-homepage-1.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2.62498e+06,
-		"inputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-desktop-slider\/caliper-homepage-1.png",
-		"outputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-desktop-slider\/caliper-homepage-1.png",
+		"initialSize": 2.59302e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-desktop-slider\/caliper-about.png",
+		"outputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-desktop-slider\/caliper-about.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2973,34 +3193,54 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2.45436e+06,
+		"initialSize": 2.32098e+06,
 		"inputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-desktop-slider\/caliper-homepage-hover.png",
 		"outputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-desktop-slider\/caliper-homepage-hover.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/user\/pages\/05.caliper\/_caliper-desktop-slider\/caliper-product-1.png": {
+	"\/user\/pages\/05.caliper\/_caliper-desktop-slider\/caliper-homepage.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.16837e+06,
-		"inputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-desktop-slider\/caliper-product-1.png",
-		"outputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-desktop-slider\/caliper-product-1.png",
+		"initialSize": 2.31866e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-desktop-slider\/caliper-homepage.png",
+		"outputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-desktop-slider\/caliper-homepage.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/user\/pages\/05.caliper\/_caliper-desktop-slider\/caliper-solution-1.png": {
+	"\/user\/pages\/05.caliper\/_caliper-desktop-slider\/caliper-product.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.79382e+06,
-		"inputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-desktop-slider\/caliper-solution-1.png",
-		"outputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-desktop-slider\/caliper-solution-1.png",
+		"initialSize": 1.07306e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-desktop-slider\/caliper-product.png",
+		"outputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-desktop-slider\/caliper-product.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/user\/pages\/05.caliper\/_caliper-desktop-slider\/caliper-solution.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.64955e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-desktop-slider\/caliper-solution.png",
+		"outputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-desktop-slider\/caliper-solution.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/05.caliper\/_caliper-desktop-slider\/project-desktop-slider.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-desktop-slider\/project-desktop-slider.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/user\/pages\/05.caliper\/_caliper-desktop-slider\/project-desktop-slider.md": {
 		"criticStyle": 0,
@@ -3023,24 +3263,13 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/user\/pages\/05.caliper\/_caliper-intro\/bg58-caliper-about-overview-mo-v1.png": {
+	"\/user\/pages\/05.caliper\/_caliper-intro\/bg58-caliper-homepage-mo-v3.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 721899,
-		"inputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-intro\/bg58-caliper-about-overview-mo-v1.png",
-		"outputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-intro\/bg58-caliper-about-overview-mo-v1.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/user\/pages\/05.caliper\/_caliper-intro\/bg58-caliper-homepage-mo-v1.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 501380,
-		"inputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-intro\/bg58-caliper-homepage-mo-v1.png",
-		"outputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-intro\/bg58-caliper-homepage-mo-v1.png",
+		"initialSize": 503960,
+		"inputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-intro\/bg58-caliper-homepage-mo-v3.png",
+		"outputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-intro\/bg58-caliper-homepage-mo-v3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3049,7 +3278,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.00951e+06,
+		"initialSize": 923560,
 		"inputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-intro\/caliper-homepage-800px.png",
 		"outputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-intro\/caliper-homepage-800px.png",
 		"outputPathIsOutsideProject": 0,
@@ -3665,6 +3894,138 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-about.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5.9337e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-about.png",
+		"outputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-about.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-contact-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.81144e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-contact-1.png",
+		"outputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-contact-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-contact-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.83208e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-contact-2.png",
+		"outputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-contact-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-homepage-hover.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.9489e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-homepage-hover.png",
+		"outputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-homepage-hover.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-homepage.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5.33752e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-homepage.png",
+		"outputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-homepage.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-legal.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 442989,
+		"inputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-legal.png",
+		"outputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-legal.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-markets.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.06563e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-markets.png",
+		"outputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-markets.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-news-article.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.07949e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-news-article.png",
+		"outputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-news-article.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-news-index.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.40372e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-news-index.png",
+		"outputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-news-index.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-work-index.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.84892e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-work-index.png",
+		"outputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-work-index.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-work-item.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.25732e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-work-item.png",
+		"outputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-work-item.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-work-modal.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 544793,
+		"inputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-work-modal.png",
+		"outputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-desktop-slider\/mvp-work-modal.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/user\/pages\/07.mvp\/_mvp-desktop-slider\/office-4.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3706,57 +4067,24 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/user\/pages\/07.mvp\/_mvp-desktop-slider\/t48i87-mvp-about-v3.1.png": {
+	"\/user\/pages\/07.mvp\/_mvp-intro\/mvp-homepage-800px.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 5.39552e+06,
-		"inputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-desktop-slider\/t48i87-mvp-about-v3.1.png",
-		"outputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-desktop-slider\/t48i87-mvp-about-v3.1.png",
+		"initialSize": 1.3997e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-intro\/mvp-homepage-800px.png",
+		"outputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-intro\/mvp-homepage-800px.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/user\/pages\/07.mvp\/_mvp-desktop-slider\/t48i87-mvp-homepage-v12.1.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5.33752e+06,
-		"inputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-desktop-slider\/t48i87-mvp-homepage-v12.1.png",
-		"outputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-desktop-slider\/t48i87-mvp-homepage-v12.1.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/user\/pages\/07.mvp\/_mvp-desktop-slider\/t48i87-mvp-work-item-v1.1.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4.25732e+06,
-		"inputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-desktop-slider\/t48i87-mvp-work-item-v1.1.png",
-		"outputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-desktop-slider\/t48i87-mvp-work-item-v1.1.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/user\/pages\/07.mvp\/_mvp-desktop-slider\/t48i87-mvp-work-overview-v2.1.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4.01528e+06,
-		"inputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-desktop-slider\/t48i87-mvp-work-overview-v2.1.png",
-		"outputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-desktop-slider\/t48i87-mvp-work-overview-v2.1.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/user\/pages\/07.mvp\/_mvp-intro\/office-1.jpg": {
+	"\/user\/pages\/07.mvp\/_mvp-intro\/office-2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 707600,
-		"inputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-intro\/office-1.jpg",
-		"outputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-intro\/office-1.jpg",
+		"initialSize": 775475,
+		"inputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-intro\/office-2.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-intro\/office-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3791,16 +4119,57 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/user\/pages\/07.mvp\/_mvp-intro\/t48i87-mvp-homepage-v12.1.png": {
+	"\/user\/pages\/07.mvp\/_mvp-intro\/t48i87-mvp-homepage-mobile-v11.2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.3997e+06,
-		"inputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-intro\/t48i87-mvp-homepage-v12.1.png",
-		"outputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-intro\/t48i87-mvp-homepage-v12.1.png",
+		"initialSize": 1.04627e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-intro\/t48i87-mvp-homepage-mobile-v11.2.png",
+		"outputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-intro\/t48i87-mvp-homepage-mobile-v11.2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/user\/pages\/07.mvp\/_mvp-mobile-slider\/office-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 707600,
+		"inputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-mobile-slider\/office-1.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-mobile-slider\/office-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/07.mvp\/_mvp-mobile-slider\/project-phone-slider.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-mobile-slider\/project-phone-slider.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/pages\/07.mvp\/_mvp-mobile-slider\/project-phone-slider.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-mobile-slider\/project-phone-slider.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/user\/pages\/07.mvp\/_mvp-mobile-slider\/project-phone-slider.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/user\/pages\/07.mvp\/_mvp-ux\/mvp-homepage-mobile-v1.png": {
 		"fileType": 32768,

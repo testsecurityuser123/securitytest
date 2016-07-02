@@ -1,0 +1,24 @@
+1468106076
+a:2:{s:7:"content";s:933:"<section class="project-intro">
+	<div class="project-intro-container">
+		
+		<div class="project-intro-info-container">
+			<div class="project-intro-info">
+				<h2>MVP Marketing + Design</h2>
+				<p class="subhead">Maecenas faucibus mollis interdum.</p>
+			</div>
+		</div>
+
+		<div class="project-intro-image-container">
+
+			<div class="project-intro-image-laptop" style="background-image: url(' http://localhost:8888/portfolio-grav-2016/mvp/_mvp-intro/t48i87-mvp-homepage-v12.1.png');"></div>
+
+			<div class="project-intro-image-phone" style="background-image: url(' http://localhost:8888/portfolio-grav-2016/mvp/_mvp-intro/');"></div>
+
+		</div>
+
+	</div>
+	<div class="project-intro-background-image" style="background-image: url(' http://localhost:8888/portfolio-grav-2016/mvp/_mvp-intro/office-1.jpg');" data-0p="transform:scale(1.05);opacity:0.075;z-index:1;" data-50p="transform:scale(1);opacity:0.0;z-index:0;"></div>
+</section>
+
+";s:12:"content_meta";N;}
