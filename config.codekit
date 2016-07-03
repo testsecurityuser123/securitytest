@@ -187,6 +187,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/1\/c\/0\/8\/0\/1c080426cc6c5c807ccb99a57f3a5e0856f1f6bd-rsztower.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3417,
+		"inputAbbreviatedPath": "\/images\/1\/c\/0\/8\/0\/1c080426cc6c5c807ccb99a57f3a5e0856f1f6bd-rsztower.jpeg",
+		"outputAbbreviatedPath": "\/images\/1\/c\/0\/8\/0\/1c080426cc6c5c807ccb99a57f3a5e0856f1f6bd-rsztower.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/1\/c\/9\/5\/8\/1c95806689e6c05d123cb38517f7729102d91d70-bf19-pbc-store-index-mobile-v12.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -495,6 +506,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/6\/1\/9\/4\/1\/61941f8e20ce79f30362b471a05dfb4320905a2b-michaelfangman-2.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2987,
+		"inputAbbreviatedPath": "\/images\/6\/1\/9\/4\/1\/61941f8e20ce79f30362b471a05dfb4320905a2b-michaelfangman-2.jpeg",
+		"outputAbbreviatedPath": "\/images\/6\/1\/9\/4\/1\/61941f8e20ce79f30362b471a05dfb4320905a2b-michaelfangman-2.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/6\/2\/8\/9\/5\/62895ce13ec51da929e8a8e602426cf24fc933ef-mvp-homepage-mobile-v1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -715,6 +737,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/7\/d\/c\/c\/7\/7dcc7b8b569a671e065fc8c8087931bcd6fa8359-rszmounts.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3110,
+		"inputAbbreviatedPath": "\/images\/7\/d\/c\/c\/7\/7dcc7b8b569a671e065fc8c8087931bcd6fa8359-rszmounts.jpeg",
+		"outputAbbreviatedPath": "\/images\/7\/d\/c\/c\/7\/7dcc7b8b569a671e065fc8c8087931bcd6fa8359-rszmounts.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/7\/d\/d\/d\/b\/7dddb165446ebd0c1fef766f8cc329444e01a55b-the-connection-landing-page-v4.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -733,6 +766,17 @@
 		"initialSize": 7992,
 		"inputAbbreviatedPath": "\/images\/7\/e\/e\/0\/b\/7ee0be00fc8b77c5fe0e987f11de257a662380e5-mvp-news-index.png",
 		"outputAbbreviatedPath": "\/images\/7\/e\/e\/0\/b\/7ee0be00fc8b77c5fe0e987f11de257a662380e5-mvp-news-index.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/7\/e\/f\/b\/7\/7efb778e17d5af9145a1681d5498baba164b5fb6-rszhero-trees.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3869,
+		"inputAbbreviatedPath": "\/images\/7\/e\/f\/b\/7\/7efb778e17d5af9145a1681d5498baba164b5fb6-rszhero-trees.jpeg",
+		"outputAbbreviatedPath": "\/images\/7\/e\/f\/b\/7\/7efb778e17d5af9145a1681d5498baba164b5fb6-rszhero-trees.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1089,6 +1133,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/b\/9\/a\/f\/4\/b9af4dec57dc8af0c8b32e0ae1a369302c55d950-forest.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6820,
+		"inputAbbreviatedPath": "\/images\/b\/9\/a\/f\/4\/b9af4dec57dc8af0c8b32e0ae1a369302c55d950-forest.jpeg",
+		"outputAbbreviatedPath": "\/images\/b\/9\/a\/f\/4\/b9af4dec57dc8af0c8b32e0ae1a369302c55d950-forest.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/b\/b\/e\/c\/e\/bbece93644c1a1416f760accd6afeea385b62b2a-mvp-homepage.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1228,6 +1283,17 @@
 		"initialSize": 6019,
 		"inputAbbreviatedPath": "\/images\/c\/e\/6\/6\/f\/ce66f783a85bc5a7f641334b4a9b7f9a7df45df8-building-1.jpeg",
 		"outputAbbreviatedPath": "\/images\/c\/e\/6\/6\/f\/ce66f783a85bc5a7f641334b4a9b7f9a7df45df8-building-1.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/c\/e\/f\/3\/e\/cef3e7320319ed7a409465b573bdbe4a33955638-michaelfangman.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2935,
+		"inputAbbreviatedPath": "\/images\/c\/e\/f\/3\/e\/cef3e7320319ed7a409465b573bdbe4a33955638-michaelfangman.jpeg",
+		"outputAbbreviatedPath": "\/images\/c\/e\/f\/3\/e\/cef3e7320319ed7a409465b573bdbe4a33955638-michaelfangman.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2841,6 +2907,28 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
+		},
+	"\/user\/pages\/01.home\/michaelfangman-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 575259,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/michaelfangman-2.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/01.home\/michaelfangman-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/01.home\/michaelfangman.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 402585,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/michaelfangman.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/01.home\/michaelfangman.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/user\/pages\/01.home\/rsz__mounts.jpg": {
 		"fileType": 16384,
