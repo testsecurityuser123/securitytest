@@ -29,7 +29,7 @@ project_ps_slides:
         alt: 'PB Crave Peanut Butter | Styles'
         image: bf19-pbc-styles-mobile-v1.png
 date: '05-09-2016 00:00'
-project_ps_background_image: cupcakes.jpg
+project_ps_background_image: deer.jpg
 project_ds_slides:
     1:
         alt: ''

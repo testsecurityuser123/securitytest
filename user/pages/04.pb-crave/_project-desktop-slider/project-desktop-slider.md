@@ -23,7 +23,7 @@ project_ds_slides:
         alt: 'PB Crave Peanut Butter | Styles'
         image: bf19-pbc-styles-v2.png
 date: '04-09-2016 00:00'
-project_ds_background_image: bananas.jpg
+project_ds_background_image: trees.jpg
 ---
 
 Donec ullamcorper nulla non metus auctor fringilla. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.

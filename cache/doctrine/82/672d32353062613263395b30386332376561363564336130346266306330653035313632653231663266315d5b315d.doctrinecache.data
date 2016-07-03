@@ -1,0 +1,22 @@
+1468116943
+a:2:{s:7:"content";s:1229:"<section class="project-pf">
+	<div class="project-pf-container">
+		<div class="project-pf-phone-container">
+			<div class="project-pf-phone">
+									<iframe src="http://invision.michaelfangman.com/mvp-mobile"></iframe>
+								<div class="project-pf-phone-image" style="background-image: url(' http://localhost:8888/portfolio-grav-2016/mvp/_mvp-ux/mvp-homepage-mobile-v1.png')"></div>
+			</div>
+		</div>
+		<div class="project-pf-content-container">
+			<div class="project-pf-content-inner-container">
+				<h3>Euismod Sit Fermentum Bibendum</h3>
+				<p><p>Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Vestibulum id ligula porta felis euismod semper. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Maecenas sed diam eget risus varius blandit sit amet non magna. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p></p>
+									<a href="http://invision.michaelfangman.com/mvp-desktop" target="_blank" class="btn btn-arrow-r">InVision Prototype</a>
+							</div>
+		</div>
+	</div>
+
+	<div class="project-pf-background" style="background-image: url(' http://localhost:8888/portfolio-grav-2016/mvp/_mvp-ux/office-2.jpg');"></div>
+</section>
+
+";s:12:"content_meta";N;}

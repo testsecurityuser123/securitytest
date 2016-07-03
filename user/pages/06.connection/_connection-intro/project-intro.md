@@ -1,7 +1,7 @@
 ---
 title: 'The Connection'
 date: '01-09-2016 00:00'
-project_intro_background_image: street-1.jpg
+project_intro_background_image: audience.jpg
 project_img_phone: connection-mobile-360px.png
 project_img_laptop: connect-desktop-800px.png
 project_intro_background_color: ee2ca3
