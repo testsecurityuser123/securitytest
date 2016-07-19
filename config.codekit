@@ -1969,6 +1969,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/f\/f\/a\/1\/6\/ffa16d5e3e10f3c2e6b08b3bf6a8dff8e9c5e990-michaelfangman-3.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3706,
+		"inputAbbreviatedPath": "\/images\/f\/f\/a\/1\/6\/ffa16d5e3e10f3c2e6b08b3bf6a8dff8e9c5e990-michaelfangman-3.jpeg",
+		"outputAbbreviatedPath": "\/images\/f\/f\/a\/1\/6\/ffa16d5e3e10f3c2e6b08b3bf6a8dff8e9c5e990-michaelfangman-3.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3476,17 +3487,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/user\/pages\/01.home\/forest.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 705895,
-		"inputAbbreviatedPath": "\/user\/pages\/01.home\/forest.jpg",
-		"outputAbbreviatedPath": "\/user\/pages\/01.home\/forest.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/user\/pages\/01.home\/home.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -3528,13 +3528,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/user\/pages\/01.home\/michaelfangman.jpg": {
+	"\/user\/pages\/01.home\/michaelfangman-3.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 402585,
-		"inputAbbreviatedPath": "\/user\/pages\/01.home\/michaelfangman.jpg",
-		"outputAbbreviatedPath": "\/user\/pages\/01.home\/michaelfangman.jpg",
+		"initialSize": 779250,
+		"inputAbbreviatedPath": "\/user\/pages\/01.home\/michaelfangman-3.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/01.home\/michaelfangman-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3546,17 +3546,6 @@
 		"initialSize": 793928,
 		"inputAbbreviatedPath": "\/user\/pages\/01.home\/rsz__mounts.jpg",
 		"outputAbbreviatedPath": "\/user\/pages\/01.home\/rsz__mounts.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/user\/pages\/01.home\/rsz_hero-trees.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 573773,
-		"inputAbbreviatedPath": "\/user\/pages\/01.home\/rsz_hero-trees.jpg",
-		"outputAbbreviatedPath": "\/user\/pages\/01.home\/rsz_hero-trees.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

@@ -1,14 +1,14 @@
 ---
 title: 'MVP Marketing + Design'
+content:
+    items: '@self.modular'
+    order:
+        by: date
+        dir: asc
 published: true
-body_classes: modular
 taxonomy:
     category:
         - work
-content:
-    order:
-        dir: asc
-        by: date
-    items: '@self.modular'
+body_classes: modular
 ---
 

@@ -1,13 +1,13 @@
 ---
 title: 'The Connection'
+content:
+    items: '@self.modular'
+    order:
+        by: date
+        dir: asc
 published: true
 taxonomy:
     category:
         - work
-content:
-    order:
-        dir: asc
-        by: date
-    items: '@self.modular'
 ---
 
