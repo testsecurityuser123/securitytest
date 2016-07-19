@@ -55,6 +55,17 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/images\/0\/0\/2\/c\/c\/002ccf03b95d8d7d57cb89b6d8659001677c9561-building-5.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5130,
+		"inputAbbreviatedPath": "\/images\/0\/0\/2\/c\/c\/002ccf03b95d8d7d57cb89b6d8659001677c9561-building-5.jpeg",
+		"outputAbbreviatedPath": "\/images\/0\/0\/2\/c\/c\/002ccf03b95d8d7d57cb89b6d8659001677c9561-building-5.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/0\/6\/6\/0\/4\/06604ef2fb17263bac8020f62f8db73f1b1377db-bf19-pbc-cart-v1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -132,6 +143,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/1\/4\/5\/7\/2\/1457215b1ea82785bbc360b12c0fe01c1d4d3fb1-mobile-proto.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14434,
+		"inputAbbreviatedPath": "\/images\/1\/4\/5\/7\/2\/1457215b1ea82785bbc360b12c0fe01c1d4d3fb1-mobile-proto.png",
+		"outputAbbreviatedPath": "\/images\/1\/4\/5\/7\/2\/1457215b1ea82785bbc360b12c0fe01c1d4d3fb1-mobile-proto.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/1\/7\/a\/f\/6\/17af64146e2410e860f5b266d3f60fa498f6fc36-office-2.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -161,6 +183,17 @@
 		"initialSize": 7888,
 		"inputAbbreviatedPath": "\/images\/1\/9\/1\/8\/f\/1918f1039c3e704b6ec544c1b0ed3ba41c79f44d-office-8.jpeg",
 		"outputAbbreviatedPath": "\/images\/1\/9\/1\/8\/f\/1918f1039c3e704b6ec544c1b0ed3ba41c79f44d-office-8.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/1\/a\/2\/4\/0\/1a24058e341f81e04dedbd4524ed91c2dc9d49ca-intro-image.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7512,
+		"inputAbbreviatedPath": "\/images\/1\/a\/2\/4\/0\/1a24058e341f81e04dedbd4524ed91c2dc9d49ca-intro-image.jpeg",
+		"outputAbbreviatedPath": "\/images\/1\/a\/2\/4\/0\/1a24058e341f81e04dedbd4524ed91c2dc9d49ca-intro-image.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -242,6 +275,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/2\/1\/6\/f\/9\/216f9b1433d8a4116057de6d8f35bfe56763bb46-business-3.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4867,
+		"inputAbbreviatedPath": "\/images\/2\/1\/6\/f\/9\/216f9b1433d8a4116057de6d8f35bfe56763bb46-business-3.jpeg",
+		"outputAbbreviatedPath": "\/images\/2\/1\/6\/f\/9\/216f9b1433d8a4116057de6d8f35bfe56763bb46-business-3.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/2\/5\/1\/f\/3\/251f3c451be25679bf0178c381460c940f931407-mvp-work-index.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -264,6 +308,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/2\/8\/7\/6\/1\/28761a30d5235c02ec4b3e4ebd285b1bae80de19-tcan-homepage.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3190,
+		"inputAbbreviatedPath": "\/images\/2\/8\/7\/6\/1\/28761a30d5235c02ec4b3e4ebd285b1bae80de19-tcan-homepage.jpeg",
+		"outputAbbreviatedPath": "\/images\/2\/8\/7\/6\/1\/28761a30d5235c02ec4b3e4ebd285b1bae80de19-tcan-homepage.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/2\/9\/2\/d\/6\/292d6b813647fc6d00cc4f6e695ed9620431c584-t48i87-mvp-homepage-mobile-v112.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -271,6 +326,17 @@
 		"initialSize": 17249,
 		"inputAbbreviatedPath": "\/images\/2\/9\/2\/d\/6\/292d6b813647fc6d00cc4f6e695ed9620431c584-t48i87-mvp-homepage-mobile-v112.png",
 		"outputAbbreviatedPath": "\/images\/2\/9\/2\/d\/6\/292d6b813647fc6d00cc4f6e695ed9620431c584-t48i87-mvp-homepage-mobile-v112.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/2\/b\/2\/a\/5\/2b2a535696dcb16dec4b9bf8f1a7a592b8ccb746-business-7.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5443,
+		"inputAbbreviatedPath": "\/images\/2\/b\/2\/a\/5\/2b2a535696dcb16dec4b9bf8f1a7a592b8ccb746-business-7.jpeg",
+		"outputAbbreviatedPath": "\/images\/2\/b\/2\/a\/5\/2b2a535696dcb16dec4b9bf8f1a7a592b8ccb746-business-7.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -308,6 +374,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/3\/2\/3\/4\/b\/3234b0a3a1917eeef4c894b69adb5a7dcb40c90a-bf19-pbc-product-page-mobile-v2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24707,
+		"inputAbbreviatedPath": "\/images\/3\/2\/3\/4\/b\/3234b0a3a1917eeef4c894b69adb5a7dcb40c90a-bf19-pbc-product-page-mobile-v2.png",
+		"outputAbbreviatedPath": "\/images\/3\/2\/3\/4\/b\/3234b0a3a1917eeef4c894b69adb5a7dcb40c90a-bf19-pbc-product-page-mobile-v2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/3\/4\/1\/5\/1\/34151af21473f8cf8b3a68117e92cc2eff30fd03-caliper-homepage-mobile-wire-v1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -315,6 +392,17 @@
 		"initialSize": 9644,
 		"inputAbbreviatedPath": "\/images\/3\/4\/1\/5\/1\/34151af21473f8cf8b3a68117e92cc2eff30fd03-caliper-homepage-mobile-wire-v1.png",
 		"outputAbbreviatedPath": "\/images\/3\/4\/1\/5\/1\/34151af21473f8cf8b3a68117e92cc2eff30fd03-caliper-homepage-mobile-wire-v1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/3\/5\/3\/3\/8\/3533851e3a45c38c1772d6964dce8bc6ea442c90-t50i01-tcan-homepage-mobile-v12.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6103,
+		"inputAbbreviatedPath": "\/images\/3\/5\/3\/3\/8\/3533851e3a45c38c1772d6964dce8bc6ea442c90-t50i01-tcan-homepage-mobile-v12.jpeg",
+		"outputAbbreviatedPath": "\/images\/3\/5\/3\/3\/8\/3533851e3a45c38c1772d6964dce8bc6ea442c90-t50i01-tcan-homepage-mobile-v12.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -337,6 +425,39 @@
 		"initialSize": 8264,
 		"inputAbbreviatedPath": "\/images\/3\/5\/b\/0\/a\/35b0a57b94ffe36d3b1cdffd298041c19d437e42-caliper-homepage-hover.png",
 		"outputAbbreviatedPath": "\/images\/3\/5\/b\/0\/a\/35b0a57b94ffe36d3b1cdffd298041c19d437e42-caliper-homepage-hover.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/3\/6\/3\/c\/d\/363cd61cf66f2e86c61616baff5aa488c3ba9d5d-business-1.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4623,
+		"inputAbbreviatedPath": "\/images\/3\/6\/3\/c\/d\/363cd61cf66f2e86c61616baff5aa488c3ba9d5d-business-1.jpeg",
+		"outputAbbreviatedPath": "\/images\/3\/6\/3\/c\/d\/363cd61cf66f2e86c61616baff5aa488c3ba9d5d-business-1.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/3\/7\/9\/7\/c\/3797c6adc32556e93c29d613fdfb90c62ad57595-office-6.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7841,
+		"inputAbbreviatedPath": "\/images\/3\/7\/9\/7\/c\/3797c6adc32556e93c29d613fdfb90c62ad57595-office-6.jpeg",
+		"outputAbbreviatedPath": "\/images\/3\/7\/9\/7\/c\/3797c6adc32556e93c29d613fdfb90c62ad57595-office-6.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/3\/7\/c\/0\/a\/37c0afb157c5ad16ab4091281b5af2eddca055d7-hero-kids.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7499,
+		"inputAbbreviatedPath": "\/images\/3\/7\/c\/0\/a\/37c0afb157c5ad16ab4091281b5af2eddca055d7-hero-kids.jpeg",
+		"outputAbbreviatedPath": "\/images\/3\/7\/c\/0\/a\/37c0afb157c5ad16ab4091281b5af2eddca055d7-hero-kids.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -374,6 +495,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/3\/d\/a\/b\/d\/3dabdc4e438125cb76c804ecbca623453c1a4fa5-tcan-homepage-hover.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3264,
+		"inputAbbreviatedPath": "\/images\/3\/d\/a\/b\/d\/3dabdc4e438125cb76c804ecbca623453c1a4fa5-tcan-homepage-hover.jpeg",
+		"outputAbbreviatedPath": "\/images\/3\/d\/a\/b\/d\/3dabdc4e438125cb76c804ecbca623453c1a4fa5-tcan-homepage-hover.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/3\/d\/c\/5\/7\/3dc575c6a210a323163c75cbc36545266ba45696-mvp-work-index.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -381,6 +513,17 @@
 		"initialSize": 26670,
 		"inputAbbreviatedPath": "\/images\/3\/d\/c\/5\/7\/3dc575c6a210a323163c75cbc36545266ba45696-mvp-work-index.png",
 		"outputAbbreviatedPath": "\/images\/3\/d\/c\/5\/7\/3dc575c6a210a323163c75cbc36545266ba45696-mvp-work-index.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/3\/e\/8\/a\/9\/3e8a91c4610215d7854aa624f5ab93fb5b68c244-building-1.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6019,
+		"inputAbbreviatedPath": "\/images\/3\/e\/8\/a\/9\/3e8a91c4610215d7854aa624f5ab93fb5b68c244-building-1.jpeg",
+		"outputAbbreviatedPath": "\/images\/3\/e\/8\/a\/9\/3e8a91c4610215d7854aa624f5ab93fb5b68c244-building-1.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -407,6 +550,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/4\/3\/c\/0\/0\/43c00c81ce2c66ba26c1b4083b75a172443f4a9c-pbc-homepage.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32229,
+		"inputAbbreviatedPath": "\/images\/4\/3\/c\/0\/0\/43c00c81ce2c66ba26c1b4083b75a172443f4a9c-pbc-homepage.png",
+		"outputAbbreviatedPath": "\/images\/4\/3\/c\/0\/0\/43c00c81ce2c66ba26c1b4083b75a172443f4a9c-pbc-homepage.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/4\/4\/2\/7\/9\/4427908616a9ba17bacbba7576857f0ceff124c3-office-3.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -414,6 +568,17 @@
 		"initialSize": 5659,
 		"inputAbbreviatedPath": "\/images\/4\/4\/2\/7\/9\/4427908616a9ba17bacbba7576857f0ceff124c3-office-3.jpeg",
 		"outputAbbreviatedPath": "\/images\/4\/4\/2\/7\/9\/4427908616a9ba17bacbba7576857f0ceff124c3-office-3.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/4\/6\/f\/f\/d\/46ffd12afb664323002f4dc1e594c72ab096ecd0-building-3.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8642,
+		"inputAbbreviatedPath": "\/images\/4\/6\/f\/f\/d\/46ffd12afb664323002f4dc1e594c72ab096ecd0-building-3.jpeg",
+		"outputAbbreviatedPath": "\/images\/4\/6\/f\/f\/d\/46ffd12afb664323002f4dc1e594c72ab096ecd0-building-3.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -436,6 +601,17 @@
 		"initialSize": 12129,
 		"inputAbbreviatedPath": "\/images\/5\/0\/f\/e\/e\/50feed250d515a4ab6592705ea10e252f07eeae6-bf19-pbc-store-index-mobile-v13.png",
 		"outputAbbreviatedPath": "\/images\/5\/0\/f\/e\/e\/50feed250d515a4ab6592705ea10e252f07eeae6-bf19-pbc-store-index-mobile-v13.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/5\/1\/f\/2\/d\/51f2d8a66615e8ee68d8c78f66c924011e4b051a-t50i01-tcan-homepage-mobile-v12.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6103,
+		"inputAbbreviatedPath": "\/images\/5\/1\/f\/2\/d\/51f2d8a66615e8ee68d8c78f66c924011e4b051a-t50i01-tcan-homepage-mobile-v12.jpeg",
+		"outputAbbreviatedPath": "\/images\/5\/1\/f\/2\/d\/51f2d8a66615e8ee68d8c78f66c924011e4b051a-t50i01-tcan-homepage-mobile-v12.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -495,6 +671,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/5\/d\/7\/c\/3\/5d7c34a3d4c1a4a1048c5e75f7554a8d0fbfd787-t48i87-mvp-homepage-mobile-v112.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17249,
+		"inputAbbreviatedPath": "\/images\/5\/d\/7\/c\/3\/5d7c34a3d4c1a4a1048c5e75f7554a8d0fbfd787-t48i87-mvp-homepage-mobile-v112.png",
+		"outputAbbreviatedPath": "\/images\/5\/d\/7\/c\/3\/5d7c34a3d4c1a4a1048c5e75f7554a8d0fbfd787-t48i87-mvp-homepage-mobile-v112.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/6\/0\/3\/1\/b\/6031b5e288584c49a336d05e79f4590972151dbe-mvp-work-item.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -517,6 +704,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/6\/1\/c\/7\/6\/61c7629651a7c9bc61a2e3c473ae4a39912d6c17-office-8.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7888,
+		"inputAbbreviatedPath": "\/images\/6\/1\/c\/7\/6\/61c7629651a7c9bc61a2e3c473ae4a39912d6c17-office-8.jpeg",
+		"outputAbbreviatedPath": "\/images\/6\/1\/c\/7\/6\/61c7629651a7c9bc61a2e3c473ae4a39912d6c17-office-8.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/6\/2\/8\/9\/5\/62895ce13ec51da929e8a8e602426cf24fc933ef-mvp-homepage-mobile-v1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -535,6 +733,17 @@
 		"initialSize": 9487,
 		"inputAbbreviatedPath": "\/images\/6\/3\/f\/0\/6\/63f066d38f4b1b316653a2cb69bc4f7358e90524-bg58-caliper-about-menu-mo-v1.png",
 		"outputAbbreviatedPath": "\/images\/6\/3\/f\/0\/6\/63f066d38f4b1b316653a2cb69bc4f7358e90524-bg58-caliper-about-menu-mo-v1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/6\/7\/6\/0\/8\/676085ffbcd4872915e14937e56d97de91320d44-business-6.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4465,
+		"inputAbbreviatedPath": "\/images\/6\/7\/6\/0\/8\/676085ffbcd4872915e14937e56d97de91320d44-business-6.jpeg",
+		"outputAbbreviatedPath": "\/images\/6\/7\/6\/0\/8\/676085ffbcd4872915e14937e56d97de91320d44-business-6.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -583,6 +792,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/6\/a\/0\/3\/4\/6a034998b65e864d924f9e9fdca1d389ba718896-pbc-bookend.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6765,
+		"inputAbbreviatedPath": "\/images\/6\/a\/0\/3\/4\/6a034998b65e864d924f9e9fdca1d389ba718896-pbc-bookend.jpeg",
+		"outputAbbreviatedPath": "\/images\/6\/a\/0\/3\/4\/6a034998b65e864d924f9e9fdca1d389ba718896-pbc-bookend.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/6\/a\/4\/f\/c\/6a4fcb656144d0f6e5616b5b2b9c171e410c719e-mvp-homepage-800px.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -627,6 +847,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/7\/0\/0\/9\/5\/7009597300afdb5c18f6a0c793befb0ef9002ad4-potfolio-item.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4747,
+		"inputAbbreviatedPath": "\/images\/7\/0\/0\/9\/5\/7009597300afdb5c18f6a0c793befb0ef9002ad4-potfolio-item.jpeg",
+		"outputAbbreviatedPath": "\/images\/7\/0\/0\/9\/5\/7009597300afdb5c18f6a0c793befb0ef9002ad4-potfolio-item.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/7\/0\/b\/0\/e\/70b0eaaa59e821dae648c1b3d04c69be4e370c18-mvp-legal.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -649,6 +880,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/7\/3\/a\/b\/8\/73ab812dd270c8d75736f89641083b8a3459dc1a-office-8.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7888,
+		"inputAbbreviatedPath": "\/images\/7\/3\/a\/b\/8\/73ab812dd270c8d75736f89641083b8a3459dc1a-office-8.jpeg",
+		"outputAbbreviatedPath": "\/images\/7\/3\/a\/b\/8\/73ab812dd270c8d75736f89641083b8a3459dc1a-office-8.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/7\/5\/b\/f\/e\/75bfe05462c129c004fee2a6ad774c5b4439197f-audience-2.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -667,6 +909,17 @@
 		"initialSize": 13721,
 		"inputAbbreviatedPath": "\/images\/7\/8\/8\/d\/b\/788db2ef75b3b6a72d0bb9988935677dac4c45a4-t48i87-mvp-markets-v21.png",
 		"outputAbbreviatedPath": "\/images\/7\/8\/8\/d\/b\/788db2ef75b3b6a72d0bb9988935677dac4c45a4-t48i87-mvp-markets-v21.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/7\/8\/f\/8\/a\/78f8a3ce850474fb4cc0192ef0e3c3379e238265-business-1.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4623,
+		"inputAbbreviatedPath": "\/images\/7\/8\/f\/8\/a\/78f8a3ce850474fb4cc0192ef0e3c3379e238265-business-1.jpeg",
+		"outputAbbreviatedPath": "\/images\/7\/8\/f\/8\/a\/78f8a3ce850474fb4cc0192ef0e3c3379e238265-business-1.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -759,6 +1012,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/7\/d\/f\/2\/e\/7df2e92cd870504750f6555e0034651c710cf245-business-1.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4623,
+		"inputAbbreviatedPath": "\/images\/7\/d\/f\/2\/e\/7df2e92cd870504750f6555e0034651c710cf245-business-1.jpeg",
+		"outputAbbreviatedPath": "\/images\/7\/d\/f\/2\/e\/7df2e92cd870504750f6555e0034651c710cf245-business-1.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/7\/e\/e\/0\/b\/7ee0be00fc8b77c5fe0e987f11de257a662380e5-mvp-news-index.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -777,6 +1041,17 @@
 		"initialSize": 3869,
 		"inputAbbreviatedPath": "\/images\/7\/e\/f\/b\/7\/7efb778e17d5af9145a1681d5498baba164b5fb6-rszhero-trees.jpeg",
 		"outputAbbreviatedPath": "\/images\/7\/e\/f\/b\/7\/7efb778e17d5af9145a1681d5498baba164b5fb6-rszhero-trees.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/7\/f\/3\/9\/d\/7f39d794bc582fbb1cff7b064e559038011dd29c-business-3.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4867,
+		"inputAbbreviatedPath": "\/images\/7\/f\/3\/9\/d\/7f39d794bc582fbb1cff7b064e559038011dd29c-business-3.jpeg",
+		"outputAbbreviatedPath": "\/images\/7\/f\/3\/9\/d\/7f39d794bc582fbb1cff7b064e559038011dd29c-business-3.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -836,6 +1111,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/8\/a\/7\/3\/9\/8a7392db4eb0ddcf3edeab3b4e577db8c3f0f788-tcan-photo-modal.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4995,
+		"inputAbbreviatedPath": "\/images\/8\/a\/7\/3\/9\/8a7392db4eb0ddcf3edeab3b4e577db8c3f0f788-tcan-photo-modal.jpeg",
+		"outputAbbreviatedPath": "\/images\/8\/a\/7\/3\/9\/8a7392db4eb0ddcf3edeab3b4e577db8c3f0f788-tcan-photo-modal.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/8\/b\/d\/d\/c\/8bddc4c4daf99b87848cb8d1028844c1210ff0c8-potfolio-item.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -843,6 +1129,17 @@
 		"initialSize": 3751,
 		"inputAbbreviatedPath": "\/images\/8\/b\/d\/d\/c\/8bddc4c4daf99b87848cb8d1028844c1210ff0c8-potfolio-item.jpeg",
 		"outputAbbreviatedPath": "\/images\/8\/b\/d\/d\/c\/8bddc4c4daf99b87848cb8d1028844c1210ff0c8-potfolio-item.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/8\/c\/0\/e\/4\/8c0e455a05b7faf67ac18c1713406eaa0c832556-caliper-gal-1.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5182,
+		"inputAbbreviatedPath": "\/images\/8\/c\/0\/e\/4\/8c0e455a05b7faf67ac18c1713406eaa0c832556-caliper-gal-1.jpeg",
+		"outputAbbreviatedPath": "\/images\/8\/c\/0\/e\/4\/8c0e455a05b7faf67ac18c1713406eaa0c832556-caliper-gal-1.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -891,6 +1188,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/9\/3\/0\/a\/5\/930a52cbfdc7a0817ed80f25e98f7847bf8a3051-hero-buildings.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5137,
+		"inputAbbreviatedPath": "\/images\/9\/3\/0\/a\/5\/930a52cbfdc7a0817ed80f25e98f7847bf8a3051-hero-buildings.jpeg",
+		"outputAbbreviatedPath": "\/images\/9\/3\/0\/a\/5\/930a52cbfdc7a0817ed80f25e98f7847bf8a3051-hero-buildings.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/9\/3\/0\/f\/3\/930f3c3d2822c37f509ad9f8b934e60c9f6eee75-tcan-homepage-600px.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3261,
+		"inputAbbreviatedPath": "\/images\/9\/3\/0\/f\/3\/930f3c3d2822c37f509ad9f8b934e60c9f6eee75-tcan-homepage-600px.jpeg",
+		"outputAbbreviatedPath": "\/images\/9\/3\/0\/f\/3\/930f3c3d2822c37f509ad9f8b934e60c9f6eee75-tcan-homepage-600px.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/9\/3\/f\/2\/e\/93f2ef585d5b7839d68ca08c23687e4f87016889-caliper-about.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -898,6 +1217,17 @@
 		"initialSize": 17350,
 		"inputAbbreviatedPath": "\/images\/9\/3\/f\/2\/e\/93f2ef585d5b7839d68ca08c23687e4f87016889-caliper-about.png",
 		"outputAbbreviatedPath": "\/images\/9\/3\/f\/2\/e\/93f2ef585d5b7839d68ca08c23687e4f87016889-caliper-about.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/9\/5\/e\/8\/6\/95e86701ea9e06d8a7dc5dd438272d19a26f7180-t50i01-tcan-homepage-mobile-v11.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2505,
+		"inputAbbreviatedPath": "\/images\/9\/5\/e\/8\/6\/95e86701ea9e06d8a7dc5dd438272d19a26f7180-t50i01-tcan-homepage-mobile-v11.jpeg",
+		"outputAbbreviatedPath": "\/images\/9\/5\/e\/8\/6\/95e86701ea9e06d8a7dc5dd438272d19a26f7180-t50i01-tcan-homepage-mobile-v11.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -964,6 +1294,17 @@
 		"initialSize": 7743,
 		"inputAbbreviatedPath": "\/images\/9\/b\/a\/0\/e\/9ba0e744a2194e14a05f22b28f1bfd0e91a8c637-audience.jpeg",
 		"outputAbbreviatedPath": "\/images\/9\/b\/a\/0\/e\/9ba0e744a2194e14a05f22b28f1bfd0e91a8c637-audience.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/9\/b\/f\/8\/a\/9bf8aa48647912caa8e4996d4d41b6c4dd2df57a-tcan-event-modal.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3850,
+		"inputAbbreviatedPath": "\/images\/9\/b\/f\/8\/a\/9bf8aa48647912caa8e4996d4d41b6c4dd2df57a-tcan-event-modal.jpeg",
+		"outputAbbreviatedPath": "\/images\/9\/b\/f\/8\/a\/9bf8aa48647912caa8e4996d4d41b6c4dd2df57a-tcan-event-modal.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1122,6 +1463,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/b\/8\/8\/1\/2\/b8812041fbab0e259354a17737d54974ca288ab1-mvp-bookend.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7073,
+		"inputAbbreviatedPath": "\/images\/b\/8\/8\/1\/2\/b8812041fbab0e259354a17737d54974ca288ab1-mvp-bookend.jpeg",
+		"outputAbbreviatedPath": "\/images\/b\/8\/8\/1\/2\/b8812041fbab0e259354a17737d54974ca288ab1-mvp-bookend.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/b\/8\/9\/3\/6\/b89364e01e1a4bde2547dd8fc4d3a436de0b303f-connection-mobile-360px.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1151,6 +1503,17 @@
 		"initialSize": 23912,
 		"inputAbbreviatedPath": "\/images\/b\/b\/e\/c\/e\/bbece93644c1a1416f760accd6afeea385b62b2a-mvp-homepage.png",
 		"outputAbbreviatedPath": "\/images\/b\/b\/e\/c\/e\/bbece93644c1a1416f760accd6afeea385b62b2a-mvp-homepage.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/b\/c\/a\/8\/9\/bca896dfcbfd54459e9b7431ef085373004cb212-tcan-filter-modal.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3930,
+		"inputAbbreviatedPath": "\/images\/b\/c\/a\/8\/9\/bca896dfcbfd54459e9b7431ef085373004cb212-tcan-filter-modal.jpeg",
+		"outputAbbreviatedPath": "\/images\/b\/c\/a\/8\/9\/bca896dfcbfd54459e9b7431ef085373004cb212-tcan-filter-modal.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1243,6 +1606,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/c\/8\/7\/a\/f\/c87af9d0c6bffc07963aaad5b19d5665896a895c-business-5.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5006,
+		"inputAbbreviatedPath": "\/images\/c\/8\/7\/a\/f\/c87af9d0c6bffc07963aaad5b19d5665896a895c-business-5.jpeg",
+		"outputAbbreviatedPath": "\/images\/c\/8\/7\/a\/f\/c87af9d0c6bffc07963aaad5b19d5665896a895c-business-5.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/c\/b\/d\/d\/6\/cbdd6d4b5c9a622ed375369aaa4c514d8e797ed1-connection-fullres.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1309,6 +1683,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/d\/7\/e\/e\/a\/d7eea2afa1004c1227cca1f925b5e9c8a8785b87-business-2.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4048,
+		"inputAbbreviatedPath": "\/images\/d\/7\/e\/e\/a\/d7eea2afa1004c1227cca1f925b5e9c8a8785b87-business-2.jpeg",
+		"outputAbbreviatedPath": "\/images\/d\/7\/e\/e\/a\/d7eea2afa1004c1227cca1f925b5e9c8a8785b87-business-2.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/d\/b\/c\/f\/9\/dbcf95c2e8838363cce994ec0b60cb6ce05f4507-mvp-work-item.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1316,6 +1701,17 @@
 		"initialSize": 22410,
 		"inputAbbreviatedPath": "\/images\/d\/b\/c\/f\/9\/dbcf95c2e8838363cce994ec0b60cb6ce05f4507-mvp-work-item.png",
 		"outputAbbreviatedPath": "\/images\/d\/b\/c\/f\/9\/dbcf95c2e8838363cce994ec0b60cb6ce05f4507-mvp-work-item.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/d\/c\/a\/f\/c\/dcafcbc241f7a1328105aab7ad3762aaae7075e0-building-4.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5640,
+		"inputAbbreviatedPath": "\/images\/d\/c\/a\/f\/c\/dcafcbc241f7a1328105aab7ad3762aaae7075e0-building-4.jpeg",
+		"outputAbbreviatedPath": "\/images\/d\/c\/a\/f\/c\/dcafcbc241f7a1328105aab7ad3762aaae7075e0-building-4.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1338,6 +1734,17 @@
 		"initialSize": 7281,
 		"inputAbbreviatedPath": "\/images\/d\/e\/c\/4\/1\/dec419d7ca29b90c4169678c528d823e81148cec-bg58-caliper-clientlogin-mo-v1.png",
 		"outputAbbreviatedPath": "\/images\/d\/e\/c\/4\/1\/dec419d7ca29b90c4169678c528d823e81148cec-bg58-caliper-clientlogin-mo-v1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/d\/e\/f\/c\/e\/defcee925d353fcdf889305e1879ef40620d9ba2-business-4.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4085,
+		"inputAbbreviatedPath": "\/images\/d\/e\/f\/c\/e\/defcee925d353fcdf889305e1879ef40620d9ba2-business-4.jpeg",
+		"outputAbbreviatedPath": "\/images\/d\/e\/f\/c\/e\/defcee925d353fcdf889305e1879ef40620d9ba2-business-4.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1474,6 +1881,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/e\/9\/c\/7\/d\/e9c7d5c145fc64dcd899da97bd66f8346b2261d1-intro-image.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7512,
+		"inputAbbreviatedPath": "\/images\/e\/9\/c\/7\/d\/e9c7d5c145fc64dcd899da97bd66f8346b2261d1-intro-image.jpeg",
+		"outputAbbreviatedPath": "\/images\/e\/9\/c\/7\/d\/e9c7d5c145fc64dcd899da97bd66f8346b2261d1-intro-image.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/e\/a\/8\/3\/5\/ea8358768c68584360771a4b30eb242188de34a9-connect-desktop-1400px.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1536,6 +1954,17 @@
 		"initialSize": 8452,
 		"inputAbbreviatedPath": "\/images\/f\/a\/f\/8\/1\/faf81460115f8365ad8bcb8dc88b85a2704fcc84-t48i87-mvp-news-index-v21.png",
 		"outputAbbreviatedPath": "\/images\/f\/a\/f\/8\/1\/faf81460115f8365ad8bcb8dc88b85a2704fcc84-t48i87-mvp-news-index-v21.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/f\/a\/f\/f\/0\/faff05edfd54f7c7a891f155d21955cb84d14325-mvp-homepage-800px.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24601,
+		"inputAbbreviatedPath": "\/images\/f\/a\/f\/f\/0\/faff05edfd54f7c7a891f155d21955cb84d14325-mvp-homepage-800px.png",
+		"outputAbbreviatedPath": "\/images\/f\/a\/f\/f\/0\/faff05edfd54f7c7a891f155d21955cb84d14325-mvp-homepage-800px.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1985,6 +2414,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/system\/src\/Grav\/Common\/Data\/BlueprintSchema.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/src\/Grav\/Common\/Data\/BlueprintSchema.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/system\/src\/Grav\/Common\/Data\/Data.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2008,6 +2446,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/system\/src\/Grav\/Common\/Data\/Validation.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/src\/Grav\/Common\/Data\/ValidationException.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/src\/Grav\/Common\/Data\/ValidationException.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2219,11 +2666,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/system\/src\/Grav\/Common\/GPM\/Remote\/Grav.php": {
+	"\/system\/src\/Grav\/Common\/GPM\/Remote\/GravCore.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/system\/src\/Grav\/Common\/GPM\/Remote\/Grav.php",
+		"inputAbbreviatedPath": "\/system\/src\/Grav\/Common\/GPM\/Remote\/GravCore.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2552,6 +2999,150 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/system\/src\/Grav\/Common\/Processors\/AssetsProcessor.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/src\/Grav\/Common\/Processors\/AssetsProcessor.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/src\/Grav\/Common\/Processors\/ConfigurationProcessor.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/src\/Grav\/Common\/Processors\/ConfigurationProcessor.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/src\/Grav\/Common\/Processors\/DebuggerAssetsProcessor.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/src\/Grav\/Common\/Processors\/DebuggerAssetsProcessor.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/src\/Grav\/Common\/Processors\/DebuggerInitProcessor.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/src\/Grav\/Common\/Processors\/DebuggerInitProcessor.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/src\/Grav\/Common\/Processors\/ErrorsProcessor.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/src\/Grav\/Common\/Processors\/ErrorsProcessor.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/src\/Grav\/Common\/Processors\/InitializeProcessor.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/src\/Grav\/Common\/Processors\/InitializeProcessor.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/src\/Grav\/Common\/Processors\/PagesProcessor.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/src\/Grav\/Common\/Processors\/PagesProcessor.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/src\/Grav\/Common\/Processors\/PluginsProcessor.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/src\/Grav\/Common\/Processors\/PluginsProcessor.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/src\/Grav\/Common\/Processors\/ProcessorBase.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/src\/Grav\/Common\/Processors\/ProcessorBase.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/src\/Grav\/Common\/Processors\/ProcessorInterface.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/src\/Grav\/Common\/Processors\/ProcessorInterface.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/src\/Grav\/Common\/Processors\/RenderProcessor.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/src\/Grav\/Common\/Processors\/RenderProcessor.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/src\/Grav\/Common\/Processors\/SiteSetupProcessor.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/src\/Grav\/Common\/Processors\/SiteSetupProcessor.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/src\/Grav\/Common\/Processors\/TasksProcessor.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/src\/Grav\/Common\/Processors\/TasksProcessor.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/src\/Grav\/Common\/Processors\/ThemesProcessor.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/src\/Grav\/Common\/Processors\/ThemesProcessor.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/src\/Grav\/Common\/Processors\/TwigProcessor.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/src\/Grav\/Common\/Processors\/TwigProcessor.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/src\/Grav\/Common\/Service\/AssetsServiceProvider.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/src\/Grav\/Common\/Service\/AssetsServiceProvider.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/system\/src\/Grav\/Common\/Service\/ConfigServiceProvider.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2579,11 +3170,38 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/system\/src\/Grav\/Common\/Service\/OutputServiceProvider.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/src\/Grav\/Common\/Service\/OutputServiceProvider.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/src\/Grav\/Common\/Service\/PageServiceProvider.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/src\/Grav\/Common\/Service\/PageServiceProvider.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/system\/src\/Grav\/Common\/Service\/StreamsServiceProvider.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/system\/src\/Grav\/Common\/Service\/StreamsServiceProvider.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/src\/Grav\/Common\/Service\/TaskServiceProvider.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/src\/Grav\/Common\/Service\/TaskServiceProvider.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2755,15 +3373,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/system\/src\/Grav\/Console\/Cli\/NewProjectCommand.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/system\/src\/Grav\/Console\/Cli\/NewUserCommand.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/system\/src\/Grav\/Console\/Cli\/NewUserCommand.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2963,13 +3572,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/user\/pages\/02.tcan\/_next-project-cta\/intro-image.jpg": {
+	"\/user\/pages\/02.tcan\/_next-project-cta\/office-8.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 946966,
-		"inputAbbreviatedPath": "\/user\/pages\/02.tcan\/_next-project-cta\/intro-image.jpg",
-		"outputAbbreviatedPath": "\/user\/pages\/02.tcan\/_next-project-cta\/intro-image.jpg",
+		"initialSize": 1.14098e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/02.tcan\/_next-project-cta\/office-8.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/02.tcan\/_next-project-cta\/office-8.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3687,6 +4296,47 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/user\/pages\/03.mvp\/_mvp-next-project-cta\/hero-kids.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 816785,
+		"inputAbbreviatedPath": "\/user\/pages\/03.mvp\/_mvp-next-project-cta\/hero-kids.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/03.mvp\/_mvp-next-project-cta\/hero-kids.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/03.mvp\/_mvp-next-project-cta\/project-next-link.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/pages\/03.mvp\/_mvp-next-project-cta\/project-next-link.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/pages\/03.mvp\/_mvp-next-project-cta\/project-next-link.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/pages\/03.mvp\/_mvp-next-project-cta\/project-next-link.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/user\/pages\/03.mvp\/_mvp-next-project-cta\/project-next-link.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
 	"\/user\/pages\/03.mvp\/_mvp-ux\/mvp-homepage-mobile-v1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4381,6 +5031,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/user\/pages\/05.caliper\/_caliper-desktop-slider\/business-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 526794,
+		"inputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-desktop-slider\/business-1.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-desktop-slider\/business-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/05.caliper\/_caliper-desktop-slider\/business-7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 487958,
+		"inputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-desktop-slider\/business-7.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-desktop-slider\/business-7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/user\/pages\/05.caliper\/_caliper-desktop-slider\/caliper-about.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4473,6 +5145,28 @@
 		"initialSize": 503960,
 		"inputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-intro\/bg58-caliper-homepage-mo-v3.png",
 		"outputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-intro\/bg58-caliper-homepage-mo-v3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/05.caliper\/_caliper-intro\/business-5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 646719,
+		"inputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-intro\/business-5.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-intro\/business-5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/05.caliper\/_caliper-intro\/business-6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 693365,
+		"inputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-intro\/business-6.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-intro\/business-6.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4617,6 +5311,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/user\/pages\/05.caliper\/_caliper-mobile-slider\/business-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 448811,
+		"inputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-mobile-slider\/business-4.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-mobile-slider\/business-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/user\/pages\/05.caliper\/_caliper-mobile-slider\/project-phone-slider.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -4677,6 +5382,17 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/user\/pages\/05.caliper\/_caliper-wireframes\/business-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 525828,
+		"inputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-wireframes\/business-3.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-wireframes\/business-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/user\/pages\/05.caliper\/_caliper-wireframes\/caliper-homepage-mobile-wire-v1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4718,17 +5434,6 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/user\/pages\/05.caliper\/caliper-gal-1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 236995,
-		"inputAbbreviatedPath": "\/user\/pages\/05.caliper\/caliper-gal-1.jpg",
-		"outputAbbreviatedPath": "\/user\/pages\/05.caliper\/caliper-gal-1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/user\/pages\/05.caliper\/default.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -4767,6 +5472,17 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
+		},
+	"\/user\/pages\/05.caliper\/potfolio-item.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 267228,
+		"inputAbbreviatedPath": "\/user\/pages\/05.caliper\/potfolio-item.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/05.caliper\/potfolio-item.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/user\/pages\/06.connection\/_connection-description\/project-description.html": {
 		"fileType": 8192,
@@ -5164,6 +5880,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/user\/plugins\/admin\/classes\/utils.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/classes\/utils.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/user\/plugins\/admin\/CONTRIBUTING.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
@@ -5195,6 +5920,27 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
+		},
+	"\/user\/plugins\/admin\/pages\/admin\/ajax.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/pages\/admin\/ajax.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/pages\/admin\/ajax.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		},
 	"\/user\/plugins\/admin\/pages\/admin\/backup.md": {
 		"criticStyle": 0,
@@ -5637,7 +6383,7 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/user\/plugins\/admin\/pages\/admin\/users.md": {
+	"\/user\/plugins\/admin\/pages\/admin\/user.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -5646,9 +6392,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/pages\/admin\/users.md",
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/pages\/admin\/user.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/pages\/admin\/users.html",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/pages\/admin\/user.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -5679,11 +6425,555 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/dashboard\/backup.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/dashboard\/backup.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/dashboard\/min\/backup-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/dashboard\/cache.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/dashboard\/cache.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/dashboard\/min\/cache-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/dashboard\/chart.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/dashboard\/chart.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/dashboard\/min\/chart-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/dashboard\/index.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/dashboard\/index.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/dashboard\/min\/index-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/dashboard\/update.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/dashboard\/update.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/dashboard\/min\/update-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/forms\/fields\/array.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/forms\/fields\/array.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/forms\/fields\/min\/array-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/forms\/fields\/collections.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/forms\/fields\/collections.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/forms\/fields\/min\/collections-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/forms\/fields\/colorpicker.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/forms\/fields\/colorpicker.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/forms\/fields\/min\/colorpicker-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/forms\/fields\/datetime.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/forms\/fields\/datetime.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/forms\/fields\/min\/datetime-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/forms\/fields\/editor.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/forms\/fields\/editor.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/forms\/fields\/min\/editor-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/forms\/fields\/editor\/buttons.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/forms\/fields\/editor\/buttons.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/forms\/fields\/editor\/min\/buttons-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/forms\/fields\/files.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/forms\/fields\/files.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/forms\/fields\/min\/files-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/forms\/fields\/index.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/forms\/fields\/index.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/forms\/fields\/min\/index-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/forms\/fields\/selectize.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/forms\/fields\/selectize.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/forms\/fields\/min\/selectize-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/forms\/form.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/forms\/form.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/forms\/min\/form-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/forms\/index.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/forms\/index.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/forms\/min\/index-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/forms\/state.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/forms\/state.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/forms\/min\/state-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/main.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/main.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/min\/main-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/pages\/filter.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/pages\/filter.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/pages\/min\/filter-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/pages\/index.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/pages\/index.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/pages\/min\/index-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/pages\/page\/add.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/pages\/page\/add.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/pages\/page\/min\/add-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/pages\/page\/delete.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/pages\/page\/delete.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/pages\/page\/min\/delete-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/pages\/page\/disable-buttons.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/pages\/page\/disable-buttons.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/pages\/page\/min\/disable-buttons-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/pages\/page\/index.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/pages\/page\/index.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/pages\/page\/min\/index-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/pages\/page\/media.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/pages\/page\/media.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/pages\/page\/min\/media-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/pages\/page\/move.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/pages\/page\/move.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/pages\/page\/min\/move-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/pages\/page\/multilang.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/pages\/page\/multilang.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/pages\/page\/min\/multilang-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/pages\/tree.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/pages\/tree.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/pages\/min\/tree-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/plugins\/index.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/plugins\/index.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/plugins\/min\/index-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/themes\/index.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/themes\/index.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/themes\/min\/index-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/updates\/channel-switcher.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/updates\/channel-switcher.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/updates\/min\/channel-switcher-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/updates\/check.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/updates\/check.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/updates\/min\/check-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/updates\/index.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/updates\/index.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/updates\/min\/index-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/updates\/update.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/updates\/update.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/updates\/min\/update-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/utils\/colors.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/utils\/colors.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/utils\/min\/colors-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/utils\/formatbytes.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/utils\/formatbytes.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/utils\/min\/formatbytes-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/utils\/gpm.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/utils\/gpm.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/utils\/min\/gpm-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/utils\/jquery-utils.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/utils\/jquery-utils.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/utils\/min\/jquery-utils-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/utils\/keepalive.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/utils\/keepalive.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/utils\/min\/keepalive-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/utils\/packages.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/utils\/packages.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/utils\/min\/packages-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/utils\/request.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/utils\/request.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/utils\/min\/request-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/utils\/response.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/utils\/response.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/utils\/min\/response-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/utils\/scrollbar.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/utils\/scrollbar.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/utils\/min\/scrollbar-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/utils\/sidebar.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/utils\/sidebar.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/utils\/min\/sidebar-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/utils\/storage.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/utils\/storage.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/utils\/min\/storage-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/utils\/tabs-memory.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/utils\/tabs-memory.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/utils\/min\/tabs-memory-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/app\/utils\/toastr.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/utils\/toastr.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/app\/utils\/min\/toastr-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/css-compiled\/fonts.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/css-compiled\/fonts.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/user\/plugins\/admin\/themes\/grav\/css-compiled\/nucleus.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/css-compiled\/nucleus.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/css-compiled\/preset.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/css-compiled\/preset.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/css-compiled\/simple-fonts.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/css-compiled\/simple-fonts.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -5732,120 +7022,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/admin\/themes\/grav\/css\/datepicker\/Flat\/editor.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2873,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/css\/datepicker\/Flat\/editor.png",
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/css\/datepicker\/Flat\/editor.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/user\/plugins\/admin\/themes\/grav\/css\/datepicker\/Flat\/imagebrowser.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6215,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/css\/datepicker\/Flat\/imagebrowser.png",
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/css\/datepicker\/Flat\/imagebrowser.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/user\/plugins\/admin\/themes\/grav\/css\/datepicker\/Flat\/sprite.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 12313,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/css\/datepicker\/Flat\/sprite.png",
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/css\/datepicker\/Flat\/sprite.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/user\/plugins\/admin\/themes\/grav\/css\/datepicker\/Flat\/sprite_2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 29105,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/css\/datepicker\/Flat\/sprite_2x.png",
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/css\/datepicker\/Flat\/sprite_2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/user\/plugins\/admin\/themes\/grav\/css\/datepicker\/Flat\/sprite_kpi.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 787,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/css\/datepicker\/Flat\/sprite_kpi.png",
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/css\/datepicker\/Flat\/sprite_kpi.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/user\/plugins\/admin\/themes\/grav\/css\/datepicker\/Flat\/sprite_kpi_2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1472,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/css\/datepicker\/Flat\/sprite_kpi_2x.png",
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/css\/datepicker\/Flat\/sprite_kpi_2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/user\/plugins\/admin\/themes\/grav\/css\/datepicker\/grav.overrides.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/css\/datepicker\/grav.overrides.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/admin\/themes\/grav\/css\/datepicker\/kendo.common.core.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/css\/datepicker\/kendo.common.core.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/admin\/themes\/grav\/css\/datepicker\/kendo.flat.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/css\/datepicker\/kendo.flat.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/admin\/themes\/grav\/css\/datepicker\/README.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/css\/datepicker\/README.md",
-		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/css\/datepicker\/README.html",
-		"outputFormat": 0,
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
 		},
 	"\/user\/plugins\/admin\/themes\/grav\/css\/featherlight.min.css": {
 		"fileType": 16,
@@ -5928,6 +7104,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/user\/plugins\/admin\/themes\/grav\/gulpfile.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/gulpfile.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/min\/gulpfile-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/user\/plugins\/admin\/themes\/grav\/images\/favicon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -5950,121 +7137,12 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/user\/plugins\/admin\/themes\/grav\/js\/admin-all.js": {
+	"\/user\/plugins\/admin\/themes\/grav\/js\/admin.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/admin-all.js",
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/min\/admin-all-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/user\/plugins\/admin\/themes\/grav\/js\/ajax.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/ajax.js",
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/min\/ajax-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/user\/plugins\/admin\/themes\/grav\/js\/chartist.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/chartist.min.js",
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/min\/chartist.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/user\/plugins\/admin\/themes\/grav\/js\/codemirror-compressed.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/codemirror-compressed.js",
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/min\/codemirror-compressed-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/user\/plugins\/admin\/themes\/grav\/js\/datepicker\/init.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/datepicker\/init.js",
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/datepicker\/min\/init-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/user\/plugins\/admin\/themes\/grav\/js\/datepicker\/kendo.custom.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/datepicker\/kendo.custom.min.js",
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/datepicker\/min\/kendo.custom.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/user\/plugins\/admin\/themes\/grav\/js\/datepicker\/README.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/datepicker\/README.md",
-		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/datepicker\/README.html",
-		"outputFormat": 0,
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
-		},
-	"\/user\/plugins\/admin\/themes\/grav\/js\/dropdown.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/dropdown.js",
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/min\/dropdown-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/user\/plugins\/admin\/themes\/grav\/js\/dropzone.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/dropzone.min.js",
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/min\/dropzone.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/user\/plugins\/admin\/themes\/grav\/js\/featherlight.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/featherlight.min.js",
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/min\/featherlight.min-min.js",
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/admin.min.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/min\/admin.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -6081,203 +7159,43 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/user\/plugins\/admin\/themes\/grav\/js\/forms.js": {
+	"\/user\/plugins\/admin\/themes\/grav\/js\/vendor.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/forms.js",
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/min\/forms-min.js",
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/vendor.min.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/min\/vendor.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/user\/plugins\/admin\/themes\/grav\/js\/forms\/fields\/array.js": {
-		"fileType": 64,
-		"ignore": 0,
+	"\/user\/plugins\/admin\/themes\/grav\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/forms\/fields\/array.js",
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/forms\/fields\/min\/array-min.js",
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/package-min.json",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 1
 		},
-	"\/user\/plugins\/admin\/themes\/grav\/js\/forms\/fields\/checkboxes.js": {
-		"fileType": 64,
-		"ignore": 0,
+	"\/user\/plugins\/admin\/themes\/grav\/scss\/configuration\/fonts\/_support.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/forms\/fields\/checkboxes.js",
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/forms\/fields\/min\/checkboxes-min.js",
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/scss\/configuration\/fonts\/_support.scss",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/scss\/configuration\/css\/_support.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/user\/plugins\/admin\/themes\/grav\/js\/forms\/fields\/input.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/forms\/fields\/input.js",
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/forms\/fields\/min\/input-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/user\/plugins\/admin\/themes\/grav\/js\/forms\/fields\/selectize.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/forms\/fields\/selectize.js",
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/forms\/fields\/min\/selectize-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/user\/plugins\/admin\/themes\/grav\/js\/forms\/fields\/toggle.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/forms\/fields\/toggle.js",
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/forms\/fields\/min\/toggle-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/user\/plugins\/admin\/themes\/grav\/js\/forms\/form.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/forms\/form.js",
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/forms\/min\/form-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/user\/plugins\/admin\/themes\/grav\/js\/html5shiv-printshiv.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/html5shiv-printshiv.min.js",
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/min\/html5shiv-printshiv.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/user\/plugins\/admin\/themes\/grav\/js\/jquery.remodal.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/jquery.remodal.min.js",
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/min\/jquery.remodal.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/user\/plugins\/admin\/themes\/grav\/js\/mdeditor.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/mdeditor.js",
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/min\/mdeditor-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/user\/plugins\/admin\/themes\/grav\/js\/mobile.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/mobile.js",
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/min\/mobile-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/user\/plugins\/admin\/themes\/grav\/js\/modernizr.custom.71422.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/modernizr.custom.71422.js",
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/min\/modernizr.custom.71422-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/user\/plugins\/admin\/themes\/grav\/js\/pages-all.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/pages-all.js",
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/min\/pages-all-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/user\/plugins\/admin\/themes\/grav\/js\/selectize.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/selectize.min.js",
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/min\/selectize.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/user\/plugins\/admin\/themes\/grav\/js\/slugify.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/slugify.min.js",
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/min\/slugify.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/user\/plugins\/admin\/themes\/grav\/js\/sortable.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/sortable.min.js",
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/min\/sortable.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/user\/plugins\/admin\/themes\/grav\/js\/speakingurl.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/speakingurl.min.js",
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/min\/speakingurl.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/user\/plugins\/admin\/themes\/grav\/js\/toastr.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/toastr.min.js",
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/js\/min\/toastr.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
 	"\/user\/plugins\/admin\/themes\/grav\/scss\/configuration\/nucleus\/_base.scss": {
 		"createSourceMap": 0,
@@ -6391,22 +7309,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/user\/plugins\/admin\/themes\/grav\/scss\/configuration\/template\/_bullets.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/scss\/configuration\/template\/_bullets.scss",
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/scss\/configuration\/css\/_bullets.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/user\/plugins\/admin\/themes\/grav\/scss\/configuration\/template\/_colors.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -6423,22 +7325,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/user\/plugins\/admin\/themes\/grav\/scss\/configuration\/template\/_typography.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/scss\/configuration\/template\/_typography.scss",
-		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/scss\/configuration\/css\/_typography.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/user\/plugins\/admin\/themes\/grav\/scss\/configuration\/template\/_variables.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -6448,6 +7334,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/scss\/configuration\/template\/_variables.scss",
 		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/scss\/configuration\/css\/_variables.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/scss\/fonts.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/scss\/fonts.scss",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/css\/fonts.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -6679,6 +7581,38 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/user\/plugins\/admin\/themes\/grav\/scss\/preset.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/scss\/preset.scss",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/css\/preset.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/scss\/simple-fonts.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/scss\/simple-fonts.scss",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/css\/simple-fonts.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/user\/plugins\/admin\/themes\/grav\/scss\/template.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -6903,6 +7837,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/user\/plugins\/admin\/themes\/grav\/scss\/template\/_nav-toggle.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/scss\/template\/_nav-toggle.scss",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/scss\/css\/_nav-toggle.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/user\/plugins\/admin\/themes\/grav\/scss\/template\/_pages.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -7031,6 +7981,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/user\/plugins\/admin\/themes\/grav\/scss\/template\/modules\/_bourbon_essentials.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/scss\/template\/modules\/_bourbon_essentials.scss",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/scss\/template\/css\/_bourbon_essentials.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/user\/plugins\/admin\/themes\/grav\/scss\/template\/modules\/_buttons.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -7040,6 +8006,54 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/scss\/template\/modules\/_buttons.scss",
 		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/scss\/template\/css\/_buttons.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/scss\/template\/modules\/_colorpicker.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/scss\/template\/modules\/_colorpicker.scss",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/scss\/template\/css\/_colorpicker.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/scss\/template\/modules\/_datetimepicker.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/scss\/template\/modules\/_datetimepicker.scss",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/scss\/template\/css\/_datetimepicker.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/scss\/template\/modules\/_scrollbars.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/scss\/template\/modules\/_scrollbars.scss",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/scss\/template\/css\/_scrollbars.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -8374,6 +9388,17 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/user\/plugins\/admin\/themes\/grav\/webpack.conf.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/webpack.conf.js",
+		"outputAbbreviatedPath": "\/user\/plugins\/admin\/themes\/grav\/min\/webpack.conf-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/user\/plugins\/admin\/twig\/AdminTwigExtension.php": {
 		"fileType": 8192,
@@ -11267,6 +12292,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/user\/plugins\/error\/hebe.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/error\/hebe.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/user\/plugins\/error\/hebe-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/user\/plugins\/error\/pages\/error.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
@@ -11339,6 +12375,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/user\/plugins\/form\/classes\/form_serializable.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/plugins\/form\/classes\/form_serializable.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/user\/plugins\/form\/form.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -11380,127 +12425,6 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/user\/plugins\/login\/assets\/github\/github.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 43302,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/assets\/github\/github.png",
-		"outputAbbreviatedPath": "\/user\/plugins\/login\/assets\/github\/github.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/user\/plugins\/login\/assets\/github\/github_2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 57285,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/assets\/github\/github_2.png",
-		"outputAbbreviatedPath": "\/user\/plugins\/login\/assets\/github\/github_2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/user\/plugins\/login\/assets\/github\/github_3.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 62010,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/assets\/github\/github_3.png",
-		"outputAbbreviatedPath": "\/user\/plugins\/login\/assets\/github\/github_3.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/user\/plugins\/login\/assets\/google\/google.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 33180,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/assets\/google\/google.png",
-		"outputAbbreviatedPath": "\/user\/plugins\/login\/assets\/google\/google.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/user\/plugins\/login\/assets\/google\/google_2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 79910,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/assets\/google\/google_2.png",
-		"outputAbbreviatedPath": "\/user\/plugins\/login\/assets\/google\/google_2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/user\/plugins\/login\/assets\/google\/google_3.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 77577,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/assets\/google\/google_3.png",
-		"outputAbbreviatedPath": "\/user\/plugins\/login\/assets\/google\/google_3.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/user\/plugins\/login\/assets\/google\/google_4.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 62290,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/assets\/google\/google_4.png",
-		"outputAbbreviatedPath": "\/user\/plugins\/login\/assets\/google\/google_4.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/user\/plugins\/login\/assets\/google\/google_5.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 43359,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/assets\/google\/google_5.png",
-		"outputAbbreviatedPath": "\/user\/plugins\/login\/assets\/google\/google_5.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/user\/plugins\/login\/assets\/google\/google_6.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 100046,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/assets\/google\/google_6.png",
-		"outputAbbreviatedPath": "\/user\/plugins\/login\/assets\/google\/google_6.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/user\/plugins\/login\/assets\/google\/google_7.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 60169,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/assets\/google\/google_7.png",
-		"outputAbbreviatedPath": "\/user\/plugins\/login\/assets\/google\/google_7.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/user\/plugins\/login\/assets\/google\/google_8.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 45853,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/assets\/google\/google_8.png",
-		"outputAbbreviatedPath": "\/user\/plugins\/login\/assets\/google\/google_8.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/user\/plugins\/login\/CHANGELOG.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
@@ -11531,29 +12455,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/user\/plugins\/login\/classes\/ControllerInterface.php": {
+	"\/user\/plugins\/login\/classes\/Login.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/classes\/ControllerInterface.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/classes\/LoginController.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/classes\/LoginController.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/classes\/OAuthLoginController.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/classes\/OAuthLoginController.php",
+		"inputAbbreviatedPath": "\/user\/plugins\/login\/classes\/Login.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -11997,893 +12903,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/composer.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/composer.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/composer-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/README.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/README.md",
-		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/README.html",
-		"outputFormat": 0,
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/bootstrap.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/bootstrap.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/AutoLoader.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/AutoLoader.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Consumer\/Credentials.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Consumer\/Credentials.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Consumer\/CredentialsInterface.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Consumer\/CredentialsInterface.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Exception\/Exception.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Exception\/Exception.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Http\/Client\/AbstractClient.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Http\/Client\/AbstractClient.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Http\/Client\/ClientInterface.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Http\/Client\/ClientInterface.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Http\/Client\/CurlClient.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Http\/Client\/CurlClient.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Http\/Client\/StreamClient.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Http\/Client\/StreamClient.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Http\/Exception\/TokenResponseException.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Http\/Exception\/TokenResponseException.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Http\/Uri\/Uri.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Http\/Uri\/Uri.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Http\/Uri\/UriFactory.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Http\/Uri\/UriFactory.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Http\/Uri\/UriFactoryInterface.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Http\/Uri\/UriFactoryInterface.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Http\/Uri\/UriInterface.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Http\/Uri\/UriInterface.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Service\/AbstractService.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Service\/AbstractService.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Service\/ServiceInterface.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Service\/ServiceInterface.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Storage\/Exception\/AuthorizationStateNotFoundException.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Storage\/Exception\/AuthorizationStateNotFoundException.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Storage\/Exception\/StorageException.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Storage\/Exception\/StorageException.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Storage\/Exception\/TokenNotFoundException.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Storage\/Exception\/TokenNotFoundException.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Storage\/Memory.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Storage\/Memory.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Storage\/Redis.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Storage\/Redis.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Storage\/Session.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Storage\/Session.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Storage\/SymfonySession.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Storage\/SymfonySession.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Storage\/TokenStorageInterface.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Storage\/TokenStorageInterface.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Token\/AbstractToken.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Token\/AbstractToken.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Token\/Exception\/ExpiredTokenException.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Token\/Exception\/ExpiredTokenException.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Token\/TokenInterface.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/Common\/Token\/TokenInterface.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Service\/AbstractService.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Service\/AbstractService.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Service\/BitBucket.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Service\/BitBucket.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Service\/Etsy.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Service\/Etsy.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Service\/FitBit.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Service\/FitBit.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Service\/FiveHundredPx.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Service\/FiveHundredPx.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Service\/Flickr.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Service\/Flickr.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Service\/QuickBooks.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Service\/QuickBooks.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Service\/Redmine.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Service\/Redmine.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Service\/ScoopIt.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Service\/ScoopIt.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Service\/ServiceInterface.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Service\/ServiceInterface.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Service\/Tumblr.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Service\/Tumblr.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Service\/Twitter.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Service\/Twitter.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Service\/Xing.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Service\/Xing.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Service\/Yahoo.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Service\/Yahoo.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Signature\/Exception\/UnsupportedHashAlgorithmException.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Signature\/Exception\/UnsupportedHashAlgorithmException.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Signature\/Signature.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Signature\/Signature.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Signature\/SignatureInterface.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Signature\/SignatureInterface.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Token\/StdOAuth1Token.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Token\/StdOAuth1Token.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Token\/TokenInterface.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth1\/Token\/TokenInterface.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/AbstractService.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/AbstractService.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Amazon.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Amazon.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Bitly.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Bitly.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Bitrix24.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Bitrix24.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Box.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Box.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Buffer.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Buffer.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Dailymotion.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Dailymotion.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Deezer.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Deezer.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Delicious.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Delicious.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/DeviantArt.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/DeviantArt.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Dropbox.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Dropbox.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/EveOnline.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/EveOnline.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Exception\/InvalidAccessTypeException.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Exception\/InvalidAccessTypeException.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Exception\/InvalidAuthorizationStateException.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Exception\/InvalidAuthorizationStateException.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Exception\/InvalidScopeException.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Exception\/InvalidScopeException.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Exception\/MissingRefreshTokenException.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Exception\/MissingRefreshTokenException.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Facebook.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Facebook.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Foursquare.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Foursquare.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/GitHub.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/GitHub.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Google.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Google.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Harvest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Harvest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Heroku.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Heroku.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Hubic.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Hubic.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Instagram.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Instagram.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/JawboneUP.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/JawboneUP.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Linkedin.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Linkedin.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Mailchimp.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Mailchimp.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Microsoft.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Microsoft.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Nest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Nest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Netatmo.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Netatmo.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/ParrotFlowerPower.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/ParrotFlowerPower.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Paypal.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Paypal.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Pinterest.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Pinterest.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Pocket.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Pocket.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Reddit.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Reddit.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/RunKeeper.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/RunKeeper.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Salesforce.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Salesforce.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/ServiceInterface.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/ServiceInterface.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/SoundCloud.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/SoundCloud.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Spotify.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Spotify.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Strava.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Strava.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Ustream.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Ustream.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Vimeo.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Vimeo.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Vkontakte.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Vkontakte.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Yahoo.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Yahoo.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Yammer.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Service\/Yammer.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Token\/StdOAuth2Token.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Token\/StdOAuth2Token.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Token\/TokenInterface.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/OAuth2\/Token\/TokenInterface.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/ServiceFactory.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/user\/plugins\/login\/vendor\/lusitanian\/oauth\/src\/OAuth\/ServiceFactory.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/user\/plugins\/private\/assets\/css\/private.css": {
 		"fileType": 16,
@@ -15812,6 +15831,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/vendor\/composer\/autoload_static.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/composer\/autoload_static.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/vendor\/composer\/ClassLoader.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -15964,7 +15992,7 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/vendor\/filp\/whoops\/CONTRIBUTING.md": {
+	"\/vendor\/filp\/whoops\/CHANGELOG.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -15973,9 +16001,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/CONTRIBUTING.md",
+		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/CHANGELOG.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/vendor\/filp\/whoops\/CONTRIBUTING.html",
+		"outputAbbreviatedPath": "\/vendor\/filp\/whoops\/CHANGELOG.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -15997,27 +16025,6 @@
 		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/LICENSE.md",
 		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/vendor\/filp\/whoops\/LICENSE.html",
-		"outputFormat": 0,
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
-		},
-	"\/vendor\/filp\/whoops\/README.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/README.md",
-		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/vendor\/filp\/whoops\/README.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -16231,11 +16238,38 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/vendor\/filp\/whoops\/src\/Whoops\/RunInterface.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/Whoops\/RunInterface.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/filp\/whoops\/src\/Whoops\/Util\/HtmlDumperOutput.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/Whoops\/Util\/HtmlDumperOutput.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/vendor\/filp\/whoops\/src\/Whoops\/Util\/Misc.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/Whoops\/Util\/Misc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/filp\/whoops\/src\/Whoops\/Util\/SystemFacade.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/filp\/whoops\/src\/Whoops\/Util\/SystemFacade.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -16416,128 +16450,77 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/vendor\/ircmaxell\/password-compat\/lib\/password.php": {
+	"\/vendor\/matthiasmullie\/minify\/src\/CSS.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/ircmaxell\/password-compat\/lib\/password.php",
+		"inputAbbreviatedPath": "\/vendor\/matthiasmullie\/minify\/src\/CSS.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/vendor\/ircmaxell\/password-compat\/LICENSE.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/ircmaxell\/password-compat\/LICENSE.md",
-		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/vendor\/ircmaxell\/password-compat\/LICENSE.html",
-		"outputFormat": 0,
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
-		},
-	"\/vendor\/ircmaxell\/password-compat\/README.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/ircmaxell\/password-compat\/README.md",
-		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/vendor\/ircmaxell\/password-compat\/README.html",
-		"outputFormat": 0,
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
-		},
-	"\/vendor\/maximebf\/debugbar\/build\/namespaceFontAwesome.php": {
+	"\/vendor\/matthiasmullie\/minify\/src\/Exception.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/maximebf\/debugbar\/build\/namespaceFontAwesome.php",
+		"inputAbbreviatedPath": "\/vendor\/matthiasmullie\/minify\/src\/Exception.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/vendor\/maximebf\/debugbar\/CHANGELOG.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
-		"fileType": 4096,
+	"\/vendor\/matthiasmullie\/minify\/src\/Exceptions\/BasicException.php": {
+		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/maximebf\/debugbar\/CHANGELOG.md",
-		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/vendor\/maximebf\/debugbar\/CHANGELOG.html",
-		"outputFormat": 0,
+		"inputAbbreviatedPath": "\/vendor\/matthiasmullie\/minify\/src\/Exceptions\/BasicException.php",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
+		"outputPathIsSetByUser": 0
 		},
-	"\/vendor\/maximebf\/debugbar\/CONTRIBUTING.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
-		"fileType": 4096,
+	"\/vendor\/matthiasmullie\/minify\/src\/Exceptions\/FileImportException.php": {
+		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/maximebf\/debugbar\/CONTRIBUTING.md",
-		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/vendor\/maximebf\/debugbar\/CONTRIBUTING.html",
-		"outputFormat": 0,
+		"inputAbbreviatedPath": "\/vendor\/matthiasmullie\/minify\/src\/Exceptions\/FileImportException.php",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
+		"outputPathIsSetByUser": 0
 		},
-	"\/vendor\/maximebf\/debugbar\/README.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
-		"fileType": 4096,
+	"\/vendor\/matthiasmullie\/minify\/src\/Exceptions\/IOException.php": {
+		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/maximebf\/debugbar\/README.md",
-		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/vendor\/maximebf\/debugbar\/README.html",
-		"outputFormat": 0,
+		"inputAbbreviatedPath": "\/vendor\/matthiasmullie\/minify\/src\/Exceptions\/IOException.php",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/matthiasmullie\/minify\/src\/JS.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/matthiasmullie\/minify\/src\/JS.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/matthiasmullie\/minify\/src\/Minify.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/matthiasmullie\/minify\/src\/Minify.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/matthiasmullie\/path-converter\/src\/Converter.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/matthiasmullie\/path-converter\/src\/Converter.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/vendor\/maximebf\/debugbar\/src\/DebugBar\/Bridge\/CacheCacheCollector.php": {
 		"fileType": 8192,
@@ -17100,6 +17083,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/vendor\/monolog\/monolog\/src\/Monolog\/Formatter\/FluentdFormatter.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/monolog\/monolog\/src\/Monolog\/Formatter\/FluentdFormatter.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/vendor\/monolog\/monolog\/src\/Monolog\/Formatter\/FormatterInterface.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -17289,6 +17281,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/vendor\/monolog\/monolog\/src\/Monolog\/Handler\/DeduplicationHandler.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/monolog\/monolog\/src\/Monolog\/Handler\/DeduplicationHandler.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/vendor\/monolog\/monolog\/src\/Monolog\/Handler\/DoctrineCouchDBHandler.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -17420,6 +17421,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/vendor\/monolog\/monolog\/src\/Monolog\/Handler\/HandlerInterface.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/monolog\/monolog\/src\/Monolog\/Handler\/HandlerWrapper.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/monolog\/monolog\/src\/Monolog\/Handler\/HandlerWrapper.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -17793,375 +17803,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/CSSmin.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/CSSmin.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/DooDigestAuth.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/DooDigestAuth.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/FirePHP.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/FirePHP.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/HTTP\/ConditionalGet.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/HTTP\/ConditionalGet.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/HTTP\/Encoder.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/HTTP\/Encoder.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/JSMin.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/JSMin.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/JSMinPlus.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/JSMinPlus.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/Minify.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/Minify.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Build.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Build.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Cache\/APC.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Cache\/APC.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Cache\/File.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Cache\/File.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Cache\/Memcache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Cache\/Memcache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Cache\/WinCache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Cache\/WinCache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Cache\/XCache.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Cache\/XCache.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Cache\/ZendPlatform.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Cache\/ZendPlatform.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/Minify\/ClosureCompiler.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/Minify\/ClosureCompiler.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/Minify\/CommentPreserver.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/Minify\/CommentPreserver.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Controller\/Base.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Controller\/Base.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Controller\/Files.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Controller\/Files.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Controller\/Groups.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Controller\/Groups.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Controller\/MinApp.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Controller\/MinApp.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Controller\/Page.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Controller\/Page.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Controller\/Version1.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Controller\/Version1.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/Minify\/CSS.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/Minify\/CSS.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/Minify\/CSS\/Compressor.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/Minify\/CSS\/Compressor.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/Minify\/CSS\/UriRewriter.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/Minify\/CSS\/UriRewriter.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/Minify\/CSSmin.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/Minify\/CSSmin.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/Minify\/DebugDetector.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/Minify\/DebugDetector.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/Minify\/HTML.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/Minify\/HTML.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/Minify\/HTML\/Helper.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/Minify\/HTML\/Helper.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/Minify\/ImportProcessor.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/Minify\/ImportProcessor.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/Minify\/JS\/ClosureCompiler.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/Minify\/JS\/ClosureCompiler.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Lines.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Lines.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Loader.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Loader.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Logger.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Logger.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Packer.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Packer.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Source.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/Minify\/Source.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/Minify\/YUI\/CssCompressor.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/Minify\/YUI\/CssCompressor.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/Minify\/YUICompressor.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/Minify\/YUICompressor.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/MrClay\/Cli.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/MrClay\/Cli.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/vendor\/mrclay\/minify\/min\/lib\/MrClay\/Cli\/Arg.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/vendor\/mrclay\/minify\/min\/lib\/MrClay\/Cli\/Arg.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/vendor\/pimple\/pimple\/src\/Pimple\/Container.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -18270,11 +17911,56 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/vendor\/rockettheme\/toolbox\/Blueprints\/src\/BlueprintForm.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/rockettheme\/toolbox\/Blueprints\/src\/BlueprintForm.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/vendor\/rockettheme\/toolbox\/Blueprints\/src\/Blueprints.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/vendor\/rockettheme\/toolbox\/Blueprints\/src\/Blueprints.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/rockettheme\/toolbox\/Blueprints\/src\/BlueprintSchema.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/rockettheme\/toolbox\/Blueprints\/src\/BlueprintSchema.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/rockettheme\/toolbox\/Blueprints\/tests\/BlueprintFormTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/rockettheme\/toolbox\/Blueprints\/tests\/BlueprintFormTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/rockettheme\/toolbox\/Blueprints\/tests\/BlueprintSchemaTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/rockettheme\/toolbox\/Blueprints\/tests\/BlueprintSchemaTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/rockettheme\/toolbox\/Blueprints\/tests\/helper.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/rockettheme\/toolbox\/Blueprints\/tests\/helper.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -18479,6 +18165,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/vendor\/rockettheme\/toolbox\/ResourceLocator\/src\/UniformResourceLocator.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/rockettheme\/toolbox\/ResourceLocator\/tests\/UniformResourceLocatorTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/rockettheme\/toolbox\/ResourceLocator\/tests\/UniformResourceLocatorTest.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -19398,6 +19093,510 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.big5.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.big5.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp037.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp037.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp1006.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp1006.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp1026.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp1026.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp424.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp424.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp437.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp437.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp500.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp500.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp737.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp737.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp775.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp775.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp850.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp850.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp852.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp852.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp855.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp855.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp856.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp856.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp857.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp857.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp860.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp860.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp861.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp861.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp862.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp862.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp863.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp863.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp864.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp864.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp865.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp865.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp866.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp866.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp869.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp869.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp874.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp874.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp875.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp875.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp932.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp932.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp936.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp936.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp949.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp949.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp950.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.cp950.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.iso-8859-1.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.iso-8859-1.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.iso-8859-10.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.iso-8859-10.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.iso-8859-11.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.iso-8859-11.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.iso-8859-13.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.iso-8859-13.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.iso-8859-14.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.iso-8859-14.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.iso-8859-15.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.iso-8859-15.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.iso-8859-16.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.iso-8859-16.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.iso-8859-2.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.iso-8859-2.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.iso-8859-3.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.iso-8859-3.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.iso-8859-4.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.iso-8859-4.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.iso-8859-5.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.iso-8859-5.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.iso-8859-6.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.iso-8859-6.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.iso-8859-7.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.iso-8859-7.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.iso-8859-8.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.iso-8859-8.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.iso-8859-9.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.iso-8859-9.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.koi8-r.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.koi8-r.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.koi8-u.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.koi8-u.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.us-ascii.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.us-ascii.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.windows-1250.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.windows-1250.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.windows-1251.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.windows-1251.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.windows-1252.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.windows-1252.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.windows-1253.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.windows-1253.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.windows-1254.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.windows-1254.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.windows-1255.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.windows-1255.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.windows-1256.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.windows-1256.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.windows-1257.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.windows-1257.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.windows-1258.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/from.windows-1258.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/translit.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-iconv\/Resources\/charset\/translit.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/vendor\/symfony\/polyfill-mbstring\/bootstrap.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -19436,6 +19635,24 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
+		},
+	"\/vendor\/symfony\/polyfill-mbstring\/Resources\/unidata\/lowerCase.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-mbstring\/Resources\/unidata\/lowerCase.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/symfony\/polyfill-mbstring\/Resources\/unidata\/upperCase.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/symfony\/polyfill-mbstring\/Resources\/unidata\/upperCase.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/vendor\/symfony\/var-dumper\/Caster\/AmqpCaster.php": {
 		"fileType": 8192,

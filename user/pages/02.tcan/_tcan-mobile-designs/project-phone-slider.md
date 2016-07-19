@@ -1,14 +1,14 @@
 ---
-title: 'TCAN Mobile Designs'
+title: 'Responsive Structure'
+project_ps_background_image: building-4.jpg
 project_ps_slides:
     1:
-        alt: 'Twin Cities Alumni Network | Homepage'
         image: t50i01-tcan-homepage-mobile-v1.1.jpg
+        alt: 'Twin Cities Alumni Network | Homepage'
     2:
-        alt: 'Twin Cities Alumni Network | Event Modal '
         image: t50i01-tcan-homepage-mobile-v1.2.jpg
+        alt: 'Twin Cities Alumni Network | Event Modal '
 date: '06-09-2016 00:00'
-project_ps_background_image: building-4.jpg
 ---
 
-Etiam porta sem malesuada magna mollis euismod. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+As the majority of TCAN's members are often on the go, designing a simple, consistent experience across all devices was a must. To optimize for smaller screen sizes, extra care was given to the event calendar and membership criteria section as well as the navigation.

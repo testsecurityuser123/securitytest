@@ -74,17 +74,17 @@ class __TwigTemplate_1a1720aeb8c21e1dec69d3c9a1187d7ce5816b7942373b171374d827149
         } else {
             // line 22
             echo "        <div class=\"form-select-wrapper ";
-            echo $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "size", array());
+            echo twig_escape_filter($this->env, $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "size", array()), "html", null, true);
             echo "\">
             <select name=\"";
             // line 23
-            echo ($this->env->getExtension('GravTwigExtension')->fieldNameFilter(((isset($context["scope"]) ? $context["scope"] : null) . $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "name", array()))) . (($this->getAttribute((isset($context["field"]) ? $context["field"] : null), "multiple", array())) ? ("[]") : ("")));
+            echo twig_escape_filter($this->env, ($this->env->getExtension('GravTwigExtension')->fieldNameFilter(((isset($context["scope"]) ? $context["scope"] : null) . $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "name", array()))) . (($this->getAttribute((isset($context["field"]) ? $context["field"] : null), "multiple", array())) ? ("[]") : (""))), "html", null, true);
             echo "\"
                     ";
             // line 24
             if ($this->getAttribute((isset($context["field"]) ? $context["field"] : null), "classes", array(), "any", true, true)) {
                 echo "class=\"";
-                echo $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "classes", array());
+                echo twig_escape_filter($this->env, $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "classes", array()), "html", null, true);
                 echo "\" ";
             }
             // line 25
@@ -103,7 +103,7 @@ class __TwigTemplate_1a1720aeb8c21e1dec69d3c9a1187d7ce5816b7942373b171374d827149
             }
             // line 27
             echo "                    ";
-            if (($this->getAttribute((isset($context["field"]) ? $context["field"] : null), "disabled", array()) || twig_test_empty((isset($context["files"]) ? $context["files"] : null)))) {
+            if ((($this->getAttribute((isset($context["field"]) ? $context["field"] : null), "disabled", array()) || twig_test_empty((isset($context["files"]) ? $context["files"] : null))) || (isset($context["isDisabledToggleable"]) ? $context["isDisabledToggleable"] : null))) {
                 echo "disabled=\"disabled\"";
             }
             // line 28
@@ -130,7 +130,7 @@ class __TwigTemplate_1a1720aeb8c21e1dec69d3c9a1187d7ce5816b7942373b171374d827149
             echo "                    ";
             if ($this->getAttribute((isset($context["field"]) ? $context["field"] : null), "form", array())) {
                 echo "form=\"";
-                echo $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "form", array());
+                echo twig_escape_filter($this->env, $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "form", array()), "html", null, true);
                 echo "\"";
             }
             // line 33
@@ -146,12 +146,12 @@ class __TwigTemplate_1a1720aeb8c21e1dec69d3c9a1187d7ce5816b7942373b171374d827149
                     echo "selected=\"selected\"";
                 }
                 echo " value=\"";
-                echo (($this->getAttribute((isset($context["field"]) ? $context["field"] : null), "multiple", array())) ? ($context["text"]) : ($context["key"]));
+                echo twig_escape_filter($this->env, (($this->getAttribute((isset($context["field"]) ? $context["field"] : null), "multiple", array())) ? ($context["text"]) : ($context["key"])), "html", null, true);
                 echo "\">";
                 if ($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["grav"]) ? $context["grav"] : null), "twig", array(), "any", false, true), "twig", array(), "any", false, true), "filters", array(), "any", false, true), "tu", array(), "array", true, true)) {
-                    echo $this->env->getExtension('AdminTwigExtension')->tuFilter($context["text"]);
+                    echo twig_escape_filter($this->env, $this->env->getExtension('AdminTwigExtension')->tuFilter($context["text"]), "html", null, true);
                 } else {
-                    echo $this->env->getExtension('GravTwigExtension')->translate($context["text"]);
+                    echo twig_escape_filter($this->env, $this->env->getExtension('GravTwigExtension')->translate($context["text"]), "html", null, true);
                 }
                 echo "</option>
                 ";
@@ -213,7 +213,7 @@ class __TwigTemplate_1a1720aeb8c21e1dec69d3c9a1187d7ce5816b7942373b171374d827149
 /*                     {% if field.classes is defined %}class="{{ field.classes }}" {% endif %}*/
 /*                     {% if field.id is defined %}id="{{ field.id|e }}" {% endif %}*/
 /*                     {% if field.style is defined %}style="{{ field.style|e }}" {% endif %}*/
-/*                     {% if field.disabled or files is empty %}disabled="disabled"{% endif %}*/
+/*                     {% if field.disabled or files is empty or isDisabledToggleable %}disabled="disabled"{% endif %}*/
 /*                     {% if field.autofocus in ['on', 'true', 1] %}autofocus="autofocus"{% endif %}*/
 /*                     {% if field.novalidate in ['on', 'true', 1] %}novalidate="novalidate"{% endif %}*/
 /*                     {% if field.validate.required in ['on', 'true', 1] %}required="required"{% endif %}*/

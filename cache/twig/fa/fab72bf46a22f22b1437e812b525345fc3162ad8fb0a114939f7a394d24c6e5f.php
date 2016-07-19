@@ -42,7 +42,7 @@ class __TwigTemplate_d96cf09573a98de57c70a759cdcd93129faa01fdd7c114ea3f1c7dcf390
             }
             foreach ($context['_seq'] as $context["_key"] => $context["field"]) {
                 // line 5
-                echo "    ";
+                echo "        ";
                 $this->loadTemplate(array(0 => (((("forms/fields/" . $this->getAttribute($context["field"], "type", array())) . "/") . $this->getAttribute($context["field"], "type", array())) . ".html.twig"), 1 => "forms/fields/column/column.html.twig"), "forms/fields/columns/columns.html.twig", 5)->display(array_merge($context, array("cols" => (isset($context["cols"]) ? $context["cols"] : null))));
                 // line 6
                 echo "    ";
@@ -84,7 +84,7 @@ class __TwigTemplate_d96cf09573a98de57c70a759cdcd93129faa01fdd7c114ea3f1c7dcf390
 /* {% if field.fields %}*/
 /*     {% set cols = field.fields|length %}*/
 /*     {% for field in field.fields %}*/
-/*     {% include ["forms/fields/#{field.type}/#{field.type}.html.twig", 'forms/fields/column/column.html.twig'] with {'cols':cols}  %}*/
+/*         {% include ["forms/fields/#{field.type}/#{field.type}.html.twig", 'forms/fields/column/column.html.twig'] with {'cols':cols}  %}*/
 /*     {% endfor %}*/
 /* {% endif %}*/
 /* </div>*/

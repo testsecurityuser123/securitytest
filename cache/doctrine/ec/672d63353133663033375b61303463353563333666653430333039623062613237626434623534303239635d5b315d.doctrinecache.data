@@ -1,0 +1,23 @@
+1469565898
+a:2:{s:7:"content";s:816:"<section class="project-ps">
+	<div class="project-ps-container">
+		<div class="project-ps-phone-container">
+			
+			<div class="project-ps-slider">
+			  				</div>
+		</div>
+
+
+
+		<div class="project-ps-content-container">
+			<div class="project-ps-content-inner-container">
+				<h3>Responsive Structure</h3>
+				<p><p>One of my primary goals for this project was to create a site design that felt as natural on a 27-inch iMac as it did on an old, beat-up iPhone 4s. To accomplish this goal, I designed sections that would utilize the entirety of a large screen while still adapting easily to smaller devices.</p></p>
+							</div>
+		</div>
+	</div>
+
+	<div class="project-ps-background" style="background-image: url(' http://localhost:8888/portfolio-grav-2016/mvp/_mvp-mobile-slider/office-10.jpg');"></div>
+</section>
+
+";s:12:"content_meta";N;}

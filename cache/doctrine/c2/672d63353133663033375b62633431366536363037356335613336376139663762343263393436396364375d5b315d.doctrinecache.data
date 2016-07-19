@@ -1,0 +1,22 @@
+1469565898
+a:2:{s:7:"content";s:1253:"<section class="project-pf">
+	<div class="project-pf-container">
+		<div class="project-pf-phone-container">
+			<div class="project-pf-phone">
+									<iframe src="http://invision.michaelfangman.com/mvp-mobile"></iframe>
+								<div class="project-pf-phone-image" style="background-image: url(' http://localhost:8888/portfolio-grav-2016/mvp/_mvp-ux/mvp-homepage-mobile-v1.png')"></div>
+			</div>
+		</div>
+		<div class="project-pf-content-container">
+			<div class="project-pf-content-inner-container">
+				<h3>Content & Strucure</h3>
+				<p><p>One key component to building a meaningful experience online is to understanding the audience it's intended to reach. I started this project by developing a brief persona for each of the predefined segments to gain a better understanding of who these people where. Utilizing this work, I then designed a series of wireframes to plan the architecture and content flow for the site.</p></p>
+									<a href="http://invision.michaelfangman.com/mvp-desktop" target="_blank" class="btn btn-arrow-r">InVision Prototype</a>
+							</div>
+		</div>
+	</div>
+
+	<div class="project-pf-background" style="background-image: url(' http://localhost:8888/portfolio-grav-2016/mvp/_mvp-ux/office-11.jpg');"></div>
+</section>
+
+";s:12:"content_meta";N;}

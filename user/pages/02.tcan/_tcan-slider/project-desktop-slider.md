@@ -1,23 +1,23 @@
 ---
-title: 'Praesent Commodo Cursus Magna'
+title: 'Visual Design'
+project_ds_background_image: building-3.jpg
 project_ds_slides:
     1:
-        alt: 'Twin Cities Alumni Network | Homepage'
         image: tcan-homepage.jpg
+        alt: 'Twin Cities Alumni Network | Homepage'
     2:
-        alt: 'Twin Cities Alumni Network | Homepage Hover'
         image: tcan-homepage-hover.jpg
+        alt: 'Twin Cities Alumni Network | Homepage Hover'
     3:
-        alt: 'Twin Cities Alumni Network | Event Modal'
         image: tcan-event-modal.jpg
+        alt: 'Twin Cities Alumni Network | Event Modal'
     4:
-        alt: 'Twin Cities Alumni Network | Filter Modal'
         image: tcan-filter-modal.jpg
+        alt: 'Twin Cities Alumni Network | Filter Modal'
     5:
-        alt: 'Twin Cities Alumni Network | Photo Modal'
         image: tcan-photo-modal.jpg
+        alt: 'Twin Cities Alumni Network | Photo Modal'
 date: '05-09-2016 00:00'
-project_ds_background_image: building-3.jpg
 ---
 
-Cras mattis consectetur purus sit amet fermentum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Maecenas faucibus mollis interdum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+My goal while fabricating the site's aesthetic was to bring the same excitement and vibrance one might feel at a professional networking event to the design of the website. Using the organization's existing brand platform as a jumping off point, I employed the use of subtle gradients, bold fonts, and engaging interactions to help bring this vision to life.

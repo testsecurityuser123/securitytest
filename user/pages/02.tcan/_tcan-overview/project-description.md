@@ -1,9 +1,9 @@
 ---
-title: 'A New Online Presence for a Twin Cities Based Alumni Club'
+title: 'Project Overview'
 project_attributes:
     1:
         title: Role
-        description: 'Information Architecture, Interface Design, Web Development'
+        description: 'Information Architecture<br>Interface Design<br>Web Development'
     2:
         title: Agency
         description: '<a href="http://www.mvpdesign.com" target="_blank">MVP Marketing + Design</a>'
@@ -13,4 +13,6 @@ project_attributes:
 date: '02-09-2016 00:00'
 ---
 
-Twin Cities Alumni Network is an association of member based alumni clubs that facilitates inter-club networking through various professional events around the Twin Cities area. >> Line about needing a new website here. << One of the most important featues of the site was to ensure events were easily accessible. 
+The Twin Cities Alumni Network (TCAN) is a local organization that facilitates networking events for Twin Cities based alumni associations from prestigious universities across the country. While the group is flourishing with event turn out at an all time high, their online presence was telling a much different story. In light of this reality, TCAN decided it was time for a new website.
+
+The organization's livelihood is based on event curation, so one of the main objectives for the redesign was to create an intuitive event calendar that could feature both TCAN and individual club events. Another focus, intended to simplify the content delivery, was to condense the site into a single page format.
