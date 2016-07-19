@@ -197,7 +197,7 @@ Module: Project Phone Feature
 		background-repeat: no-repeat;
 
 		opacity: 0.05;
-		//@include filter(grayscale(100%));
+		@include filter(grayscale(100%));
 
 		&:before {
 			content: '';

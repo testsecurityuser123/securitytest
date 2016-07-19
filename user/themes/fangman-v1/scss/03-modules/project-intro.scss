@@ -24,7 +24,7 @@ Module: Project Introduction
 		background-repeat: no-repeat;
 
 		opacity: 0.1;
-		@include filter(grayscale(25%));
+		@include filter(grayscale(100%));
 
 	}
 	.project-intro-container {

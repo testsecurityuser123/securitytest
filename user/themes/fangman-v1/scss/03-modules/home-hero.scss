@@ -168,6 +168,6 @@
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
-		// @include filter(grayscale(100%));
+		@include filter(grayscale(100%));
 		opacity: .05;
 	}

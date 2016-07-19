@@ -70,7 +70,7 @@ Module: Project Link (To Another Project)
 		background-attachment: fixed;
 
 		opacity: 0.05;
-		@include filter(grayscale(25%));
+		@include filter(grayscale(100%));
 
 		@include transition($transition-med);
 
@@ -81,7 +81,9 @@ Module: Project Link (To Another Project)
 
 	&:hover {
 		.project-nl-bkg-image {
-			opacity: 0.075;
+			opacity: 0.1;
+			@include transform(scale(1.01));
+			@include filter(grayscale(25%));
 		}
 	}
 }

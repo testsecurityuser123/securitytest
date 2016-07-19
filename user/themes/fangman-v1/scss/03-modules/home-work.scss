@@ -120,7 +120,7 @@
 
 							&.work-item-background-image {
 								opacity: .5;
-								@include filter(grayscale(50%));
+								@include filter(grayscale(25%));
 
 								@include transition($transition-med);
 							}
@@ -189,7 +189,7 @@
 							background-position: top center;
 							border-radius: rem(2);
 
-							//@include filter(grayscale(100%));
+							@include filter(grayscale(100%));
 							opacity: .2;
 
 							@include transition($transition-med);

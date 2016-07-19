@@ -150,7 +150,7 @@ Module: Project Description
 		right: 0;
 		background-size: cover;
 
-		// @include filter(grayscale(100%));
+		@include filter(grayscale(100%));
 		opacity: .05;
 	}
 }

@@ -1,0 +1,21 @@
+1469571936
+a:2:{s:7:"content";s:1176:"<section class="project-pf">
+	<div class="project-pf-container">
+		<div class="project-pf-phone-container">
+			<div class="project-pf-phone">
+								<div class="project-pf-phone-image" style="background-image: url(' http://localhost:8888/portfolio-grav-2016/tcan/_project-wireframe-section/mobile-proto.png')"></div>
+			</div>
+		</div>
+		<div class="project-pf-content-container">
+			<div class="project-pf-content-inner-container">
+				<h3>Content & Strucure</h3>
+				<p><p>Using pen and paper, I started exploring layout options. Considering the single-page approach, special attention was given to the content hierarchy to ensure the flow from section to section felt natural. Once the sketches started coming together I transitioned to the computer, prototyping the work using Bourbon, Neat, Bitters, and Refills to help expedite the process.</p></p>
+									<a href="http://tcan.michaelfangman.com" target="_blank" class="btn btn-arrow-r">HTML Prototype</a>
+							</div>
+		</div>
+	</div>
+
+	<div class="project-pf-background" style="background-image: url(' http://localhost:8888/portfolio-grav-2016/tcan/_project-wireframe-section/building-5.jpg');"></div>
+</section>
+
+";s:12:"content_meta";N;}

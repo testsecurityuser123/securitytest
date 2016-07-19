@@ -1342,6 +1342,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/9\/d\/0\/c\/a\/9d0caa9aba0688c96c781d0c944dbf9b9f83e690-audience.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7743,
+		"inputAbbreviatedPath": "\/images\/9\/d\/0\/c\/a\/9d0caa9aba0688c96c781d0c944dbf9b9f83e690-audience.jpeg",
+		"outputAbbreviatedPath": "\/images\/9\/d\/0\/c\/a\/9d0caa9aba0688c96c781d0c944dbf9b9f83e690-audience.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/9\/f\/1\/9\/7\/9f1979f10f48a529b109923243d19d0a6e633716-bg58-caliper-about-overview-mo-v1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1448,6 +1459,17 @@
 		"initialSize": 4764,
 		"inputAbbreviatedPath": "\/images\/b\/1\/f\/2\/a\/b1f2abe0c4efc39bb8677ae37d718d7edc83e1ea-connection-gal.jpeg",
 		"outputAbbreviatedPath": "\/images\/b\/1\/f\/2\/a\/b1f2abe0c4efc39bb8677ae37d718d7edc83e1ea-connection-gal.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/b\/3\/4\/f\/8\/b34f87cb9922fa19f647799a9c3f8237d3457f8a-business-5.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5006,
+		"inputAbbreviatedPath": "\/images\/b\/3\/4\/f\/8\/b34f87cb9922fa19f647799a9c3f8237d3457f8a-business-5.jpeg",
+		"outputAbbreviatedPath": "\/images\/b\/3\/4\/f\/8\/b34f87cb9922fa19f647799a9c3f8237d3457f8a-business-5.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1903,6 +1925,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/e\/a\/e\/7\/0\/eae7027ca0da17842cbe32435c420ca2b7d86f24-hero-buildings.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5137,
+		"inputAbbreviatedPath": "\/images\/e\/a\/e\/7\/0\/eae7027ca0da17842cbe32435c420ca2b7d86f24-hero-buildings.jpeg",
+		"outputAbbreviatedPath": "\/images\/e\/a\/e\/7\/0\/eae7027ca0da17842cbe32435c420ca2b7d86f24-hero-buildings.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/f\/0\/f\/f\/f\/f0fff384b797c00cc0d4c103f8c548ada00acc0c-office-6.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1921,6 +1954,17 @@
 		"initialSize": 24601,
 		"inputAbbreviatedPath": "\/images\/f\/2\/a\/4\/4\/f2a4485755de111144bf1b75d2dea443073155bf-t48i87-mvp-homepage-v121.png",
 		"outputAbbreviatedPath": "\/images\/f\/2\/a\/4\/4\/f2a4485755de111144bf1b75d2dea443073155bf-t48i87-mvp-homepage-v121.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/f\/6\/4\/7\/b\/f647bd6f6e456e02650e5529ed1f4ed9f6124437-building-4.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5640,
+		"inputAbbreviatedPath": "\/images\/f\/6\/4\/7\/b\/f647bd6f6e456e02650e5529ed1f4ed9f6124437-building-4.jpeg",
+		"outputAbbreviatedPath": "\/images\/f\/6\/4\/7\/b\/f647bd6f6e456e02650e5529ed1f4ed9f6124437-building-4.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4929,13 +4973,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/user\/pages\/04.pb-crave\/_twin-cities-alumni-network-link\/building-4.jpg": {
+	"\/user\/pages\/04.pb-crave\/_twin-cities-alumni-network-link\/business-5.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 485864,
-		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_twin-cities-alumni-network-link\/building-4.jpg",
-		"outputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_twin-cities-alumni-network-link\/building-4.jpg",
+		"initialSize": 646719,
+		"inputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_twin-cities-alumni-network-link\/business-5.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/04.pb-crave\/_twin-cities-alumni-network-link\/business-5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5341,6 +5385,47 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/user\/pages\/05.caliper\/_caliper-next-project-cta\/audience.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 880232,
+		"inputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-next-project-cta\/audience.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-next-project-cta\/audience.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/05.caliper\/_caliper-next-project-cta\/project-next-link.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-next-project-cta\/project-next-link.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/user\/pages\/05.caliper\/_caliper-next-project-cta\/project-next-link.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-next-project-cta\/project-next-link.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/user\/pages\/05.caliper\/_caliper-next-project-cta\/project-next-link.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
 	"\/user\/pages\/05.caliper\/_caliper-project-description\/project-description.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -5692,13 +5777,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/user\/pages\/06.connection\/_next-project-cta\/intro-image.jpg": {
+	"\/user\/pages\/06.connection\/_next-project-cta\/hero-buildings.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 946966,
-		"inputAbbreviatedPath": "\/user\/pages\/06.connection\/_next-project-cta\/intro-image.jpg",
-		"outputAbbreviatedPath": "\/user\/pages\/06.connection\/_next-project-cta\/intro-image.jpg",
+		"initialSize": 4.57783e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/06.connection\/_next-project-cta\/hero-buildings.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/06.connection\/_next-project-cta\/hero-buildings.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

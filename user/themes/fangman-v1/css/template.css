@@ -621,6 +621,8 @@ h6, .testt {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
   opacity: .05; }
 
 /* =========================================================
@@ -768,6 +770,8 @@ Module: Project Description
     left: 0;
     right: 0;
     background-size: cover;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
     opacity: .05; }
 
 .home-work .home-work-feed {
@@ -857,8 +861,8 @@ Module: Project Description
               transform: translateY(0.375rem); }
           .home-work .home-work-feed ul li a:hover div.work-item-background-image {
             opacity: .5;
-            -webkit-filter: grayscale(50%);
-            filter: grayscale(50%);
+            -webkit-filter: grayscale(25%);
+            filter: grayscale(25%);
             -webkit-transition: all 0.25s ease;
             -moz-transition: all 0.25s ease;
             transition: all 0.25s ease; }
@@ -909,6 +913,8 @@ Module: Project Description
             background-size: cover;
             background-position: top center;
             border-radius: 0.125rem;
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
             opacity: .2;
             -webkit-transition: all 0.25s ease;
             -moz-transition: all 0.25s ease;
@@ -936,8 +942,8 @@ Module: Project Introduction
     background-position: center;
     background-repeat: no-repeat;
     opacity: 0.1;
-    -webkit-filter: grayscale(25%);
-    filter: grayscale(25%); }
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); }
   .project-intro .project-intro-container {
     position: relative;
     z-index: 2;
@@ -1401,7 +1407,9 @@ Module: Project Phone Feature
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.05; }
+    opacity: 0.05;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); }
     .project-pf .project-pf-background:before {
       content: '';
       padding-top: 98%;
@@ -1554,7 +1562,9 @@ Module: Project Desktop Slider
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.05; }
+    opacity: 0.05;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); }
     .project-ds .project-ds-background:before {
       content: '';
       padding-top: 42%;
@@ -1949,7 +1959,9 @@ Module: Project Phone Slider
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.05; }
+    opacity: 0.05;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); }
     .project-ps .project-ps-background:before {
       content: '';
       padding-top: 98%;
@@ -2108,13 +2120,20 @@ Module: Project Link (To Another Project)
     background-repeat: no-repeat;
     background-attachment: fixed;
     opacity: 0.05;
-    -webkit-filter: grayscale(25%);
-    filter: grayscale(25%);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
     -webkit-transition: all 0.25s ease;
     -moz-transition: all 0.25s ease;
     transition: all 0.25s ease; }
   .project-next-link:hover .project-nl-bkg-image {
-    opacity: 0.075; }
+    opacity: 0.1;
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    -o-transform: scale(1.01);
+    transform: scale(1.01);
+    -webkit-filter: grayscale(25%);
+    filter: grayscale(25%); }
 
 /* =========================================================
 

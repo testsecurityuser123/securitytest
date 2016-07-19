@@ -1,0 +1,68 @@
+1469571604
+a:2:{s:7:"content";s:4132:"<section class="project-ps">
+	<div class="project-ps-container">
+		<div class="project-ps-phone-container">
+			
+			<div class="project-ps-slider">
+			  					  	<a href="http://localhost:8888/portfolio-grav-2016/pb-crave/_pb-crave-mobile-slider/bf19-pbc-homepage-mobile-v2.png" class="project-ps-slide">
+				  		<div class="project-ps-slide-image">
+				  			<img src="http://localhost:8888/portfolio-grav-2016/pb-crave/_pb-crave-mobile-slider/bf19-pbc-homepage-mobile-v2.png" alt="">
+				  		</div>
+				  	</a>
+			  					  	<a href="http://localhost:8888/portfolio-grav-2016/pb-crave/_pb-crave-mobile-slider/bf19-pbc-menu-mobile-v1.png" class="project-ps-slide">
+				  		<div class="project-ps-slide-image">
+				  			<img src="http://localhost:8888/portfolio-grav-2016/pb-crave/_pb-crave-mobile-slider/bf19-pbc-menu-mobile-v1.png" alt="">
+				  		</div>
+				  	</a>
+			  					  	<a href="http://localhost:8888/portfolio-grav-2016/pb-crave/_pb-crave-mobile-slider/pbc-flavors-mobile.png" class="project-ps-slide">
+				  		<div class="project-ps-slide-image">
+				  			<img src="http://localhost:8888/portfolio-grav-2016/pb-crave/_pb-crave-mobile-slider/pbc-flavors-mobile.png" alt="">
+				  		</div>
+				  	</a>
+			  					  	<a href="http://localhost:8888/portfolio-grav-2016/pb-crave/_pb-crave-mobile-slider/bf19-pbc-recipes-mobile-v1.png" class="project-ps-slide">
+				  		<div class="project-ps-slide-image">
+				  			<img src="http://localhost:8888/portfolio-grav-2016/pb-crave/_pb-crave-mobile-slider/bf19-pbc-recipes-mobile-v1.png" alt="">
+				  		</div>
+				  	</a>
+			  					  	<a href="http://localhost:8888/portfolio-grav-2016/pb-crave/_pb-crave-mobile-slider/bf19-pbc-store-index-mobile-v1.1.png" class="project-ps-slide">
+				  		<div class="project-ps-slide-image">
+				  			<img src="http://localhost:8888/portfolio-grav-2016/pb-crave/_pb-crave-mobile-slider/bf19-pbc-store-index-mobile-v1.1.png" alt="">
+				  		</div>
+				  	</a>
+			  					  	<a href="http://localhost:8888/portfolio-grav-2016/pb-crave/_pb-crave-mobile-slider/bf19-pbc-store-index-mobile-v1.3.png" class="project-ps-slide">
+				  		<div class="project-ps-slide-image">
+				  			<img src="http://localhost:8888/portfolio-grav-2016/pb-crave/_pb-crave-mobile-slider/bf19-pbc-store-index-mobile-v1.3.png" alt="">
+				  		</div>
+				  	</a>
+			  					  	<a href="http://localhost:8888/portfolio-grav-2016/pb-crave/_pb-crave-mobile-slider/bf19-pbc-product-page-mobile-v2.png" class="project-ps-slide">
+				  		<div class="project-ps-slide-image">
+				  			<img src="http://localhost:8888/portfolio-grav-2016/pb-crave/_pb-crave-mobile-slider/bf19-pbc-product-page-mobile-v2.png" alt="">
+				  		</div>
+				  	</a>
+			  					  	<a href="http://localhost:8888/portfolio-grav-2016/pb-crave/_pb-crave-mobile-slider/bf19-pbc-cart-mobile-v3.png" class="project-ps-slide">
+				  		<div class="project-ps-slide-image">
+				  			<img src="http://localhost:8888/portfolio-grav-2016/pb-crave/_pb-crave-mobile-slider/bf19-pbc-cart-mobile-v3.png" alt="">
+				  		</div>
+				  	</a>
+			  					  	<a href="http://localhost:8888/portfolio-grav-2016/pb-crave/_pb-crave-mobile-slider/bf19-pbc-styles-mobile-v1.png" class="project-ps-slide">
+				  		<div class="project-ps-slide-image">
+				  			<img src="http://localhost:8888/portfolio-grav-2016/pb-crave/_pb-crave-mobile-slider/bf19-pbc-styles-mobile-v1.png" alt="">
+				  		</div>
+				  	</a>
+			  				</div>
+		</div>
+
+
+
+		<div class="project-ps-content-container">
+			<div class="project-ps-content-inner-container">
+				<h3>PB Crave Mobile Slider</h3>
+				<p><p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p></p>
+							</div>
+		</div>
+	</div>
+
+	<div class="project-ps-background" style="background-image: url(' http://localhost:8888/portfolio-grav-2016/pb-crave/_pb-crave-mobile-slider/deer.jpg');"></div>
+</section>
+
+";s:12:"content_meta";N;}
