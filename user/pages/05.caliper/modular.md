@@ -1,5 +1,5 @@
 ---
-title: Caliper
+title: 'Caliper HR Consulting'
 published: true
 taxonomy:
     category:

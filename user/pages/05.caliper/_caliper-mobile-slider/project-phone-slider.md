@@ -26,6 +26,7 @@ project_ps_slides:
         alt: 'Caliper | About Design'
         image: bg58-caliper-about-overview-mo-v1.png
 date: '05-09-2016 00:00'
+project_ps_background_image: business-4.jpg
 ---
 
 Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare vel eu leo.

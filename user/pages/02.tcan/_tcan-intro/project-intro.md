@@ -8,4 +8,3 @@ project_img: tcan-full-res.jpg
 project_intro_background_color: ''
 ---
 
-<p class="subhead">Amet Venenatis Etiam Pharetra Dapibus</p>

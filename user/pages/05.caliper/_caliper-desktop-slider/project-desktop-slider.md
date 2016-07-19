@@ -17,6 +17,7 @@ project_ds_slides:
         alt: 'Caliper | About Page'
         image: caliper-about.png
 date: '04-09-2016 00:00'
+project_ds_background_image: business-7.jpg
 ---
 
 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum. Vestibulum id ligula porta felis euismod semper. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh ultricies vehicula ut id elit.
