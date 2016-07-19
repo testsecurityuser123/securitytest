@@ -2,8 +2,22 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav-2016/system/languages/es.yaml',
-    'modified' => 1456435150,
+    'modified' => 1468959499,
     'data' => [
+        'FRONTMATTER_ERROR_PAGE' => '---
+title: %1$s
+---
+
+# Error: Frontmatter Inválido
+
+Ruta: `%2$s`
+
+**%3$s**
+
+```
+%4$s
+```
+',
         'INFLECTOR_UNCOUNTABLE' => [
             0 => 'equipo',
             1 => 'información',

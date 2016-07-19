@@ -29,9 +29,9 @@ class __TwigTemplate_7ecabd37c4de991ceb29a3f16ea69f21069807d9bfa0cf0503c53f0ae28
                 }
                 echo ">";
                 if ($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["grav"]) ? $context["grav"] : null), "twig", array(), "any", false, true), "twig", array(), "any", false, true), "filters", array(), "any", false, true), "tu", array(), "array", true, true)) {
-                    echo $this->env->getExtension('AdminTwigExtension')->tuFilter($this->getAttribute((isset($context["field"]) ? $context["field"] : null), "title", array()));
+                    echo twig_escape_filter($this->env, $this->env->getExtension('AdminTwigExtension')->tuFilter($this->getAttribute((isset($context["field"]) ? $context["field"] : null), "title", array())), "html", null, true);
                 } else {
-                    echo $this->env->getExtension('GravTwigExtension')->translate($this->getAttribute((isset($context["field"]) ? $context["field"] : null), "title", array()));
+                    echo twig_escape_filter($this->env, $this->env->getExtension('GravTwigExtension')->translate($this->getAttribute((isset($context["field"]) ? $context["field"] : null), "title", array())), "html", null, true);
                 }
                 echo "</h1>
     ";
@@ -134,7 +134,7 @@ class __TwigTemplate_7ecabd37c4de991ceb29a3f16ea69f21069807d9bfa0cf0503c53f0ae28
 /*     {% endif %}*/
 /* */
 /*     {% if field.text %}*/
-/*     <p>{% if grav.twig.twig.filters['tu'] is defined %}{{ field.text|tu }}{% else %}{{ field.text|t }}{% endif %}<p>*/
+/*     <p>{% if grav.twig.twig.filters['tu'] is defined %}{{ field.text|tu|raw }}{% else %}{{ field.text|t|raw }}{% endif %}<p>*/
 /*     {% endif %}*/
 /* */
 /*     {% if field.fields %}*/

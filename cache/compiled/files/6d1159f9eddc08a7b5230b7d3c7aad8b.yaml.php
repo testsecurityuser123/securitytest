@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav-2016/user/plugins/admin/blueprints.yaml',
-    'modified' => 1461816941,
+    'modified' => 1468959509,
     'data' => [
         'name' => 'Admin Panel',
-        'version' => '1.0.10',
+        'version' => '1.1.2',
         'description' => 'Adds an advanced administration panel to manage your site',
         'icon' => 'empire',
         'author' => [
@@ -19,9 +19,22 @@ return [
         'readme' => 'https://github.com/getgrav/grav-plugin-admin/blob/develop/README.md',
         'license' => 'MIT',
         'dependencies' => [
-            0 => 'form',
-            1 => 'email',
-            2 => 'login'
+            0 => [
+                'name' => 'grav',
+                'version' => '~1.1'
+            ],
+            1 => [
+                'name' => 'form',
+                'version' => '~1.3'
+            ],
+            2 => [
+                'name' => 'email',
+                'version' => '~2.0'
+            ],
+            3 => [
+                'name' => 'login',
+                'version' => '~2.0'
+            ]
         ],
         'form' => [
             'validation' => 'loose',
@@ -50,6 +63,52 @@ return [
                     'size' => 'medium',
                     'placeholder' => 'Default route for administrator (relative to base)',
                     'help' => 'If you want to change the URL for the administrator, you can provide a path here'
+                ],
+                'logo_text' => [
+                    'type' => 'text',
+                    'label' => 'Logo text',
+                    'size' => 'medium',
+                    'placeholder' => 'Grav',
+                    'help' => 'Text to display in place of the default Grav logo'
+                ],
+                'body_classes' => [
+                    'type' => 'text',
+                    'label' => 'Body classes',
+                    'size' => 'medium',
+                    'help' => 'Add a space separated name of custom body classes'
+                ],
+                'sidebar.activate' => [
+                    'type' => 'select',
+                    'label' => 'Sidebar Activation',
+                    'help' => 'Control how the sidebar is activated',
+                    'size' => 'small',
+                    'default' => 'tab',
+                    'options' => [
+                        'tab' => 'Tab',
+                        'hover' => 'Hover'
+                    ]
+                ],
+                'sidebar.hover_delay' => [
+                    'type' => 'text',
+                    'size' => 'x-small',
+                    'append' => 'millseconds',
+                    'label' => 'Hover delay',
+                    'default' => 500,
+                    'validate' => [
+                        'type' => 'number',
+                        'min' => 1
+                    ]
+                ],
+                'sidebar.size' => [
+                    'type' => 'select',
+                    'label' => 'Sidebar Size',
+                    'help' => 'Control the width of the sidebar',
+                    'size' => 'medium',
+                    'default' => 'auto',
+                    'options' => [
+                        'auto' => 'Automatic width',
+                        'small' => 'Small width'
+                    ]
                 ],
                 'theme' => [
                     'type' => 'hidden',
@@ -116,6 +175,7 @@ return [
                     'type' => 'text',
                     'size' => 'small',
                     'label' => 'Session Timeout',
+                    'append' => 'secs',
                     'help' => 'Sets the session timeout in seconds',
                     'validate' => [
                         'type' => 'number',
@@ -158,6 +218,7 @@ return [
                 'dashboard.days_of_stats' => [
                     'type' => 'text',
                     'label' => 'Days of stats',
+                    'append' => 'days',
                     'size' => 'x-small',
                     'default' => 7,
                     'help' => 'Keep stats for the specified number of days, then drop them',

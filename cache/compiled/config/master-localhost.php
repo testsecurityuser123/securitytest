@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1467155864,
-    'checksum' => '2448e91bada4f5ef2aa0f17e8654c79e',
+    'timestamp' => 1468959513,
+    'checksum' => 'e329f7593657aebef452f34d26818f1f',
     'files' => [
         'user/config' => [
             'media' => [
@@ -41,41 +41,41 @@ return [
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1456435150
+                'modified' => 1468959499
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1456435150
+                'modified' => 1468959499
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1456435150
+                'modified' => 1468959499
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1456435150
+                'modified' => 1468959499
             ]
         ],
         'user/plugins' => [
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1461816941
+                'modified' => 1468959509
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1463539159
+                'modified' => 1468959511
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
-                'modified' => 1456435150
+                'modified' => 1468959512
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1461816938
+                'modified' => 1468959513
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1461816940
+                'modified' => 1468959513
             ],
             'plugins/private' => [
                 'file' => 'user/plugins/private/private.yaml',
@@ -97,6 +97,13 @@ return [
                 'enabled' => true,
                 'route' => '/admin',
                 'theme' => 'grav',
+                'logo_text' => '',
+                'body_classes' => '',
+                'sidebar' => [
+                    'activate' => 'tab',
+                    'hover_delay' => 100,
+                    'size' => 'auto'
+                ],
                 'dashboard' => [
                     'days_of_stats' => 7
                 ],
@@ -169,8 +176,9 @@ return [
                 'route_activate' => '/activate_user',
                 'route_forgot' => '/forgot_password',
                 'route_reset' => '/reset_password',
-                'redirect' => NULL,
+                'redirect_after_login' => NULL,
                 'parent_acl' => false,
+                'protect_protected_page_media' => false,
                 'user_registration' => [
                     'enabled' => true,
                     'fields' => [
@@ -178,12 +186,12 @@ return [
                         1 => 'password',
                         2 => 'email',
                         3 => 'fullname',
-                        4 => 'title',
-                        5 => 'access',
-                        6 => 'state'
+                        4 => 'title'
                     ],
-                    'additional_params' => [
-                        'access' => 'site.login'
+                    'access' => [
+                        'site' => [
+                            'login' => 'true'
+                        ]
                     ],
                     'options' => [
                         'validate_password1_and_password2' => true,
@@ -196,49 +204,8 @@ return [
                 ],
                 'rememberme' => [
                     'enabled' => true,
-                    'timeout' => 1800,
+                    'timeout' => 604800,
                     'name' => 'grav-rememberme'
-                ],
-                'oauth' => [
-                    'enabled' => false,
-                    'user' => [
-                        'autocreate' => false,
-                        'access' => [
-                            'site' => [
-                                'login' => true
-                            ]
-                        ]
-                    ],
-                    'providers' => [
-                        'Facebook' => [
-                            'enabled' => false,
-                            'credentials' => [
-                                'key' => NULL,
-                                'secret' => NULL
-                            ]
-                        ],
-                        'Google' => [
-                            'enabled' => false,
-                            'credentials' => [
-                                'key' => NULL,
-                                'secret' => NULL
-                            ]
-                        ],
-                        'GitHub' => [
-                            'enabled' => false,
-                            'credentials' => [
-                                'key' => NULL,
-                                'secret' => NULL
-                            ]
-                        ],
-                        'Twitter' => [
-                            'enabled' => false,
-                            'credentials' => [
-                                'key' => NULL,
-                                'secret' => NULL
-                            ]
-                        ]
-                    ]
                 ]
             ],
             'private' => [
@@ -291,245 +258,257 @@ return [
             ]
         ],
         'media' => [
-            'defaults' => [
-                'type' => 'file',
-                'thumb' => 'media/thumb.png',
-                'mime' => 'application/octet-stream',
-                'image' => [
-                    'filters' => [
-                        'default' => [
-                            0 => 'enableProgressive'
+            'types' => [
+                'defaults' => [
+                    'type' => 'file',
+                    'thumb' => 'media/thumb.png',
+                    'mime' => 'application/octet-stream',
+                    'image' => [
+                        'filters' => [
+                            'default' => [
+                                0 => 'enableProgressive'
+                            ]
                         ]
                     ]
+                ],
+                'jpg' => [
+                    'type' => 'image',
+                    'thumb' => 'media/thumb-jpg.png',
+                    'mime' => 'image/jpeg'
+                ],
+                'jpe' => [
+                    'type' => 'image',
+                    'thumb' => 'media/thumb-jpg.png',
+                    'mime' => 'image/jpeg'
+                ],
+                'jpeg' => [
+                    'type' => 'image',
+                    'thumb' => 'media/thumb-jpeg.png',
+                    'mime' => 'image/jpeg'
+                ],
+                'png' => [
+                    'type' => 'image',
+                    'thumb' => 'media/thumb-png.png',
+                    'mime' => 'image/png'
+                ],
+                'gif' => [
+                    'type' => 'animated',
+                    'thumb' => 'media/thumb-gif.png',
+                    'mime' => 'image/gif'
+                ],
+                'svg' => [
+                    'type' => 'vector',
+                    'thumb' => 'media/thumb.png',
+                    'mime' => 'image/svg+xml'
+                ],
+                'mp4' => [
+                    'type' => 'video',
+                    'thumb' => 'media/thumb-mp4.png',
+                    'mime' => 'video/mp4'
+                ],
+                'mov' => [
+                    'type' => 'video',
+                    'thumb' => 'media/thumb-mov.png',
+                    'mime' => 'video/quicktime'
+                ],
+                'm4v' => [
+                    'type' => 'video',
+                    'thumb' => 'media/thumb-m4v.png',
+                    'mime' => 'video/x-m4v'
+                ],
+                'swf' => [
+                    'type' => 'video',
+                    'thumb' => 'media/thumb-swf.png',
+                    'mime' => 'video/x-flv'
+                ],
+                'flv' => [
+                    'type' => 'video',
+                    'thumb' => 'media/thumb-flv.png',
+                    'mime' => 'video/x-flv'
+                ],
+                'webm' => [
+                    'type' => 'video',
+                    'thumb' => 'media/thumb.png',
+                    'mime' => 'video/webm'
+                ],
+                'ogv' => [
+                    'type' => 'video',
+                    'thumb' => 'media/thumb-ogg.png',
+                    'mime' => 'video/ogg'
+                ],
+                'mp3' => [
+                    'type' => 'audio',
+                    'thumb' => 'media/thumb-mp3.png',
+                    'mime' => 'audio/mp3'
+                ],
+                'ogg' => [
+                    'type' => 'audio',
+                    'thumb' => 'media/thumb-ogg.png',
+                    'mime' => 'audio/ogg'
+                ],
+                'wma' => [
+                    'type' => 'audio',
+                    'thumb' => 'media/thumb-wma.png',
+                    'mime' => 'audio/wma'
+                ],
+                'm4a' => [
+                    'type' => 'audio',
+                    'thumb' => 'media/thumb-m4a.png',
+                    'mime' => 'audio/m4a'
+                ],
+                'wav' => [
+                    'type' => 'audio',
+                    'thumb' => 'media/thumb-wav.png',
+                    'mime' => 'audio/wav'
+                ],
+                'aiff' => [
+                    'type' => 'audio',
+                    'mime' => 'audio/aiff'
+                ],
+                'aif' => [
+                    'type' => 'audio',
+                    'mime' => 'audio/aif'
+                ],
+                'txt' => [
+                    'type' => 'file',
+                    'thumb' => 'media/thumb-txt.png',
+                    'mime' => 'text/plain'
+                ],
+                'xml' => [
+                    'type' => 'file',
+                    'thumb' => 'media/thumb-xml.png',
+                    'mime' => 'application/xml'
+                ],
+                'doc' => [
+                    'type' => 'file',
+                    'thumb' => 'media/thumb-doc.png',
+                    'mime' => 'application/msword'
+                ],
+                'docx' => [
+                    'type' => 'file',
+                    'mime' => 'application/msword'
+                ],
+                'xls' => [
+                    'type' => 'file',
+                    'mime' => 'application/vnd.ms-excel'
+                ],
+                'xlt' => [
+                    'type' => 'file',
+                    'mime' => 'application/vnd.ms-excel'
+                ],
+                'xlm' => [
+                    'type' => 'file',
+                    'mime' => 'application/vnd.ms-excel'
+                ],
+                'xld' => [
+                    'type' => 'file',
+                    'mime' => 'application/vnd.ms-excel'
+                ],
+                'xla' => [
+                    'type' => 'file',
+                    'mime' => 'application/vnd.ms-excel'
+                ],
+                'xlc' => [
+                    'type' => 'file',
+                    'mime' => 'application/vnd.ms-excel'
+                ],
+                'xlw' => [
+                    'type' => 'file',
+                    'mime' => 'application/vnd.ms-excel'
+                ],
+                'xll' => [
+                    'type' => 'file',
+                    'mime' => 'application/vnd.ms-excel'
+                ],
+                'ppt' => [
+                    'type' => 'file',
+                    'mime' => 'application/vnd.ms-powerpoint'
+                ],
+                'pps' => [
+                    'type' => 'file',
+                    'mime' => 'application/vnd.ms-powerpoint'
+                ],
+                'rtf' => [
+                    'type' => 'file',
+                    'mime' => 'application/rtf'
+                ],
+                'bmp' => [
+                    'type' => 'file',
+                    'mime' => 'image/bmp'
+                ],
+                'tiff' => [
+                    'type' => 'file',
+                    'mime' => 'image/tiff'
+                ],
+                'mpeg' => [
+                    'type' => 'file',
+                    'mime' => 'video/mpeg'
+                ],
+                'mpg' => [
+                    'type' => 'file',
+                    'mime' => 'video/mpeg'
+                ],
+                'mpe' => [
+                    'type' => 'file',
+                    'mime' => 'video/mpeg'
+                ],
+                'avi' => [
+                    'type' => 'file',
+                    'mime' => 'video/msvideo'
+                ],
+                'wmv' => [
+                    'type' => 'file',
+                    'mime' => 'video/x-ms-wmv'
+                ],
+                'html' => [
+                    'type' => 'file',
+                    'thumb' => 'media/thumb-html.png',
+                    'mime' => 'text/html'
+                ],
+                'htm' => [
+                    'type' => 'file',
+                    'thumb' => 'media/thumb-html.png',
+                    'mime' => 'text/html'
+                ],
+                'pdf' => [
+                    'type' => 'file',
+                    'thumb' => 'media/thumb-pdf.png',
+                    'mime' => 'application/pdf'
+                ],
+                'zip' => [
+                    'type' => 'file',
+                    'thumb' => 'media/thumb-zip.png',
+                    'mime' => 'application/zip'
+                ],
+                '7z' => [
+                    'type' => 'file',
+                    'thumb' => 'media/thumb-7zip.png',
+                    'mime' => 'application/x-7z-compressed'
+                ],
+                'gz' => [
+                    'type' => 'file',
+                    'thumb' => 'media/thumb-gz.png',
+                    'mime' => 'application/gzip'
+                ],
+                'tar' => [
+                    'type' => 'file',
+                    'mime' => 'application/x-tar'
+                ],
+                'css' => [
+                    'type' => 'file',
+                    'thumb' => 'media/thumb-css.png',
+                    'mime' => 'text/css'
+                ],
+                'js' => [
+                    'type' => 'file',
+                    'thumb' => 'media/thumb-js.png',
+                    'mime' => 'application/javascript'
+                ],
+                'json' => [
+                    'type' => 'file',
+                    'thumb' => 'media/thumb-json.png',
+                    'mime' => 'application/json'
                 ]
-            ],
-            'jpg' => [
-                'type' => 'image',
-                'thumb' => 'media/thumb-jpg.png',
-                'mime' => 'image/jpeg'
-            ],
-            'jpe' => [
-                'type' => 'image',
-                'thumb' => 'media/thumb-jpg.png',
-                'mime' => 'image/jpeg'
-            ],
-            'jpeg' => [
-                'type' => 'image',
-                'thumb' => 'media/thumb-jpeg.png',
-                'mime' => 'image/jpeg'
-            ],
-            'png' => [
-                'type' => 'image',
-                'thumb' => 'media/thumb-png.png',
-                'mime' => 'image/png'
-            ],
-            'gif' => [
-                'type' => 'animated',
-                'thumb' => 'media/thumb-gif.png',
-                'mime' => 'image/gif'
-            ],
-            'svg' => [
-                'type' => 'vector',
-                'thumb' => 'media/thumb-gif.png',
-                'mime' => 'image/svg+xml'
-            ],
-            'mp4' => [
-                'type' => 'video',
-                'thumb' => 'media/thumb-mp4.png',
-                'mime' => 'video/mp4'
-            ],
-            'mov' => [
-                'type' => 'video',
-                'thumb' => 'media/thumb-mov.png',
-                'mime' => 'video/quicktime'
-            ],
-            'm4v' => [
-                'type' => 'video',
-                'thumb' => 'media/thumb-m4v.png',
-                'mime' => 'video/x-m4v'
-            ],
-            'swf' => [
-                'type' => 'video',
-                'thumb' => 'media/thumb-swf.png',
-                'mime' => 'video/x-flv'
-            ],
-            'flv' => [
-                'type' => 'video',
-                'thumb' => 'media/thumb-flv.png',
-                'mime' => 'video/x-flv'
-            ],
-            'mp3' => [
-                'type' => 'audio',
-                'thumb' => 'media/thumb-mp3.png',
-                'mime' => 'audio/mp3'
-            ],
-            'ogg' => [
-                'type' => 'audio',
-                'thumb' => 'media/thumb-ogg.png',
-                'mime' => 'audio/ogg'
-            ],
-            'wma' => [
-                'type' => 'audio',
-                'thumb' => 'media/thumb-wma.png',
-                'mime' => 'audio/wma'
-            ],
-            'm4a' => [
-                'type' => 'audio',
-                'thumb' => 'media/thumb-m4a.png',
-                'mime' => 'audio/m4a'
-            ],
-            'wav' => [
-                'type' => 'audio',
-                'thumb' => 'media/thumb-wav.png',
-                'mime' => 'audio/wav'
-            ],
-            'aiff' => [
-                'type' => 'audio',
-                'mime' => 'audio/aiff'
-            ],
-            'aif' => [
-                'type' => 'audio',
-                'mime' => 'audio/aif'
-            ],
-            'txt' => [
-                'type' => 'file',
-                'thumb' => 'media/thumb-txt.png',
-                'mime' => 'text/plain'
-            ],
-            'xml' => [
-                'type' => 'file',
-                'thumb' => 'media/thumb-xml.png',
-                'mime' => 'application/xml'
-            ],
-            'doc' => [
-                'type' => 'file',
-                'thumb' => 'media/thumb-doc.png',
-                'mime' => 'application/msword'
-            ],
-            'docx' => [
-                'type' => 'file',
-                'mime' => 'application/msword'
-            ],
-            'xls' => [
-                'type' => 'file',
-                'mime' => 'application/vnd.ms-excel'
-            ],
-            'xlt' => [
-                'type' => 'file',
-                'mime' => 'application/vnd.ms-excel'
-            ],
-            'xlm' => [
-                'type' => 'file',
-                'mime' => 'application/vnd.ms-excel'
-            ],
-            'xld' => [
-                'type' => 'file',
-                'mime' => 'application/vnd.ms-excel'
-            ],
-            'xla' => [
-                'type' => 'file',
-                'mime' => 'application/vnd.ms-excel'
-            ],
-            'xlc' => [
-                'type' => 'file',
-                'mime' => 'application/vnd.ms-excel'
-            ],
-            'xlw' => [
-                'type' => 'file',
-                'mime' => 'application/vnd.ms-excel'
-            ],
-            'xll' => [
-                'type' => 'file',
-                'mime' => 'application/vnd.ms-excel'
-            ],
-            'ppt' => [
-                'type' => 'file',
-                'mime' => 'application/vnd.ms-powerpoint'
-            ],
-            'pps' => [
-                'type' => 'file',
-                'mime' => 'application/vnd.ms-powerpoint'
-            ],
-            'rtf' => [
-                'type' => 'file',
-                'mime' => 'application/rtf'
-            ],
-            'bmp' => [
-                'type' => 'file',
-                'mime' => 'image/bmp'
-            ],
-            'tiff' => [
-                'type' => 'file',
-                'mime' => 'image/tiff'
-            ],
-            'mpeg' => [
-                'type' => 'file',
-                'mime' => 'video/mpeg'
-            ],
-            'mpg' => [
-                'type' => 'file',
-                'mime' => 'video/mpeg'
-            ],
-            'mpe' => [
-                'type' => 'file',
-                'mime' => 'video/mpeg'
-            ],
-            'avi' => [
-                'type' => 'file',
-                'mime' => 'video/msvideo'
-            ],
-            'wmv' => [
-                'type' => 'file',
-                'mime' => 'video/x-ms-wmv'
-            ],
-            'html' => [
-                'type' => 'file',
-                'thumb' => 'media/thumb-html.png',
-                'mime' => 'text/html'
-            ],
-            'htm' => [
-                'type' => 'file',
-                'thumb' => 'media/thumb-html.png',
-                'mime' => 'text/html'
-            ],
-            'pdf' => [
-                'type' => 'file',
-                'thumb' => 'media/thumb-pdf.png',
-                'mime' => 'application/pdf'
-            ],
-            'zip' => [
-                'type' => 'file',
-                'thumb' => 'media/thumb-zip.png',
-                'mime' => 'application/zip'
-            ],
-            '7z' => [
-                'type' => 'file',
-                'thumb' => 'media/thumb-7zip.png',
-                'mime' => 'application/x-7z-compressed'
-            ],
-            'gz' => [
-                'type' => 'file',
-                'thumb' => 'media/thumb-gz.png',
-                'mime' => 'application/gzip'
-            ],
-            'tar' => [
-                'type' => 'file',
-                'mime' => 'application/x-tar'
-            ],
-            'css' => [
-                'type' => 'file',
-                'thumb' => 'media/thumb-css.png',
-                'mime' => 'text/css'
-            ],
-            'js' => [
-                'type' => 'file',
-                'thumb' => 'media/thumb-js.png',
-                'mime' => 'application/javascript'
-            ],
-            'json' => [
-                'type' => 'file',
-                'thumb' => 'media/thumb-json.png',
-                'mime' => 'application/json'
             ]
         ],
         'site' => [
@@ -586,7 +565,6 @@ return [
             'param_sep' => ':',
             'wrapped_site' => false,
             'reverse_proxy_setup' => false,
-            'proxy_url' => NULL,
             'languages' => [
                 'supported' => [
                     
@@ -662,6 +640,12 @@ return [
                 ],
                 'ignore_hidden' => true,
                 'url_taxonomy_filters' => true,
+                'frontmatter' => [
+                    'process_twig' => false,
+                    'ignore_fields' => [
+                        0 => 'form'
+                    ]
+                ],
                 'markdown_extra' => false
             ],
             'cache' => [
@@ -685,10 +669,14 @@ return [
             ],
             'assets' => [
                 'css_pipeline' => false,
+                'css_pipeline_include_externals' => true,
+                'css_pipeline_before_excludes' => true,
                 'css_minify' => true,
                 'css_minify_windows' => false,
                 'css_rewrite' => true,
                 'js_pipeline' => false,
+                'js_pipeline_include_externals' => true,
+                'js_pipeline_before_excludes' => true,
                 'js_minify' => true,
                 'enable_asset_timestamp' => false,
                 'collections' => [
@@ -728,6 +716,10 @@ return [
                 'name' => 'grav-site',
                 'secure' => false,
                 'httponly' => true
+            ],
+            'gpm' => [
+                'releases' => 'stable',
+                'proxy_url' => NULL
             ]
         ],
         'security' => [

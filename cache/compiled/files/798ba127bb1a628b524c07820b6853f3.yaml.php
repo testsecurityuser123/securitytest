@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav-2016/user/plugins/form/blueprints.yaml',
-    'modified' => 1461816938,
+    'modified' => 1468959513,
     'data' => [
         'name' => 'Form',
-        'version' => '1.2.2',
+        'version' => '1.3.0',
         'description' => 'Enables the forms handling',
         'icon' => 'check-square',
         'author' => [
@@ -17,6 +17,12 @@ return [
         'homepage' => 'https://github.com/getgrav/grav-plugin-form',
         'bugs' => 'https://github.com/getgrav/grav-plugin-form/issues',
         'license' => 'MIT',
+        'dependencies' => [
+            0 => [
+                'name' => 'grav',
+                'version' => '~1.1'
+            ]
+        ],
         'form' => [
             'validation' => 'strict',
             'fields' => [
@@ -69,6 +75,24 @@ return [
                             'validate' => [
                                 'type' => 'commalist'
                             ]
+                        ]
+                    ]
+                ],
+                'recaptcha' => [
+                    'type' => 'section',
+                    'title' => 'PLUGIN_FORM.RECAPTCHA',
+                    'fields' => [
+                        'recaptcha.site_key' => [
+                            'type' => 'text',
+                            'label' => 'PLUGIN_FORM.RECAPTCHA_SITE_KEY',
+                            'help' => 'PLUGIN_FORM.RECAPTCHA_SITE_KEY_HELP',
+                            'default' => ''
+                        ],
+                        'recaptcha.secret_key' => [
+                            'type' => 'text',
+                            'label' => 'PLUGIN_FORM.RECAPTCHA_SECRET_KEY',
+                            'help' => 'PLUGIN_FORM.RECAPTCHA_SECRET_KEY_HELP',
+                            'default' => ''
                         ]
                     ]
                 ]

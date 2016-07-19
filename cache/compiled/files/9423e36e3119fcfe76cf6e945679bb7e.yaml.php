@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav-2016/system/languages/cs.yaml',
-    'modified' => 1456435150,
+    'modified' => 1468959499,
     'data' => [
         'INFLECTOR_UNCOUNTABLE' => [
             0 => 'vybavení',
@@ -65,6 +65,7 @@ return [
         ],
         'FORM' => [
             'VALIDATION_FAIL' => '<b>Ověření se nezdařilo:</b>',
+            'INVALID_INPUT' => 'Neplatný vstup v',
             'MISSING_REQUIRED_FIELD' => 'Chybí požadované pole:'
         ],
         'MONTHS_OF_THE_YEAR' => [

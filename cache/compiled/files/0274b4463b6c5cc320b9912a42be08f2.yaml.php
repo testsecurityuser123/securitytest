@@ -2,11 +2,18 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav-2016/user/plugins/admin/admin.yaml',
-    'modified' => 1461816941,
+    'modified' => 1468959509,
     'data' => [
         'enabled' => true,
         'route' => '/admin',
         'theme' => 'grav',
+        'logo_text' => '',
+        'body_classes' => '',
+        'sidebar' => [
+            'activate' => 'tab',
+            'hover_delay' => 100,
+            'size' => 'auto'
+        ],
         'dashboard' => [
             'days_of_stats' => 7
         ],

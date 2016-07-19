@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav-2016/system/languages/hr.yaml',
-    'modified' => 1456435150,
+    'modified' => 1468959499,
     'data' => [
         'INFLECTOR_UNCOUNTABLE' => [
             0 => 'oprema',

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav-2016/system/languages/no.yaml',
-    'modified' => 1456435150,
+    'modified' => 1468959499,
     'data' => [
         'FRONTMATTER_ERROR_PAGE' => '---
 Tittel: %1$s
@@ -71,7 +71,9 @@ Pane: \'%2$s\'
             'MIN_PLURAL' => 'min',
             'HR_PLURAL' => 'timer',
             'WK_PLURAL' => 'uker',
-            'YR_PLURAL' => 'år'
+            'MO_PLURAL' => 'mdr',
+            'YR_PLURAL' => 'år',
+            'DEC_PLURAL' => 'årtier'
         ],
         'FORM' => [
             'VALIDATION_FAIL' => '<b>Validering mislyktes:</b>',

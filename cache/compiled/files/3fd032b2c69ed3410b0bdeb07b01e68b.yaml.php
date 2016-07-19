@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav-2016/user/plugins/form/languages.yaml',
-    'modified' => 1461816938,
+    'modified' => 1468959513,
     'data' => [
         'en' => [
             'PLUGIN_FORM' => [
@@ -15,13 +15,47 @@ return [
                 'DESTINATION_HELP' => 'The location where the files should be uploaded to',
                 'ACCEPT' => 'Allowed MIME Types',
                 'ACCEPT_HELP' => 'A list of MIME Types that are allowed for upload',
-                'ERROR_VALIDATING_CAPTCHA' => 'Error validating the Captcha'
+                'ERROR_VALIDATING_CAPTCHA' => 'Error validating the Captcha',
+                'DATA_SUMMARY' => 'Here is the summary of what you wrote to us:',
+                'NO_FORM_DATA' => 'No form data available',
+                'RECAPTCHA' => 'ReCaptcha',
+                'RECAPTCHA_SITE_KEY' => 'Site key',
+                'RECAPTCHA_SITE_KEY_HELP' => 'For more info visit https://developers.google.com/recaptcha',
+                'RECAPTCHA_SECRET_KEY' => 'Secret key',
+                'RECAPTCHA_SECRET_KEY_HELP' => 'For more info visit https://developers.google.com/recaptcha'
+            ]
+        ],
+        'de' => [
+            'PLUGIN_FORM' => [
+                'NOT_VALIDATED' => 'Formularwerte nicht gültig. Für ein oder mehrere erforderliche Felder fehlen Werte.',
+                'NONCE_NOT_VALIDATED' => 'Ups, es gibt da ein Problem. Eingabewerte bitte noch mal prüfen und das Formular erneut absenden.',
+                'FILES' => 'Dateien hochladen',
+                'ALLOW_MULTIPLE' => 'Erlaube mehr als eine Datei',
+                'ALLOW_MULTIPLE_HELP' => 'Erlaubt es, mehr als eine Datei zum Hochladen auszuwählen.',
+                'DESTINATION' => 'Ziel',
+                'DESTINATION_HELP' => 'Das Ziel, wohin die Dateien hochgeladen werden sollen.',
+                'ACCEPT' => 'Erlaube MIME-Typen',
+                'ACCEPT_HELP' => 'Eine Liste von MIME-Typen, die hochgeladen werden dürfen.',
+                'ERROR_VALIDATING_CAPTCHA' => 'Die Überprüfung des Captcha ist fehlgeschlagen.'
             ]
         ],
         'es' => [
             'PLUGIN_FORM' => [
-                'NOT_VALIDATED' => 'Falló la validación del formulario. Uno o más campos obligatorios no fueron capturados.',
-                'NONCE_NOT_VALIDATED' => 'Oops, hay un problema, por favor revice la información capturada e intente enviar el formulario otra vez.'
+                'NOT_VALIDATED' => 'Falló la validación del formulario. Uno o más campos obligatorios no fueron cubiertos.',
+                'NONCE_NOT_VALIDATED' => 'Oops, hay un problema, por favor revise la información e intente enviar el formulario otra vez.',
+                'FILES' => 'Subida de Ficheros',
+                'ALLOW_MULTIPLE' => 'Permitir más de un fichero',
+                'ALLOW_MULTIPLE_HELP' => 'Permitir seleccionar más de un fichero para subir.',
+                'DESTINATION' => 'Destino',
+                'DESTINATION_HELP' => 'El lugar de destino al que subir los ficheros',
+                'ACCEPT' => 'MIME Types permitidos',
+                'ACCEPT_HELP' => 'Una lista de  MIME Types que se permiten subir.',
+                'ERROR_VALIDATING_CAPTCHA' => 'Error al comrobar el Captcha',
+                'RECAPTCHA' => 'ReCaptcha',
+                'RECAPTCHA_SITE_KEY' => 'Site key',
+                'RECAPTCHA_SITE_KEY_HELP' => 'Para más información visita https://developers.google.com/recaptcha',
+                'RECAPTCHA_SECRET_KEY' => 'Secret key',
+                'RECAPTCHA_SECRET_KEY_HELP' => 'Para más información visita https://developers.google.com/recaptcha'
             ]
         ],
         'fr' => [
@@ -35,7 +69,14 @@ return [
                 'DESTINATION_HELP' => 'L\'emplacement où les fichiers doivent être chargés.',
                 'ACCEPT' => 'Autoriser les Types MIME',
                 'ACCEPT_HELP' => 'Liste des Types MIME autorisés au chargement',
-                'ERROR_VALIDATING_CAPTCHA' => 'Erreur lors de la validation du Captcha'
+                'ERROR_VALIDATING_CAPTCHA' => 'Erreur lors de la validation du Captcha',
+                'DATA_SUMMARY' => 'Voici le résumé de ce que vous nous avez écrit :',
+                'NO_FORM_DATA' => 'Aucune donnée de formulaire disponible',
+                'RECAPTCHA' => 'ReCaptcha',
+                'RECAPTCHA_SITE_KEY' => 'Clé du site',
+                'RECAPTCHA_SITE_KEY_HELP' => 'Pour plus d\'informations veuillez vous rendre sur https://developers.google.com/recaptcha',
+                'RECAPTCHA_SECRET_KEY' => 'Clé secrète',
+                'RECAPTCHA_SECRET_KEY_HELP' => 'Pour plus d\'informations veuillez vous rendre sur https://developers.google.com/recaptcha'
             ]
         ],
         'hr' => [

@@ -59,9 +59,10 @@ class __TwigTemplate_5d70e81e6fa92372237260d47ce46f6bc13f233783b5454a2eb0b3c50c8
     }
 }
 /* {% for message in admin.messages %}*/
-/* <div class="{{ message.scope|e }} alert">{{ message.message }}</div>*/
+/* <div class="{{ message.scope|e }} alert">{{ message.message|raw }}</div>*/
 /* {% endfor %}*/
 /* */
 /* {% if form.message %}*/
-/* <div class="error alert">{{ form.message }}</div>*/
+/* <div class="error alert">{{ form.message|raw }}</div>*/
 /* {% endif %}*/
+/* */

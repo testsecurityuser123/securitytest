@@ -16,10 +16,23 @@ class __TwigTemplate_e45e546bc13a2caeef17dccb42e3dbd37147c1576437a8065722f5b6373
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "<input data-grav-field=\"hidden\" data-grav-disabled=\"false\" type=\"hidden\" class=\"input\" name=\"";
-        echo $this->env->getExtension('GravTwigExtension')->fieldNameFilter(((isset($context["scope"]) ? $context["scope"] : null) . $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "name", array())));
-        echo "\" value=\"";
-        echo $this->getAttribute((isset($context["blueprints"]) ? $context["blueprints"] : null), "name", array());
+        echo "<input
+    data-grav-field=\"hidden\"
+    data-grav-disabled=\"false\"
+    type=\"hidden\"
+    class=\"input\"
+    ";
+        // line 6
+        if (($this->getAttribute((isset($context["field"]) ? $context["field"] : null), "disabled", array()) || (isset($context["isDisabledToggleable"]) ? $context["isDisabledToggleable"] : null))) {
+            echo "disabled=\"disabled\"";
+        }
+        // line 7
+        echo "    name=\"";
+        echo twig_escape_filter($this->env, $this->env->getExtension('GravTwigExtension')->fieldNameFilter(((isset($context["scope"]) ? $context["scope"] : null) . $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "name", array()))), "html", null, true);
+        echo "\"
+    value=\"";
+        // line 8
+        echo twig_escape_filter($this->env, $this->getAttribute((isset($context["blueprints"]) ? $context["blueprints"] : null), "name", array()), "html", null, true);
         echo "\" />
 ";
     }
@@ -36,8 +49,15 @@ class __TwigTemplate_e45e546bc13a2caeef17dccb42e3dbd37147c1576437a8065722f5b6373
 
     public function getDebugInfo()
     {
-        return array (  19 => 1,);
+        return array (  35 => 8,  30 => 7,  26 => 6,  19 => 1,);
     }
 }
-/* <input data-grav-field="hidden" data-grav-disabled="false" type="hidden" class="input" name="{{ (scope ~ field.name)|fieldName }}" value="{{ blueprints.name }}" />*/
+/* <input*/
+/*     data-grav-field="hidden"*/
+/*     data-grav-disabled="false"*/
+/*     type="hidden"*/
+/*     class="input"*/
+/*     {% if field.disabled or isDisabledToggleable %}disabled="disabled"{% endif %}*/
+/*     name="{{ (scope ~ field.name)|fieldName }}"*/
+/*     value="{{ blueprints.name }}" />*/
 /* */
