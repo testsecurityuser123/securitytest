@@ -94,7 +94,7 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 \t</section>
 
 \t<section class=\"home-about\" id=\"about\">
-\t\t<div class=\"home-about-container\">
+\t\t<div class=\"home-about-container\" data-50p-bottom=\"transform:translateY(10%)scale(1);opacity:0;\" data-end=\"transform:translateY(-40%)scale(1);opacity:1;\">
 
 \t\t\t<div class=\"home-about-main-container\">
 \t\t\t\t<h3>";
@@ -253,7 +253,7 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 /* 	</section>*/
 /* */
 /* 	<section class="home-about" id="about">*/
-/* 		<div class="home-about-container">*/
+/* 		<div class="home-about-container" data-50p-bottom="transform:translateY(10%)scale(1);opacity:0;" data-end="transform:translateY(-40%)scale(1);opacity:1;">*/
 /* */
 /* 			<div class="home-about-main-container">*/
 /* 				<h3>{{ page.header.about_title }}</h3>*/

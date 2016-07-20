@@ -650,7 +650,12 @@ Module: Project Description
     z-index: 2;
     max-width: 80em;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    transform: translateY(0%); }
     .home-about .home-about-container::after {
       clear: both;
       content: "";

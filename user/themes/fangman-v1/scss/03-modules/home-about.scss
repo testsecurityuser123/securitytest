@@ -30,6 +30,7 @@ Module: Project Description
 		position: relative;
 		z-index: 2;
 		@include outer-container;
+		@include transform(translateY(0%));
 		// top: 50%;
 		// @include transform(translateY(-50%));
 		// padding-bottom: rem(60);

@@ -55,61 +55,6 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/images\/6\/c\/6\/9\/b\/6c69b630576dd2835fabc419c9e8bdbf08cc9b51-connect-desktop-800px.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 18513,
-		"inputAbbreviatedPath": "\/images\/6\/c\/6\/9\/b\/6c69b630576dd2835fabc419c9e8bdbf08cc9b51-connect-desktop-800px.png",
-		"outputAbbreviatedPath": "\/images\/6\/c\/6\/9\/b\/6c69b630576dd2835fabc419c9e8bdbf08cc9b51-connect-desktop-800px.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/7\/b\/8\/3\/b\/7b83b1069f157081a5f36443450dc83dc24b9787-street-1.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6922,
-		"inputAbbreviatedPath": "\/images\/7\/b\/8\/3\/b\/7b83b1069f157081a5f36443450dc83dc24b9787-street-1.jpeg",
-		"outputAbbreviatedPath": "\/images\/7\/b\/8\/3\/b\/7b83b1069f157081a5f36443450dc83dc24b9787-street-1.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/9\/b\/a\/0\/e\/9ba0e744a2194e14a05f22b28f1bfd0e91a8c637-audience.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7743,
-		"inputAbbreviatedPath": "\/images\/9\/b\/a\/0\/e\/9ba0e744a2194e14a05f22b28f1bfd0e91a8c637-audience.jpeg",
-		"outputAbbreviatedPath": "\/images\/9\/b\/a\/0\/e\/9ba0e744a2194e14a05f22b28f1bfd0e91a8c637-audience.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/b\/f\/0\/c\/e\/bf0ce30bfed4f1f1ecc3430583d3dd4c40b40ffb-theconnectionny60393.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6277,
-		"inputAbbreviatedPath": "\/images\/b\/f\/0\/c\/e\/bf0ce30bfed4f1f1ecc3430583d3dd4c40b40ffb-theconnectionny60393.jpeg",
-		"outputAbbreviatedPath": "\/images\/b\/f\/0\/c\/e\/bf0ce30bfed4f1f1ecc3430583d3dd4c40b40ffb-theconnectionny60393.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/b\/f\/c\/9\/1\/bfc91c08d3c260d2758903d888fe704f6e912288-connection-mobile-360px.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 19980,
-		"inputAbbreviatedPath": "\/images\/b\/f\/c\/9\/1\/bfc91c08d3c260d2758903d888fe704f6e912288-connection-mobile-360px.png",
-		"outputAbbreviatedPath": "\/images\/b\/f\/c\/9\/1\/bfc91c08d3c260d2758903d888fe704f6e912288-connection-mobile-360px.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,
