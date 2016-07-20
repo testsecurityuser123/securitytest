@@ -990,14 +990,7 @@ Module: Project Introduction
           padding-bottom: 50%; } }
       @media screen and (min-width: 64em) {
         .project-intro .project-intro-container .project-intro-info-container {
-          float: left;
-          display: block;
-          margin-right: 2.3576515979%;
-          width: 100%;
-          margin-left: 0%;
-          padding-bottom: 50%; }
-          .project-intro .project-intro-container .project-intro-info-container:last-child {
-            margin-right: 0; } }
+          padding-bottom: 50%; } }
       .project-intro .project-intro-container .project-intro-info-container .project-intro-info {
         position: relative;
         top: 3.75rem;

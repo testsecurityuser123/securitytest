@@ -1,0 +1,33 @@
+1469589292
+a:2:{s:7:"content";s:1515:"<section class="project-ps">
+	<div class="project-ps-container">
+		<div class="project-ps-phone-container">
+			
+			<div class="project-ps-slider">
+			  					  	<a href="http://localhost:8888/portfolio-grav-2016/tcan/_tcan-mobile-designs/t50i01-tcan-homepage-mobile-v1.1.jpg" class="project-ps-slide">
+				  		<div class="project-ps-slide-image">
+				  			<img src="http://localhost:8888/portfolio-grav-2016/tcan/_tcan-mobile-designs/t50i01-tcan-homepage-mobile-v1.1.jpg" alt="">
+				  		</div>
+				  	</a>
+			  					  	<a href="http://localhost:8888/portfolio-grav-2016/tcan/_tcan-mobile-designs/t50i01-tcan-homepage-mobile-v1.2.jpg" class="project-ps-slide">
+				  		<div class="project-ps-slide-image">
+				  			<img src="http://localhost:8888/portfolio-grav-2016/tcan/_tcan-mobile-designs/t50i01-tcan-homepage-mobile-v1.2.jpg" alt="">
+				  		</div>
+				  	</a>
+			  				</div>
+		</div>
+
+
+
+		<div class="project-ps-content-container">
+			<div class="project-ps-content-inner-container">
+				<h3>Responsive Structure</h3>
+				<p><p>As the majority of TCAN's members are often on the go, designing a simple, consistent experience across all devices was a must. To optimize for smaller screen sizes, extra care was given to the event calendar and membership criteria section as well as the navigation.</p></p>
+							</div>
+		</div>
+	</div>
+
+	<div class="project-ps-background" style="background-image: url(' http://localhost:8888/portfolio-grav-2016/tcan/_tcan-mobile-designs/building-4.jpg');"></div>
+</section>
+
+";s:12:"content_meta";N;}

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav-2016/user/config/system.yaml',
-    'modified' => 1467155841,
+    'modified' => 1468984451,
     'data' => [
         'absolute_urls' => false,
         'param_sep' => ':',
@@ -78,6 +78,12 @@ return [
             ],
             'ignore_hidden' => true,
             'url_taxonomy_filters' => true,
+            'frontmatter' => [
+                'process_twig' => false,
+                'ignore_fields' => [
+                    0 => 'form'
+                ]
+            ],
             'markdown_extra' => false
         ],
         'cache' => [
@@ -101,10 +107,14 @@ return [
         ],
         'assets' => [
             'css_pipeline' => false,
+            'css_pipeline_include_externals' => true,
+            'css_pipeline_before_excludes' => true,
             'css_minify' => true,
             'css_minify_windows' => false,
             'css_rewrite' => true,
             'js_pipeline' => false,
+            'js_pipeline_include_externals' => true,
+            'js_pipeline_before_excludes' => true,
             'js_minify' => true,
             'enable_asset_timestamp' => false,
             'collections' => [
@@ -138,6 +148,9 @@ return [
             'name' => 'grav-site',
             'secure' => false,
             'httponly' => true
+        ],
+        'gpm' => [
+            'releases' => 'stable'
         ]
     ]
 ];

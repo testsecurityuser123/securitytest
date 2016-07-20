@@ -20,7 +20,7 @@ class __TwigTemplate_02932edd84cd49398c7a465f2e0ccaa81d5d031c779d1b1c906430bcc6d
 \t<div class=\"project-intro-container\">
 \t\t
 \t\t<div class=\"project-intro-info-container\">
-\t\t\t<div class=\"project-intro-info\">
+\t\t\t<div class=\"project-intro-info\" data-start=\"opacity:1;;transform:translateY(0%);\" data-top-bottom=\"opacity:0;;transform:translateY(50%);\">
 \t\t\t\t<h2>";
         // line 6
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "title", array());
@@ -39,14 +39,14 @@ class __TwigTemplate_02932edd84cd49398c7a465f2e0ccaa81d5d031c779d1b1c906430bcc6d
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array(0 => true), "method");
         echo "/";
         echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "project_img_laptop", array());
-        echo "');\"></div>
+        echo "');\" data-start=\"background-position:center -.5%;\" data-top-bottom=\"background-position:center 10%;\"></div>
 
 \t\t\t<div class=\"project-intro-image-phone\" style=\"background-image: url(' ";
         // line 15
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array(0 => true), "method");
         echo "/";
         echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "project_img_phone", array());
-        echo "');\"></div>
+        echo "');\" data-start=\"background-position:63% -.5%;\" data-top-bottom=\"background-position:63% 15%\"></div>
 
 \t\t</div>
 
@@ -81,7 +81,7 @@ class __TwigTemplate_02932edd84cd49398c7a465f2e0ccaa81d5d031c779d1b1c906430bcc6d
 /* 	<div class="project-intro-container">*/
 /* 		*/
 /* 		<div class="project-intro-info-container">*/
-/* 			<div class="project-intro-info">*/
+/* 			<div class="project-intro-info" data-start="opacity:1;;transform:translateY(0%);" data-top-bottom="opacity:0;;transform:translateY(50%);">*/
 /* 				<h2>{{ page.title }}</h2>*/
 /* 				{{ content }}*/
 /* 			</div>*/
@@ -89,9 +89,9 @@ class __TwigTemplate_02932edd84cd49398c7a465f2e0ccaa81d5d031c779d1b1c906430bcc6d
 /* */
 /* 		<div class="project-intro-image-container">*/
 /* */
-/* 			<div class="project-intro-image-laptop" style="background-image: url(' {{ page.url(true) }}/{{ header.project_img_laptop }}');"></div>*/
+/* 			<div class="project-intro-image-laptop" style="background-image: url(' {{ page.url(true) }}/{{ header.project_img_laptop }}');" data-start="background-position:center -.5%;" data-top-bottom="background-position:center 10%;"></div>*/
 /* */
-/* 			<div class="project-intro-image-phone" style="background-image: url(' {{ page.url(true) }}/{{ header.project_img_phone }}');"></div>*/
+/* 			<div class="project-intro-image-phone" style="background-image: url(' {{ page.url(true) }}/{{ header.project_img_phone }}');" data-start="background-position:63% -.5%;" data-top-bottom="background-position:63% 15%"></div>*/
 /* */
 /* 		</div>*/
 /* */

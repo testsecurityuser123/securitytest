@@ -66,8 +66,8 @@ Module: Project Introduction
 			}
 
 			@include breakpoint($bp-l) {
-				@include span-columns(12);
-				@include shift(0);
+				// @include span-columns(12);
+				// @include shift(0);
 
 				padding-bottom: 50%;
 			}
