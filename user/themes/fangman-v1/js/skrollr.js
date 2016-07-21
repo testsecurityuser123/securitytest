@@ -1525,7 +1525,7 @@
 
 		if(_forceHeight && !_isMobile) {
 			//"force" the height.
-			body.style.height = (_maxKeyFrame + documentElement.clientHeight) + 'px';
+			body.style.height = (auto) + 'px';
 		}
 
 		//The scroll offset may now be larger than needed (on desktop the browser/os prevents scrolling farther than the bottom).
@@ -1674,6 +1674,7 @@
 	/*
 		A list of all elements which should be animated associated with their the metadata.
 		Exmaple skrollable with two key frames animating from 100px width to 20px:
+
 		skrollable = {
 			element: <the DOM element>,
 			styleAttr: <style attribute of the element before skrollr>,
@@ -1745,7 +1746,7 @@
 
 	//Each skrollable gets an unique ID incremented for each skrollable.
 	//The ID is the index in the _skrollables array.
-	var _skrollableIdCounter = 0;	
+	var _skrollableIdCounter = 0;
 
 	var _edgeStrategy;
 

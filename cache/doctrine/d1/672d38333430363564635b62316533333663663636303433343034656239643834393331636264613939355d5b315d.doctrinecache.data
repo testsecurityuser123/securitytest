@@ -1,0 +1,23 @@
+1469675839
+a:2:{s:7:"content";s:918:"<section class="project-desc">
+	<div class="project-desc-container">
+
+		<div class="project-desc-main-container">
+			<h3>Condimentum Amet Vestibulum Porta Sit</h3>
+			<p><p>Curabitur blandit tempus porttitor. Vestibulum id ligula porta felis euismod semper. Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></p>
+		</div>
+
+		<div class="project-desc-side-container">
+							<div class="project-desc-attribute">
+											<h6>Role</h6>
+																<p>Design, UX, Something, Something, Something</p>
+									</div>
+							<div class="project-desc-attribute">
+											<h6>Credits</h6>
+																<p>Curabitur blandit tempus porttitor. Vestibulum id ligula porta felis euismod semper. Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+									</div>
+					</div>
+	</div>
+</section>
+
+";s:12:"content_meta";N;}

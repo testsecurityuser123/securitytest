@@ -27,7 +27,8 @@ body {
   min-height: 100%; }
   body #skrollr-body {
     position: relative;
-    padding-bottom: 3.375rem; }
+    padding-bottom: 3.375rem;
+    max-height: 100%; }
   body #body {
     min-height: 100%; }
   body .btn, body .login-container .login #private fieldset .buttons .button, .login-container .login #private fieldset .buttons body .button {

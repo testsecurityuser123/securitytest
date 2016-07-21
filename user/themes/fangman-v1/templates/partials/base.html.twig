@@ -32,8 +32,8 @@
     {% block javascripts %}
         {% do assets.addJs('jquery',101) %}
         {% do assets.addJs('theme://js/min/modernizr-min.js',100) %}
-        {% do assets.addJs('theme://js/min/skrollr-min.js',99) %}
-        {% do assets.addJs('theme://js/slick.min.js' ,98) %}
+        {% do assets.addJs('theme://js/slick.min.js' ,99) %}
+        {% do assets.addJs('theme://js/min/skrollr-min.js',93) %}
         {% do assets.addJs('theme://js/magnific-popup.js' ,97) %}
         {% do assets.addJs('theme://js/min/jqwidont-min.js' ,96) %}
         {% do assets.addJs('theme://js/min/fittext-min.js' ,95) %}
@@ -53,9 +53,8 @@
       </div>
    {#  </div> #}
     <div id="sb-site">
-        <div id="skrollr-body">
         {% block header %}
-        <header id="site-navigation">
+        <header id="site-navigation" data-start="position:fixed;">
             <div class="site-nav-logo">
                 <a href="{{ base_url }}/#welcome"><span class="site-title">{{ config.site.title }}<span class="nav-back"></span></a>
             </div>
@@ -76,6 +75,7 @@
             <span class="panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars"></span>
         </div> #}
         {% endblock %}
+        <div id="skrollr-body">
 
         {% block showcase %}{% endblock %}
 
@@ -113,12 +113,16 @@
         </script>
 
         <script type="text/javascript">
-            var s = skrollr.init({forceHeight: false});
+            jQuery(".home-hero-content h1").fitText(.5, { minFontSize: '30px', maxFontSize: '150px' });
+            jQuery(".project-intro-info h2").fitText(.5, { minFontSize: '24px', maxFontSize: '90px' });
         </script>
 
         <script type="text/javascript">
-            jQuery(".home-hero-content h1").fitText(.5, { minFontSize: '30px', maxFontSize: '150px' });
-            jQuery(".project-intro-info h2").fitText(.5, { minFontSize: '24px', maxFontSize: '90px' });
+            $(document).ready(function(){
+                var s = skrollr.init({
+                    forceHeight: false
+                });
+            });
         </script>
         
     {% endblock %}

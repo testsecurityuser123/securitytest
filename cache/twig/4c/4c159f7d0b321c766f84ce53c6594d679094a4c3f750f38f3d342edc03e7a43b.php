@@ -53,12 +53,12 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
    ";
         // line 55
         echo "    <div id=\"sb-site\">
-        <div id=\"skrollr-body\">
         ";
-        // line 57
+        // line 56
         $this->displayBlock('header', $context, $blocks);
-        // line 79
-        echo "
+        // line 78
+        echo "        <div id=\"skrollr-body\">
+
         ";
         // line 80
         $this->displayBlock('showcase', $context, $blocks);
@@ -79,7 +79,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
         // line 101
         echo "    ";
         $this->displayBlock('bottom', $context, $blocks);
-        // line 125
+        // line 129
         echo "</body>
 </html>
 ";
@@ -163,10 +163,10 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/min/modernizr-min.js", 1 => 100), "method");
         // line 35
         echo "        ";
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/min/skrollr-min.js", 1 => 99), "method");
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/slick.min.js", 1 => 99), "method");
         // line 36
         echo "        ";
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/slick.min.js", 1 => 98), "method");
+        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/min/skrollr-min.js", 1 => 93), "method");
         // line 37
         echo "        ";
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/magnific-popup.js", 1 => 97), "method");
@@ -184,14 +184,14 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
     ";
     }
 
-    // line 57
+    // line 56
     public function block_header($context, array $blocks = array())
     {
-        // line 58
-        echo "        <header id=\"site-navigation\">
+        // line 57
+        echo "        <header id=\"site-navigation\" data-start=\"position:fixed;\">
             <div class=\"site-nav-logo\">
                 <a href=\"";
-        // line 60
+        // line 59
         echo (isset($context["base_url"]) ? $context["base_url"] : null);
         echo "/#welcome\"><span class=\"site-title\">";
         echo $this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "site", array()), "title", array());
@@ -200,17 +200,17 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
             <div class=\"menu-toggle\">Menu<div class=\"icon\"></div></div>
             <div class=\"site-nav-menu-container\">
                 <a href=\"";
-        // line 64
+        // line 63
         echo (isset($context["base_url"]) ? $context["base_url"] : null);
         echo "/#about\"><h6>About</h6></a>
                 <a href=\"";
-        // line 65
+        // line 64
         echo (isset($context["base_url"]) ? $context["base_url"] : null);
         echo "/#work\"><h6>Work</h6></a>
             </div>
         </header>
         ";
-        // line 78
+        // line 77
         echo "        ";
     }
 
@@ -270,12 +270,16 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
         </script>
 
         <script type=\"text/javascript\">
-            var s = skrollr.init({forceHeight: false});
+            jQuery(\".home-hero-content h1\").fitText(.5, { minFontSize: '30px', maxFontSize: '150px' });
+            jQuery(\".project-intro-info h2\").fitText(.5, { minFontSize: '24px', maxFontSize: '90px' });
         </script>
 
         <script type=\"text/javascript\">
-            jQuery(\".home-hero-content h1\").fitText(.5, { minFontSize: '30px', maxFontSize: '150px' });
-            jQuery(\".project-intro-info h2\").fitText(.5, { minFontSize: '24px', maxFontSize: '90px' });
+            \$(document).ready(function(){
+                var s = skrollr.init({
+                    forceHeight: false
+                });
+            });
         </script>
         
     ";
@@ -293,7 +297,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 
     public function getDebugInfo()
     {
-        return array (  257 => 102,  254 => 101,  246 => 89,  243 => 88,  238 => 84,  233 => 85,  231 => 84,  226 => 83,  223 => 82,  218 => 80,  214 => 78,  208 => 65,  204 => 64,  195 => 60,  191 => 58,  188 => 57,  183 => 41,  180 => 40,  177 => 39,  174 => 38,  171 => 37,  168 => 36,  165 => 35,  162 => 34,  159 => 33,  156 => 32,  152 => 29,  149 => 21,  146 => 20,  143 => 19,  140 => 18,  132 => 43,  130 => 32,  124 => 30,  122 => 18,  117 => 15,  112 => 12,  108 => 11,  105 => 10,  103 => 9,  95 => 8,  92 => 7,  89 => 6,  83 => 125,  80 => 101,  76 => 94,  74 => 88,  71 => 87,  69 => 82,  66 => 81,  64 => 80,  61 => 79,  59 => 57,  55 => 55,  48 => 49,  44 => 47,  41 => 46,  39 => 6,  33 => 3,  30 => 2,  28 => 1,);
+        return array (  257 => 102,  254 => 101,  246 => 89,  243 => 88,  238 => 84,  233 => 85,  231 => 84,  226 => 83,  223 => 82,  218 => 80,  214 => 77,  208 => 64,  204 => 63,  195 => 59,  191 => 57,  188 => 56,  183 => 41,  180 => 40,  177 => 39,  174 => 38,  171 => 37,  168 => 36,  165 => 35,  162 => 34,  159 => 33,  156 => 32,  152 => 29,  149 => 21,  146 => 20,  143 => 19,  140 => 18,  132 => 43,  130 => 32,  124 => 30,  122 => 18,  117 => 15,  112 => 12,  108 => 11,  105 => 10,  103 => 9,  95 => 8,  92 => 7,  89 => 6,  83 => 129,  80 => 101,  76 => 94,  74 => 88,  71 => 87,  69 => 82,  66 => 81,  64 => 80,  60 => 78,  58 => 56,  55 => 55,  48 => 49,  44 => 47,  41 => 46,  39 => 6,  33 => 3,  30 => 2,  28 => 1,);
     }
 }
 /* {% set theme_config = attribute(config.themes, config.system.pages.theme) %}*/
@@ -330,8 +334,8 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 /*     {% block javascripts %}*/
 /*         {% do assets.addJs('jquery',101) %}*/
 /*         {% do assets.addJs('theme://js/min/modernizr-min.js',100) %}*/
-/*         {% do assets.addJs('theme://js/min/skrollr-min.js',99) %}*/
-/*         {% do assets.addJs('theme://js/slick.min.js' ,98) %}*/
+/*         {% do assets.addJs('theme://js/slick.min.js' ,99) %}*/
+/*         {% do assets.addJs('theme://js/min/skrollr-min.js',93) %}*/
 /*         {% do assets.addJs('theme://js/magnific-popup.js' ,97) %}*/
 /*         {% do assets.addJs('theme://js/min/jqwidont-min.js' ,96) %}*/
 /*         {% do assets.addJs('theme://js/min/fittext-min.js' ,95) %}*/
@@ -351,9 +355,8 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 /*       </div>*/
 /*    {#  </div> #}*/
 /*     <div id="sb-site">*/
-/*         <div id="skrollr-body">*/
 /*         {% block header %}*/
-/*         <header id="site-navigation">*/
+/*         <header id="site-navigation" data-start="position:fixed;">*/
 /*             <div class="site-nav-logo">*/
 /*                 <a href="{{ base_url }}/#welcome"><span class="site-title">{{ config.site.title }}<span class="nav-back"></span></a>*/
 /*             </div>*/
@@ -374,6 +377,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 /*             <span class="panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars"></span>*/
 /*         </div> #}*/
 /*         {% endblock %}*/
+/*         <div id="skrollr-body">*/
 /* */
 /*         {% block showcase %}{% endblock %}*/
 /* */
@@ -411,12 +415,16 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 /*         </script>*/
 /* */
 /*         <script type="text/javascript">*/
-/*             var s = skrollr.init({forceHeight: false});*/
+/*             jQuery(".home-hero-content h1").fitText(.5, { minFontSize: '30px', maxFontSize: '150px' });*/
+/*             jQuery(".project-intro-info h2").fitText(.5, { minFontSize: '24px', maxFontSize: '90px' });*/
 /*         </script>*/
 /* */
 /*         <script type="text/javascript">*/
-/*             jQuery(".home-hero-content h1").fitText(.5, { minFontSize: '30px', maxFontSize: '150px' });*/
-/*             jQuery(".project-intro-info h2").fitText(.5, { minFontSize: '24px', maxFontSize: '90px' });*/
+/*             $(document).ready(function(){*/
+/*                 var s = skrollr.init({*/
+/*                     forceHeight: false*/
+/*                 });*/
+/*             });*/
 /*         </script>*/
 /*         */
 /*     {% endblock %}*/
