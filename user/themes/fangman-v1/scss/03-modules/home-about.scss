@@ -37,7 +37,7 @@ Module: Project Description
 
 		@include breakpoint($bp-m) {
 			top: 50%;
-			@include transform(translateY(-50%));
+			@include transform(translateY(-45%));
 		}
 
 		p {
@@ -62,7 +62,7 @@ Module: Project Description
 				margin-bottom: rem(0);
 
 				@include breakpoint($bp-m) {
-					margin-bottom: rem(60);
+					//margin-bottom: rem(60);
 				}
 
 				.home-about-social {
@@ -153,5 +153,7 @@ Module: Project Description
 
 		@include filter(grayscale(100%));
 		opacity: .05;
+
+		max-height: 100vh;
 	}
 }

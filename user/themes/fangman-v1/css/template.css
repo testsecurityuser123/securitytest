@@ -72,10 +72,11 @@ body {
   body a.btn, body .login-container .login #private fieldset .buttons a.button, .login-container .login #private fieldset .buttons body a.button {
     color: #fff; }
   body #footer {
-    position: absolute;
+    position: fixed;
     right: 0;
     bottom: 0;
     left: 0;
+    pointer-events: none;
     z-index: 3;
     max-width: 80em;
     margin-left: auto;
@@ -520,6 +521,7 @@ h6, .testt {
     bottom: 1.875rem;
     height: 1.875rem;
     width: 1.875rem;
+    margin-left: -0.9375rem;
     display: block;
     -webkit-transition: all 0.25s ease;
     -moz-transition: all 0.25s ease;
@@ -617,6 +619,7 @@ h6, .testt {
   left: 0;
   right: 0;
   height: 100%;
+  max-height: 100vh;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -663,11 +666,11 @@ Module: Project Description
     @media screen and (min-width: 48em) {
       .home-about .home-about-container {
         top: 50%;
-        -webkit-transform: translateY(-50%);
-        -moz-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        -o-transform: translateY(-50%);
-        transform: translateY(-50%); } }
+        -webkit-transform: translateY(-45%);
+        -moz-transform: translateY(-45%);
+        -ms-transform: translateY(-45%);
+        -o-transform: translateY(-45%);
+        transform: translateY(-45%); } }
     .home-about .home-about-container p {
       color: #fff; }
     .home-about .home-about-container .home-about-main-container {
@@ -698,9 +701,6 @@ Module: Project Description
       .home-about .home-about-container .home-about-main-container .home-about-social-container {
         margin-top: 1.875rem;
         margin-bottom: 0rem; }
-        @media screen and (min-width: 48em) {
-          .home-about .home-about-container .home-about-main-container .home-about-social-container {
-            margin-bottom: 3.75rem; } }
         .home-about .home-about-container .home-about-main-container .home-about-social-container .home-about-social {
           display: inline-block;
           position: relative;
@@ -777,7 +777,8 @@ Module: Project Description
     background-size: cover;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
-    opacity: .05; }
+    opacity: .05;
+    max-height: 100vh; }
 
 .home-work .home-work-feed {
   position: relative;
@@ -948,7 +949,8 @@ Module: Project Introduction
     background-repeat: no-repeat;
     opacity: 0.1;
     -webkit-filter: grayscale(100%);
-    filter: grayscale(100%); }
+    filter: grayscale(100%);
+    max-height: 100vh; }
   .project-intro .project-intro-container {
     position: relative;
     z-index: 2;

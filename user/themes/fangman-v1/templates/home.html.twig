@@ -2,7 +2,7 @@
 
 {% block content %}
 	<section class="home-hero" id="welcome">
-		<div class="home-hero-content" data-center-center="opacity:1;transform:translateY(-50%);" data--50-top-bottom="opacity:0;transform:translateY(100%);">
+		<div class="home-hero-content" data-center-center="opacity:1;transform:translateY(-50%);" data--100-top-bottom="opacity:0;transform:translateY(120%);">
 			{{ page.content }}
 		</div>
 
@@ -15,6 +15,8 @@
 			  <span>Work</span>
 			</div>
 		</a>
+		{# Background Image #}
+		<div class="home-bkg" style="background-image: url('{{ header.header_background_img }}');" data-0p="transform:scale(1.05);opacity:0.1;z-index:1;" data-100p="transform:scale(1);opacity:0.0;z-index:0;"></div>
 	</section>
 
 	<section class="home-work" id="work">
@@ -48,7 +50,7 @@
 	</section>
 
 	<section class="home-about" id="about">
-		<div class="home-about-container" data-50p-bottom="transform:translateY(10%)scale(1);opacity:0;" data-end="transform:translateY(-40%)scale(1);opacity:1;">
+		<div class="home-about-container" data-bottom-top="opacity:0;top:75%;" data-center-top="opacity:1;top:50%;">
 
 			<div class="home-about-main-container">
 				<h3>{{ page.header.about_title }}</h3>
@@ -80,8 +82,4 @@
 		<div class="home-about-background-image" style="background-image: url(' {{ header.about_background_img }} ');" data-0-end="transform:scale(1.05);opacity:0.05;z-index:1;" data-600-end="transform:scale(1);opacity:0.0;z-index:0"></div>
 	</section>
 
-
-
-	{# Background Image #}
-		<div class="home-bkg" style="background-image: url('{{ header.header_background_img }}');" data-0p="transform:scale(1.05);opacity:0.1;z-index:1;" data-100p="transform:scale(1);opacity:0.0;z-index:0;"></div>
 {% endblock %}

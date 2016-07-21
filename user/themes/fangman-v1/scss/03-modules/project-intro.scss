@@ -26,6 +26,8 @@ Module: Project Introduction
 		opacity: 0.1;
 		@include filter(grayscale(100%));
 
+		max-height: 100vh;
+
 	}
 	.project-intro-container {
 		position: relative;
