@@ -39,7 +39,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
         $this->displayBlock('head', $context, $blocks);
         // line 46
         echo "</head>
-<body id=\"top\" class=\"";
+<body id=\"top\" class=\"no-js ";
         // line 47
         echo $this->getAttribute($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "header", array()), "body_classes", array());
         echo "\">
@@ -79,7 +79,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
         // line 101
         echo "    ";
         $this->displayBlock('bottom', $context, $blocks);
-        // line 133
+        // line 137
         echo "</body>
 </html>
 ";
@@ -160,7 +160,6 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "jquery", 1 => 101), "method");
         // line 34
         echo "        ";
-        $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/min/modernizr-min.js", 1 => 100), "method");
         // line 35
         echo "        ";
         $this->getAttribute((isset($context["assets"]) ? $context["assets"] : null), "addJs", array(0 => "theme://js/slick.min.js", 1 => 99), "method");
@@ -259,6 +258,10 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
         echo "
 
         <script>
+            \$('body').removeClass('no-js');
+        </script>
+
+        <script>
             \$(function () {
                 \$(document).ready(function() {
                   \$.slidebars({
@@ -301,7 +304,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 
     public function getDebugInfo()
     {
-        return array (  257 => 102,  254 => 101,  246 => 89,  243 => 88,  238 => 84,  233 => 85,  231 => 84,  226 => 83,  223 => 82,  218 => 80,  214 => 77,  208 => 64,  204 => 63,  195 => 59,  191 => 57,  188 => 56,  183 => 41,  180 => 40,  177 => 39,  174 => 38,  171 => 37,  168 => 36,  165 => 35,  162 => 34,  159 => 33,  156 => 32,  152 => 29,  149 => 21,  146 => 20,  143 => 19,  140 => 18,  132 => 43,  130 => 32,  124 => 30,  122 => 18,  117 => 15,  112 => 12,  108 => 11,  105 => 10,  103 => 9,  95 => 8,  92 => 7,  89 => 6,  83 => 133,  80 => 101,  76 => 94,  74 => 88,  71 => 87,  69 => 82,  66 => 81,  64 => 80,  60 => 78,  58 => 56,  55 => 55,  48 => 49,  44 => 47,  41 => 46,  39 => 6,  33 => 3,  30 => 2,  28 => 1,);
+        return array (  256 => 102,  253 => 101,  245 => 89,  242 => 88,  237 => 84,  232 => 85,  230 => 84,  225 => 83,  222 => 82,  217 => 80,  213 => 77,  207 => 64,  203 => 63,  194 => 59,  190 => 57,  187 => 56,  182 => 41,  179 => 40,  176 => 39,  173 => 38,  170 => 37,  167 => 36,  164 => 35,  162 => 34,  159 => 33,  156 => 32,  152 => 29,  149 => 21,  146 => 20,  143 => 19,  140 => 18,  132 => 43,  130 => 32,  124 => 30,  122 => 18,  117 => 15,  112 => 12,  108 => 11,  105 => 10,  103 => 9,  95 => 8,  92 => 7,  89 => 6,  83 => 137,  80 => 101,  76 => 94,  74 => 88,  71 => 87,  69 => 82,  66 => 81,  64 => 80,  60 => 78,  58 => 56,  55 => 55,  48 => 49,  44 => 47,  41 => 46,  39 => 6,  33 => 3,  30 => 2,  28 => 1,);
     }
 }
 /* {% set theme_config = attribute(config.themes, config.system.pages.theme) %}*/
@@ -337,7 +340,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 /* */
 /*     {% block javascripts %}*/
 /*         {% do assets.addJs('jquery',101) %}*/
-/*         {% do assets.addJs('theme://js/min/modernizr-min.js',100) %}*/
+/*         {# {% do assets.addJs('theme://js/min/modernizr-min.js',100) %} #}*/
 /*         {% do assets.addJs('theme://js/slick.min.js' ,99) %}*/
 /*         {% do assets.addJs('theme://js/min/skrollr-min.js',93) %}*/
 /*         {% do assets.addJs('theme://js/magnific-popup.js' ,97) %}*/
@@ -350,7 +353,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 /* */
 /* {% endblock head%}*/
 /* </head>*/
-/* <body id="top" class="{{ page.header.body_classes }}">*/
+/* <body id="top" class="no-js {{ page.header.body_classes }}">*/
 /*     {# <div id="preloader"> #}*/
 /*       <div id="preloader">*/
 /*         <div class="pl-circle pl-circle-one"></div>*/
@@ -406,6 +409,10 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 /*     </div> #}*/
 /*     {% block bottom %}*/
 /*         {{ assets.js('bottom') }}*/
+/* */
+/*         <script>*/
+/*             $('body').removeClass('no-js');*/
+/*         </script>*/
 /* */
 /*         <script>*/
 /*             $(function () {*/

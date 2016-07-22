@@ -100,7 +100,7 @@ body {
       body #footer .footer-credit:last-child {
         margin-right: 0; }
 
-.noSkrollr #footer {
+.noSkrollr #footer, .no-js #footer {
   position: absolute; }
 
 /* =========================================================
@@ -147,10 +147,8 @@ Base: Preloader
   100% {
     transform: scale(3);
     opacity: 0; } }
-.no-js #loader-wrapper {
+.no-js #preloader {
   display: none; }
-.no-js h1 {
-  color: #cb4e4e; }
 
 * {
   text-rendering: optimizeLegibility; }
@@ -631,9 +629,9 @@ h6, .testt {
   filter: grayscale(100%);
   opacity: .05; }
 
-.noSkrollr .home-bkg {
+.noSkrollr .home-bkg, .no-js .home-bkg {
   position: absolute; }
-  .noSkrollr .home-bkg:before {
+  .noSkrollr .home-bkg:before, .no-js .home-bkg:before {
     content: '';
     display: block;
     position: absolute;
@@ -663,8 +661,8 @@ Module: Project Description
     display: table; }
   @media screen and (min-width: 48em) {
     .home-about {
-      min-height: 95vh;
-      height: 95vh; } }
+      min-height: 100vh;
+      height: 100vh; } }
   .home-about .home-about-container {
     position: relative;
     z-index: 2;
@@ -792,14 +790,14 @@ Module: Project Description
     left: 0;
     right: 0;
     background-size: cover;
+    background-position: center;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
-    opacity: .05;
-    max-height: 100vh; }
+    opacity: .05; }
 
-.noSkrollr .home-about-background-image {
+.noSkrollr .home-about-background-image, .no-js .home-about-background-image {
   position: absolute; }
-  .noSkrollr .home-about-background-image:before {
+  .noSkrollr .home-about-background-image:before, .no-js .home-about-background-image:before {
     content: '';
     display: block;
     position: absolute;

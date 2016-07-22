@@ -20,8 +20,8 @@ Module: Project Description
 	clear: both;
 
 	@include breakpoint($bp-m) {
-		min-height: 95vh;
-		height: 95vh;
+		min-height: 100vh;
+		height: 100vh;
 	}
 
 
@@ -150,15 +150,16 @@ Module: Project Description
 		left: 0;
 		right: 0;
 		background-size: cover;
+		background-position: center;
 
 		@include filter(grayscale(100%));
 		opacity: .05;
 
-		max-height: 100vh;
+		// min-height: 100vh;
 	}
 }
 
-.noSkrollr {
+.noSkrollr, .no-js {
 	.home-about-background-image {
 		position: absolute;
 

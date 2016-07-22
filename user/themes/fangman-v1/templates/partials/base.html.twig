@@ -31,7 +31,7 @@
 
     {% block javascripts %}
         {% do assets.addJs('jquery',101) %}
-        {% do assets.addJs('theme://js/min/modernizr-min.js',100) %}
+        {# {% do assets.addJs('theme://js/min/modernizr-min.js',100) %} #}
         {% do assets.addJs('theme://js/slick.min.js' ,99) %}
         {% do assets.addJs('theme://js/min/skrollr-min.js',93) %}
         {% do assets.addJs('theme://js/magnific-popup.js' ,97) %}
@@ -44,7 +44,7 @@
 
 {% endblock head%}
 </head>
-<body id="top" class="{{ page.header.body_classes }}">
+<body id="top" class="no-js {{ page.header.body_classes }}">
     {# <div id="preloader"> #}
       <div id="preloader">
         <div class="pl-circle pl-circle-one"></div>
@@ -100,6 +100,10 @@
     </div> #}
     {% block bottom %}
         {{ assets.js('bottom') }}
+
+        <script>
+            $('body').removeClass('no-js');
+        </script>
 
         <script>
             $(function () {

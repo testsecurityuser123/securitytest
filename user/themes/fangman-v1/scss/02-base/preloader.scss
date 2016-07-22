@@ -64,10 +64,7 @@ Base: Preloader
 
 
 .no-js {
-	#loader-wrapper {
+	#preloader {
 		display: none;
-	}
-	h1 {
-		color: $color-accent;
 	}
 }
