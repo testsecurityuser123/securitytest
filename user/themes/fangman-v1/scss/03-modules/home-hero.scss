@@ -175,6 +175,11 @@
 }
 
 .noSkrollr, .no-js {
+	.home-hero {
+		.intro-scroll-container {
+			margin-left: rem(0);
+		}
+	}
 	.home-bkg {
 		position: absolute;
 
