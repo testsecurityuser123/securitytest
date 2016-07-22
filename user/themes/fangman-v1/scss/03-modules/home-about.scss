@@ -157,3 +157,20 @@ Module: Project Description
 		max-height: 100vh;
 	}
 }
+
+.noSkrollr {
+	.home-about-background-image {
+		position: absolute;
+
+		&:before {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 90%;
+			@include linear-gradient(to top, rgba(36,36,51,0) 0%, rgba(36,36,51,0.8) 80%, rgba(36,36,51,1) 100%);
+		}
+	}
+}

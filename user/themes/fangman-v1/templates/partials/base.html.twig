@@ -122,6 +122,10 @@
                 var s = skrollr.init({
                     forceHeight: false
                 });
+                if (s.isMobile()) {
+                    s.destroy();
+                    $('#skrollr-body').addClass('noSkrollr');
+                }
             });
         </script>
         
