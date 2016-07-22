@@ -45,6 +45,10 @@
 {% endblock head%}
 </head>
 <body id="top" class="no-js {{ page.header.body_classes }}">
+        <script>
+            $('body').removeClass('no-js');
+        </script>
+
     {# <div id="preloader"> #}
       <div id="preloader">
         <div class="pl-circle pl-circle-one"></div>
@@ -100,10 +104,6 @@
     </div> #}
     {% block bottom %}
         {{ assets.js('bottom') }}
-
-        <script>
-            $('body').removeClass('no-js');
-        </script>
 
         <script>
             $(function () {

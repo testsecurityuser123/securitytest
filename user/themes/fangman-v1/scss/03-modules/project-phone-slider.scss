@@ -56,7 +56,7 @@ Module: Project Phone Slider
 				@include span-columns(8);
 				@include shift(2);
 
-				background-color: $color-accent;
+				background-color: #000;
 				overflow: visible;
 
 				@include transform(translate($transition-med));
