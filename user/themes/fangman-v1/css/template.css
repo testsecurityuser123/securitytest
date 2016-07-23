@@ -124,12 +124,12 @@ Base: Preloader
   z-index: 1001;
   left: 50%;
   top: 50%;
-  width: 1.875rem;
-  height: 1.875rem;
-  margin: -0.9375rem 0 0 -0.9375rem;
+  width: 1rem;
+  height: 1rem;
+  margin: -0.5rem 0 0 -0.5rem;
   border-radius: 50%;
   opacity: 0;
-  border: 0.0625rem solid #cb4e4e;
+  background-color: #cb4e4e;
   animation: expand 3s linear infinite; }
   .pl-circle.pl-circle-two {
     animation-delay: 1s; }
@@ -145,7 +145,7 @@ Base: Preloader
   25% {
     opacity: 1; }
   100% {
-    transform: scale(3);
+    transform: scale(6);
     opacity: 0; } }
 .no-js #preloader {
   display: none; }

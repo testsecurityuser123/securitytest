@@ -21,12 +21,13 @@ Base: Preloader
 	left: 50%;
 	top: 50%;
 
-	width: rem(30);
-	height: rem(30);
-	margin: rem(-15) 0 0 rem(-15);
+	width: rem(16);
+	height: rem(16);
+	margin: rem(-8) 0 0 rem(-8);
 	border-radius: 50%;
 	opacity: 0;
-	border: rem(1) solid $color-accent;
+	//border: rem(1) solid $color-accent;
+	background-color: $color-accent;
 
 	animation: expand 3s linear infinite;
 
@@ -57,7 +58,7 @@ Base: Preloader
 		opacity: 1;
 	}
 	100% { 
-		transform: scale(3);
+		transform: scale(6);
 		opacity: 0;
 	}
 }
