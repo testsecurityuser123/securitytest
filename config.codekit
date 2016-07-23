@@ -55,6 +55,61 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/images\/2\/2\/8\/5\/0\/228504ee9660e43679cf7a61e3d126f2683e2db2-tcan-homepage-800px.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3556,
+		"inputAbbreviatedPath": "\/images\/2\/2\/8\/5\/0\/228504ee9660e43679cf7a61e3d126f2683e2db2-tcan-homepage-800px.jpeg",
+		"outputAbbreviatedPath": "\/images\/2\/2\/8\/5\/0\/228504ee9660e43679cf7a61e3d126f2683e2db2-tcan-homepage-800px.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/3\/2\/1\/8\/3\/32183ef497106f0d42d82d5e5254d4c5fe0818bc-connect-desktop-800px.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18513,
+		"inputAbbreviatedPath": "\/images\/3\/2\/1\/8\/3\/32183ef497106f0d42d82d5e5254d4c5fe0818bc-connect-desktop-800px.png",
+		"outputAbbreviatedPath": "\/images\/3\/2\/1\/8\/3\/32183ef497106f0d42d82d5e5254d4c5fe0818bc-connect-desktop-800px.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/5\/1\/f\/2\/d\/51f2d8a66615e8ee68d8c78f66c924011e4b051a-t50i01-tcan-homepage-mobile-v12.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6103,
+		"inputAbbreviatedPath": "\/images\/5\/1\/f\/2\/d\/51f2d8a66615e8ee68d8c78f66c924011e4b051a-t50i01-tcan-homepage-mobile-v12.jpeg",
+		"outputAbbreviatedPath": "\/images\/5\/1\/f\/2\/d\/51f2d8a66615e8ee68d8c78f66c924011e4b051a-t50i01-tcan-homepage-mobile-v12.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/9\/3\/0\/a\/5\/930a52cbfdc7a0817ed80f25e98f7847bf8a3051-hero-buildings.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5137,
+		"inputAbbreviatedPath": "\/images\/9\/3\/0\/a\/5\/930a52cbfdc7a0817ed80f25e98f7847bf8a3051-hero-buildings.jpeg",
+		"outputAbbreviatedPath": "\/images\/9\/3\/0\/a\/5\/930a52cbfdc7a0817ed80f25e98f7847bf8a3051-hero-buildings.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/9\/3\/0\/f\/3\/930f3c3d2822c37f509ad9f8b934e60c9f6eee75-tcan-homepage-600px.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3261,
+		"inputAbbreviatedPath": "\/images\/9\/3\/0\/f\/3\/930f3c3d2822c37f509ad9f8b934e60c9f6eee75-tcan-homepage-600px.jpeg",
+		"outputAbbreviatedPath": "\/images\/9\/3\/0\/f\/3\/930f3c3d2822c37f509ad9f8b934e60c9f6eee75-tcan-homepage-600px.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1792,13 +1847,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/user\/pages\/02.tcan\/_tcan-intro\/tcan-homepage-600px.jpg": {
+	"\/user\/pages\/02.tcan\/_tcan-intro\/tcan-homepage-800px.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 472937,
-		"inputAbbreviatedPath": "\/user\/pages\/02.tcan\/_tcan-intro\/tcan-homepage-600px.jpg",
-		"outputAbbreviatedPath": "\/user\/pages\/02.tcan\/_tcan-intro\/tcan-homepage-600px.jpg",
+		"initialSize": 442788,
+		"inputAbbreviatedPath": "\/user\/pages\/02.tcan\/_tcan-intro\/tcan-homepage-800px.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/02.tcan\/_tcan-intro\/tcan-homepage-800px.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
