@@ -593,7 +593,7 @@ img.mfp-img {
   line-height: 0;
   //Instead of the line below you could use @include box-sizing($bs)
   box-sizing: border-box;
-  padding: rem(15) rem(15);
+  padding: rem(66) rem(15) rem(54);
   margin: 0 auto;
 
   @include breakpoint($bp-m) {

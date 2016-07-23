@@ -2812,7 +2812,7 @@ img.mfp-img {
   display: block;
   line-height: 0;
   box-sizing: border-box;
-  padding: 0.9375rem 0.9375rem;
+  padding: 4.125rem 0.9375rem 3.375rem;
   margin: 0 auto; }
   @media screen and (min-width: 48em) {
     img.mfp-img {
