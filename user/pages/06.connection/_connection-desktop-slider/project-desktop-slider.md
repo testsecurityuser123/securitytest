@@ -1,11 +1,11 @@
 ---
-title: 'Connection Desktop Slider'
+title: 'Website Development'
+project_ds_background_image: audience-2.jpg
 project_ds_slides:
     1:
-        alt: 'Landing Page | The Connection'
         image: connect-desktop-1400px.png
+        alt: 'Landing Page | The Connection'
 date: '04-09-2016 00:00'
-project_ds_background_image: audience-2.jpg
 ---
 
-Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.
+The final deliverable for the project was a static, coded version of the design built on Foundation, a front-end website framework. To help streamline the process I employed the use of Sass and Bourbon as well. Parallax backgrounds and smooth transitions help add a refined feel to the site.

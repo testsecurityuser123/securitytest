@@ -156,6 +156,10 @@ Module: Project Phone Feature
 			@include breakpoint($bp-m) {
 				@include span-columns(6);
 				@include shift(0);
+				position: absolute;
+				top: 0 ;
+				bottom: 0;
+				left: 50%;
 			}
 
 			@include breakpoint($bp-l) {
@@ -164,11 +168,13 @@ Module: Project Phone Feature
 
 			.project-pf-content-inner-container {
 				position: relative;
+				margin-top: rem(12);
 
 				@include breakpoint($bp-m) {
 					position: absolute;
 					top: 50%;
 					@include transform(translateY(-50%));
+					margin-top: rem(-12);
 				}
 
 				// h4 {

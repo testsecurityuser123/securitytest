@@ -63,6 +63,14 @@ Module: Project Description
 					// padding-top: 0;
 					margin-top: rem(12);
 				}
+
+				a {
+					color: $color-white;
+
+					&:hover {
+						color: $color-accent;
+					}
+				}
 			}
 		}
 	}

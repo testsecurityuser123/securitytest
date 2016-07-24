@@ -21,25 +21,25 @@ Base: Preloader
 	left: 50%;
 	top: 50%;
 
-	width: rem(16);
-	height: rem(16);
-	margin: rem(-8) 0 0 rem(-8);
+	width: rem(60);
+	height: rem(60);
+	margin: rem(-30) 0 0 rem(-30);
 	border-radius: 50%;
 	opacity: 0;
-	//border: rem(1) solid $color-accent;
-	background-color: $color-accent;
+	border: rem(1) solid $color-accent;
+	// background-color: $color-accent;
 
-	animation: expand 3s linear infinite;
+	animation: expand 1.5s linear infinite;
 
 	// &.pl-circle-one {
 	// }
 
 	&.pl-circle-two {
-		animation-delay: 1s;
+		animation-delay: .5s;
 	}
 
 	&.pl-circle-three {
-		animation-delay: 2s;
+		animation-delay: 1s;
 	}
 }
 
@@ -58,7 +58,7 @@ Base: Preloader
 		opacity: 1;
 	}
 	100% { 
-		transform: scale(6);
+		transform: scale(1.5);
 		opacity: 0;
 	}
 }

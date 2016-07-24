@@ -1,18 +1,18 @@
 ---
-title: 'Direct to Consumers E-Commerce  Website'
+title: 'Project Overview'
 project_attributes:
     1:
         title: Role
-        description: 'UX & UI Design, Art Direction'
+        description: 'Information Architecture<br>Interface Design<br>Web Development'
     2:
         title: Agency
-        description: 'MVP Marketing + Design'
+        description: '<a href="http://www.mvpdesign.com" target="_blank">MVP Marketing + Design</a>'
     3:
         title: Credits
-        description: 'Lead Developer: Jeff Lesie<br>Developer: Chris Wilson<br>Photographer: Clement Vaccaro'
+        description: 'Lead Developer: Jeff Lesie<br>Support Developer: Chris Wilson<br>Photographer: Clement Vaccaro'
 date: '02-09-2016 00:00'
 ---
 
-Targeted toward health conscious college students and mothers with children under the age of eighteen, PB Crave adds a unique twist to a timeless classic with their four unique flavors of honey-sweetened peanut butter. After a successful trial run in online sales using a cost-effective out-of-the-box e-commerce platform to test the waters, PB Crave decided it was time to get serious about digital presence by partnering with MVP Marketing + Design to build a new state-of-the-art e-commerce website. 
+PB Crave, a relatively new player in the nut butter industry, adds a unique twist to a timeless classic with their four unique flavors of honey-sweetened peanut butter. In an oversaturated market they needed to find a way to stand out and chose to place their bets online with a new e-commerce website.
 
-Tasked as lead designer on the project, my objective was to design a website that would increase online sales by simplifying the online purchasing process, and elevate the company's digital presence. 
+One of the primary goals of the redesign was to simplify the online purchasing experience in efforts to increase sales. In addition, PB Crave hoped to boost their consumer's loyalty and trust for the brand by designing a more professional aesthetic that could grow with the company.

@@ -1,23 +1,23 @@
 ---
-title: 'Vehicula Egestas Vulputate Mollis Dolor'
+title: 'Interface Design'
+project_ds_background_image: business-7.jpg
 project_ds_slides:
     1:
-        alt: 'Caliper | Homepage'
         image: caliper-homepage.png
+        alt: 'Caliper | Homepage'
     2:
-        alt: 'Caliper | Homepage Hover'
         image: caliper-homepage-hover.png
+        alt: 'Caliper | Homepage Hover'
     3:
-        alt: 'Caliper | Solution Page'
         image: caliper-solution.png
+        alt: 'Caliper | Solution Page'
     4:
-        alt: 'Caliper | Product Page'
         image: caliper-product.png
+        alt: 'Caliper | Product Page'
     5:
-        alt: 'Caliper | About Page'
         image: caliper-about.png
+        alt: 'Caliper | About Page'
 date: '04-09-2016 00:00'
-project_ds_background_image: business-7.jpg
 ---
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum. Vestibulum id ligula porta felis euismod semper. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh ultricies vehicula ut id elit.
+One common trait between the various audience segments that Caliper is targeting is that they are all business professionals looking for help in one way or another. Creating a clean, professional aesthetic for the site was a must. Strong typography, a conservative use of color, and ample white space help contribute to a look and feel that instills trust in the Caliper brand.

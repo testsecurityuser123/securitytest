@@ -13,6 +13,6 @@ project_attributes:
 date: '02-09-2016 00:00'
 ---
 
-The Twin Cities Alumni Network (TCAN) is a local organization that facilitates networking events for Twin Cities based alumni associations from prestigious universities across the country. While the group is flourishing with event turn out at an all time high, their online presence was telling a much different story. In light of this reality, TCAN decided it was time for a new website.
+The Twin Cities Alumni Network (TCAN) facilitates networking events for Twin Cities-based alumni associations from prestigious universities across the country. While the group is flourishing with event turnout at an all time high, their online presence was telling a different story. In light of this reality, TCAN decided it was time for a new website.
 
-The organization's livelihood is based on event curation, so one of the main objectives for the redesign was to create an intuitive event calendar that could feature both TCAN and individual club events. Another focus, intended to simplify the content delivery, was to condense the site into a single page format.
+The organization's livelihood revolves around event curation, so one of the main objectives of the redesign was to create an intuitive event calendar that could feature both TCAN and individual club events. Another focus, intended to simplify the content delivery, was to condense the site into a single page format.

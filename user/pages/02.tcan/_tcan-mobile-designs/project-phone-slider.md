@@ -11,4 +11,4 @@ project_ps_slides:
 date: '06-09-2016 00:00'
 ---
 
-As the majority of TCAN's members are often on the go, designing a simple, consistent experience across all devices was a must. To optimize for smaller screen sizes, extra care was given to the event calendar and membership criteria section as well as the navigation.
+As the majority of TCAN's members live an active lifestyle, designing a simple, consistent experience across all devices was a must. To optimize for smaller screen sizes, extra care was given to the event calendar and membership criteria section as well as other areas of the site.

@@ -2,12 +2,12 @@
 title: 'Project Overview'
 project_attributes:
     1:
-        title: Medium
-        description: 'Web, UX/UI'
+        title: Role
+        description: 'Information Architecture<br>Interface Design<br>Web Development'
     2:
         title: Credits
-        description: 'Art Direction: Brenden Greenwood'
+        description: 'Art Director: Brenden Greenwood'
 date: '02-09-2016 00:00'
 ---
 
-Curabitur blandit tempus porttitor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna mollis ornare vel eu leo.
+The Connection is a business process outsourcer specializing in call center related services. While in the process of a website redesign, the company also needed a new template for their one-off promotional pages. To complete this project, I was given a short list of content requirements and a couple snapshots of the in progress website design to work with.

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav-2016/user/config/plugins/private.yaml',
-    'modified' => 1466977469,
+    'modified' => 1469397509,
     'data' => [
         'enabled' => true,
         'routes' => [
@@ -17,8 +17,8 @@ return [
             'no_user' => '3674951ec264a72168cb2d89a5f634e512f6629d'
         ],
         'texts' => [
-            'h1' => 'Michael Fangman | UX/UI Designer',
-            'h2' => '<strong>Welcome.</strong> This site is private, please enter your password.'
+            'h1' => 'Hello.',
+            'h2' => 'This is a private site, please enter a password to proceed.'
         ],
         'fields' => [
             'username' => [
