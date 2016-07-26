@@ -165,6 +165,25 @@ $(document).ready(function() {
 });
 
 
+/* =========================================================
+
+Disable Right Click Menu on Images
+
+// ========================================================= */
+
+$(document).ready(function(){
+  // this part disables the right click
+  $('img').on('contextmenu', function(e) {
+      return false;
+  });
+
+  //this part disables dragging of image
+  $('img').on('dragstart', function(e) {
+      return false;
+  });
+
+});
+
 
 
 // jQuery(".home-hero-content h1").fitText(1.2, { minFontSize: '20px', maxFontSize: '40px' });

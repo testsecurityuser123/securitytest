@@ -47,6 +47,8 @@ h1 {
 
 	font-size: rem(150);
 
+	text-transform: uppercase;
+
 	// @include breakpoint($bp-s) {
 	// 	font-size: rem(90);
 	// }
@@ -71,6 +73,8 @@ h2 {
 
 	display: block;
 	clear: both;
+
+	text-transform: uppercase;
 
 	// @include breakpoint($bp-s) {
 	// 	font-size: rem(60);
