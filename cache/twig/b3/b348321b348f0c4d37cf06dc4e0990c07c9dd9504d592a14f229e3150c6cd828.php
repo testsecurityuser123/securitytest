@@ -73,7 +73,7 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 \t\t\t\t\t<a href=\"";
             // line 39
             echo $this->getAttribute($context["p"], "url", array());
-            echo "\">
+            echo "\" class=\"link\">
 \t\t\t\t\t\t<div class=\"work-item-background\">
 \t\t\t\t\t\t\t<h3>";
             // line 41
@@ -239,7 +239,7 @@ class __TwigTemplate_34234fbdfa5633c622342aa0db4af1f38edd7258ddf08fe7d05807dbba9
 /* 			{% for p in taxonomy.findTaxonomy({'category':'work'}) %}*/
 /* 				{% set first_image = p.media.images|first %}*/
 /* 				<li>*/
-/* 					<a href="{{p.url}}">*/
+/* 					<a href="{{p.url}}" class="link">*/
 /* 						<div class="work-item-background">*/
 /* 							<h3>{{ p.title }}</h3>*/
 /* 							{# {{ first_image }} #}*/

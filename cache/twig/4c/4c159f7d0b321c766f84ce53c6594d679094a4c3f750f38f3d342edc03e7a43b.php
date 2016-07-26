@@ -83,7 +83,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
         // line 105
         echo "    ";
         $this->displayBlock('bottom', $context, $blocks);
-        // line 137
+        // line 153
         echo "</body>
 </html>
 ";
@@ -288,6 +288,22 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
                 }
             });
         </script>
+
+        <script type=\"text/javascript\">
+            // \$(document).ready(function() {
+            //     // \$('body').css('display', 'none');
+            //     // \$('body').fadeIn(1000);
+            //     \$('.link').click(function() {
+            //         event.preventDefault();
+            //         newLocation = this.href;
+            //         \$('body').fadeOut(500, newpage);
+            //     });
+                
+            //     function newpage() {
+            //         window.location = newLocation;
+            //     }
+            // });
+        </script>
         
     ";
     }
@@ -304,7 +320,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 
     public function getDebugInfo()
     {
-        return array (  260 => 106,  257 => 105,  249 => 93,  246 => 92,  241 => 88,  236 => 89,  234 => 88,  229 => 87,  226 => 86,  221 => 84,  217 => 81,  211 => 68,  207 => 67,  198 => 63,  194 => 61,  191 => 60,  186 => 41,  183 => 40,  180 => 39,  177 => 38,  174 => 37,  171 => 36,  168 => 35,  166 => 34,  163 => 33,  160 => 32,  156 => 29,  153 => 21,  150 => 20,  147 => 19,  144 => 18,  136 => 43,  134 => 32,  128 => 30,  126 => 18,  121 => 15,  116 => 12,  112 => 11,  109 => 10,  107 => 9,  99 => 8,  96 => 7,  93 => 6,  87 => 137,  84 => 105,  80 => 98,  78 => 92,  75 => 91,  73 => 86,  70 => 85,  68 => 84,  64 => 82,  62 => 60,  59 => 59,  52 => 53,  44 => 47,  41 => 46,  39 => 6,  33 => 3,  30 => 2,  28 => 1,);
+        return array (  260 => 106,  257 => 105,  249 => 93,  246 => 92,  241 => 88,  236 => 89,  234 => 88,  229 => 87,  226 => 86,  221 => 84,  217 => 81,  211 => 68,  207 => 67,  198 => 63,  194 => 61,  191 => 60,  186 => 41,  183 => 40,  180 => 39,  177 => 38,  174 => 37,  171 => 36,  168 => 35,  166 => 34,  163 => 33,  160 => 32,  156 => 29,  153 => 21,  150 => 20,  147 => 19,  144 => 18,  136 => 43,  134 => 32,  128 => 30,  126 => 18,  121 => 15,  116 => 12,  112 => 11,  109 => 10,  107 => 9,  99 => 8,  96 => 7,  93 => 6,  87 => 153,  84 => 105,  80 => 98,  78 => 92,  75 => 91,  73 => 86,  70 => 85,  68 => 84,  64 => 82,  62 => 60,  59 => 59,  52 => 53,  44 => 47,  41 => 46,  39 => 6,  33 => 3,  30 => 2,  28 => 1,);
     }
 }
 /* {% set theme_config = attribute(config.themes, config.system.pages.theme) %}*/
@@ -440,6 +456,22 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 /*                     $('#skrollr-body').addClass('noSkrollr');*/
 /*                 }*/
 /*             });*/
+/*         </script>*/
+/* */
+/*         <script type="text/javascript">*/
+/*             // $(document).ready(function() {*/
+/*             //     // $('body').css('display', 'none');*/
+/*             //     // $('body').fadeIn(1000);*/
+/*             //     $('.link').click(function() {*/
+/*             //         event.preventDefault();*/
+/*             //         newLocation = this.href;*/
+/*             //         $('body').fadeOut(500, newpage);*/
+/*             //     });*/
+/*                 */
+/*             //     function newpage() {*/
+/*             //         window.location = newLocation;*/
+/*             //     }*/
+/*             // });*/
 /*         </script>*/
 /*         */
 /*     {% endblock %}*/

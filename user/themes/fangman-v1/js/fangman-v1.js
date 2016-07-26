@@ -6,7 +6,26 @@ Page Loader
 ========================================================= */
 
 $(window).load(function() {
-  $("#preloader").fadeOut('slow');
+  $("#preloader").fadeOut('500');
+});
+
+
+/* =========================================================
+
+Page Fade Out
+
+========================================================= */
+
+$(document).ready(function() {
+    $('.link').click(function() {
+        event.preventDefault();
+        newLocation = this.href;
+        $('body').fadeOut(500, newpage);
+    });
+    
+    function newpage() {
+        window.location = newLocation;
+    }
 });
 
 

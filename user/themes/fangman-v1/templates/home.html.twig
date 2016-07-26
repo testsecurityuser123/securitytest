@@ -36,7 +36,7 @@
 			{% for p in taxonomy.findTaxonomy({'category':'work'}) %}
 				{% set first_image = p.media.images|first %}
 				<li>
-					<a href="{{p.url}}">
+					<a href="{{p.url}}" class="link">
 						<div class="work-item-background">
 							<h3>{{ p.title }}</h3>
 							{# {{ first_image }} #}
