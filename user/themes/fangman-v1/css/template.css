@@ -282,7 +282,8 @@ h6, .testt {
       line-height: 1.5;
       letter-spacing: 0.03125rem;
       padding: 0 0rem;
-      margin-bottom: 1.125rem; }
+      margin-bottom: 1.125rem;
+      text-transform: none; }
     .login-container .login #private {
       margin-top: 0.75rem; }
       .login-container .login #private fieldset {
