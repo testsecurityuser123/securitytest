@@ -6,7 +6,7 @@ Page Loader
 ========================================================= */
 
 $(window).load(function() {
-  $("#preloader").fadeOut(500);
+  $("#preloader").fadeOut(750);
 });
 
 
