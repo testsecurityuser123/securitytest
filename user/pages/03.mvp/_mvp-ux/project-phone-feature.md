@@ -4,7 +4,7 @@ project_pf_button_text: 'InVision Prototype'
 project_pf_button_link: 'http://invision.michaelfangman.com/mvp-desktop'
 project_pf_iframe: 'http://invision.michaelfangman.com/mvp-mobile'
 project_pf_phoneimg: mvp-homepage-mobile-v1.png
-project_pf_background_image: office-11.jpg
+project_pf_background_image: office-11-min.jpg
 date: '03-09-2016 00:00'
 ---
 
