@@ -1,12 +1,12 @@
 ---
 title: 'Responsive Structure'
-project_ps_background_image: building-4.jpg
+project_ps_background_image: building-4-min.jpg
 project_ps_slides:
     1:
-        image: t50i01-tcan-homepage-mobile-v1.1.jpg
+        image: t50i01-tcan-homepage-mobile-v1.1-min.png
         alt: 'Twin Cities Alumni Network | Homepage'
     2:
-        image: t50i01-tcan-homepage-mobile-v1.2.jpg
+        image: t50i01-tcan-homepage-mobile-v1.2-min.png
         alt: 'Twin Cities Alumni Network | Event Modal '
 date: '06-09-2016 00:00'
 ---

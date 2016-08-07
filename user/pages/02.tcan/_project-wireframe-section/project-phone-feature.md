@@ -3,7 +3,7 @@ title: 'Content & Strucure'
 project_pf_button_text: 'HTML Prototype'
 project_pf_button_link: 'http://tcan.michaelfangman.com'
 project_pf_phoneimg: mobile-proto.png
-project_pf_background_image: building-5.jpg
+project_pf_background_image: building-5-min.jpg
 date: '03-09-2016 00:00'
 ---
 

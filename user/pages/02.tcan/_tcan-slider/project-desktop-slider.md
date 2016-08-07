@@ -1,21 +1,21 @@
 ---
 title: 'Visual Design'
-project_ds_background_image: building-3.jpg
+project_ds_background_image: building-3-min.jpg
 project_ds_slides:
     1:
-        image: tcan-homepage.jpg
+        image: tcan-homepage-min.png
         alt: 'Twin Cities Alumni Network | Homepage'
     2:
-        image: tcan-homepage-hover.jpg
+        image: tcan-homepage-hover-min.png
         alt: 'Twin Cities Alumni Network | Homepage Hover'
     3:
-        image: tcan-event-modal.jpg
+        image: tcan-event-modal-min.jpg
         alt: 'Twin Cities Alumni Network | Event Modal'
     4:
-        image: tcan-filter-modal.jpg
+        image: tcan-filter-modal-min.jpg
         alt: 'Twin Cities Alumni Network | Filter Modal'
     5:
-        image: tcan-photo-modal.jpg
+        image: tcan-photo-modal-min.jpg
         alt: 'Twin Cities Alumni Network | Photo Modal'
 date: '05-09-2016 00:00'
 ---

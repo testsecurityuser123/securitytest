@@ -55,6 +55,72 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/images\/2\/2\/8\/5\/0\/228504ee9660e43679cf7a61e3d126f2683e2db2-tcan-homepage-800px.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4028,
+		"inputAbbreviatedPath": "\/images\/2\/2\/8\/5\/0\/228504ee9660e43679cf7a61e3d126f2683e2db2-tcan-homepage-800px.jpeg",
+		"outputAbbreviatedPath": "\/images\/2\/2\/8\/5\/0\/228504ee9660e43679cf7a61e3d126f2683e2db2-tcan-homepage-800px.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/3\/6\/d\/2\/8\/36d287943f18f307ba4563d13dd748d06f511240-tcan-homepage-800px-min.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4013,
+		"inputAbbreviatedPath": "\/images\/3\/6\/d\/2\/8\/36d287943f18f307ba4563d13dd748d06f511240-tcan-homepage-800px-min.jpeg",
+		"outputAbbreviatedPath": "\/images\/3\/6\/d\/2\/8\/36d287943f18f307ba4563d13dd748d06f511240-tcan-homepage-800px-min.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/5\/1\/f\/2\/d\/51f2d8a66615e8ee68d8c78f66c924011e4b051a-t50i01-tcan-homepage-mobile-v12.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6103,
+		"inputAbbreviatedPath": "\/images\/5\/1\/f\/2\/d\/51f2d8a66615e8ee68d8c78f66c924011e4b051a-t50i01-tcan-homepage-mobile-v12.jpeg",
+		"outputAbbreviatedPath": "\/images\/5\/1\/f\/2\/d\/51f2d8a66615e8ee68d8c78f66c924011e4b051a-t50i01-tcan-homepage-mobile-v12.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/9\/3\/0\/a\/5\/930a52cbfdc7a0817ed80f25e98f7847bf8a3051-hero-buildings.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5137,
+		"inputAbbreviatedPath": "\/images\/9\/3\/0\/a\/5\/930a52cbfdc7a0817ed80f25e98f7847bf8a3051-hero-buildings.jpeg",
+		"outputAbbreviatedPath": "\/images\/9\/3\/0\/a\/5\/930a52cbfdc7a0817ed80f25e98f7847bf8a3051-hero-buildings.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/a\/8\/a\/2\/3\/a8a237d61352d5fbeb2258da1477bd7a13439102-t50i01-tcan-homepage-mobile-v12-min.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18357,
+		"inputAbbreviatedPath": "\/images\/a\/8\/a\/2\/3\/a8a237d61352d5fbeb2258da1477bd7a13439102-t50i01-tcan-homepage-mobile-v12-min.png",
+		"outputAbbreviatedPath": "\/images\/a\/8\/a\/2\/3\/a8a237d61352d5fbeb2258da1477bd7a13439102-t50i01-tcan-homepage-mobile-v12-min.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/f\/6\/4\/3\/2\/f6432ca0740f4b01ad85fefcc9f5c513d1ce4270-hero-buildings-min.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5128,
+		"inputAbbreviatedPath": "\/images\/f\/6\/4\/3\/2\/f6432ca0740f4b01ad85fefcc9f5c513d1ce4270-hero-buildings-min.jpeg",
+		"outputAbbreviatedPath": "\/images\/f\/6\/4\/3\/2\/f6432ca0740f4b01ad85fefcc9f5c513d1ce4270-hero-buildings-min.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1740,6 +1806,17 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/user\/pages\/02.tcan\/_tcan-intro\/hero-buildings-min.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.81301e+06,
+		"inputAbbreviatedPath": "\/user\/pages\/02.tcan\/_tcan-intro\/hero-buildings-min.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/02.tcan\/_tcan-intro\/hero-buildings-min.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/user\/pages\/02.tcan\/_tcan-intro\/hero-buildings.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1781,6 +1858,17 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/user\/pages\/02.tcan\/_tcan-intro\/t50i01-tcan-homepage-mobile-v1.2-min.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18437,
+		"inputAbbreviatedPath": "\/user\/pages\/02.tcan\/_tcan-intro\/t50i01-tcan-homepage-mobile-v1.2-min.png",
+		"outputAbbreviatedPath": "\/user\/pages\/02.tcan\/_tcan-intro\/t50i01-tcan-homepage-mobile-v1.2-min.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/user\/pages\/02.tcan\/_tcan-intro\/t50i01-tcan-homepage-mobile-v1.2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1788,6 +1876,17 @@
 		"initialSize": 66793,
 		"inputAbbreviatedPath": "\/user\/pages\/02.tcan\/_tcan-intro\/t50i01-tcan-homepage-mobile-v1.2.jpg",
 		"outputAbbreviatedPath": "\/user\/pages\/02.tcan\/_tcan-intro\/t50i01-tcan-homepage-mobile-v1.2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/user\/pages\/02.tcan\/_tcan-intro\/tcan-homepage-800px-min.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 133198,
+		"inputAbbreviatedPath": "\/user\/pages\/02.tcan\/_tcan-intro\/tcan-homepage-800px-min.jpg",
+		"outputAbbreviatedPath": "\/user\/pages\/02.tcan\/_tcan-intro\/tcan-homepage-800px-min.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
