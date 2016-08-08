@@ -9,6 +9,29 @@ $(window).load(function() {
   $("#preloader").fadeOut(750);
 });
 
+/* =========================================================
+
+Logo / Back Icon Swap -- Adding Class to Homepage
+
+========================================================= */
+
+$(function() {
+  var loc = window.location.href; // returns the full URL
+  if(/login/.test(loc)) {
+    $('#site-navigation').addClass('hidden');
+    $('#body').addClass('login-container');
+  }
+});
+
+
+$(function() {
+  var loc = window.location.href; // returns the full URL
+  if(/#/.test(loc)) {
+    $('.site-nav-logo > a').removeClass('link');
+    $('.site-nav-menu-container a').removeClass('link');
+  }
+});
+
 
 /* =========================================================
 
@@ -28,20 +51,6 @@ $(document).ready(function() {
     }
 });
 
-
-/* =========================================================
-
-Logo / Back Icon Swap -- Adding Class to Homepage
-
-========================================================= */
-
-$(function() {
-  var loc = window.location.href; // returns the full URL
-  if(/login/.test(loc)) {
-    $('#site-navigation').addClass('hidden');
-    $('#body').addClass('login-container');
-  }
-});
 
 /* =========================================================
 

@@ -19,7 +19,7 @@ about_social:
 about_sidebar:
     1:
         title: Capabilities
-        description: 'User Experience Design</br>Information Architecture<br>User Interface Design'
+        description: 'Wireframes  •  Prototypes  •  Sitemaps  •  User Personas  •  Task Flows  •  Use Cases  •  Responsive UI Design  •  Interaction Design  •  Art Direction  •  Frontend Development  •  Concept Modeling  •  Usability Evaluation'
 about_background_img: country-road-min.jpg
 background_img: forest.jpg
 headline: 'UX & UI Designer'

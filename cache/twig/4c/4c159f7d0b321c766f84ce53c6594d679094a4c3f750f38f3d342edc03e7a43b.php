@@ -196,7 +196,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
                 <a href=\"";
         // line 63
         echo (isset($context["base_url"]) ? $context["base_url"] : null);
-        echo "/#welcome\"><span class=\"site-title\">";
+        echo "/#welcome\" class=\"link\"><span class=\"site-title\">";
         echo $this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "site", array()), "title", array());
         echo "<span class=\"nav-back\"></span></a>
             </div>
@@ -205,11 +205,11 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
                 <a href=\"";
         // line 67
         echo (isset($context["base_url"]) ? $context["base_url"] : null);
-        echo "/#about\"><h6>About</h6></a>
+        echo "/#about\" class=\"link\"><h6>About</h6></a>
                 <a href=\"";
         // line 68
         echo (isset($context["base_url"]) ? $context["base_url"] : null);
-        echo "/#work\"><h6>Work</h6></a>
+        echo "/#work\" class=\"link\"><h6>Work</h6></a>
             </div>
         </header>
         ";
@@ -385,12 +385,12 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 /*         {% block header %}*/
 /*         <header id="site-navigation" data-start="position:fixed;">*/
 /*             <div class="site-nav-logo">*/
-/*                 <a href="{{ base_url }}/#welcome"><span class="site-title">{{ config.site.title }}<span class="nav-back"></span></a>*/
+/*                 <a href="{{ base_url }}/#welcome" class="link"><span class="site-title">{{ config.site.title }}<span class="nav-back"></span></a>*/
 /*             </div>*/
 /*             <div class="menu-toggle">Menu<div class="icon"></div></div>*/
 /*             <div class="site-nav-menu-container">*/
-/*                 <a href="{{ base_url }}/#about"><h6>About</h6></a>*/
-/*                 <a href="{{ base_url }}/#work"><h6>Work</h6></a>*/
+/*                 <a href="{{ base_url }}/#about" class="link"><h6>About</h6></a>*/
+/*                 <a href="{{ base_url }}/#work" class="link"><h6>Work</h6></a>*/
 /*             </div>*/
 /*         </header>*/
 /*         {# <div id="site-menu">*/
