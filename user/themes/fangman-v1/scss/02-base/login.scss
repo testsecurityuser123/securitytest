@@ -59,6 +59,48 @@
 			// }
 		}
 
+		.alert {
+
+			blockquote {
+				background-color: transparent;
+				border: rem(1) solid $color-accent;
+				margin: 0 rem(12);
+   				border-radius: rem(3);
+    			padding: rem(12) rem(24);
+
+				p {
+					color: $color-accent;
+					font-size: rem(12);
+
+					&:before {
+						content: '!';
+						display: block;
+						height: rem(30);
+						width: rem(30);
+						border: rem(1) solid $color-accent;
+						background-color: $color-accent;
+						border-radius: 50%;
+
+						font-size: rem(15);
+						//font-style: italic;
+						//font-family: serif;
+						font-weight: 500;
+						line-height: rem(28);
+						color: $color-white;
+
+						margin: 0 auto rem(12);
+					}
+					a {
+						text-decoration: underline;
+
+						&:hover {
+							color: $color-white;
+						}
+					}
+				}
+			}
+		}
+
 		#private {
 			margin-top: rem(12);
 			fieldset {

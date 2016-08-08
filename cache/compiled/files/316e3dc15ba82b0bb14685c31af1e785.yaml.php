@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav-2016/user/config/plugins/private.yaml',
-    'modified' => 1469397509,
+    'modified' => 1470627055,
     'data' => [
         'enabled' => true,
         'routes' => [
@@ -39,7 +39,7 @@ return [
         ],
         'messages' => [
             'success' => 'You are logged.',
-            'error' => 'Oops! There was a problem with your submission. Please try again or <a href=\'https://github.com/Diyzzuf/grav-plugin-private/issues\' target=\'_blank\'>report an issue </a>',
+            'error' => 'Oops! The password you entered is incorrect. Feel free to send me a <a href=\'mailto:hello@michaelfangmn.com\'>message</a> if you are having trouble or would like access.',
             'fail' => 'Oops! Something went wrong.. Try Again !'
         ]
     ]

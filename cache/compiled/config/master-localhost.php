@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1469513127,
-    'checksum' => '2dc1433a7265a0261cf1cd048204e197',
+    'timestamp' => 1470627059,
+    'checksum' => '45adf3f44063a0dbd623c9df171f7c62',
     'files' => [
         'user/config' => [
             'media' => [
@@ -11,7 +11,7 @@ return [
             ],
             'plugins/private' => [
                 'file' => 'user/config/plugins/private.yaml',
-                'modified' => 1469397509
+                'modified' => 1470627055
             ],
             'plugins/problems' => [
                 'file' => 'user/config/plugins/problems.yaml',
@@ -244,7 +244,7 @@ return [
                 ],
                 'messages' => [
                     'success' => 'You are logged.',
-                    'error' => 'Oops! There was a problem with your submission. Please try again or <a href=\'https://github.com/Diyzzuf/grav-plugin-private/issues\' target=\'_blank\'>report an issue </a>',
+                    'error' => 'Oops! The password you entered is incorrect. Feel free to send me a <a href=\'mailto:hello@michaelfangmn.com\'>message</a> if you are having trouble or would like access.',
                     'fail' => 'Oops! Something went wrong.. Try Again !'
                 ]
             ],
