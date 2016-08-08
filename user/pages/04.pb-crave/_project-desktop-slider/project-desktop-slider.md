@@ -1,27 +1,27 @@
 ---
 title: 'Visual Design'
-project_ds_background_image: trees.jpg
+project_ds_background_image: trees-min.jpg
 project_ds_slides:
     1:
-        image: bf19-pbc-homepage-v6.png
+        image: pbc-homepage-min.png
         alt: 'PB Crave Peanut Butter | Homepage'
     4:
-        image: pbc-flavors.png
+        image: pbc-flavors-min.png
         alt: 'PB Crave Peanut Butter | Flavors'
     3:
-        image: bf19-pbc-recipes-v4.png
+        image: pbc-recipes-min.png
         alt: 'PB Crave Peanut Butter | Recipes'
     7:
-        image: pbc-store.png
+        image: pbc-store-min.png
         alt: 'PB Crave Peanut Butter | Online Store'
     2:
-        image: bf19-pbc-product-page-v1.png
+        image: pbc-product-min.png
         alt: 'PB Crave Peanut Butter | Product Details'
     5:
-        image: bf19-pbc-cart-v1.png
+        image: pbc-cart-min.png
         alt: 'PB Crave Peanut Butter | Shopping Cart'
     6:
-        image: bf19-pbc-styles-v2.png
+        image: pbc-styles-min.png
         alt: 'PB Crave Peanut Butter | Styles'
 date: '04-09-2016 00:00'
 ---
