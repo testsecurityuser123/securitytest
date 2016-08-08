@@ -1,30 +1,30 @@
 ---
 title: 'Responsive Structure'
-project_ps_background_image: business-4.jpg
+project_ps_background_image: business-4-min.jpg
 project_ps_slides:
     1:
-        image: bg58-caliper-homepage-mo-v1.png
+        image: caliper-homepage-mobile-min.png
         alt: 'Caliper | Homepage Design'
     2:
-        image: bg58-caliper-menu-mo-v1.1.png
+        image: caliper-menu-mobile-min.png
         alt: 'Caliper | Menu Design 1'
     3:
-        image: bg58-caliper-menu-mo-v1.2.png
+        image: caliper-menu-open-mobile-min.png
         alt: 'Caliper | Menu Design 2'
     4:
-        image: bg58-caliper-clientlogin-mo-v1.png
+        image: caliper-client-login-mobile-min.png
         alt: 'Caliper | Client Login'
     5:
-        image: bg58-caliper-product-details-mo-v1.1.png
+        image: caliper-product-mobile-min.png
         alt: 'Caliper | Product Design - Collapsed Form'
     6:
-        image: bg58-caliper-product-details-mo-v1.2.png
+        image: caliper-product-2-mobile-min.png
         alt: 'Caliper | Product Design - Expanded Form'
     7:
-        image: bg58-caliper-product-details-menu-mo-v1.png
+        image: caliper-solutions-menu-mobile-min.png
         alt: 'Caliper | Product Design - Sub Menu'
     8:
-        image: bg58-caliper-about-overview-mo-v1.png
+        image: caliper-company-overview-mobile-min.png
         alt: 'Caliper | About Design'
 date: '05-09-2016 00:00'
 ---

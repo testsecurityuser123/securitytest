@@ -930,7 +930,7 @@ Module: Project Description
             font-weight: 100;
             color: #fff; }
             .home-work .home-work-feed ul li a div h3:after {
-              content: 'View Work';
+              content: 'View Project';
               display: block;
               font-size: 0.9375rem;
               color: #d06060;

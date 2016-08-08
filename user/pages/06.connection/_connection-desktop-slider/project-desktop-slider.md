@@ -1,9 +1,9 @@
 ---
 title: 'Website Development'
-project_ds_background_image: audience-2.jpg
+project_ds_background_image: audience-2-min.jpg
 project_ds_slides:
     1:
-        image: connect-desktop-1400px.png
+        image: connect-desktop-1400px-min.png
         alt: 'Landing Page | The Connection'
 date: '04-09-2016 00:00'
 ---

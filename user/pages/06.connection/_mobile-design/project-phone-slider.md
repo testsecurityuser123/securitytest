@@ -2,10 +2,10 @@
 title: 'Interface Design'
 project_ps_button_text: 'View Live Site'
 project_ps_button_link: 'http://connection.michaelfangman.com'
-project_ps_background_image: street-3.jpg
+project_ps_background_image: street-3-min.jpg
 project_ps_slides:
     1:
-        image: connection-mobile-360px.png
+        image: connection-mobile-360px-min.png
         alt: 'The Connection | Mobile Design'
 date: '03-09-2016 00:00'
 ---
