@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav-2016/system/config/system.yaml',
-    'modified' => 1468959499,
+    'modified' => 1470971846,
     'data' => [
         'absolute_urls' => false,
         'timezone' => '',
@@ -10,6 +10,7 @@ return [
         'param_sep' => ':',
         'wrapped_site' => false,
         'reverse_proxy_setup' => false,
+        'force_ssl' => false,
         'languages' => [
             'supported' => [
                 

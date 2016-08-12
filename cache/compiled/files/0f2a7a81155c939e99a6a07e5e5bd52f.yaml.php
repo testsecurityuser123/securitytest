@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'plugins://admin/admin.yaml',
-    'modified' => 1468959509,
+    'modified' => 1470971874,
     'data' => [
         'enabled' => true,
         'route' => '/admin',
@@ -17,6 +17,13 @@ return [
         'dashboard' => [
             'days_of_stats' => 7
         ],
+        'widgets' => [
+            'dashboard-maintenance' => true,
+            'dashboard-statistics' => true,
+            'dashboard-notifications' => true,
+            'dashboard-feed' => true,
+            'dashboard-pages' => true
+        ],
         'session' => [
             'timeout' => 1800
         ],
@@ -27,6 +34,12 @@ return [
         'show_github_msg' => true,
         'google_fonts' => true,
         'enable_auto_updates_check' => true,
+        'notifications' => [
+            'feed' => true,
+            'dashboard' => true,
+            'plugins' => true,
+            'themes' => true
+        ],
         'popularity' => [
             'enabled' => true,
             'ignore' => [

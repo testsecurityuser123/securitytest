@@ -355,26 +355,23 @@ class __TwigTemplate_4c242ca376dc9e86d76079869c68252e6372917c8731228074172a1f83f
         echo "    <div class=\"clear\">
     ";
         // line 204
-        $this->loadTemplate("partials/messages.html.twig", "pages.html.twig", 204)->display($context);
-        // line 205
-        echo "    ";
         if (((isset($context["mode"]) ? $context["mode"] : null) == "new")) {
-            // line 206
+            // line 205
             echo "        ";
-            $this->loadTemplate("partials/blueprints-new.html.twig", "pages.html.twig", 206)->display(array_merge($context, array("blueprints" => $this->getAttribute((isset($context["admin"]) ? $context["admin"] : null), "blueprints", array(0 => "pages/page"), "method"), "data" => (isset($context["context"]) ? $context["context"] : null))));
-            // line 207
+            $this->loadTemplate("partials/blueprints-new.html.twig", "pages.html.twig", 205)->display(array_merge($context, array("blueprints" => $this->getAttribute((isset($context["admin"]) ? $context["admin"] : null), "blueprints", array(0 => "pages/page"), "method"), "data" => (isset($context["context"]) ? $context["context"] : null))));
+            // line 206
             echo "    ";
         } elseif (((isset($context["mode"]) ? $context["mode"] : null) == "edit")) {
-            // line 208
+            // line 207
             echo "        ";
             $context["uploadLimit"] = (($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["grav"]) ? $context["grav"] : null), "config", array()), "system", array()), "media", array()), "upload_limit", array()) / 1024) / 1024);
-            // line 209
+            // line 208
             echo "        ";
             $context["dropzoneSettings"] = array("maxFileSize" => (isset($context["uploadLimit"]) ? $context["uploadLimit"] : null));
-            // line 210
+            // line 209
             echo "
         <div class=\"admin-form-wrapper\" data-media-url=\"";
-            // line 211
+            // line 210
             echo twig_escape_filter($this->env, (isset($context["base_url"]) ? $context["base_url"] : null), "html", null, true);
             echo "/media/";
             echo twig_escape_filter($this->env, trim($this->getAttribute((isset($context["admin"]) ? $context["admin"] : null), "route", array()), "/"), "html", null, true);
@@ -388,45 +385,45 @@ class __TwigTemplate_4c242ca376dc9e86d76079869c68252e6372917c8731228074172a1f83f
             <div id=\"admin-topbar\">
 
                 ";
-            // line 214
+            // line 213
             if (($this->getAttribute((isset($context["admin"]) ? $context["admin"] : null), "multilang", array()) && (isset($context["page_lang"]) ? $context["page_lang"] : null))) {
-                // line 215
+                // line 214
                 echo "                    <div id=\"admin-lang-toggle\" class=\"button-group\">
                         <button type=\"button\" class=\"button disabled\">
                             ";
-                // line 217
+                // line 216
                 if ((isset($context["exists"]) ? $context["exists"] : null)) {
-                    // line 218
+                    // line 217
                     echo "                                ";
                     echo twig_escape_filter($this->env, (isset($context["page_lang"]) ? $context["page_lang"] : null), "html", null, true);
                     echo "
                             ";
                 } else {
-                    // line 220
+                    // line 219
                     echo "                                ";
                     echo twig_escape_filter($this->env, (isset($context["admin_lang"]) ? $context["admin_lang"] : null), "html", null, true);
                     echo "
                             ";
                 }
-                // line 222
+                // line 221
                 echo "                        </button>
                         ";
-                // line 223
+                // line 222
                 if (((isset($context["exists"]) ? $context["exists"] : null) && (twig_length_filter($this->env, $this->getAttribute((isset($context["context"]) ? $context["context"] : null), "translatedLanguages", array())) > 1))) {
-                    // line 224
+                    // line 223
                     echo "                            <button type=\"button\" class=\"button dropdown-toggle\" data-toggle=\"dropdown\">
                                 <i class=\"fa fa-caret-down\"></i>
                             </button>
                             <ul class=\"dropdown-menu language-switcher\">
                                 ";
-                    // line 228
+                    // line 227
                     $context['_parent'] = $context;
                     $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["context"]) ? $context["context"] : null), "translatedLanguages", array()));
                     foreach ($context['_seq'] as $context["language"] => $context["route"]) {
-                        // line 229
+                        // line 228
                         echo "                                    ";
                         if (($context["language"] != (isset($context["page_lang"]) ? $context["page_lang"] : null))) {
-                            // line 230
+                            // line 229
                             echo "                                    <li><button class=\"task\" name=\"task\" value=\"switchlanguage\" lang=\"";
                             echo twig_escape_filter($this->env, $context["language"], "html", null, true);
                             echo "\" redirect=\"";
@@ -436,45 +433,45 @@ class __TwigTemplate_4c242ca376dc9e86d76079869c68252e6372917c8731228074172a1f83f
                             echo "</button>
                                     ";
                         }
-                        // line 232
+                        // line 231
                         echo "                                ";
                     }
                     $_parent = $context['_parent'];
                     unset($context['_seq'], $context['_iterated'], $context['language'], $context['route'], $context['_parent'], $context['loop']);
                     $context = array_intersect_key($context, $_parent) + $_parent;
-                    // line 233
+                    // line 232
                     echo "                            </ul>
                         ";
                 }
-                // line 235
+                // line 234
                 echo "                    </div>
                 ";
             }
-            // line 237
+            // line 236
             echo "
                 ";
-            // line 238
+            // line 237
             if ($this->getAttribute($this->getAttribute((isset($context["context"]) ? $context["context"] : null), "blueprints", array()), "fields", array())) {
-                // line 239
+                // line 238
                 echo "                ";
                 $context["normalText"] = $this->env->getExtension('AdminTwigExtension')->tuFilter("PLUGIN_ADMIN.NORMAL");
-                // line 240
+                // line 239
                 echo "                ";
                 $context["expertText"] = $this->env->getExtension('AdminTwigExtension')->tuFilter("PLUGIN_ADMIN.EXPERT");
-                // line 241
+                // line 240
                 echo "                ";
                 $context["maxLen"] = max(array(0 => twig_length_filter($this->env, (isset($context["normalText"]) ? $context["normalText"] : null)), 1 => twig_length_filter($this->env, (isset($context["expertText"]) ? $context["expertText"] : null))));
-                // line 242
+                // line 241
                 echo "                ";
                 $context["normalText"] = $this->getAttribute($this, "spanToggle", array(0 => (isset($context["normalText"]) ? $context["normalText"] : null), 1 => (isset($context["maxLen"]) ? $context["maxLen"] : null)), "method");
-                // line 243
+                // line 242
                 echo "                ";
                 $context["expertText"] = $this->getAttribute($this, "spanToggle", array(0 => (isset($context["expertText"]) ? $context["expertText"] : null), 1 => (isset($context["maxLen"]) ? $context["maxLen"] : null)), "method");
-                // line 244
+                // line 243
                 echo "                <form id=\"admin-mode-toggle\">
                     <div class=\"switch-toggle switch-grav\">
                         <input type=\"radio\" value=\"normal\" data-leave-url=\"";
-                // line 246
+                // line 245
                 echo twig_escape_filter($this->env, (isset($context["base_url"]) ? $context["base_url"] : null), "html", null, true);
                 echo "/pages/";
                 echo twig_escape_filter($this->env, trim($this->getAttribute((isset($context["admin"]) ? $context["admin"] : null), "route", array()), "/"), "html", null, true);
@@ -486,11 +483,11 @@ class __TwigTemplate_4c242ca376dc9e86d76079869c68252e6372917c8731228074172a1f83f
                 }
                 echo ">
                         <label for=\"normal\">";
-                // line 247
+                // line 246
                 echo (isset($context["normalText"]) ? $context["normalText"] : null);
                 echo "</label>
                         <input type=\"radio\" value=\"expert\" data-leave-url=\"";
-                // line 248
+                // line 247
                 echo twig_escape_filter($this->env, (isset($context["base_url"]) ? $context["base_url"] : null), "html", null, true);
                 echo "/pages/";
                 echo twig_escape_filter($this->env, trim($this->getAttribute((isset($context["admin"]) ? $context["admin"] : null), "route", array()), "/"), "html", null, true);
@@ -502,7 +499,7 @@ class __TwigTemplate_4c242ca376dc9e86d76079869c68252e6372917c8731228074172a1f83f
                 }
                 echo ">
                         <label for=\"expert\">";
-                // line 249
+                // line 248
                 echo (isset($context["expertText"]) ? $context["expertText"] : null);
                 echo "</label>
                         <a></a>
@@ -510,34 +507,34 @@ class __TwigTemplate_4c242ca376dc9e86d76079869c68252e6372917c8731228074172a1f83f
                 </form>
                 ";
             }
-            // line 254
+            // line 253
             echo "
             </div>
 
             ";
-            // line 257
+            // line 256
             if (($this->getAttribute($this->getAttribute((isset($context["context"]) ? $context["context"] : null), "blueprints", array()), "fields", array()) && ($this->getAttribute($this->getAttribute((isset($context["admin"]) ? $context["admin"] : null), "session", array()), "expert", array()) == "0"))) {
-                // line 258
+                // line 257
                 echo "                ";
-                $this->loadTemplate("partials/blueprints.html.twig", "pages.html.twig", 258)->display(array_merge($context, array("blueprints" => $this->getAttribute((isset($context["context"]) ? $context["context"] : null), "blueprints", array()), "data" => (isset($context["context"]) ? $context["context"] : null))));
-                // line 259
+                $this->loadTemplate("partials/blueprints.html.twig", "pages.html.twig", 257)->display(array_merge($context, array("blueprints" => $this->getAttribute((isset($context["context"]) ? $context["context"] : null), "blueprints", array()), "data" => (isset($context["context"]) ? $context["context"] : null))));
+                // line 258
                 echo "            ";
             } else {
-                // line 260
+                // line 259
                 echo "                ";
-                $this->loadTemplate("partials/blueprints-raw.html.twig", "pages.html.twig", 260)->display(array_merge($context, array("blueprints" => $this->getAttribute((isset($context["admin"]) ? $context["admin"] : null), "blueprints", array(0 => (("admin/pages/" . (isset($context["modular"]) ? $context["modular"] : null)) . "raw")), "method"), "data" => (isset($context["context"]) ? $context["context"] : null))));
-                // line 261
+                $this->loadTemplate("partials/blueprints-raw.html.twig", "pages.html.twig", 259)->display(array_merge($context, array("blueprints" => $this->getAttribute((isset($context["admin"]) ? $context["admin"] : null), "blueprints", array(0 => (("admin/pages/" . (isset($context["modular"]) ? $context["modular"] : null)) . "raw")), "method"), "data" => (isset($context["context"]) ? $context["context"] : null))));
+                // line 260
                 echo "            ";
             }
-            // line 262
+            // line 261
             echo "        </div>
     ";
         } else {
-            // line 264
+            // line 263
             echo "        <form id=\"page-filtering\">
             <div class=\"page-filters\">
                 <input type=\"text\" data-filter-labels=\"";
-            // line 266
+            // line 265
             echo twig_escape_filter($this->env, twig_jsonencode_filter(array(0 => array("id" => "mode", "name" => $this->env->getExtension('AdminTwigExtension')->tuFilter("PLUGIN_ADMIN.PAGE_MODES")), 1 => array("id" => "type", "name" => $this->env->getExtension('AdminTwigExtension')->tuFilter("PLUGIN_ADMIN.PAGE_TYPES")), 2 => array("id" => "access", "name" => $this->env->getExtension('AdminTwigExtension')->tuFilter("PLUGIN_ADMIN.ACCESS_LEVELS")))), "html_attr");
             echo "\" data-filter-types=\"";
             echo twig_escape_filter($this->env, twig_jsonencode_filter(twig_array_merge($this->getAttribute((isset($context["admin"]) ? $context["admin"] : null), "types", array()), $this->getAttribute((isset($context["admin"]) ? $context["admin"] : null), "modularTypes", array()))), "html_attr");
@@ -549,17 +546,17 @@ class __TwigTemplate_4c242ca376dc9e86d76079869c68252e6372917c8731228074172a1f83f
             </div>
             <div class=\"page-search\">
                 <input type=\"text\" placeholder=\"";
-            // line 269
+            // line 268
             echo twig_escape_filter($this->env, $this->env->getExtension('AdminTwigExtension')->tuFilter("PLUGIN_ADMIN.SEARCH_PAGES"), "html", null, true);
             echo "\" name=\"page-search\" />
             </div>
             <div class=\"page-shortcuts\">
                 <span class=\"button button-x-small\" data-page-toggleall=\"expand\"><i class=\"fa fa-fw fa-plus-circle\"></i> ";
-            // line 272
+            // line 271
             echo twig_escape_filter($this->env, $this->env->getExtension('AdminTwigExtension')->tuFilter("PLUGIN_ADMIN.EXPAND_ALL"), "html", null, true);
             echo "</span>
                 <span class=\"button button-x-small\" data-page-toggleall=\"collapse\"><i class=\"fa fa-fw fa-minus-circle\"></i> ";
-            // line 273
+            // line 272
             echo twig_escape_filter($this->env, $this->env->getExtension('AdminTwigExtension')->tuFilter("PLUGIN_ADMIN.COLLAPSE_ALL"), "html", null, true);
             echo "</span>
             </div>
@@ -567,30 +564,30 @@ class __TwigTemplate_4c242ca376dc9e86d76079869c68252e6372917c8731228074172a1f83f
         <div class=\"pages-list\">
             <ul class=\"depth-0\">
                 ";
-            // line 278
+            // line 277
             echo $this->getAttribute($this, "loop", array(0 => (isset($context["pages"]) ? $context["pages"] : null), 1 => 0, 2 => $context), "method");
             echo "
             </ul>
             ";
+            // line 279
+            $this->loadTemplate("partials/page-legend.html.twig", "pages.html.twig", 279)->display($context);
             // line 280
-            $this->loadTemplate("partials/page-legend.html.twig", "pages.html.twig", 280)->display($context);
-            // line 281
             echo "        </div>
     ";
         }
-        // line 283
+        // line 282
         echo "    </div>
 
     <div class=\"remodal\" data-remodal-id=\"generic\" data-remodal-options=\"hashTracking: false\">
         <form>
             <h1>";
-        // line 287
+        // line 286
         echo twig_escape_filter($this->env, $this->env->getExtension('AdminTwigExtension')->tuFilter("PLUGIN_ADMIN.ERROR"), "html", null, true);
         echo "</h1>
             <div class=\"error-content\"></div>
             <div class=\"button-bar\">
                 <a class=\"button remodal-cancel\" data-remodal-action=\"cancel\" href=\"#\">";
-        // line 290
+        // line 289
         echo twig_escape_filter($this->env, $this->env->getExtension('AdminTwigExtension')->tuFilter("PLUGIN_ADMIN.CLOSE"), "html", null, true);
         echo "</a>
             </div>
@@ -598,72 +595,72 @@ class __TwigTemplate_4c242ca376dc9e86d76079869c68252e6372917c8731228074172a1f83f
     </div>
 
     ";
-        // line 295
+        // line 294
         if (((isset($context["mode"]) ? $context["mode"] : null) == "list")) {
-            // line 296
+            // line 295
             echo "
         <div class=\"remodal\" data-remodal-id=\"modal\" data-remodal-options=\"hashTracking: false\">
             ";
+            // line 297
+            $this->loadTemplate("partials/blueprints-new.html.twig", "pages.html.twig", 297)->display(array_merge($context, array("blueprints" => $this->getAttribute((isset($context["admin"]) ? $context["admin"] : null), "blueprints", array(0 => "admin/pages/new"), "method"), "data" => (isset($context["context"]) ? $context["context"] : null))));
             // line 298
-            $this->loadTemplate("partials/blueprints-new.html.twig", "pages.html.twig", 298)->display(array_merge($context, array("blueprints" => $this->getAttribute((isset($context["admin"]) ? $context["admin"] : null), "blueprints", array(0 => "admin/pages/new"), "method"), "data" => (isset($context["context"]) ? $context["context"] : null))));
-            // line 299
             echo "        </div>
 
         <div class=\"remodal\" data-remodal-id=\"modal-folder\" data-remodal-options=\"hashTracking: false\">
             ";
+            // line 301
+            $this->loadTemplate("partials/blueprints-new-folder.html.twig", "pages.html.twig", 301)->display(array_merge($context, array("blueprints" => $this->getAttribute((isset($context["admin"]) ? $context["admin"] : null), "blueprints", array(0 => "admin/pages/new_folder"), "method"), "data" => (isset($context["context"]) ? $context["context"] : null))));
             // line 302
-            $this->loadTemplate("partials/blueprints-new-folder.html.twig", "pages.html.twig", 302)->display(array_merge($context, array("blueprints" => $this->getAttribute((isset($context["admin"]) ? $context["admin"] : null), "blueprints", array(0 => "admin/pages/new_folder"), "method"), "data" => (isset($context["context"]) ? $context["context"] : null))));
-            // line 303
             echo "        </div>
 
         <div class=\"remodal\" data-remodal-id=\"modular\" data-remodal-options=\"hashTracking: false\">
             ";
+            // line 305
+            $this->loadTemplate("partials/blueprints-new.html.twig", "pages.html.twig", 305)->display(array_merge($context, array("blueprints" => $this->getAttribute((isset($context["admin"]) ? $context["admin"] : null), "blueprints", array(0 => "admin/pages/modular_new"), "method"), "data" => (isset($context["context"]) ? $context["context"] : null))));
             // line 306
-            $this->loadTemplate("partials/blueprints-new.html.twig", "pages.html.twig", 306)->display(array_merge($context, array("blueprints" => $this->getAttribute((isset($context["admin"]) ? $context["admin"] : null), "blueprints", array(0 => "admin/pages/modular_new"), "method"), "data" => (isset($context["context"]) ? $context["context"] : null))));
-            // line 307
             echo "        </div>
 
     ";
         }
-        // line 310
+        // line 309
         echo "
     ";
-        // line 311
+        // line 310
         if (((isset($context["mode"]) ? $context["mode"] : null) == "edit")) {
-            // line 312
+            // line 311
             echo "    <div class=\"remodal\" data-remodal-id=\"move\" data-remodal-options=\"hashTracking: false\">
 
         ";
+            // line 313
+            $this->loadTemplate("partials/page-move.html.twig", "pages.html.twig", 313)->display(array_merge($context, array("blueprints" => $this->getAttribute((isset($context["admin"]) ? $context["admin"] : null), "blueprints", array(0 => "admin/pages/move"), "method"), "data" => (isset($context["context"]) ? $context["context"] : null))));
             // line 314
-            $this->loadTemplate("partials/page-move.html.twig", "pages.html.twig", 314)->display(array_merge($context, array("blueprints" => $this->getAttribute((isset($context["admin"]) ? $context["admin"] : null), "blueprints", array(0 => "admin/pages/move"), "method"), "data" => (isset($context["context"]) ? $context["context"] : null))));
-            // line 315
             echo "    </div>
     <div class=\"remodal\" data-remodal-id=\"revisions\" data-remodal-options=\"hashTracking: false\">
         ";
+            // line 316
+            $this->loadTemplate(array(0 => "partials/page-revisions.html.twig", 1 => "empty.html.twig"), "pages.html.twig", 316)->display(array_merge($context, array("data" => (isset($context["context"]) ? $context["context"] : null))));
             // line 317
-            $this->loadTemplate(array(0 => "partials/page-revisions.html.twig", 1 => "empty.html.twig"), "pages.html.twig", 317)->display(array_merge($context, array("data" => (isset($context["context"]) ? $context["context"] : null))));
-            // line 318
             echo "    </div>
     ";
         }
-        // line 320
+        // line 319
         echo "
     ";
+        // line 320
+        $this->loadTemplate("partials/modal-changes-detected.html.twig", "pages.html.twig", 320)->display($context);
         // line 321
-        $this->loadTemplate("partials/modal-changes-detected.html.twig", "pages.html.twig", 321)->display($context);
-        // line 322
         echo "
     <div class=\"remodal\" data-remodal-id=\"delete\" data-remodal-options=\"hashTracking: false\">
         <form>
             <h1>";
-        // line 325
+        // line 324
         echo twig_escape_filter($this->env, $this->env->getExtension('AdminTwigExtension')->tuFilter("PLUGIN_ADMIN.MODAL_DELETE_PAGE_CONFIRMATION_REQUIRED_TITLE"), "html", null, true);
         echo "</h1>
             <p class=\"bigger\">
                 ";
-        // line 327
+        // line 326
         if ((isset($context["context"]) ? $context["context"] : null)) {
-            // line 328
+            // line 327
             echo "                    <strong>";
             echo twig_escape_filter($this->env, $this->env->getExtension('AdminTwigExtension')->tuFilter("PLUGIN_ADMIN.PAGE"), "html", null, true);
             echo ": ";
@@ -671,22 +668,22 @@ class __TwigTemplate_4c242ca376dc9e86d76079869c68252e6372917c8731228074172a1f83f
             echo "</strong>
                 ";
         }
-        // line 330
+        // line 329
         echo "            </p>
             <p class=\"bigger\">
               ";
-        // line 332
+        // line 331
         echo twig_escape_filter($this->env, $this->env->getExtension('AdminTwigExtension')->tuFilter("PLUGIN_ADMIN.MODAL_DELETE_PAGE_CONFIRMATION_REQUIRED_DESC"), "html", null, true);
         echo "
             </p>
             <br>
             <div class=\"button-bar\">
             <button data-remodal-action=\"cancel\" class=\"button secondary remodal-cancel\"><i class=\"fa fa-fw fa-close\"></i> ";
-        // line 336
+        // line 335
         echo twig_escape_filter($this->env, $this->env->getExtension('AdminTwigExtension')->tuFilter("PLUGIN_ADMIN.CANCEL"), "html", null, true);
         echo "</button>
             <a class=\"button disable-after-click\" data-delete-action href=\"#\"><i class=\"fa fa-fw fa-check\"></i> ";
-        // line 337
+        // line 336
         echo twig_escape_filter($this->env, $this->env->getExtension('AdminTwigExtension')->tuFilter("PLUGIN_ADMIN.CONTINUE"), "html", null, true);
         echo "</a>
             </div>
@@ -696,23 +693,23 @@ class __TwigTemplate_4c242ca376dc9e86d76079869c68252e6372917c8731228074172a1f83f
     <div class=\"remodal\" data-remodal-id=\"delete-media\" data-remodal-options=\"hashTracking: false\">
         <form>
             <h1>";
-        // line 344
+        // line 343
         echo twig_escape_filter($this->env, $this->env->getExtension('AdminTwigExtension')->tuFilter("PLUGIN_ADMIN.MODAL_DELETE_FILE_CONFIRMATION_REQUIRED_TITLE"), "html", null, true);
         echo "</h1>
             <p class=\"bigger\">
                 ";
-        // line 346
+        // line 345
         echo twig_escape_filter($this->env, $this->env->getExtension('AdminTwigExtension')->tuFilter("PLUGIN_ADMIN.MODAL_DELETE_FILE_CONFIRMATION_REQUIRED_DESC"), "html", null, true);
         echo "
             </p>
             <br>
             <div class=\"button-bar\">
             <button data-remodal-action=\"cancel\" class=\"button secondary remodal-cancel\"><i class=\"fa fa-fw fa-close\"></i> ";
-        // line 350
+        // line 349
         echo twig_escape_filter($this->env, $this->env->getExtension('AdminTwigExtension')->tuFilter("PLUGIN_ADMIN.CANCEL"), "html", null, true);
         echo "</button>
             <button data-remodal-action=\"confirm\" class=\"button remodal-confirm disable-after-click\"><i class=\"fa fa-fw fa-check\"></i> ";
-        // line 351
+        // line 350
         echo twig_escape_filter($this->env, $this->env->getExtension('AdminTwigExtension')->tuFilter("PLUGIN_ADMIN.CONTINUE"), "html", null, true);
         echo "</button>
             </div>
@@ -962,7 +959,7 @@ $context["p"], "published", array())) ? (($this->env->getExtension('AdminTwigExt
 
     public function getDebugInfo()
     {
-        return array (  934 => 105,  928 => 102,  924 => 101,  921 => 100,  919 => 99,  912 => 97,  909 => 96,  903 => 94,  897 => 92,  895 => 91,  888 => 88,  878 => 86,  876 => 85,  869 => 83,  865 => 82,  858 => 80,  854 => 79,  849 => 77,  846 => 76,  843 => 75,  840 => 74,  837 => 73,  834 => 72,  831 => 71,  828 => 70,  826 => 69,  825 => 68,  824 => 67,  823 => 66,  821 => 65,  817 => 64,  814 => 63,  811 => 62,  808 => 61,  805 => 60,  802 => 59,  799 => 58,  796 => 57,  794 => 56,  791 => 55,  788 => 54,  785 => 53,  782 => 52,  779 => 51,  776 => 50,  773 => 49,  770 => 48,  756 => 47,  738 => 4,  725 => 3,  716 => 351,  712 => 350,  705 => 346,  700 => 344,  690 => 337,  686 => 336,  679 => 332,  675 => 330,  667 => 328,  665 => 327,  660 => 325,  655 => 322,  653 => 321,  650 => 320,  646 => 318,  644 => 317,  640 => 315,  638 => 314,  634 => 312,  632 => 311,  629 => 310,  624 => 307,  622 => 306,  617 => 303,  615 => 302,  610 => 299,  608 => 298,  604 => 296,  602 => 295,  594 => 290,  588 => 287,  582 => 283,  578 => 281,  576 => 280,  571 => 278,  563 => 273,  559 => 272,  553 => 269,  541 => 266,  537 => 264,  533 => 262,  530 => 261,  527 => 260,  524 => 259,  521 => 258,  519 => 257,  514 => 254,  506 => 249,  494 => 248,  490 => 247,  478 => 246,  474 => 244,  471 => 243,  468 => 242,  465 => 241,  462 => 240,  459 => 239,  457 => 238,  454 => 237,  450 => 235,  446 => 233,  440 => 232,  430 => 230,  427 => 229,  423 => 228,  417 => 224,  415 => 223,  412 => 222,  406 => 220,  400 => 218,  398 => 217,  394 => 215,  392 => 214,  378 => 211,  375 => 210,  372 => 209,  369 => 208,  366 => 207,  363 => 206,  360 => 205,  358 => 204,  355 => 203,  352 => 202,  344 => 198,  336 => 195,  333 => 194,  331 => 193,  326 => 192,  324 => 191,  321 => 190,  315 => 186,  312 => 185,  308 => 183,  302 => 182,  292 => 180,  289 => 179,  286 => 178,  282 => 177,  276 => 173,  273 => 172,  271 => 171,  267 => 170,  263 => 168,  260 => 167,  254 => 165,  246 => 163,  243 => 162,  237 => 160,  235 => 159,  231 => 158,  224 => 157,  222 => 156,  216 => 155,  212 => 154,  209 => 153,  207 => 152,  204 => 151,  200 => 149,  196 => 147,  190 => 146,  182 => 144,  179 => 143,  176 => 142,  172 => 141,  166 => 137,  164 => 136,  158 => 134,  156 => 133,  151 => 130,  149 => 129,  145 => 127,  139 => 125,  137 => 124,  133 => 123,  124 => 117,  114 => 113,  112 => 112,  109 => 111,  106 => 110,  99 => 41,  96 => 40,  89 => 37,  86 => 36,  83 => 35,  80 => 34,  77 => 33,  73 => 1,  71 => 45,  69 => 44,  67 => 31,  65 => 30,  63 => 29,  61 => 28,  59 => 27,  56 => 24,  54 => 23,  50 => 20,  47 => 18,  45 => 17,  43 => 16,  41 => 15,  39 => 14,  37 => 13,  35 => 12,  33 => 11,  30 => 8,  28 => 7,  11 => 1,);
+        return array (  931 => 105,  925 => 102,  921 => 101,  918 => 100,  916 => 99,  909 => 97,  906 => 96,  900 => 94,  894 => 92,  892 => 91,  885 => 88,  875 => 86,  873 => 85,  866 => 83,  862 => 82,  855 => 80,  851 => 79,  846 => 77,  843 => 76,  840 => 75,  837 => 74,  834 => 73,  831 => 72,  828 => 71,  825 => 70,  823 => 69,  822 => 68,  821 => 67,  820 => 66,  818 => 65,  814 => 64,  811 => 63,  808 => 62,  805 => 61,  802 => 60,  799 => 59,  796 => 58,  793 => 57,  791 => 56,  788 => 55,  785 => 54,  782 => 53,  779 => 52,  776 => 51,  773 => 50,  770 => 49,  767 => 48,  753 => 47,  735 => 4,  722 => 3,  713 => 350,  709 => 349,  702 => 345,  697 => 343,  687 => 336,  683 => 335,  676 => 331,  672 => 329,  664 => 327,  662 => 326,  657 => 324,  652 => 321,  650 => 320,  647 => 319,  643 => 317,  641 => 316,  637 => 314,  635 => 313,  631 => 311,  629 => 310,  626 => 309,  621 => 306,  619 => 305,  614 => 302,  612 => 301,  607 => 298,  605 => 297,  601 => 295,  599 => 294,  591 => 289,  585 => 286,  579 => 282,  575 => 280,  573 => 279,  568 => 277,  560 => 272,  556 => 271,  550 => 268,  538 => 265,  534 => 263,  530 => 261,  527 => 260,  524 => 259,  521 => 258,  518 => 257,  516 => 256,  511 => 253,  503 => 248,  491 => 247,  487 => 246,  475 => 245,  471 => 243,  468 => 242,  465 => 241,  462 => 240,  459 => 239,  456 => 238,  454 => 237,  451 => 236,  447 => 234,  443 => 232,  437 => 231,  427 => 229,  424 => 228,  420 => 227,  414 => 223,  412 => 222,  409 => 221,  403 => 219,  397 => 217,  395 => 216,  391 => 214,  389 => 213,  375 => 210,  372 => 209,  369 => 208,  366 => 207,  363 => 206,  360 => 205,  358 => 204,  355 => 203,  352 => 202,  344 => 198,  336 => 195,  333 => 194,  331 => 193,  326 => 192,  324 => 191,  321 => 190,  315 => 186,  312 => 185,  308 => 183,  302 => 182,  292 => 180,  289 => 179,  286 => 178,  282 => 177,  276 => 173,  273 => 172,  271 => 171,  267 => 170,  263 => 168,  260 => 167,  254 => 165,  246 => 163,  243 => 162,  237 => 160,  235 => 159,  231 => 158,  224 => 157,  222 => 156,  216 => 155,  212 => 154,  209 => 153,  207 => 152,  204 => 151,  200 => 149,  196 => 147,  190 => 146,  182 => 144,  179 => 143,  176 => 142,  172 => 141,  166 => 137,  164 => 136,  158 => 134,  156 => 133,  151 => 130,  149 => 129,  145 => 127,  139 => 125,  137 => 124,  133 => 123,  124 => 117,  114 => 113,  112 => 112,  109 => 111,  106 => 110,  99 => 41,  96 => 40,  89 => 37,  86 => 36,  83 => 35,  80 => 34,  77 => 33,  73 => 1,  71 => 45,  69 => 44,  67 => 31,  65 => 30,  63 => 29,  61 => 28,  59 => 27,  56 => 24,  54 => 23,  50 => 20,  47 => 18,  45 => 17,  43 => 16,  41 => 15,  39 => 14,  37 => 13,  35 => 12,  33 => 11,  30 => 8,  28 => 7,  11 => 1,);
     }
 }
 /* {% extends 'partials/base.html.twig' %}*/
@@ -1168,7 +1165,6 @@ $context["p"], "published", array())) ? (($this->env->getExtension('AdminTwigExt
 /* */
 /* {% block content %}*/
 /*     <div class="clear">*/
-/*     {% include 'partials/messages.html.twig' %}*/
 /*     {% if mode == 'new' %}*/
 /*         {% include 'partials/blueprints-new.html.twig' with { blueprints: admin.blueprints('pages/page'), data: context } %}*/
 /*     {% elseif mode == 'edit' %}*/

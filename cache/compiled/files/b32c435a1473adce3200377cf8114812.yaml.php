@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav-2016/user/plugins/login/blueprints.yaml',
-    'modified' => 1468959513,
+    'modified' => 1470971868,
     'data' => [
         'name' => 'Login',
-        'version' => '2.0.0',
+        'version' => '2.0.1',
         'description' => 'Enables user authentication and login screen.',
         'icon' => 'sign-in',
         'author' => [

@@ -26,6 +26,27 @@ body {
 		min-height: 100%;
 	}
 
+	// Error Styles
+	#error {
+		height: 100vh;
+		display: block;
+
+		& > div {
+			position: relative;
+			display: block;
+			top: 50%;
+			@include transform(translateY(-50%));
+
+			padding: rem(30);
+
+			text-align: center;
+
+			p {
+				color: $color-accent;
+			}
+		}
+	}
+
 
 	// Button Styles
 	.btn {

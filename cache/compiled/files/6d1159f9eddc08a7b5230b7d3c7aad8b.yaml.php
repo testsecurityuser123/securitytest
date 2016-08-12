@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav-2016/user/plugins/admin/blueprints.yaml',
-    'modified' => 1468959509,
+    'modified' => 1470971874,
     'data' => [
         'name' => 'Admin Panel',
-        'version' => '1.1.2',
+        'version' => '1.1.3',
         'description' => 'Adds an advanced administration panel to manage your site',
         'icon' => 'empire',
         'author' => [
@@ -195,6 +195,128 @@ return [
                         'type' => 'bool'
                     ],
                     'help' => 'Ask the user confirmation when deleting a page'
+                ],
+                'Dashboard' => [
+                    'type' => 'section',
+                    'title' => 'Dashboard',
+                    'underline' => true
+                ],
+                'widgets.dashboard-maintenance' => [
+                    'type' => 'toggle',
+                    'label' => 'Maintenance Widget',
+                    'highlight' => 1,
+                    'default' => 1,
+                    'options' => [
+                        1 => 'PLUGIN_ADMIN.ENABLED',
+                        0 => 'PLUGIN_ADMIN.DISABLED'
+                    ],
+                    'validate' => [
+                        'type' => 'bool'
+                    ],
+                    'help' => 'Display dashboard maintenance widget'
+                ],
+                'widgets.dashboard-statistics' => [
+                    'type' => 'toggle',
+                    'label' => 'Statistics Widget',
+                    'highlight' => 1,
+                    'default' => 1,
+                    'options' => [
+                        1 => 'PLUGIN_ADMIN.ENABLED',
+                        0 => 'PLUGIN_ADMIN.DISABLED'
+                    ],
+                    'validate' => [
+                        'type' => 'bool'
+                    ],
+                    'help' => 'Display dashboard statistics widget'
+                ],
+                'widgets.dashboard-notifications' => [
+                    'type' => 'toggle',
+                    'label' => 'Notifications Feed Widget',
+                    'highlight' => 1,
+                    'default' => 1,
+                    'options' => [
+                        1 => 'PLUGIN_ADMIN.ENABLED',
+                        0 => 'PLUGIN_ADMIN.DISABLED'
+                    ],
+                    'validate' => [
+                        'type' => 'bool'
+                    ],
+                    'help' => 'Display dashboard notifications feed widget'
+                ],
+                'widgets.dashboard-feed' => [
+                    'type' => 'toggle',
+                    'label' => 'News Feed Widget',
+                    'highlight' => 1,
+                    'default' => 1,
+                    'options' => [
+                        1 => 'PLUGIN_ADMIN.ENABLED',
+                        0 => 'PLUGIN_ADMIN.DISABLED'
+                    ],
+                    'validate' => [
+                        'type' => 'bool'
+                    ],
+                    'help' => 'Display dashboard news feed widget'
+                ],
+                'widgets.dashboard-pages' => [
+                    'type' => 'toggle',
+                    'label' => 'Latest Pages Widget',
+                    'highlight' => 1,
+                    'default' => 1,
+                    'options' => [
+                        1 => 'PLUGIN_ADMIN.ENABLED',
+                        0 => 'PLUGIN_ADMIN.DISABLED'
+                    ],
+                    'validate' => [
+                        'type' => 'bool'
+                    ],
+                    'help' => 'Display dashboard latest pages widget'
+                ],
+                'Notifications' => [
+                    'type' => 'section',
+                    'title' => 'Notifications',
+                    'underline' => true
+                ],
+                'notifications.dashboard' => [
+                    'type' => 'toggle',
+                    'label' => 'Dashboard Notifications',
+                    'highlight' => 1,
+                    'default' => 1,
+                    'options' => [
+                        1 => 'PLUGIN_ADMIN.ENABLED',
+                        0 => 'PLUGIN_ADMIN.DISABLED'
+                    ],
+                    'validate' => [
+                        'type' => 'bool'
+                    ],
+                    'help' => 'Display dashboard-based notifications'
+                ],
+                'notifications.plugins' => [
+                    'type' => 'toggle',
+                    'label' => 'Plugins Notifications',
+                    'highlight' => 1,
+                    'default' => 1,
+                    'options' => [
+                        1 => 'PLUGIN_ADMIN.ENABLED',
+                        0 => 'PLUGIN_ADMIN.DISABLED'
+                    ],
+                    'validate' => [
+                        'type' => 'bool'
+                    ],
+                    'help' => 'Display plugins-targeted notifications'
+                ],
+                'notifications.themes' => [
+                    'type' => 'toggle',
+                    'label' => 'Themes Notifications',
+                    'highlight' => 1,
+                    'default' => 1,
+                    'options' => [
+                        1 => 'PLUGIN_ADMIN.ENABLED',
+                        0 => 'PLUGIN_ADMIN.DISABLED'
+                    ],
+                    'validate' => [
+                        'type' => 'bool'
+                    ],
+                    'help' => 'Display themes-targeted notifications'
                 ],
                 'Popularity' => [
                     'type' => 'section',

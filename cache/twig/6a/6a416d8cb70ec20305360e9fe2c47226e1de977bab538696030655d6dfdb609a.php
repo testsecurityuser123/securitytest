@@ -11,7 +11,6 @@ class __TwigTemplate_11823ec366b62bd662a71718e7e1ce63d8649bcd45a202cef655194ddb1
         $this->parent = $this->loadTemplate("partials/base.html.twig", "dashboard.html.twig", 1);
         $this->blocks = array(
             'titlebar' => array($this, 'block_titlebar'),
-            'messages' => array($this, 'block_messages'),
             'widgets' => array($this, 'block_widgets'),
             'content' => array($this, 'block_content'),
             'content_bottom' => array($this, 'block_content_bottom'),
@@ -96,19 +95,22 @@ class __TwigTemplate_11823ec366b62bd662a71718e7e1ce63d8649bcd45a202cef655194ddb1
     }
 
     // line 29
-    public function block_messages($context, array $blocks = array())
-    {
-    }
-
-    // line 31
     public function block_widgets($context, array $blocks = array())
     {
-        // line 32
-        echo "    <div id=\"admin-dashboard\">
-        ";
+        // line 30
+        echo "    ";
+        if ($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "plugins", array()), "admin", array()), "notifications", array()), "dashboard", array())) {
+            // line 31
+            echo "    <div class=\"dashboard-notifications-container\"></div>
+    ";
+        }
         // line 33
+        echo "
+    <div id=\"admin-dashboard\">
+        ";
+        // line 35
         if ($this->getAttribute($this->getAttribute((isset($context["grav"]) ? $context["grav"] : null), "twig", array()), "plugins_hooked_dashboard_widgets_top", array())) {
-            // line 34
+            // line 36
             echo "            ";
             $context['_parent'] = $context;
             $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["grav"]) ? $context["grav"] : null), "twig", array()), "plugins_hooked_dashboard_widgets_top", array()));
@@ -126,10 +128,19 @@ class __TwigTemplate_11823ec366b62bd662a71718e7e1ce63d8649bcd45a202cef655194ddb1
                 $context['loop']['last'] = 1 === $length;
             }
             foreach ($context['_seq'] as $context["_key"] => $context["widget"]) {
-                // line 35
+                // line 37
                 echo "                ";
-                $this->loadTemplate((("partials/" . $this->getAttribute($context["widget"], "template", array())) . ".html.twig"), "dashboard.html.twig", 35)->display($context);
-                // line 36
+                if (($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "plugins", array()), "admin", array()), "widgets", array()), $this->getAttribute($context["widget"], "template", array())) == true)) {
+                    // line 38
+                    echo "                    <div class=\"dashboard-item-flex\">
+                        ";
+                    // line 39
+                    $this->loadTemplate((("partials/" . $this->getAttribute($context["widget"], "template", array())) . ".html.twig"), "dashboard.html.twig", 39)->display($context);
+                    // line 40
+                    echo "                    </div>
+                ";
+                }
+                // line 42
                 echo "            ";
                 ++$context['loop']['index0'];
                 ++$context['loop']['index'];
@@ -143,27 +154,20 @@ class __TwigTemplate_11823ec366b62bd662a71718e7e1ce63d8649bcd45a202cef655194ddb1
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['widget'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 37
+            // line 43
             echo "        ";
         }
-        // line 38
+        // line 44
         echo "    </div>
 ";
     }
 
-    // line 41
+    // line 47
     public function block_content($context, array $blocks = array())
     {
-        // line 42
-        echo "    ";
-        $this->loadTemplate("partials/messages.html.twig", "dashboard.html.twig", 42)->display($context);
-        // line 43
-        echo "
-    ";
-        // line 44
+        // line 48
         if ($this->getAttribute($this->getAttribute((isset($context["grav"]) ? $context["grav"] : null), "twig", array()), "plugins_hooked_dashboard_widgets_main", array())) {
-            // line 45
-            echo "        ";
+            // line 49
             $context['_parent'] = $context;
             $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["grav"]) ? $context["grav"] : null), "twig", array()), "plugins_hooked_dashboard_widgets_main", array()));
             $context['loop'] = array(
@@ -180,11 +184,14 @@ class __TwigTemplate_11823ec366b62bd662a71718e7e1ce63d8649bcd45a202cef655194ddb1
                 $context['loop']['last'] = 1 === $length;
             }
             foreach ($context['_seq'] as $context["_key"] => $context["widget"]) {
-                // line 46
-                echo "            ";
-                $this->loadTemplate((("partials/" . $this->getAttribute($context["widget"], "template", array())) . ".html.twig"), "dashboard.html.twig", 46)->display($context);
-                // line 47
-                echo "        ";
+                // line 50
+                if (($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "plugins", array()), "admin", array()), "widgets", array()), $this->getAttribute($context["widget"], "template", array())) == true)) {
+                    // line 51
+                    echo "                ";
+                    $this->loadTemplate((("partials/" . $this->getAttribute($context["widget"], "template", array())) . ".html.twig"), "dashboard.html.twig", 51)->display($context);
+                    // line 52
+                    echo "            ";
+                }
                 ++$context['loop']['index0'];
                 ++$context['loop']['index'];
                 $context['loop']['first'] = false;
@@ -197,21 +204,17 @@ class __TwigTemplate_11823ec366b62bd662a71718e7e1ce63d8649bcd45a202cef655194ddb1
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['widget'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 48
-            echo "    ";
         }
     }
 
-    // line 51
+    // line 57
     public function block_content_bottom($context, array $blocks = array())
     {
-        // line 52
-        echo "    <div id=\"admin-dashboard\">
-        ";
-        // line 53
+        // line 58
+        echo "    <div id=\"admin-dashboard\">";
+        // line 59
         if ($this->getAttribute($this->getAttribute((isset($context["grav"]) ? $context["grav"] : null), "twig", array()), "plugins_hooked_dashboard_widgets_bottom", array())) {
-            // line 54
-            echo "            ";
+            // line 60
             $context['_parent'] = $context;
             $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute((isset($context["grav"]) ? $context["grav"] : null), "twig", array()), "plugins_hooked_dashboard_widgets_bottom", array()));
             $context['loop'] = array(
@@ -228,11 +231,14 @@ class __TwigTemplate_11823ec366b62bd662a71718e7e1ce63d8649bcd45a202cef655194ddb1
                 $context['loop']['last'] = 1 === $length;
             }
             foreach ($context['_seq'] as $context["_key"] => $context["widget"]) {
-                // line 55
-                echo "                ";
-                $this->loadTemplate((("partials/" . $this->getAttribute($context["widget"], "template", array())) . ".html.twig"), "dashboard.html.twig", 55)->display($context);
-                // line 56
-                echo "            ";
+                // line 61
+                if (($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "plugins", array()), "admin", array()), "widgets", array()), $this->getAttribute($context["widget"], "template", array())) == true)) {
+                    // line 62
+                    echo "                    ";
+                    $this->loadTemplate((("partials/" . $this->getAttribute($context["widget"], "template", array())) . ".html.twig"), "dashboard.html.twig", 62)->display($context);
+                    // line 63
+                    echo "                ";
+                }
                 ++$context['loop']['index0'];
                 ++$context['loop']['index'];
                 $context['loop']['first'] = false;
@@ -245,11 +251,9 @@ class __TwigTemplate_11823ec366b62bd662a71718e7e1ce63d8649bcd45a202cef655194ddb1
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['widget'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 57
-            echo "        ";
         }
-        // line 58
-        echo "    </div>
+        // line 66
+        echo "</div>
 ";
     }
 
@@ -265,7 +269,7 @@ class __TwigTemplate_11823ec366b62bd662a71718e7e1ce63d8649bcd45a202cef655194ddb1
 
     public function getDebugInfo()
     {
-        return array (  252 => 58,  249 => 57,  235 => 56,  232 => 55,  214 => 54,  212 => 53,  209 => 52,  206 => 51,  201 => 48,  187 => 47,  184 => 46,  166 => 45,  164 => 44,  161 => 43,  158 => 42,  155 => 41,  150 => 38,  147 => 37,  133 => 36,  130 => 35,  112 => 34,  110 => 33,  107 => 32,  104 => 31,  99 => 29,  93 => 26,  90 => 25,  85 => 23,  76 => 19,  70 => 18,  64 => 17,  58 => 16,  48 => 11,  45 => 10,  43 => 9,  40 => 8,  37 => 7,  33 => 1,  31 => 5,  29 => 3,  11 => 1,);
+        return array (  256 => 66,  240 => 63,  237 => 62,  235 => 61,  218 => 60,  216 => 59,  214 => 58,  211 => 57,  193 => 52,  190 => 51,  188 => 50,  171 => 49,  169 => 48,  166 => 47,  161 => 44,  158 => 43,  144 => 42,  140 => 40,  138 => 39,  135 => 38,  132 => 37,  114 => 36,  112 => 35,  108 => 33,  104 => 31,  101 => 30,  98 => 29,  92 => 26,  89 => 25,  84 => 23,  75 => 19,  69 => 18,  63 => 17,  57 => 16,  47 => 11,  44 => 10,  42 => 9,  39 => 8,  36 => 7,  32 => 1,  30 => 5,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends 'partials/base.html.twig' %}*/
@@ -296,35 +300,43 @@ class __TwigTemplate_11823ec366b62bd662a71718e7e1ce63d8649bcd45a202cef655194ddb1
 /*     <h1><i class="fa fa-fw fa-th"></i> {{ "PLUGIN_ADMIN.DASHBOARD"|tu }}</h1>*/
 /* {% endblock %}*/
 /* */
-/* {% block messages %}{% endblock %}*/
-/* */
 /* {% block widgets %}*/
+/*     {% if config.plugins.admin.notifications.dashboard %}*/
+/*     <div class="dashboard-notifications-container"></div>*/
+/*     {% endif %}*/
+/* */
 /*     <div id="admin-dashboard">*/
 /*         {% if grav.twig.plugins_hooked_dashboard_widgets_top %}*/
 /*             {% for widget in grav.twig.plugins_hooked_dashboard_widgets_top %}*/
-/*                 {% include 'partials/' ~ widget.template ~ '.html.twig' %}*/
+/*                 {% if attribute(config.plugins.admin.widgets, widget.template) == true %}*/
+/*                     <div class="dashboard-item-flex">*/
+/*                         {% include 'partials/' ~ widget.template ~ '.html.twig' %}*/
+/*                     </div>*/
+/*                 {% endif %}*/
 /*             {% endfor %}*/
 /*         {% endif %}*/
 /*     </div>*/
 /* {% endblock %}*/
 /* */
 /* {% block content %}*/
-/*     {% include 'partials/messages.html.twig' %}*/
-/* */
-/*     {% if grav.twig.plugins_hooked_dashboard_widgets_main %}*/
-/*         {% for widget in grav.twig.plugins_hooked_dashboard_widgets_main %}*/
-/*             {% include 'partials/' ~ widget.template ~ '.html.twig' %}*/
-/*         {% endfor %}*/
-/*     {% endif %}*/
+/*     {%- if grav.twig.plugins_hooked_dashboard_widgets_main -%}*/
+/*         {%- for widget in grav.twig.plugins_hooked_dashboard_widgets_main -%}*/
+/*             {%- if attribute(config.plugins.admin.widgets, widget.template) == true %}*/
+/*                 {% include 'partials/' ~ widget.template ~ '.html.twig' %}*/
+/*             {% endif -%}*/
+/*         {%- endfor -%}*/
+/*     {%- endif -%}*/
 /* {% endblock %}*/
 /* */
 /* {% block content_bottom %}*/
 /*     <div id="admin-dashboard">*/
-/*         {% if grav.twig.plugins_hooked_dashboard_widgets_bottom %}*/
-/*             {% for widget in grav.twig.plugins_hooked_dashboard_widgets_bottom %}*/
-/*                 {% include 'partials/' ~ widget.template ~ '.html.twig' %}*/
-/*             {% endfor %}*/
-/*         {% endif %}*/
+/*         {%- if grav.twig.plugins_hooked_dashboard_widgets_bottom -%}*/
+/*             {%- for widget in grav.twig.plugins_hooked_dashboard_widgets_bottom -%}*/
+/*                 {%- if attribute(config.plugins.admin.widgets, widget.template) == true %}*/
+/*                     {% include 'partials/' ~ widget.template ~ '.html.twig' %}*/
+/*                 {% endif -%}*/
+/*             {%- endfor -%}*/
+/*         {%- endif -%}*/
 /*     </div>*/
 /* {% endblock %}*/
 /* */

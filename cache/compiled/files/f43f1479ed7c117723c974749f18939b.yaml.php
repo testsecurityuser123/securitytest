@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav-2016/user/plugins/admin/languages/en.yaml',
-    'modified' => 1468959509,
+    'modified' => 1470971874,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_BETA_MSG' => 'This is a Beta release! Use this in production at your own risk...',
@@ -560,6 +560,7 @@ return [
             'NON_PUBLISHED' => 'Non-Published',
             'CHARACTERS' => 'characters',
             'PUBLISHING' => 'Publishing',
+            'NOTIFICATIONS' => 'Notifications',
             'MEDIA_TYPES' => 'Media Types',
             'IMAGE_OPTIONS' => 'Image options',
             'MIME_TYPE' => 'Mime Type',
@@ -584,7 +585,10 @@ return [
             'TO' => 'to',
             'RELEASE_DATE' => 'Release Date',
             'SORT_BY' => 'Sort By',
-            'RESOURCE_FILTER' => 'Filter...'
+            'RESOURCE_FILTER' => 'Filter...',
+            'FORCE_SSL' => 'Force SSL',
+            'FORCE_SSL_HELP' => 'Globally force SSL, if enabled when the site is reached through HTTP, Grav sends a redirect to the HTTPS page',
+            'NEWS_FEED' => 'News Feed'
         ]
     ]
 ];

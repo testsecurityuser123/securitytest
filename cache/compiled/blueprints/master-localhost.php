@@ -1,35 +1,35 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1470880059,
-    'checksum' => '48db9397440b138683117fac9b4695ae',
+    'timestamp' => 1470975297,
+    'checksum' => 'cbd8c16f2fce713b0df421c18bb5f636',
     'files' => [
         'system/blueprints/config' => [
             'media' => [
                 'file' => 'system/blueprints/config/media.yaml',
-                'modified' => 1468959499
+                'modified' => 1470971846
             ],
             'site' => [
                 'file' => 'system/blueprints/config/site.yaml',
-                'modified' => 1468959499
+                'modified' => 1470971846
             ],
             'streams' => [
                 'file' => 'system/blueprints/config/streams.yaml',
-                'modified' => 1468959499
+                'modified' => 1470971846
             ],
             'system' => [
                 'file' => 'system/blueprints/config/system.yaml',
-                'modified' => 1468959499
+                'modified' => 1470971846
             ]
         ],
         'user/plugins' => [
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/blueprints.yaml',
-                'modified' => 1468959509
+                'modified' => 1470971874
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/blueprints.yaml',
-                'modified' => 1468959511
+                'modified' => 1470971871
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/blueprints.yaml',
@@ -37,11 +37,11 @@ return [
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/blueprints.yaml',
-                'modified' => 1470880058
+                'modified' => 1470971867
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/blueprints.yaml',
-                'modified' => 1468959513
+                'modified' => 1470971868
             ],
             'plugins/private' => [
                 'file' => 'user/plugins/private/blueprints.yaml',
@@ -1521,6 +1521,20 @@ return [
                 'name' => 'system.param_sep',
                 'validation' => 'loose'
             ],
+            'system.force_ssl' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_ADMIN.FORCE_SSL',
+                'highlight' => 0,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.YES',
+                    0 => 'PLUGIN_ADMIN.NO'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'system.force_ssl',
+                'validation' => 'loose'
+            ],
             'system.advanced' => [
                 'type' => 'section',
                 'underline' => true,
@@ -1727,6 +1741,148 @@ return [
                     'type' => 'bool'
                 ],
                 'name' => 'plugins.admin.warnings.delete_page',
+                'validation' => 'loose'
+            ],
+            'plugins.admin.Dashboard' => [
+                'type' => 'section',
+                'underline' => true,
+                'name' => 'plugins.admin.Dashboard',
+                'validation' => 'loose'
+            ],
+            'plugins.admin.widgets' => [
+                'type' => '_parent',
+                'name' => 'plugins.admin.widgets',
+                'form_field' => false
+            ],
+            'plugins.admin.widgets.dashboard-maintenance' => [
+                'type' => 'toggle',
+                'label' => 'Maintenance Widget',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.admin.widgets.dashboard-maintenance',
+                'validation' => 'loose'
+            ],
+            'plugins.admin.widgets.dashboard-statistics' => [
+                'type' => 'toggle',
+                'label' => 'Statistics Widget',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.admin.widgets.dashboard-statistics',
+                'validation' => 'loose'
+            ],
+            'plugins.admin.widgets.dashboard-notifications' => [
+                'type' => 'toggle',
+                'label' => 'Notifications Feed Widget',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.admin.widgets.dashboard-notifications',
+                'validation' => 'loose'
+            ],
+            'plugins.admin.widgets.dashboard-feed' => [
+                'type' => 'toggle',
+                'label' => 'News Feed Widget',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.admin.widgets.dashboard-feed',
+                'validation' => 'loose'
+            ],
+            'plugins.admin.widgets.dashboard-pages' => [
+                'type' => 'toggle',
+                'label' => 'Latest Pages Widget',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.admin.widgets.dashboard-pages',
+                'validation' => 'loose'
+            ],
+            'plugins.admin.Notifications' => [
+                'type' => 'section',
+                'underline' => true,
+                'name' => 'plugins.admin.Notifications',
+                'validation' => 'loose'
+            ],
+            'plugins.admin.notifications' => [
+                'type' => '_parent',
+                'name' => 'plugins.admin.notifications',
+                'form_field' => false
+            ],
+            'plugins.admin.notifications.dashboard' => [
+                'type' => 'toggle',
+                'label' => 'Dashboard Notifications',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.admin.notifications.dashboard',
+                'validation' => 'loose'
+            ],
+            'plugins.admin.notifications.plugins' => [
+                'type' => 'toggle',
+                'label' => 'Plugins Notifications',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.admin.notifications.plugins',
+                'validation' => 'loose'
+            ],
+            'plugins.admin.notifications.themes' => [
+                'type' => 'toggle',
+                'label' => 'Themes Notifications',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.admin.notifications.themes',
                 'validation' => 'loose'
             ],
             'plugins.admin.Popularity' => [
@@ -2634,7 +2790,8 @@ return [
                 'reverse_proxy_setup' => 'system.reverse_proxy_setup',
                 'wrapped_site' => 'system.wrapped_site',
                 'absolute_urls' => 'system.absolute_urls',
-                'param_sep' => 'system.param_sep'
+                'param_sep' => 'system.param_sep',
+                'force_ssl' => 'system.force_ssl'
             ],
             'plugins' => [
                 'admin' => [
@@ -2659,6 +2816,20 @@ return [
                     ],
                     'warnings' => [
                         'delete_page' => 'plugins.admin.warnings.delete_page'
+                    ],
+                    'Dashboard' => 'plugins.admin.Dashboard',
+                    'widgets' => [
+                        'dashboard-maintenance' => 'plugins.admin.widgets.dashboard-maintenance',
+                        'dashboard-statistics' => 'plugins.admin.widgets.dashboard-statistics',
+                        'dashboard-notifications' => 'plugins.admin.widgets.dashboard-notifications',
+                        'dashboard-feed' => 'plugins.admin.widgets.dashboard-feed',
+                        'dashboard-pages' => 'plugins.admin.widgets.dashboard-pages'
+                    ],
+                    'Notifications' => 'plugins.admin.Notifications',
+                    'notifications' => [
+                        'dashboard' => 'plugins.admin.notifications.dashboard',
+                        'plugins' => 'plugins.admin.notifications.plugins',
+                        'themes' => 'plugins.admin.notifications.themes'
                     ],
                     'Popularity' => 'plugins.admin.Popularity',
                     'popularity' => [

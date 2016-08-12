@@ -46,7 +46,7 @@ class __TwigTemplate_97d50be57c4cb96f9725e8604b92682db92f7c8cc2381d60fb96210d8e6
                     echo twig_escape_filter($this->env, (isset($context["base_url"]) ? $context["base_url"] : null), "html", null, true);
                     echo "/pages/";
                     echo twig_escape_filter($this->env, trim($this->getAttribute($context["latest"], "route", array()), "/"), "html", null, true);
-                    echo "\"><i class=\"fa fa-fw fa-file-o\"></i> ";
+                    echo "\"><i class=\"fa fa-fw fa-file-text-o\"></i> ";
                     echo twig_escape_filter($this->env, $this->getAttribute($context["latest"], "title", array()));
                     echo "</a></td>
                 <td class=\"triple page-route\">";
@@ -98,7 +98,7 @@ class __TwigTemplate_97d50be57c4cb96f9725e8604b92682db92f7c8cc2381d60fb96210d8e6
 /*         {% for latest in admin.latestPages if admin.latestPages %}*/
 /*             <tr>*/
 /*                 <td class="triple page-title">*/
-/*                     <a href="{{ base_url }}/pages/{{ latest.route|trim('/') }}"><i class="fa fa-fw fa-file-o"></i> {{ latest.title|e }}</a></td>*/
+/*                     <a href="{{ base_url }}/pages/{{ latest.route|trim('/') }}"><i class="fa fa-fw fa-file-text-o"></i> {{ latest.title|e }}</a></td>*/
 /*                 <td class="triple page-route">{{ latest.route }}</td><td>{{ latest.modified|adminNicetime }}</td>*/
 /*             </tr>*/
 /*         {% endfor %}*/

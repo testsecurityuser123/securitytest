@@ -134,9 +134,11 @@ Module: Project Phone Slider
 
 				.slick-dots {
 					bottom: -27%;
+					width: 150%;
+					margin-left: -25%;
 
 					@include breakpoint(rem(420)) {
-						bottom: -24%;
+						bottom: -25%;
 					}
 
 					@include breakpoint($bp-s) {
@@ -148,12 +150,12 @@ Module: Project Phone Slider
 					}
 
 					@include breakpoint(rem(700)) {
-						bottom: -22%;
+						bottom: -23%;
 					}
 
 
 					@include breakpoint($bp-m) {
-						bottom: -22%;
+						bottom: -23%;
 						//bottom: rem(-60);
 					}
 				}

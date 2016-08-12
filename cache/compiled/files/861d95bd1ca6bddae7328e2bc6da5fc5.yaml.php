@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav-2016/system/blueprints/config/system.yaml',
-    'modified' => 1468959499,
+    'modified' => 1470971846,
     'data' => [
         'title' => 'PLUGIN_ADMIN.SYSTEM',
         'form' => [
@@ -1176,6 +1176,19 @@ return [
                             'options' => [
                                 ':' => ': (default)',
                                 ';' => '; (for Apache running on Windows)'
+                            ]
+                        ],
+                        'force_ssl' => [
+                            'type' => 'toggle',
+                            'label' => 'PLUGIN_ADMIN.FORCE_SSL',
+                            'highlight' => 0,
+                            'help' => 'PLUGIN_ADMIN.FORCE_SSL_HELP',
+                            'options' => [
+                                1 => 'PLUGIN_ADMIN.YES',
+                                0 => 'PLUGIN_ADMIN.NO'
+                            ],
+                            'validate' => [
+                                'type' => 'bool'
                             ]
                         ]
                     ]

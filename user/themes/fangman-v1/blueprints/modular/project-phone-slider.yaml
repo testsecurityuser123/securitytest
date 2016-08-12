@@ -15,7 +15,7 @@ form:
             header.project_ps_button_text:
               type: text
               size: large
-              label: Buttom Text
+              label: Button Text
 
             header.project_ps_button_link:
               type: text

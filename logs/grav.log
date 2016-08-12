@@ -238,3 +238,5 @@
 [2016-08-11 03:50:28] grav.NOTICE: Invalid slug set in YAML frontmatter: /caliper/_caliper-desktop-slider => _caliper-desktop-slider [] []
 [2016-08-11 05:32:46] grav.NOTICE: Invalid slug set in YAML frontmatter: /caliper/_caliper-mobile-slider => _caliper-mobile-slider [] []
 [2016-08-11 05:33:57] grav.NOTICE: Invalid slug set in YAML frontmatter: /caliper/_caliper-mobile-slider => _caliper-mobile-slider [] []
+[2016-08-12 05:18:36] grav.NOTICE: Invalid slug set in YAML frontmatter: /mvp/_mvp-intro => _mvp-intro [] []
+[2016-08-12 06:03:21] grav.NOTICE: Invalid slug set in YAML frontmatter: /mvp/_mvp-ux => _mvp-ux [] []

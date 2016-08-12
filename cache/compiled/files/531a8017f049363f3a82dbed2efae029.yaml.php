@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav-2016/system/config/media.yaml',
-    'modified' => 1468959499,
+    'modified' => 1470971846,
     'data' => [
         'types' => [
             'defaults' => [

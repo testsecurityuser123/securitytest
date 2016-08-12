@@ -156,25 +156,27 @@ $slick-opacity-not-active: 0.25 !default;
     text-align: center;
     padding: 0;
     width: 100%;
+    width: 150%;
+    margin-left: -25%;
 
     @include breakpoint($bp-s) {
-        bottom: -75%;
+        bottom: -70%;
     }
 
      @include breakpoint($bp-m) {
-        bottom: -65%;
+        bottom: -60%;
     }
 
     @include breakpoint($bp-xl) {
-        bottom: -62%;
+        bottom: -58%;
     }
 
     li {
         position: relative;
         display: inline-block;
         height: rem(6);
-        width: rem(6);
-        margin: 0 rem(6);
+        width: auto;
+        margin: 0 rem(3);
         padding: 0;
         cursor: pointer;
         button {
@@ -190,7 +192,7 @@ $slick-opacity-not-active: 0.25 !default;
             font-size: 0px;
             color: transparent;
             padding: 0;
-            margin: 0 rem(6);
+            margin: 0;
             cursor: pointer;
 
             @include transition($transition-med);

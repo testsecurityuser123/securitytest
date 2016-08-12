@@ -148,7 +148,7 @@ class __TwigTemplate_41416337130cd4146fe3f3e12924ff8fe33f3466828affe10591c2b18a4
             echo "\">
                         <span class=\"form-description\">";
             // line 75
-            echo $this->getAttribute((isset($context["field"]) ? $context["field"] : null), "description", array());
+            echo $this->env->getExtension('AdminTwigExtension')->tuFilter($this->getAttribute((isset($context["field"]) ? $context["field"] : null), "description", array()));
             echo "</span>
                     </div>
                 ";
@@ -436,7 +436,7 @@ class __TwigTemplate_41416337130cd4146fe3f3e12924ff8fe33f3466828affe10591c2b18a4
 /*                 {% endblock %}*/
 /*                 {% if field.description %}*/
 /*                     <div class="form-extra-wrapper {{ field.size }} {{ field.wrapper_classes }}">*/
-/*                         <span class="form-description">{{ field.description|raw }}</span>*/
+/*                         <span class="form-description">{{ field.description|tu|raw }}</span>*/
 /*                     </div>*/
 /*                 {% endif %}*/
 /*             </div>*/

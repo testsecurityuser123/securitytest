@@ -17,8 +17,8 @@ class __TwigTemplate_3d8fef4fee885383bf93e980e29fbdf9cde710fe173e36c2b6427320f57
             'page' => array($this, 'block_page'),
             'navigation' => array($this, 'block_navigation'),
             'titlebar' => array($this, 'block_titlebar'),
-            'widgets' => array($this, 'block_widgets'),
             'messages' => array($this, 'block_messages'),
+            'widgets' => array($this, 'block_widgets'),
             'content_top' => array($this, 'block_content_top'),
             'content' => array($this, 'block_content'),
             'content_bottom' => array($this, 'block_content_bottom'),
@@ -39,7 +39,7 @@ class __TwigTemplate_3d8fef4fee885383bf93e980e29fbdf9cde710fe173e36c2b6427320f57
 ";
         // line 32
         $this->displayBlock('body', $context, $blocks);
-        // line 78
+        // line 76
         echo "</html>
 ";
     }
@@ -95,7 +95,6 @@ class __TwigTemplate_3d8fef4fee885383bf93e980e29fbdf9cde710fe173e36c2b6427320f57
     <link rel=\"icon\" type=\"image/png\" href=\"";
         // line 18
         echo twig_escape_filter($this->env, (isset($context["base_url_simple"]) ? $context["base_url_simple"] : null), "html", null, true);
-        echo "/";
         echo twig_escape_filter($this->env, (isset($context["theme_url"]) ? $context["theme_url"] : null), "html", null, true);
         echo "/images/favicon.png\">
 
@@ -150,7 +149,7 @@ class __TwigTemplate_3d8fef4fee885383bf93e980e29fbdf9cde710fe173e36c2b6427320f57
     ";
         // line 34
         $this->displayBlock('page', $context, $blocks);
-        // line 76
+        // line 74
         echo "</body>
 ";
     }
@@ -178,46 +177,44 @@ class __TwigTemplate_3d8fef4fee885383bf93e980e29fbdf9cde710fe173e36c2b6427320f57
         // line 45
         echo "            </div>
 
-            <div class=\"grav-update\" data-gpm-grav>
-            </div>
-
             <div class=\"content-wrapper\">
                 <div class=\"content-padding\">
                     ";
+        // line 49
+        $this->displayBlock('messages', $context, $blocks);
         // line 52
-        $this->displayBlock('widgets', $context, $blocks);
+        echo "
+                    ";
         // line 53
+        $this->displayBlock('widgets', $context, $blocks);
+        // line 54
         echo "                    <div class=\"default-box-shadow\">
                         ";
-        // line 54
-        $this->displayBlock('messages', $context, $blocks);
-        // line 57
-        echo "                        ";
+        // line 55
         $this->displayBlock('content_top', $context, $blocks);
-        // line 58
-        echo "                        <div class=\"admin-block\">
-                            ";
-        // line 59
+        // line 56
+        echo "                        <div class=\"admin-block\">";
+        // line 57
         $this->displayBlock('content', $context, $blocks);
-        // line 60
-        echo "                        </div>
+        // line 58
+        echo "</div>
                         ";
-        // line 61
+        // line 59
         if ($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "plugins", array()), "admin", array()), "show_github_msg", array())) {
-            // line 62
+            // line 60
             echo "                        <div class=\"notice alert\"><i class=\"fa fa-github\"></i> <a href=\"https://github.com/getgrav/grav-plugin-admin/issues\" target=\"_blank\">";
             echo twig_escape_filter($this->env, $this->env->getExtension('AdminTwigExtension')->tuFilter("PLUGIN_ADMIN.ADMIN_REPORT_ISSUE"), "html", null, true);
             echo "</a></div>
                         ";
         }
-        // line 64
+        // line 62
         echo "                        ";
         $this->displayBlock('content_bottom', $context, $blocks);
-        // line 65
+        // line 63
         echo "                    </div>
                      <footer id=\"footer\">
                          <a href=\"http://getgrav.org\">Grav</a> v<span class=\"grav-version\">";
-        // line 67
+        // line 65
         echo twig_escape_filter($this->env, twig_constant("GRAV_VERSION"), "html", null, true);
         echo "</span> - Admin v";
         echo twig_escape_filter($this->env, (isset($context["admin_version"]) ? $context["admin_version"] : null), "html", null, true);
@@ -251,32 +248,32 @@ class __TwigTemplate_3d8fef4fee885383bf93e980e29fbdf9cde710fe173e36c2b6427320f57
     {
     }
 
-    // line 52
+    // line 49
+    public function block_messages($context, array $blocks = array())
+    {
+        // line 50
+        echo "                        ";
+        $this->loadTemplate("partials/messages.html.twig", "partials/base.html.twig", 50)->display($context);
+        // line 51
+        echo "                    ";
+    }
+
+    // line 53
     public function block_widgets($context, array $blocks = array())
     {
     }
 
-    // line 54
-    public function block_messages($context, array $blocks = array())
-    {
-        // line 55
-        echo "                        ";
-        $this->loadTemplate("partials/messages.html.twig", "partials/base.html.twig", 55)->display($context);
-        // line 56
-        echo "                        ";
-    }
-
-    // line 57
+    // line 55
     public function block_content_top($context, array $blocks = array())
     {
     }
 
-    // line 59
+    // line 57
     public function block_content($context, array $blocks = array())
     {
     }
 
-    // line 64
+    // line 62
     public function block_content_bottom($context, array $blocks = array())
     {
     }
@@ -288,7 +285,7 @@ class __TwigTemplate_3d8fef4fee885383bf93e980e29fbdf9cde710fe173e36c2b6427320f57
 
     public function getDebugInfo()
     {
-        return array (  280 => 64,  275 => 59,  270 => 57,  266 => 56,  263 => 55,  260 => 54,  255 => 52,  250 => 44,  246 => 39,  243 => 38,  240 => 37,  221 => 67,  217 => 65,  214 => 64,  208 => 62,  206 => 61,  203 => 60,  201 => 59,  198 => 58,  195 => 57,  193 => 54,  190 => 53,  188 => 52,  179 => 45,  177 => 44,  174 => 43,  172 => 42,  168 => 40,  166 => 37,  162 => 35,  159 => 34,  154 => 76,  152 => 34,  145 => 33,  142 => 32,  135 => 28,  132 => 27,  129 => 26,  122 => 22,  119 => 21,  116 => 20,  111 => 26,  109 => 25,  106 => 24,  104 => 20,  97 => 18,  94 => 17,  90 => 15,  84 => 13,  81 => 12,  75 => 10,  69 => 8,  67 => 7,  54 => 6,  51 => 5,  48 => 4,  43 => 78,  41 => 32,  38 => 31,  36 => 4,  31 => 1,);
+        return array (  277 => 62,  272 => 57,  267 => 55,  262 => 53,  258 => 51,  255 => 50,  252 => 49,  247 => 44,  243 => 39,  240 => 38,  237 => 37,  218 => 65,  214 => 63,  211 => 62,  205 => 60,  203 => 59,  200 => 58,  198 => 57,  196 => 56,  194 => 55,  191 => 54,  189 => 53,  186 => 52,  184 => 49,  178 => 45,  176 => 44,  173 => 43,  171 => 42,  167 => 40,  165 => 37,  161 => 35,  158 => 34,  153 => 74,  151 => 34,  144 => 33,  141 => 32,  134 => 28,  131 => 27,  128 => 26,  121 => 22,  118 => 21,  115 => 20,  110 => 26,  108 => 25,  105 => 24,  103 => 20,  97 => 18,  94 => 17,  90 => 15,  84 => 13,  81 => 12,  75 => 10,  69 => 8,  67 => 7,  54 => 6,  51 => 5,  48 => 4,  43 => 76,  41 => 32,  38 => 31,  36 => 4,  31 => 1,);
     }
 }
 /* <!DOCTYPE html>*/
@@ -308,7 +305,7 @@ class __TwigTemplate_3d8fef4fee885383bf93e980e29fbdf9cde710fe173e36c2b6427320f57
 /*         <meta name="robots" content="noindex, nofollow">*/
 /*     {% endif %}*/
 /*     <meta name="viewport" content="width=device-width, initial-scale=1.0">*/
-/*     <link rel="icon" type="image/png" href="{{ base_url_simple }}/{{ theme_url }}/images/favicon.png">*/
+/*     <link rel="icon" type="image/png" href="{{ base_url_simple }}{{ theme_url }}/images/favicon.png">*/
 /* */
 /*     {% block stylesheets %}*/
 /*         {% include 'partials/stylesheets.html.twig' %}*/
@@ -337,19 +334,17 @@ class __TwigTemplate_3d8fef4fee885383bf93e980e29fbdf9cde710fe173e36c2b6427320f57
 /*                 {% block titlebar %}{% endblock %}*/
 /*             </div>*/
 /* */
-/*             <div class="grav-update" data-gpm-grav>*/
-/*             </div>*/
-/* */
 /*             <div class="content-wrapper">*/
 /*                 <div class="content-padding">*/
+/*                     {% block messages %}*/
+/*                         {% include 'partials/messages.html.twig' %}*/
+/*                     {% endblock %}*/
+/* */
 /*                     {% block widgets %}{% endblock %}*/
 /*                     <div class="default-box-shadow">*/
-/*                         {% block messages %}*/
-/*                         {% include 'partials/messages.html.twig' %}*/
-/*                         {% endblock %}*/
 /*                         {% block content_top %}{% endblock %}*/
 /*                         <div class="admin-block">*/
-/*                             {% block content %}{% endblock %}*/
+/*                             {%- block content %}{% endblock -%}*/
 /*                         </div>*/
 /*                         {% if config.plugins.admin.show_github_msg %}*/
 /*                         <div class="notice alert"><i class="fa fa-github"></i> <a href="https://github.com/getgrav/grav-plugin-admin/issues" target="_blank">{{ 'PLUGIN_ADMIN.ADMIN_REPORT_ISSUE'|tu }}</a></div>*/

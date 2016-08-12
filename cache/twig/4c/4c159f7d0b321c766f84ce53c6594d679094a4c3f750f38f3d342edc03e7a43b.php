@@ -83,7 +83,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
         // line 111
         echo "    ";
         $this->displayBlock('bottom', $context, $blocks);
-        // line 159
+        // line 160
         echo "</body>
 </html>
 ";
@@ -279,6 +279,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
         <script type=\"text/javascript\">
             jQuery(\".home-hero-content h1\").fitText(.5, { minFontSize: '30px', maxFontSize: '150px' });
             jQuery(\".project-intro-info h2\").fitText(.5, { minFontSize: '24px', maxFontSize: '90px' });
+            jQuery(\"#error h1\").fitText(.5, { minFontSize: '24px', maxFontSize: '150px' });
         </script>
 
         <script type=\"text/javascript\">
@@ -324,7 +325,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 
     public function getDebugInfo()
     {
-        return array (  264 => 112,  261 => 111,  253 => 99,  250 => 98,  245 => 94,  240 => 95,  238 => 94,  233 => 93,  230 => 92,  225 => 90,  221 => 87,  215 => 74,  211 => 73,  202 => 69,  198 => 67,  195 => 66,  190 => 47,  187 => 46,  184 => 45,  181 => 44,  178 => 43,  175 => 42,  172 => 41,  170 => 40,  167 => 39,  164 => 38,  160 => 35,  157 => 27,  154 => 26,  151 => 25,  148 => 24,  140 => 49,  138 => 38,  132 => 36,  130 => 24,  125 => 21,  120 => 18,  112 => 12,  109 => 10,  107 => 9,  99 => 8,  96 => 7,  93 => 6,  87 => 159,  84 => 111,  80 => 104,  78 => 98,  75 => 97,  73 => 92,  70 => 91,  68 => 90,  64 => 88,  62 => 66,  59 => 65,  52 => 59,  44 => 53,  41 => 52,  39 => 6,  33 => 3,  30 => 2,  28 => 1,);
+        return array (  264 => 112,  261 => 111,  253 => 99,  250 => 98,  245 => 94,  240 => 95,  238 => 94,  233 => 93,  230 => 92,  225 => 90,  221 => 87,  215 => 74,  211 => 73,  202 => 69,  198 => 67,  195 => 66,  190 => 47,  187 => 46,  184 => 45,  181 => 44,  178 => 43,  175 => 42,  172 => 41,  170 => 40,  167 => 39,  164 => 38,  160 => 35,  157 => 27,  154 => 26,  151 => 25,  148 => 24,  140 => 49,  138 => 38,  132 => 36,  130 => 24,  125 => 21,  120 => 18,  112 => 12,  109 => 10,  107 => 9,  99 => 8,  96 => 7,  93 => 6,  87 => 160,  84 => 111,  80 => 104,  78 => 98,  75 => 97,  73 => 92,  70 => 91,  68 => 90,  64 => 88,  62 => 66,  59 => 65,  52 => 59,  44 => 53,  41 => 52,  39 => 6,  33 => 3,  30 => 2,  28 => 1,);
     }
 }
 /* {% set theme_config = attribute(config.themes, config.system.pages.theme) %}*/
@@ -454,6 +455,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 /*         <script type="text/javascript">*/
 /*             jQuery(".home-hero-content h1").fitText(.5, { minFontSize: '30px', maxFontSize: '150px' });*/
 /*             jQuery(".project-intro-info h2").fitText(.5, { minFontSize: '24px', maxFontSize: '90px' });*/
+/*             jQuery("#error h1").fitText(.5, { minFontSize: '24px', maxFontSize: '150px' });*/
 /*         </script>*/
 /* */
 /*         <script type="text/javascript">*/
