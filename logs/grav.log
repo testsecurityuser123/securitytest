@@ -235,3 +235,6 @@
 [2016-08-08 03:33:07] grav.NOTICE: Invalid slug set in YAML frontmatter: /connection/_connection-desktop-slider => _connection-desktop-slider [] []
 [2016-08-08 03:33:40] grav.NOTICE: Invalid slug set in YAML frontmatter: /connection/_next-project-cta => _next-project-cta [] []
 [2016-08-08 03:33:50] grav.NOTICE: Invalid slug set in YAML frontmatter: /connection/_next-project-cta => _next-project-cta [] []
+[2016-08-11 03:50:28] grav.NOTICE: Invalid slug set in YAML frontmatter: /caliper/_caliper-desktop-slider => _caliper-desktop-slider [] []
+[2016-08-11 05:32:46] grav.NOTICE: Invalid slug set in YAML frontmatter: /caliper/_caliper-mobile-slider => _caliper-mobile-slider [] []
+[2016-08-11 05:33:57] grav.NOTICE: Invalid slug set in YAML frontmatter: /caliper/_caliper-mobile-slider => _caliper-mobile-slider [] []

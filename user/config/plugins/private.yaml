@@ -25,5 +25,5 @@ fields:
     label: Enter
 messages:
   success: 'You are logged.'
-  error: 'Oops! The password you entered is incorrect. Feel free to send me a <a href=''mailto:hello@michaelfangmn.com''>message</a> if you are having trouble or would like access.'
-  fail: 'Oops! Something went wrong.. Try Again !'
+  error: 'Oops! The password you entered is incorrect. Feel free to send me a <a href=''mailto:hello@michaelfangmn.com''>message</a> if you''re having trouble or would like access.'
+  fail: 'Oops! The password you entered is incorrect. Feel free to send me a <a href=''mailto:hello@michaelfangmn.com''>message</a> if you''re having trouble or would like access.'

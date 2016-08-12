@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1470627059,
-    'checksum' => '45adf3f44063a0dbd623c9df171f7c62',
+    'timestamp' => 1470969625,
+    'checksum' => '554d1a0c018048e23a9cb446dad0abd6',
     'files' => [
         'user/config' => [
             'media' => [
@@ -11,7 +11,7 @@ return [
             ],
             'plugins/private' => [
                 'file' => 'user/config/plugins/private.yaml',
-                'modified' => 1470627055
+                'modified' => 1470969620
             ],
             'plugins/problems' => [
                 'file' => 'user/config/plugins/problems.yaml',
@@ -71,7 +71,7 @@ return [
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1468959513
+                'modified' => 1470880058
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
@@ -244,8 +244,8 @@ return [
                 ],
                 'messages' => [
                     'success' => 'You are logged.',
-                    'error' => 'Oops! The password you entered is incorrect. Feel free to send me a <a href=\'mailto:hello@michaelfangmn.com\'>message</a> if you are having trouble or would like access.',
-                    'fail' => 'Oops! Something went wrong.. Try Again !'
+                    'error' => 'Oops! The password you entered is incorrect. Feel free to send me a <a href=\'mailto:hello@michaelfangmn.com\'>message</a> if you\'re having trouble or would like access.',
+                    'fail' => 'Oops! The password you entered is incorrect. Feel free to send me a <a href=\'mailto:hello@michaelfangmn.com\'>message</a> if you\'re having trouble or would like access.'
                 ]
             ],
             'problems' => [

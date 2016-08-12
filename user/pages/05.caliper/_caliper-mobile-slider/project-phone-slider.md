@@ -29,4 +29,4 @@ project_ps_slides:
 date: '05-09-2016 00:00'
 ---
 
-While large screens provide ample space to tell your brand's story however you wish, smaller devices force you to focus only on what's truly important. Hiding non-essential content on smaller screens, I was able to keep the site focused around Caliper's core messaging. Other techniques, such as progressive disclosure were employed to provide users information as they need it instead of all at once.
+To offer mobile users a more enjoyable and relevant experience, we hid any non-essential content and added a few extra navigation elements making it easier to move through the site on smaller devices.

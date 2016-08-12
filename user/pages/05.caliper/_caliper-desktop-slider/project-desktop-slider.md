@@ -2,21 +2,27 @@
 title: 'Interface Design'
 project_ds_background_image: business-7-min.jpg
 project_ds_slides:
-    1:
+    -
         image: caliper-homepage-min.png
         alt: 'Caliper | Homepage'
-    2:
+    -
         image: caliper-homepage-hover-min.png
         alt: 'Caliper | Homepage Hover'
-    3:
+    -
         image: caliper-solution-min.png
         alt: 'Caliper | Solution Page'
-    4:
+    -
         image: caliper-product-min.png
         alt: 'Caliper | Product Page'
-    5:
+    -
         image: caliper-about-min.png
         alt: 'Caliper | About Page'
+    -
+        image: caliper-desktop-styles-min.png
+        alt: 'Caliper | Desktop Style Guide'
+    -
+        image: caliper-mobile-styles-min.png
+        alt: 'Caliper | Mobile Style Guide'
 date: '04-09-2016 00:00'
 ---
 
