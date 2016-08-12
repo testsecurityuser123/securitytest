@@ -45,7 +45,15 @@ body {
       padding: 1.875rem;
       text-align: center; }
       body #error > div p {
-        color: #cb4e4e; }
+        padding: 0;
+        margin: 0.75rem 0 0;
+        color: #cb4e4e;
+        font-size: 0.9375rem;
+        line-height: 1.3;
+        font-weight: 300; }
+        @media screen and (min-width: 48em) {
+          body #error > div p {
+            font-size: 1.125rem; } }
   body .btn, body .login-container .login #private fieldset .buttons .button, .login-container .login #private fieldset .buttons body .button {
     position: relative;
     display: inline-block;
