@@ -1,5 +1,5 @@
 ---
-title: 'Visual Design'
+title: 'UI Design'
 project_ds_background_image: office-7-min.jpg
 project_ds_slides:
     1:
@@ -9,7 +9,7 @@ project_ds_slides:
         image: mvp-homepage-hover-min.png
         alt: 'MVP | Homepage Hover'
     3:
-        image: mvp-work-index-min.png
+        image: mvp-work-overview-min.png
         alt: 'MVP | Work Index'
     4:
         image: mvp-work-item-min.png
@@ -41,4 +41,4 @@ project_ds_slides:
 date: '04-09-2016 00:00'
 ---
 
-The design of this website would be the first real-world implementation of MVP's newly refreshed brand image. With style guide in hand, I set out to develop a visual design system that offered a clean, modern aesthetic while staying true to their brand guidelines. I employed the use of bright colors, strong lines, and ample room for photography to help bring the agency's personality into the site.
+The design of this website would be the first real-world implementation of MVP's newly refreshed brand image. With style guide in hand, I set out to develop a visual design system that offered a clean, modern aesthetic while staying true to their brand guidelines. I employed the use of bright colors, strong lines, and ample space for photography to help bring the agency's personality into the site.

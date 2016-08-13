@@ -1,5 +1,5 @@
 ---
-title: 'Responsive Structure'
+title: 'Responsive Design'
 project_ps_background_image: deer-min.jpg
 project_ps_slides:
     1:
@@ -36,4 +36,4 @@ project_ds_slides:
         image: bf19-pbc-homepage-mobile-v2.png
 ---
 
-Using a card based design system, accommodating a variety of screen sizes was a snap. Nearly everything on the site could easily be reformatted to fit any screen. Certain elements, such as navigation and filter components were given special attention to ensure the site offered a great experience no matter how it's viewed.
+Using a card based design system, accommodating a variety of screen sizes was a snap. Nearly everything on the site could easily be reformatted to fit any screen. Certain elements, such as navigation and filter components were give special attention to ensure the site offered a great experience no matter how it's viewed.

@@ -1,6 +1,6 @@
 ---
-title: 'Responsive Structure'
-project_ps_background_image: office-10.jpg
+title: 'Responsive Design'
+project_ps_background_image: office-10-min.jpg
 project_ps_slides:
     -
         image: mvp-home-mobile-min.png
@@ -47,4 +47,4 @@ project_ps_slides:
 date: '07-09-2016 00:00'
 ---
 
-One of my primary goals for this project was to create a site design that felt as natural on a 27-inch iMac as it did on an old, beat-up iPhone 4s. To accomplish this goal, I designed content sections that could utilize the entirety of a large screen while still adapting easily to smaller devices.
+An important goal of this project was to create a site design that felt as natural on a 27-inch iMac as it did on an old, beat-up iPhone 4s. To accomplish this goal, I designed content sections that could utilize the entirety of a large screen while easily adapting to accommodate smaller devices.

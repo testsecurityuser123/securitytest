@@ -1,5 +1,5 @@
 ---
-title: 'Responsive Structure'
+title: 'Responsive Design'
 project_ps_background_image: business-4-min.jpg
 project_ps_slides:
     1:
@@ -29,4 +29,4 @@ project_ps_slides:
 date: '05-09-2016 00:00'
 ---
 
-To offer mobile users a more enjoyable and relevant experience, we hid any non-essential content and added a few extra navigation elements making it easier to move through the site on smaller devices.
+To offer mobile users a more enjoyable and relevant experience, any non-essential content was hidden. In addition, a few extra navigation elements were added making the site easier to navigate on smaller devices.

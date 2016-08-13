@@ -1,5 +1,5 @@
 ---
-title: 'Responsive Structure'
+title: 'Responsive Design'
 project_ps_background_image: building-4-min.jpg
 project_ps_slides:
     1:
@@ -11,4 +11,4 @@ project_ps_slides:
 date: '06-09-2016 00:00'
 ---
 
-As the majority of TCAN's members live an active lifestyle, designing a simple, consistent experience across all devices was a must. To optimize for smaller screen sizes, extra care was given to the event calendar and membership criteria section as well as other areas of the site.
+Many of TCAN's members live an active lifestyle, so designing a simple, consistent experience across all devices was a must. For a better experience on smaller screen sizes, special care was given to the navigation, event calendar, and membership criteria slider.

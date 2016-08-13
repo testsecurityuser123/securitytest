@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1470975297,
-    'checksum' => '7754affd606e5824865df735dbb8ef4c',
+    'timestamp' => 1471126545,
+    'checksum' => 'fdd7edaf9280c4c77ce9d8866326faa4',
     'files' => [
         'user/config' => [
             'media' => [
@@ -27,7 +27,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1463539142
+                'modified' => 1471119967
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -35,7 +35,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1470975296
+                'modified' => 1471126545
             ]
         ],
         'system/config' => [
@@ -525,7 +525,7 @@ return [
             ]
         ],
         'site' => [
-            'title' => 'Michael Fangman | Portfolio',
+            'title' => 'Michael Fangman | UX & UI Designer',
             'author' => [
                 'name' => 'Michael Fangman',
                 'email' => 'hello@michaelfangman.com'
@@ -534,7 +534,7 @@ return [
                 0 => 'category'
             ],
             'metadata' => [
-                'description' => 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+                'description' => ' UX & UI Designer living and working in Mpls'
             ],
             'summary' => [
                 'enabled' => true,

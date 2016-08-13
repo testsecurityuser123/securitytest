@@ -1,0 +1,29 @@
+1471731779
+a:2:{s:7:"content";s:1339:"<section class="project-ps">
+	<div class="project-ps-container">
+		<div class="project-ps-phone-container">
+			
+			<div class="project-ps-slider">
+			  					  	<a href="http://localhost:8888/portfolio-grav-2016/connection/_mobile-design/connection-mobile-360px-min.png" class="project-ps-slide">
+				  		<div class="project-ps-slide-image">
+				  			<img src="http://localhost:8888/portfolio-grav-2016/connection/_mobile-design/connection-mobile-360px-min.png" alt="">
+				  		</div>
+				  	</a>
+			  				</div>
+		</div>
+
+
+
+		<div class="project-ps-content-container">
+			<div class="project-ps-content-inner-container">
+				<h3>Sketches & UI Design</h3>
+				<p><p>I began sketching to explore potential layout options. Understanding how user's eyes tend to move across a web page, I aimed to position key element in a way that complimented this pattern. From sketching I moved directly to visual design where my goal was to create a dynamic experience through the use of vibrant color and and subtle motion.</p></p>
+									<a href="http://connection.michaelfangman.com" target="_blank" class="btn btn-arrow-r">View Live Site</a>
+							</div>
+		</div>
+	</div>
+
+	<div class="project-ps-background" style="background-image: url(' http://localhost:8888/portfolio-grav-2016/connection/_mobile-design/street-3-min.jpg');"></div>
+</section>
+
+";s:12:"content_meta";N;}

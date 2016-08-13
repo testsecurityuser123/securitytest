@@ -2,9 +2,9 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav-2016/user/config/site.yaml',
-    'modified' => 1463539142,
+    'modified' => 1471119967,
     'data' => [
-        'title' => 'Michael Fangman | Portfolio',
+        'title' => 'Michael Fangman | UX & UI Designer',
         'author' => [
             'name' => 'Michael Fangman',
             'email' => 'hello@michaelfangman.com'
@@ -13,7 +13,7 @@ return [
             0 => 'category'
         ],
         'metadata' => [
-            'description' => 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+            'description' => ' UX & UI Designer living and working in Mpls'
         ],
         'summary' => [
             'enabled' => true,

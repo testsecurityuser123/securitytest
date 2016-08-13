@@ -13,6 +13,6 @@ project_attributes:
 date: '02-09-2016 00:00'
 ---
 
-PB Crave, a relatively new player in the nut butter industry, adds a unique twist to a timeless classic with their four unique flavors of honey-sweetened peanut butter. In an oversaturated market they needed to find a way to stand out and chose to place their bets online with a new e-commerce website.
+PB Crave adds a unique twist to a timeless classic with their four unique flavors of honey-sweetened peanut butter. In an oversaturated market they needed to find a way to stand out and chose to place their bets online with a new ecommerce website.
 
-One of the primary goals of the redesign was to simplify the online purchasing experience in efforts to increase sales. In addition, PB Crave hoped to boost their consumer's loyalty and trust for the brand by designing a more professional aesthetic that could grow with the company.
+One of the primary goals for the redesign was to simplify the online purchasing experience in efforts to increase sales. In addition, PB Crave hoped to boost consumer loyalty and trust by developing a more professional aesthetic that could grow with the company.

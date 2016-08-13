@@ -8,4 +8,4 @@ project_ds_slides:
 date: '04-09-2016 00:00'
 ---
 
-The final deliverable for the project was a static, coded version of the design built on Foundation, a front-end website framework. To help streamline the process I employed the use of Sass and Bourbon as well. Parallax backgrounds and smooth transitions help add a refined feel to the site.
+The final deliverable for the project was a static, coded version of the design built on Foundation, a front-end website frontwork. To help streamline the process I employed the use of Sass and Bourbon as well. Parallax backgrounds and smooth transitions help add a refined feel to the site.
