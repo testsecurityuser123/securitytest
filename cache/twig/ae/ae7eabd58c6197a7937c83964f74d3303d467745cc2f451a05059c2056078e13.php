@@ -16,7 +16,7 @@ class __TwigTemplate_90816feceb0d2637bfa8705b3c1a0f596cab5777b5cece7630caab37d02
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "<section class=\"project-ps\">
+        echo "<section class=\"project-ps\" data--60-bottom-top=\"opacity:0;\" data-center-top=\"opacity:1;\">
 \t<div class=\"project-ps-container\">
 \t\t<div class=\"project-ps-phone-container\">
 \t\t\t";
@@ -108,7 +108,7 @@ class __TwigTemplate_90816feceb0d2637bfa8705b3c1a0f596cab5777b5cece7630caab37d02
         return array (  87 => 35,  81 => 31,  73 => 29,  71 => 28,  67 => 27,  63 => 26,  54 => 19,  40 => 15,  32 => 13,  28 => 12,  24 => 10,  19 => 1,);
     }
 }
-/* <section class="project-ps">*/
+/* <section class="project-ps" data--60-bottom-top="opacity:0;" data-center-top="opacity:1;">*/
 /* 	<div class="project-ps-container">*/
 /* 		<div class="project-ps-phone-container">*/
 /* 			{# <div class="project-ps-phone">*/

@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1471126545,
-    'checksum' => 'fdd7edaf9280c4c77ce9d8866326faa4',
+    'timestamp' => 1472273345,
+    'checksum' => '0e78e6f0fabbdde21d3c0cc2adff9fbf',
     'files' => [
         'user/config' => [
             'media' => [
@@ -35,35 +35,35 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1471126545
+                'modified' => 1472273342
             ]
         ],
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1470971846
+                'modified' => 1472270975
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1470971846
+                'modified' => 1472270975
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1470971846
+                'modified' => 1472270975
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1470971846
+                'modified' => 1472270975
             ]
         ],
         'user/plugins' => [
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1470971874
+                'modified' => 1472271000
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1470971871
+                'modified' => 1472270997
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',

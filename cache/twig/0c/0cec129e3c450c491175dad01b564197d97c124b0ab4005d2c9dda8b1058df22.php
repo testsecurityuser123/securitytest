@@ -17,7 +17,7 @@ class __TwigTemplate_5751b43ca405c26d7956efc1a57b0f415c069fc1b89b29b792a9d67ef51
     {
         // line 1
         echo "<section class=\"project-desc\">
-\t<div class=\"project-desc-container\">
+\t<div class=\"project-desc-container\" data-start=\"opacity:0;\" data--60-bottom-top=\"opacity:0;\" data-center-top=\"opacity:1;\">
 
 \t\t<div class=\"project-desc-main-container\">
 \t\t\t<h3>";
@@ -87,7 +87,7 @@ class __TwigTemplate_5751b43ca405c26d7956efc1a57b0f415c069fc1b89b29b792a9d67ef51
     }
 }
 /* <section class="project-desc">*/
-/* 	<div class="project-desc-container">*/
+/* 	<div class="project-desc-container" data-start="opacity:0;" data--60-bottom-top="opacity:0;" data-center-top="opacity:1;">*/
 /* */
 /* 		<div class="project-desc-main-container">*/
 /* 			<h3>{{ page.title }}</h3>*/

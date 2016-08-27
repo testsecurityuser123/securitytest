@@ -24,7 +24,7 @@ class __TwigTemplate_eae986e38e7ef8e6882196c6217de5e90c3d9cce1402c3eb4ff7e6eae0f
         echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "project_nl_project_link", array());
         echo "\" class=\"link project-nl-container\">
 \t\t
-\t\t<div class=\"project-nl-info\">
+\t\t<div class=\"project-nl-info\" data--60-bottom-top=\"opacity:0;\" data-center-top=\"opacity:1;\" data-end=\"opacity:1;\">
 \t\t\t<p class=\"subhead\">Next Up</p>
 \t\t\t<h3>";
         // line 6
@@ -62,7 +62,7 @@ class __TwigTemplate_eae986e38e7ef8e6882196c6217de5e90c3d9cce1402c3eb4ff7e6eae0f
 /* <section class="project-next-link">*/
 /* 	<a href="{{ base_url }}/{{ header.project_nl_project_link }}" class="link project-nl-container">*/
 /* 		*/
-/* 		<div class="project-nl-info">*/
+/* 		<div class="project-nl-info" data--60-bottom-top="opacity:0;" data-center-top="opacity:1;" data-end="opacity:1;">*/
 /* 			<p class="subhead">Next Up</p>*/
 /* 			<h3>{{ page.title }}</h3>*/
 /* 		</div>*/

@@ -280,3 +280,5 @@
 [2016-08-14 00:27:09] grav.NOTICE: Invalid slug set in YAML frontmatter: /tcan/_project-wireframe-section => _project-wireframe-section [] []
 [2016-08-14 00:29:26] grav.NOTICE: Invalid slug set in YAML frontmatter: /caliper/_caliper-project-description => _caliper-project-description [] []
 [2016-08-14 00:30:03] grav.NOTICE: Invalid slug set in YAML frontmatter: /tcan/_tcan-mobile-designs => _tcan-mobile-designs [] []
+[2016-08-27 07:15:14] grav.NOTICE: Invalid slug set in YAML frontmatter: /mvp/_mvp-desktop-slider => _mvp-desktop-slider [] []
+[2016-08-27 07:17:13] grav.NOTICE: Invalid slug set in YAML frontmatter: /mvp/_mvp-desktop-slider => _mvp-desktop-slider [] []

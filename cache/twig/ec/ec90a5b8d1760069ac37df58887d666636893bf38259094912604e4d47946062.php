@@ -19,7 +19,7 @@ class __TwigTemplate_ecbdebca3e495c26ec66d243f15d4a72de7f35039d5d6fa4af6779ea8cd
         echo "<section class=\"project-ds\">
 \t<div class=\"project-ds-container\">
 \t\t<div class=\"project-ds-content-container\">
-\t\t\t<div class=\"project-ds-content-inner-container\">
+\t\t\t<div class=\"project-ds-content-inner-container\" data--60-bottom-top=\"opacity:0;\" data-center-top=\"opacity:1;\">
 \t\t\t\t<h3>";
         // line 5
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "title", array());
@@ -33,7 +33,7 @@ class __TwigTemplate_ecbdebca3e495c26ec66d243f15d4a72de7f35039d5d6fa4af6779ea8cd
 
 \t\t<div class=\"project-ds-slider-container\">
 \t
-\t\t\t<div class=\"project-ds-slider\">
+\t\t\t<div class=\"project-ds-slider\" data--60-bottom-top=\"opacity:0;\" data-center-top=\"opacity:1;\">
 \t\t\t  \t";
         // line 13
         $context['_parent'] = $context;
@@ -71,7 +71,7 @@ class __TwigTemplate_ecbdebca3e495c26ec66d243f15d4a72de7f35039d5d6fa4af6779ea8cd
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "url", array(0 => true), "method");
         echo "/";
         echo $this->getAttribute((isset($context["header"]) ? $context["header"] : null), "project_ds_background_image", array());
-        echo "');\"></div>
+        echo "');\" data--60-bottom-top=\"opacity:0;\" data-center-top=\"opacity:0.05;\"></div>
 </section>";
     }
 
@@ -93,7 +93,7 @@ class __TwigTemplate_ecbdebca3e495c26ec66d243f15d4a72de7f35039d5d6fa4af6779ea8cd
 /* <section class="project-ds">*/
 /* 	<div class="project-ds-container">*/
 /* 		<div class="project-ds-content-container">*/
-/* 			<div class="project-ds-content-inner-container">*/
+/* 			<div class="project-ds-content-inner-container" data--60-bottom-top="opacity:0;" data-center-top="opacity:1;">*/
 /* 				<h3>{{ page.title }}</h3>*/
 /* 				<p>{{ content }}</p>*/
 /* 			</div>*/
@@ -101,7 +101,7 @@ class __TwigTemplate_ecbdebca3e495c26ec66d243f15d4a72de7f35039d5d6fa4af6779ea8cd
 /* */
 /* 		<div class="project-ds-slider-container">*/
 /* 	*/
-/* 			<div class="project-ds-slider">*/
+/* 			<div class="project-ds-slider" data--60-bottom-top="opacity:0;" data-center-top="opacity:1;">*/
 /* 			  	{% for slider in page.header.project_ds_slides %}*/
 /* 				  	<a href="{{ page.url(true) }}/{{ slider.image }}" class="project-ds-slide">*/
 /* 				  		<div class="project-ds-slide-image">*/
@@ -113,5 +113,5 @@ class __TwigTemplate_ecbdebca3e495c26ec66d243f15d4a72de7f35039d5d6fa4af6779ea8cd
 /* 		</div>*/
 /* */
 /* 	</div>*/
-/* 	<div class="project-ds-background" style="background-image: url(' {{ page.url(true) }}/{{ header.project_ds_background_image }}');"></div>*/
+/* 	<div class="project-ds-background" style="background-image: url(' {{ page.url(true) }}/{{ header.project_ds_background_image }}');" data--60-bottom-top="opacity:0;" data-center-top="opacity:0.05;"></div>*/
 /* </section>*/

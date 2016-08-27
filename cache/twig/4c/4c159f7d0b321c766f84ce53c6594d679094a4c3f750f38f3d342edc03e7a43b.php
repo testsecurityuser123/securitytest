@@ -248,7 +248,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
     public function block_footer($context, array $blocks = array())
     {
         // line 98
-        echo "        <footer id=\"footer\" data-50-end=\"opacity:0;\" data-end=\"opacity:1;\">
+        echo "        <footer id=\"footer\" data-60-end=\"opacity:0;\" data-end=\"opacity:1;\">
             <span class=\"footer-credit\">Designed & Built by Michael Fangman © 2016</span>
         
         </footer>
@@ -423,7 +423,7 @@ class __TwigTemplate_20695425ebd8f60c2bb20063eaaa44de4b1fc591796dced76c215f52312
 /*         {% endblock %}*/
 /* */
 /*         {% block footer %}*/
-/*         <footer id="footer" data-50-end="opacity:0;" data-end="opacity:1;">*/
+/*         <footer id="footer" data-60-end="opacity:0;" data-end="opacity:1;">*/
 /*             <span class="footer-credit">Designed & Built by Michael Fangman © 2016</span>*/
 /*         */
 /*         </footer>*/
