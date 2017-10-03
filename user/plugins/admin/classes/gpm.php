@@ -1,16 +1,20 @@
 <?php
+
 namespace Grav\Plugin\Admin;
 
 use Grav\Common\Grav;
 use Grav\Common\GPM\GPM as GravGPM;
+use Grav\Common\GPM\Licenses;
 use Grav\Common\GPM\Installer;
 use Grav\Common\GPM\Response;
 use Grav\Common\GPM\Upgrader;
 use Grav\Common\Filesystem\Folder;
 use Grav\Common\GPM\Common\Package;
+use Grav\Plugin\Admin\Admin;
 
 /**
  * Class Gpm
+ *
  * @package Grav\Plugin\Admin
  */
 class Gpm
@@ -30,6 +34,7 @@ class Gpm
 
     /**
      * Default options for the install
+     *
      * @var array
      */
     protected static $options = [
@@ -51,15 +56,14 @@ class Gpm
     {
         $options = array_merge(self::$options, $options);
 
-        if (
-            !Installer::isGravInstance($options['destination']) ||
-            !Installer::isValidDestination($options['destination'], [Installer::EXISTS, Installer::IS_LINK])
+        if (!Installer::isGravInstance($options['destination']) || !Installer::isValidDestination($options['destination'],
+                [Installer::EXISTS, Installer::IS_LINK])
         ) {
             return false;
         }
 
         $packages = is_array($packages) ? $packages : [$packages];
-        $count = count($packages);
+        $count    = count($packages);
 
         $packages = array_filter(array_map(function ($p) {
             return !is_string($p) ? $p instanceof Package ? $p : false : self::GPM()->findPackage($p);
@@ -91,7 +95,8 @@ class Gpm
                 return false;
             }
 
-            $local = static::download($package);
+            $license = Licenses::get($package->slug);
+            $local   = static::download($package, $license);
 
             Installer::install($local, $options['destination'],
                 ['install_path' => $package->install_path, 'theme' => $options['theme']]);
@@ -140,14 +145,14 @@ class Gpm
         $options = array_merge(self::$options, $options);
 
         $packages = is_array($packages) ? $packages : [$packages];
-        $count = count($packages);
+        $count    = count($packages);
 
         $packages = array_filter(array_map(function ($p) {
 
             if (is_string($p)) {
-                $p = strtolower($p);
+                $p      = strtolower($p);
                 $plugin = static::GPM()->getInstalledPlugin($p);
-                $p = $plugin ?: static::GPM()->getInstalledTheme($p);
+                $p      = $plugin ?: static::GPM()->getInstalledTheme($p);
             }
 
             return $p instanceof Package ? $p : false;
@@ -189,23 +194,129 @@ class Gpm
     }
 
     /**
+     * Direct install a file
+     *
+     * @param $package_file
+     *
+     * @return bool
+     */
+    public static function directInstall($package_file)
+    {
+        if (!$package_file) {
+            return Admin::translate('PLUGIN_ADMIN.NO_PACKAGE_NAME');
+        }
+
+        $tmp_dir = Grav::instance()['locator']->findResource('tmp://', true, true);
+        $tmp_zip = $tmp_dir . '/Grav-' . uniqid();
+
+        if (Response::isRemote($package_file)) {
+            $zip = GravGPM::downloadPackage($package_file, $tmp_zip);
+        } else {
+            $zip = GravGPM::copyPackage($package_file, $tmp_zip);
+        }
+
+        if (file_exists($zip)) {
+            $tmp_source = $tmp_dir . '/Grav-' . uniqid();
+            $extracted  = Installer::unZip($zip, $tmp_source);
+
+            if (!$extracted) {
+                Folder::delete($tmp_source);
+                Folder::delete($tmp_zip);
+                return Admin::translate('PLUGIN_ADMIN.PACKAGE_EXTRACTION_FAILED');
+            }
+
+            $type = GravGPM::getPackageType($extracted);
+
+            if (!$type) {
+                Folder::delete($tmp_source);
+                Folder::delete($tmp_zip);
+                return Admin::translate('PLUGIN_ADMIN.NOT_VALID_GRAV_PACKAGE');
+            }
+
+            if ($type == 'grav') {
+                Installer::isValidDestination(GRAV_ROOT . '/system');
+                if (Installer::IS_LINK === Installer::lastErrorCode()) {
+                    Folder::delete($tmp_source);
+                    Folder::delete($tmp_zip);
+                    return Admin::translate('PLUGIN_ADMIN.CANNOT_OVERWRITE_SYMLINKS');
+                }
+                Installer::install($zip, GRAV_ROOT,
+                    ['sophisticated' => true, 'overwrite' => true, 'ignore_symlinks' => true, 'ignores' => ['tmp','user','vendor']], $extracted);
+            } else {
+                $name = GravGPM::getPackageName($extracted);
+
+                if (!$name) {
+                    Folder::delete($tmp_source);
+                    Folder::delete($tmp_zip);
+                    return Admin::translate('PLUGIN_ADMIN.NAME_COULD_NOT_BE_DETERMINED');
+                }
+
+                $install_path = GravGPM::getInstallPath($type, $name);
+                $is_update    = file_exists($install_path);
+
+                Installer::isValidDestination(GRAV_ROOT . DS . $install_path);
+                if (Installer::lastErrorCode() == Installer::IS_LINK) {
+                    Folder::delete($tmp_source);
+                    Folder::delete($tmp_zip);
+                    return Admin::translate('PLUGIN_ADMIN.CANNOT_OVERWRITE_SYMLINKS');
+                }
+
+                Installer::install($zip, GRAV_ROOT,
+                    ['install_path' => $install_path, 'theme' => (($type == 'theme')), 'is_update' => $is_update],
+                    $extracted);
+            }
+
+            Folder::delete($tmp_source);
+
+            if (Installer::lastErrorCode()) {
+                return Installer::lastErrorMsg();
+            }
+
+        } else {
+            return Admin::translate('PLUGIN_ADMIN.ZIP_PACKAGE_NOT_FOUND');
+        }
+
+        Folder::delete($tmp_zip);
+
+        return true;
+    }
+
+    /**
      * @param Package $package
      *
      * @return string
      */
-    private static function download(Package $package)
+    private static function download(Package $package, $license = null)
     {
-        $contents = Response::get($package->zipball_url, []);
+        $query = '';
 
-        $cache_dir = Grav::instance()['locator']->findResource('cache://', true);
-        $cache_dir = $cache_dir . DS . 'tmp/Grav-' . uniqid();
-        Folder::mkdir($cache_dir);
+        if ($package->premium) {
+            $query = \json_encode(array_merge($package->premium, [
+                'slug'        => $package->slug,
+                'filename'    => $package->premium['filename'],
+                'license_key' => $license
+            ]));
 
-        $filename = $package->slug . basename($package->zipball_url);
+            $query = '?d=' . base64_encode($query);
+        }
 
-        file_put_contents($cache_dir . DS . $filename . '.zip', $contents);
+        try {
+            $contents = Response::get($package->zipball_url . $query, []);
+        } catch (\Exception $e) {
+            throw new \RuntimeException($e->getMessage());
+        }
 
-        return $cache_dir . DS . $filename . '.zip';
+        $tmp_dir = Admin::getTempDir() . '/Grav-' . uniqid();
+        Folder::mkdir($tmp_dir);
+
+        $bad_chars = array_merge(array_map('chr', range(0, 31)), ["<", ">", ":", '"', "/", "\\", "|", "?", "*"]);
+
+        $filename = $package->slug . str_replace($bad_chars, "", basename($package->zipball_url));
+        $filename = preg_replace('/[\\\\\/:"*?&<>|]+/mi', '-', $filename);
+
+        file_put_contents($tmp_dir . DS . $filename . '.zip', $contents);
+
+        return $tmp_dir . DS . $filename . '.zip';
     }
 
     /**
@@ -241,7 +352,7 @@ class Gpm
         }
 
         if (method_exists($upgrader, 'meetsRequirements') && !$upgrader->meetsRequirements()) {
-            $error = [];
+            $error   = [];
             $error[] = '<p>Grav has increased the minimum PHP requirement.<br />';
             $error[] = 'You are currently running PHP <strong>' . PHP_VERSION . '</strong>';
             $error[] = ', but PHP <strong>' . GRAV_PHP_MIN . '</strong> is required.</p>';
@@ -253,12 +364,10 @@ class Gpm
         }
 
         $update = $upgrader->getAssets()['grav-update'];
-        $cache_dir = Grav::instance()['locator']->findResource('cache://', true);
-        $tmp = $cache_dir . DS . 'tmp/Grav-' . uniqid();
-        $file = self::_downloadSelfupgrade($update, $tmp);
+        $tmp    = Admin::getTempDir() . '/Grav-' . uniqid();
+        $file   = self::_downloadSelfupgrade($update, $tmp);
 
-        Installer::install($file, GRAV_ROOT,
-            ['sophisticated' => true, 'overwrite' => true, 'ignore_symlinks' => true]);
+        Installer::install($file, GRAV_ROOT, ['sophisticated' => true, 'overwrite' => true, 'ignore_symlinks' => true]);
 
         $errorCode = Installer::lastErrorCode();
 

@@ -1,75 +1,39 @@
 import $ from 'jquery';
-import Dropzone from 'dropzone';
 import request from '../../utils/request';
+import FilesField, { UriToMarkdown } from '../../forms/fields/files';
 import { config, translations } from 'grav-config';
 import { Instance as Editor } from '../../forms/fields/editor';
 
-Dropzone.autoDiscover = false;
-Dropzone.options.gravPageDropzone = {};
-Dropzone.confirm = (question, accepted, rejected) => {
-    let doc = $(document);
-    let modalSelector = '[data-remodal-id="delete-media"]';
+const previewTemplate = `
+    <div class="dz-preview dz-file-preview">
+      <div class="dz-details">
+        <div class="dz-filename"><span data-dz-name></span></div>
+        <div class="dz-size" data-dz-size></div>
+        <img data-dz-thumbnail />
+      </div>
+      <div class="dz-progress"><span class="dz-upload" data-dz-uploadprogress></span></div>
+      <div class="dz-success-mark"><span>✔</span></div>
+      <div class="dz-error-mark"><span>✘</span></div>
+      <div class="dz-error-message"><span data-dz-errormessage></span></div>
+      <a class="dz-remove" title="${translations.PLUGIN_ADMIN.DELETE}" href="javascript:undefined;" data-dz-remove>${translations.PLUGIN_ADMIN.DELETE}</a>
+      <a class="dz-metadata" title="${translations.PLUGIN_ADMIN.METADATA}" href="#" target="_blank" data-dz-metadata>${translations.PLUGIN_ADMIN.METADATA}</a>
+      <a class="dz-view" title="${translations.PLUGIN_ADMIN.VIEW}" href="#" target="_blank" data-dz-view>${translations.PLUGIN_ADMIN.VIEW}</a>
+      <a class="dz-insert" title="${translations.PLUGIN_ADMIN.INSERT}" href="javascript:undefined;" data-dz-insert>${translations.PLUGIN_ADMIN.INSERT}</a>
+    </div>`.trim();
 
-    let removeEvents = () => {
-        doc.off('confirmation', modalSelector, accept);
-        doc.off('cancellation', modalSelector, reject);
+export default class PageMedia extends FilesField {
+    constructor({ container = '#grav-dropzone', options = {} } = {}) {
+        options = Object.assign(options, { previewTemplate });
+        super({ container, options });
+        if (!this.container.length) { return; }
 
-        $(modalSelector).find('.remodal-confirm').removeClass('pointer-events-disabled');
-    };
+        this.urls = {
+            fetch: `${this.container.data('media-url')}/task${config.param_sep}listmedia`,
+            add: `${this.container.data('media-url')}/task${config.param_sep}addmedia`,
+            delete: `${this.container.data('media-url')}/task${config.param_sep}delmedia`
+        };
 
-    let accept = () => {
-        accepted && accepted();
-        removeEvents();
-    };
-
-    let reject = () => {
-        rejected && rejected();
-        removeEvents();
-    };
-
-    $.remodal.lookup[$(modalSelector).data('remodal')].open();
-    doc.on('confirmation', modalSelector, accept);
-    doc.on('cancellation', modalSelector, reject);
-};
-
-const DropzoneMediaConfig = {
-    createImageThumbnails: { thumbnailWidth: 150 },
-    addRemoveLinks: false,
-    dictDefaultMessage: translations.PLUGIN_ADMIN.DROP_FILES_HERE_TO_UPLOAD,
-    dictRemoveFileConfirmation: '[placeholder]',
-    previewTemplate: `
-        <div class="dz-preview dz-file-preview">
-          <div class="dz-details">
-            <div class="dz-filename"><span data-dz-name></span></div>
-            <div class="dz-size" data-dz-size></div>
-            <img data-dz-thumbnail />
-          </div>
-          <div class="dz-progress"><span class="dz-upload" data-dz-uploadprogress></span></div>
-          <div class="dz-success-mark"><span>✔</span></div>
-          <div class="dz-error-mark"><span>✘</span></div>
-          <div class="dz-error-message"><span data-dz-errormessage></span></div>
-          <a class="dz-remove" href="javascript:undefined;" data-dz-remove>${translations.PLUGIN_ADMIN.DELETE}</a>
-          <a class="dz-insert" href="javascript:undefined;" data-dz-insert>${translations.PLUGIN_ADMIN.INSERT}</a>
-        </div>`.trim()
-};
-
-export default class PageMedia {
-    constructor({form = '[data-media-url]', container = '#grav-dropzone', options = {}} = {}) {
-        this.form = $(form);
-        this.container = $(container);
-        if (!this.form.length || !this.container.length) { return; }
-
-        this.options = Object.assign({}, DropzoneMediaConfig, {
-            url: `${this.form.data('media-url')}/task${config.param_sep}addmedia`,
-            acceptedFiles: this.form.data('media-types')
-        }, this.form.data('dropzone-options'), options);
-
-        this.dropzone = new Dropzone(container, this.options);
-        this.dropzone.on('complete', this.onDropzoneComplete.bind(this));
-        this.dropzone.on('success', this.onDropzoneSuccess.bind(this));
-        this.dropzone.on('removedfile', this.onDropzoneRemovedFile.bind(this));
-        this.dropzone.on('sending', this.onDropzoneSending.bind(this));
-        this.dropzone.on('error', this.onDropzoneError.bind(this));
+        this.dropzone.options.url = this.urls.add;
 
         if (typeof this.options.fetchMedia === 'undefined' || this.options.fetchMedia) {
             this.fetchMedia();
@@ -81,9 +45,9 @@ export default class PageMedia {
     }
 
     fetchMedia() {
-        let url = `${this.form.data('media-url')}/task${config.param_sep}listmedia/admin-nonce${config.param_sep}${config.admin_nonce}`;
+        let url = this.urls.fetch;
 
-        request(url, (response) => {
+        request(url, { method: 'post' }, (response) => {
             let results = response.results;
 
             Object.keys(results).forEach((name) => {
@@ -92,10 +56,7 @@ export default class PageMedia {
 
                 this.dropzone.files.push(mock);
                 this.dropzone.options.addedfile.call(this.dropzone, mock);
-
-                if (name.match(/\.(jpg|jpeg|png|gif)$/i)) {
-                    this.dropzone.options.thumbnail.call(this.dropzone, mock, data.url);
-                }
+                this.dropzone.options.thumbnail.call(this.dropzone, mock, data.url);
             });
 
             this.container.find('.dz-preview').prop('draggable', 'true');
@@ -103,96 +64,21 @@ export default class PageMedia {
     }
 
     onDropzoneSending(file, xhr, formData) {
+        /*
+        // Cannot call super because Safari and IE API don't implement `delete`
+        super.onDropzoneSending(file, xhr, formData);
+        formData.delete('task');
+        */
+
+        formData.append('name', this.options.dotNotation);
         formData.append('admin-nonce', config.admin_nonce);
     }
 
-    onDropzoneSuccess(file, response, xhr) {
-        if (this.options.reloadPage) {
-            global.location.reload();
-        }
-
-        return this.handleError({
-            file,
-            data: response,
-            mode: 'removeFile',
-            msg: `<p>${translations.PLUGIN_ADMIN.FILE_ERROR_UPLOAD} <strong>${file.name}</strong></p>
-            <pre>${response.message}</pre>`
-        });
-    }
-
     onDropzoneComplete(file) {
-        if (!file.accepted) {
-            let data = {
-                status: 'error',
-                message: `${translations.PLUGIN_ADMIN.FILE_UNSUPPORTED}: ${file.name.match(/\..+/).join('')}`
-            };
-
-            return this.handleError({
-                file,
-                data,
-                mode: 'removeFile',
-                msg: `<p>${translations.PLUGIN_ADMIN.FILE_ERROR_ADD} <strong>${file.name}</strong></p>
-                <pre>${data.message}</pre>`
-            });
-        }
+        super.onDropzoneComplete(file);
 
         // accepted
         $('.dz-preview').prop('draggable', 'true');
-
-        if (this.options.reloadPage) {
-            global.location.reload();
-        }
-    }
-
-    onDropzoneRemovedFile(file, ...extra) {
-        if (!file.accepted || file.rejected) { return; }
-        let url = `${this.form.data('media-url')}/task${config.param_sep}delmedia`;
-
-        request(url, {
-            method: 'post',
-            body: {
-                filename: file.name
-            }
-        });
-    }
-
-    onDropzoneError(file, response, xhr) {
-        let message = xhr ? response.error.message : response;
-        $(file.previewElement).find('[data-dz-errormessage]').html(message);
-
-        return this.handleError({
-            file,
-            data: { status: 'error' },
-            msg: `<pre>${message}</pre>`
-        });
-    }
-
-    handleError(options) {
-        let { file, data, mode, msg } = options;
-        if (data.status !== 'error' && data.status !== 'unauthorized') { return ; }
-
-        switch (mode) {
-            case 'addBack':
-                if (file instanceof File) {
-                    this.dropzone.addFile.call(this.dropzone, file);
-                } else {
-                    this.dropzone.files.push(file);
-                    this.dropzone.options.addedfile.call(this.dropzone, file);
-                    this.dropzone.options.thumbnail.call(this.dropzone, file, file.extras.url);
-                }
-
-                break;
-            case 'removeFile':
-                file.rejected = true;
-                this.dropzone.removeFile.call(this.dropzone, file);
-
-                break;
-            default:
-        }
-
-        let modal = $('[data-remodal-id="generic"]');
-        modal.find('.error-content').html(msg);
-        $.remodal.lookup[modal.data('remodal')].open();
     }
 
     attachDragDrop() {
@@ -208,6 +94,50 @@ export default class PageMedia {
                 let shortcode = UriToMarkdown(filename);
                 editor.doc.replaceSelection(shortcode);
             }
+        });
+
+        this.container.delegate('[data-dz-view]', 'mouseenter', (e) => {
+            let target = $(e.currentTarget);
+            let file = target.parent('.dz-preview').find('.dz-filename');
+            let filename = encodeURI(file.text());
+            let URL = target.closest('[data-media-path]').data('media-path');
+            let original = this.dropzone.files.filter((file) => file.name === filename).shift().extras.original;
+
+            target.attr('href', `${URL}/${original}`);
+        });
+
+        this.container.delegate('[data-dz-metadata]', 'click', (e) => {
+            e.preventDefault();
+            const target = $(e.currentTarget);
+            const file = target.parent('.dz-preview').find('.dz-filename');
+            const filename = encodeURI(file.text());
+
+            let fileObj = this.dropzone.files.filter((file) => file.name === global.decodeURI(filename)).shift() || {};
+
+            if (!fileObj.extras) {
+                fileObj.extras = { metadata: [] };
+            }
+
+            if (Array.isArray(fileObj.extras.metadata) && !fileObj.extras.metadata.length) {
+                fileObj.extras.metadata = { '': `${global.decodeURI(filename)}.meta.yaml doesn't exist` };
+            }
+
+            fileObj = fileObj.extras;
+
+            const modal_element = $('body').find('[data-remodal-id="metadata"]');
+            const modal = $.remodal.lookup[modal_element.data('remodal')];
+
+            modal_element.find('h1 strong').html(filename);
+            if (fileObj.url) {
+                modal_element.find('.meta-preview').html(`<img src="${fileObj.url}" />`);
+            }
+
+            const container = modal_element.find('.meta-content').html('<ul />').find('ul');
+            Object.keys(fileObj.metadata).forEach((meta) => {
+                container.append(`<li><strong>${meta ? meta + ':' : ''}</strong> ${fileObj.metadata[meta]}</li>`);
+            });
+
+            modal.open();
         });
 
         this.container.delegate('.dz-preview', 'dragstart', (e) => {
@@ -226,14 +156,6 @@ export default class PageMedia {
             target.removeClass('hide-backface');
         });
     }
-}
-
-export function UriToMarkdown(uri) {
-    uri = uri.replace(/@3x|@2x|@1x/, '');
-    uri = uri.replace(/\(/g, '%28');
-    uri = uri.replace(/\)/g, '%29');
-
-    return uri.match(/\.(jpe?g|png|gif|svg)$/i) ? `![](${uri})` : `[${decodeURI(uri)}](${uri})`;
 }
 
 export let Instance = new PageMedia();

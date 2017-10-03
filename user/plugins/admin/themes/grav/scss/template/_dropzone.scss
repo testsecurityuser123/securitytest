@@ -1,7 +1,7 @@
 /* The MIT License */
 
-$preview-width: 150px;
-$preview-height: 100px;
+$preview-width: 200px;
+$preview-height: 150px;
 
 .dropzone {
     position: relative;
@@ -26,7 +26,7 @@ $preview-height: 100px;
     .dz-preview {
         position: relative;
         display: inline-block;
-        margin: 1rem;
+        margin: 1rem 1rem 1.5rem 1rem;
         vertical-align: top;
 
         &.dz-file-preview [data-dz-thumbnail] {
@@ -109,44 +109,133 @@ $preview-height: 100px;
             display: block;
         }
 
-        &:hover:not(.hide-backface) .dz-details img {
-            display: none;
+        &:hover {
+            .dz-remove, .dz-view, .dz-insert, .dz-metadata {
+                display: block;
+            }
+
         }
 
         &:hover.dz-error .dz-error-message {
             display: block;
         }
 
-        .dz-remove, .dz-insert {
-            display: none;
-        }
+        //.dz-remove, .dz-insert {
+        //    display: none;
+        //}
 
-        &:hover .dz-remove, &:hover .dz-insert {
-            display: block;
+        .dz-filename {
             position: absolute;
-            left: 0;
-            right: 0;
-            bottom: 22px;
-            width: 50%;
+            z-index: 1;
+            bottom: 0;
+            width: 100%;
+            padding: 0 5px;
+            background: rgba(0,0,0,0.3);
+            color: #fff;
             text-align: center;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .dz-remove, .dz-view, .dz-insert, .dz-metadata {
+            display: none;
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            right: -25px;
+            font-size: 0;
             cursor: pointer;
-            font-size: 0.8rem;
-        }
 
-        &:hover .dz-remove {
-            left: inherit;
-            border-left: 0;
-        }
+            &:hover {
+                &:after {
+                    color: #fff;
+                }
+            }
 
-        &:hover .dz-insert {
-            right: inherit;
-        }
-
-        &.hide-backface:hover {
-            .dz-remove, .dz-insert {
-                display: none;
+            &:after {
+                text-align: center;
+                display: block;
+                color: #999;
+                font-family: FontAwesome;
+                font-size: 18px;
+                line-height: 25px;
             }
         }
+
+        .dz-insert {
+            top: -1px;
+            border-top-right-radius: 4px;
+            &:after {
+                content: '\f055';
+            }
+        }
+
+        .dz-view {
+            top: 24px;
+            &:after {
+                content: '\f06e';
+            }
+        }
+
+        .dz-remove {
+            top: 72px;
+            border-bottom-right-radius: 4px;
+            &:after {
+                content: '\f00d';
+            }
+        }
+
+        .dz-metadata {
+            top: 49px;
+            &:after {
+                content: '\f05a';
+            }
+        }
+
+        &.dz-no-editor {
+            .dz-view {
+                top: -1px;
+                border-top-right-radius: 4px;
+            }
+            .dz-remove {
+                top: 24px;
+            }
+        }
+
+
+        //&:hover .dz-remove:not(.file-thumbnail-remove), &:hover .dz-insert {
+        //    display: block;
+        //    position: absolute;
+        //    left: 0;
+        //    right: 0;
+        //    bottom: 22px;
+        //    width: 50%;
+        //    text-align: center;
+        //    cursor: pointer;
+        //    font-size: 0.8rem;
+        //}
+
+        &:hover .dz-remove {
+            &.file-thumbnail-remove {
+                display: block;
+            }
+
+            &:not(.file-thumbnail-remove) {
+                left: inherit;
+                border-left: 0;
+            }
+        }
+
+        //&:hover .dz-insert {
+        //    right: inherit;
+        //}
+        //
+        //&.hide-backface:hover {
+        //    .dz-remove, .dz-insert {
+        //        display: none;
+        //    }
+        //}
 
         &.dz-processing {
             .dz-details {
@@ -170,14 +259,6 @@ $preview-height: 100px;
             height: $preview-height;
             position: relative;
             font-size: 0.8rem;
-            padding: 5px;
-            margin-bottom: 22px;
-
-            .dz-filename {
-                line-height: 1.2;
-                overflow: hidden;
-                height: 100%;
-            }
 
             img {
                 position: absolute;
@@ -207,8 +288,9 @@ $preview-height: 100px;
         .dz-message, .dz-message span {
             cursor: pointer;
             text-align: center;
-            font-size: 1.4rem;
-            line-height: 4rem;
+            font-size: 1.2rem;
+            line-height: 1.4;
+            margin: 1rem 0;
         }
     }
     * {

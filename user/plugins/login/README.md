@@ -12,7 +12,7 @@ These are available via GPM, and because the plugin has dependencies you just ne
 $ bin/gpm install login
 ```
 
-# Changes in version 2.0 (STILL TO BE RELEASED)
+# Changes in version 2.0
 
 The Login Plugin 2.0 has the following changes compared to 1.0:
 
@@ -130,6 +130,24 @@ route: /user-login
 
 You would then need to provide a suitable login form, probably based on the one that is provided with the plugin.
 
+## Redirection after Login
+
+By default Grav will redirect to the prior page visited before entering the login process.  Any page is fair game unless you manually set:
+
+```
+login_redirect_here: false
+```
+
+In the page's header.  If you set this value to `false`, this page will not be a valid redirect page, and the page visited prior to this page will be considered.
+
+You can override this default behavior by forcing a standard location by specifying an explicit option in your Login configuration YAML:
+
+```
+redirect_after_login: '/profile'
+```
+
+This will always take you to the `/profile` route after a successful login.
+
 # Logout
 
 The login plugin comes with a simple Twig partial to provide a logout link (`login-status.html.twig`).  You will need to include it in your theme however.  An example of this can be found in the Antimatter theme's `partials/navigation.html.twig` file:
@@ -182,6 +200,7 @@ Add the following content to your registration form page:
 ```
 ---
 form:
+  
   fields:
     -
       name: username
@@ -189,7 +208,7 @@ form:
       validate:
         required: true
         message: PLUGIN_LOGIN.USERNAME_NOT_VALID
-        pattern: '^[a-z0-9_-]{3,16}$'
+        config-pattern@: system.username_regex
 
     -
       name: email
@@ -205,7 +224,7 @@ form:
       validate:
         required: true
         message: PLUGIN_LOGIN.PASSWORD_VALIDATION_MESSAGE
-        pattern: '(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}'
+        config-pattern@: system.pwd_regex
 
     -
       name: password2
@@ -214,7 +233,7 @@ form:
       validate:
         required: true
         message: PLUGIN_LOGIN.PASSWORD_VALIDATION_MESSAGE
-        pattern: '(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}'
+        config-pattern@: system.pwd_regex
 
   buttons:
       -
@@ -315,7 +334,7 @@ Add
         - name: g-recaptcha-response
           label: Captcha
           type: captcha
-          recatpcha_site_key: aeio43kdk3idko3k4ikd4
+          recaptcha_site_key: aeio43kdk3idko3k4ikd4
           recaptcha_not_validated: 'Captcha not valid!'
           validate:
             required: true

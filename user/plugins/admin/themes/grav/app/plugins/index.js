@@ -32,6 +32,11 @@ $(document).on('click', '[data-plugin-action="remove-package"]', (event) => {
     packages.handleRemovingPackage('plugin', event);
 });
 
+// Reinstall plugin
+$(document).on('click', '[data-plugin-action="reinstall-package"]', (event) => {
+    packages.handleReinstallPackage('plugin', event);
+});
+
 $(document).on('click', '[data-plugin-action="remove-dependency-package"]', (event) => {
     packages.handleRemovingDependency('plugin', event);
 });
@@ -82,6 +87,6 @@ $(document).on('input', '[data-gpm-filter]', debounce((event) => {
     items.hide().filter((index, item) => {
         item = $(item);
 
-        return contains(item.data('gpm-plugin'), value) || contains(item.data('gpm-theme'), value) || contains(item.data('gpm-name'), value);
+        return contains(item.data('gpm-plugin'), value) || contains(item.data('gpm-theme'), value) || contains(item.data('gpm-name').toLowerCase(), value.toLowerCase());
     }).show();
 }, 250));

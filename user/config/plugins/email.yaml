@@ -1,0 +1,15 @@
+enabled: true
+from: Hello@michaelfangman.com
+from_name: 'Michael Fangman'
+to: fangmanm@gmail.com
+mailer:
+  engine: mail
+  smtp:
+    server: localhost
+    port: 25
+    encryption: none
+    password: enter
+  sendmail:
+    bin: /usr/sbin/sendmail
+content_type: text/html
+debug: false

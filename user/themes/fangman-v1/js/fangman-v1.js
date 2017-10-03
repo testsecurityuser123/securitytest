@@ -45,7 +45,7 @@ $(document).ready(function() {
         newLocation = this.href;
         $('body').fadeOut(1000, newpage);
     });
-    
+
     function newpage() {
         window.location = newLocation;
     }
@@ -78,13 +78,13 @@ Menu Toggle
 
 ========================================================= */
 
-$(function() {                       
-  $(".menu-toggle").click(function() { 
-    $('.site-nav-menu-container').toggleClass("site-menu-open");   
-    $('.menu-toggle').toggleClass("site-menu-open");      
-    
+$(function() {
+  $(".menu-toggle").click(function() {
+    $('.site-nav-menu-container').toggleClass("site-menu-open");
+    $('.menu-toggle').toggleClass("site-menu-open");
+
     $('.site-nav-menu-container a').click(function() {
-        $('.site-nav-menu-container').removeClass("site-menu-open");   
+        $('.site-nav-menu-container').removeClass("site-menu-open");
         $('.menu-toggle').removeClass("site-menu-open");
     });
 
@@ -214,4 +214,4 @@ $(document).ready(function(){
 
 
 
-// jQuery(".home-hero-content h1").fitText(1.2, { minFontSize: '20px', maxFontSize: '40px' });
+jQuery(".home-hero-content h1").fitText(1.2, { minFontSize: '20px', maxFontSize: '40px' });

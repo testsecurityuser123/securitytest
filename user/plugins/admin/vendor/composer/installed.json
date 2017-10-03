@@ -1,17 +1,17 @@
 [
     {
         "name": "composer/semver",
-        "version": "1.4.1",
-        "version_normalized": "1.4.1.0",
+        "version": "1.4.2",
+        "version_normalized": "1.4.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/composer/semver.git",
-            "reference": "03c9de5aa25e7672c4ad251eeaba0c47a06c8b98"
+            "reference": "c7cb9a2095a074d131b65a8a0cd294479d785573"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/composer/semver/zipball/03c9de5aa25e7672c4ad251eeaba0c47a06c8b98",
-            "reference": "03c9de5aa25e7672c4ad251eeaba0c47a06c8b98",
+            "url": "https://api.github.com/repos/composer/semver/zipball/c7cb9a2095a074d131b65a8a0cd294479d785573",
+            "reference": "c7cb9a2095a074d131b65a8a0cd294479d785573",
             "shasum": ""
         },
         "require": {
@@ -21,7 +21,7 @@
             "phpunit/phpunit": "^4.5 || ^5.0.5",
             "phpunit/phpunit-mock-objects": "2.3.0 || ^3.0"
         },
-        "time": "2016-06-02 09:04:51",
+        "time": "2016-08-30T16:08:34+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -85,7 +85,7 @@
             "phpunit/phpunit": "^3.7 || ^4.0",
             "squizlabs/php_codesniffer": "^1.5"
         },
-        "time": "2016-02-04 21:02:08",
+        "time": "2016-02-04T21:02:08+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -112,17 +112,17 @@
     },
     {
         "name": "fguillot/picofeed",
-        "version": "v0.1.24",
-        "version_normalized": "0.1.24.0",
+        "version": "v0.1.35",
+        "version_normalized": "0.1.35.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/fguillot/picoFeed.git",
-            "reference": "25f9653ca663e098f51eabbdf495eb9a130c041b"
+            "url": "https://github.com/miniflux/picoFeed.git",
+            "reference": "3a27b47de31eedec075c719f961783c5db7a7b08"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/fguillot/picoFeed/zipball/25f9653ca663e098f51eabbdf495eb9a130c041b",
-            "reference": "25f9653ca663e098f51eabbdf495eb9a130c041b",
+            "url": "https://api.github.com/repos/miniflux/picoFeed/zipball/3a27b47de31eedec075c719f961783c5db7a7b08",
+            "reference": "3a27b47de31eedec075c719f961783c5db7a7b08",
             "shasum": ""
         },
         "require": {
@@ -134,10 +134,15 @@
             "php": ">=5.3.0",
             "zendframework/zendxml": "^1.0"
         },
+        "require-dev": {
+            "phpdocumentor/reflection-docblock": "2.0.4",
+            "phpunit/phpunit": "4.8.26",
+            "symfony/yaml": "2.8.7"
+        },
         "suggest": {
             "ext-curl": "PicoFeed will use cURL if present"
         },
-        "time": "2016-07-03 00:02:03",
+        "time": "2017-06-20T22:54:47+00:00",
         "bin": [
             "picofeed"
         ],
@@ -158,6 +163,103 @@
             }
         ],
         "description": "Modern library to handle RSS/Atom feeds",
-        "homepage": "https://github.com/fguillot/picoFeed"
+        "homepage": "https://github.com/miniflux/picoFeed"
+    },
+    {
+        "name": "robthree/twofactorauth",
+        "version": "1.6",
+        "version_normalized": "1.6.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/RobThree/TwoFactorAuth.git",
+            "reference": "5093ab230cd8f1296d792afb6a49545f37e7fd5a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/RobThree/TwoFactorAuth/zipball/5093ab230cd8f1296d792afb6a49545f37e7fd5a",
+            "reference": "5093ab230cd8f1296d792afb6a49545f37e7fd5a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "@stable"
+        },
+        "time": "2017-02-17T15:24:54+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "RobThree\\Auth\\": "lib"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Rob Janssen",
+                "homepage": "http://robiii.me",
+                "role": "Developer"
+            }
+        ],
+        "description": "Two Factor Authentication",
+        "homepage": "https://github.com/RobThree/TwoFactorAuth",
+        "keywords": [
+            "Authentication",
+            "MFA",
+            "Multi Factor Authentication",
+            "Two Factor Authentication",
+            "authenticator",
+            "authy",
+            "php",
+            "tfa"
+        ]
+    },
+    {
+        "name": "bacon/bacon-qr-code",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Bacon/BaconQrCode.git",
+            "reference": "031a2ce68c5794064b49d11775b2daf45c96e21c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Bacon/BaconQrCode/zipball/031a2ce68c5794064b49d11775b2daf45c96e21c",
+            "reference": "031a2ce68c5794064b49d11775b2daf45c96e21c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "suggest": {
+            "ext-gd": "to generate QR code images"
+        },
+        "time": "2016-01-09T22:55:35+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "BaconQrCode": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-2-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Ben Scholzen 'DASPRiD'",
+                "email": "mail@dasprids.de",
+                "homepage": "http://www.dasprids.de",
+                "role": "Developer"
+            }
+        ],
+        "description": "BaconQrCode is a QR code generator for PHP.",
+        "homepage": "https://github.com/Bacon/BaconQrCode"
     }
 ]

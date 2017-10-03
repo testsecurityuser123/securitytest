@@ -14,31 +14,18 @@
 		text-align: center;
 
 		// @include span-columns(12);
-		@include span-columns(8);
-		@include shift(2);
+		@include span-columns(10);
+		@include shift(1);
 
-		// @include breakpoint($bp-s) {
-		// 	@include span-columns(10);
-		// 	@include shift(1);
-		// }
+		@include breakpoint($bp-s) {
+			@include span-columns(8);
+			@include shift(2);
+		}
 
 		.subhead {
 			// max-width: rem(270);
-			margin: 0 auto rem(12);
+			margin: 0 auto rem(6);
 			padding: 0;
-
-			@include breakpoint($bp-s) {
-				padding: 0 rem(0);
-			}
-
-			@include breakpoint($bp-m) {
-				padding: 0 rem(0);
-			}
-
-
-			// @include breakpoint($bp-m) {
-			// 	margin-bottom: rem(6);
-			// }
 		}
 
 		h1 {
@@ -144,7 +131,7 @@
 			.intro-scroll {
 				//@include transform(translateY(rem(18))rotate(45deg));
 				border-color: $color-white;
-				
+
 			}
 			.intro-scroll-arrow {
 				//@include transform(translateY(rem(3)));

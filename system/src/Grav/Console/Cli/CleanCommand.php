@@ -2,7 +2,7 @@
 /**
  * @package    Grav.Console
  *
- * @copyright  Copyright (C) 2014 - 2016 RocketTheme, LLC. All rights reserved.
+ * @copyright  Copyright (C) 2014 - 2017 RocketTheme, LLC. All rights reserved.
  * @license    MIT License; see LICENSE file for details.
  */
 
@@ -41,13 +41,7 @@ class CleanCommand extends Command
         'user/plugins/email/vendor/swiftmailer/swiftmailer/notes',
         'user/plugins/email/vendor/swiftmailer/swiftmailer/doc',
         'user/themes/antimatter/.sass-cache',
-        'vendor/donatj/phpuseragentparser/.git',
-        'vendor/donatj/phpuseragentparser/.gitignore',
-        'vendor/donatj/phpuseragentparser/.travis.yml',
-        'vendor/donatj/phpuseragentparser/composer.json',
-        'vendor/donatj/phpuseragentparser/phpunit.xml.dist',
-        'vendor/donatj/phpuseragentparser/Tests',
-        'vendor/donatj/phpuseragentparser/Tools',
+        'vendor/antoligy/dom-string-iterators/composer.json',
         'vendor/doctrine/cache/.travis.yml',
         'vendor/doctrine/cache/build.properties',
         'vendor/doctrine/cache/build.xml',
@@ -57,6 +51,16 @@ class CleanCommand extends Command
         'vendor/doctrine/cache/.gitignore',
         'vendor/doctrine/cache/.git',
         'vendor/doctrine/cache/tests',
+        'vendor/doctrine/collections/composer.json',
+        'vendor/doctrine/collections/phpunit.xml.dist',
+        'vendor/doctrine/collections/tests',
+        'vendor/donatj/phpuseragentparser/.git',
+        'vendor/donatj/phpuseragentparser/.gitignore',
+        'vendor/donatj/phpuseragentparser/.travis.yml',
+        'vendor/donatj/phpuseragentparser/composer.json',
+        'vendor/donatj/phpuseragentparser/phpunit.xml.dist',
+        'vendor/donatj/phpuseragentparser/Tests',
+        'vendor/donatj/phpuseragentparser/Tools',
         'vendor/erusev/parsedown/composer.json',
         'vendor/erusev/parsedown/phpunit.xml.dist',
         'vendor/erusev/parsedown/.travis.yml',
@@ -94,6 +98,7 @@ class CleanCommand extends Command
         'vendor/ircmaxell/password-compat/version-test.php',
         'vendor/ircmaxell/password-compat/.travis.yml',
         'vendor/ircmaxell/password-compat/test',
+        'vendor/league/climate/composer.json',
         'vendor/matthiasmullie/minify/bin',
         'vendor/matthiasmullie/minify/composer.json',
         'vendor/matthiasmullie/minify/CONTRIBUTING.md',
@@ -124,12 +129,19 @@ class CleanCommand extends Command
         'vendor/rockettheme/toolbox/.travis.yml',
         'vendor/rockettheme/toolbox/composer.json',
         'vendor/rockettheme/toolbox/phpunit.xml',
+        'vendor/seld/cli-prompt/composer.json',
         'vendor/symfony/console/composer.json',
         'vendor/symfony/console/phpunit.xml.dist',
         'vendor/symfony/console/.gitignore',
         'vendor/symfony/console/.git',
         'vendor/symfony/console/Tester',
         'vendor/symfony/console/Tests',
+        'vendor/symfony/debug/.gitignore',
+        'vendor/symfony/debug/.git',
+        'vendor/symfony/debug/phpunit.xml.dist',
+        'vendor/symfony/debug/composer.json',
+        'vendor/symfony/debug/Tests',
+        'vendor/symfony/debug/Resources',
         'vendor/symfony/event-dispatcher/.git',
         'vendor/symfony/event-dispatcher/.gitignore',
         'vendor/symfony/event-dispatcher/composer.json',

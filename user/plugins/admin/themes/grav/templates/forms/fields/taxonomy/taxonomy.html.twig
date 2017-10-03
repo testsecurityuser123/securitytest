@@ -1,4 +1,4 @@
-{% set taxonomies = (taxonomies is null ? admin.data('config/site').taxonomies : taxonomies) %}
+{% set taxonomies = (taxonomies is null ? (field.taxonomies ? field.taxonomies : admin.data('config/site').taxonomies) : taxonomies) %}
 {% set parentname = field.name %}
 
 {% for name in taxonomies %}
@@ -14,6 +14,7 @@
         name: parentname ~ '.' ~ name,
         multiple: true,
         options: list,
+        style: field.style,
         selectize: {
             create: true
         }

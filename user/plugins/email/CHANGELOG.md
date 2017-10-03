@@ -1,3 +1,62 @@
+# v2.6.2
+## 09/30/2017
+
+1. [](#improved)
+    * Removed extraneous files from vendor folder 
+
+# v2.6.1
+## 09/07/2017
+
+1. [](#improved)
+    * Improved the error message when missing `from` in the configuration
+    * Silently catch malformed email exceptions
+
+# v2.6.0
+## 05/22/2017
+
+1. [](#improved)
+    * Inherit options from plugin configuration [#39](https://github.com/getgrav/grav-plugin-email/pull/39)
+1. [](#bugfix)
+    * Also process translation on the email subject [https://github.com/getgrav/grav-plugin-comments/issues/38](https://github.com/getgrav/grav-plugin-comments/issues/38)
+
+# v2.5.3
+## 01/03/2017
+
+1. [](#improved)
+    * Updated to SwiftMailer 5.4.5 [#45](https://github.com/getgrav/grav-plugin-email/issues/45)
+
+# v2.5.2
+## 12/13/2016
+
+1. [](#new)
+    * RC released as stable
+
+# v2.5.2-rc.1
+## 11/26/2016
+
+1. [](#new)
+    * Added a new `process_markdown` option for emails in forms
+1. [](#improved)
+    * Improved the `Utils::sendEmail()` method to take the email type as an option
+
+# v2.5.1
+## 10/19/2016
+
+1. [](#improved)
+    * CLI command will fallback to use the `to` from email plugin config if not provided
+    * Explicit Composer based class loader to fix issues with class case
+
+# v2.5.0
+## 09/07/2016
+
+1. [](#new)
+    * Added a new `bin/plugin email test-email` CLI command
+1. [](#improved)
+    * Moved Email `Utils` class from Login to Email plugin
+    * Provide a sample base `email/base.html.twig` template for emails
+1. [](#bugfix)
+    * Fix handling attachments with the updated file upload field
+
 # v2.4.3
 ## 08/16/2016
 
