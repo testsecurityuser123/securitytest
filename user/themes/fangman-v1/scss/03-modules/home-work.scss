@@ -14,7 +14,7 @@
 
 		// @include breakpoint($bp-m) {
 		// 	padding-left: rem(75);
-		// 	padding-right: rem(75);		
+		// 	padding-right: rem(75);
 		// }
 
 		ul {
@@ -179,6 +179,12 @@
 
 								@include transition($transition-med);
 							}
+
+							&.coming-soon {
+								&:after {
+									content: 'Coming Soon';
+								}
+							}
 						}
 						&.work-item-background {
 							z-index: 2;
@@ -193,6 +199,10 @@
 							opacity: .2;
 
 							@include transition($transition-med);
+
+							&.leadpages-bkg-img {
+								background-image: url('../../../pages/01.home/leadpages-temp-road.jpg')
+							}
 						}
 					}
 				}

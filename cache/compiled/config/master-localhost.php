@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1507045270,
-    'checksum' => '25a4a24bbc20d04f020dce057c4ef014',
+    'timestamp' => 1507066129,
+    'checksum' => 'ba98701f659e786c955aaf3fcaa07cb8',
     'files' => [
         'user/config' => [
             'media' => [
@@ -39,7 +39,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1471131230
+                'modified' => 1507066129
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -592,7 +592,7 @@ return [
             ]
         ],
         'site' => [
-            'title' => 'Michael Fangman | UX & UI Designer',
+            'title' => 'Michael Fangman | User Experience Designer',
             'default_lang' => 'en',
             'author' => [
                 'name' => 'Michael Fangman',

@@ -994,6 +994,8 @@ Module: Project Description
               -webkit-transition: all 0.25s ease;
               -moz-transition: all 0.25s ease;
               transition: all 0.25s ease; }
+            .home-work .home-work-feed ul li a div h3.coming-soon:after {
+              content: 'Coming Soon'; }
           .home-work .home-work-feed ul li a div.work-item-background {
             z-index: 2; }
           .home-work .home-work-feed ul li a div.work-item-background-image {
@@ -1007,6 +1009,8 @@ Module: Project Description
             -webkit-transition: all 0.25s ease;
             -moz-transition: all 0.25s ease;
             transition: all 0.25s ease; }
+            .home-work .home-work-feed ul li a div.work-item-background-image.leadpages-bkg-img {
+              background-image: url("../../../pages/01.home/leadpages-temp-road.jpg"); }
 
 /* =========================================================
 
