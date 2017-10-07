@@ -4,7 +4,7 @@
 ///
 /// @type Bool
 
-$visual-grid: flase !default;
+$visual-grid: false !default;
 
 /// Sets the visual grid color. Set with `!global` flag.
 ///
@@ -22,6 +22,6 @@ $visual-grid-index: back !default;
 ///
 /// @type Number (unitless)
 
-$visual-grid-opacity: 0.05 !default;
+$visual-grid-opacity: 0.03 !default;
 
 $visual-grid-breakpoints: () !default;

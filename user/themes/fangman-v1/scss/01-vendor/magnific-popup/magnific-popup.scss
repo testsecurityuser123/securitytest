@@ -271,7 +271,7 @@ $font_2: monospace;
   left: 50% !important;
   // margin-left: rem(-45);
   //@include transform(TranslateX(-50%));
-  
+
   color: $color_celeste_approx;
   font-size: 12px;
   line-height: 18px;
@@ -367,7 +367,7 @@ button::-moz-focus-inner {
   @include breakpoint($bp-m) {
     left: rem(24);
   }
-  
+
   &:after {
     content: '';
     display: block;

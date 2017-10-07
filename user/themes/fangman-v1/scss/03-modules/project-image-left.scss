@@ -1,0 +1,147 @@
+/* =========================================================
+
+Module: Project Image Left
+
+========================================================= */
+
+.project-image-left {
+	position: relative;
+	padding: $section-padding-s;
+
+	@include breakpoint($bp-s) {
+		padding: $section-padding-m;
+	}
+
+	.project-image-left-container {
+		@include outer-container;
+		padding: rem(30) 0;
+
+		position: relative;
+		display: table;
+		height: 100%;
+		width: 100%;
+
+		.project-image-left-img-container {
+			position: relative;
+			z-index: 2;
+
+			@include span-columns(12);
+			margin-bottom: rem(90);
+
+			@include transform(translate($transition-med));
+			width: 100%;
+
+			@include breakpoint($bp-s) {
+				margin-bottom: rem(120);
+			}
+
+			@include breakpoint($bp-m) {
+				@include span-columns(6);
+				margin-bottom: 0;
+			}
+
+			@include breakpoint(rem(900)) {
+				// @include span-columns(7);
+				// @include shift(-1);
+
+				//@include span-columns(6);
+			}
+
+			.project-image-left-img {
+				z-index: 3;
+				width: 100%;
+				display: block;
+			}
+		}
+
+		.project-image-left-content-container {
+			@include span-columns(12);
+			position: relative;
+			z-index: 3;
+			display: block;
+			padding: 0;
+			height: 100%;
+
+			@include breakpoint($bp-s) {
+				@include span-columns(10);
+				@include shift(1);
+			}
+
+			@include breakpoint($bp-m) {
+				@include span-columns(4);
+				@include shift(7);
+				position: absolute;
+				top: 0 ;
+				bottom: 0;
+				//left: 50%;
+			}
+
+			// @include breakpoint($bp-l) {
+			// 	@include span-columns(4);
+			// 	@include shift(7);
+			// }
+
+			// @include breakpoint($bp-xl) {
+			// 	@include span-columns(5);
+			// 	@include shift(1);
+			// }
+
+			.project-image-left-content-inner-container {
+				position: relative;
+				margin-top: rem(4);
+
+				@include breakpoint($bp-m) {
+					position: absolute;
+					top: 50%;
+					@include transform(translateY(-50%));
+				}
+
+				.btn {
+					margin-top: rem(30); // This is inconsistant with other spacing now
+				}
+			}
+		}
+	}
+	.project-image-left-background {
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+
+		opacity: 0;
+		@include filter(grayscale(100%));
+
+		// &:before {
+		// 	content: '';
+		// 	padding-top: 98%;
+		// 	display: block;
+		// }
+
+
+		// @include breakpoint($bp-s) {
+		// 	top: 9%;
+		//
+		// 	&:before {
+		// 		content: '';
+		// 		padding-top: 77%;
+		// 		display: block;
+		// 	}
+		// }
+
+		@include breakpoint($bp-m) {
+			opacity: 0.05;
+			// top: 0;
+			// bottom: 0;
+			//
+			// &:before {
+			// 	display: none;
+			// }
+		}
+	}
+}

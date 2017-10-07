@@ -2,9 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav/user/config/site.yaml',
-    'modified' => 1471131230,
+    'modified' => 1507066129,
     'data' => [
-        'title' => 'Michael Fangman | UX & UI Designer',
+        'title' => 'Michael Fangman | User Experience Designer',
+        'default_lang' => 'en',
         'author' => [
             'name' => 'Michael Fangman',
             'email' => 'hello@michaelfangman.com'

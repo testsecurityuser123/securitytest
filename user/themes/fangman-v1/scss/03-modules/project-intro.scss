@@ -46,7 +46,7 @@ Module: Project Introduction
 		@include breakpoint($bp-l) {
 			padding-bottom: rem(90);
 		}
-		
+
 		.project-intro-info-container {
 			position: relative;
 			@include span-columns(10);
@@ -83,7 +83,7 @@ Module: Project Introduction
 				padding-bottom: rem(30);
 				@include clearfix;
 
-				@include breakpoint ($bp-m) {
+				@include breakpoint($bp-m) {
 					@include span-columns(8);
 					@include shift(2);
 				}
@@ -99,7 +99,7 @@ Module: Project Introduction
 				p.subhead {
 					// max-width: rem(320);
 					margin: 0 auto;
-					
+
 				}
 			}
 		}
@@ -150,7 +150,7 @@ Module: Project Introduction
 
 				@include breakpoint($bp-m) {
 					@include span-columns(10);
-					@include shift(1);	
+					@include shift(1);
 				}
 
 			}
@@ -208,7 +208,7 @@ Module: Project Introduction
 				@include breakpoint($bp-m) {
 					// @include span-columns(3);
 					width: 23%;
-					right: 12%;	
+					right: 12%;
 					padding-bottom: 3%;
 				}
 

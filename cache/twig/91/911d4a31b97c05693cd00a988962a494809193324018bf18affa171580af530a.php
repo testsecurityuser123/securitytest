@@ -18,7 +18,7 @@ class __TwigTemplate_b2a7426f8c71c7679c42b00b1930f99da964021bb9d0b9082418af7fe6c
         // line 1
         echo "<section class=\"project-intro\">
 \t<div class=\"project-intro-container\">
-\t\t
+
 \t\t<div class=\"project-intro-info-container\">
 \t\t\t<div class=\"project-intro-info\" data-start=\"opacity:1;;transform:translateY(0%);\" data-top-bottom=\"opacity:0;;transform:translateY(50%);\">
 \t\t\t\t<h2>";
@@ -41,24 +41,28 @@ class __TwigTemplate_b2a7426f8c71c7679c42b00b1930f99da964021bb9d0b9082418af7fe6c
         echo $this->getAttribute(($context["header"] ?? null), "project_img_laptop", array());
         echo "');\" data-start=\"background-position:center -.5%;\" data-top-bottom=\"background-position:center 10%;\"></div>
 
-\t\t\t<div class=\"project-intro-image-phone\" style=\"background-image: url(' ";
+\t\t\t";
         // line 15
-        echo $this->getAttribute(($context["page"] ?? null), "url", array(0 => true), "method");
-        echo "/";
-        echo $this->getAttribute(($context["header"] ?? null), "project_img_phone", array());
-        echo "');\" data-start=\"background-position:63% -.5%;\" data-top-bottom=\"background-position:63% 15%\"></div>
-
-\t\t</div>
+        if ($this->getAttribute(($context["header"] ?? null), "project_img_phone", array())) {
+            // line 16
+            echo "\t\t\t<div class=\"project-intro-image-phone\" style=\"background-image: url(' ";
+            echo $this->getAttribute(($context["page"] ?? null), "url", array(0 => true), "method");
+            echo "/";
+            echo $this->getAttribute(($context["header"] ?? null), "project_img_phone", array());
+            echo "');\" data-start=\"background-position:63% -.5%;\" data-top-bottom=\"background-position:63% 15%\"></div>
+\t\t\t";
+        }
+        // line 18
+        echo "\t\t</div>
 
 \t</div>
 \t<div class=\"project-intro-background-image\" style=\"background-image: url(' ";
-        // line 20
+        // line 21
         echo $this->getAttribute(($context["page"] ?? null), "url", array(0 => true), "method");
         echo "/";
         echo $this->getAttribute(($context["header"] ?? null), "project_intro_background_image", array());
         echo "');\" data-0p=\"transform:scale(1.05);opacity:0.075;z-index:1;\" data-50p=\"transform:scale(1);opacity:0.0;z-index:0;\"></div>
 </section>
-
 ";
     }
 
@@ -74,7 +78,7 @@ class __TwigTemplate_b2a7426f8c71c7679c42b00b1930f99da964021bb9d0b9082418af7fe6c
 
     public function getDebugInfo()
     {
-        return array (  56 => 20,  46 => 15,  39 => 13,  30 => 7,  26 => 6,  19 => 1,);
+        return array (  61 => 21,  56 => 18,  48 => 16,  46 => 15,  39 => 13,  30 => 7,  26 => 6,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -89,7 +93,7 @@ class __TwigTemplate_b2a7426f8c71c7679c42b00b1930f99da964021bb9d0b9082418af7fe6c
     {
         return new Twig_Source("<section class=\"project-intro\">
 \t<div class=\"project-intro-container\">
-\t\t
+
 \t\t<div class=\"project-intro-info-container\">
 \t\t\t<div class=\"project-intro-info\" data-start=\"opacity:1;;transform:translateY(0%);\" data-top-bottom=\"opacity:0;;transform:translateY(50%);\">
 \t\t\t\t<h2>{{ page.title }}</h2>
@@ -101,14 +105,14 @@ class __TwigTemplate_b2a7426f8c71c7679c42b00b1930f99da964021bb9d0b9082418af7fe6c
 
 \t\t\t<div class=\"project-intro-image-laptop\" style=\"background-image: url(' {{ page.url(true) }}/{{ header.project_img_laptop }}');\" data-start=\"background-position:center -.5%;\" data-top-bottom=\"background-position:center 10%;\"></div>
 
+\t\t\t{% if header.project_img_phone %}
 \t\t\t<div class=\"project-intro-image-phone\" style=\"background-image: url(' {{ page.url(true) }}/{{ header.project_img_phone }}');\" data-start=\"background-position:63% -.5%;\" data-top-bottom=\"background-position:63% 15%\"></div>
-
+\t\t\t{% endif %}
 \t\t</div>
 
 \t</div>
 \t<div class=\"project-intro-background-image\" style=\"background-image: url(' {{ page.url(true) }}/{{ header.project_intro_background_image }}');\" data-0p=\"transform:scale(1.05);opacity:0.075;z-index:1;\" data-50p=\"transform:scale(1);opacity:0.0;z-index:0;\"></div>
 </section>
-
 ", "modular/project-intro.html.twig", "/Applications/MAMP/htdocs/portfolio-grav/user/themes/fangman-v1/templates/modular/project-intro.html.twig");
     }
 }

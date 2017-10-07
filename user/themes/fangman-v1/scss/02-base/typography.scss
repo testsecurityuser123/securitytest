@@ -9,7 +9,7 @@ a {
 	text-decoration: none;
 	color: $color-accent;
 	@include transition($transition-med);
-	
+
 
 	&:hover {
 		color: tint($color-accent, 10%);
@@ -21,6 +21,10 @@ p {
 	font-weight: 100;
 	line-height: 1.5;
 	letter-spacing: rem(.5);
+
+	&:last-of-type {
+		margin-bottom: 0;
+	}
 }
 
 strong {
@@ -155,7 +159,7 @@ blockquote {
 
 	@include breakpoint($bp-s) {
 		font-size: rem(18);
-	}	
+	}
 
 	@include breakpoint($bp-m) {
 		font-size: rem(21);

@@ -1,0 +1,20 @@
+<section class="project-image-left" data--60-bottom-top="opacity:0;" data-center-top="opacity:1;">
+	<div class="project-image-left-container">
+		<div class="project-image-left-img-container">
+				<img class="project-image-left-img" src="{{ page.url(true) }}/{{ header.project_img_l_img }}">
+		</div>
+		<div class="project-image-left-content-container">
+			<div class="project-image-left-content-inner-container">
+				{{ content }}
+				{% if header.project_img_l_button_link %}
+					<a href="{{ header.project_img_l_button_link }}" target="_blank" class="btn btn-arrow-r">{{ header.project_img_l_button_text }}</a>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+
+	<div
+		class="project-image-left-background"
+		style="background-image: url(' {{ page.url(true) }}/{{ header.project_img_l_background_image }}');">
+	</div>
+</section>

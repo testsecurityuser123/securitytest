@@ -180,6 +180,7 @@
 								@include transition($transition-med);
 							}
 
+							// Coming Soon Text
 							&.coming-soon {
 								&:after {
 									content: 'Coming Soon';
@@ -199,10 +200,6 @@
 							opacity: .2;
 
 							@include transition($transition-med);
-
-							&.leadpages-bkg-img {
-								background-image: url('../../../pages/01.home/leadpages-temp-road.jpg')
-							}
 						}
 					}
 				}

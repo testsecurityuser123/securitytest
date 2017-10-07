@@ -14,7 +14,7 @@ Error: Undefined mixin 'transform'.
 9: @import "project-slider-slick-theme";
 10: @import "project-phone-slider";
 11: @import "project-gallery";
-12: @import "project-next-link";
+12: @import "project-image-left";
 
 Backtrace:
 scss/03-modules/header.scss:7:in `transform'
@@ -88,4 +88,4 @@ scss/03-modules/modules-map.scss:1
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'transform'.\A         on line 7 of scss/03-modules/header.scss, in `transform'\A         from line 7 of scss/03-modules/header.scss\A         from line 1 of scss/03-modules/modules-map.scss\A \A 2: @import \"home-hero\";\A 3: @import \"home-about\";\A 4: @import \"home-work\";\A 5: @import \"project-intro\";\A 6: @import \"project-desc\";\A 7: @import \"project-phone-feature\";\A 8: @import \"project-desktop-slider\";\A 9: @import \"project-slider-slick-theme\";\A 10: @import \"project-phone-slider\";\A 11: @import \"project-gallery\";\A 12: @import \"project-next-link\";"; }
+  content: "Error: Undefined mixin 'transform'.\A         on line 7 of scss/03-modules/header.scss, in `transform'\A         from line 7 of scss/03-modules/header.scss\A         from line 1 of scss/03-modules/modules-map.scss\A \A 2: @import \"home-hero\";\A 3: @import \"home-about\";\A 4: @import \"home-work\";\A 5: @import \"project-intro\";\A 6: @import \"project-desc\";\A 7: @import \"project-phone-feature\";\A 8: @import \"project-desktop-slider\";\A 9: @import \"project-slider-slick-theme\";\A 10: @import \"project-phone-slider\";\A 11: @import \"project-gallery\";\A 12: @import \"project-image-left\";"; }
