@@ -1,10 +1,8 @@
-<section class="project-ds">
+<section class="project-ds {% if header.project_ds_no_padding %}no-pad{% endif %}">
 	<div class="project-ds-container">
 		<div class="project-ds-content-container">
 			<div class="project-ds-content-inner-container" data--60-bottom-top="opacity:0;" data-center-top="opacity:1;">
-				{% if page.title %}
-				<h3>{{ page.title }}</h3>
-				{% endif %}
+				<!-- <h3>{{ page.title }}</h3> -->
 				<p>{{ content }}</p>
 			</div>
 		</div>

@@ -1,0 +1,20 @@
+1508122668
+a:2:{s:7:"content";s:1107:"<section class="project-image-left" data--60-bottom-top="opacity:0;" data-center-top="opacity:1;">
+	<div class="project-image-left-container">
+		<div class="project-image-left-img-container">
+				<img class="project-image-left-img" src="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-research/Research-3.png" style="padding-top:42px;">
+		</div>
+		<div class="project-image-left-content-container">
+			<div class="project-image-left-content-inner-container">
+				<h3>Understanding the Product Space</h3>
+<p>Once the requirements were pulled together, I shifted my attention to the product landscape. My goal was to uncover common terminology and best practices within the e-commerce and online payment industry, better understand how sales funnels are used in the digital marketing space, and examine how various competitors were solving this problem for their users.</p>
+							</div>
+		</div>
+	</div>
+
+	<div
+		class="project-image-left-background"
+		style="background-image: url(' http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-research/');">
+	</div>
+</section>
+";s:12:"content_meta";N;}

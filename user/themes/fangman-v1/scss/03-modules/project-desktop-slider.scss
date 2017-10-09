@@ -28,6 +28,21 @@ Module: Project Desktop Slider
 		margin-bottom: rem(390);
 	}
 
+	&.no-pad {
+		padding-top: 0;
+
+		@include breakpoint($bp-xl) {
+			margin-bottom: rem(270);
+		}
+
+		.project-ds-background {
+			display: none;
+			@include breakpoint($bp-l) {
+				display: block;
+			}
+		}
+	}
+
 	.project-ds-container {
 		@include outer-container;
 

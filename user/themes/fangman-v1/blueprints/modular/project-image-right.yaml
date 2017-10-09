@@ -17,6 +17,11 @@ form:
                 size: large
                 label: Image
 
+            header.project_img_r_adjust:
+                type: text
+                size: large
+                label: Image Top Padding: 
+
             header.project_img_r_background_image:
               type: pagemediaselect
               size: large

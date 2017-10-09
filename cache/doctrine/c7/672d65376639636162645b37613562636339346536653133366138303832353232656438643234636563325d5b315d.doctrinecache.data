@@ -1,0 +1,27 @@
+1508105968
+a:2:{s:7:"content";s:1398:"<section class="project-image-right" data--60-bottom-top="opacity:0;" data-center-top="opacity:1;">
+	<div class="project-image-right-container">
+
+		<div class="project-image-right-img-container">
+				<img class="project-image-right-img" src="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-requirements/requirement-cards.png">
+		</div>
+
+		<div class="project-image-right-content-container">
+			<div class="project-image-right-content-inner-container">
+				<h3>Project Requirements</h3>
+<p>I was pulled into the project after a roadmap had been established and an engineering prototype had been built. Being that things were already in motion, I wasted no time diving in to better understand the short, medium, and long term plan for the Checkout Widget. I then focused on assembling a list of requirements that could impact the end experience. Below are some of the more strenuous requirements I found.</p>
+							</div>
+		</div>
+
+		<!-- <div class="project-image-right-img-container img-dsk">
+				<img class="project-image-right-img" src="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-requirements/requirement-cards.png">
+		</div> -->
+
+	</div>
+
+	<div
+		class="project-image-right-background"
+		style="background-image: url(' http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-requirements/background-24hrs.jpeg');">
+	</div>
+</section>
+";s:12:"content_meta";N;}

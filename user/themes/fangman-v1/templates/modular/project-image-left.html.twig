@@ -1,7 +1,7 @@
 <section class="project-image-left" data--60-bottom-top="opacity:0;" data-center-top="opacity:1;">
 	<div class="project-image-left-container">
 		<div class="project-image-left-img-container">
-				<img class="project-image-left-img" src="{{ page.url(true) }}/{{ header.project_img_l_img }}">
+				<img class="project-image-left-img" src="{{ page.url(true) }}/{{ header.project_img_l_img }}" {% if header.project_img_l_adjust %}style="padding-top:{{ header.project_img_l_adjust }};"{% endif %}>
 		</div>
 		<div class="project-image-left-content-container">
 			<div class="project-image-left-content-inner-container">

@@ -1,0 +1,20 @@
+1508123671
+a:2:{s:7:"content";s:1170:"<section class="project-image-left" data--60-bottom-top="opacity:0;" data-center-top="opacity:1;">
+	<div class="project-image-left-container">
+		<div class="project-image-left-img-container">
+				<img class="project-image-left-img" src="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-wireframes-2/ScriptMock.png" >
+		</div>
+		<div class="project-image-left-content-container">
+			<div class="project-image-left-content-inner-container">
+				<p>Working through several rounds of wireframe iterations, my goal was to define an intuitive experience for the initial product release while simultaneously exploring other features on the roadmap to ensure the UI could be scaled as the project continued. Each subsequent iteration was informed by numerous user tests and feedback from key stake holders.</p>
+									<a href="http://michaelfangman.com/checkout-script.pdf" target="_blank" class="btn btn-arrow-r">User Testing Script</a>
+							</div>
+		</div>
+	</div>
+
+	<div
+		class="project-image-left-background"
+		style="background-image: url(' http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-wireframes-2/');">
+	</div>
+</section>
+";s:12:"content_meta";N;}

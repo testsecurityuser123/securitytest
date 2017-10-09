@@ -19,13 +19,19 @@ class __TwigTemplate_698b771270e96103551d1532d19907e41f23054201492334ea5b4882d9f
         echo "<section class=\"project-image-right\" data--60-bottom-top=\"opacity:0;\" data-center-top=\"opacity:1;\">
 \t<div class=\"project-image-right-container\">
 
-\t\t<div class=\"project-image-right-img-container img-mbl\">
+\t\t<div class=\"project-image-right-img-container\" >
 \t\t\t\t<img class=\"project-image-right-img\" src=\"";
         // line 5
         echo $this->getAttribute(($context["page"] ?? null), "url", array(0 => true), "method");
         echo "/";
         echo $this->getAttribute(($context["header"] ?? null), "project_img_r_img", array());
-        echo "\">
+        echo "\" ";
+        if ($this->getAttribute(($context["header"] ?? null), "project_img_r_adjust", array())) {
+            echo "style=\"padding-top:";
+            echo $this->getAttribute(($context["header"] ?? null), "project_img_r_adjust", array());
+            echo ";\"";
+        }
+        echo ">
 \t\t</div>
 
 \t\t<div class=\"project-image-right-content-container\">
@@ -85,7 +91,7 @@ class __TwigTemplate_698b771270e96103551d1532d19907e41f23054201492334ea5b4882d9f
 
     public function getDebugInfo()
     {
-        return array (  67 => 25,  55 => 18,  49 => 14,  41 => 12,  39 => 11,  35 => 10,  25 => 5,  19 => 1,);
+        return array (  73 => 25,  61 => 18,  55 => 14,  47 => 12,  45 => 11,  41 => 10,  25 => 5,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -101,8 +107,8 @@ class __TwigTemplate_698b771270e96103551d1532d19907e41f23054201492334ea5b4882d9f
         return new Twig_Source("<section class=\"project-image-right\" data--60-bottom-top=\"opacity:0;\" data-center-top=\"opacity:1;\">
 \t<div class=\"project-image-right-container\">
 
-\t\t<div class=\"project-image-right-img-container img-mbl\">
-\t\t\t\t<img class=\"project-image-right-img\" src=\"{{ page.url(true) }}/{{ header.project_img_r_img }}\">
+\t\t<div class=\"project-image-right-img-container\" >
+\t\t\t\t<img class=\"project-image-right-img\" src=\"{{ page.url(true) }}/{{ header.project_img_r_img }}\" {% if header.project_img_r_adjust %}style=\"padding-top:{{ header.project_img_r_adjust }};\"{% endif %}>
 \t\t</div>
 
 \t\t<div class=\"project-image-right-content-container\">

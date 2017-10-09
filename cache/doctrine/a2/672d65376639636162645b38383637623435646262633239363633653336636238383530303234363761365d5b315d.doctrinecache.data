@@ -1,0 +1,26 @@
+1508087762
+a:2:{s:7:"content";s:1400:"<section class="project-ds">
+	<div class="project-ds-container">
+		<div class="project-ds-content-container">
+			<div class="project-ds-content-inner-container" data--60-bottom-top="opacity:0;" data-center-top="opacity:1;">
+								<h3>Wireframe Showcase</h3>
+								<p><h3>Wirefreames</h3>
+<p>Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper.</p></p>
+			</div>
+		</div>
+
+		<div class="project-ds-slider-container">
+
+			<div class="project-ds-slider" data--60-bottom-top="opacity:0;" data-center-top="opacity:1;">
+			  					  	<a href="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-wireframe-showcase/PaymentForm-PaymentTab-OrderSummary.png" class="project-ds-slide">
+				  		<div class="project-ds-slide-image">
+				  			<img src="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-wireframe-showcase/PaymentForm-PaymentTab-OrderSummary.png" alt="">
+				  		</div>
+				  	</a>
+			  				</div>
+		</div>
+
+	</div>
+	<div class="project-ds-background" style="background-image: url(' http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-wireframe-showcase/');" data--60-bottom-top="opacity:0;" data-center-top="opacity:0.05;"></div>
+</section>
+";s:12:"content_meta";N;}

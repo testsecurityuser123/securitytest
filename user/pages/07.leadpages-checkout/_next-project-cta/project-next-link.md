@@ -2,7 +2,7 @@
 title: 'Twin Cities Alumni Network'
 project_nl_project_link: tcan
 project_nl_bkg_image: hero-buildings-min.jpg
-published: false
-date: '30-09-2016 00:00'
+published: true
+date: '15-10-2017 17:01'
 ---
 

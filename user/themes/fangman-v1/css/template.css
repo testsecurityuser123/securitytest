@@ -51,7 +51,7 @@ body {
         font-size: 0.9375rem;
         line-height: 1.3;
         font-weight: 300; }
-        @media screen and (min-width: 48em) {
+        @media screen and (min-width: 48.0625em) {
           body #error > div p {
             font-size: 1.125rem; } }
   body .btn, body .login-container .login #private fieldset .buttons .button, .login-container .login #private fieldset .buttons body .button {
@@ -70,7 +70,7 @@ body {
     transition: all 0.25s ease; }
     body .btn:hover, body .login-container .login #private fieldset .buttons .button:hover, .login-container .login #private fieldset .buttons body .button:hover {
       background-color: #cb4e4e; }
-    @media screen and (min-width: 30em) {
+    @media screen and (min-width: 30.0625em) {
       body .btn, body .login-container .login #private fieldset .buttons .button, .login-container .login #private fieldset .buttons body .button {
         font-size: 0.9375rem;
         font-weight: 300;
@@ -230,7 +230,7 @@ h3 {
   color: #cb4e4e;
   font-weight: 100;
   font-size: 1.5rem; }
-  @media screen and (min-width: 48em) {
+  @media screen and (min-width: 48.0625em) {
     h3 {
       font-size: 1.875rem; } }
 
@@ -239,7 +239,7 @@ h4 {
   font-size: 1.3125rem;
   color: #cb4e4e;
   margin-bottom: 0; }
-  @media screen and (min-width: 48em) {
+  @media screen and (min-width: 48.0625em) {
     h4 {
       font-size: 1.5rem; } }
 
@@ -261,10 +261,10 @@ h6, .testt {
   font-weight: 300;
   letter-spacing: 0.125rem;
   text-transform: uppercase; }
-  @media screen and (min-width: 30em) {
+  @media screen and (min-width: 30.0625em) {
     .subhead, .login-container .login h1 {
       font-size: 1.125rem; } }
-  @media screen and (min-width: 48em) {
+  @media screen and (min-width: 48.0625em) {
     .subhead, .login-container .login h1 {
       font-size: 1.3125rem; } }
 
@@ -391,7 +391,7 @@ h6, .testt {
   -webkit-transition: all 0.125s ease;
   -moz-transition: all 0.125s ease;
   transition: all 0.125s ease; }
-  @media screen and (min-width: 30em) {
+  @media screen and (min-width: 30.0625em) {
     #site-navigation {
       padding: 1.875rem 1.875rem; } }
   #site-navigation .site-nav-logo a {
@@ -443,7 +443,7 @@ h6, .testt {
         color: #fff; }
       #site-navigation .site-nav-menu-container a:hover h6 {
         color: #cb4e4e; }
-    @media screen and (min-width: 30em) {
+    @media screen and (min-width: 30.0625em) {
       #site-navigation .site-nav-menu-container {
         opacity: 1;
         visibility: visible;
@@ -464,7 +464,7 @@ h6, .testt {
     -moz-transition: all 0.25s ease;
     transition: all 0.25s ease;
     display: block; }
-    @media screen and (min-width: 30em) {
+    @media screen and (min-width: 30.0625em) {
       #site-navigation .menu-toggle {
         display: none; } }
     #site-navigation .menu-toggle .icon {
@@ -551,7 +551,7 @@ h6, .testt {
     margin-left: 8.5298042998%; }
     .home-hero .home-hero-content:last-child {
       margin-right: 0; }
-    @media screen and (min-width: 30em) {
+    @media screen and (min-width: 30.0625em) {
       .home-hero .home-hero-content {
         float: left;
         display: block;
@@ -580,7 +580,7 @@ h6, .testt {
     -webkit-transition: all 0.25s ease;
     -moz-transition: all 0.25s ease;
     transition: all 0.25s ease; }
-    @media screen and (min-width: 48em) {
+    @media screen and (min-width: 48.0625em) {
       .home-hero .intro-scroll-container {
         bottom: 3.75rem; } }
     .home-hero .intro-scroll-container .intro-scroll {
@@ -714,7 +714,7 @@ Module: Project Description
     clear: both;
     content: "";
     display: table; }
-  @media screen and (min-width: 48em) {
+  @media screen and (min-width: 48.0625em) {
     .home-about {
       min-height: 100vh;
       height: 100vh; } }
@@ -733,7 +733,7 @@ Module: Project Description
       clear: both;
       content: "";
       display: table; }
-    @media screen and (min-width: 48em) {
+    @media screen and (min-width: 48.0625em) {
       .home-about .home-about-container {
         top: 50%;
         -webkit-transform: translateY(-45%);
@@ -750,7 +750,7 @@ Module: Project Description
       width: 100%; }
       .home-about .home-about-container .home-about-main-container:last-child {
         margin-right: 0; }
-      @media screen and (min-width: 30em) {
+      @media screen and (min-width: 30.0625em) {
         .home-about .home-about-container .home-about-main-container {
           float: left;
           display: block;
@@ -759,7 +759,7 @@ Module: Project Description
           margin-left: 8.5298042998%; }
           .home-about .home-about-container .home-about-main-container:last-child {
             margin-right: 0; } }
-      @media screen and (min-width: 48em) {
+      @media screen and (min-width: 48.0625em) {
         .home-about .home-about-container .home-about-main-container {
           float: left;
           display: block;
@@ -811,7 +811,7 @@ Module: Project Description
       margin-top: 0.375rem; }
       .home-about .home-about-container .home-about-side-container:last-child {
         margin-right: 0; }
-      @media screen and (min-width: 30em) {
+      @media screen and (min-width: 30.0625em) {
         .home-about .home-about-container .home-about-side-container {
           float: left;
           display: block;
@@ -820,7 +820,7 @@ Module: Project Description
           margin-left: 8.5298042998%; }
           .home-about .home-about-container .home-about-side-container:last-child {
             margin-right: 0; } }
-      @media screen and (min-width: 48em) {
+      @media screen and (min-width: 48.0625em) {
         .home-about .home-about-container .home-about-side-container {
           float: left;
           display: block;
@@ -832,7 +832,7 @@ Module: Project Description
       .home-about .home-about-container .home-about-side-container .home-about-sidebar {
         margin-top: 1.875rem;
         display: block; }
-        @media screen and (min-width: 48em) {
+        @media screen and (min-width: 48.0625em) {
           .home-about .home-about-container .home-about-side-container .home-about-sidebar:first-of-type {
             margin-top: 0; } }
         .home-about .home-about-container .home-about-side-container .home-about-sidebar p {
@@ -875,7 +875,7 @@ Module: Project Description
   padding-right: 0.9375rem; }
   .home-work .home-work-feed:last-child {
     margin-right: 0; }
-  @media screen and (min-width: 30em) {
+  @media screen and (min-width: 30.0625em) {
     .home-work .home-work-feed {
       padding-left: 4.6875rem;
       padding-right: 4.6875rem; } }
@@ -892,11 +892,11 @@ Module: Project Description
     .home-work .home-work-feed ul li {
       display: table-cell;
       width: 100%; }
-      @media screen and (min-width: 48em) {
+      @media screen and (min-width: 48.0625em) {
         .home-work .home-work-feed ul li {
           display: table-cell;
           width: 50%; } }
-      @media screen and (min-width: 64em) {
+      @media screen and (min-width: 64.0625em) {
         .home-work .home-work-feed ul li {
           display: table-cell;
           width: 33.3333333333%; } }
@@ -1052,10 +1052,10 @@ Module: Project Introduction
       clear: both;
       content: "";
       display: table; }
-    @media screen and (min-width: 48em) {
+    @media screen and (min-width: 48.0625em) {
       .project-intro .project-intro-container {
         padding-bottom: 3.75rem; } }
-    @media screen and (min-width: 64em) {
+    @media screen and (min-width: 64.0625em) {
       .project-intro .project-intro-container {
         padding-bottom: 5.625rem; } }
     .project-intro .project-intro-container .project-intro-info-container {
@@ -1075,13 +1075,13 @@ Module: Project Introduction
         clear: both;
         content: "";
         display: table; }
-      @media screen and (min-width: 30em) {
+      @media screen and (min-width: 30.0625em) {
         .project-intro .project-intro-container .project-intro-info-container {
           padding-bottom: 65%; } }
-      @media screen and (min-width: 48em) {
+      @media screen and (min-width: 48.0625em) {
         .project-intro .project-intro-container .project-intro-info-container {
           padding-bottom: 50%; } }
-      @media screen and (min-width: 64em) {
+      @media screen and (min-width: 64.0625em) {
         .project-intro .project-intro-container .project-intro-info-container {
           padding-bottom: 50%; } }
       .project-intro .project-intro-container .project-intro-info-container .project-intro-info {
@@ -1094,7 +1094,7 @@ Module: Project Introduction
           clear: both;
           content: "";
           display: table; }
-        @media screen and (min-width: 48em) {
+        @media screen and (min-width: 48.0625em) {
           .project-intro .project-intro-container .project-intro-info-container .project-intro-info {
             float: left;
             display: block;
@@ -1105,7 +1105,7 @@ Module: Project Introduction
               margin-right: 0; } }
         .project-intro .project-intro-container .project-intro-info-container .project-intro-info h2 {
           margin-bottom: 0.75rem; }
-          @media screen and (min-width: 30em) {
+          @media screen and (min-width: 30.0625em) {
             .project-intro .project-intro-container .project-intro-info-container .project-intro-info h2 {
               margin-bottom: 0.9375rem; } }
         .project-intro .project-intro-container .project-intro-info-container .project-intro-info p.subhead {
@@ -1131,7 +1131,7 @@ Module: Project Introduction
         padding-bottom: 3%; }
         .project-intro .project-intro-container .project-intro-image-container .project-intro-image-laptop:last-child {
           margin-right: 0; }
-        @media screen and (min-width: 48em) {
+        @media screen and (min-width: 48.0625em) {
           .project-intro .project-intro-container .project-intro-image-container .project-intro-image-laptop {
             background-position: 50% 0.375rem; } }
         .project-intro .project-intro-container .project-intro-image-container .project-intro-image-laptop:before {
@@ -1151,7 +1151,7 @@ Module: Project Introduction
           background-image: url("../images/laptop.png");
           background-size: 100% auto;
           background-repeat: no-repeat; }
-        @media screen and (min-width: 48em) {
+        @media screen and (min-width: 48.0625em) {
           .project-intro .project-intro-container .project-intro-image-container .project-intro-image-laptop {
             float: left;
             display: block;
@@ -1170,13 +1170,13 @@ Module: Project Introduction
         background-size: 66% auto;
         background-repeat: no-repeat;
         padding-bottom: 4%; }
-        @media screen and (min-width: 30em) {
+        @media screen and (min-width: 30.0625em) {
           .project-intro .project-intro-container .project-intro-image-container .project-intro-image-phone {
             background-position: 62% 0.3125rem; } }
-        @media screen and (min-width: 48em) {
+        @media screen and (min-width: 48.0625em) {
           .project-intro .project-intro-container .project-intro-image-container .project-intro-image-phone {
             background-position: 62% 0.375rem; } }
-        @media screen and (min-width: 64em) {
+        @media screen and (min-width: 64.0625em) {
           .project-intro .project-intro-container .project-intro-image-container .project-intro-image-phone {
             background-position: 62% 0.5625rem; } }
         .project-intro .project-intro-container .project-intro-image-container .project-intro-image-phone:before {
@@ -1196,7 +1196,7 @@ Module: Project Introduction
           background-image: url("../images/iphone.png");
           background-size: 100% auto;
           background-repeat: no-repeat; }
-        @media screen and (min-width: 48em) {
+        @media screen and (min-width: 48.0625em) {
           .project-intro .project-intro-container .project-intro-image-container .project-intro-image-phone {
             width: 23%;
             right: 12%;
@@ -1226,7 +1226,7 @@ Module: Project Description
   z-index: 2;
   color: #242433;
   padding: 1.875rem 1.875rem; }
-  @media screen and (min-width: 30em) {
+  @media screen and (min-width: 30.0625em) {
     .project-desc {
       padding: 3.75rem 1.875rem; } }
   .project-desc .project-desc-container {
@@ -1246,7 +1246,7 @@ Module: Project Description
       width: 100%; }
       .project-desc .project-desc-container .project-desc-main-container:last-child {
         margin-right: 0; }
-      @media screen and (min-width: 30em) {
+      @media screen and (min-width: 30.0625em) {
         .project-desc .project-desc-container .project-desc-main-container {
           float: left;
           display: block;
@@ -1255,7 +1255,7 @@ Module: Project Description
           margin-left: 8.5298042998%; }
           .project-desc .project-desc-container .project-desc-main-container:last-child {
             margin-right: 0; } }
-      @media screen and (min-width: 48em) {
+      @media screen and (min-width: 48.0625em) {
         .project-desc .project-desc-container .project-desc-main-container {
           float: left;
           display: block;
@@ -1272,7 +1272,7 @@ Module: Project Description
       margin-top: 0.375rem; }
       .project-desc .project-desc-container .project-desc-side-container:last-child {
         margin-right: 0; }
-      @media screen and (min-width: 30em) {
+      @media screen and (min-width: 30.0625em) {
         .project-desc .project-desc-container .project-desc-side-container {
           float: left;
           display: block;
@@ -1281,7 +1281,7 @@ Module: Project Description
           margin-left: 8.5298042998%; }
           .project-desc .project-desc-container .project-desc-side-container:last-child {
             margin-right: 0; } }
-      @media screen and (min-width: 48em) {
+      @media screen and (min-width: 48.0625em) {
         .project-desc .project-desc-container .project-desc-side-container {
           float: left;
           display: block;
@@ -1293,7 +1293,7 @@ Module: Project Description
       .project-desc .project-desc-container .project-desc-side-container .project-desc-attribute {
         margin-top: 1.875rem;
         display: block; }
-        @media screen and (min-width: 48em) {
+        @media screen and (min-width: 48.0625em) {
           .project-desc .project-desc-container .project-desc-side-container .project-desc-attribute:first-of-type {
             margin-top: 0; } }
         .project-desc .project-desc-container .project-desc-side-container .project-desc-attribute p {
@@ -1324,7 +1324,7 @@ Module: Project Phone Feature
       clear: both;
       content: "";
       display: table; }
-    @media screen and (min-width: 30em) {
+    @media screen and (min-width: 30.0625em) {
       .project-pf .project-pf-container {
         padding: 3.75rem 1.875rem; } }
     .project-pf .project-pf-container .project-pf-phone-container {
@@ -1340,10 +1340,10 @@ Module: Project Phone Feature
       transform: translate(all 0.25s ease); }
       .project-pf .project-pf-container .project-pf-phone-container:last-child {
         margin-right: 0; }
-      @media screen and (min-width: 30em) {
+      @media screen and (min-width: 30.0625em) {
         .project-pf .project-pf-container .project-pf-phone-container {
           margin-bottom: 6.375rem; } }
-      @media screen and (min-width: 48em) {
+      @media screen and (min-width: 48.0625em) {
         .project-pf .project-pf-container .project-pf-phone-container {
           float: left;
           display: block;
@@ -1379,7 +1379,7 @@ Module: Project Phone Feature
         transform: translate(all 0.25s ease); }
         .project-pf .project-pf-container .project-pf-phone-container .project-pf-phone:last-child {
           margin-right: 0; }
-        @media screen and (min-width: 30em) {
+        @media screen and (min-width: 30.0625em) {
           .project-pf .project-pf-container .project-pf-phone-container .project-pf-phone {
             float: left;
             display: block;
@@ -1388,7 +1388,7 @@ Module: Project Phone Feature
             margin-left: 25.5894128995%; }
             .project-pf .project-pf-container .project-pf-phone-container .project-pf-phone:last-child {
               margin-right: 0; } }
-        @media screen and (min-width: 48em) {
+        @media screen and (min-width: 48.0625em) {
           .project-pf .project-pf-container .project-pf-phone-container .project-pf-phone {
             float: left;
             display: block;
@@ -1397,7 +1397,7 @@ Module: Project Phone Feature
             margin-left: 0%; }
             .project-pf .project-pf-container .project-pf-phone-container .project-pf-phone:last-child {
               margin-right: 0; } }
-        @media screen and (min-width: 64em) {
+        @media screen and (min-width: 64.0625em) {
           .project-pf .project-pf-container .project-pf-phone-container .project-pf-phone {
             float: left;
             display: block;
@@ -1436,7 +1436,7 @@ Module: Project Phone Feature
           height: calc(100% - rem(9));
           border: none;
           display: none; }
-          @media screen and (min-width: 75em) {
+          @media screen and (min-width: 75.0625em) {
             .project-pf .project-pf-container .project-pf-phone-container .project-pf-phone iframe {
               display: block; } }
         .project-pf .project-pf-container .project-pf-phone-container .project-pf-phone .project-pf-phone-image {
@@ -1463,7 +1463,7 @@ Module: Project Phone Feature
       height: 100%; }
       .project-pf .project-pf-container .project-pf-content-container:last-child {
         margin-right: 0; }
-      @media screen and (min-width: 30em) {
+      @media screen and (min-width: 30.0625em) {
         .project-pf .project-pf-container .project-pf-content-container {
           float: left;
           display: block;
@@ -1472,7 +1472,7 @@ Module: Project Phone Feature
           margin-left: 8.5298042998%; }
           .project-pf .project-pf-container .project-pf-content-container:last-child {
             margin-right: 0; } }
-      @media screen and (min-width: 48em) {
+      @media screen and (min-width: 48.0625em) {
         .project-pf .project-pf-container .project-pf-content-container {
           float: left;
           display: block;
@@ -1485,7 +1485,7 @@ Module: Project Phone Feature
           left: 50%; }
           .project-pf .project-pf-container .project-pf-content-container:last-child {
             margin-right: 0; } }
-      @media screen and (min-width: 64em) {
+      @media screen and (min-width: 64.0625em) {
         .project-pf .project-pf-container .project-pf-content-container {
           float: left;
           display: block;
@@ -1496,7 +1496,7 @@ Module: Project Phone Feature
       .project-pf .project-pf-container .project-pf-content-container .project-pf-content-inner-container {
         position: relative;
         margin-top: 0.75rem; }
-        @media screen and (min-width: 48em) {
+        @media screen and (min-width: 48.0625em) {
           .project-pf .project-pf-container .project-pf-content-container .project-pf-content-inner-container {
             position: absolute;
             top: 50%;
@@ -1524,24 +1524,24 @@ Module: Project Phone Feature
       content: '';
       padding-top: 98%;
       display: block; }
-    @media screen and (min-width: 30em) {
+    @media screen and (min-width: 30.0625em) {
       .project-pf .project-pf-background {
         top: 9%; }
         .project-pf .project-pf-background:before {
           content: '';
           padding-top: 77%;
           display: block; } }
-    @media screen and (min-width: 48em) {
+    @media screen and (min-width: 48.0625em) {
       .project-pf .project-pf-background {
         top: 14%;
         bottom: 10%; }
         .project-pf .project-pf-background:before {
           display: none; } }
-    @media screen and (min-width: 64em) {
+    @media screen and (min-width: 64.0625em) {
       .project-pf .project-pf-background {
         top: 16.5%;
         bottom: 11%; } }
-    @media screen and (min-width: 75em) {
+    @media screen and (min-width: 75.0625em) {
       .project-pf .project-pf-background {
         top: 14.5%;
         bottom: 9%; } }
@@ -1556,20 +1556,30 @@ Module: Project Desktop Slider
   margin-bottom: 40%;
   position: relative;
   border-top: 1px solid rgba(255, 255, 255, 0.05); }
-  @media screen and (min-width: 30em) {
+  @media screen and (min-width: 30.0625em) {
     .project-ds {
       padding-top: 5.625rem; } }
-  @media screen and (min-width: 48em) {
+  @media screen and (min-width: 48.0625em) {
     .project-ds {
       padding-top: 7.5rem;
       border-top: none;
       margin-bottom: 30%; } }
-  @media screen and (min-width: 64em) {
+  @media screen and (min-width: 64.0625em) {
     .project-ds {
       margin-bottom: 30%; } }
-  @media screen and (min-width: 75em) {
+  @media screen and (min-width: 75.0625em) {
     .project-ds {
       margin-bottom: 24.375rem; } }
+  .project-ds.no-pad {
+    padding-top: 0; }
+    @media screen and (min-width: 75.0625em) {
+      .project-ds.no-pad {
+        margin-bottom: 16.875rem; } }
+    .project-ds.no-pad .project-ds-background {
+      display: none; }
+      @media screen and (min-width: 64.0625em) {
+        .project-ds.no-pad .project-ds-background {
+          display: block; } }
   .project-ds .project-ds-container {
     max-width: 80em;
     margin-left: auto;
@@ -1587,7 +1597,7 @@ Module: Project Desktop Slider
       padding: 0 1.875rem; }
       .project-ds .project-ds-container .project-ds-content-container .project-ds-content-inner-container:last-child {
         margin-right: 0; }
-      @media screen and (min-width: 30em) {
+      @media screen and (min-width: 30.0625em) {
         .project-ds .project-ds-container .project-ds-content-container .project-ds-content-inner-container {
           float: left;
           display: block;
@@ -1596,7 +1606,7 @@ Module: Project Desktop Slider
           margin-left: 8.5298042998%; }
           .project-ds .project-ds-container .project-ds-content-container .project-ds-content-inner-container:last-child {
             margin-right: 0; } }
-      @media screen and (min-width: 48em) {
+      @media screen and (min-width: 48.0625em) {
         .project-ds .project-ds-container .project-ds-content-container .project-ds-content-inner-container {
           text-align: center;
           padding: 0;
@@ -1607,7 +1617,7 @@ Module: Project Desktop Slider
           margin-left: 17.0596085997%; }
           .project-ds .project-ds-container .project-ds-content-container .project-ds-content-inner-container:last-child {
             margin-right: 0; } }
-      @media screen and (min-width: 64em) {
+      @media screen and (min-width: 64.0625em) {
         .project-ds .project-ds-container .project-ds-content-container .project-ds-content-inner-container {
           float: left;
           display: block;
@@ -1631,7 +1641,7 @@ Module: Project Desktop Slider
       .project-ds .project-ds-container .project-ds-slider-container .project-ds-slider {
         margin-top: 1.875rem;
         background-color: #000; }
-        @media screen and (min-width: 30em) {
+        @media screen and (min-width: 30.0625em) {
           .project-ds .project-ds-container .project-ds-slider-container .project-ds-slider {
             margin-top: 3.75rem; } }
         .project-ds .project-ds-container .project-ds-slider-container .project-ds-slider:after {
@@ -1679,10 +1689,10 @@ Module: Project Desktop Slider
       content: '';
       padding-top: 42%;
       display: block; }
-    @media screen and (min-width: 48em) {
+    @media screen and (min-width: 48.0625em) {
       .project-ds .project-ds-background {
         bottom: 4%; } }
-    @media screen and (min-width: 64em) {
+    @media screen and (min-width: 64.0625em) {
       .project-ds .project-ds-background {
         bottom: 3%; } }
 
@@ -1797,13 +1807,13 @@ Module: Project Desktop Slider
   width: 100%;
   width: 150%;
   margin-left: -25%; }
-  @media screen and (min-width: 30em) {
+  @media screen and (min-width: 30.0625em) {
     .slick-dots {
       bottom: -70%; } }
-  @media screen and (min-width: 48em) {
+  @media screen and (min-width: 48.0625em) {
     .slick-dots {
       bottom: -60%; } }
-  @media screen and (min-width: 75em) {
+  @media screen and (min-width: 75.0625em) {
     .slick-dots {
       bottom: -58%; } }
   .slick-dots li {
@@ -1855,7 +1865,7 @@ Module: Project Phone Slider
   position: relative;
   overflow: hidden;
   padding: 2.625rem 0 1.875rem; }
-  @media screen and (min-width: 48em) {
+  @media screen and (min-width: 48.0625em) {
     .project-ps {
       overflow: visible; } }
   .project-ps .project-ps-container {
@@ -1871,7 +1881,7 @@ Module: Project Phone Slider
       clear: both;
       content: "";
       display: table; }
-    @media screen and (min-width: 30em) {
+    @media screen and (min-width: 30.0625em) {
       .project-ps .project-ps-container {
         padding: 3.75rem 1.875rem; } }
     .project-ps .project-ps-container .project-ps-phone-container {
@@ -1887,10 +1897,10 @@ Module: Project Phone Slider
       transform: translate(all 0.25s ease); }
       .project-ps .project-ps-container .project-ps-phone-container:last-child {
         margin-right: 0; }
-      @media screen and (min-width: 30em) {
+      @media screen and (min-width: 30.0625em) {
         .project-ps .project-ps-container .project-ps-phone-container {
           margin-bottom: 6.375rem; } }
-      @media screen and (min-width: 48em) {
+      @media screen and (min-width: 48.0625em) {
         .project-ps .project-ps-container .project-ps-phone-container {
           float: left;
           display: block;
@@ -1926,7 +1936,7 @@ Module: Project Phone Slider
         transform: translate(all 0.25s ease); }
         .project-ps .project-ps-container .project-ps-phone-container .project-ps-slider:last-child {
           margin-right: 0; }
-        @media screen and (min-width: 30em) {
+        @media screen and (min-width: 30.0625em) {
           .project-ps .project-ps-container .project-ps-phone-container .project-ps-slider {
             float: left;
             display: block;
@@ -1935,7 +1945,7 @@ Module: Project Phone Slider
             margin-left: 25.5894128995%; }
             .project-ps .project-ps-container .project-ps-phone-container .project-ps-slider:last-child {
               margin-right: 0; } }
-        @media screen and (min-width: 48em) {
+        @media screen and (min-width: 48.0625em) {
           .project-ps .project-ps-container .project-ps-phone-container .project-ps-slider {
             float: left;
             display: block;
@@ -1944,7 +1954,7 @@ Module: Project Phone Slider
             margin-left: 0%; }
             .project-ps .project-ps-container .project-ps-phone-container .project-ps-slider:last-child {
               margin-right: 0; } }
-        @media screen and (min-width: 64em) {
+        @media screen and (min-width: 64.0625em) {
           .project-ps .project-ps-container .project-ps-phone-container .project-ps-slider {
             float: left;
             display: block;
@@ -2001,7 +2011,7 @@ Module: Project Phone Slider
           @media screen and (min-width: 26.25rem) {
             .project-ps .project-ps-container .project-ps-phone-container .project-ps-slider .slick-dots {
               bottom: -25%; } }
-          @media screen and (min-width: 30em) {
+          @media screen and (min-width: 30.0625em) {
             .project-ps .project-ps-container .project-ps-phone-container .project-ps-slider .slick-dots {
               bottom: -26%; } }
           @media screen and (min-width: 37.5rem) {
@@ -2010,7 +2020,7 @@ Module: Project Phone Slider
           @media screen and (min-width: 43.75rem) {
             .project-ps .project-ps-container .project-ps-phone-container .project-ps-slider .slick-dots {
               bottom: -23%; } }
-          @media screen and (min-width: 48em) {
+          @media screen and (min-width: 48.0625em) {
             .project-ps .project-ps-container .project-ps-phone-container .project-ps-slider .slick-dots {
               bottom: -23%; } }
     .project-ps .project-ps-container .project-ps-content-container {
@@ -2025,7 +2035,7 @@ Module: Project Phone Slider
       height: 100%; }
       .project-ps .project-ps-container .project-ps-content-container:last-child {
         margin-right: 0; }
-      @media screen and (min-width: 30em) {
+      @media screen and (min-width: 30.0625em) {
         .project-ps .project-ps-container .project-ps-content-container {
           float: left;
           display: block;
@@ -2034,7 +2044,7 @@ Module: Project Phone Slider
           margin-left: 8.5298042998%; }
           .project-ps .project-ps-container .project-ps-content-container:last-child {
             margin-right: 0; } }
-      @media screen and (min-width: 48em) {
+      @media screen and (min-width: 48.0625em) {
         .project-ps .project-ps-container .project-ps-content-container {
           float: left;
           display: block;
@@ -2047,7 +2057,7 @@ Module: Project Phone Slider
           left: 50%; }
           .project-ps .project-ps-container .project-ps-content-container:last-child {
             margin-right: 0; } }
-      @media screen and (min-width: 64em) {
+      @media screen and (min-width: 64.0625em) {
         .project-ps .project-ps-container .project-ps-content-container {
           float: left;
           display: block;
@@ -2058,7 +2068,7 @@ Module: Project Phone Slider
       .project-ps .project-ps-container .project-ps-content-container .project-ps-content-inner-container {
         position: relative;
         margin-top: 0.75rem; }
-        @media screen and (min-width: 48em) {
+        @media screen and (min-width: 48.0625em) {
           .project-ps .project-ps-container .project-ps-content-container .project-ps-content-inner-container {
             position: absolute;
             top: 50%;
@@ -2086,20 +2096,20 @@ Module: Project Phone Slider
       content: '';
       padding-top: 98%;
       display: block; }
-    @media screen and (min-width: 30em) {
+    @media screen and (min-width: 30.0625em) {
       .project-ps .project-ps-background {
         top: 9.5%; }
         .project-ps .project-ps-background:before {
           content: '';
           padding-top: 77%;
           display: block; } }
-    @media screen and (min-width: 48em) {
+    @media screen and (min-width: 48.0625em) {
       .project-ps .project-ps-background {
         top: 14%;
         bottom: 16%; }
         .project-ps .project-ps-background:before {
           display: none; } }
-    @media screen and (min-width: 64em) {
+    @media screen and (min-width: 64.0625em) {
       .project-ps .project-ps-background {
         top: 13.5%; } }
   .project-ps:hover .slick-arrow.slick-next {
@@ -2143,7 +2153,7 @@ Module: Project Gallery
       background-repeat: no-repeat; }
       .project-gal .project-gal-container .project-gal-half-image:last-child {
         margin-right: 0; }
-      @media screen and (min-width: 48em) {
+      @media screen and (min-width: 48.0625em) {
         .project-gal .project-gal-container .project-gal-half-image {
           float: left;
           display: block;
@@ -2185,14 +2195,19 @@ Module: Project Image Left
 .project-image-left {
   position: relative;
   padding: 1.875rem 1.875rem; }
-  @media screen and (min-width: 30em) {
+  @media screen and (min-width: 30.0625em) {
+    .project-image-left {
+      padding: 3.75rem 1.875rem;
+      padding-top: 2.25rem;
+      padding-bottom: 2.25rem; } }
+  @media screen and (min-width: 48.0625em) {
     .project-image-left {
       padding: 3.75rem 1.875rem; } }
   .project-image-left .project-image-left-container {
     max-width: 80em;
     margin-left: auto;
     margin-right: auto;
-    padding: 1.875rem 0;
+    padding: 0.75rem 0;
     position: relative;
     display: table;
     height: 100%;
@@ -2201,6 +2216,12 @@ Module: Project Image Left
       clear: both;
       content: "";
       display: table; }
+    @media screen and (min-width: 30.0625em) {
+      .project-image-left .project-image-left-container {
+        padding: 0; } }
+    @media screen and (min-width: 64.0625em) {
+      .project-image-left .project-image-left-container {
+        padding: 1.875rem 0; } }
     .project-image-left .project-image-left-container .project-image-left-img-container {
       position: relative;
       z-index: 2;
@@ -2208,7 +2229,7 @@ Module: Project Image Left
       display: block;
       margin-right: 2.3576515979%;
       width: 100%;
-      margin-bottom: 5.625rem;
+      margin-bottom: 4.125rem;
       -webkit-transform: translate(all 0.25s ease);
       -moz-transform: translate(all 0.25s ease);
       -ms-transform: translate(all 0.25s ease);
@@ -2217,15 +2238,19 @@ Module: Project Image Left
       width: 100%; }
       .project-image-left .project-image-left-container .project-image-left-img-container:last-child {
         margin-right: 0; }
-      @media screen and (min-width: 30em) {
+      @media screen and (min-width: 30.0625em) {
         .project-image-left .project-image-left-container .project-image-left-img-container {
-          margin-bottom: 7.5rem; } }
-      @media screen and (min-width: 48em) {
+          margin-bottom: 4.875rem; } }
+      @media screen and (min-width: 48.0625em) {
+        .project-image-left .project-image-left-container .project-image-left-img-container {
+          padding: 0 3.375rem; } }
+      @media screen and (min-width: 64.0625em) {
         .project-image-left .project-image-left-container .project-image-left-img-container {
           float: left;
           display: block;
           margin-right: 2.3576515979%;
           width: 48.821174201%;
+          padding: 0;
           margin-bottom: 0; }
           .project-image-left .project-image-left-container .project-image-left-img-container:last-child {
             margin-right: 0; } }
@@ -2245,7 +2270,7 @@ Module: Project Image Left
       height: 100%; }
       .project-image-left .project-image-left-container .project-image-left-content-container:last-child {
         margin-right: 0; }
-      @media screen and (min-width: 30em) {
+      @media screen and (min-width: 30.0625em) {
         .project-image-left .project-image-left-container .project-image-left-content-container {
           float: left;
           display: block;
@@ -2254,7 +2279,16 @@ Module: Project Image Left
           margin-left: 8.5298042998%; }
           .project-image-left .project-image-left-container .project-image-left-content-container:last-child {
             margin-right: 0; } }
-      @media screen and (min-width: 48em) {
+      @media screen and (min-width: 48.0625em) {
+        .project-image-left .project-image-left-container .project-image-left-content-container {
+          float: left;
+          display: block;
+          margin-right: 2.3576515979%;
+          width: 65.8807828007%;
+          margin-left: 17.0596085997%; }
+          .project-image-left .project-image-left-container .project-image-left-content-container:last-child {
+            margin-right: 0; } }
+      @media screen and (min-width: 64.0625em) {
         .project-image-left .project-image-left-container .project-image-left-content-container {
           float: left;
           display: block;
@@ -2269,7 +2303,7 @@ Module: Project Image Left
       .project-image-left .project-image-left-container .project-image-left-content-container .project-image-left-content-inner-container {
         position: relative;
         margin-top: 0.25rem; }
-        @media screen and (min-width: 48em) {
+        @media screen and (min-width: 64.0625em) {
           .project-image-left .project-image-left-container .project-image-left-content-container .project-image-left-content-inner-container {
             position: absolute;
             top: 50%;
@@ -2293,7 +2327,7 @@ Module: Project Image Left
     opacity: 0;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%); }
-    @media screen and (min-width: 48em) {
+    @media screen and (min-width: 64.0625em) {
       .project-image-left .project-image-left-background {
         opacity: 0.05; } }
 
@@ -2304,16 +2338,20 @@ Module: Project Image Right
 ========================================================= */
 .project-image-right {
   position: relative;
-  padding: 1.875rem 0;
   padding: 1.875rem 1.875rem; }
-  @media screen and (min-width: 30em) {
+  @media screen and (min-width: 30.0625em) {
+    .project-image-right {
+      padding: 3.75rem 1.875rem;
+      padding-top: 2.25rem;
+      padding-bottom: 2.25rem; } }
+  @media screen and (min-width: 48.0625em) {
     .project-image-right {
       padding: 3.75rem 1.875rem; } }
   .project-image-right .project-image-right-container {
     max-width: 80em;
     margin-left: auto;
     margin-right: auto;
-    padding: 1.875rem 0;
+    padding: 0.75rem 0;
     position: relative;
     display: table;
     height: 100%;
@@ -2322,6 +2360,9 @@ Module: Project Image Right
       clear: both;
       content: "";
       display: table; }
+    @media screen and (min-width: 64.0625em) {
+      .project-image-right .project-image-right-container {
+        padding: 1.875rem 0; } }
     .project-image-right .project-image-right-container .project-image-right-content-container {
       float: left;
       display: block;
@@ -2334,7 +2375,7 @@ Module: Project Image Right
       height: 100%; }
       .project-image-right .project-image-right-container .project-image-right-content-container:last-child {
         margin-right: 0; }
-      @media screen and (min-width: 30em) {
+      @media screen and (min-width: 30.0625em) {
         .project-image-right .project-image-right-container .project-image-right-content-container {
           float: left;
           display: block;
@@ -2343,29 +2384,31 @@ Module: Project Image Right
           margin-left: 8.5298042998%; }
           .project-image-right .project-image-right-container .project-image-right-content-container:last-child {
             margin-right: 0; } }
-      @media screen and (min-width: 48em) {
+      @media screen and (min-width: 48.0625em) {
+        .project-image-right .project-image-right-container .project-image-right-content-container {
+          float: left;
+          display: block;
+          margin-right: 2.3576515979%;
+          width: 65.8807828007%;
+          margin-left: 17.0596085997%; }
+          .project-image-right .project-image-right-container .project-image-right-content-container:last-child {
+            margin-right: 0; } }
+      @media screen and (min-width: 64.0625em) {
         .project-image-right .project-image-right-container .project-image-right-content-container {
           float: left;
           display: block;
           margin-right: 2.3576515979%;
           width: 31.7615656014%;
+          margin-left: 8.5298042998%;
           position: absolute;
           top: 0;
           bottom: 0; }
           .project-image-right .project-image-right-container .project-image-right-content-container:last-child {
             margin-right: 0; } }
-      @media screen and (min-width: 64em) {
-        .project-image-right .project-image-right-container .project-image-right-content-container {
-          float: left;
-          display: block;
-          margin-right: 2.3576515979%;
-          width: 31.7615656014%; }
-          .project-image-right .project-image-right-container .project-image-right-content-container:last-child {
-            margin-right: 0; } }
       .project-image-right .project-image-right-container .project-image-right-content-container .project-image-right-content-inner-container {
         position: relative;
         margin-top: 0.25rem; }
-        @media screen and (min-width: 48em) {
+        @media screen and (min-width: 64.0625em) {
           .project-image-right .project-image-right-container .project-image-right-content-container .project-image-right-content-inner-container {
             position: absolute;
             top: 50%;
@@ -2383,7 +2426,7 @@ Module: Project Image Right
       display: block;
       margin-right: 2.3576515979%;
       width: 100%;
-      margin-bottom: 5.625rem;
+      margin-bottom: 4.125rem;
       -webkit-transform: translate(all 0.25s ease);
       -moz-transform: translate(all 0.25s ease);
       -ms-transform: translate(all 0.25s ease);
@@ -2392,16 +2435,20 @@ Module: Project Image Right
       width: 100%; }
       .project-image-right .project-image-right-container .project-image-right-img-container:last-child {
         margin-right: 0; }
-      @media screen and (min-width: 30em) {
+      @media screen and (min-width: 30.0625em) {
         .project-image-right .project-image-right-container .project-image-right-img-container {
-          margin-bottom: 7.5rem; } }
-      @media screen and (min-width: 48em) {
+          margin-bottom: 4.875rem; } }
+      @media screen and (min-width: 48.0625em) {
+        .project-image-right .project-image-right-container .project-image-right-img-container {
+          padding: 0 3.375rem; } }
+      @media screen and (min-width: 64.0625em) {
         .project-image-right .project-image-right-container .project-image-right-img-container {
           float: left;
           display: block;
           margin-right: 2.3576515979%;
           width: 48.821174201%;
           margin-left: 51.178825799%;
+          padding: 0;
           margin-bottom: 0; }
           .project-image-right .project-image-right-container .project-image-right-img-container:last-child {
             margin-right: 0; } }
@@ -2422,7 +2469,7 @@ Module: Project Image Right
     opacity: 0;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%); }
-    @media screen and (min-width: 48em) {
+    @media screen and (min-width: 64.0625em) {
       .project-image-right .project-image-right-background {
         opacity: 0.05; } }
 
@@ -2437,7 +2484,7 @@ Module: Project Link (To Another Project)
   top: 0;
   width: 100%;
   background-color: #242433; }
-  @media screen and (min-width: 48em) {
+  @media screen and (min-width: 48.0625em) {
     .project-next-link {
       margin-top: 5.625rem; } }
   .project-next-link .project-nl-container {
@@ -2455,7 +2502,7 @@ Module: Project Link (To Another Project)
       clear: both;
       content: "";
       display: table; }
-    @media screen and (min-width: 48em) {
+    @media screen and (min-width: 48.0625em) {
       .project-next-link .project-nl-container {
         padding: 3.75rem 1.875rem; } }
     .project-next-link .project-nl-container .project-nl-info {
@@ -2741,7 +2788,7 @@ button.mfp-close, button.mfp-arrow {
     display: inline-block;
     height: 100%;
     vertical-align: middle; }
-  @media screen and (min-width: 48em) {
+  @media screen and (min-width: 48.0625em) {
     .mfp-container {
       padding: 0rem 0rem 1.875rem !important; } }
 
@@ -2791,7 +2838,7 @@ button.mfp-close, button.mfp-arrow {
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     transition: all 0.5s ease; }
-    @media screen and (min-width: 48em) {
+    @media screen and (min-width: 48.0625em) {
       .mfp-close:before, .mfp-close:after {
         top: 2.4375rem; } }
   .mfp-close:before {
@@ -2850,7 +2897,7 @@ button.mfp-close, button.mfp-arrow {
   .mfp-arrow .mfp-b {
     border-top-width: 21px;
     border-bottom-width: 21px; }
-  @media screen and (min-width: 48em) {
+  @media screen and (min-width: 48.0625em) {
     .mfp-arrow {
       width: 3rem;
       bottom: auto;
@@ -2906,7 +2953,7 @@ button.mfp-close, button.mfp-arrow {
     -webkit-transition: all 0.25s ease;
     -moz-transition: all 0.25s ease;
     transition: all 0.25s ease; }
-  @media screen and (min-width: 48em) {
+  @media screen and (min-width: 48.0625em) {
     .mfp-counter {
       bottom: 2.625rem;
       margin-left: -2.8125rem; }
@@ -2918,7 +2965,7 @@ button.mfp-close, button.mfp-arrow {
     width: 50%;
     margin-left: -25%;
     text-align: center; }
-    @media screen and (min-width: 48em) {
+    @media screen and (min-width: 48.0625em) {
       .mfp-counter .mf-count {
         bottom: 1.5rem;
         background-color: #242433;
@@ -2949,7 +2996,7 @@ button::-moz-focus-inner {
 
 .mfp-arrow-left {
   left: 0.9375rem; }
-  @media screen and (min-width: 48em) {
+  @media screen and (min-width: 48.0625em) {
     .mfp-arrow-left {
       left: 1.5rem; } }
   .mfp-arrow-left:after {
@@ -2972,7 +3019,7 @@ button::-moz-focus-inner {
 
 .mfp-arrow-right {
   right: 0.9375rem; }
-  @media screen and (min-width: 48em) {
+  @media screen and (min-width: 48.0625em) {
     .mfp-arrow-right {
       right: 1.5rem; } }
   .mfp-arrow-right:after {
@@ -3138,7 +3185,7 @@ img.mfp-img {
   box-sizing: border-box;
   padding: 4.125rem 0.9375rem 3.375rem;
   margin: 0 auto; }
-  @media screen and (min-width: 48em) {
+  @media screen and (min-width: 48.0625em) {
     img.mfp-img {
       padding: 5.625rem 5.625rem; } }
 

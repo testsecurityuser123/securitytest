@@ -1,0 +1,27 @@
+1508108387
+a:2:{s:7:"content";s:1194:"<section class="project-image-right" data--60-bottom-top="opacity:0;" data-center-top="opacity:1;">
+	<div class="project-image-right-container">
+
+		<div class="project-image-right-img-container">
+				<img class="project-image-right-img" src="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-wireframes/browers.png">
+		</div>
+
+		<div class="project-image-right-content-container">
+			<div class="project-image-right-content-inner-container">
+				<h3>Wireframes &amp; User Tests</h3>
+<p>Armed with a list of requirements and a better understanding of the product space, I set out to design an experience that felt familiar to existing Leadpages’ users while closely aligning with Stripe’s product management system. </p>
+							</div>
+		</div>
+
+		<!-- <div class="project-image-right-img-container img-dsk">
+				<img class="project-image-right-img" src="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-wireframes/browers.png">
+		</div> -->
+
+	</div>
+
+	<div
+		class="project-image-right-background"
+		style="background-image: url(' http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-wireframes/market-3-bkg.jpg');">
+	</div>
+</section>
+";s:12:"content_meta";N;}

@@ -10,12 +10,23 @@ form:
       active: 1
 
       fields:
-        content: 
+        content:
           fields:
             header.project_ds_background_image:
               type: pagemediaselect
               size: large
               label: Background Image
+
+            header.project_ds_no_padding:
+              type: toggle
+              label: Remove Top Padding?
+              default: 0
+              highlight: 1
+              options:
+                1: Yes
+                0: No
+              validate:
+                type: bool
 
             header.project_ds_slides:
               name: Desktop Slider Slides

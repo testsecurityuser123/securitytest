@@ -276,7 +276,7 @@ class __TwigTemplate_ea8bce0aa1f1c155aed7add4ebd987e7229fe9bd56ed93d26028d14ed7e
 
         <script type=\"text/javascript\">
             jQuery(\".home-hero-content h1\").fitText(.4, { minFontSize: '66px', maxFontSize: '192px' });
-            jQuery(\".project-intro-info h2\").fitText(.5, { minFontSize: '24px', maxFontSize: '90px' });
+            jQuery(\".project-intro-info h2\").fitText(.6, { minFontSize: '24px', maxFontSize: '90px' });
             jQuery(\"#error h1\").fitText(.5, { minFontSize: '24px', maxFontSize: '150px' });
         </script>
 
@@ -461,7 +461,7 @@ class __TwigTemplate_ea8bce0aa1f1c155aed7add4ebd987e7229fe9bd56ed93d26028d14ed7e
 
         <script type=\"text/javascript\">
             jQuery(\".home-hero-content h1\").fitText(.4, { minFontSize: '66px', maxFontSize: '192px' });
-            jQuery(\".project-intro-info h2\").fitText(.5, { minFontSize: '24px', maxFontSize: '90px' });
+            jQuery(\".project-intro-info h2\").fitText(.6, { minFontSize: '24px', maxFontSize: '90px' });
             jQuery(\"#error h1\").fitText(.5, { minFontSize: '24px', maxFontSize: '150px' });
         </script>
 

@@ -10,33 +10,52 @@ Module: Project Image Left
 
 	@include breakpoint($bp-s) {
 		padding: $section-padding-m;
+		padding-top: rem(36);
+		padding-bottom: rem(36);
+	}
+
+	@include breakpoint($bp-m) {
+		padding: $section-padding-m
 	}
 
 	.project-image-left-container {
 		@include outer-container;
-		padding: rem(30) 0;
+		padding: rem(12) 0;
 
 		position: relative;
 		display: table;
 		height: 100%;
 		width: 100%;
 
+		@include breakpoint($bp-s) {
+			padding:0;
+		}
+
+		@include breakpoint($bp-l) {
+			padding: rem(30) 0;
+		}
+
 		.project-image-left-img-container {
 			position: relative;
 			z-index: 2;
 
 			@include span-columns(12);
-			margin-bottom: rem(90);
+			margin-bottom: rem(66);
 
 			@include transform(translate($transition-med));
 			width: 100%;
 
 			@include breakpoint($bp-s) {
-				margin-bottom: rem(120);
+				margin-bottom: rem(78);
 			}
 
 			@include breakpoint($bp-m) {
+				padding: 0 rem(54);
+			}
+
+			@include breakpoint($bp-l) {
 				@include span-columns(6);
+				padding: 0;
 				margin-bottom: 0;
 			}
 
@@ -68,6 +87,11 @@ Module: Project Image Left
 			}
 
 			@include breakpoint($bp-m) {
+				@include span-columns(8);
+				@include shift(2);
+			}
+
+			@include breakpoint($bp-l) {
 				@include span-columns(4);
 				@include shift(7);
 				position: absolute;
@@ -90,7 +114,7 @@ Module: Project Image Left
 				position: relative;
 				margin-top: rem(4);
 
-				@include breakpoint($bp-m) {
+				@include breakpoint($bp-l) {
 					position: absolute;
 					top: 50%;
 					@include transform(translateY(-50%));
@@ -134,7 +158,7 @@ Module: Project Image Left
 		// 	}
 		// }
 
-		@include breakpoint($bp-m) {
+		@include breakpoint($bp-l) {
 			opacity: 0.05;
 			// top: 0;
 			// bottom: 0;

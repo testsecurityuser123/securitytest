@@ -1,6 +1,7 @@
 ---
 title: 'UI Design'
 project_ds_background_image: trees-min.jpg
+project_ds_no_padding: false
 project_ds_slides:
     1:
         image: pbc-homepage-min.png
@@ -26,4 +27,5 @@ project_ds_slides:
 date: '04-09-2016 00:00'
 ---
 
+### UI Design
 One of PB Crave's key differentiators is their unique flavor offerings. To highlight this twist I employed the use of an accent color for each flavor throughout the website while keeping the overall look and feel light and welcoming. Rounded corners and buttons, hard shadows, and bold fonts all contribute to a playful site design.

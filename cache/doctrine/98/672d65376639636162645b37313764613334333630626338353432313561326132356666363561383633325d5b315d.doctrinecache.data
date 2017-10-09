@@ -1,0 +1,30 @@
+1508112741
+a:2:{s:7:"content";s:1517:"<section class="project-ds no-pad">
+	<div class="project-ds-container">
+		<div class="project-ds-content-container">
+			<div class="project-ds-content-inner-container" data--60-bottom-top="opacity:0;" data-center-top="opacity:1;">
+				<!-- <h3>Wireframe Showcase</h3> -->
+				<p></p>
+			</div>
+		</div>
+
+		<div class="project-ds-slider-container">
+
+			<div class="project-ds-slider" data--60-bottom-top="opacity:0;" data-center-top="opacity:1;">
+			  					  	<a href="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-wireframe-showcase/PaymentForm-PaymentTab-OrderSummary.png" class="project-ds-slide">
+				  		<div class="project-ds-slide-image">
+				  			<img src="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-wireframe-showcase/PaymentForm-PaymentTab-OrderSummary.png" alt="">
+				  		</div>
+				  	</a>
+			  					  	<a href="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-wireframe-showcase/checkout-to-leadbox.gif" class="project-ds-slide">
+				  		<div class="project-ds-slide-image">
+				  			<img src="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-wireframe-showcase/checkout-to-leadbox.gif" alt="">
+				  		</div>
+				  	</a>
+			  				</div>
+		</div>
+
+	</div>
+	<div class="project-ds-background" style="background-image: url(' http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-wireframe-showcase/market-8-bkg.jpg');" data--60-bottom-top="opacity:0;" data-center-top="opacity:0.05;"></div>
+</section>
+";s:12:"content_meta";N;}

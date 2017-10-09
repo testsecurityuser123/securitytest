@@ -1,0 +1,20 @@
+1508130979
+a:2:{s:7:"content";s:1081:"<section class="project-image-left" data--60-bottom-top="opacity:0;" data-center-top="opacity:1;">
+	<div class="project-image-left-container">
+		<div class="project-image-left-img-container">
+				<img class="project-image-left-img" src="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-design-2/leadbox-checkout.png" >
+		</div>
+		<div class="project-image-left-content-container">
+			<div class="project-image-left-content-inner-container">
+				<p>The resulting experience and launch of the Checkout Widget was met with great enthusiasm. Paired with some of Leadpages’ existing product features, Checkouts now empowers Leadpages’ users to do some really incredible stuff with their landing pages. </p>
+									<a href="http://invision.michaelfangman.com/lp-checkout" target="_blank" class="btn btn-arrow-r">Full Prototype</a>
+							</div>
+		</div>
+	</div>
+
+	<div
+		class="project-image-left-background"
+		style="background-image: url(' http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-design-2/market-4-bkg.jpg');">
+	</div>
+</section>
+";s:12:"content_meta";N;}

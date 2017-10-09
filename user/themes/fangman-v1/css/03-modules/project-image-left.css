@@ -11,8 +11,8 @@ Error: Undefined variable: "$section-padding-s".
 10: 
 11: 	@include breakpoint($bp-s) {
 12: 		padding: $section-padding-m;
-13: 	}
-14: 
+13: 		padding-top: rem(36);
+14: 		padding-bottom: rem(36);
 
 Backtrace:
 scss/03-modules/project-image-left.scss:9
@@ -69,4 +69,4 @@ scss/03-modules/project-image-left.scss:9
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$section-padding-s\".\A         on line 9 of scss/03-modules/project-image-left.scss\A \A 4: \A 5: ========================================================= */\A 6: \A 7: .project-image-left {\A 8: 	position: relative;\A 9: 	padding: $section-padding-s;\A 10: \A 11: 	@include breakpoint($bp-s) {\A 12: 		padding: $section-padding-m;\A 13: 	}\A 14: "; }
+  content: "Error: Undefined variable: \"$section-padding-s\".\A         on line 9 of scss/03-modules/project-image-left.scss\A \A 4: \A 5: ========================================================= */\A 6: \A 7: .project-image-left {\A 8: 	position: relative;\A 9: 	padding: $section-padding-s;\A 10: \A 11: 	@include breakpoint($bp-s) {\A 12: 		padding: $section-padding-m;\A 13: 		padding-top: rem(36);\A 14: 		padding-bottom: rem(36);"; }

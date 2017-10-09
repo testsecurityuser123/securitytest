@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$section-padding-s".
-        on line 10 of scss/03-modules/project-image-right.scss
+        on line 9 of scss/03-modules/project-image-right.scss
 
+4: 
 5: ========================================================= *\/
 6: 
 7: .project-image-right {
 8: 	position: relative;
-9: 	padding: rem(30) 0;
-10: 	padding: $section-padding-s;
-11: 
-12: 	@include breakpoint($bp-s) {
-13: 		padding: $section-padding-m;
-14: 	}
-15: 
+9: 	padding: $section-padding-s;
+10: 
+11: 	@include breakpoint($bp-s) {
+12: 		padding: $section-padding-m;
+13: 		padding-top: rem(36);
+14: 		padding-bottom: rem(36);
 
 Backtrace:
-scss/03-modules/project-image-right.scss:10
+scss/03-modules/project-image-right.scss:9
 /Library/Ruby/Gems/2.3.0/gems/sass-3.5.1/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.3.0/gems/sass-3.5.1/lib/sass/script/tree/node.rb:50:in `perform'
 /Library/Ruby/Gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -69,4 +69,4 @@ scss/03-modules/project-image-right.scss:10
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$section-padding-s\".\A         on line 10 of scss/03-modules/project-image-right.scss\A \A 5: ========================================================= */\A 6: \A 7: .project-image-right {\A 8: 	position: relative;\A 9: 	padding: rem(30) 0;\A 10: 	padding: $section-padding-s;\A 11: \A 12: 	@include breakpoint($bp-s) {\A 13: 		padding: $section-padding-m;\A 14: 	}\A 15: "; }
+  content: "Error: Undefined variable: \"$section-padding-s\".\A         on line 9 of scss/03-modules/project-image-right.scss\A \A 4: \A 5: ========================================================= */\A 6: \A 7: .project-image-right {\A 8: 	position: relative;\A 9: 	padding: $section-padding-s;\A 10: \A 11: 	@include breakpoint($bp-s) {\A 12: 		padding: $section-padding-m;\A 13: 		padding-top: rem(36);\A 14: 		padding-bottom: rem(36);"; }

@@ -24,7 +24,13 @@ class __TwigTemplate_1811f656609819a01049ec10f0b61940c0bb9ff7a5a6dd3c46876380212
         echo $this->getAttribute(($context["page"] ?? null), "url", array(0 => true), "method");
         echo "/";
         echo $this->getAttribute(($context["header"] ?? null), "project_img_l_img", array());
-        echo "\">
+        echo "\" ";
+        if ($this->getAttribute(($context["header"] ?? null), "project_img_l_adjust", array())) {
+            echo "style=\"padding-top:";
+            echo $this->getAttribute(($context["header"] ?? null), "project_img_l_adjust", array());
+            echo ";\"";
+        }
+        echo ">
 \t\t</div>
 \t\t<div class=\"project-image-left-content-container\">
 \t\t\t<div class=\"project-image-left-content-inner-container\">
@@ -73,7 +79,7 @@ class __TwigTemplate_1811f656609819a01049ec10f0b61940c0bb9ff7a5a6dd3c46876380212
 
     public function getDebugInfo()
     {
-        return array (  55 => 18,  47 => 12,  39 => 10,  37 => 9,  33 => 8,  24 => 4,  19 => 1,);
+        return array (  61 => 18,  53 => 12,  45 => 10,  43 => 9,  39 => 8,  24 => 4,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -89,7 +95,7 @@ class __TwigTemplate_1811f656609819a01049ec10f0b61940c0bb9ff7a5a6dd3c46876380212
         return new Twig_Source("<section class=\"project-image-left\" data--60-bottom-top=\"opacity:0;\" data-center-top=\"opacity:1;\">
 \t<div class=\"project-image-left-container\">
 \t\t<div class=\"project-image-left-img-container\">
-\t\t\t\t<img class=\"project-image-left-img\" src=\"{{ page.url(true) }}/{{ header.project_img_l_img }}\">
+\t\t\t\t<img class=\"project-image-left-img\" src=\"{{ page.url(true) }}/{{ header.project_img_l_img }}\" {% if header.project_img_l_adjust %}style=\"padding-top:{{ header.project_img_l_adjust }};\"{% endif %}>
 \t\t</div>
 \t\t<div class=\"project-image-left-content-container\">
 \t\t\t<div class=\"project-image-left-content-inner-container\">
