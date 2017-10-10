@@ -1,0 +1,35 @@
+<section class="project-cs-right" data--60-bottom-top="opacity:0;" data-center-top="opacity:1;">
+	<div class="project-cs-right-container">
+
+		<div class="project-cs-right-slider-container" >
+
+			<div class="project-cs-right-slider" {% if header.project_r_cs_adjust %}style="margin-top:{{ header.project_r_cs_adjust }};"{% endif %}>
+			  	{% for slide in page.header.project_img_r_cs_slides %}
+				  		<div class="project-cs-right-slide">
+				  			<span>{{ slide.subhead}}</span>
+								<p>{{ slide.headline }}<p>
+									{% for user in slide.users %}
+										<div class="project-cs-right-slide-userImage" style="background-image: url(' {{ page.url(true) }}/{{ user.image }} ');"></div>
+									{% endfor %}
+				  		</div>
+				  	<!-- </a> -->
+			  	{% endfor %}
+			</div>
+
+		</div>
+
+		<div class="project-cs-right-content-container">
+			<div class="project-cs-right-content-inner-container">
+				{{ content }}
+				{% if header.project_img_r_cs_button_link %}
+					<a href="{{ header.project_img_r_cs_button_link }}" target="_blank" class="btn btn-arrow-r">{{ header.project_img_r_cs_button_text }}</a>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+
+	<div
+		class="project-cs-right-background"
+		style="background-image: url(' {{ page.url(true) }}/{{ header.project_img_r_cs_background_image }}');">
+	</div>
+</section>

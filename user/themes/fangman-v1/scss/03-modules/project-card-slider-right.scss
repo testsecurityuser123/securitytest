@@ -1,0 +1,319 @@
+/* =========================================================
+
+Module: Project Image Right – Card Slider
+
+========================================================= */
+
+.project-cs-right {
+	position: relative;
+	padding: $section-padding-s;
+
+	@include breakpoint($bp-s) {
+		padding: $section-padding-m;
+		padding-top: rem(36);
+		padding-bottom: rem(36);
+	}
+
+	@include breakpoint($bp-m) {
+		padding: $section-padding-m
+	}
+
+	.project-cs-right-container {
+		@include outer-container;
+		padding: rem(12) 0;
+
+		position: relative;
+		display: table;
+		height: 100%;
+		width: 100%;
+
+		@include breakpoint($bp-l) {
+			padding: rem(30) 0;
+		}
+
+		.project-cs-right-content-container {
+			@include span-columns(12);
+			position: relative;
+			z-index: 3;
+			display: block;
+			padding: 0;
+			height: 100%;
+
+			@include breakpoint($bp-s) {
+				@include span-columns(10);
+				@include shift(1);
+			}
+
+			@include breakpoint($bp-m) {
+				@include span-columns(8);
+				@include shift(2);
+			}
+
+			@include breakpoint($bp-l) {
+				@include span-columns(4);
+				@include shift(1);
+				//@include shift(-5);
+				position: absolute;
+				top: 0 ;
+				bottom: 0;
+				//left: 50%;
+				//padding-left: 12px;
+			}
+
+			// @include breakpoint($bp-xl) {
+			// 	@include span-columns(5);
+			// 	@include shift(1);
+			// }
+
+			.project-cs-right-content-inner-container {
+				position: relative;
+				margin-top: rem(4);
+
+				@include breakpoint($bp-l) {
+					position: absolute;
+					top: 50%;
+					@include transform(translateY(-50%));
+				}
+
+				.btn {
+					margin-top: rem(30); // This is inconsistant with other spacing now
+				}
+			}
+		}
+
+		.project-cs-right-slider-container {
+			position: relative;
+			z-index: 2;
+
+			@include span-columns(12);
+			margin-bottom: rem(66);
+
+			@include transform(translate($transition-med));
+			width: 100%;
+
+			@include breakpoint($bp-s) {
+				margin-bottom: rem(78);
+			}
+
+			@include breakpoint($bp-m) {
+				padding: 0 rem(54);
+			}
+
+			@include breakpoint($bp-l) {
+				@include span-columns(6);
+				@include shift(6);
+				padding: 0;
+				margin-bottom: 0;
+			}
+
+			@include breakpoint(rem(900)) {
+				// @include span-columns(7);
+				// @include shift(-1);
+
+				//@include span-columns(6);
+			}
+
+			// @include breakpoint($bp-xl) {
+			// 	padding-right: 9px;
+			// }
+
+			.project-cs-right-slider {
+				position: relative;
+				z-index: 2;
+				overflow: visible;
+
+				@include transform(translate($transition-med));
+
+				// @include breakpoint($bp-s) {
+				// 	@include span-columns(6);
+				// 	@include shift(3);
+				// }
+				//
+				// @include breakpoint($bp-m) {
+				// 	@include span-columns(10);
+				// 	@include shift(0);
+				// }
+				//
+				// @include breakpoint($bp-l) {
+				// 	@include span-columns(10);
+				// 	@include shift(0);
+				// }
+
+				.slick-list {
+					//overflow-y: auto;
+				}
+
+				.project-cs-right-slide {
+					position: relative;
+					z-index: 4;
+
+					display: block;
+					// width: calc(100% - 42px);
+					background: $color-white;
+					border-radius: rem(3);
+					padding: rem(12) rem(30);
+					margin: rem(6) 0;
+
+					&:after {
+						content: '';
+						display: block;
+						position: absolute;
+						top: 0;
+						bottom: 0;
+						left: 0;
+						width: rem(6);
+						background: $color-accent;
+						border-radius: rem(3) 0 0 rem(3)
+					}
+
+					span {
+						font-size: rem(12);
+						font-weight: 300;
+						color: #999999;
+						text-transform: uppercase;
+						letter-spacing: rem(1);
+					}
+
+					p {
+						color: #6D6A73;
+						font-size: rem(15);
+						font-weight: 300;
+						margin: 6px 0;
+					}
+
+					.project-cs-right-slide-userImage {
+						display: inline-block;
+						height: rem(24);
+						width: rem(24);
+						border-radius: 50%;
+
+						background-size: cover;
+						background-position: center;
+
+						margin-top: rem(6);
+						margin-right: rem(3);
+					}
+
+				}
+
+				.slick-dots {
+					bottom: -10%;
+					width: 150%;
+					margin-left: -25%;
+
+					// @include breakpoint(rem(420)) {
+					// 	bottom: -25%;
+					// }
+					//
+					// @include breakpoint($bp-s) {
+					// 	bottom: -26%;
+					// }
+					//
+					// @include breakpoint(rem(600)) {
+					// 	bottom: -24%;
+					// }
+					//
+					// @include breakpoint(rem(700)) {
+					// 	bottom: -23%;
+					// }
+					//
+					//
+					// @include breakpoint($bp-m) {
+					// 	bottom: -23%;
+					// 	//bottom: rem(-60);
+					// }
+				}
+
+
+					/* Arrows */
+
+				.slick-prev,
+				.slick-next {
+				    left: 50%;
+						top: auto;
+				    margin-top: -10px\9; /*lte IE 8*/
+				    -webkit-transform: translate(-50%, 0);
+				    -ms-transform: translate(-50%, 0);
+				    transform: translate(-50%, 0);
+				}
+
+				.slick-prev {
+					top: 12%;
+					right: auto;
+					opacity: 0;
+
+					&:before {
+			        border-width: rem(2) 0 0 rem(2);
+			    }
+				}
+
+				.slick-next {
+				    bottom: 12%;
+						top: auto;
+						right: auto;
+						opacity: 0;
+
+			    &:before {
+			        border-width: 0 rem(2) rem(2) 0;
+			    }
+				}
+			}
+		}
+	}
+	.project-cs-right-background {
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+
+		opacity: 0;
+		@include filter(grayscale(100%));
+
+		// &:before {
+		// 	content: '';
+		// 	padding-top: 98%;
+		// 	display: block;
+		// }
+
+
+		// @include breakpoint($bp-s) {
+		// 	top: 9%;
+		//
+		// 	&:before {
+		// 		content: '';
+		// 		padding-top: 77%;
+		// 		display: block;
+		// 	}
+		// }
+
+		@include breakpoint($bp-l) {
+			opacity: 0.05;
+			// top: 0;
+			// bottom: 0;
+			//
+			// &:before {
+			// 	display: none;
+			// }
+		}
+	}
+	&:hover {
+		.slick-arrow {
+			&.slick-next {
+				//@include transform(translateX(-50%));
+				bottom: -10% !important;
+				opacity: 1 !important;
+			}
+			&.slick-prev {
+				//@include transform(translateX(-50%));
+				top: -10% !important;
+				opacity: 1 !important;
+			}
+		}
+	}
+}

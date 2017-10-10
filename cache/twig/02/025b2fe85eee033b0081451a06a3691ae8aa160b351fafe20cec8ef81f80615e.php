@@ -183,7 +183,7 @@ class __TwigTemplate_ea8bce0aa1f1c155aed7add4ebd987e7229fe9bd56ed93d26028d14ed7e
         $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "theme://js/min/fittext-min.js", 1 => 95), "method");
         // line 45
         echo "        ";
-        $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "theme://js/min/fangman-v1-min.js", 1 => 94), "method");
+        $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "theme://js/fangman-v1.js", 1 => 94), "method");
         // line 46
         echo "
     ";
@@ -380,7 +380,7 @@ class __TwigTemplate_ea8bce0aa1f1c155aed7add4ebd987e7229fe9bd56ed93d26028d14ed7e
         {% do assets.addJs('theme://js/magnific-popup.js' ,97) %}
         {% do assets.addJs('theme://js/min/jqwidont-min.js' ,96) %}
         {% do assets.addJs('theme://js/min/fittext-min.js' ,95) %}
-        {% do assets.addJs('theme://js/min/fangman-v1-min.js' ,94) %}
+        {% do assets.addJs('theme://js/fangman-v1.js' ,94) %}
 
     {% endblock %}
     {{ assets.js() }}

@@ -1,0 +1,35 @@
+1508214083
+a:2:{s:7:"content";s:1784:"<section class="project-cs-right" data--60-bottom-top="opacity:0;" data-center-top="opacity:1;">
+	<div class="project-cs-right-container">
+
+		<div class="project-cs-right-slider-container" >
+
+			<div class="project-cs-right-slider">
+			  					  	<a href="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-requirements/requirement-cards.png" class="project-cs-right-slide">
+				  		<div class="project-cs-right-slide-image">
+				  			<img src="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-requirements/requirement-cards.png" alt="">
+				  		</div>
+				  	</a>
+			  					  	<a href="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-requirements/market-7-bkg.jpg" class="project-cs-right-slide">
+				  		<div class="project-cs-right-slide-image">
+				  			<img src="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-requirements/market-7-bkg.jpg" alt="">
+				  		</div>
+				  	</a>
+			  				</div>
+
+		</div>
+
+		<div class="project-cs-right-content-container">
+			<div class="project-cs-right-content-inner-container">
+				<h3>Project Requirements</h3>
+<p>I was pulled into the project after a roadmap had been established and an engineering prototype had been built. Being that things were already in motion, I wasted no time diving in to better understand the short, medium, and long term plan for the Checkout Widget. I then focused on assembling a list of requirements that could impact the end experience. Below are some of the more strenuous requirements I found.</p>
+							</div>
+		</div>
+	</div>
+
+	<div
+		class="project-cs-right-background"
+		style="background-image: url(' http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-requirements/market-7-bkg.jpg');">
+	</div>
+</section>
+";s:12:"content_meta";N;}

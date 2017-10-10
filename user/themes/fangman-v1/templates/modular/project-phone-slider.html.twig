@@ -12,7 +12,7 @@
 			  	{% for slide in page.header.project_ps_slides %}
 				  	<a href="{{ page.url(true) }}/{{ slide.image }}" class="project-ps-slide">
 				  		<div class="project-ps-slide-image">
-				  			<img src="{{ page.url(true) }}/{{ slide.image }}" alt="{{ slider.alt }}">
+				  			<img src="{{ page.url(true) }}/{{ slide.image }}" alt="{{ slide.alt }}">
 				  		</div>
 				  	</a>
 			  	{% endfor %}
@@ -34,4 +34,3 @@
 
 	<div class="project-ps-background" style="background-image: url(' {{ page.url(true) }}/{{ header.project_ps_background_image }}');"></div>
 </section>
-

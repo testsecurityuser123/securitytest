@@ -192,6 +192,25 @@ $(document).ready(function() {
   });
 });
 
+/* =========================================================
+
+Project Requirements Slider - Slick Slider
+
+// ========================================================= */
+ $(document).ready(function(){
+    $(".project-cs-right-slider").slick({
+      vertical: true,
+      verticalSwiping: true,
+      dots: false,
+      arrows: true,
+      speed: 500,
+      adaptiveHeight: true,
+      rows: 3,
+      infinite: false
+
+    });
+});
+
 
 /* =========================================================
 

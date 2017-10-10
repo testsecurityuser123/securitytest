@@ -10,7 +10,7 @@ form:
       active: 1
 
       fields:
-        content: 
+        content:
           fields:
             header.project_ps_button_text:
               type: text

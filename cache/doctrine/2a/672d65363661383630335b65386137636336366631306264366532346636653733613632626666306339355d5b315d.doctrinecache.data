@@ -1,0 +1,49 @@
+1508218232
+a:2:{s:7:"content";s:2816:"<section class="project-cs-right" data--60-bottom-top="opacity:0;" data-center-top="opacity:1;">
+	<div class="project-cs-right-container">
+
+		<div class="project-cs-right-slider-container" >
+
+			<div class="project-cs-right-slider">
+			  					  		<div class="project-cs-right-slide">
+				  			<span>Requirement 1</span>
+								<p>The widget would reuse code from the functional prototype a base for the experience. (Building upon a working prototype would help expedite release).<p>
+								<div class="project-cs-right-slide-userImage" background-image="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-requirements/"></div>
+				  		</div>
+				  	<!-- </a> -->
+			  					  		<div class="project-cs-right-slide">
+				  			<span>Requirement 2</span>
+								<p>The feature would be built on the same foundation as the existing Form Widget, meaning that most changes to the interface would be reflected in the set-up process of both widgets.<p>
+								<div class="project-cs-right-slide-userImage" background-image="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-requirements/"></div>
+				  		</div>
+				  	<!-- </a> -->
+			  					  		<div class="project-cs-right-slide">
+				  			<span>Requirement 3</span>
+								<p>Stripe Connect would be used to manage product and subscription data, customer payment information, and order details.<p>
+								<div class="project-cs-right-slide-userImage" background-image="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-requirements/"></div>
+				  		</div>
+				  	<!-- </a> -->
+			  					  		<div class="project-cs-right-slide">
+				  			<span>Requirement 4</span>
+								<p>The initial release would allow for the sale of a single SKU of a non-shippable product, as defined by Stripe.<p>
+								<div class="project-cs-right-slide-userImage" background-image="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-requirements/"></div>
+				  		</div>
+				  	<!-- </a> -->
+			  				</div>
+
+		</div>
+
+		<div class="project-cs-right-content-container">
+			<div class="project-cs-right-content-inner-container">
+				<h3>Project Requirements</h3>
+<p>I was pulled into the project after a roadmap had been established and an engineering prototype had been built. Being that things were already in motion, I wasted no time diving in to better understand the short, medium, and long term plan for the Checkout Widget. I then focused on assembling a list of requirements that could impact the end experience. Below are some of the more strenuous requirements I found.</p>
+							</div>
+		</div>
+	</div>
+
+	<div
+		class="project-cs-right-background"
+		style="background-image: url(' http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-requirements/market-7-bkg.jpg');">
+	</div>
+</section>
+";s:12:"content_meta";N;}

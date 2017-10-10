@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav/user/themes/fangman-v1/blueprints/modular/project-image-right.yaml',
-    'modified' => 1507513512,
+    'modified' => 1507606935,
     'data' => [
         'title' => 'Project Image Right',
         '@extends' => [
