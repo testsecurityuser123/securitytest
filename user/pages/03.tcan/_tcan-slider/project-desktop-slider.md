@@ -1,6 +1,7 @@
 ---
 title: 'UI Design'
 project_ds_background_image: building-3-min.jpg
+project_ds_no_padding: false
 project_ds_slides:
     1:
         image: tcan-homepage-min.png
@@ -20,4 +21,5 @@ project_ds_slides:
 date: '05-09-2016 00:00'
 ---
 
+### UI Design
 My goal while developing the site's look and feel was to bring the same excitement and vibrance one might feel at a professional networking event into the design of the website. Using the organization's existing brand platform as a jumping off point, I employed the use of subtle gradients, bold fonts, and engaging interactions to help bring this vision to life.

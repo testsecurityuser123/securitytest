@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav/user/themes/fangman-v1/blueprints/modular/project-image-right.yaml',
-    'modified' => 1507606935,
+    'modified' => 1507607432,
     'data' => [
         'title' => 'Project Image Right',
         '@extends' => [
@@ -17,16 +17,6 @@ return [
                     'fields' => [
                         'content' => [
                             'fields' => [
-                                'header.project_img_r_img' => [
-                                    'type' => 'pagemediaselect',
-                                    'size' => 'large',
-                                    'label' => 'Image'
-                                ],
-                                'header.project_img_r_adjust' => [
-                                    'type' => 'text',
-                                    'size' => 'large',
-                                    'label' => 'Image Top Padding:'
-                                ],
                                 'header.project_img_r_background_image' => [
                                     'type' => 'pagemediaselect',
                                     'size' => 'large',

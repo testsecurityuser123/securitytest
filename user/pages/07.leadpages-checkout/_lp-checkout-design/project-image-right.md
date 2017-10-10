@@ -1,8 +1,8 @@
 ---
 title: Design
+date: '08-10-2017 16:57'
 project_img_r_img: Checkout-Collage-1.4.png
 project_img_r_adjust: 30px
-date: '08-10-2017 16:57'
 ---
 
 ### Finalizing Designs & Preparing for Development

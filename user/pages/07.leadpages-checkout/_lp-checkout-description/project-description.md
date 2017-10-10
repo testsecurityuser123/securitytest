@@ -3,7 +3,7 @@ title: 'Project Overview'
 project_attributes:
     1:
         title: Role
-        description: 'Information Architecture<br>UX Design<br>User Testing'
+        description: 'Research<br>Information Architecture<br>UX Design<br>User Testing<br>UI Design'
     2:
         title: Company
         description: '<a href="https://www.leadpages.net" target="_blank">Leadpages</a>'

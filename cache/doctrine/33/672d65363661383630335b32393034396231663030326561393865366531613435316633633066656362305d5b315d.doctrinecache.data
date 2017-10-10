@@ -1,0 +1,70 @@
+1508224258
+a:2:{s:7:"content";s:4617:"<section class="project-ds no-pad">
+	<div class="project-ds-container">
+		<div class="project-ds-content-container">
+			<div class="project-ds-content-inner-container" data--60-bottom-top="opacity:0;" data-center-top="opacity:1;">
+				<!-- <h3>zxWireframe Showcase</h3> -->
+				<p><h6>👇 Wireframe Explorations</h6></p>
+			</div>
+		</div>
+
+		<div class="project-ds-slider-container">
+
+			<div class="project-ds-slider" data--60-bottom-top="opacity:0;" data-center-top="opacity:1;">
+			  					  	<a href="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-wireframe-showcase/PaymentsTab-v1.1-FilledForm-.png" class="project-ds-slide">
+				  		<div class="project-ds-slide-image">
+				  			<img src="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-wireframe-showcase/PaymentsTab-v1.1-FilledForm-.png" alt="">
+				  		</div>
+				  	</a>
+			  					  	<a href="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-wireframe-showcase/stepper-exploration.png" class="project-ds-slide">
+				  		<div class="project-ds-slide-image">
+				  			<img src="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-wireframe-showcase/stepper-exploration.png" alt="">
+				  		</div>
+				  	</a>
+			  					  	<a href="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-wireframe-showcase/PaymentsTab-ToggleExploration-1x.png" class="project-ds-slide">
+				  		<div class="project-ds-slide-image">
+				  			<img src="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-wireframe-showcase/PaymentsTab-ToggleExploration-1x.png" alt="">
+				  		</div>
+				  	</a>
+			  					  	<a href="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-wireframe-showcase/PaymentTab-MultiSKU-.png" class="project-ds-slide">
+				  		<div class="project-ds-slide-image">
+				  			<img src="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-wireframe-showcase/PaymentTab-MultiSKU-.png" alt="">
+				  		</div>
+				  	</a>
+			  					  	<a href="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-wireframe-showcase/PaymentForm-NameForm-.png" class="project-ds-slide">
+				  		<div class="project-ds-slide-image">
+				  			<img src="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-wireframe-showcase/PaymentForm-NameForm-.png" alt="">
+				  		</div>
+				  	</a>
+			  					  	<a href="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-wireframe-showcase/PaymentTab-ToolTip-.png" class="project-ds-slide">
+				  		<div class="project-ds-slide-image">
+				  			<img src="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-wireframe-showcase/PaymentTab-ToolTip-.png" alt="">
+				  		</div>
+				  	</a>
+			  					  	<a href="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-wireframe-showcase/PaymentForm-UpgradePanel-.png" class="project-ds-slide">
+				  		<div class="project-ds-slide-image">
+				  			<img src="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-wireframe-showcase/PaymentForm-UpgradePanel-.png" alt="">
+				  		</div>
+				  	</a>
+			  					  	<a href="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-wireframe-showcase/PaymentGateways-StripeConnected.png" class="project-ds-slide">
+				  		<div class="project-ds-slide-image">
+				  			<img src="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-wireframe-showcase/PaymentGateways-StripeConnected.png" alt="">
+				  		</div>
+				  	</a>
+			  					  	<a href="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-wireframe-showcase/PagePreview-Sandbox-.png" class="project-ds-slide">
+				  		<div class="project-ds-slide-image">
+				  			<img src="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-wireframe-showcase/PagePreview-Sandbox-.png" alt="">
+				  		</div>
+				  	</a>
+			  					  	<a href="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-wireframe-showcase/Frontend-StripeError-Disabled-.png" class="project-ds-slide">
+				  		<div class="project-ds-slide-image">
+				  			<img src="http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-wireframe-showcase/Frontend-StripeError-Disabled-.png" alt="">
+				  		</div>
+				  	</a>
+			  				</div>
+		</div>
+
+	</div>
+	<div class="project-ds-background" style="background-image: url(' http://localhost:8888/portfolio-grav/leadpages-checkout/_lp-checkout-wireframe-showcase/market-8-bkg.jpg');" data--60-bottom-top="opacity:0;" data-center-top="opacity:0.05;"></div>
+</section>
+";s:12:"content_meta";N;}
