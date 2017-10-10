@@ -1,7 +1,7 @@
 ---
 title: Research
-project_img_l_img: Research-3.png
-project_img_l_adjust: 48px
+project_img_l_img: 'Research Logos - Tiled Alt.png'
+project_img_l_adjust: 30px
 published: true
 date: '04-10-2017 16:58'
 project_img_r_img: research.png
