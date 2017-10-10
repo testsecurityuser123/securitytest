@@ -204,10 +204,29 @@ Project Requirements Slider - Slick Slider
       dots: false,
       arrows: true,
       speed: 500,
-      adaptiveHeight: true,
       rows: 3,
-      infinite: false
-
+      slidesPerRow: 1,
+      infinite: false,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            rows: 3
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            rows: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            rows: 2
+          }
+        }
+      ]
     });
 });
 
