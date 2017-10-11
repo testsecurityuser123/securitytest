@@ -16,14 +16,20 @@ class __TwigTemplate_1ddcff6b423224c8de48333af5f19e6bffad84b5f3bdc821a5e1a70f04a
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "<section class=\"project-next-link\">
+        echo "<section class=\"project-next-link\" ";
+        if ($this->getAttribute(($context["header"] ?? null), "project_nl_padding", array())) {
+            echo "style=\"margin-top:";
+            echo $this->getAttribute(($context["header"] ?? null), "project_nl_padding", array());
+            echo ";\"";
+        }
+        echo ">
 \t<a href=\"";
         // line 2
         echo ($context["base_url"] ?? null);
         echo "/";
         echo $this->getAttribute(($context["header"] ?? null), "project_nl_project_link", array());
         echo "\" class=\"link project-nl-container\">
-\t\t
+
 \t\t<div class=\"project-nl-info\" data--60-bottom-top=\"opacity:0;\" data-center-top=\"opacity:1;\" data-end=\"opacity:1;\">
 \t\t\t<p class=\"subhead\">Next Up</p>
 \t\t\t<h3>";
@@ -40,7 +46,6 @@ class __TwigTemplate_1ddcff6b423224c8de48333af5f19e6bffad84b5f3bdc821a5e1a70f04a
         echo $this->getAttribute(($context["header"] ?? null), "project_nl_bkg_image", array());
         echo "');\"></div>
 </section>
-
 ";
     }
 
@@ -56,7 +61,7 @@ class __TwigTemplate_1ddcff6b423224c8de48333af5f19e6bffad84b5f3bdc821a5e1a70f04a
 
     public function getDebugInfo()
     {
-        return array (  38 => 10,  31 => 6,  22 => 2,  19 => 1,);
+        return array (  44 => 10,  37 => 6,  28 => 2,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -69,9 +74,9 @@ class __TwigTemplate_1ddcff6b423224c8de48333af5f19e6bffad84b5f3bdc821a5e1a70f04a
 
     public function getSourceContext()
     {
-        return new Twig_Source("<section class=\"project-next-link\">
+        return new Twig_Source("<section class=\"project-next-link\" {% if header.project_nl_padding %}style=\"margin-top:{{ header.project_nl_padding }};\"{% endif %}>
 \t<a href=\"{{ base_url }}/{{ header.project_nl_project_link }}\" class=\"link project-nl-container\">
-\t\t
+
 \t\t<div class=\"project-nl-info\" data--60-bottom-top=\"opacity:0;\" data-center-top=\"opacity:1;\" data-end=\"opacity:1;\">
 \t\t\t<p class=\"subhead\">Next Up</p>
 \t\t\t<h3>{{ page.title }}</h3>
@@ -80,7 +85,6 @@ class __TwigTemplate_1ddcff6b423224c8de48333af5f19e6bffad84b5f3bdc821a5e1a70f04a
 \t</a>
 \t<div class=\"project-nl-bkg-image\" style=\"background-image: url(' {{ page.url(true) }}/{{ header.project_nl_bkg_image }}');\"></div>
 </section>
-
 ", "modular/project-next-link.html.twig", "/Applications/MAMP/htdocs/portfolio-grav/user/themes/fangman-v1/templates/modular/project-next-link.html.twig");
     }
 }

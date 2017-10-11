@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav/user/themes/fangman-v1/blueprints/modular/project-next-link.yaml',
-    'modified' => 1470629773,
+    'modified' => 1507735088,
     'data' => [
         'title' => 'Project Next Link',
         '@extends' => [
@@ -24,13 +24,18 @@ return [
                             'fields' => [
                                 'header.project_nl_project_link' => [
                                     'type' => 'text',
-                                    'size' => 'large',
+                                    'size' => 'long',
                                     'label' => 'Project URL'
                                 ],
                                 'header.project_nl_bkg_image' => [
                                     'type' => 'pagemediaselect',
-                                    'size' => 'large',
+                                    'size' => 'long',
                                     'label' => 'Background Image'
+                                ],
+                                'header.project_nl_padding' => [
+                                    'type' => 'text',
+                                    'size' => 'long',
+                                    'label' => 'Padding Top (90px min)'
                                 ]
                             ]
                         ]

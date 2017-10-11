@@ -30,6 +30,7 @@ Module: Project Desktop Slider
 
 	&.no-pad {
 		padding-top: 0;
+		border-top: none;
 
 		@include breakpoint($bp-xl) {
 			margin-bottom: rem(270);

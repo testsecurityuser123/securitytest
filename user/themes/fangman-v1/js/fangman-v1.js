@@ -201,27 +201,25 @@ Project Requirements Slider - Slick Slider
     $(".project-cs-right-slider").slick({
       vertical: true,
       verticalSwiping: true,
+      centerMode: true,
       dots: false,
       arrows: true,
       speed: 500,
       rows: 3,
       slidesPerRow: 1,
+      slidesToScroll: 1,
       infinite: false,
+      autoplay: true,
+      autoplaySpeed: 5000,
       responsive: [
         {
           breakpoint: 1024,
-          settings: {
-            rows: 3
-          }
-        },
-        {
-          breakpoint: 768,
           settings: {
             rows: 2
           }
         },
         {
-          breakpoint: 480,
+          breakpoint: 768,
           settings: {
             rows: 2
           }

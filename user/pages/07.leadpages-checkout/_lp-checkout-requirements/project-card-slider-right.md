@@ -41,7 +41,7 @@ project_img_r_cs_slides:
                 image: user-3.jpg
     -
         subhead: 'Requirement 5'
-        headline: 'Feature enhancements would be released in subsequent phases after the initial launch. The priority of those enhancements would be based on user feedback.  (one-click purchases, upsells/downsells, order bumps, and subscriptions).'
+        headline: 'Feature enhancements would be released in subsequent phases after the initial launch. The priority of those enhancements would be based on user feedback. '
         users:
             -
                 image: me-cropped.jpg

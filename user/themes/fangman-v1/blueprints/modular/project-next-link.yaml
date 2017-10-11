@@ -14,14 +14,19 @@ form:
       active: 1
 
       fields:
-        content: 
+        content:
           fields:
             header.project_nl_project_link:
               type: text
-              size: large
+              size: long
               label: Project URL
 
             header.project_nl_bkg_image:
               type: pagemediaselect
-              size: large
+              size: long
               label: Background Image
+
+            header.project_nl_padding:
+              type: text
+              size: long
+              label: Padding Top (90px min)

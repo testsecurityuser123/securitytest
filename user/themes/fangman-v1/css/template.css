@@ -1571,7 +1571,8 @@ Module: Project Desktop Slider
     .project-ds {
       margin-bottom: 24.375rem; } }
   .project-ds.no-pad {
-    padding-top: 0; }
+    padding-top: 0;
+    border-top: none; }
     @media screen and (min-width: 75.0625em) {
       .project-ds.no-pad {
         margin-bottom: 16.875rem; } }
@@ -2604,6 +2605,15 @@ Module: Project Image Right – Card Slider
         -o-transform: translate(all 0.25s ease);
         transform: translate(all 0.25s ease);
         /* Arrows */ }
+        .project-cs-right .project-cs-right-container .project-cs-right-slider-container .project-cs-right-slider .slick-track {
+          outline: none; }
+          .project-cs-right .project-cs-right-container .project-cs-right-slider-container .project-cs-right-slider .slick-track .slick-slide {
+            outline: none;
+            width: 100% !important; }
+            .project-cs-right .project-cs-right-container .project-cs-right-slider-container .project-cs-right-slider .slick-track .slick-slide .project-cs-right-slide {
+              opacity: 0; }
+            .project-cs-right .project-cs-right-container .project-cs-right-slider-container .project-cs-right-slider .slick-track .slick-slide.slick-current .project-cs-right-slide {
+              opacity: 1; }
         .project-cs-right .project-cs-right-container .project-cs-right-slider-container .project-cs-right-slider .project-cs-right-slide {
           position: relative;
           z-index: 4;
@@ -2611,7 +2621,10 @@ Module: Project Image Right – Card Slider
           background: #fff;
           border-radius: 0.1875rem;
           padding: 0.75rem 1.875rem;
-          margin: 0.375rem 0; }
+          margin: 0.375rem 0;
+          -webkit-transition: all 0.5s ease;
+          -moz-transition: all 0.5s ease;
+          transition: all 0.5s ease; }
           .project-cs-right .project-cs-right-container .project-cs-right-slider-container .project-cs-right-slider .project-cs-right-slide:after {
             content: '';
             display: block;
@@ -2624,14 +2637,14 @@ Module: Project Image Right – Card Slider
             border-radius: 0.1875rem 0 0 0.1875rem; }
           .project-cs-right .project-cs-right-container .project-cs-right-slider-container .project-cs-right-slider .project-cs-right-slide span {
             font-size: 0.75rem;
-            font-weight: 300;
+            font-weight: 500;
             color: #999999;
             text-transform: uppercase;
             letter-spacing: 0.0625rem; }
           .project-cs-right .project-cs-right-container .project-cs-right-slider-container .project-cs-right-slider .project-cs-right-slide p {
             color: #6D6A73;
             font-size: 0.9375rem;
-            font-weight: 300;
+            font-weight: 400;
             margin: 6px 0; }
           .project-cs-right .project-cs-right-container .project-cs-right-slider-container .project-cs-right-slider .project-cs-right-slide .project-cs-right-slide-userImage {
             display: inline-block;
@@ -2648,24 +2661,34 @@ Module: Project Image Right – Card Slider
           margin-left: -25%; }
         .project-cs-right .project-cs-right-container .project-cs-right-slider-container .project-cs-right-slider .slick-prev,
         .project-cs-right .project-cs-right-container .project-cs-right-slider-container .project-cs-right-slider .slick-next {
+          z-index: 10;
           left: 50%;
           top: auto;
           margin-top: -10px\9;
           /*lte IE 8*/
           -webkit-transform: translate(-50%, 0);
           -ms-transform: translate(-50%, 0);
-          transform: translate(-50%, 0); }
+          transform: translate(-50%, 0);
+          opacity: 1; }
+          @media screen and (min-width: 48.0625em) {
+            .project-cs-right .project-cs-right-container .project-cs-right-slider-container .project-cs-right-slider .slick-prev,
+            .project-cs-right .project-cs-right-container .project-cs-right-slider-container .project-cs-right-slider .slick-next {
+              opacity: 0; } }
         .project-cs-right .project-cs-right-container .project-cs-right-slider-container .project-cs-right-slider .slick-prev {
-          top: 12%;
-          right: auto;
-          opacity: 0; }
+          top: 0%;
+          right: auto; }
+          @media screen and (min-width: 48.0625em) {
+            .project-cs-right .project-cs-right-container .project-cs-right-slider-container .project-cs-right-slider .slick-prev {
+              top: 12%; } }
           .project-cs-right .project-cs-right-container .project-cs-right-slider-container .project-cs-right-slider .slick-prev:before {
             border-width: 0.125rem 0 0 0.125rem; }
         .project-cs-right .project-cs-right-container .project-cs-right-slider-container .project-cs-right-slider .slick-next {
-          bottom: 12%;
+          bottom: 0%;
           top: auto;
-          right: auto;
-          opacity: 0; }
+          right: auto; }
+          @media screen and (min-width: 48.0625em) {
+            .project-cs-right .project-cs-right-container .project-cs-right-slider-container .project-cs-right-slider .slick-next {
+              bottom: 12%; } }
           .project-cs-right .project-cs-right-container .project-cs-right-slider-container .project-cs-right-slider .slick-next:before {
             border-width: 0 0.125rem 0.125rem 0; }
   .project-cs-right .project-cs-right-background {
@@ -2685,10 +2708,10 @@ Module: Project Image Right – Card Slider
       .project-cs-right .project-cs-right-background {
         opacity: 0.05; } }
   .project-cs-right:hover .slick-arrow.slick-next {
-    bottom: -10% !important;
+    bottom: 0% !important;
     opacity: 1 !important; }
   .project-cs-right:hover .slick-arrow.slick-prev {
-    top: -10% !important;
+    top: 0% !important;
     opacity: 1 !important; }
 
 /* =========================================================
