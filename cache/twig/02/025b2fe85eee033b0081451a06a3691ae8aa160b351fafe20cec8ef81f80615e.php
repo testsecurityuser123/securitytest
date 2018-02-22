@@ -249,7 +249,7 @@ class __TwigTemplate_ea8bce0aa1f1c155aed7add4ebd987e7229fe9bd56ed93d26028d14ed7e
     {
         // line 98
         echo "        <footer id=\"footer\" data-60-end=\"opacity:0;\" data-end=\"opacity:1;\">
-            <span class=\"footer-credit\">Designed & Built by Michael Fangman © 2017</span>
+            <span class=\"footer-credit\">Designed & Built by Michael Fangman © 2018</span>
 
         </footer>
         ";
@@ -434,7 +434,7 @@ class __TwigTemplate_ea8bce0aa1f1c155aed7add4ebd987e7229fe9bd56ed93d26028d14ed7e
 
         {% block footer %}
         <footer id=\"footer\" data-60-end=\"opacity:0;\" data-end=\"opacity:1;\">
-            <span class=\"footer-credit\">Designed & Built by Michael Fangman © 2017</span>
+            <span class=\"footer-credit\">Designed & Built by Michael Fangman © 2018</span>
 
         </footer>
         {% endblock %}
