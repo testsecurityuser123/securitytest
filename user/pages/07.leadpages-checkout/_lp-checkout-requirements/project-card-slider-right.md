@@ -72,4 +72,4 @@ project_img_l_button_link: ''
 ---
 
 ### Project Requirements
-I was pulled into this project after a roadmap had been established and an functional prototype had been built by engineering. Being that things were already in motion, I wasted no time diving in to better understand the short, medium, and long term plan for the Checkout Widget. I focused on assembling a list of requirements that could impact the end experience. Here are some of the more strenuous requirements found.
+I was pulled into this project after a roadmap had been established and a functional prototype had been built by engineering. Being that things were already in motion, I wasted no time diving in to better understand the short, medium, and long term plan for the Checkout Widget. I focused on assembling a list of requirements that could impact the end experience. Here are some of the more strenuous requirements found.
