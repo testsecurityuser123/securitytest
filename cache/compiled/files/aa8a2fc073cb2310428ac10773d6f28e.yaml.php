@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav/user/plugins/admin/admin.yaml',
-    'modified' => 1507045266,
+    'modified' => 1521399633,
     'data' => [
         'enabled' => true,
         'route' => '/admin',
@@ -37,10 +37,10 @@ return [
             'delete_page' => true
         ],
         'edit_mode' => 'normal',
-        'frontend_pages_target' => '_blank',
         'show_github_msg' => true,
         'pages_list_display_field' => 'title',
-        'google_fonts' => true,
+        'google_fonts' => false,
+        'admin_icons' => 'line-awesome',
         'enable_auto_updates_check' => true,
         'notifications' => [
             'feed' => true,

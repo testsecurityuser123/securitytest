@@ -5,7 +5,7 @@ content:
     order:
         by: date
         dir: asc
-published: true
+published: false
 taxonomy:
     category:
         - work

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav/system/blueprints/pages/default.yaml',
-    'modified' => 1506881450,
+    'modified' => 1521399612,
     'data' => [
         'title' => 'PLUGIN_ADMIN.DEFAULT',
         'rules' => [
@@ -35,7 +35,7 @@ return [
                                         'type' => 'textarea'
                                     ]
                                 ],
-                                'uploads' => [
+                                'header.media_order' => [
                                     'type' => 'pagemedia',
                                     'label' => 'PLUGIN_ADMIN.PAGE_MEDIA'
                                 ]
@@ -339,6 +339,30 @@ return [
                                             'label' => 'PLUGIN_ADMIN.APPEND_URL_EXT',
                                             'toggleable' => true,
                                             'help' => 'PLUGIN_ADMIN.APPEND_URL_EXT_HELP'
+                                        ]
+                                    ]
+                                ],
+                                'routes_only' => [
+                                    'type' => 'section',
+                                    'title' => 'PLUGIN_ADMIN.ROUTE_OVERRIDES',
+                                    'underline' => true,
+                                    'fields' => [
+                                        'header.routes.default' => [
+                                            'type' => 'text',
+                                            'toggleable' => true,
+                                            'label' => 'PLUGIN_ADMIN.ROUTE_DEFAULT'
+                                        ],
+                                        'header.routes.canonical' => [
+                                            'type' => 'text',
+                                            'toggleable' => true,
+                                            'label' => 'PLUGIN_ADMIN.ROUTE_CANONICAL'
+                                        ],
+                                        'header.routes.aliases' => [
+                                            'type' => 'array',
+                                            'toggleable' => true,
+                                            'value_only' => true,
+                                            'size' => 'large',
+                                            'label' => 'PLUGIN_ADMIN.ROUTE_ALIASES'
                                         ]
                                     ]
                                 ],

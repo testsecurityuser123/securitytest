@@ -23,6 +23,15 @@
 		<div class="home-work-feed">
 
 			<ul>
+				<li>
+					<a href="https://nomics.com/" target="_blank">
+						<div class="work-item-background">
+							<h3 class="coming-soon">Nomics</h3>
+						</div>
+						<div class="work-item-background-image nomics-bkg-img"></div>
+					</a>
+				</li>
+
 			{% for p in taxonomy.findTaxonomy({'category':'work'}) %}
 				{% set first_image = p.media.images|first %}
 				<li>

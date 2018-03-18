@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'plugins://private/private.yaml',
-    'modified' => 1506133339,
+    'modified' => 1521399627,
     'data' => [
         'enabled' => true,
         'routes' => [

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav/system/blueprints/config/system.yaml',
-    'modified' => 1506881450,
+    'modified' => 1521399612,
     'data' => [
         'title' => 'PLUGIN_ADMIN.SYSTEM',
         'form' => [
@@ -1082,16 +1082,6 @@ return [
                                 'type' => 'bool'
                             ]
                         ],
-                        'media.upload_limit' => [
-                            'type' => 'text',
-                            'append' => 'bytes',
-                            'label' => 'PLUGIN_ADMIN.UPLOAD_LIMIT',
-                            'help' => 'PLUGIN_ADMIN.UPLOAD_LIMIT_HELP',
-                            'classes' => 'small',
-                            'validate' => [
-                                'type' => 'number'
-                            ]
-                        ],
                         'media.enable_media_timestamp' => [
                             'type' => 'toggle',
                             'label' => 'PLUGIN_ADMIN.ENABLE_MEDIA_TIMESTAMP',
@@ -1311,6 +1301,19 @@ return [
                             'label' => 'PLUGIN_ADMIN.PWD_REGEX',
                             'help' => 'PLUGIN_ADMIN.PWD_REGEX_HELP'
                         ],
+                        'intl_enabled' => [
+                            'type' => 'toggle',
+                            'label' => 'PLUGIN_ADMIN.INTL_ENABLED',
+                            'highlight' => 1,
+                            'help' => 'PLUGIN_ADMIN.INTL_ENABLED_HELP',
+                            'options' => [
+                                1 => 'PLUGIN_ADMIN.YES',
+                                0 => 'PLUGIN_ADMIN.NO'
+                            ],
+                            'validate' => [
+                                'type' => 'bool'
+                            ]
+                        ],
                         'wrapped_site' => [
                             'type' => 'toggle',
                             'label' => 'PLUGIN_ADMIN.WRAPPED_SITE',
@@ -1337,19 +1340,6 @@ return [
                                 'type' => 'bool'
                             ]
                         ],
-                        'case_insensitive_urls' => [
-                            'type' => 'toggle',
-                            'label' => 'PLUGIN_ADMIN.CASE_INSENSITIVE_URLS',
-                            'highlight' => 0,
-                            'help' => 'PLUGIN_ADMIN.CASE_INSENSITIVE_URLS_HELP',
-                            'options' => [
-                                1 => 'PLUGIN_ADMIN.YES',
-                                0 => 'PLUGIN_ADMIN.NO'
-                            ],
-                            'validate' => [
-                                'type' => 'bool'
-                            ]
-                        ],
                         'param_sep' => [
                             'type' => 'select',
                             'size' => 'medium',
@@ -1367,6 +1357,20 @@ return [
                             'label' => 'PLUGIN_ADMIN.FORCE_SSL',
                             'highlight' => 0,
                             'help' => 'PLUGIN_ADMIN.FORCE_SSL_HELP',
+                            'options' => [
+                                1 => 'PLUGIN_ADMIN.YES',
+                                0 => 'PLUGIN_ADMIN.NO'
+                            ],
+                            'validate' => [
+                                'type' => 'bool'
+                            ]
+                        ],
+                        'force_lowercase_urls' => [
+                            'type' => 'toggle',
+                            'label' => 'PLUGIN_ADMIN.FORCE_LOWERCASE_URLS',
+                            'highlight' => 1,
+                            'default' => 1,
+                            'help' => 'PLUGIN_ADMIN.FORCE_LOWERCASE_URLS_HELP',
                             'options' => [
                                 1 => 'PLUGIN_ADMIN.YES',
                                 0 => 'PLUGIN_ADMIN.NO'

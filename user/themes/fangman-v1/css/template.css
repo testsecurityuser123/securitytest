@@ -593,9 +593,9 @@ h6, .testt {
       -ms-transform: rotate(45deg);
       -o-transform: rotate(45deg);
       transform: rotate(45deg);
-      -webkit-transition: all 0.25s ease;
-      -moz-transition: all 0.25s ease;
-      transition: all 0.25s ease; }
+      -webkit-transition: border-color 0.25s ease;
+      -moz-transition: border-color 0.25s ease;
+      transition: border-color 0.25s ease; }
     .home-hero .intro-scroll-container .intro-scroll-arrow {
       height: 5px;
       position: absolute;
@@ -997,7 +997,7 @@ Module: Project Description
               -moz-transition: all 0.25s ease;
               transition: all 0.25s ease; }
             .home-work .home-work-feed ul li a div h3.coming-soon:after {
-              content: 'Coming Soon'; }
+              content: 'View Website'; }
           .home-work .home-work-feed ul li a div.work-item-background {
             z-index: 2; }
           .home-work .home-work-feed ul li a div.work-item-background-image {
@@ -1011,6 +1011,9 @@ Module: Project Description
             -webkit-transition: all 0.25s ease;
             -moz-transition: all 0.25s ease;
             transition: all 0.25s ease; }
+          .home-work .home-work-feed ul li a div.nomics-bkg-img {
+            background-image: url("../../../pages/01.home/nomics-moon.jpg");
+            background-position: center; }
 
 /* =========================================================
 
@@ -1651,15 +1654,17 @@ Module: Project Desktop Slider
           z-index: 5;
           pointer-events: none;
           display: block;
-          top: -16.5%;
+          top: -15.5%;
           bottom: -55%;
-          left: -9%;
-          right: -9%;
+          left: -8.75%;
+          right: -8.75%;
           width: auto;
           height: auto;
           background-image: url("../images/desktop.png");
           background-size: 100% auto;
           background-repeat: no-repeat; }
+        .project-ds .project-ds-container .project-ds-slider-container .project-ds-slider .slick-track {
+          top: 3px; }
         .project-ds .project-ds-container .project-ds-slider-container .project-ds-slider .project-ds-slide {
           position: relative;
           z-index: 4;

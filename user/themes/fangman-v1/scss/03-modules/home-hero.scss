@@ -58,7 +58,7 @@
 			border: rem(1) solid $color-accent;
 			@include transform(rotate(45deg));
 
-			@include transition(all .25s ease);
+			@include transition(border-color .25s ease);
 
 		}
 

@@ -7,12 +7,6 @@ project_ds_slides:
         image: caliper-homepage-min.png
         alt: 'Caliper | Homepage'
     -
-        image: caliper-homepage-hover-min.png
-        alt: 'Caliper | Homepage Hover'
-    -
-        image: caliper-solution-min.png
-        alt: 'Caliper | Solution Page'
-    -
         image: caliper-product-min.png
         alt: 'Caliper | Product Page'
     -
