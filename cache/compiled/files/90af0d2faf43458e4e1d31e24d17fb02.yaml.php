@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav/user/plugins/login/blueprints.yaml',
-    'modified' => 1506881487,
+    'modified' => 1521399630,
     'data' => [
         'name' => 'Login',
-        'version' => '2.4.2',
+        'version' => '2.6.0',
         'description' => 'Enables user authentication and login screen.',
         'icon' => 'sign-in',
         'author' => [
@@ -13,14 +13,14 @@ return [
             'email' => 'devs@getgrav.org',
             'url' => 'http://getgrav.org'
         ],
-        'keywords' => 'admin, plugin, login',
         'homepage' => 'https://github.com/getgrav/grav-plugin-login',
+        'keywords' => 'login, authentication, admin, security',
         'bugs' => 'https://github.com/getgrav/grav-plugin-login/issues',
         'license' => 'MIT',
         'dependencies' => [
             0 => [
                 'name' => 'grav',
-                'version' => '>=1.3.3'
+                'version' => '>=1.3.9'
             ],
             1 => [
                 'name' => 'form',
@@ -107,6 +107,20 @@ return [
                                     'highlight' => 1,
                                     'default' => 0,
                                     'help' => 'PLUGIN_LOGIN.USE_PARENT_ACL_HELP',
+                                    'options' => [
+                                        1 => 'PLUGIN_ADMIN.ENABLED',
+                                        0 => 'PLUGIN_ADMIN.DISABLED'
+                                    ],
+                                    'validate' => [
+                                        'type' => 'bool'
+                                    ]
+                                ],
+                                'dynamic_page_visibility' => [
+                                    'type' => 'toggle',
+                                    'label' => 'PLUGIN_LOGIN.DYNAMIC_VISIBILITY',
+                                    'highlight' => 0,
+                                    'default' => 0,
+                                    'help' => 'PLUGIN_LOGIN.DYNAMIC_VISIBILITY_HELP',
                                     'options' => [
                                         1 => 'PLUGIN_ADMIN.ENABLED',
                                         0 => 'PLUGIN_ADMIN.DISABLED'
@@ -224,7 +238,7 @@ return [
                                     'type' => 'toggle',
                                     'label' => 'PLUGIN_ADMIN.ENABLED',
                                     'help' => 'PLUGIN_LOGIN.USER_REGISTRATION_ENABLED_HELP',
-                                    'highlight' => 1,
+                                    'highlight' => 0,
                                     'options' => [
                                         1 => 'PLUGIN_ADMIN.YES',
                                         0 => 'PLUGIN_ADMIN.NO'
@@ -315,7 +329,7 @@ return [
                                             'type' => 'toggle',
                                             'label' => 'PLUGIN_LOGIN.LOGIN_AFTER_REGISTRATION',
                                             'help' => 'PLUGIN_LOGIN.LOGIN_AFTER_REGISTRATION_HELP',
-                                            'highlight' => 1,
+                                            'highlight' => 0,
                                             'options' => [
                                                 1 => 'PLUGIN_ADMIN.YES',
                                                 0 => 'PLUGIN_ADMIN.NO'

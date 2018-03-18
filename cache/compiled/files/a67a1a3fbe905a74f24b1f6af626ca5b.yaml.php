@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav/system/config/system.yaml',
-    'modified' => 1506881450,
+    'modified' => 1521399612,
     'data' => [
         'absolute_urls' => false,
         'timezone' => '',
@@ -11,9 +11,11 @@ return [
         'wrapped_site' => false,
         'reverse_proxy_setup' => false,
         'force_ssl' => false,
+        'force_lowercase_urls' => true,
         'custom_base_url' => '',
         'username_regex' => '^[a-z0-9_-]{3,16}$',
         'pwd_regex' => '(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{8,}',
+        'intl_enabled' => true,
         'languages' => [
             'supported' => [
                 
@@ -30,7 +32,7 @@ return [
             'hide_in_urls' => false
         ],
         'pages' => [
-            'theme' => 'antimatter',
+            'theme' => 'quark',
             'order' => [
                 'by' => 'default',
                 'dir' => 'asc'
@@ -159,7 +161,6 @@ return [
         ],
         'media' => [
             'enable_media_timestamp' => false,
-            'upload_limit' => 0,
             'unsupported_inline_types' => [
                 
             ],
@@ -170,6 +171,7 @@ return [
         ],
         'session' => [
             'enabled' => true,
+            'initialize' => true,
             'timeout' => 1800,
             'name' => 'grav-site',
             'secure' => false,

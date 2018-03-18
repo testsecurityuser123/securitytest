@@ -183,7 +183,7 @@
 							// Coming Soon Text
 							&.coming-soon {
 								&:after {
-									content: 'Coming Soon';
+									content: 'View Website';
 								}
 							}
 						}
@@ -200,6 +200,11 @@
 							opacity: .2;
 
 							@include transition($transition-med);
+						}
+
+						&.nomics-bkg-img {
+							background-image: url('../../../pages/01.home/nomics-moon.jpg');
+							background-position: center;
 						}
 					}
 				}

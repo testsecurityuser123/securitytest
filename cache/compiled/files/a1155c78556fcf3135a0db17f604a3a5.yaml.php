@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav/system/languages/tr.yaml',
-    'modified' => 1506881450,
+    'modified' => 1521399612,
     'data' => [
         'NICETIME' => [
             'NO_DATE_PROVIDED' => 'Tarih yok',

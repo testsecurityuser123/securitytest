@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav/user/themes/fangman-v1/blueprints/modular/project-next-link.yaml',
-    'modified' => 1507735088,
+    'modified' => 1519278993,
     'data' => [
         'title' => 'Project Next Link',
         '@extends' => [

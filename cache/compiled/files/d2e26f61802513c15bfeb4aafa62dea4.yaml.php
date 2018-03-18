@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav/user/plugins/admin/themes/grav/templates/forms/fields/iconpicker/icons.yaml',
-    'modified' => 1507045267,
+    'modified' => 1521399633,
     'data' => [
         'icons' => [
             0 => [
@@ -3541,7 +3541,7 @@ return [
                 'name' => 'Smile Outlined',
                 'id' => 'smile-o',
                 'unicode' => 'f118',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'face',
                     1 => 'emoticon',
@@ -3558,7 +3558,7 @@ return [
                 'name' => 'Frown Outlined',
                 'id' => 'frown-o',
                 'unicode' => 'f119',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'face',
                     1 => 'emoticon',
@@ -3574,7 +3574,7 @@ return [
                 'name' => 'Meh Outlined',
                 'id' => 'meh-o',
                 'unicode' => 'f11a',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'face',
                     1 => 'emoticon',
@@ -3589,7 +3589,7 @@ return [
                 'name' => 'Gamepad',
                 'id' => 'gamepad',
                 'unicode' => 'f11b',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'controller'
                 ],
@@ -3601,7 +3601,7 @@ return [
                 'name' => 'Keyboard Outlined',
                 'id' => 'keyboard-o',
                 'unicode' => 'f11c',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'type',
                     1 => 'input'
@@ -3614,7 +3614,7 @@ return [
                 'name' => 'Flag Outlined',
                 'id' => 'flag-o',
                 'unicode' => 'f11d',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'report',
                     1 => 'notification'
@@ -3627,7 +3627,7 @@ return [
                 'name' => 'flag-checkered',
                 'id' => 'flag-checkered',
                 'unicode' => 'f11e',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'report',
                     1 => 'notification',
@@ -3641,7 +3641,7 @@ return [
                 'name' => 'Terminal',
                 'id' => 'terminal',
                 'unicode' => 'f120',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'command',
                     1 => 'prompt',
@@ -3655,7 +3655,7 @@ return [
                 'name' => 'Code',
                 'id' => 'code',
                 'unicode' => 'f121',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'html',
                     1 => 'brackets'
@@ -3668,7 +3668,7 @@ return [
                 'name' => 'reply-all',
                 'id' => 'reply-all',
                 'unicode' => 'f122',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'aliases' => [
                     0 => 'mail-reply-all'
                 ],
@@ -3680,7 +3680,7 @@ return [
                 'name' => 'Star Half Outlined',
                 'id' => 'star-half-o',
                 'unicode' => 'f123',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'award',
                     1 => 'achievement',
@@ -3699,7 +3699,7 @@ return [
                 'name' => 'location-arrow',
                 'id' => 'location-arrow',
                 'unicode' => 'f124',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'map',
                     1 => 'coordinates',
@@ -3716,7 +3716,7 @@ return [
                 'name' => 'crop',
                 'id' => 'crop',
                 'unicode' => 'f125',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -3725,7 +3725,7 @@ return [
                 'name' => 'code-fork',
                 'id' => 'code-fork',
                 'unicode' => 'f126',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'git',
                     1 => 'fork',
@@ -3744,7 +3744,7 @@ return [
                 'name' => 'Chain Broken',
                 'id' => 'chain-broken',
                 'unicode' => 'f127',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'remove'
                 ],
@@ -3759,7 +3759,7 @@ return [
                 'name' => 'Question',
                 'id' => 'question',
                 'unicode' => 'f128',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'help',
                     1 => 'information',
@@ -3774,7 +3774,7 @@ return [
                 'name' => 'Info',
                 'id' => 'info',
                 'unicode' => 'f129',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'help',
                     1 => 'information',
@@ -3789,7 +3789,7 @@ return [
                 'name' => 'exclamation',
                 'id' => 'exclamation',
                 'unicode' => 'f12a',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'warning',
                     1 => 'error',
@@ -3806,7 +3806,7 @@ return [
                 'name' => 'superscript',
                 'id' => 'superscript',
                 'unicode' => 'f12b',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'exponential'
                 ],
@@ -3818,7 +3818,7 @@ return [
                 'name' => 'subscript',
                 'id' => 'subscript',
                 'unicode' => 'f12c',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'categories' => [
                     0 => 'Text Editor Icons'
                 ]
@@ -3827,7 +3827,7 @@ return [
                 'name' => 'eraser',
                 'id' => 'eraser',
                 'unicode' => 'f12d',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'remove',
                     1 => 'delete'
@@ -3841,7 +3841,7 @@ return [
                 'name' => 'Puzzle Piece',
                 'id' => 'puzzle-piece',
                 'unicode' => 'f12e',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'addon',
                     1 => 'add-on',
@@ -3855,7 +3855,7 @@ return [
                 'name' => 'microphone',
                 'id' => 'microphone',
                 'unicode' => 'f130',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'record',
                     1 => 'voice',
@@ -3869,7 +3869,7 @@ return [
                 'name' => 'Microphone Slash',
                 'id' => 'microphone-slash',
                 'unicode' => 'f131',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'record',
                     1 => 'voice',
@@ -3884,7 +3884,7 @@ return [
                 'name' => 'shield',
                 'id' => 'shield',
                 'unicode' => 'f132',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'award',
                     1 => 'achievement',
@@ -3899,7 +3899,7 @@ return [
                 'name' => 'calendar-o',
                 'id' => 'calendar-o',
                 'unicode' => 'f133',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'date',
                     1 => 'time',
@@ -3914,7 +3914,7 @@ return [
                 'name' => 'fire-extinguisher',
                 'id' => 'fire-extinguisher',
                 'unicode' => 'f134',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -3923,7 +3923,7 @@ return [
                 'name' => 'rocket',
                 'id' => 'rocket',
                 'unicode' => 'f135',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'app'
                 ],
@@ -3936,7 +3936,7 @@ return [
                 'name' => 'MaxCDN',
                 'id' => 'maxcdn',
                 'unicode' => 'f136',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -3945,7 +3945,7 @@ return [
                 'name' => 'Chevron Circle Left',
                 'id' => 'chevron-circle-left',
                 'unicode' => 'f137',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'previous',
                     1 => 'back',
@@ -3959,7 +3959,7 @@ return [
                 'name' => 'Chevron Circle Right',
                 'id' => 'chevron-circle-right',
                 'unicode' => 'f138',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'next',
                     1 => 'forward',
@@ -3973,7 +3973,7 @@ return [
                 'name' => 'Chevron Circle Up',
                 'id' => 'chevron-circle-up',
                 'unicode' => 'f139',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'arrow'
                 ],
@@ -3985,7 +3985,7 @@ return [
                 'name' => 'Chevron Circle Down',
                 'id' => 'chevron-circle-down',
                 'unicode' => 'f13a',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'more',
                     1 => 'dropdown',
@@ -4000,7 +4000,7 @@ return [
                 'name' => 'HTML 5 Logo',
                 'id' => 'html5',
                 'unicode' => 'f13b',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'code' => [
                     0 => 'code',
                     1 => 'html5'
@@ -4013,7 +4013,7 @@ return [
                 'name' => 'CSS 3 Logo',
                 'id' => 'css3',
                 'unicode' => 'f13c',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'code'
                 ],
@@ -4025,7 +4025,7 @@ return [
                 'name' => 'Anchor',
                 'id' => 'anchor',
                 'unicode' => 'f13d',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'link'
                 ],
@@ -4037,7 +4037,7 @@ return [
                 'name' => 'Unlock Alt',
                 'id' => 'unlock-alt',
                 'unicode' => 'f13e',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'protect',
                     1 => 'admin',
@@ -4052,7 +4052,7 @@ return [
                 'name' => 'Bullseye',
                 'id' => 'bullseye',
                 'unicode' => 'f140',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'target'
                 ],
@@ -4064,7 +4064,7 @@ return [
                 'name' => 'Ellipsis Horizontal',
                 'id' => 'ellipsis-h',
                 'unicode' => 'f141',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'dots'
                 ],
@@ -4076,7 +4076,7 @@ return [
                 'name' => 'Ellipsis Vertical',
                 'id' => 'ellipsis-v',
                 'unicode' => 'f142',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'dots'
                 ],
@@ -4088,7 +4088,7 @@ return [
                 'name' => 'RSS Square',
                 'id' => 'rss-square',
                 'unicode' => 'f143',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'feed',
                     1 => 'blog'
@@ -4101,7 +4101,7 @@ return [
                 'name' => 'Play Circle',
                 'id' => 'play-circle',
                 'unicode' => 'f144',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'start',
                     1 => 'playing'
@@ -4114,7 +4114,7 @@ return [
                 'name' => 'Ticket',
                 'id' => 'ticket',
                 'unicode' => 'f145',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'movie',
                     1 => 'pass',
@@ -4128,7 +4128,7 @@ return [
                 'name' => 'Minus Square',
                 'id' => 'minus-square',
                 'unicode' => 'f146',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'hide',
                     1 => 'minify',
@@ -4147,7 +4147,7 @@ return [
                 'name' => 'Minus Square Outlined',
                 'id' => 'minus-square-o',
                 'unicode' => 'f147',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'hide',
                     1 => 'minify',
@@ -4166,7 +4166,7 @@ return [
                 'name' => 'Level Up',
                 'id' => 'level-up',
                 'unicode' => 'f148',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'arrow'
                 ],
@@ -4178,7 +4178,7 @@ return [
                 'name' => 'Level Down',
                 'id' => 'level-down',
                 'unicode' => 'f149',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'arrow'
                 ],
@@ -4190,7 +4190,7 @@ return [
                 'name' => 'Check Square',
                 'id' => 'check-square',
                 'unicode' => 'f14a',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'checkmark',
                     1 => 'done',
@@ -4209,7 +4209,7 @@ return [
                 'name' => 'Pencil Square',
                 'id' => 'pencil-square',
                 'unicode' => 'f14b',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'write',
                     1 => 'edit',
@@ -4223,7 +4223,7 @@ return [
                 'name' => 'External Link Square',
                 'id' => 'external-link-square',
                 'unicode' => 'f14c',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'open',
                     1 => 'new'
@@ -4236,7 +4236,7 @@ return [
                 'name' => 'Share Square',
                 'id' => 'share-square',
                 'unicode' => 'f14d',
-                'created' => 3.100000000000000088817841970012523233890533447265625,
+                'created' => 3.1,
                 'filter' => [
                     0 => 'social',
                     1 => 'send'
@@ -4249,7 +4249,7 @@ return [
                 'name' => 'Compass',
                 'id' => 'compass',
                 'unicode' => 'f14e',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'filter' => [
                     0 => 'safari',
                     1 => 'directory',
@@ -4264,7 +4264,7 @@ return [
                 'name' => 'Caret Square Outlined Down',
                 'id' => 'caret-square-o-down',
                 'unicode' => 'f150',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'aliases' => [
                     0 => 'toggle-down'
                 ],
@@ -4282,7 +4282,7 @@ return [
                 'name' => 'Caret Square Outlined Up',
                 'id' => 'caret-square-o-up',
                 'unicode' => 'f151',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'aliases' => [
                     0 => 'toggle-up'
                 ],
@@ -4295,7 +4295,7 @@ return [
                 'name' => 'Caret Square Outlined Right',
                 'id' => 'caret-square-o-right',
                 'unicode' => 'f152',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'filter' => [
                     0 => 'next',
                     1 => 'forward'
@@ -4312,7 +4312,7 @@ return [
                 'name' => 'Euro (EUR)',
                 'id' => 'eur',
                 'unicode' => 'f153',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'aliases' => [
                     0 => 'euro'
                 ],
@@ -4324,7 +4324,7 @@ return [
                 'name' => 'GBP',
                 'id' => 'gbp',
                 'unicode' => 'f154',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'categories' => [
                     0 => 'Currency Icons'
                 ]
@@ -4333,7 +4333,7 @@ return [
                 'name' => 'US Dollar',
                 'id' => 'usd',
                 'unicode' => 'f155',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'aliases' => [
                     0 => 'dollar'
                 ],
@@ -4345,7 +4345,7 @@ return [
                 'name' => 'Indian Rupee (INR)',
                 'id' => 'inr',
                 'unicode' => 'f156',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'aliases' => [
                     0 => 'rupee'
                 ],
@@ -4357,7 +4357,7 @@ return [
                 'name' => 'Japanese Yen (JPY)',
                 'id' => 'jpy',
                 'unicode' => 'f157',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'aliases' => [
                     0 => 'cny',
                     1 => 'rmb',
@@ -4384,7 +4384,7 @@ return [
                 'name' => 'Korean Won (KRW)',
                 'id' => 'krw',
                 'unicode' => 'f159',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'aliases' => [
                     0 => 'won'
                 ],
@@ -4396,7 +4396,7 @@ return [
                 'name' => 'Bitcoin (BTC)',
                 'id' => 'btc',
                 'unicode' => 'f15a',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'aliases' => [
                     0 => 'bitcoin'
                 ],
@@ -4409,7 +4409,7 @@ return [
                 'name' => 'File',
                 'id' => 'file',
                 'unicode' => 'f15b',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'filter' => [
                     0 => 'new',
                     1 => 'page',
@@ -4425,7 +4425,7 @@ return [
                 'name' => 'File Text',
                 'id' => 'file-text',
                 'unicode' => 'f15c',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'filter' => [
                     0 => 'new',
                     1 => 'page',
@@ -4441,7 +4441,7 @@ return [
                 'name' => 'Sort Alpha Ascending',
                 'id' => 'sort-alpha-asc',
                 'unicode' => 'f15d',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -4450,7 +4450,7 @@ return [
                 'name' => 'Sort Alpha Descending',
                 'id' => 'sort-alpha-desc',
                 'unicode' => 'f15e',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -4459,7 +4459,7 @@ return [
                 'name' => 'Sort Amount Ascending',
                 'id' => 'sort-amount-asc',
                 'unicode' => 'f160',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -4468,7 +4468,7 @@ return [
                 'name' => 'Sort Amount Descending',
                 'id' => 'sort-amount-desc',
                 'unicode' => 'f161',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -4477,7 +4477,7 @@ return [
                 'name' => 'Sort Numeric Ascending',
                 'id' => 'sort-numeric-asc',
                 'unicode' => 'f162',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'filter' => [
                     0 => 'numbers'
                 ],
@@ -4489,7 +4489,7 @@ return [
                 'name' => 'Sort Numeric Descending',
                 'id' => 'sort-numeric-desc',
                 'unicode' => 'f163',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'filter' => [
                     0 => 'numbers'
                 ],
@@ -4501,7 +4501,7 @@ return [
                 'name' => 'thumbs-up',
                 'id' => 'thumbs-up',
                 'unicode' => 'f164',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'filter' => [
                     0 => 'like',
                     1 => 'favorite',
@@ -4518,7 +4518,7 @@ return [
                 'name' => 'thumbs-down',
                 'id' => 'thumbs-down',
                 'unicode' => 'f165',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'filter' => [
                     0 => 'dislike',
                     1 => 'disapprove',
@@ -4534,7 +4534,7 @@ return [
                 'name' => 'YouTube Square',
                 'id' => 'youtube-square',
                 'unicode' => 'f166',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'filter' => [
                     0 => 'video',
                     1 => 'film'
@@ -4547,7 +4547,7 @@ return [
                 'name' => 'YouTube',
                 'id' => 'youtube',
                 'unicode' => 'f167',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'filter' => [
                     0 => 'video',
                     1 => 'film'
@@ -4560,7 +4560,7 @@ return [
                 'name' => 'Xing',
                 'id' => 'xing',
                 'unicode' => 'f168',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -4569,7 +4569,7 @@ return [
                 'name' => 'Xing Square',
                 'id' => 'xing-square',
                 'unicode' => 'f169',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -4578,7 +4578,7 @@ return [
                 'name' => 'YouTube Play',
                 'id' => 'youtube-play',
                 'unicode' => 'f16a',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'filter' => [
                     0 => 'start',
                     1 => 'playing'
@@ -4592,7 +4592,7 @@ return [
                 'name' => 'Dropbox',
                 'id' => 'dropbox',
                 'unicode' => 'f16b',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -4601,7 +4601,7 @@ return [
                 'name' => 'Stack Overflow',
                 'id' => 'stack-overflow',
                 'unicode' => 'f16c',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -4610,7 +4610,7 @@ return [
                 'name' => 'Instagram',
                 'id' => 'instagram',
                 'unicode' => 'f16d',
-                'created' => 4.5999999999999996447286321199499070644378662109375,
+                'created' => 4.6,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -4619,7 +4619,7 @@ return [
                 'name' => 'Flickr',
                 'id' => 'flickr',
                 'unicode' => 'f16e',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -4628,7 +4628,7 @@ return [
                 'name' => 'App.net',
                 'id' => 'adn',
                 'unicode' => 'f170',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -4637,7 +4637,7 @@ return [
                 'name' => 'Bitbucket',
                 'id' => 'bitbucket',
                 'unicode' => 'f171',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'filter' => [
                     0 => 'git'
                 ],
@@ -4649,7 +4649,7 @@ return [
                 'name' => 'Bitbucket Square',
                 'id' => 'bitbucket-square',
                 'unicode' => 'f172',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'filter' => [
                     0 => 'git'
                 ],
@@ -4661,7 +4661,7 @@ return [
                 'name' => 'Tumblr',
                 'id' => 'tumblr',
                 'unicode' => 'f173',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -4670,7 +4670,7 @@ return [
                 'name' => 'Tumblr Square',
                 'id' => 'tumblr-square',
                 'unicode' => 'f174',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -4679,7 +4679,7 @@ return [
                 'name' => 'Long Arrow Down',
                 'id' => 'long-arrow-down',
                 'unicode' => 'f175',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'categories' => [
                     0 => 'Directional Icons'
                 ]
@@ -4688,7 +4688,7 @@ return [
                 'name' => 'Long Arrow Up',
                 'id' => 'long-arrow-up',
                 'unicode' => 'f176',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'categories' => [
                     0 => 'Directional Icons'
                 ]
@@ -4697,7 +4697,7 @@ return [
                 'name' => 'Long Arrow Left',
                 'id' => 'long-arrow-left',
                 'unicode' => 'f177',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'filter' => [
                     0 => 'previous',
                     1 => 'back'
@@ -4710,7 +4710,7 @@ return [
                 'name' => 'Long Arrow Right',
                 'id' => 'long-arrow-right',
                 'unicode' => 'f178',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'categories' => [
                     0 => 'Directional Icons'
                 ]
@@ -4719,7 +4719,7 @@ return [
                 'name' => 'Apple',
                 'id' => 'apple',
                 'unicode' => 'f179',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'filter' => [
                     0 => 'osx',
                     1 => 'food'
@@ -4732,7 +4732,7 @@ return [
                 'name' => 'Windows',
                 'id' => 'windows',
                 'unicode' => 'f17a',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'filter' => [
                     0 => 'microsoft'
                 ],
@@ -4744,7 +4744,7 @@ return [
                 'name' => 'Android',
                 'id' => 'android',
                 'unicode' => 'f17b',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'filter' => [
                     0 => 'robot'
                 ],
@@ -4756,7 +4756,7 @@ return [
                 'name' => 'Linux',
                 'id' => 'linux',
                 'unicode' => 'f17c',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'filter' => [
                     0 => 'tux'
                 ],
@@ -4768,7 +4768,7 @@ return [
                 'name' => 'Dribbble',
                 'id' => 'dribbble',
                 'unicode' => 'f17d',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -4777,7 +4777,7 @@ return [
                 'name' => 'Skype',
                 'id' => 'skype',
                 'unicode' => 'f17e',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -4786,7 +4786,7 @@ return [
                 'name' => 'Foursquare',
                 'id' => 'foursquare',
                 'unicode' => 'f180',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -4795,7 +4795,7 @@ return [
                 'name' => 'Trello',
                 'id' => 'trello',
                 'unicode' => 'f181',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -4804,7 +4804,7 @@ return [
                 'name' => 'Female',
                 'id' => 'female',
                 'unicode' => 'f182',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'filter' => [
                     0 => 'woman',
                     1 => 'user',
@@ -4819,7 +4819,7 @@ return [
                 'name' => 'Male',
                 'id' => 'male',
                 'unicode' => 'f183',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'filter' => [
                     0 => 'man',
                     1 => 'user',
@@ -4834,7 +4834,7 @@ return [
                 'name' => 'Gratipay (Gittip)',
                 'id' => 'gratipay',
                 'unicode' => 'f184',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'aliases' => [
                     0 => 'gittip'
                 ],
@@ -4852,7 +4852,7 @@ return [
                 'name' => 'Sun Outlined',
                 'id' => 'sun-o',
                 'unicode' => 'f185',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'filter' => [
                     0 => 'weather',
                     1 => 'contrast',
@@ -4868,7 +4868,7 @@ return [
                 'name' => 'Moon Outlined',
                 'id' => 'moon-o',
                 'unicode' => 'f186',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'filter' => [
                     0 => 'night',
                     1 => 'darker',
@@ -4882,7 +4882,7 @@ return [
                 'name' => 'Archive',
                 'id' => 'archive',
                 'unicode' => 'f187',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'filter' => [
                     0 => 'box',
                     1 => 'storage'
@@ -4895,7 +4895,7 @@ return [
                 'name' => 'Bug',
                 'id' => 'bug',
                 'unicode' => 'f188',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'filter' => [
                     0 => 'report',
                     1 => 'insect'
@@ -4908,7 +4908,7 @@ return [
                 'name' => 'VK',
                 'id' => 'vk',
                 'unicode' => 'f189',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -4917,7 +4917,7 @@ return [
                 'name' => 'Weibo',
                 'id' => 'weibo',
                 'unicode' => 'f18a',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -4926,7 +4926,7 @@ return [
                 'name' => 'Renren',
                 'id' => 'renren',
                 'unicode' => 'f18b',
-                'created' => 3.20000000000000017763568394002504646778106689453125,
+                'created' => 3.2,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -5072,7 +5072,7 @@ return [
                 'name' => 'Space Shuttle',
                 'id' => 'space-shuttle',
                 'unicode' => 'f197',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'filter' => NULL,
                 'categories' => [
                     0 => 'Web Application Icons',
@@ -5083,7 +5083,7 @@ return [
                 'name' => 'Slack Logo',
                 'id' => 'slack',
                 'unicode' => 'f198',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'filter' => [
                     0 => 'hashtag',
                     1 => 'anchor',
@@ -5097,7 +5097,7 @@ return [
                 'name' => 'Envelope Square',
                 'id' => 'envelope-square',
                 'unicode' => 'f199',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'filter' => [
                     0 => 'email',
                     1 => 'e-mail',
@@ -5115,7 +5115,7 @@ return [
                 'name' => 'WordPress Logo',
                 'id' => 'wordpress',
                 'unicode' => 'f19a',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -5124,7 +5124,7 @@ return [
                 'name' => 'OpenID',
                 'id' => 'openid',
                 'unicode' => 'f19b',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -5133,7 +5133,7 @@ return [
                 'name' => 'University',
                 'id' => 'university',
                 'unicode' => 'f19c',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'aliases' => [
                     0 => 'institution',
                     1 => 'bank'
@@ -5146,7 +5146,7 @@ return [
                 'name' => 'Graduation Cap',
                 'id' => 'graduation-cap',
                 'unicode' => 'f19d',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'aliases' => [
                     0 => 'mortar-board'
                 ],
@@ -5163,7 +5163,7 @@ return [
                 'name' => 'Yahoo Logo',
                 'id' => 'yahoo',
                 'unicode' => 'f19e',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -5172,7 +5172,7 @@ return [
                 'name' => 'Google Logo',
                 'id' => 'google',
                 'unicode' => 'f1a0',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -5181,7 +5181,7 @@ return [
                 'name' => 'reddit Logo',
                 'id' => 'reddit',
                 'unicode' => 'f1a1',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -5190,7 +5190,7 @@ return [
                 'name' => 'reddit Square',
                 'id' => 'reddit-square',
                 'unicode' => 'f1a2',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -5199,7 +5199,7 @@ return [
                 'name' => 'StumbleUpon Circle',
                 'id' => 'stumbleupon-circle',
                 'unicode' => 'f1a3',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -5208,7 +5208,7 @@ return [
                 'name' => 'StumbleUpon Logo',
                 'id' => 'stumbleupon',
                 'unicode' => 'f1a4',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -5217,7 +5217,7 @@ return [
                 'name' => 'Delicious Logo',
                 'id' => 'delicious',
                 'unicode' => 'f1a5',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -5226,7 +5226,7 @@ return [
                 'name' => 'Digg Logo',
                 'id' => 'digg',
                 'unicode' => 'f1a6',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -5235,7 +5235,7 @@ return [
                 'name' => 'Pied Piper PP Logo (Old)',
                 'id' => 'pied-piper-pp',
                 'unicode' => 'f1a7',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -5244,7 +5244,7 @@ return [
                 'name' => 'Pied Piper Alternate Logo',
                 'id' => 'pied-piper-alt',
                 'unicode' => 'f1a8',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -5253,7 +5253,7 @@ return [
                 'name' => 'Drupal Logo',
                 'id' => 'drupal',
                 'unicode' => 'f1a9',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -5262,7 +5262,7 @@ return [
                 'name' => 'Joomla Logo',
                 'id' => 'joomla',
                 'unicode' => 'f1aa',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -5271,7 +5271,7 @@ return [
                 'name' => 'Language',
                 'id' => 'language',
                 'unicode' => 'f1ab',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -5280,7 +5280,7 @@ return [
                 'name' => 'Fax',
                 'id' => 'fax',
                 'unicode' => 'f1ac',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -5289,7 +5289,7 @@ return [
                 'name' => 'Building',
                 'id' => 'building',
                 'unicode' => 'f1ad',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'filter' => [
                     0 => 'work',
                     1 => 'business',
@@ -5305,7 +5305,7 @@ return [
                 'name' => 'Child',
                 'id' => 'child',
                 'unicode' => 'f1ae',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -5314,7 +5314,7 @@ return [
                 'name' => 'Paw',
                 'id' => 'paw',
                 'unicode' => 'f1b0',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'filter' => [
                     0 => 'pet'
                 ],
@@ -5326,7 +5326,7 @@ return [
                 'name' => 'spoon',
                 'id' => 'spoon',
                 'unicode' => 'f1b1',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -5335,7 +5335,7 @@ return [
                 'name' => 'Cube',
                 'id' => 'cube',
                 'unicode' => 'f1b2',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -5344,7 +5344,7 @@ return [
                 'name' => 'Cubes',
                 'id' => 'cubes',
                 'unicode' => 'f1b3',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -5353,7 +5353,7 @@ return [
                 'name' => 'Behance',
                 'id' => 'behance',
                 'unicode' => 'f1b4',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -5362,7 +5362,7 @@ return [
                 'name' => 'Behance Square',
                 'id' => 'behance-square',
                 'unicode' => 'f1b5',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -5371,7 +5371,7 @@ return [
                 'name' => 'Steam',
                 'id' => 'steam',
                 'unicode' => 'f1b6',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -5380,7 +5380,7 @@ return [
                 'name' => 'Steam Square',
                 'id' => 'steam-square',
                 'unicode' => 'f1b7',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -5389,7 +5389,7 @@ return [
                 'name' => 'Recycle',
                 'id' => 'recycle',
                 'unicode' => 'f1b8',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -5398,7 +5398,7 @@ return [
                 'name' => 'Car',
                 'id' => 'car',
                 'unicode' => 'f1b9',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'aliases' => [
                     0 => 'automobile'
                 ],
@@ -5414,7 +5414,7 @@ return [
                 'name' => 'Taxi',
                 'id' => 'taxi',
                 'unicode' => 'f1ba',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'aliases' => [
                     0 => 'cab'
                 ],
@@ -5430,7 +5430,7 @@ return [
                 'name' => 'Tree',
                 'id' => 'tree',
                 'unicode' => 'f1bb',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -5439,7 +5439,7 @@ return [
                 'name' => 'Spotify',
                 'id' => 'spotify',
                 'unicode' => 'f1bc',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -5448,7 +5448,7 @@ return [
                 'name' => 'deviantART',
                 'id' => 'deviantart',
                 'unicode' => 'f1bd',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -5457,7 +5457,7 @@ return [
                 'name' => 'SoundCloud',
                 'id' => 'soundcloud',
                 'unicode' => 'f1be',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -5466,7 +5466,7 @@ return [
                 'name' => 'Database',
                 'id' => 'database',
                 'unicode' => 'f1c0',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -5475,7 +5475,7 @@ return [
                 'name' => 'PDF File Outlined',
                 'id' => 'file-pdf-o',
                 'unicode' => 'f1c1',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Web Application Icons',
                     1 => 'File Type Icons'
@@ -5485,7 +5485,7 @@ return [
                 'name' => 'Word File Outlined',
                 'id' => 'file-word-o',
                 'unicode' => 'f1c2',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Web Application Icons',
                     1 => 'File Type Icons'
@@ -5495,7 +5495,7 @@ return [
                 'name' => 'Excel File Outlined',
                 'id' => 'file-excel-o',
                 'unicode' => 'f1c3',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Web Application Icons',
                     1 => 'File Type Icons'
@@ -5505,7 +5505,7 @@ return [
                 'name' => 'Powerpoint File Outlined',
                 'id' => 'file-powerpoint-o',
                 'unicode' => 'f1c4',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Web Application Icons',
                     1 => 'File Type Icons'
@@ -5515,7 +5515,7 @@ return [
                 'name' => 'Image File Outlined',
                 'id' => 'file-image-o',
                 'unicode' => 'f1c5',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'aliases' => [
                     0 => 'file-photo-o',
                     1 => 'file-picture-o'
@@ -5529,7 +5529,7 @@ return [
                 'name' => 'Archive File Outlined',
                 'id' => 'file-archive-o',
                 'unicode' => 'f1c6',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'aliases' => [
                     0 => 'file-zip-o'
                 ],
@@ -5542,7 +5542,7 @@ return [
                 'name' => 'Audio File Outlined',
                 'id' => 'file-audio-o',
                 'unicode' => 'f1c7',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'aliases' => [
                     0 => 'file-sound-o'
                 ],
@@ -5555,7 +5555,7 @@ return [
                 'name' => 'Video File Outlined',
                 'id' => 'file-video-o',
                 'unicode' => 'f1c8',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'aliases' => [
                     0 => 'file-movie-o'
                 ],
@@ -5568,7 +5568,7 @@ return [
                 'name' => 'Code File Outlined',
                 'id' => 'file-code-o',
                 'unicode' => 'f1c9',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Web Application Icons',
                     1 => 'File Type Icons'
@@ -5578,7 +5578,7 @@ return [
                 'name' => 'Vine',
                 'id' => 'vine',
                 'unicode' => 'f1ca',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -5587,7 +5587,7 @@ return [
                 'name' => 'Codepen',
                 'id' => 'codepen',
                 'unicode' => 'f1cb',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -5596,7 +5596,7 @@ return [
                 'name' => 'jsFiddle',
                 'id' => 'jsfiddle',
                 'unicode' => 'f1cc',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -5605,7 +5605,7 @@ return [
                 'name' => 'Life Ring',
                 'id' => 'life-ring',
                 'unicode' => 'f1cd',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'aliases' => [
                     0 => 'life-bouy',
                     1 => 'life-buoy',
@@ -5620,7 +5620,7 @@ return [
                 'name' => 'Circle Outlined Notched',
                 'id' => 'circle-o-notch',
                 'unicode' => 'f1ce',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Web Application Icons',
                     1 => 'Spinner Icons'
@@ -5630,7 +5630,7 @@ return [
                 'name' => 'Rebel Alliance',
                 'id' => 'rebel',
                 'unicode' => 'f1d0',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'aliases' => [
                     0 => 'ra',
                     1 => 'resistance'
@@ -5643,7 +5643,7 @@ return [
                 'name' => 'Galactic Empire',
                 'id' => 'empire',
                 'unicode' => 'f1d1',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'aliases' => [
                     0 => 'ge'
                 ],
@@ -5655,7 +5655,7 @@ return [
                 'name' => 'Git Square',
                 'id' => 'git-square',
                 'unicode' => 'f1d2',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -5664,7 +5664,7 @@ return [
                 'name' => 'Git',
                 'id' => 'git',
                 'unicode' => 'f1d3',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -5673,7 +5673,7 @@ return [
                 'name' => 'Hacker News',
                 'id' => 'hacker-news',
                 'unicode' => 'f1d4',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'aliases' => [
                     0 => 'y-combinator-square',
                     1 => 'yc-square'
@@ -5686,7 +5686,7 @@ return [
                 'name' => 'Tencent Weibo',
                 'id' => 'tencent-weibo',
                 'unicode' => 'f1d5',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -5695,7 +5695,7 @@ return [
                 'name' => 'QQ',
                 'id' => 'qq',
                 'unicode' => 'f1d6',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -5704,7 +5704,7 @@ return [
                 'name' => 'Weixin (WeChat)',
                 'id' => 'weixin',
                 'unicode' => 'f1d7',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'aliases' => [
                     0 => 'wechat'
                 ],
@@ -5716,7 +5716,7 @@ return [
                 'name' => 'Paper Plane',
                 'id' => 'paper-plane',
                 'unicode' => 'f1d8',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'aliases' => [
                     0 => 'send'
                 ],
@@ -5728,7 +5728,7 @@ return [
                 'name' => 'Paper Plane Outlined',
                 'id' => 'paper-plane-o',
                 'unicode' => 'f1d9',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'aliases' => [
                     0 => 'send-o'
                 ],
@@ -5740,7 +5740,7 @@ return [
                 'name' => 'History',
                 'id' => 'history',
                 'unicode' => 'f1da',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -5749,7 +5749,7 @@ return [
                 'name' => 'Circle Outlined Thin',
                 'id' => 'circle-thin',
                 'unicode' => 'f1db',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -5758,7 +5758,7 @@ return [
                 'name' => 'header',
                 'id' => 'header',
                 'unicode' => 'f1dc',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'filter' => [
                     0 => 'heading'
                 ],
@@ -5770,7 +5770,7 @@ return [
                 'name' => 'paragraph',
                 'id' => 'paragraph',
                 'unicode' => 'f1dd',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Text Editor Icons'
                 ]
@@ -5779,7 +5779,7 @@ return [
                 'name' => 'Sliders',
                 'id' => 'sliders',
                 'unicode' => 'f1de',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'filter' => [
                     0 => 'settings'
                 ],
@@ -5791,7 +5791,7 @@ return [
                 'name' => 'Share Alt',
                 'id' => 'share-alt',
                 'unicode' => 'f1e0',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Web Application Icons',
                     1 => 'Brand Icons'
@@ -5801,7 +5801,7 @@ return [
                 'name' => 'Share Alt Square',
                 'id' => 'share-alt-square',
                 'unicode' => 'f1e1',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Web Application Icons',
                     1 => 'Brand Icons'
@@ -5811,7 +5811,7 @@ return [
                 'name' => 'Bomb',
                 'id' => 'bomb',
                 'unicode' => 'f1e2',
-                'created' => 4.0999999999999996447286321199499070644378662109375,
+                'created' => 4.1,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -5820,7 +5820,7 @@ return [
                 'name' => 'Futbol Outlined',
                 'id' => 'futbol-o',
                 'unicode' => 'f1e3',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'aliases' => [
                     0 => 'soccer-ball-o'
                 ],
@@ -5832,7 +5832,7 @@ return [
                 'name' => 'TTY',
                 'id' => 'tty',
                 'unicode' => 'f1e4',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'categories' => [
                     0 => 'Web Application Icons',
                     1 => 'Accessibility Icons'
@@ -5842,7 +5842,7 @@ return [
                 'name' => 'Binoculars',
                 'id' => 'binoculars',
                 'unicode' => 'f1e5',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -5851,7 +5851,7 @@ return [
                 'name' => 'Plug',
                 'id' => 'plug',
                 'unicode' => 'f1e6',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'filter' => [
                     0 => 'power',
                     1 => 'connect'
@@ -5864,7 +5864,7 @@ return [
                 'name' => 'Slideshare',
                 'id' => 'slideshare',
                 'unicode' => 'f1e7',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -5873,7 +5873,7 @@ return [
                 'name' => 'Twitch',
                 'id' => 'twitch',
                 'unicode' => 'f1e8',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -5882,7 +5882,7 @@ return [
                 'name' => 'Yelp',
                 'id' => 'yelp',
                 'unicode' => 'f1e9',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -5891,7 +5891,7 @@ return [
                 'name' => 'Newspaper Outlined',
                 'id' => 'newspaper-o',
                 'unicode' => 'f1ea',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'filter' => [
                     0 => 'press'
                 ],
@@ -5903,7 +5903,7 @@ return [
                 'name' => 'WiFi',
                 'id' => 'wifi',
                 'unicode' => 'f1eb',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -5912,7 +5912,7 @@ return [
                 'name' => 'Calculator',
                 'id' => 'calculator',
                 'unicode' => 'f1ec',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -5921,7 +5921,7 @@ return [
                 'name' => 'Paypal',
                 'id' => 'paypal',
                 'unicode' => 'f1ed',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'categories' => [
                     0 => 'Brand Icons',
                     1 => 'Payment Icons'
@@ -5931,7 +5931,7 @@ return [
                 'name' => 'Google Wallet',
                 'id' => 'google-wallet',
                 'unicode' => 'f1ee',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'categories' => [
                     0 => 'Brand Icons',
                     1 => 'Payment Icons'
@@ -5941,7 +5941,7 @@ return [
                 'name' => 'Visa Credit Card',
                 'id' => 'cc-visa',
                 'unicode' => 'f1f0',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'categories' => [
                     0 => 'Brand Icons',
                     1 => 'Payment Icons'
@@ -5951,7 +5951,7 @@ return [
                 'name' => 'MasterCard Credit Card',
                 'id' => 'cc-mastercard',
                 'unicode' => 'f1f1',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'categories' => [
                     0 => 'Brand Icons',
                     1 => 'Payment Icons'
@@ -5961,7 +5961,7 @@ return [
                 'name' => 'Discover Credit Card',
                 'id' => 'cc-discover',
                 'unicode' => 'f1f2',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'categories' => [
                     0 => 'Brand Icons',
                     1 => 'Payment Icons'
@@ -5971,7 +5971,7 @@ return [
                 'name' => 'American Express Credit Card',
                 'id' => 'cc-amex',
                 'unicode' => 'f1f3',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'filter' => [
                     0 => 'amex'
                 ],
@@ -5984,7 +5984,7 @@ return [
                 'name' => 'Paypal Credit Card',
                 'id' => 'cc-paypal',
                 'unicode' => 'f1f4',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'categories' => [
                     0 => 'Brand Icons',
                     1 => 'Payment Icons'
@@ -5994,7 +5994,7 @@ return [
                 'name' => 'Stripe Credit Card',
                 'id' => 'cc-stripe',
                 'unicode' => 'f1f5',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'categories' => [
                     0 => 'Brand Icons',
                     1 => 'Payment Icons'
@@ -6004,7 +6004,7 @@ return [
                 'name' => 'Bell Slash',
                 'id' => 'bell-slash',
                 'unicode' => 'f1f6',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -6013,7 +6013,7 @@ return [
                 'name' => 'Bell Slash Outlined',
                 'id' => 'bell-slash-o',
                 'unicode' => 'f1f7',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -6022,7 +6022,7 @@ return [
                 'name' => 'Trash',
                 'id' => 'trash',
                 'unicode' => 'f1f8',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'filter' => [
                     0 => 'garbage',
                     1 => 'delete',
@@ -6037,7 +6037,7 @@ return [
                 'name' => 'Copyright',
                 'id' => 'copyright',
                 'unicode' => 'f1f9',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -6046,7 +6046,7 @@ return [
                 'name' => 'At',
                 'id' => 'at',
                 'unicode' => 'f1fa',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'filter' => [
                     0 => 'email',
                     1 => 'e-mail'
@@ -6059,7 +6059,7 @@ return [
                 'name' => 'Eyedropper',
                 'id' => 'eyedropper',
                 'unicode' => 'f1fb',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -6068,7 +6068,7 @@ return [
                 'name' => 'Paint Brush',
                 'id' => 'paint-brush',
                 'unicode' => 'f1fc',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -6077,7 +6077,7 @@ return [
                 'name' => 'Birthday Cake',
                 'id' => 'birthday-cake',
                 'unicode' => 'f1fd',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -6086,7 +6086,7 @@ return [
                 'name' => 'Area Chart',
                 'id' => 'area-chart',
                 'unicode' => 'f1fe',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'filter' => [
                     0 => 'graph',
                     1 => 'analytics'
@@ -6100,7 +6100,7 @@ return [
                 'name' => 'Pie Chart',
                 'id' => 'pie-chart',
                 'unicode' => 'f200',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'filter' => [
                     0 => 'graph',
                     1 => 'analytics'
@@ -6114,7 +6114,7 @@ return [
                 'name' => 'Line Chart',
                 'id' => 'line-chart',
                 'unicode' => 'f201',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'filter' => [
                     0 => 'graph',
                     1 => 'analytics'
@@ -6128,7 +6128,7 @@ return [
                 'name' => 'last.fm',
                 'id' => 'lastfm',
                 'unicode' => 'f202',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -6137,7 +6137,7 @@ return [
                 'name' => 'last.fm Square',
                 'id' => 'lastfm-square',
                 'unicode' => 'f203',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -6146,7 +6146,7 @@ return [
                 'name' => 'Toggle Off',
                 'id' => 'toggle-off',
                 'unicode' => 'f204',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -6155,7 +6155,7 @@ return [
                 'name' => 'Toggle On',
                 'id' => 'toggle-on',
                 'unicode' => 'f205',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -6164,7 +6164,7 @@ return [
                 'name' => 'Bicycle',
                 'id' => 'bicycle',
                 'unicode' => 'f206',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'filter' => [
                     0 => 'vehicle',
                     1 => 'bike'
@@ -6178,7 +6178,7 @@ return [
                 'name' => 'Bus',
                 'id' => 'bus',
                 'unicode' => 'f207',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'filter' => [
                     0 => 'vehicle'
                 ],
@@ -6191,7 +6191,7 @@ return [
                 'name' => 'ioxhost',
                 'id' => 'ioxhost',
                 'unicode' => 'f208',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'url' => 'ioxhost.co.uk',
                 'categories' => [
                     0 => 'Brand Icons'
@@ -6201,7 +6201,7 @@ return [
                 'name' => 'AngelList',
                 'id' => 'angellist',
                 'unicode' => 'f209',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -6210,7 +6210,7 @@ return [
                 'name' => 'Closed Captions',
                 'id' => 'cc',
                 'unicode' => 'f20a',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'categories' => [
                     0 => 'Web Application Icons',
                     1 => 'Accessibility Icons'
@@ -6220,7 +6220,7 @@ return [
                 'name' => 'Shekel (ILS)',
                 'id' => 'ils',
                 'unicode' => 'f20b',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'aliases' => [
                     0 => 'shekel',
                     1 => 'sheqel'
@@ -6233,7 +6233,7 @@ return [
                 'name' => 'meanpath',
                 'id' => 'meanpath',
                 'unicode' => 'f20c',
-                'created' => 4.20000000000000017763568394002504646778106689453125,
+                'created' => 4.2,
                 'url' => 'meanpath.com',
                 'categories' => [
                     0 => 'Brand Icons'
@@ -6243,7 +6243,7 @@ return [
                 'name' => 'BuySellAds',
                 'id' => 'buysellads',
                 'unicode' => 'f20d',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'url' => 'buysellads.com',
                 'categories' => [
                     0 => 'Brand Icons'
@@ -6253,7 +6253,7 @@ return [
                 'name' => 'Connect Develop',
                 'id' => 'connectdevelop',
                 'unicode' => 'f20e',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'url' => 'connectdevelop.com',
                 'categories' => [
                     0 => 'Brand Icons'
@@ -6263,7 +6263,7 @@ return [
                 'name' => 'DashCube',
                 'id' => 'dashcube',
                 'unicode' => 'f210',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'url' => 'dashcube.com',
                 'categories' => [
                     0 => 'Brand Icons'
@@ -6273,7 +6273,7 @@ return [
                 'name' => 'Forumbee',
                 'id' => 'forumbee',
                 'unicode' => 'f211',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'url' => 'forumbee.com',
                 'categories' => [
                     0 => 'Brand Icons'
@@ -6283,7 +6283,7 @@ return [
                 'name' => 'Leanpub',
                 'id' => 'leanpub',
                 'unicode' => 'f212',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'url' => 'leanpub.com',
                 'categories' => [
                     0 => 'Brand Icons'
@@ -6293,7 +6293,7 @@ return [
                 'name' => 'Sellsy',
                 'id' => 'sellsy',
                 'unicode' => 'f213',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'url' => 'sellsy.com',
                 'categories' => [
                     0 => 'Brand Icons'
@@ -6303,7 +6303,7 @@ return [
                 'name' => 'Shirts in Bulk',
                 'id' => 'shirtsinbulk',
                 'unicode' => 'f214',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'url' => 'shirtsinbulk.com',
                 'categories' => [
                     0 => 'Brand Icons'
@@ -6313,7 +6313,7 @@ return [
                 'name' => 'SimplyBuilt',
                 'id' => 'simplybuilt',
                 'unicode' => 'f215',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'url' => 'simplybuilt.com',
                 'categories' => [
                     0 => 'Brand Icons'
@@ -6323,7 +6323,7 @@ return [
                 'name' => 'skyatlas',
                 'id' => 'skyatlas',
                 'unicode' => 'f216',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'url' => 'skyatlas.com',
                 'categories' => [
                     0 => 'Brand Icons'
@@ -6333,7 +6333,7 @@ return [
                 'name' => 'Add to Shopping Cart',
                 'id' => 'cart-plus',
                 'unicode' => 'f217',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'filter' => [
                     0 => 'add',
                     1 => 'shopping'
@@ -6346,7 +6346,7 @@ return [
                 'name' => 'Shopping Cart Arrow Down',
                 'id' => 'cart-arrow-down',
                 'unicode' => 'f218',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'filter' => [
                     0 => 'shopping'
                 ],
@@ -6358,7 +6358,7 @@ return [
                 'name' => 'Diamond',
                 'id' => 'diamond',
                 'unicode' => 'f219',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'filter' => [
                     0 => 'gem',
                     1 => 'gemstone'
@@ -6371,7 +6371,7 @@ return [
                 'name' => 'Ship',
                 'id' => 'ship',
                 'unicode' => 'f21a',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'filter' => [
                     0 => 'boat',
                     1 => 'sea'
@@ -6385,7 +6385,7 @@ return [
                 'name' => 'User Secret',
                 'id' => 'user-secret',
                 'unicode' => 'f21b',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'filter' => [
                     0 => 'whisper',
                     1 => 'spy',
@@ -6400,7 +6400,7 @@ return [
                 'name' => 'Motorcycle',
                 'id' => 'motorcycle',
                 'unicode' => 'f21c',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'filter' => [
                     0 => 'vehicle',
                     1 => 'bike'
@@ -6414,7 +6414,7 @@ return [
                 'name' => 'Street View',
                 'id' => 'street-view',
                 'unicode' => 'f21d',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'filter' => [
                     0 => 'map'
                 ],
@@ -6426,7 +6426,7 @@ return [
                 'name' => 'Heartbeat',
                 'id' => 'heartbeat',
                 'unicode' => 'f21e',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'filter' => [
                     0 => 'ekg'
                 ],
@@ -6439,7 +6439,7 @@ return [
                 'name' => 'Venus',
                 'id' => 'venus',
                 'unicode' => 'f221',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'filter' => [
                     0 => 'female'
                 ],
@@ -6451,7 +6451,7 @@ return [
                 'name' => 'Mars',
                 'id' => 'mars',
                 'unicode' => 'f222',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'filter' => [
                     0 => 'male'
                 ],
@@ -6463,7 +6463,7 @@ return [
                 'name' => 'Mercury',
                 'id' => 'mercury',
                 'unicode' => 'f223',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'filter' => [
                     0 => 'transgender'
                 ],
@@ -6475,7 +6475,7 @@ return [
                 'name' => 'Transgender',
                 'id' => 'transgender',
                 'unicode' => 'f224',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'aliases' => [
                     0 => 'intersex'
                 ],
@@ -6487,7 +6487,7 @@ return [
                 'name' => 'Transgender Alt',
                 'id' => 'transgender-alt',
                 'unicode' => 'f225',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'categories' => [
                     0 => 'Gender Icons'
                 ]
@@ -6496,7 +6496,7 @@ return [
                 'name' => 'Venus Double',
                 'id' => 'venus-double',
                 'unicode' => 'f226',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'categories' => [
                     0 => 'Gender Icons'
                 ]
@@ -6505,7 +6505,7 @@ return [
                 'name' => 'Mars Double',
                 'id' => 'mars-double',
                 'unicode' => 'f227',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'categories' => [
                     0 => 'Gender Icons'
                 ]
@@ -6514,7 +6514,7 @@ return [
                 'name' => 'Venus Mars',
                 'id' => 'venus-mars',
                 'unicode' => 'f228',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'categories' => [
                     0 => 'Gender Icons'
                 ]
@@ -6523,7 +6523,7 @@ return [
                 'name' => 'Mars Stroke',
                 'id' => 'mars-stroke',
                 'unicode' => 'f229',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'categories' => [
                     0 => 'Gender Icons'
                 ]
@@ -6532,7 +6532,7 @@ return [
                 'name' => 'Mars Stroke Vertical',
                 'id' => 'mars-stroke-v',
                 'unicode' => 'f22a',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'categories' => [
                     0 => 'Gender Icons'
                 ]
@@ -6541,7 +6541,7 @@ return [
                 'name' => 'Mars Stroke Horizontal',
                 'id' => 'mars-stroke-h',
                 'unicode' => 'f22b',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'categories' => [
                     0 => 'Gender Icons'
                 ]
@@ -6550,7 +6550,7 @@ return [
                 'name' => 'Neuter',
                 'id' => 'neuter',
                 'unicode' => 'f22c',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'categories' => [
                     0 => 'Gender Icons'
                 ]
@@ -6559,7 +6559,7 @@ return [
                 'name' => 'Genderless',
                 'id' => 'genderless',
                 'unicode' => 'f22d',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Gender Icons'
                 ]
@@ -6568,7 +6568,7 @@ return [
                 'name' => 'Facebook Official',
                 'id' => 'facebook-official',
                 'unicode' => 'f230',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -6577,7 +6577,7 @@ return [
                 'name' => 'Pinterest P',
                 'id' => 'pinterest-p',
                 'unicode' => 'f231',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -6586,7 +6586,7 @@ return [
                 'name' => 'What\'s App',
                 'id' => 'whatsapp',
                 'unicode' => 'f232',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -6595,7 +6595,7 @@ return [
                 'name' => 'Server',
                 'id' => 'server',
                 'unicode' => 'f233',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -6604,7 +6604,7 @@ return [
                 'name' => 'Add User',
                 'id' => 'user-plus',
                 'unicode' => 'f234',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'filter' => [
                     0 => 'sign up',
                     1 => 'signup'
@@ -6617,7 +6617,7 @@ return [
                 'name' => 'Remove User',
                 'id' => 'user-times',
                 'unicode' => 'f235',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -6626,7 +6626,7 @@ return [
                 'name' => 'Bed',
                 'id' => 'bed',
                 'unicode' => 'f236',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'filter' => [
                     0 => 'travel'
                 ],
@@ -6641,7 +6641,7 @@ return [
                 'name' => 'Viacoin',
                 'id' => 'viacoin',
                 'unicode' => 'f237',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'url' => 'viacoin.org',
                 'categories' => [
                     0 => 'Brand Icons'
@@ -6651,7 +6651,7 @@ return [
                 'name' => 'Train',
                 'id' => 'train',
                 'unicode' => 'f238',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'categories' => [
                     0 => 'Transportation Icons'
                 ]
@@ -6660,7 +6660,7 @@ return [
                 'name' => 'Subway',
                 'id' => 'subway',
                 'unicode' => 'f239',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'categories' => [
                     0 => 'Transportation Icons'
                 ]
@@ -6669,7 +6669,7 @@ return [
                 'name' => 'Medium',
                 'id' => 'medium',
                 'unicode' => 'f23a',
-                'created' => 4.29999999999999982236431605997495353221893310546875,
+                'created' => 4.3,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -6678,7 +6678,7 @@ return [
                 'name' => 'Y Combinator',
                 'id' => 'y-combinator',
                 'unicode' => 'f23b',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'aliases' => [
                     0 => 'yc'
                 ],
@@ -6690,7 +6690,7 @@ return [
                 'name' => 'Optin Monster',
                 'id' => 'optin-monster',
                 'unicode' => 'f23c',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'url' => 'optinmonster.com',
                 'categories' => [
                     0 => 'Brand Icons'
@@ -6700,7 +6700,7 @@ return [
                 'name' => 'OpenCart',
                 'id' => 'opencart',
                 'unicode' => 'f23d',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'url' => 'opencart.com',
                 'categories' => [
                     0 => 'Brand Icons'
@@ -6710,7 +6710,7 @@ return [
                 'name' => 'ExpeditedSSL',
                 'id' => 'expeditedssl',
                 'unicode' => 'f23e',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -6719,7 +6719,7 @@ return [
                 'name' => 'Battery Full',
                 'id' => 'battery-full',
                 'unicode' => 'f240',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'aliases' => [
                     0 => 'battery-4',
                     1 => 'battery'
@@ -6735,7 +6735,7 @@ return [
                 'name' => 'Battery 3/4 Full',
                 'id' => 'battery-three-quarters',
                 'unicode' => 'f241',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'aliases' => [
                     0 => 'battery-3'
                 ],
@@ -6750,7 +6750,7 @@ return [
                 'name' => 'Battery 1/2 Full',
                 'id' => 'battery-half',
                 'unicode' => 'f242',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'aliases' => [
                     0 => 'battery-2'
                 ],
@@ -6765,7 +6765,7 @@ return [
                 'name' => 'Battery 1/4 Full',
                 'id' => 'battery-quarter',
                 'unicode' => 'f243',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'aliases' => [
                     0 => 'battery-1'
                 ],
@@ -6780,7 +6780,7 @@ return [
                 'name' => 'Battery Empty',
                 'id' => 'battery-empty',
                 'unicode' => 'f244',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'aliases' => [
                     0 => 'battery-0'
                 ],
@@ -6795,7 +6795,7 @@ return [
                 'name' => 'Mouse Pointer',
                 'id' => 'mouse-pointer',
                 'unicode' => 'f245',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -6804,7 +6804,7 @@ return [
                 'name' => 'I Beam Cursor',
                 'id' => 'i-cursor',
                 'unicode' => 'f246',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -6813,7 +6813,7 @@ return [
                 'name' => 'Object Group',
                 'id' => 'object-group',
                 'unicode' => 'f247',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -6822,7 +6822,7 @@ return [
                 'name' => 'Object Ungroup',
                 'id' => 'object-ungroup',
                 'unicode' => 'f248',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -6831,7 +6831,7 @@ return [
                 'name' => 'Sticky Note',
                 'id' => 'sticky-note',
                 'unicode' => 'f249',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -6840,7 +6840,7 @@ return [
                 'name' => 'Sticky Note Outlined',
                 'id' => 'sticky-note-o',
                 'unicode' => 'f24a',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -6849,7 +6849,7 @@ return [
                 'name' => 'JCB Credit Card',
                 'id' => 'cc-jcb',
                 'unicode' => 'f24b',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Brand Icons',
                     1 => 'Payment Icons'
@@ -6859,7 +6859,7 @@ return [
                 'name' => 'Diner\'s Club Credit Card',
                 'id' => 'cc-diners-club',
                 'unicode' => 'f24c',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Brand Icons',
                     1 => 'Payment Icons'
@@ -6869,7 +6869,7 @@ return [
                 'name' => 'Clone',
                 'id' => 'clone',
                 'unicode' => 'f24d',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'filter' => [
                     0 => 'copy'
                 ],
@@ -6881,7 +6881,7 @@ return [
                 'name' => 'Balance Scale',
                 'id' => 'balance-scale',
                 'unicode' => 'f24e',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -6890,7 +6890,7 @@ return [
                 'name' => 'Hourglass Outlined',
                 'id' => 'hourglass-o',
                 'unicode' => 'f250',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -6899,7 +6899,7 @@ return [
                 'name' => 'Hourglass Start',
                 'id' => 'hourglass-start',
                 'unicode' => 'f251',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'aliases' => [
                     0 => 'hourglass-1'
                 ],
@@ -6911,7 +6911,7 @@ return [
                 'name' => 'Hourglass Half',
                 'id' => 'hourglass-half',
                 'unicode' => 'f252',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'aliases' => [
                     0 => 'hourglass-2'
                 ],
@@ -6923,7 +6923,7 @@ return [
                 'name' => 'Hourglass End',
                 'id' => 'hourglass-end',
                 'unicode' => 'f253',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'aliases' => [
                     0 => 'hourglass-3'
                 ],
@@ -6935,7 +6935,7 @@ return [
                 'name' => 'Hourglass',
                 'id' => 'hourglass',
                 'unicode' => 'f254',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -6944,7 +6944,7 @@ return [
                 'name' => 'Rock (Hand)',
                 'id' => 'hand-rock-o',
                 'unicode' => 'f255',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'aliases' => [
                     0 => 'hand-grab-o'
                 ],
@@ -6957,7 +6957,7 @@ return [
                 'name' => 'Paper (Hand)',
                 'id' => 'hand-paper-o',
                 'unicode' => 'f256',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'aliases' => [
                     0 => 'hand-stop-o'
                 ],
@@ -6973,7 +6973,7 @@ return [
                 'name' => 'Scissors (Hand)',
                 'id' => 'hand-scissors-o',
                 'unicode' => 'f257',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Web Application Icons',
                     1 => 'Hand Icons'
@@ -6983,7 +6983,7 @@ return [
                 'name' => 'Lizard (Hand)',
                 'id' => 'hand-lizard-o',
                 'unicode' => 'f258',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Web Application Icons',
                     1 => 'Hand Icons'
@@ -6993,7 +6993,7 @@ return [
                 'name' => 'Spock (Hand)',
                 'id' => 'hand-spock-o',
                 'unicode' => 'f259',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Web Application Icons',
                     1 => 'Hand Icons'
@@ -7003,7 +7003,7 @@ return [
                 'name' => 'Hand Pointer',
                 'id' => 'hand-pointer-o',
                 'unicode' => 'f25a',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Web Application Icons',
                     1 => 'Hand Icons'
@@ -7013,7 +7013,7 @@ return [
                 'name' => 'Hand Peace',
                 'id' => 'hand-peace-o',
                 'unicode' => 'f25b',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Web Application Icons',
                     1 => 'Hand Icons'
@@ -7023,7 +7023,7 @@ return [
                 'name' => 'Trademark',
                 'id' => 'trademark',
                 'unicode' => 'f25c',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -7032,7 +7032,7 @@ return [
                 'name' => 'Registered Trademark',
                 'id' => 'registered',
                 'unicode' => 'f25d',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -7041,7 +7041,7 @@ return [
                 'name' => 'Creative Commons',
                 'id' => 'creative-commons',
                 'unicode' => 'f25e',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -7050,7 +7050,7 @@ return [
                 'name' => 'GG Currency',
                 'id' => 'gg',
                 'unicode' => 'f260',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Currency Icons',
                     1 => 'Brand Icons'
@@ -7060,7 +7060,7 @@ return [
                 'name' => 'GG Currency Circle',
                 'id' => 'gg-circle',
                 'unicode' => 'f261',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Currency Icons',
                     1 => 'Brand Icons'
@@ -7070,7 +7070,7 @@ return [
                 'name' => 'TripAdvisor',
                 'id' => 'tripadvisor',
                 'unicode' => 'f262',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -7079,7 +7079,7 @@ return [
                 'name' => 'Odnoklassniki',
                 'id' => 'odnoklassniki',
                 'unicode' => 'f263',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -7088,7 +7088,7 @@ return [
                 'name' => 'Odnoklassniki Square',
                 'id' => 'odnoklassniki-square',
                 'unicode' => 'f264',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -7097,7 +7097,7 @@ return [
                 'name' => 'Get Pocket',
                 'id' => 'get-pocket',
                 'unicode' => 'f265',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -7106,7 +7106,7 @@ return [
                 'name' => 'Wikipedia W',
                 'id' => 'wikipedia-w',
                 'unicode' => 'f266',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -7115,7 +7115,7 @@ return [
                 'name' => 'Safari',
                 'id' => 'safari',
                 'unicode' => 'f267',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'filter' => [
                     0 => 'browser'
                 ],
@@ -7127,7 +7127,7 @@ return [
                 'name' => 'Chrome',
                 'id' => 'chrome',
                 'unicode' => 'f268',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'filter' => [
                     0 => 'browser'
                 ],
@@ -7139,7 +7139,7 @@ return [
                 'name' => 'Firefox',
                 'id' => 'firefox',
                 'unicode' => 'f269',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'filter' => [
                     0 => 'browser'
                 ],
@@ -7151,7 +7151,7 @@ return [
                 'name' => 'Opera',
                 'id' => 'opera',
                 'unicode' => 'f26a',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -7160,7 +7160,7 @@ return [
                 'name' => 'Internet-explorer',
                 'id' => 'internet-explorer',
                 'unicode' => 'f26b',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'filter' => [
                     0 => 'browser',
                     1 => 'ie'
@@ -7173,7 +7173,7 @@ return [
                 'name' => 'Television',
                 'id' => 'television',
                 'unicode' => 'f26c',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'aliases' => [
                     0 => 'tv'
                 ],
@@ -7190,7 +7190,7 @@ return [
                 'name' => 'Contao',
                 'id' => 'contao',
                 'unicode' => 'f26d',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -7199,7 +7199,7 @@ return [
                 'name' => '500px',
                 'id' => '500px',
                 'unicode' => 'f26e',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -7208,7 +7208,7 @@ return [
                 'name' => 'Amazon',
                 'id' => 'amazon',
                 'unicode' => 'f270',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -7217,7 +7217,7 @@ return [
                 'name' => 'Calendar Plus Outlined',
                 'id' => 'calendar-plus-o',
                 'unicode' => 'f271',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -7226,7 +7226,7 @@ return [
                 'name' => 'Calendar Minus Outlined',
                 'id' => 'calendar-minus-o',
                 'unicode' => 'f272',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -7235,7 +7235,7 @@ return [
                 'name' => 'Calendar Times Outlined',
                 'id' => 'calendar-times-o',
                 'unicode' => 'f273',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -7244,7 +7244,7 @@ return [
                 'name' => 'Calendar Check Outlined',
                 'id' => 'calendar-check-o',
                 'unicode' => 'f274',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'filter' => [
                     0 => 'ok'
                 ],
@@ -7256,7 +7256,7 @@ return [
                 'name' => 'Industry',
                 'id' => 'industry',
                 'unicode' => 'f275',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'filter' => [
                     0 => 'factory'
                 ],
@@ -7268,7 +7268,7 @@ return [
                 'name' => 'Map Pin',
                 'id' => 'map-pin',
                 'unicode' => 'f276',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -7277,7 +7277,7 @@ return [
                 'name' => 'Map Signs',
                 'id' => 'map-signs',
                 'unicode' => 'f277',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -7286,7 +7286,7 @@ return [
                 'name' => 'Map Outlined',
                 'id' => 'map-o',
                 'unicode' => 'f278',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -7295,7 +7295,7 @@ return [
                 'name' => 'Map',
                 'id' => 'map',
                 'unicode' => 'f279',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -7304,7 +7304,7 @@ return [
                 'name' => 'Commenting',
                 'id' => 'commenting',
                 'unicode' => 'f27a',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'filter' => [
                     0 => 'speech',
                     1 => 'notification',
@@ -7325,7 +7325,7 @@ return [
                 'name' => 'Commenting Outlined',
                 'id' => 'commenting-o',
                 'unicode' => 'f27b',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'filter' => [
                     0 => 'speech',
                     1 => 'notification',
@@ -7346,7 +7346,7 @@ return [
                 'name' => 'Houzz',
                 'id' => 'houzz',
                 'unicode' => 'f27c',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -7355,7 +7355,7 @@ return [
                 'name' => 'Vimeo',
                 'id' => 'vimeo',
                 'unicode' => 'f27d',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -7364,7 +7364,7 @@ return [
                 'name' => 'Font Awesome Black Tie',
                 'id' => 'black-tie',
                 'unicode' => 'f27e',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'url' => 'blacktie.io',
                 'categories' => [
                     0 => 'Brand Icons'
@@ -7374,7 +7374,7 @@ return [
                 'name' => 'Fonticons',
                 'id' => 'fonticons',
                 'unicode' => 'f280',
-                'created' => 4.4000000000000003552713678800500929355621337890625,
+                'created' => 4.4,
                 'url' => 'fonticons.com',
                 'categories' => [
                     0 => 'Brand Icons'
@@ -7582,7 +7582,7 @@ return [
                 'name' => 'GitLab',
                 'id' => 'gitlab',
                 'unicode' => 'f296',
-                'created' => 4.5999999999999996447286321199499070644378662109375,
+                'created' => 4.6,
                 'url' => 'gitlab.com',
                 'categories' => [
                     0 => 'Brand Icons'
@@ -7592,7 +7592,7 @@ return [
                 'name' => 'WPBeginner',
                 'id' => 'wpbeginner',
                 'unicode' => 'f297',
-                'created' => 4.5999999999999996447286321199499070644378662109375,
+                'created' => 4.6,
                 'url' => 'wpbeginner.com',
                 'categories' => [
                     0 => 'Brand Icons'
@@ -7602,7 +7602,7 @@ return [
                 'name' => 'WPForms',
                 'id' => 'wpforms',
                 'unicode' => 'f298',
-                'created' => 4.5999999999999996447286321199499070644378662109375,
+                'created' => 4.6,
                 'url' => 'wpforms.com',
                 'categories' => [
                     0 => 'Brand Icons'
@@ -7612,7 +7612,7 @@ return [
                 'name' => 'Envira Gallery',
                 'id' => 'envira',
                 'unicode' => 'f299',
-                'created' => 4.5999999999999996447286321199499070644378662109375,
+                'created' => 4.6,
                 'url' => 'enviragallery.com',
                 'filter' => [
                     0 => 'leaf'
@@ -7625,7 +7625,7 @@ return [
                 'name' => 'Universal Access',
                 'id' => 'universal-access',
                 'unicode' => 'f29a',
-                'created' => 4.5999999999999996447286321199499070644378662109375,
+                'created' => 4.6,
                 'categories' => [
                     0 => 'Web Application Icons',
                     1 => 'Accessibility Icons'
@@ -7635,7 +7635,7 @@ return [
                 'name' => 'Wheelchair Alt',
                 'id' => 'wheelchair-alt',
                 'unicode' => 'f29b',
-                'created' => 4.5999999999999996447286321199499070644378662109375,
+                'created' => 4.6,
                 'filter' => [
                     0 => 'handicap',
                     1 => 'person'
@@ -7651,7 +7651,7 @@ return [
                 'name' => 'Question Circle Outlined',
                 'id' => 'question-circle-o',
                 'unicode' => 'f29c',
-                'created' => 4.5999999999999996447286321199499070644378662109375,
+                'created' => 4.6,
                 'categories' => [
                     0 => 'Web Application Icons',
                     1 => 'Accessibility Icons'
@@ -7661,7 +7661,7 @@ return [
                 'name' => 'Blind',
                 'id' => 'blind',
                 'unicode' => 'f29d',
-                'created' => 4.5999999999999996447286321199499070644378662109375,
+                'created' => 4.6,
                 'categories' => [
                     0 => 'Web Application Icons',
                     1 => 'Accessibility Icons'
@@ -7671,7 +7671,7 @@ return [
                 'name' => 'Audio Description',
                 'id' => 'audio-description',
                 'unicode' => 'f29e',
-                'created' => 4.5999999999999996447286321199499070644378662109375,
+                'created' => 4.6,
                 'categories' => [
                     0 => 'Web Application Icons',
                     1 => 'Accessibility Icons'
@@ -7681,7 +7681,7 @@ return [
                 'name' => 'Volume Control Phone',
                 'id' => 'volume-control-phone',
                 'unicode' => 'f2a0',
-                'created' => 4.5999999999999996447286321199499070644378662109375,
+                'created' => 4.6,
                 'filter' => [
                     0 => 'telephone'
                 ],
@@ -7694,7 +7694,7 @@ return [
                 'name' => 'Braille',
                 'id' => 'braille',
                 'unicode' => 'f2a1',
-                'created' => 4.5999999999999996447286321199499070644378662109375,
+                'created' => 4.6,
                 'categories' => [
                     0 => 'Web Application Icons',
                     1 => 'Accessibility Icons'
@@ -7704,7 +7704,7 @@ return [
                 'name' => 'Assistive Listening Systems',
                 'id' => 'assistive-listening-systems',
                 'unicode' => 'f2a2',
-                'created' => 4.5999999999999996447286321199499070644378662109375,
+                'created' => 4.6,
                 'categories' => [
                     0 => 'Web Application Icons',
                     1 => 'Accessibility Icons'
@@ -7714,7 +7714,7 @@ return [
                 'name' => 'American Sign Language Interpreting',
                 'id' => 'american-sign-language-interpreting',
                 'unicode' => 'f2a3',
-                'created' => 4.5999999999999996447286321199499070644378662109375,
+                'created' => 4.6,
                 'aliases' => [
                     0 => 'asl-interpreting'
                 ],
@@ -7727,7 +7727,7 @@ return [
                 'name' => 'Deaf',
                 'id' => 'deaf',
                 'unicode' => 'f2a4',
-                'created' => 4.5999999999999996447286321199499070644378662109375,
+                'created' => 4.6,
                 'aliases' => [
                     0 => 'deafness',
                     1 => 'hard-of-hearing'
@@ -7741,7 +7741,7 @@ return [
                 'name' => 'Glide',
                 'id' => 'glide',
                 'unicode' => 'f2a5',
-                'created' => 4.5999999999999996447286321199499070644378662109375,
+                'created' => 4.6,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -7750,7 +7750,7 @@ return [
                 'name' => 'Glide G',
                 'id' => 'glide-g',
                 'unicode' => 'f2a6',
-                'created' => 4.5999999999999996447286321199499070644378662109375,
+                'created' => 4.6,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -7759,7 +7759,7 @@ return [
                 'name' => 'Sign Language',
                 'id' => 'sign-language',
                 'unicode' => 'f2a7',
-                'created' => 4.5999999999999996447286321199499070644378662109375,
+                'created' => 4.6,
                 'aliases' => [
                     0 => 'signing'
                 ],
@@ -7772,7 +7772,7 @@ return [
                 'name' => 'Low Vision',
                 'id' => 'low-vision',
                 'unicode' => 'f2a8',
-                'created' => 4.5999999999999996447286321199499070644378662109375,
+                'created' => 4.6,
                 'categories' => [
                     0 => 'Web Application Icons',
                     1 => 'Accessibility Icons'
@@ -7782,7 +7782,7 @@ return [
                 'name' => 'Viadeo',
                 'id' => 'viadeo',
                 'unicode' => 'f2a9',
-                'created' => 4.5999999999999996447286321199499070644378662109375,
+                'created' => 4.6,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -7791,7 +7791,7 @@ return [
                 'name' => 'Viadeo Square',
                 'id' => 'viadeo-square',
                 'unicode' => 'f2aa',
-                'created' => 4.5999999999999996447286321199499070644378662109375,
+                'created' => 4.6,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -7800,7 +7800,7 @@ return [
                 'name' => 'Snapchat',
                 'id' => 'snapchat',
                 'unicode' => 'f2ab',
-                'created' => 4.5999999999999996447286321199499070644378662109375,
+                'created' => 4.6,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -7809,7 +7809,7 @@ return [
                 'name' => 'Snapchat Ghost',
                 'id' => 'snapchat-ghost',
                 'unicode' => 'f2ac',
-                'created' => 4.5999999999999996447286321199499070644378662109375,
+                'created' => 4.6,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -7818,7 +7818,7 @@ return [
                 'name' => 'Snapchat Square',
                 'id' => 'snapchat-square',
                 'unicode' => 'f2ad',
-                'created' => 4.5999999999999996447286321199499070644378662109375,
+                'created' => 4.6,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -7827,7 +7827,7 @@ return [
                 'name' => 'Pied Piper Logo',
                 'id' => 'pied-piper',
                 'unicode' => 'f2ae',
-                'created' => 4.5999999999999996447286321199499070644378662109375,
+                'created' => 4.6,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -7836,7 +7836,7 @@ return [
                 'name' => 'First Order',
                 'id' => 'first-order',
                 'unicode' => 'f2b0',
-                'created' => 4.5999999999999996447286321199499070644378662109375,
+                'created' => 4.6,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -7845,7 +7845,7 @@ return [
                 'name' => 'Yoast',
                 'id' => 'yoast',
                 'unicode' => 'f2b1',
-                'created' => 4.5999999999999996447286321199499070644378662109375,
+                'created' => 4.6,
                 'url' => 'yoast.com',
                 'categories' => [
                     0 => 'Brand Icons'
@@ -7855,7 +7855,7 @@ return [
                 'name' => 'ThemeIsle',
                 'id' => 'themeisle',
                 'unicode' => 'f2b2',
-                'created' => 4.5999999999999996447286321199499070644378662109375,
+                'created' => 4.6,
                 'url' => 'themeisle.com',
                 'categories' => [
                     0 => 'Brand Icons'
@@ -7865,7 +7865,7 @@ return [
                 'name' => 'Google Plus Official',
                 'id' => 'google-plus-official',
                 'unicode' => 'f2b3',
-                'created' => 4.5999999999999996447286321199499070644378662109375,
+                'created' => 4.6,
                 'aliases' => [
                     0 => 'google-plus-circle'
                 ],
@@ -7877,7 +7877,7 @@ return [
                 'name' => 'Font Awesome',
                 'id' => 'font-awesome',
                 'unicode' => 'f2b4',
-                'created' => 4.5999999999999996447286321199499070644378662109375,
+                'created' => 4.6,
                 'aliases' => [
                     0 => 'fa'
                 ],
@@ -7889,7 +7889,7 @@ return [
                 'name' => 'Handshake Outlined',
                 'id' => 'handshake-o',
                 'unicode' => 'f2b5',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -7898,7 +7898,7 @@ return [
                 'name' => 'Envelope Open',
                 'id' => 'envelope-open',
                 'unicode' => 'f2b6',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'filter' => [
                     0 => 'email',
                     1 => 'e-mail',
@@ -7916,7 +7916,7 @@ return [
                 'name' => 'Envelope Open Outlined',
                 'id' => 'envelope-open-o',
                 'unicode' => 'f2b7',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'filter' => [
                     0 => 'email',
                     1 => 'e-mail',
@@ -7934,7 +7934,7 @@ return [
                 'name' => 'Linode',
                 'id' => 'linode',
                 'unicode' => 'f2b8',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'url' => 'linode.com',
                 'categories' => [
                     0 => 'Brand Icons'
@@ -7944,7 +7944,7 @@ return [
                 'name' => 'Address Book',
                 'id' => 'address-book',
                 'unicode' => 'f2b9',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -7953,7 +7953,7 @@ return [
                 'name' => 'Address Book Outlined',
                 'id' => 'address-book-o',
                 'unicode' => 'f2ba',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -7962,7 +7962,7 @@ return [
                 'name' => 'Address Card',
                 'id' => 'address-card',
                 'unicode' => 'f2bb',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'aliases' => [
                     0 => 'vcard'
                 ],
@@ -7974,7 +7974,7 @@ return [
                 'name' => 'Address Card Outlined',
                 'id' => 'address-card-o',
                 'unicode' => 'f2bc',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'aliases' => [
                     0 => 'vcard-o'
                 ],
@@ -7986,7 +7986,7 @@ return [
                 'name' => 'User Circle',
                 'id' => 'user-circle',
                 'unicode' => 'f2bd',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -7995,7 +7995,7 @@ return [
                 'name' => 'User Circle Outlined',
                 'id' => 'user-circle-o',
                 'unicode' => 'f2be',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -8004,7 +8004,7 @@ return [
                 'name' => 'User Outlined',
                 'id' => 'user-o',
                 'unicode' => 'f2c0',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -8013,7 +8013,7 @@ return [
                 'name' => 'Identification Badge',
                 'id' => 'id-badge',
                 'unicode' => 'f2c1',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -8022,7 +8022,7 @@ return [
                 'name' => 'Identification Card',
                 'id' => 'id-card',
                 'unicode' => 'f2c2',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'aliases' => [
                     0 => 'drivers-license'
                 ],
@@ -8034,7 +8034,7 @@ return [
                 'name' => 'Identification Card Outlined',
                 'id' => 'id-card-o',
                 'unicode' => 'f2c3',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'aliases' => [
                     0 => 'drivers-license-o'
                 ],
@@ -8046,7 +8046,7 @@ return [
                 'name' => 'Quora',
                 'id' => 'quora',
                 'unicode' => 'f2c4',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -8055,7 +8055,7 @@ return [
                 'name' => 'Free Code Camp',
                 'id' => 'free-code-camp',
                 'unicode' => 'f2c5',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -8064,7 +8064,7 @@ return [
                 'name' => 'Telegram',
                 'id' => 'telegram',
                 'unicode' => 'f2c6',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -8073,7 +8073,7 @@ return [
                 'name' => 'Thermometer Full',
                 'id' => 'thermometer-full',
                 'unicode' => 'f2c7',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'aliases' => [
                     0 => 'thermometer-4',
                     1 => 'thermometer'
@@ -8086,7 +8086,7 @@ return [
                 'name' => 'Thermometer 3/4 Full',
                 'id' => 'thermometer-three-quarters',
                 'unicode' => 'f2c8',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'aliases' => [
                     0 => 'thermometer-3'
                 ],
@@ -8098,7 +8098,7 @@ return [
                 'name' => 'Thermometer 1/2 Full',
                 'id' => 'thermometer-half',
                 'unicode' => 'f2c9',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'aliases' => [
                     0 => 'thermometer-2'
                 ],
@@ -8110,7 +8110,7 @@ return [
                 'name' => 'Thermometer 1/4 Full',
                 'id' => 'thermometer-quarter',
                 'unicode' => 'f2ca',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'aliases' => [
                     0 => 'thermometer-1'
                 ],
@@ -8122,7 +8122,7 @@ return [
                 'name' => 'Thermometer Empty',
                 'id' => 'thermometer-empty',
                 'unicode' => 'f2cb',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'aliases' => [
                     0 => 'thermometer-0'
                 ],
@@ -8134,7 +8134,7 @@ return [
                 'name' => 'Shower',
                 'id' => 'shower',
                 'unicode' => 'f2cc',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -8143,7 +8143,7 @@ return [
                 'name' => 'Bath',
                 'id' => 'bath',
                 'unicode' => 'f2cd',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'aliases' => [
                     0 => 'bathtub',
                     1 => 's15'
@@ -8156,7 +8156,7 @@ return [
                 'name' => 'Podcast',
                 'id' => 'podcast',
                 'unicode' => 'f2ce',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -8165,7 +8165,7 @@ return [
                 'name' => 'Window Maximize',
                 'id' => 'window-maximize',
                 'unicode' => 'f2d0',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -8174,7 +8174,7 @@ return [
                 'name' => 'Window Minimize',
                 'id' => 'window-minimize',
                 'unicode' => 'f2d1',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -8183,7 +8183,7 @@ return [
                 'name' => 'Window Restore',
                 'id' => 'window-restore',
                 'unicode' => 'f2d2',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -8192,7 +8192,7 @@ return [
                 'name' => 'Window Close',
                 'id' => 'window-close',
                 'unicode' => 'f2d3',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'aliases' => [
                     0 => 'times-rectangle'
                 ],
@@ -8204,7 +8204,7 @@ return [
                 'name' => 'Window Close Outline',
                 'id' => 'window-close-o',
                 'unicode' => 'f2d4',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'aliases' => [
                     0 => 'times-rectangle-o'
                 ],
@@ -8216,7 +8216,7 @@ return [
                 'name' => 'Bandcamp',
                 'id' => 'bandcamp',
                 'unicode' => 'f2d5',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -8225,7 +8225,7 @@ return [
                 'name' => 'Grav',
                 'id' => 'grav',
                 'unicode' => 'f2d6',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -8234,7 +8234,7 @@ return [
                 'name' => 'Etsy',
                 'id' => 'etsy',
                 'unicode' => 'f2d7',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -8243,7 +8243,7 @@ return [
                 'name' => 'IMDB',
                 'id' => 'imdb',
                 'unicode' => 'f2d8',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -8252,7 +8252,7 @@ return [
                 'name' => 'Ravelry',
                 'id' => 'ravelry',
                 'unicode' => 'f2d9',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]
@@ -8261,7 +8261,7 @@ return [
                 'name' => 'Eercast',
                 'id' => 'eercast',
                 'unicode' => 'f2da',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'url' => 'eercast.com',
                 'categories' => [
                     0 => 'Brand Icons'
@@ -8271,7 +8271,7 @@ return [
                 'name' => 'Microchip',
                 'id' => 'microchip',
                 'unicode' => 'f2db',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -8280,7 +8280,7 @@ return [
                 'name' => 'Snowflake Outlined',
                 'id' => 'snowflake-o',
                 'unicode' => 'f2dc',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'categories' => [
                     0 => 'Web Application Icons'
                 ]
@@ -8289,7 +8289,7 @@ return [
                 'name' => 'Superpowers',
                 'id' => 'superpowers',
                 'unicode' => 'f2dd',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'url' => 'superpowers.io',
                 'categories' => [
                     0 => 'Brand Icons'
@@ -8299,7 +8299,7 @@ return [
                 'name' => 'WPExplorer',
                 'id' => 'wpexplorer',
                 'unicode' => 'f2de',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'url' => 'wpexplorer.com',
                 'categories' => [
                     0 => 'Brand Icons'
@@ -8309,7 +8309,7 @@ return [
                 'name' => 'Meetup',
                 'id' => 'meetup',
                 'unicode' => 'f2e0',
-                'created' => 4.70000000000000017763568394002504646778106689453125,
+                'created' => 4.7,
                 'categories' => [
                     0 => 'Brand Icons'
                 ]

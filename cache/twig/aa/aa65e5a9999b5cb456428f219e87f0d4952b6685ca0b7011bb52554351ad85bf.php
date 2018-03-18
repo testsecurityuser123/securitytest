@@ -57,30 +57,39 @@ class __TwigTemplate_201434e9003737d3b4891dab5b490811d4e1632879e1e92460c75b4364f
 \t\t<div class=\"home-work-feed\">
 
 \t\t\t<ul>
+\t\t\t\t<li>
+\t\t\t\t\t<a href=\"https://nomics.com/\" target=\"_blank\">
+\t\t\t\t\t\t<div class=\"work-item-background\">
+\t\t\t\t\t\t\t<h3 class=\"coming-soon\">Nomics</h3>
+\t\t\t\t\t\t</div>
+\t\t\t\t\t\t<div class=\"work-item-background-image nomics-bkg-img\"></div>
+\t\t\t\t\t</a>
+\t\t\t\t</li>
+
 \t\t\t";
-        // line 26
+        // line 35
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute(($context["taxonomy"] ?? null), "findTaxonomy", array(0 => array("category" => "work")), "method"));
         foreach ($context['_seq'] as $context["_key"] => $context["p"]) {
-            // line 27
+            // line 36
             echo "\t\t\t\t";
             $context["first_image"] = twig_first($this->env, $this->getAttribute($this->getAttribute($context["p"], "media", array()), "images", array()));
-            // line 28
+            // line 37
             echo "\t\t\t\t<li>
 \t\t\t\t\t<a href=\"";
-            // line 29
+            // line 38
             echo $this->getAttribute($context["p"], "url", array());
             echo "\" class=\"link\">
 \t\t\t\t\t\t<div class=\"work-item-background\">
 \t\t\t\t\t\t\t<h3>";
-            // line 31
+            // line 40
             echo $this->getAttribute($context["p"], "title", array());
             echo "</h3>
 \t\t\t\t\t\t\t";
-            // line 33
+            // line 42
             echo "\t\t\t\t\t\t</div>
 \t\t\t\t\t\t<div class=\"work-item-background-image\" style=\"background-image: url(' ";
-            // line 34
+            // line 43
             echo $this->getAttribute(($context["first_image"] ?? null), "url", array());
             echo " ');\"></div>
 \t\t\t\t\t</a>
@@ -90,7 +99,7 @@ class __TwigTemplate_201434e9003737d3b4891dab5b490811d4e1632879e1e92460c75b4364f
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['p'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 38
+        // line 47
         echo "
 \t\t\t</ul>
 \t\t</div>
@@ -101,25 +110,25 @@ class __TwigTemplate_201434e9003737d3b4891dab5b490811d4e1632879e1e92460c75b4364f
 
 \t\t\t<div class=\"home-about-main-container\">
 \t\t\t\t<h3>";
-        // line 47
+        // line 56
         echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array()), "about_title", array());
         echo "</h3>
 \t\t\t\t<p>";
-        // line 48
+        // line 57
         echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array()), "about_description", array());
         echo "</p>
 
 
 \t\t\t\t<div class=\"home-about-social-container\">
 \t\t\t\t";
-        // line 52
+        // line 61
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array()), "about_social", array()));
         foreach ($context['_seq'] as $context["_key"] => $context["social"]) {
-            // line 53
+            // line 62
             echo "\t\t\t\t\t\t";
             if ($this->getAttribute($context["social"], "url", array())) {
-                // line 54
+                // line 63
                 echo "\t\t\t\t\t\t\t<a href=\"";
                 echo $this->getAttribute($context["social"], "url", array());
                 echo "\" class=\"home-about-social social-";
@@ -129,54 +138,54 @@ class __TwigTemplate_201434e9003737d3b4891dab5b490811d4e1632879e1e92460c75b4364f
                 echo "</a>
 \t\t\t\t\t\t";
             }
-            // line 56
+            // line 65
             echo "\t\t\t\t";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['social'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 57
+        // line 66
         echo "\t\t\t\t</div>
 \t\t\t</div>
 
 \t\t\t<div class=\"home-about-side-container\">
 \t\t\t\t";
-        // line 61
+        // line 70
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array()), "about_sidebar", array()));
         foreach ($context['_seq'] as $context["_key"] => $context["attribute"]) {
-            // line 62
+            // line 71
             echo "\t\t\t\t\t<div class=\"home-about-sidebar\">
 \t\t\t\t\t\t";
-            // line 63
+            // line 72
             if ($this->getAttribute($context["attribute"], "title", array())) {
-                // line 64
+                // line 73
                 echo "\t\t\t\t\t\t\t<h6>";
                 echo $this->getAttribute($context["attribute"], "title", array());
                 echo "</h6>
 \t\t\t\t\t\t";
             }
-            // line 66
+            // line 75
             echo "\t\t\t\t\t\t";
             if ($this->getAttribute($context["attribute"], "description", array())) {
-                // line 67
+                // line 76
                 echo "\t\t\t\t\t\t\t<p>";
                 echo $this->getAttribute($context["attribute"], "description", array());
                 echo "</p>
 \t\t\t\t\t\t";
             }
-            // line 69
+            // line 78
             echo "\t\t\t\t\t</div>
 \t\t\t\t";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['attribute'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 71
+        // line 80
         echo "\t\t\t</div>
 \t\t</div>
 \t\t<div class=\"home-about-background-image\" style=\"background-image: url(' ";
-        // line 73
+        // line 82
         echo $this->getAttribute(($context["header"] ?? null), "about_background_img", array());
         echo " ');\" data-0-end=\"transform:scale(1.05);opacity:0.05;z-index:1;\" data-600-end=\"transform:scale(1);opacity:0.0;z-index:0\"></div>
 \t</section>
@@ -196,7 +205,7 @@ class __TwigTemplate_201434e9003737d3b4891dab5b490811d4e1632879e1e92460c75b4364f
 
     public function getDebugInfo()
     {
-        return array (  180 => 73,  176 => 71,  169 => 69,  163 => 67,  160 => 66,  154 => 64,  152 => 63,  149 => 62,  145 => 61,  139 => 57,  133 => 56,  123 => 54,  120 => 53,  116 => 52,  109 => 48,  105 => 47,  94 => 38,  84 => 34,  81 => 33,  77 => 31,  72 => 29,  69 => 28,  66 => 27,  62 => 26,  51 => 19,  41 => 10,  35 => 6,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  189 => 82,  185 => 80,  178 => 78,  172 => 76,  169 => 75,  163 => 73,  161 => 72,  158 => 71,  154 => 70,  148 => 66,  142 => 65,  132 => 63,  129 => 62,  125 => 61,  118 => 57,  114 => 56,  103 => 47,  93 => 43,  90 => 42,  86 => 40,  81 => 38,  78 => 37,  75 => 36,  71 => 35,  51 => 19,  41 => 10,  35 => 6,  31 => 4,  28 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -234,6 +243,15 @@ class __TwigTemplate_201434e9003737d3b4891dab5b490811d4e1632879e1e92460c75b4364f
 \t\t<div class=\"home-work-feed\">
 
 \t\t\t<ul>
+\t\t\t\t<li>
+\t\t\t\t\t<a href=\"https://nomics.com/\" target=\"_blank\">
+\t\t\t\t\t\t<div class=\"work-item-background\">
+\t\t\t\t\t\t\t<h3 class=\"coming-soon\">Nomics</h3>
+\t\t\t\t\t\t</div>
+\t\t\t\t\t\t<div class=\"work-item-background-image nomics-bkg-img\"></div>
+\t\t\t\t\t</a>
+\t\t\t\t</li>
+
 \t\t\t{% for p in taxonomy.findTaxonomy({'category':'work'}) %}
 \t\t\t\t{% set first_image = p.media.images|first %}
 \t\t\t\t<li>

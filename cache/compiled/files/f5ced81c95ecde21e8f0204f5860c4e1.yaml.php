@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav/user/plugins/private/blueprints.yaml',
-    'modified' => 1506133339,
+    'modified' => 1521399627,
     'data' => [
         'name' => 'Private',
-        'version' => '1.0.8',
+        'version' => '1.0.9',
         'description' => 'Provide an authentication form to keep your Grav site or part of it private.',
         'icon' => 'lock',
         'author' => [

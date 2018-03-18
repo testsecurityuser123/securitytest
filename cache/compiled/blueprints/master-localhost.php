@@ -1,25 +1,25 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1507734668,
-    'checksum' => 'ea74477e1655d02f7b69bfa80c8f2075',
+    'timestamp' => 1521399636,
+    'checksum' => '417465a4ec03c2d9a1dba9eccb830225',
     'files' => [
         'system/blueprints/config' => [
             'media' => [
                 'file' => 'system/blueprints/config/media.yaml',
-                'modified' => 1506881450
+                'modified' => 1521399612
             ],
             'site' => [
                 'file' => 'system/blueprints/config/site.yaml',
-                'modified' => 1506881450
+                'modified' => 1521399612
             ],
             'streams' => [
                 'file' => 'system/blueprints/config/streams.yaml',
-                'modified' => 1506881450
+                'modified' => 1521399612
             ],
             'system' => [
                 'file' => 'system/blueprints/config/system.yaml',
-                'modified' => 1506881450
+                'modified' => 1521399612
             ]
         ],
         'user/plugins' => [
@@ -29,11 +29,11 @@ return [
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/blueprints.yaml',
-                'modified' => 1506881484
+                'modified' => 1521399636
             ],
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/blueprints.yaml',
-                'modified' => 1507045266
+                'modified' => 1521399633
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/blueprints.yaml',
@@ -41,7 +41,7 @@ return [
             ],
             'plugins/private' => [
                 'file' => 'user/plugins/private/blueprints.yaml',
-                'modified' => 1506133339
+                'modified' => 1521399627
             ],
             'plugins/view' => [
                 'file' => 'user/plugins/view/blueprints.yaml',
@@ -49,15 +49,15 @@ return [
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/blueprints.yaml',
-                'modified' => 1483678667
+                'modified' => 1521399626
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/blueprints.yaml',
-                'modified' => 1506881487
+                'modified' => 1521399630
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/blueprints.yaml',
-                'modified' => 1506881491
+                'modified' => 1521399629
             ]
         ]
     ],
@@ -1432,17 +1432,6 @@ return [
                 'name' => 'system.media',
                 'validation' => 'loose'
             ],
-            'system.media.upload_limit' => [
-                'type' => 'text',
-                'append' => 'bytes',
-                'label' => 'PLUGIN_ADMIN.UPLOAD_LIMIT',
-                'classes' => 'small',
-                'validate' => [
-                    'type' => 'number'
-                ],
-                'name' => 'system.media.upload_limit',
-                'validation' => 'loose'
-            ],
             'system.media.enable_media_timestamp' => [
                 'type' => 'toggle',
                 'label' => 'PLUGIN_ADMIN.ENABLE_MEDIA_TIMESTAMP',
@@ -1677,6 +1666,20 @@ return [
                 'name' => 'system.pwd_regex',
                 'validation' => 'loose'
             ],
+            'system.intl_enabled' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_ADMIN.INTL_ENABLED',
+                'highlight' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.YES',
+                    0 => 'PLUGIN_ADMIN.NO'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'system.intl_enabled',
+                'validation' => 'loose'
+            ],
             'system.wrapped_site' => [
                 'type' => 'toggle',
                 'label' => 'PLUGIN_ADMIN.WRAPPED_SITE',
@@ -1705,20 +1708,6 @@ return [
                 'name' => 'system.absolute_urls',
                 'validation' => 'loose'
             ],
-            'system.case_insensitive_urls' => [
-                'type' => 'toggle',
-                'label' => 'PLUGIN_ADMIN.CASE_INSENSITIVE_URLS',
-                'highlight' => 0,
-                'options' => [
-                    1 => 'PLUGIN_ADMIN.YES',
-                    0 => 'PLUGIN_ADMIN.NO'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'system.case_insensitive_urls',
-                'validation' => 'loose'
-            ],
             'system.param_sep' => [
                 'type' => 'select',
                 'size' => 'medium',
@@ -1744,6 +1733,21 @@ return [
                     'type' => 'bool'
                 ],
                 'name' => 'system.force_ssl',
+                'validation' => 'loose'
+            ],
+            'system.force_lowercase_urls' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_ADMIN.FORCE_LOWERCASE_URLS',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.YES',
+                    0 => 'PLUGIN_ADMIN.NO'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'system.force_lowercase_urls',
                 'validation' => 'loose'
             ],
             'system.custom_base_url' => [
@@ -2025,6 +2029,36 @@ return [
                 'name' => 'plugins.form.refresh_prevention',
                 'validation' => 'strict'
             ],
+            'plugins.form.client_side_validation' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_FORM.CLIENT_SIDE_VALIDATION',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'Enabled',
+                    0 => 'Disabled'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.form.client_side_validation',
+                'validation' => 'strict'
+            ],
+            'plugins.form.inline_errors' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_FORM.INLINE_ERRORS',
+                'highlight' => 0,
+                'default' => 0,
+                'options' => [
+                    1 => 'Enabled',
+                    0 => 'Disabled'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.form.inline_errors',
+                'validation' => 'strict'
+            ],
             'plugins.form.general' => [
                 'type' => 'section',
                 'name' => 'plugins.form.general',
@@ -2050,8 +2084,21 @@ return [
                 'name' => 'plugins.form.files.multiple',
                 'validation' => 'strict'
             ],
+            'plugins.form.files.limit' => [
+                'type' => 'text',
+                'size' => 'x-small',
+                'label' => 'PLUGIN_FORM.LIMIT',
+                'default' => 10,
+                'validate' => [
+                    'type' => 'number',
+                    'min' => 1
+                ],
+                'name' => 'plugins.form.files.limit',
+                'validation' => 'strict'
+            ],
             'plugins.form.files.destination' => [
                 'type' => 'text',
+                'size' => 'large',
                 'label' => 'PLUGIN_FORM.DESTINATION',
                 'default' => '@self',
                 'name' => 'plugins.form.files.destination',
@@ -2069,6 +2116,48 @@ return [
                     'type' => 'commalist'
                 ],
                 'name' => 'plugins.form.files.accept',
+                'validation' => 'strict'
+            ],
+            'plugins.form.files.filesize' => [
+                'type' => 'text',
+                'label' => 'PLUGIN_FORM.FILESIZE',
+                'size' => 'x-small',
+                'default' => 5,
+                'validate' => [
+                    'type' => 'number',
+                    'min' => 0
+                ],
+                'name' => 'plugins.form.files.filesize',
+                'validation' => 'strict'
+            ],
+            'plugins.form.files.avoid_overwriting' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_FORM.AVOID_OVERWRITING',
+                'highlight' => 0,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.form.files.avoid_overwriting',
+                'validation' => 'strict'
+            ],
+            'plugins.form.files.random_name' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_FORM.RANDOM_NAME',
+                'highlight' => 0,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.form.files.random_name',
                 'validation' => 'strict'
             ],
             'plugins.form.recaptcha' => [
@@ -2243,19 +2332,6 @@ return [
                 'name' => 'plugins.admin.edit_mode',
                 'validation' => 'loose'
             ],
-            'plugins.admin.frontend_pages_target' => [
-                'type' => 'select',
-                'label' => 'Open frontend pages in',
-                'size' => 'medium',
-                'default' => '_blank',
-                'options' => [
-                    '_blank' => 'New tab',
-                    'frontend_tab' => 'Separate tab (always the same)',
-                    '_self' => 'Current tab'
-                ],
-                'name' => 'plugins.admin.frontend_pages_target',
-                'validation' => 'loose'
-            ],
             'plugins.admin.pages' => [
                 'type' => '_parent',
                 'name' => 'plugins.admin.pages',
@@ -2274,11 +2350,18 @@ return [
                 'name' => 'plugins.admin.pages.show_parents',
                 'validation' => 'loose'
             ],
+            'plugins.admin.pages.parents_levels' => [
+                'type' => 'text',
+                'label' => 'Parents Levels',
+                'size' => 'small',
+                'name' => 'plugins.admin.pages.parents_levels',
+                'validation' => 'loose'
+            ],
             'plugins.admin.google_fonts' => [
                 'type' => 'toggle',
                 'label' => 'Use Google Fonts',
-                'highlight' => 1,
-                'default' => 1,
+                'highlight' => 0,
+                'default' => 0,
                 'options' => [
                     1 => 'PLUGIN_ADMIN.ENABLED',
                     0 => 'PLUGIN_ADMIN.DISABLED'
@@ -2287,6 +2370,18 @@ return [
                     'type' => 'bool'
                 ],
                 'name' => 'plugins.admin.google_fonts',
+                'validation' => 'loose'
+            ],
+            'plugins.admin.admin_icons' => [
+                'type' => 'select',
+                'size' => 'medium',
+                'label' => 'Icon Style',
+                'default' => 'line-awesome',
+                'options' => [
+                    'line-awesome' => 'Lighter Line Icons (LineAwesome)',
+                    'font-awesome' => 'Darker Solid Icons (FontAwesome)'
+                ],
+                'name' => 'plugins.admin.admin_icons',
                 'validation' => 'loose'
             ],
             'plugins.admin.show_beta_msg' => [
@@ -2797,6 +2892,21 @@ return [
                 'name' => 'plugins.login.parent_acl',
                 'validation' => 'loose'
             ],
+            'plugins.login.dynamic_page_visibility' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_LOGIN.DYNAMIC_VISIBILITY',
+                'highlight' => 0,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.login.dynamic_page_visibility',
+                'validation' => 'loose'
+            ],
             'plugins.login.protect_protected_page_media' => [
                 'type' => 'toggle',
                 'label' => 'PLUGIN_LOGIN.PROTECT_PROTECTED_PAGE_MEDIA_LABEL',
@@ -2894,7 +3004,7 @@ return [
             'plugins.login.user_registration.enabled' => [
                 'type' => 'toggle',
                 'label' => 'PLUGIN_ADMIN.ENABLED',
-                'highlight' => 1,
+                'highlight' => 0,
                 'options' => [
                     1 => 'PLUGIN_ADMIN.YES',
                     0 => 'PLUGIN_ADMIN.NO'
@@ -2992,7 +3102,7 @@ return [
             'plugins.login.user_registration.options.login_after_registration' => [
                 'type' => 'toggle',
                 'label' => 'PLUGIN_LOGIN.LOGIN_AFTER_REGISTRATION',
-                'highlight' => 1,
+                'highlight' => 0,
                 'options' => [
                     1 => 'PLUGIN_ADMIN.YES',
                     0 => 'PLUGIN_ADMIN.NO'
@@ -3146,8 +3256,7 @@ return [
                 'options' => [
                     'none' => 'Disabled',
                     'smtp' => 'SMTP',
-                    'sendmail' => 'Sendmail',
-                    'mail' => 'PHP Mail'
+                    'sendmail' => 'Sendmail'
                 ],
                 'name' => 'plugins.email.mailer.engine',
                 'validation' => 'loose'
@@ -3490,7 +3599,6 @@ return [
                     ]
                 ],
                 'media' => [
-                    'upload_limit' => 'system.media.upload_limit',
                     'enable_media_timestamp' => 'system.media.enable_media_timestamp',
                     'auto_metadata_exif' => 'system.media.auto_metadata_exif',
                     'allowed_fallback_types' => 'system.media.allowed_fallback_types',
@@ -3523,11 +3631,12 @@ return [
                 'reverse_proxy_setup' => 'system.reverse_proxy_setup',
                 'username_regex' => 'system.username_regex',
                 'pwd_regex' => 'system.pwd_regex',
+                'intl_enabled' => 'system.intl_enabled',
                 'wrapped_site' => 'system.wrapped_site',
                 'absolute_urls' => 'system.absolute_urls',
-                'case_insensitive_urls' => 'system.case_insensitive_urls',
                 'param_sep' => 'system.param_sep',
                 'force_ssl' => 'system.force_ssl',
+                'force_lowercase_urls' => 'system.force_lowercase_urls',
                 'custom_base_url' => 'system.custom_base_url'
             ],
             'plugins' => [
@@ -3557,10 +3666,16 @@ return [
                     'general' => 'plugins.form.general',
                     'built_in_css' => 'plugins.form.built_in_css',
                     'refresh_prevention' => 'plugins.form.refresh_prevention',
+                    'client_side_validation' => 'plugins.form.client_side_validation',
+                    'inline_errors' => 'plugins.form.inline_errors',
                     'files' => [
                         'multiple' => 'plugins.form.files.multiple',
+                        'limit' => 'plugins.form.files.limit',
                         'destination' => 'plugins.form.files.destination',
-                        'accept' => 'plugins.form.files.accept'
+                        'accept' => 'plugins.form.files.accept',
+                        'filesize' => 'plugins.form.files.filesize',
+                        'avoid_overwriting' => 'plugins.form.files.avoid_overwriting',
+                        'random_name' => 'plugins.form.files.random_name'
                     ],
                     'recaptcha' => [
                         'site_key' => 'plugins.form.recaptcha.site_key',
@@ -3583,11 +3698,12 @@ return [
                     ],
                     'theme' => 'plugins.admin.theme',
                     'edit_mode' => 'plugins.admin.edit_mode',
-                    'frontend_pages_target' => 'plugins.admin.frontend_pages_target',
                     'pages' => [
-                        'show_parents' => 'plugins.admin.pages.show_parents'
+                        'show_parents' => 'plugins.admin.pages.show_parents',
+                        'parents_levels' => 'plugins.admin.pages.parents_levels'
                     ],
                     'google_fonts' => 'plugins.admin.google_fonts',
+                    'admin_icons' => 'plugins.admin.admin_icons',
                     'show_beta_msg' => 'plugins.admin.show_beta_msg',
                     'show_github_msg' => 'plugins.admin.show_github_msg',
                     'pages_list_display_field' => 'plugins.admin.pages_list_display_field',
@@ -3654,6 +3770,7 @@ return [
                     'route_reset' => 'plugins.login.route_reset',
                     'route_profile' => 'plugins.login.route_profile',
                     'parent_acl' => 'plugins.login.parent_acl',
+                    'dynamic_page_visibility' => 'plugins.login.dynamic_page_visibility',
                     'protect_protected_page_media' => 'plugins.login.protect_protected_page_media',
                     'routes' => 'plugins.login.routes',
                     'route_activate' => 'plugins.login.route_activate',

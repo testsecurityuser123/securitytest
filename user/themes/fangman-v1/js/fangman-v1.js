@@ -209,7 +209,7 @@ Project Requirements Slider - Slick Slider
       slidesPerRow: 1,
       slidesToScroll: 1,
       infinite: false,
-      autoplay: true,
+      autoplay: false,
       autoplaySpeed: 5000,
       responsive: [
         {

@@ -101,10 +101,10 @@ Module: Project Desktop Slider
 					z-index: 5;
 					pointer-events: none;
 					display: block;
-					top: -16.5%;
+					top: -15.5%;
 					bottom: -55%;
-					left: -9%;
-					right: -9%;
+					left: -8.75%;
+					right: -8.75%;
 					width: auto;
 					height: auto;
 
@@ -112,6 +112,10 @@ Module: Project Desktop Slider
 					background-image: url('../images/desktop.png');
 					background-size: 100% auto;
 					background-repeat: no-repeat;
+				}
+
+				.slick-track {
+					top: 3px;
 				}
 				.project-ds-slide {
 					position: relative;
