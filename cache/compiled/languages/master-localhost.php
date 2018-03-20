@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledLanguages',
-    'timestamp' => 1521511241,
-    'checksum' => 'b996061e74b95f2ec4e62c01306c68e2',
+    'timestamp' => 1521511680,
+    'checksum' => '5c5b76ab6d0576fc277ddbdddb6218ac',
     'files' => [
         'system/languages' => [
             'ar' => [
@@ -119,8 +119,8 @@ return [
             ]
         ],
         'user/plugins' => [
-            'plugins/form' => [
-                'file' => 'user/plugins/form/languages.yaml',
+            'plugins/Form' => [
+                'file' => 'user/plugins/Form/languages.yaml',
                 'modified' => 1521408312
             ],
             'plugins/error' => [
@@ -22712,7 +22712,7 @@ Path: `%2$s`
                 6 => 'søndag'
             ]
         ],
-        'checksum' => 'b996061e74b95f2ec4e62c01306c68e2',
-        'timestamp' => 1521511241
+        'checksum' => '5c5b76ab6d0576fc277ddbdddb6218ac',
+        'timestamp' => 1521511680
     ]
 ];
