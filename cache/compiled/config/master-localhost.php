@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1521511241,
-    'checksum' => '5efa795bc1edc0a901fd88faabec004d',
+    'timestamp' => 1521511680,
+    'checksum' => '7dc43060862988345892523b9baaea5a',
     'files' => [
         'user/config' => [
             'media' => [
@@ -73,8 +73,8 @@ return [
                 'file' => 'user/plugins/ganalytics/ganalytics.yaml',
                 'modified' => 1483678668
             ],
-            'plugins/form' => [
-                'file' => 'user/plugins/form/form.yaml',
+            'plugins/Form' => [
+                'file' => 'user/plugins/Form/Form.yaml',
                 'modified' => 1521408312
             ],
             'plugins/admin' => [
@@ -127,7 +127,7 @@ return [
                 'debugStatus' => false,
                 'debugTrace' => false
             ],
-            'form' => [
+            'Form' => [
                 'enabled' => true,
                 'built_in_css' => true,
                 'refresh_prevention' => false,
