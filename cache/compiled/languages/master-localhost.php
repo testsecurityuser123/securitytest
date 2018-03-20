@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledLanguages',
-    'timestamp' => 1521408346,
-    'checksum' => '9cc7d5df4da2ec10faf67876c493e29f',
+    'timestamp' => 1521511241,
+    'checksum' => 'b996061e74b95f2ec4e62c01306c68e2',
     'files' => [
         'system/languages' => [
             'ar' => [
@@ -303,31 +303,31 @@ return [
         'user/plugins/login/languages' => [
             'de' => [
                 'file' => 'user/plugins/login/languages/de.yaml',
-                'modified' => 1521408331
+                'modified' => 1521511240
             ],
             'en' => [
                 'file' => 'user/plugins/login/languages/en.yaml',
-                'modified' => 1521408331
+                'modified' => 1521511240
             ],
             'fr' => [
                 'file' => 'user/plugins/login/languages/fr.yaml',
-                'modified' => 1521408331
+                'modified' => 1521511240
             ],
             'hr' => [
                 'file' => 'user/plugins/login/languages/hr.yaml',
-                'modified' => 1521408331
+                'modified' => 1521511240
             ],
             'hu' => [
                 'file' => 'user/plugins/login/languages/hu.yaml',
-                'modified' => 1521408331
+                'modified' => 1521511240
             ],
             'ro' => [
                 'file' => 'user/plugins/login/languages/ro.yaml',
-                'modified' => 1521408331
+                'modified' => 1521511240
             ],
             'ru' => [
                 'file' => 'user/plugins/login/languages/ru.yaml',
-                'modified' => 1521408331
+                'modified' => 1521511240
             ]
         ]
     ],
@@ -3993,11 +3993,12 @@ Path: `%2$s`
                 'ACCESS_DENIED' => 'Hozzáférés megtagadva...',
                 'LOGIN_FAILED' => 'Sikertelen belépés...',
                 'LOGIN_SUCCESSFUL' => 'Sikeresen beléptél.',
+                'LOGGED_OUT' => 'Sikeresen kiléptél.',
                 'BTN_LOGIN' => 'Belépés',
                 'BTN_LOGOUT' => 'Kilépés',
                 'BTN_FORGOT' => 'Elfelejtettem',
                 'BTN_REGISTER' => 'Regisztráció',
-                'REMEMBER_ME' => 'Jegyezz Meg',
+                'REMEMBER_ME' => 'Jegyezz meg',
                 'REMEMBER_ME_HELP' => 'Elhelyezünk egy hosszú lejáratú sütit a böngésződben, hogy belépve maradhass két munkamenet között.',
                 'REMEMBER_ME_STOLEN_COOKIE' => 'Valaki a belépési adataid felhasználásával látogatta meg ezt az oldalt! Minden munkamenetet kiléptettünk. Kérlek, jelentkezz be ismét és ellenőrizd az adataidat.',
                 'BUILTIN_CSS' => 'Beépített CSS használata',
@@ -22711,7 +22712,7 @@ Path: `%2$s`
                 6 => 'søndag'
             ]
         ],
-        'checksum' => '9cc7d5df4da2ec10faf67876c493e29f',
-        'timestamp' => 1521408346
+        'checksum' => 'b996061e74b95f2ec4e62c01306c68e2',
+        'timestamp' => 1521511241
     ]
 ];
