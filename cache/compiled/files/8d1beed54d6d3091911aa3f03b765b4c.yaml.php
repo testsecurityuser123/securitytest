@@ -2,10 +2,11 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav/user/plugins/form/form.yaml',
-    'modified' => 1521512124,
+    'modified' => 1576035339,
     'data' => [
         'enabled' => true,
         'built_in_css' => true,
+        'inline_css' => true,
         'refresh_prevention' => false,
         'client_side_validation' => true,
         'inline_errors' => false,
@@ -19,6 +20,12 @@ return [
             'accept' => [
                 0 => 'image/*'
             ]
+        ],
+        'recaptcha' => [
+            'version' => '2-checkbox',
+            'theme' => 'light',
+            'site_key' => NULL,
+            'secret_key' => NULL
         ]
     ]
 ];

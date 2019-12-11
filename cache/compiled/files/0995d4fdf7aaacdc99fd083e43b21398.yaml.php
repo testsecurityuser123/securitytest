@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav/system/blueprints/user/account.yaml',
-    'modified' => 1521399612,
+    'modified' => 1576035202,
     'data' => [
         'title' => 'Account',
         'form' => [
@@ -100,18 +100,20 @@ return [
                         'twofa_secret' => [
                             'type' => '2fa_secret',
                             'outerclasses' => 'twofa-secret',
+                            'markdown' => true,
                             'label' => 'PLUGIN_ADMIN.2FA_SECRET',
                             'sublabel' => 'PLUGIN_ADMIN.2FA_SECRET_HELP'
                         ]
                     ]
                 ],
                 'security' => [
+                    'security@' => 'admin.super',
                     'title' => 'PLUGIN_ADMIN.ACCESS_LEVELS',
                     'type' => 'section',
-                    'security' => 'admin.super',
                     'underline' => true,
                     'fields' => [
                         'groups' => [
+                            'security@' => 'admin.super',
                             'type' => 'select',
                             'multiple' => true,
                             'size' => 'large',
@@ -124,6 +126,7 @@ return [
                             ]
                         ],
                         'access' => [
+                            'security@' => 'admin.super',
                             'type' => 'permissions',
                             'label' => 'PLUGIN_ADMIN.PERMISSIONS',
                             'ignore_empty' => true,

@@ -2,10 +2,11 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav/user/plugins/admin/blueprints.yaml',
-    'modified' => 1521512114,
+    'modified' => 1576035330,
     'data' => [
         'name' => 'Admin Panel',
-        'version' => '1.7.1',
+        'version' => '1.9.12',
+        'testing' => false,
         'description' => 'Adds an advanced administration panel to manage your site',
         'icon' => 'empire',
         'author' => [
@@ -21,19 +22,19 @@ return [
         'dependencies' => [
             0 => [
                 'name' => 'grav',
-                'version' => '>=1.4.0'
+                'version' => '>=1.6.8'
             ],
             1 => [
                 'name' => 'form',
-                'version' => '>=2.11.0'
+                'version' => '>=3.0.0'
             ],
             2 => [
                 'name' => 'login',
-                'version' => '>=2.5.0'
+                'version' => '>=3.0.0'
             ],
             3 => [
                 'name' => 'email',
-                'version' => '~2.0'
+                'version' => '>=3.0.0'
             ]
         ],
         'form' => [
@@ -72,8 +73,8 @@ return [
                 ],
                 'twofa_enabled' => [
                     'type' => 'toggle',
-                    'label' => 'PLUGIN_ADMIN.2FA_TITLE',
-                    'help' => 'PLUGIN_ADMIN.2FA_ENABLED_HELP',
+                    'label' => 'PLUGIN_LOGIN.2FA_TITLE',
+                    'help' => 'PLUGIN_LOGIN.2FA_ENABLED_HELP',
                     'default' => 1,
                     'highlight' => 1,
                     'options' => [
@@ -166,6 +167,17 @@ return [
                     ],
                     'help' => 'Auto will use blueprint if available, if none found, it will use "Expert" mode.'
                 ],
+                'frontend_preview_target' => [
+                    'type' => 'select',
+                    'label' => 'Preview pages target',
+                    'size' => 'medium',
+                    'default' => 'inline',
+                    'options' => [
+                        'inline' => 'Inline in Admin',
+                        '_blank' => 'New tab',
+                        '_self' => 'Current tab'
+                    ]
+                ],
                 'pages.show_parents' => [
                     'type' => 'select',
                     'size' => 'medium',
@@ -183,6 +195,20 @@ return [
                     'size' => 'small',
                     'help' => 'The number of levels to show in parent select list'
                 ],
+                'pages.show_modular' => [
+                    'type' => 'toggle',
+                    'label' => 'Modular parents',
+                    'highlight' => 1,
+                    'default' => 1,
+                    'options' => [
+                        1 => 'PLUGIN_ADMIN.ENABLED',
+                        0 => 'PLUGIN_ADMIN.DISABLED'
+                    ],
+                    'validate' => [
+                        'type' => 'bool'
+                    ],
+                    'help' => 'Show modular pages in the parent select list'
+                ],
                 'google_fonts' => [
                     'type' => 'toggle',
                     'label' => 'Use Google Fonts',
@@ -196,16 +222,6 @@ return [
                         'type' => 'bool'
                     ],
                     'help' => 'Use Google custom fonts.  Disable this to use Helvetica. Useful when using Cyrillic and other languages with unsupported characters.'
-                ],
-                'admin_icons' => [
-                    'type' => 'select',
-                    'size' => 'medium',
-                    'label' => 'Icon Style',
-                    'default' => 'line-awesome',
-                    'options' => [
-                        'line-awesome' => 'Lighter Line Icons (LineAwesome)',
-                        'font-awesome' => 'Darker Solid Icons (FontAwesome)'
-                    ]
                 ],
                 'show_beta_msg' => [
                     'type' => 'hidden'
@@ -269,6 +285,20 @@ return [
                     ],
                     'help' => 'Ask the user confirmation when deleting a page'
                 ],
+                'warnings.secure_delete' => [
+                    'type' => 'toggle',
+                    'label' => 'Secure Delete',
+                    'highlight' => 1,
+                    'default' => 1,
+                    'options' => [
+                        1 => 'PLUGIN_ADMIN.ENABLED',
+                        0 => 'PLUGIN_ADMIN.DISABLED'
+                    ],
+                    'validate' => [
+                        'type' => 'bool'
+                    ],
+                    'help' => 'Shows the user a field to enter the word DELETE and enable the confirm delete button.'
+                ],
                 'hide_page_types' => [
                     'type' => 'array',
                     'label' => 'Hide page types in Admin',
@@ -278,6 +308,104 @@ return [
                     'type' => 'array',
                     'label' => 'Hide modular page types in Admin',
                     'value_only' => true
+                ],
+                'log_viewer_files' => [
+                    'type' => 'selectize',
+                    'size' => 'medium',
+                    'label' => 'PLUGIN_ADMIN.LOG_VIEWER_FILES',
+                    'help' => 'PLUGIN_ADMIN.LOG_VIEWER_FILES_HELP',
+                    'classes' => 'fancy',
+                    'validate' => [
+                        'type' => 'commalist'
+                    ]
+                ],
+                'MediaResize' => [
+                    'type' => 'section',
+                    'title' => 'Page Media Image Resizer',
+                    'underline' => true
+                ],
+                'MediaResizeNote' => [
+                    'type' => 'spacer',
+                    'text' => 'PLUGIN_ADMIN.PAGEMEDIA_RESIZER',
+                    'markdown' => true
+                ],
+                'pagemedia.resize_width' => [
+                    'type' => 'number',
+                    'size' => 'x-small',
+                    'append' => 'pixels',
+                    'label' => 'Resize Width',
+                    'default' => 0,
+                    'validate' => [
+                        'type' => 'number'
+                    ],
+                    'help' => 'Resize wide images down to the set value'
+                ],
+                'pagemedia.resize_height' => [
+                    'type' => 'number',
+                    'size' => 'x-small',
+                    'append' => 'pixels',
+                    'label' => 'Resize Height',
+                    'default' => 0,
+                    'validate' => [
+                        'type' => 'number'
+                    ],
+                    'help' => 'Resize tall images down to the set value'
+                ],
+                'pagemedia.res_min_width' => [
+                    'type' => 'number',
+                    'size' => 'x-small',
+                    'append' => 'pixels',
+                    'label' => 'Resolution Min Width',
+                    'default' => 0,
+                    'validate' => [
+                        'type' => 'number'
+                    ],
+                    'help' => 'The minimum width allowed for an image to be added'
+                ],
+                'pagemedia.res_min_height' => [
+                    'type' => 'number',
+                    'size' => 'x-small',
+                    'append' => 'pixels',
+                    'label' => 'Resolution Min Height',
+                    'default' => 0,
+                    'validate' => [
+                        'type' => 'number'
+                    ],
+                    'help' => 'The minimum height allowed for an image to be added'
+                ],
+                'pagemedia.res_max_width' => [
+                    'type' => 'number',
+                    'size' => 'x-small',
+                    'append' => 'pixels',
+                    'label' => 'Resolution Max Width',
+                    'default' => 0,
+                    'validate' => [
+                        'type' => 'number'
+                    ],
+                    'help' => 'The maximum width allowed for an image to be added'
+                ],
+                'pagemedia.res_max_height' => [
+                    'type' => 'number',
+                    'size' => 'x-small',
+                    'append' => 'pixels',
+                    'label' => 'Resolution Max Height',
+                    'default' => 0,
+                    'validate' => [
+                        'type' => 'number'
+                    ],
+                    'help' => 'The maximum height allowed for an image to be added'
+                ],
+                'pagemedia.resize_quality' => [
+                    'type' => 'number',
+                    'size' => 'x-small',
+                    'append' => '0...1',
+                    'label' => 'Resize Quality',
+                    'default' => 0.8,
+                    'validate' => [
+                        'type' => 'number',
+                        'step' => 0.01
+                    ],
+                    'help' => 'The quality to use when resizing an image. Between 0 and 1 value.'
                 ],
                 'Dashboard' => [
                     'type' => 'section',

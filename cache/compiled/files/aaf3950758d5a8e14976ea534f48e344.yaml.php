@@ -2,12 +2,13 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav/user/plugins/error/languages.yaml',
-    'modified' => 1521399626,
+    'modified' => 1576035327,
     'data' => [
         'en' => [
             'PLUGIN_ERROR' => [
                 'ERROR' => 'Error',
-                'ERROR_MESSAGE' => 'Woops. Looks like this page doesn\'t exist.'
+                'ERROR_MESSAGE' => 'Woops. Looks like this page doesn\'t exist.',
+                'ROUTE_404' => '404 Route'
             ]
         ],
         'de' => [
@@ -43,7 +44,15 @@ return [
         'ru' => [
             'PLUGIN_ERROR' => [
                 'ERROR' => 'Ошибка',
-                'ERROR_MESSAGE' => 'Упс. Похоже, этой страницы не существует.'
+                'ERROR_MESSAGE' => 'Упс. Похоже, этой страницы не существует.',
+                'ROUTE_404' => 'Маршрут 404'
+            ]
+        ],
+        'uk' => [
+            'PLUGIN_ERROR' => [
+                'ERROR' => 'Помилка',
+                'ERROR_MESSAGE' => 'Упс. Схоже, цієї сторінки не існує.',
+                'ROUTE_404' => 'Маршрут 404'
             ]
         ],
         'da' => [

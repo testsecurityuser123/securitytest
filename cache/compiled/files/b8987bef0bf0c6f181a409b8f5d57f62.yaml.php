@@ -2,11 +2,11 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav/system/config/streams.yaml',
-    'modified' => 1521399612,
+    'modified' => 1576035202,
     'data' => [
         'schemes' => [
             'image' => [
-                'type' => 'ReadOnlyStream',
+                'type' => 'Stream',
                 'paths' => [
                     0 => 'user://images',
                     1 => 'system://images'
