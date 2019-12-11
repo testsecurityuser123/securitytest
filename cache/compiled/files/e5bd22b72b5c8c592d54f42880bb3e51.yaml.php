@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav/system/config/media.yaml',
-    'modified' => 1521399612,
+    'modified' => 1576035202,
     'data' => [
         'types' => [
             'defaults' => [
@@ -73,7 +73,7 @@ return [
                 'mime' => 'video/x-flv'
             ],
             'webm' => [
-                'type' => 'file',
+                'type' => 'video',
                 'thumb' => 'media/thumb-webm.png',
                 'mime' => 'video/webm'
             ],

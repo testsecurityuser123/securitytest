@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/portfolio-grav/user/plugins/admin/admin.yaml',
-    'modified' => 1521512114,
+    'modified' => 1576035330,
     'data' => [
         'enabled' => true,
         'route' => '/admin',
@@ -12,6 +12,10 @@ return [
         'body_classes' => '',
         'content_padding' => true,
         'twofa_enabled' => true,
+        'log_viewer_files' => [
+            0 => 'grav',
+            1 => 'email'
+        ],
         'sidebar' => [
             'activate' => 'tab',
             'hover_delay' => 100,
@@ -28,15 +32,18 @@ return [
             'dashboard-pages' => true
         ],
         'pages' => [
-            'show_parents' => 'both'
+            'show_parents' => 'both',
+            'show_modular' => true
         ],
         'session' => [
             'timeout' => 1800
         ],
         'warnings' => [
-            'delete_page' => true
+            'delete_page' => true,
+            'secure_delete' => false
         ],
         'edit_mode' => 'normal',
+        'frontend_preview_target' => 'inline',
         'show_github_msg' => true,
         'pages_list_display_field' => 'title',
         'google_fonts' => false,
