@@ -1,4 +1,20 @@
 
+$(function() {
+from DataFlow::PathNode source, DataFlow::PathNode sink, UnsafeDeserializationConfig conf
+
+        where conf.hasFlowPath(source, sink)
+
+        select sink.getNode().(UnsafeDeserializationSink).getMethodAccess(), source, sink,
+    "Unsafe deserialization of $@.", source.getNode(), "user input"
+
+ Statement stmt = conn.createStatement();
+ ResultSet rs = stmt.executeQuery("select * from emp where id="+eid);
+ if (rs != null) {
+  rs.next();
+  String name = rs.getString("name");
+});
+
+
 /* =========================================================
 
 Page Loader
